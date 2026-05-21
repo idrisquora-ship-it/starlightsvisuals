@@ -1,21 +1,25 @@
 import { Link } from "@tanstack/react-router";
-import { Flame } from "lucide-react";
+import { Sparkles } from "lucide-react";
 
 const nav = [
   { to: "/", label: "Home" },
-  { to: "/menu", label: "Menu" },
-  { to: "/about", label: "Our Story" },
-  { to: "/find-us", label: "Find Us" },
+  { to: "/about", label: "About" },
+  { to: "/services", label: "Services" },
+  { to: "/portfolio", label: "Portfolio" },
+  { to: "/contact", label: "Contact" },
 ];
 
 export function SiteHeader() {
   return (
-    <header className="sticky top-0 z-50 border-b border-border/60 bg-background/80 backdrop-blur-md">
+    <header className="sticky top-0 z-50 border-b border-border/40 bg-background/70 backdrop-blur-xl">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
         <Link to="/" className="flex items-center gap-2 group">
-          <Flame className="h-6 w-6 text-copper transition-transform group-hover:rotate-12" />
-          <span className="font-display text-2xl tracking-wider">
-            Ember <span className="text-copper">&</span> Oak
+          <div className="relative">
+            <Sparkles className="h-6 w-6 text-neon-blue transition-transform group-hover:rotate-12" />
+            <div className="absolute inset-0 blur-md bg-neon-blue/50" />
+          </div>
+          <span className="font-display text-lg font-bold tracking-widest">
+            STAR<span className="neon-text">LIGHTS</span>
           </span>
         </Link>
         <nav className="hidden gap-8 md:flex">
@@ -23,8 +27,8 @@ export function SiteHeader() {
             <Link
               key={n.to}
               to={n.to}
-              className="font-display text-sm tracking-widest text-muted-foreground transition-colors hover:text-copper"
-              activeProps={{ className: "text-copper" }}
+              className="font-display text-xs uppercase tracking-widest text-muted-foreground transition-colors hover:text-neon-blue"
+              activeProps={{ className: "text-neon-blue text-glow" }}
               activeOptions={{ exact: true }}
             >
               {n.label}
@@ -32,10 +36,10 @@ export function SiteHeader() {
           ))}
         </nav>
         <Link
-          to="/find-us"
-          className="hidden md:inline-flex items-center rounded-sm border border-copper bg-copper/10 px-4 py-2 font-display text-sm tracking-widest text-copper transition hover:bg-copper hover:text-charcoal"
+          to="/contact"
+          className="hidden md:inline-flex items-center rounded-md border border-neon-blue/60 bg-neon-blue/10 px-4 py-2 font-display text-xs uppercase tracking-widest text-neon-blue transition hover:bg-neon-blue hover:text-background hover:glow-blue"
         >
-          Order Now
+          Hire Us
         </Link>
       </div>
     </header>
