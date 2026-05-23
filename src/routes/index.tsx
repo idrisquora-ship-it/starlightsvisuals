@@ -234,6 +234,99 @@ function Home() {
         </div>
       </section>
 
+      {/* TRUSTED BY */}
+      <section className="border-b border-border/40 bg-background py-16">
+        <div className="mx-auto max-w-7xl px-6 md:px-14">
+          <p className="text-center font-script text-2xl text-neon-green">Trusted by</p>
+          <h2 className="mt-2 text-center font-display text-3xl tracking-tight md:text-5xl">
+            STUDIOS &amp; BRANDS WE&apos;VE WORKED WITH
+          </h2>
+          <div className="mt-12 overflow-hidden">
+            <div className="flex flex-wrap items-center justify-center gap-x-12 gap-y-6 md:gap-x-16">
+              {trustedBy.map((name) => (
+                <span
+                  key={name}
+                  className="font-display text-xl tracking-[0.25em] text-muted-foreground/70 transition hover:text-neon-green md:text-2xl"
+                >
+                  {name}
+                </span>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* TESTIMONIALS */}
+      <section className="border-b border-border/40">
+        <div className="mx-auto max-w-7xl px-6 py-24 md:px-14">
+          <div className="mb-14 text-center">
+            <p className="font-script text-2xl text-neon-green">Client love</p>
+            <h2 className="mt-2 font-display text-4xl tracking-tight md:text-6xl">
+              THEY TRUSTED OUR WORK <span className="text-outline-green">&amp; GOT RESULTS</span>
+            </h2>
+          </div>
+
+          <div className="grid gap-6 md:grid-cols-3">
+            {testimonials.map((t) => (
+              <figure
+                key={t.name}
+                className="flex flex-col justify-between border border-border bg-card p-8 transition hover:border-neon-green"
+              >
+                <blockquote className="font-display text-lg leading-relaxed text-foreground">
+                  &ldquo;{t.quote}&rdquo;
+                </blockquote>
+                <div className="mt-8">
+                  <p className="font-display text-xs uppercase tracking-widest text-neon-green">
+                    {t.result}
+                  </p>
+                  <figcaption className="mt-3">
+                    <p className="font-display text-base tracking-tight">{t.name}</p>
+                    <p className="text-xs text-muted-foreground">{t.role}</p>
+                  </figcaption>
+                </div>
+              </figure>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* VIDEO TESTIMONIALS */}
+      <section className="border-b border-border/40 bg-card/30">
+        <div className="mx-auto max-w-7xl px-6 py-24 md:px-14">
+          <div className="mb-14 text-center">
+            <p className="font-script text-2xl text-neon-green">In their own words</p>
+            <h2 className="mt-2 font-display text-4xl tracking-tight md:text-6xl">
+              VIDEO TESTIMONIALS
+            </h2>
+          </div>
+
+          <div className="grid gap-6 md:grid-cols-3">
+            {videoTestimonials.map((v) => (
+              <article
+                key={v.name}
+                className="group overflow-hidden border border-border bg-background transition hover:border-neon-green"
+              >
+                <div className="aspect-video overflow-hidden bg-black">
+                  <video
+                    src={v.video}
+                    poster={v.poster}
+                    controls
+                    preload="metadata"
+                    playsInline
+                    className="h-full w-full object-cover"
+                  />
+                </div>
+                <div className="p-6">
+                  <p className="font-display text-base leading-snug">&ldquo;{v.quote}&rdquo;</p>
+                  <p className="mt-4 font-display text-sm tracking-tight">{v.name}</p>
+                  <p className="text-xs text-muted-foreground">{v.role}</p>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="relative isolate overflow-hidden border-b border-border/40">
         <div className="absolute inset-0 -z-10 grid-bg" />
