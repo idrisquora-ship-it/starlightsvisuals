@@ -63,7 +63,8 @@ export function SiteFooter() {
             href="mailto:sternlichtespeciale@gmail.com"
             className="mt-4 inline-flex items-center gap-2 text-sm text-neon-blue hover:text-glow"
           >
-            <Mail className="h-4 w-4" /> sternlichtespeciale@gmail.com
+            <Mail className="h-4 w-4" />
+            <span>sternlichtespeciale@gmail.com</span>
           </a>
         </div>
 
