@@ -97,7 +97,9 @@ function RootComponent() {
   const { queryClient } = Route.useRouteContext();
   return (
     <QueryClientProvider client={queryClient}>
-      <Outlet />
+      <div className="md:pl-[200px]">
+        <Outlet />
+      </div>
     </QueryClientProvider>
   );
 }
