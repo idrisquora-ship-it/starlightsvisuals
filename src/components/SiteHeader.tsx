@@ -18,10 +18,10 @@ export function SiteHeader() {
       <header className="fixed left-0 top-0 z-40 hidden h-screen w-[200px] flex-col justify-between border-r border-border/40 bg-background/80 px-8 py-8 backdrop-blur md:flex">
         <Link to="/" className="block">
           <div className="font-display text-2xl leading-none tracking-tight">
-            STAR<span className="neon-text">8</span>
+            STAR<span className="neon-text">LIGHTS</span>
           </div>
-          <div className="mt-1 text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
-            Starlights / Visuals
+          <div className="font-display text-2xl leading-none tracking-tight text-muted-foreground">
+            VISUALS
           </div>
         </Link>
 
@@ -57,7 +57,7 @@ export function SiteHeader() {
       {/* Mobile top bar */}
       <header className="sticky top-0 z-40 flex items-center justify-between border-b border-border/40 bg-background/80 px-5 py-4 backdrop-blur md:hidden">
         <Link to="/" className="font-display text-lg tracking-tight">
-          STAR<span className="neon-text">8</span>
+          STAR<span className="neon-text">LIGHTS</span> VISUALS
         </Link>
         <button
           onClick={() => setOpen(!open)}
