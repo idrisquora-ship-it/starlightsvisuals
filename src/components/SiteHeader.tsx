@@ -1,47 +1,86 @@
 import { Link } from "@tanstack/react-router";
-import { Sparkles } from "lucide-react";
+import { useState } from "react";
+import { Menu, X } from "lucide-react";
 
 const nav = [
-  { to: "/", label: "Home" },
-  { to: "/about", label: "About" },
-  { to: "/services", label: "Services" },
   { to: "/portfolio", label: "Portfolio" },
-  { to: "/contact", label: "Contact" },
+  { to: "/services", label: "Services" },
+  { to: "/about", label: "Company" },
+  { to: "/contact", label: "Contacts" },
 ];
 
 export function SiteHeader() {
+  const [open, setOpen] = useState(false);
+
   return (
-    <header className="sticky top-0 z-50 border-b border-border/40 bg-background/70 backdrop-blur-xl">
-      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
-        <Link to="/" className="flex items-center gap-2 group">
-          <div className="relative">
-            <Sparkles className="h-6 w-6 text-neon-blue transition-transform group-hover:rotate-12" />
-            <div className="absolute inset-0 blur-md bg-neon-blue/50" />
+    <>
+      {/* Desktop fixed sidebar */}
+      <header className="fixed left-0 top-0 z-40 hidden h-screen w-[200px] flex-col justify-between border-r border-border/40 bg-background/80 px-8 py-8 backdrop-blur md:flex">
+        <Link to="/" className="block">
+          <div className="font-display text-2xl leading-none tracking-tight">
+            STAR<span className="neon-text">8</span>
           </div>
-          <span className="font-display text-lg font-bold tracking-widest">
-            STAR<span className="neon-text">LIGHTS</span>
-          </span>
+          <div className="mt-1 text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
+            Starlights / Visuals
+          </div>
         </Link>
-        <nav className="hidden gap-8 md:flex">
+
+        <nav className="flex flex-col gap-3">
           {nav.map((n) => (
             <Link
               key={n.to}
               to={n.to}
-              className="font-display text-xs uppercase tracking-widest text-muted-foreground transition-colors hover:text-neon-blue"
-              activeProps={{ className: "text-neon-blue text-glow" }}
-              activeOptions={{ exact: true }}
+              className="group relative font-display text-sm uppercase tracking-widest text-foreground/80 transition hover:text-foreground"
+              activeProps={{ className: "text-foreground" }}
+            >
+              <span className="relative inline-block">
+                {n.label}
+                <span className="absolute -bottom-1 left-0 h-[2px] w-0 bg-neon-green transition-all duration-300 group-hover:w-full" />
+              </span>
+            </Link>
+          ))}
+        </nav>
+
+        <div className="text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
+          © {new Date().getFullYear()}
+        </div>
+      </header>
+
+      {/* Right vertical "Portfolio" tab */}
+      <Link
+        to="/portfolio"
+        className="fixed right-6 top-10 z-40 hidden font-script text-2xl text-neon-green hover:text-glow md:block"
+      >
+        Portfolio →
+      </Link>
+
+      {/* Mobile top bar */}
+      <header className="sticky top-0 z-40 flex items-center justify-between border-b border-border/40 bg-background/80 px-5 py-4 backdrop-blur md:hidden">
+        <Link to="/" className="font-display text-lg tracking-tight">
+          STAR<span className="neon-text">8</span>
+        </Link>
+        <button
+          onClick={() => setOpen(!open)}
+          aria-label="Toggle menu"
+          className="rounded border border-border p-2 text-foreground"
+        >
+          {open ? <X className="h-4 w-4" /> : <Menu className="h-4 w-4" />}
+        </button>
+      </header>
+      {open && (
+        <div className="fixed inset-0 top-[57px] z-30 flex flex-col gap-6 bg-background px-8 pt-12 md:hidden">
+          {nav.map((n) => (
+            <Link
+              key={n.to}
+              to={n.to}
+              onClick={() => setOpen(false)}
+              className="font-display text-3xl tracking-tight"
             >
               {n.label}
             </Link>
           ))}
-        </nav>
-        <Link
-          to="/contact"
-          className="hidden md:inline-flex items-center rounded-md border border-neon-blue/60 bg-neon-blue/10 px-4 py-2 font-display text-xs uppercase tracking-widest text-neon-blue transition hover:bg-neon-blue hover:text-background hover:glow-blue"
-        >
-          Hire Us
-        </Link>
-      </div>
-    </header>
+        </div>
+      )}
+    </>
   );
 }
