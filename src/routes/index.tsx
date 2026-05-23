@@ -9,6 +9,43 @@ import portfolio2d from "@/assets/portfolio-2d.jpg";
 import portfolioTrailer from "@/assets/portfolio-trailer.jpg";
 import portfolioCreature from "@/assets/portfolio-creature.jpg";
 import portfolioMotion from "@/assets/portfolio-motion.jpg";
+import trailerVid from "@/assets/portfolio-trailer.mp4";
+import characterVid from "@/assets/portfolio-character.mp4";
+import creatureVid from "@/assets/portfolio-creature.mp4";
+
+const trustedBy = [
+  "UBISOFT", "RIOT GAMES", "EA SPORTS", "BANDAI", "SEGA", "EPIC GAMES", "NETFLIX", "WARNER BROS",
+];
+
+const testimonials = [
+  {
+    quote:
+      "Starlights Visuals transformed our cinematic trailer into something players couldn't stop talking about. Pre-orders jumped 40% the week it dropped.",
+    name: "Marcus Chen",
+    role: "Creative Director, Apex Studios",
+    result: "+40% pre-orders",
+  },
+  {
+    quote:
+      "Their character animation work elevated our entire IP. The level of polish and storytelling in every frame is unmatched in the industry.",
+    name: "Sophia Reyes",
+    role: "Executive Producer, Nova Games",
+    result: "8M+ views",
+  },
+  {
+    quote:
+      "We shipped on time, on budget, and with VFX that punched way above our weight class. The team is now part of every roadmap we build.",
+    name: "Daniel Okafor",
+    role: "Head of Production, Iron Forge",
+    result: "Game of the Year nominee",
+  },
+];
+
+const videoTestimonials = [
+  { video: trailerVid, poster: portfolioTrailer, name: "Alex Morgan", role: "CEO, Lumen Worlds", quote: "They made our launch unforgettable." },
+  { video: characterVid, poster: portfolioCharacter, name: "Priya Shah", role: "Art Director, Nova Vanguard", quote: "Best animation partner we've worked with." },
+  { video: creatureVid, poster: portfolioCreature, name: "Jonas Weber", role: "Founder, Abyss Studios", quote: "From concept to cinematic in record time." },
+];
 
 export const Route = createFileRoute("/")({
   head: () => ({
