@@ -1,6 +1,9 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
+import { TextTestimonialsSection } from "@/components/TextTestimonialsSection";
+import { TrustedBySection } from "@/components/TrustedBySection";
+import { VideoTestimonialsSection } from "@/components/VideoTestimonialsSection";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 import heroImg from "@/assets/hero-cosmic.jpg";
 import portfolioCharacter from "@/assets/portfolio-character.jpg";
@@ -9,43 +12,6 @@ import portfolio2d from "@/assets/portfolio-2d.jpg";
 import portfolioTrailer from "@/assets/portfolio-trailer.jpg";
 import portfolioCreature from "@/assets/portfolio-creature.jpg";
 import portfolioMotion from "@/assets/portfolio-motion.jpg";
-import trailerVid from "@/assets/portfolio-trailer.mp4";
-import characterVid from "@/assets/portfolio-character.mp4";
-import creatureVid from "@/assets/portfolio-creature.mp4";
-
-const trustedBy = [
-  "UBISOFT", "RIOT GAMES", "EA SPORTS", "BANDAI", "SEGA", "EPIC GAMES", "NETFLIX", "WARNER BROS",
-];
-
-const testimonials = [
-  {
-    quote:
-      "Starlights Visuals transformed our cinematic trailer into something players couldn't stop talking about. Pre-orders jumped 40% the week it dropped.",
-    name: "Marcus Chen",
-    role: "Creative Director, Apex Studios",
-    result: "+40% pre-orders",
-  },
-  {
-    quote:
-      "Their character animation work elevated our entire IP. The level of polish and storytelling in every frame is unmatched in the industry.",
-    name: "Sophia Reyes",
-    role: "Executive Producer, Nova Games",
-    result: "8M+ views",
-  },
-  {
-    quote:
-      "We shipped on time, on budget, and with VFX that punched way above our weight class. The team is now part of every roadmap we build.",
-    name: "Daniel Okafor",
-    role: "Head of Production, Iron Forge",
-    result: "Game of the Year nominee",
-  },
-];
-
-const videoTestimonials = [
-  { video: trailerVid, poster: portfolioTrailer, name: "Alex Morgan", role: "CEO, Lumen Worlds", quote: "They made our launch unforgettable." },
-  { video: characterVid, poster: portfolioCharacter, name: "Priya Shah", role: "Art Director, Nova Vanguard", quote: "Best animation partner we've worked with." },
-  { video: creatureVid, poster: portfolioCreature, name: "Jonas Weber", role: "Founder, Abyss Studios", quote: "From concept to cinematic in record time." },
-];
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -80,10 +46,9 @@ function Home() {
     <div className="min-h-screen bg-background text-foreground">
       <SiteHeader />
 
-      {/* HERO */}
+      {/* 1. HERO */}
       <section className="relative isolate overflow-hidden border-b border-border/40">
         <div className="grid min-h-[88vh] grid-cols-1 lg:grid-cols-[1.1fr_1fr]">
-          {/* Left — typography */}
           <div className="relative flex flex-col justify-center px-6 pt-16 pb-12 md:px-14 md:pt-24">
             <p className="font-script text-3xl text-neon-green">Bringing worlds to life —</p>
 
@@ -92,7 +57,6 @@ function Home() {
               <span className="block text-outline">&amp; VFX</span>
             </h1>
 
-            {/* hand-drawn squiggle */}
             <svg
               viewBox="0 0 600 80"
               className="draw-squiggle mt-6 h-12 w-72 text-neon-green"
@@ -127,7 +91,6 @@ function Home() {
             </div>
           </div>
 
-          {/* Right — image */}
           <div className="relative">
             <img
               src={heroImg}
@@ -141,22 +104,10 @@ function Home() {
         </div>
       </section>
 
-      {/* MARQUEE STRIP */}
-      <section className="overflow-hidden border-b border-border/40 bg-background py-6">
-        <div className="flex animate-pulse-glow items-center justify-center gap-10 px-6 text-xs uppercase tracking-[0.4em] text-muted-foreground md:gap-16">
-          <span>Unreal Engine</span>
-          <span className="text-neon-green">✦</span>
-          <span>Unity</span>
-          <span className="text-neon-green">✦</span>
-          <span>Maya</span>
-          <span className="text-neon-green">✦</span>
-          <span>Blender</span>
-          <span className="text-neon-green">✦</span>
-          <span>Houdini</span>
-        </div>
-      </section>
+      {/* 2. TRUSTED BY */}
+      <TrustedBySection />
 
-      {/* SERVICES — editorial list */}
+      {/* 3. SERVICES */}
       <section className="border-b border-border/40">
         <div className="mx-auto max-w-7xl px-6 py-24 md:px-14">
           <div className="mb-16 flex items-end justify-between gap-6 flex-wrap">
@@ -190,7 +141,7 @@ function Home() {
         </div>
       </section>
 
-      {/* SHOWCASE */}
+      {/* 4. PORTFOLIO / SHOWCASE */}
       <section className="border-b border-border/40">
         <div className="mx-auto max-w-7xl px-6 py-24 md:px-14">
           <div className="mb-12 flex items-end justify-between gap-4 flex-wrap">
@@ -234,100 +185,13 @@ function Home() {
         </div>
       </section>
 
-      {/* TRUSTED BY */}
-      <section className="border-b border-border/40 bg-background py-16">
-        <div className="mx-auto max-w-7xl px-6 md:px-14">
-          <p className="text-center font-script text-2xl text-neon-green">Trusted by</p>
-          <h2 className="mt-2 text-center font-display text-3xl tracking-tight md:text-5xl">
-            STUDIOS &amp; BRANDS WE&apos;VE WORKED WITH
-          </h2>
-          <div className="mt-12 overflow-hidden">
-            <div className="flex flex-wrap items-center justify-center gap-x-12 gap-y-6 md:gap-x-16">
-              {trustedBy.map((name) => (
-                <span
-                  key={name}
-                  className="font-display text-xl tracking-[0.25em] text-muted-foreground/70 transition hover:text-neon-green md:text-2xl"
-                >
-                  {name}
-                </span>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* 5. TEXT TESTIMONIALS */}
+      <TextTestimonialsSection />
 
-      {/* TESTIMONIALS */}
-      <section className="border-b border-border/40">
-        <div className="mx-auto max-w-7xl px-6 py-24 md:px-14">
-          <div className="mb-14 text-center">
-            <p className="font-script text-2xl text-neon-green">Client love</p>
-            <h2 className="mt-2 font-display text-4xl tracking-tight md:text-6xl">
-              THEY TRUSTED OUR WORK <span className="text-outline-green">&amp; GOT RESULTS</span>
-            </h2>
-          </div>
+      {/* 6. VIDEO TESTIMONIALS */}
+      <VideoTestimonialsSection />
 
-          <div className="grid gap-6 md:grid-cols-3">
-            {testimonials.map((t) => (
-              <figure
-                key={t.name}
-                className="flex flex-col justify-between border border-border bg-card p-8 transition hover:border-neon-green"
-              >
-                <blockquote className="font-display text-lg leading-relaxed text-foreground">
-                  &ldquo;{t.quote}&rdquo;
-                </blockquote>
-                <div className="mt-8">
-                  <p className="font-display text-xs uppercase tracking-widest text-neon-green">
-                    {t.result}
-                  </p>
-                  <figcaption className="mt-3">
-                    <p className="font-display text-base tracking-tight">{t.name}</p>
-                    <p className="text-xs text-muted-foreground">{t.role}</p>
-                  </figcaption>
-                </div>
-              </figure>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* VIDEO TESTIMONIALS */}
-      <section className="border-b border-border/40 bg-card/30">
-        <div className="mx-auto max-w-7xl px-6 py-24 md:px-14">
-          <div className="mb-14 text-center">
-            <p className="font-script text-2xl text-neon-green">In their own words</p>
-            <h2 className="mt-2 font-display text-4xl tracking-tight md:text-6xl">
-              VIDEO TESTIMONIALS
-            </h2>
-          </div>
-
-          <div className="grid gap-6 md:grid-cols-3">
-            {videoTestimonials.map((v) => (
-              <article
-                key={v.name}
-                className="group overflow-hidden border border-border bg-background transition hover:border-neon-green"
-              >
-                <div className="aspect-video overflow-hidden bg-black">
-                  <video
-                    src={v.video}
-                    poster={v.poster}
-                    controls
-                    preload="metadata"
-                    playsInline
-                    className="h-full w-full object-cover"
-                  />
-                </div>
-                <div className="p-6">
-                  <p className="font-display text-base leading-snug">&ldquo;{v.quote}&rdquo;</p>
-                  <p className="mt-4 font-display text-sm tracking-tight">{v.name}</p>
-                  <p className="text-xs text-muted-foreground">{v.role}</p>
-                </div>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* CTA */}
+      {/* 7. FINAL CTA */}
       <section className="relative isolate overflow-hidden border-b border-border/40">
         <div className="absolute inset-0 -z-10 grid-bg" />
         <div className="mx-auto max-w-5xl px-6 py-28 text-center md:py-40">
@@ -345,6 +209,7 @@ function Home() {
         </div>
       </section>
 
+      {/* 8. FOOTER */}
       <SiteFooter />
     </div>
   );

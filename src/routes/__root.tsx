@@ -8,6 +8,8 @@ import {
   Scripts,
 } from "@tanstack/react-router";
 
+import { SidebarProvider, useSidebar } from "@/contexts/sidebar-context";
+import { cn } from "@/lib/utils";
 import appCss from "../styles.css?url";
 
 function NotFoundComponent() {
@@ -93,13 +95,27 @@ function RootShell({ children }: { children: React.ReactNode }) {
   );
 }
 
+function MainContent() {
+  const { desktopOpen } = useSidebar();
+  return (
+    <div
+      className={cn(
+        "transition-[padding-left] duration-300 ease-out",
+        desktopOpen ? "md:pl-[200px]" : "md:pl-0",
+      )}
+    >
+      <Outlet />
+    </div>
+  );
+}
+
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();
   return (
     <QueryClientProvider client={queryClient}>
-      <div className="md:pl-[200px]">
-        <Outlet />
-      </div>
+      <SidebarProvider>
+        <MainContent />
+      </SidebarProvider>
     </QueryClientProvider>
   );
 }
