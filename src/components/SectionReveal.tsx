@@ -16,7 +16,7 @@ export function SectionReveal({
   delay = 0,
   as = "div",
 }: SectionRevealProps) {
-  const ref = useRef<HTMLElement>(null);
+  const ref = useRef<HTMLDivElement>(null);
   const isInView = useInView(ref, { once: true, margin: "-10% 0px" });
   const Component = motion[as];
 
