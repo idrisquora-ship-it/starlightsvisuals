@@ -10,11 +10,15 @@ import {
 import portfolioCharacter from "@/assets/portfolio-character.jpg";
 import portfolioCreature from "@/assets/portfolio-creature.jpg";
 import portfolioGame from "@/assets/portfolio-game.jpg";
+import portfolioMotion from "@/assets/portfolio-motion.jpg";
 import portfolioTrailer from "@/assets/portfolio-trailer.jpg";
+import portfolio2d from "@/assets/portfolio-2d.jpg";
 import trailerVid from "@/assets/portfolio-trailer.mp4.asset.json";
 import characterVid from "@/assets/portfolio-character.mp4.asset.json";
 import creatureVid from "@/assets/portfolio-creature.mp4.asset.json";
 import gameVid from "@/assets/portfolio-game.mp4.asset.json";
+import motionVid from "@/assets/portfolio-motion.mp4.asset.json";
+import twoDVid from "@/assets/portfolio-2d.mp4.asset.json";
 
 const videoTestimonials: VideoTestimonial[] = [
   {
@@ -23,8 +27,10 @@ const videoTestimonials: VideoTestimonial[] = [
     poster: portfolioTrailer,
     name: "Alex Morgan",
     company: "Lumen Worlds",
-    quote: "They turned our launch into a cinematic moment our audience couldn't ignore.",
-    duration: "1:24",
+    role: "CEO",
+    initials: "AM",
+    duration: "2:20",
+    progress: 0.38,
   },
   {
     id: "character",
@@ -32,8 +38,10 @@ const videoTestimonials: VideoTestimonial[] = [
     poster: portfolioCharacter,
     name: "Priya Shah",
     company: "Nova Vanguard",
-    quote: "The craft, pacing, and polish felt like a feature film — not a vendor deliverable.",
-    duration: "0:58",
+    role: "Art Director",
+    initials: "PS",
+    duration: "1:45",
+    progress: 0.42,
   },
   {
     id: "creature",
@@ -41,8 +49,10 @@ const videoTestimonials: VideoTestimonial[] = [
     poster: portfolioCreature,
     name: "Jonas Weber",
     company: "Abyss Studios",
-    quote: "From concept to final grade in record time. Our conversion metrics proved it.",
-    duration: "1:12",
+    role: "Founder",
+    initials: "JW",
+    duration: "2:05",
+    progress: 0.3,
   },
   {
     id: "game",
@@ -50,8 +60,32 @@ const videoTestimonials: VideoTestimonial[] = [
     poster: portfolioGame,
     name: "Mia Laurent",
     company: "Iron Forge Interactive",
-    quote: "Premium visuals that made our brand feel twice our size overnight.",
-    duration: "0:47",
+    role: "Head of Production",
+    initials: "ML",
+    duration: "1:58",
+    progress: 0.48,
+  },
+  {
+    id: "motion",
+    videoSrc: motionVid.url,
+    poster: portfolioMotion,
+    name: "Elena Vasquez",
+    company: "Raycon",
+    role: "VP Marketing",
+    initials: "EV",
+    duration: "2:12",
+    progress: 0.35,
+  },
+  {
+    id: "2d",
+    videoSrc: twoDVid.url,
+    poster: portfolio2d,
+    name: "James Whitfield",
+    company: "Crossrope",
+    role: "Co-Founder",
+    initials: "JW",
+    duration: "1:32",
+    progress: 0.55,
   },
 ];
 
@@ -62,48 +96,39 @@ export function VideoTestimonialsSection() {
 
   return (
     <>
-      <section className="relative isolate overflow-hidden border-b border-border/40 bg-card/20">
-        <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(ellipse_70%_50%_at_80%_0%,oklch(0.88_0.27_142/0.07),transparent)]" />
-        <div className="pointer-events-none absolute inset-0 -z-10 grid-bg opacity-25" />
+      <section className="relative isolate overflow-hidden border-b border-border/40 bg-background">
+        <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(ellipse_70%_50%_at_50%_0%,oklch(0.88_0.27_142/0.06),transparent)]" />
+        <div className="pointer-events-none absolute inset-0 -z-10 grid-bg opacity-20" />
 
-        <div className="mx-auto max-w-7xl px-6 py-24 md:px-14 md:py-32">
-          <SectionReveal className="mx-auto max-w-3xl text-center">
-            <p className="font-display text-[10px] uppercase tracking-[0.35em] text-neon-green">
+        <div className="mx-auto max-w-7xl px-6 py-20 md:px-14 md:py-28">
+          <SectionReveal className="mx-auto max-w-5xl text-center">
+            <span className="inline-flex items-center border border-neon-green/80 px-4 py-1.5 font-display text-[9px] uppercase tracking-[0.28em] text-foreground md:text-[10px]">
               Video testimonials
-            </p>
-            <h2 className="mt-4 font-display text-2xl uppercase leading-tight tracking-tight text-balance sm:text-3xl md:mt-5 md:text-4xl">
-              <span className="block text-foreground">
-                Hear what brands say about working with
-              </span>
-              <span className="mt-1 block text-outline-green">Starlights Visuals.</span>
+            </span>
+
+            <h2 className="mt-5 font-display text-2xl uppercase leading-tight tracking-tight text-balance sm:text-3xl md:text-4xl lg:text-[2.75rem] lg:leading-none">
+              Hear{" "}
+              <span className="neon-text text-glow">what brands say</span> about Starlights
+              Visuals
             </h2>
-            <p className="mt-4 text-xs uppercase leading-relaxed tracking-[0.12em] text-muted-foreground sm:text-sm md:mt-5">
-              Real founders sharing their experience, growth, and results.
-            </p>
           </SectionReveal>
 
-          {/* Desktop 2-column */}
-          <StaggerReveal className="mt-14 hidden gap-6 md:mt-20 md:grid md:grid-cols-2">
+          <StaggerReveal className="mt-12 hidden gap-5 sm:grid sm:grid-cols-2 md:mt-16 lg:grid-cols-3 lg:gap-6">
             {videoTestimonials.map((v) => (
-              <VideoTestimonialCard
-                key={v.id}
-                testimonial={v}
-                onPlay={() => setActive(v)}
-              />
+              <VideoTestimonialCard key={v.id} testimonial={v} onPlay={() => setActive(v)} />
             ))}
           </StaggerReveal>
 
-          {/* Mobile carousel */}
           <motion.div
             ref={carouselRef}
             initial={{ opacity: 0, y: 32 }}
             animate={carouselInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
-            className="mt-12 md:hidden"
+            className="mt-10 sm:hidden"
           >
             <div className="testimonial-carousel -mx-6 flex snap-x snap-mandatory gap-4 overflow-x-auto px-6 pb-4">
               {videoTestimonials.map((v) => (
-                <div key={v.id} className="w-[min(92vw,400px)] shrink-0 snap-center">
+                <div key={v.id} className="w-[min(88vw,320px)] shrink-0 snap-center">
                   <VideoTestimonialCard testimonial={v} onPlay={() => setActive(v)} />
                 </div>
               ))}
@@ -117,7 +142,7 @@ export function VideoTestimonialsSection() {
         onClose={() => setActive(null)}
         videoSrc={active?.videoSrc ?? ""}
         poster={active?.poster}
-        title={active ? `Video testimonial — ${active.name}` : "Video testimonial"}
+        title={active ? `Video testimonial — ${active.name}` : "Video testimimonial"}
       />
     </>
   );

@@ -1,19 +1,26 @@
 import { motion } from "framer-motion";
-import { Quote, Star } from "lucide-react";
+import { BadgeCheck, Star } from "lucide-react";
 
-import { Avatar, AvatarFallback } from "@/components/ui/avatar";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { staggerItem } from "@/components/SectionReveal";
 import { cn } from "@/lib/utils";
 
 export type TextTestimonial = {
+  headline: string;
   quote: string;
   name: string;
   company: string;
   role: string;
-  result: string;
   initials: string;
+  avatarUrl?: string;
   rating?: number;
+  verified?: boolean;
 };
+
+function avatarSrc(testimonial: TextTestimonial) {
+  if (testimonial.avatarUrl) return testimonial.avatarUrl;
+  return `https://ui-avatars.com/api/?name=${encodeURIComponent(testimonial.initials)}&background=141414&color=9dff57&size=128&bold=true&format=png`;
+}
 
 type TestimonialCardProps = {
   testimonial: TextTestimonial;
@@ -22,63 +29,72 @@ type TestimonialCardProps = {
 
 export function TestimonialCard({ testimonial, className }: TestimonialCardProps) {
   const rating = testimonial.rating ?? 5;
+  const verified = testimonial.verified ?? true;
 
   return (
     <motion.figure
       variants={staggerItem}
-      whileHover={{ y: -6, scale: 1.01 }}
+      whileHover={{ y: -4 }}
       transition={{ type: "spring", stiffness: 320, damping: 28 }}
       className={cn(
-        "group relative flex min-h-[340px] flex-col justify-between overflow-hidden rounded-2xl",
-        "border border-white/10 bg-white/[0.04] p-8 backdrop-blur-xl",
-        "shadow-[0_24px_80px_-32px_rgba(0,0,0,0.85)]",
-        "transition-[box-shadow,border-color] duration-500",
-        "hover:border-neon-green/40 hover:shadow-[0_28px_90px_-28px_oklch(0.88_0.27_142/0.25)]",
+        "group flex h-full flex-col rounded-xl border border-white/[0.08] bg-[oklch(0.11_0_0)] p-6 md:p-8",
+        "transition-[border-color,box-shadow] duration-400",
+        "hover:border-neon-green/25 hover:shadow-[0_20px_60px_-24px_oklch(0.88_0.27_142/0.2)]",
         className,
       )}
     >
-      <Quote
-        className="pointer-events-none absolute -right-2 -top-2 h-24 w-24 text-neon-green/[0.07] transition-colors duration-500 group-hover:text-neon-green/[0.12]"
-        strokeWidth={1}
-        aria-hidden
-      />
-
-      <div className="relative">
-        <div className="flex gap-0.5" aria-label={`${rating} out of 5 stars`}>
+      <div className="flex items-start justify-between gap-4">
+        <div
+          className="inline-flex gap-0.5 rounded-md bg-background px-2.5 py-1.5"
+          aria-label={`${rating} out of 5 stars`}
+        >
           {Array.from({ length: 5 }).map((_, i) => (
             <Star
               key={i}
               className={cn(
-                "h-3.5 w-3.5",
-                i < rating ? "fill-neon-green text-neon-green" : "text-muted-foreground/30",
+                "h-3 w-3",
+                i < rating ? "fill-neon-green text-neon-green" : "text-muted-foreground/25",
               )}
             />
           ))}
         </div>
 
-        <blockquote className="mt-6 text-base leading-relaxed text-foreground/90 md:text-[15px]">
-          &ldquo;{testimonial.quote}&rdquo;
-        </blockquote>
-      </div>
-
-      <div className="relative mt-8 border-t border-white/10 pt-6">
-        <span className="inline-flex rounded-full border border-neon-green/30 bg-neon-green/10 px-3 py-1 font-display text-[10px] uppercase tracking-widest text-neon-green">
-          {testimonial.result}
-        </span>
-
-        <figcaption className="mt-5 flex items-center gap-4">
-          <Avatar className="h-12 w-12 border border-white/15 ring-2 ring-neon-green/20">
-            <AvatarFallback className="bg-gradient-to-br from-background to-card font-display text-sm text-neon-green">
-              {testimonial.initials}
-            </AvatarFallback>
-          </Avatar>
-          <div>
-            <p className="font-display text-sm tracking-tight">{testimonial.name}</p>
-            <p className="text-xs text-muted-foreground">{testimonial.role}</p>
-            <p className="text-xs font-medium text-foreground/70">{testimonial.company}</p>
+        {verified && (
+          <div className="flex shrink-0 items-center gap-1.5 font-display text-[9px] uppercase tracking-[0.15em] text-muted-foreground">
+            <BadgeCheck className="h-3.5 w-3.5 text-neon-green" aria-hidden />
+            <span>Verified client</span>
           </div>
-        </figcaption>
+        )}
       </div>
+
+      <h3 className="mt-6 font-display text-base uppercase leading-snug tracking-tight text-foreground md:text-lg">
+        {testimonial.headline}
+      </h3>
+
+      <blockquote className="mt-4 flex-1 text-sm leading-relaxed text-muted-foreground md:text-[15px]">
+        {testimonial.quote}
+      </blockquote>
+
+      <figcaption className="mt-8 flex items-center gap-4 border-t border-white/[0.08] pt-6">
+        <Avatar className="h-14 w-14 shrink-0 rounded-md border border-white/10">
+          <AvatarImage
+            src={avatarSrc(testimonial)}
+            alt={testimonial.name}
+            className="rounded-md object-cover"
+          />
+          <AvatarFallback className="rounded-md bg-card font-display text-sm text-neon-green">
+            {testimonial.initials}
+          </AvatarFallback>
+        </Avatar>
+        <div className="min-w-0">
+          <p className="truncate font-display text-sm uppercase tracking-wide text-foreground">
+            {testimonial.name}
+          </p>
+          <p className="mt-1 text-xs leading-relaxed text-muted-foreground">
+            {testimonial.role}, {testimonial.company}
+          </p>
+        </div>
+      </figcaption>
     </motion.figure>
   );
 }
