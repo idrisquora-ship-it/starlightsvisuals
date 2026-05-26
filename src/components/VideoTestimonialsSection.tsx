@@ -71,10 +71,13 @@ export function VideoTestimonialsSection() {
             <p className="font-display text-[10px] uppercase tracking-[0.35em] text-neon-green">
               Video testimonials
             </p>
-            <h2 className="mt-5 font-display text-4xl tracking-tight text-balance md:text-6xl">
-              Hear what brands say about working with Starlights Visuals.
+            <h2 className="mt-4 font-display text-2xl uppercase leading-tight tracking-tight text-balance sm:text-3xl md:mt-5 md:text-4xl">
+              <span className="block text-foreground">
+                Hear what brands say about working with
+              </span>
+              <span className="mt-1 block text-outline-green">Starlights Visuals.</span>
             </h2>
-            <p className="mt-5 text-base leading-relaxed text-muted-foreground md:text-lg">
+            <p className="mt-4 text-xs uppercase leading-relaxed tracking-[0.12em] text-muted-foreground sm:text-sm md:mt-5">
               Real founders sharing their experience, growth, and results.
             </p>
           </SectionReveal>
