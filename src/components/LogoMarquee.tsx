@@ -14,19 +14,17 @@ function splitIntoRows(logos: BrandLogo[]): BrandLogo[][] {
   ).filter((row) => row.length > 0);
 }
 
-function LogoCard({ logo, ariaHidden }: { logo: BrandLogo; ariaHidden?: boolean }) {
+function LogoItem({ logo, ariaHidden }: { logo: BrandLogo; ariaHidden?: boolean }) {
   return (
-    <div className="logo-marquee-card flex shrink-0 items-center justify-center">
-      <img
-        src={logo.src}
-        alt={ariaHidden ? undefined : `${logo.name} logo`}
-        width={128}
-        height={40}
-        loading="lazy"
-        decoding="async"
-        className="logo-marquee-img max-h-6 w-auto max-w-[96px] object-contain md:max-h-7 md:max-w-[108px]"
-      />
-    </div>
+    <img
+      src={logo.src}
+      alt={ariaHidden ? undefined : `${logo.name} logo`}
+      width={160}
+      height={48}
+      loading="lazy"
+      decoding="async"
+      className="logo-marquee-img max-h-6 w-auto max-w-[96px] shrink-0 object-contain md:max-h-7 md:max-w-[108px]"
+    />
   );
 }
 
@@ -59,7 +57,7 @@ function MarqueeRow({
       >
         <div className="logo-marquee-row flex shrink-0 flex-nowrap items-center">
           {logos.map((logo) => (
-            <LogoCard key={logo.name} logo={logo} />
+            <LogoItem key={logo.name} logo={logo} />
           ))}
         </div>
         <div
@@ -67,7 +65,7 @@ function MarqueeRow({
           aria-hidden
         >
           {logos.map((logo) => (
-            <LogoCard key={`dup-${logo.name}`} logo={logo} ariaHidden />
+            <LogoItem key={`dup-${logo.name}`} logo={logo} ariaHidden />
           ))}
         </div>
       </div>
