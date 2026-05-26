@@ -6,6 +6,8 @@ type LogoMarqueeProps = {
 };
 
 const ROW_COUNT = 3;
+/** Equal-width segments for seamless CSS loop (translate by 1/N) */
+const MARQUEE_COPIES = 4;
 
 function splitIntoRows(logos: BrandLogo[]): BrandLogo[][] {
   const perRow = Math.ceil(logos.length / ROW_COUNT);
@@ -39,6 +41,7 @@ function MarqueeRow({
   offset?: boolean;
   duration: number;
 }) {
+  const stripLogos = [...logos, ...logos];
   const animationName =
     direction === "right" ? "logo-marquee-reverse" : "logo-marquee";
 
@@ -53,21 +56,24 @@ function MarqueeRow({
         className="logo-marquee-track-inner flex w-max flex-nowrap will-change-transform"
         style={{
           animation: `${animationName} ${duration}s linear infinite`,
+          animationPlayState: "running",
         }}
       >
-        <div className="logo-marquee-row flex shrink-0 flex-nowrap items-center">
-          {logos.map((logo) => (
-            <LogoItem key={logo.name} logo={logo} />
-          ))}
-        </div>
-        <div
-          className="logo-marquee-row flex shrink-0 flex-nowrap items-center"
-          aria-hidden
-        >
-          {logos.map((logo) => (
-            <LogoItem key={`dup-${logo.name}`} logo={logo} ariaHidden />
-          ))}
-        </div>
+        {Array.from({ length: MARQUEE_COPIES }, (_, copyIndex) => (
+          <div
+            key={copyIndex}
+            className="logo-marquee-row flex shrink-0 flex-nowrap items-center"
+            aria-hidden={copyIndex > 0}
+          >
+            {stripLogos.map((logo, logoIndex) => (
+              <LogoItem
+                key={`${copyIndex}-${logo.name}-${logoIndex}`}
+                logo={logo}
+                ariaHidden={copyIndex > 0}
+              />
+            ))}
+          </div>
+        ))}
       </div>
     </div>
   );

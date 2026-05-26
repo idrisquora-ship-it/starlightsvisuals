@@ -165,36 +165,28 @@
     text-shadow: 0 0 20px oklch(0.88 0.27 142 / 0.45);
   }
 
-  /* Infinite brand logo marquee — always scrolling, never pauses on hover */
+  /* Infinite brand logo marquee — 4 equal segments, never pauses */
   @keyframes logo-marquee {
     from {
       transform: translate3d(0, 0, 0);
     }
     to {
-      transform: translate3d(-50%, 0, 0);
+      transform: translate3d(-25%, 0, 0);
     }
   }
   @keyframes logo-marquee-reverse {
     from {
-      transform: translate3d(-50%, 0, 0);
+      transform: translate3d(-25%, 0, 0);
     }
     to {
       transform: translate3d(0, 0, 0);
     }
   }
-  .logo-marquee-track {
-    animation-name: logo-marquee;
+  .logo-marquee-track-inner {
+    animation-play-state: running !important;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-duration: 35s;
-    will-change: transform;
-  }
-  .logo-marquee-track-reverse {
-    animation-name: logo-marquee-reverse;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-duration: 35s;
-    will-change: transform;
+    backface-visibility: hidden;
   }
   .logo-marquee-rows {
     gap: 0.5rem;
@@ -224,6 +216,9 @@
   }
   .logo-marquee-rows:hover .logo-marquee-img {
     opacity: 1;
+  }
+  .logo-marquee-shell:hover .logo-marquee-track-inner {
+    animation-play-state: running !important;
   }
 
   .testimonial-carousel {
