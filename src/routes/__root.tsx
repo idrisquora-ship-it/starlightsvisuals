@@ -11,6 +11,7 @@ import {
 import { SidebarProvider, useSidebar } from "@/contexts/sidebar-context";
 import { cn } from "@/lib/utils";
 import appCss from "../styles.css?url";
+import faviconUrl from "@/assets/brand logo/favicon-transparent.png?url";
 
 function NotFoundComponent() {
   return (
@@ -73,6 +74,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@300;400;500;600;700&family=Caveat:wght@500;700&display=swap" },
       { rel: "stylesheet", href: appCss },
+      { rel: "icon", href: faviconUrl },
     ],
   }),
   shellComponent: RootShell,
