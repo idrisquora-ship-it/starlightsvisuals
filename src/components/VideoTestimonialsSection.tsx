@@ -1,5 +1,6 @@
 import { motion, useInView } from "framer-motion";
-import { useRef, useState } from "react";
+import { useMemo, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 import { SectionReveal, StaggerReveal } from "@/components/SectionReveal";
 import { VideoModal } from "@/components/VideoModal";
@@ -20,79 +21,83 @@ import gameVid from "@/assets/portfolio-game.mp4.asset.json";
 import motionVid from "@/assets/portfolio-motion.mp4.asset.json";
 import twoDVid from "@/assets/portfolio-2d.mp4.asset.json";
 
-const videoTestimonials: VideoTestimonial[] = [
-  {
-    id: "trailer",
-    videoSrc: trailerVid.url,
-    poster: portfolioTrailer,
-    name: "Alex Morgan",
-    company: "Lumen Worlds",
-    role: "CEO",
-    initials: "AM",
-    duration: "2:20",
-    progress: 0.38,
-  },
-  {
-    id: "character",
-    videoSrc: characterVid.url,
-    poster: portfolioCharacter,
-    name: "Priya Shah",
-    company: "Nova Vanguard",
-    role: "Art Director",
-    initials: "PS",
-    duration: "1:45",
-    progress: 0.42,
-  },
-  {
-    id: "creature",
-    videoSrc: creatureVid.url,
-    poster: portfolioCreature,
-    name: "Jonas Weber",
-    company: "Abyss Studios",
-    role: "Founder",
-    initials: "JW",
-    duration: "2:05",
-    progress: 0.3,
-  },
-  {
-    id: "game",
-    videoSrc: gameVid.url,
-    poster: portfolioGame,
-    name: "Mia Laurent",
-    company: "Iron Forge Interactive",
-    role: "Head of Production",
-    initials: "ML",
-    duration: "1:58",
-    progress: 0.48,
-  },
-  {
-    id: "motion",
-    videoSrc: motionVid.url,
-    poster: portfolioMotion,
-    name: "Elena Vasquez",
-    company: "Raycon",
-    role: "VP Marketing",
-    initials: "EV",
-    duration: "2:12",
-    progress: 0.35,
-  },
-  {
-    id: "2d",
-    videoSrc: twoDVid.url,
-    poster: portfolio2d,
-    name: "James Whitfield",
-    company: "Crossrope",
-    role: "Co-Founder",
-    initials: "JW",
-    duration: "1:32",
-    progress: 0.55,
-  },
-];
-
 export function VideoTestimonialsSection() {
+  const { t } = useTranslation();
   const [active, setActive] = useState<VideoTestimonial | null>(null);
   const carouselRef = useRef<HTMLDivElement>(null);
   const carouselInView = useInView(carouselRef, { once: true, margin: "-5% 0px" });
+
+  const videoTestimonials: VideoTestimonial[] = useMemo(
+    () => [
+      {
+        id: "trailer",
+        videoSrc: trailerVid.url,
+        poster: portfolioTrailer,
+        name: "Alex Morgan",
+        company: "Lumen Worlds",
+        role: t("testimonials.videoRoles.ceo"),
+        initials: "AM",
+        duration: "2:20",
+        progress: 0.38,
+      },
+      {
+        id: "character",
+        videoSrc: characterVid.url,
+        poster: portfolioCharacter,
+        name: "Priya Shah",
+        company: "Nova Vanguard",
+        role: t("testimonials.videoRoles.artDirector"),
+        initials: "PS",
+        duration: "1:45",
+        progress: 0.42,
+      },
+      {
+        id: "creature",
+        videoSrc: creatureVid.url,
+        poster: portfolioCreature,
+        name: "Jonas Weber",
+        company: "Abyss Studios",
+        role: t("testimonials.videoRoles.founder"),
+        initials: "JW",
+        duration: "2:05",
+        progress: 0.3,
+      },
+      {
+        id: "game",
+        videoSrc: gameVid.url,
+        poster: portfolioGame,
+        name: "Mia Laurent",
+        company: "Iron Forge Interactive",
+        role: t("testimonials.videoRoles.headProduction"),
+        initials: "ML",
+        duration: "1:58",
+        progress: 0.48,
+      },
+      {
+        id: "motion",
+        videoSrc: motionVid.url,
+        poster: portfolioMotion,
+        name: "Elena Vasquez",
+        company: "Raycon",
+        role: t("testimonials.videoRoles.vpMarketing"),
+        initials: "EV",
+        duration: "2:12",
+        progress: 0.35,
+      },
+      {
+        id: "2d",
+        videoSrc: twoDVid.url,
+        poster: portfolio2d,
+        name: "James Whitfield",
+        company: "Crossrope",
+        role: t("testimonials.videoRoles.coFounder"),
+        initials: "JW",
+        duration: "1:32",
+        progress: 0.55,
+      },
+    ],
+    [t],
+  );
 
   return (
     <>
@@ -103,13 +108,13 @@ export function VideoTestimonialsSection() {
         <div className="mx-auto max-w-7xl px-6 py-20 md:px-14 md:py-28">
           <SectionReveal className="mx-auto max-w-5xl text-center">
             <span className="inline-flex items-center border border-neon-green/80 px-4 py-1.5 font-display text-[9px] uppercase tracking-[0.28em] text-foreground md:text-[10px]">
-              Video testimonials
+              {t("testimonials.videoBadge")}
             </span>
 
             <h2 className="mt-5 font-display text-2xl uppercase leading-tight tracking-tight text-balance sm:text-3xl md:text-4xl lg:text-[2.75rem] lg:leading-none">
-              Hear{" "}
-              <span className="neon-text text-glow">what brands say</span> about Starlights
-              Visuals
+              {t("testimonials.videoTitle1")}{" "}
+              <span className="neon-text text-glow">{t("testimonials.videoTitle2")}</span>{" "}
+              {t("testimonials.videoTitle3")}
             </h2>
           </SectionReveal>
 
@@ -142,7 +147,11 @@ export function VideoTestimonialsSection() {
         onClose={() => setActive(null)}
         videoSrc={active?.videoSrc ?? ""}
         poster={active?.poster}
-        title={active ? `Video testimonial — ${active.name}` : "Video testimimonial"}
+        title={
+          active
+            ? t("testimonials.videoModalTitle", { name: active.name })
+            : t("testimonials.videoModalDefault")
+        }
       />
     </>
   );

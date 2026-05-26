@@ -1,9 +1,11 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { ArrowLeft } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { blogPosts, getBlogPost } from "@/data/blog-posts";
+import { useLocalizedBlogPost, useLocalizedBlogPosts } from "@/hooks/use-localized-blog";
 
 export const Route = createFileRoute("/blog/$slug")({
   head: ({ params }) => {
@@ -31,7 +33,12 @@ export const Route = createFileRoute("/blog/$slug")({
 });
 
 function BlogPostPage() {
-  const { post } = Route.useLoaderData() as { post: ReturnType<typeof getBlogPost> & {} };
+  const { t } = useTranslation();
+  const { post: staticPost } = Route.useLoaderData() as {
+    post: NonNullable<ReturnType<typeof getBlogPost>>;
+  };
+  const post = useLocalizedBlogPost(staticPost.slug) ?? staticPost;
+  const allPosts = useLocalizedBlogPosts();
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -51,7 +58,7 @@ function BlogPostPage() {
               to="/blog"
               className="inline-flex items-center gap-2 font-display text-xs uppercase tracking-widest text-muted-foreground transition hover:text-neon-green"
             >
-              <ArrowLeft className="h-4 w-4" /> Back to blog
+              <ArrowLeft className="h-4 w-4" /> {t("blogPage.backToBlog")}
             </Link>
             <p className="mt-8 font-display text-[10px] uppercase tracking-widest text-neon-green">
               {post.category}
@@ -68,36 +75,24 @@ function BlogPostPage() {
         <div className="mx-auto max-w-3xl px-6 py-16 md:py-20">
           <p className="text-lg leading-relaxed text-muted-foreground">{post.excerpt}</p>
           <div className="mt-10 space-y-6 text-base leading-relaxed text-foreground/90">
-            <p>
-              At Starlights Visuals, we treat every frame as a conversion opportunity — not just a
-              beautiful image. This article expands on the thinking behind our {post.category.toLowerCase()}{" "}
-              work and the decisions that separate good creative from launch-ready creative.
-            </p>
-            <p>
-              Whether you are shipping a trailer, scaling a brand motion system, or building game art
-              for a live product, the same principle applies: clarity of story first, polish second,
-              and ruthless editing last. That discipline is how teams hit deadlines without the
-              “almost there” feeling.
-            </p>
-            <p>
-              Want to apply this thinking to your next project? We would love to hear what you are
-              building — send us a brief and we will map a cinematic path from concept to delivery.
-            </p>
+            <p>{t("blogPage.postBody1", { category: post.category.toLowerCase() })}</p>
+            <p>{t("blogPage.postBody2")}</p>
+            <p>{t("blogPage.postBody3")}</p>
           </div>
           <Link
             to="/contact"
             className="mt-12 inline-flex items-center justify-center rounded-full bg-neon-green px-8 py-3.5 font-display text-sm uppercase tracking-widest text-background transition hover:glow-blue"
           >
-            Start a project
+            {t("blogPage.startProject")}
           </Link>
         </div>
       </article>
 
       <section className="border-t border-border/40 bg-card/30">
         <div className="mx-auto max-w-7xl px-6 py-16 md:px-14">
-          <h2 className="font-display text-2xl tracking-tight">More from the journal</h2>
+          <h2 className="font-display text-2xl tracking-tight">{t("blogPage.moreFromJournal")}</h2>
           <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {blogPosts
+            {allPosts
               .filter((p) => p.slug !== post.slug)
               .slice(0, 3)
               .map((p) => (

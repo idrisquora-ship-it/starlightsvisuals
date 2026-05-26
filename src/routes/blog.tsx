@@ -1,9 +1,10 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowUpRight } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
-import { blogPosts } from "@/data/blog-posts";
+import { useLocalizedBlogPosts } from "@/hooks/use-localized-blog";
 
 export const Route = createFileRoute("/blog")({
   head: () => ({
@@ -25,6 +26,8 @@ export const Route = createFileRoute("/blog")({
 });
 
 function BlogPage() {
+  const { t } = useTranslation();
+  const blogPosts = useLocalizedBlogPosts();
   const [featured, ...rest] = blogPosts;
 
   return (
@@ -34,12 +37,12 @@ function BlogPage() {
       <section className="relative isolate border-b border-border/40">
         <div className="absolute inset-0 -z-10 grid-bg" />
         <div className="mx-auto max-w-5xl px-6 py-24 text-center md:py-32">
-          <p className="font-script text-2xl text-neon-green">Studio journal</p>
+          <p className="font-script text-2xl text-neon-green">{t("blogPage.label")}</p>
           <h1 className="mt-4 font-display text-5xl tracking-tight md:text-7xl">
-            <span className="text-outline">THE</span> BLOG
+            <span className="text-outline">{t("blogPage.title1")}</span> {t("blogPage.title2")}
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground">
-            Thoughts on cinematic craft, production workflows, and building visuals that convert.
+            {t("blogPage.subtitle")}
           </p>
         </div>
       </section>
@@ -63,7 +66,7 @@ function BlogPage() {
               </div>
               <div className="flex flex-col justify-center p-8 md:p-12">
                 <p className="font-display text-[10px] uppercase tracking-widest text-neon-green">
-                  Featured · {featured.category}
+                  {t("blogPage.featured", { category: featured.category })}
                 </p>
                 <h2 className="mt-4 font-display text-3xl tracking-tight transition group-hover:text-neon-green md:text-4xl">
                   {featured.title}

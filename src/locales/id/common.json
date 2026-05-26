@@ -1,0 +1,303 @@
+{
+  "brand": {
+    "name": "Starlights Visuals",
+    "star": "BINTANG",
+    "lights": "CAHAYA",
+    "visuals": "VISUALS",
+    "email": "sternlichtespeciale@gmail.com"
+  },
+  "nav": {
+    "portfolio": "Portofolio",
+    "services": "Layanan",
+    "blog": "Blog",
+    "company": "Perusahaan",
+    "contacts": "Kontak",
+    "about": "Tentang",
+    "contact": "Kontak",
+    "portfolioCta": "Portofolio →"
+  },
+  "header": {
+    "closeMenu": "Tutup menu",
+    "openMenu": "Buka menu",
+    "closeSidebar": "Tutup sidebar",
+    "openSidebar": "Buka sidebar"
+  },
+  "languageSwitcher": {
+    "label": "Bahasa",
+    "selectLanguage": "Pilih bahasa",
+    "current": "Bahasa saat ini"
+  },
+  "popup": {
+    "title": "Terjemahkan situs ini?",
+    "message": "Kami melihat Anda mengunjungi dari {{country}}. Ingin menerjemahkan situs web ini ke {{language}}?",
+    "translate": "Terjemahkan",
+    "stayEnglish": "Tetap dalam Bahasa Inggris",
+    "close": "Tutup saran terjemahan"
+  },
+  "footer": {
+    "newsletterTitle": "BERGABUNGLAH DENGAN",
+    "newsletterHighlight": "KONSTELASI",
+    "newsletterDesc": "Konten di balik layar, pengumuman proyek, dan premier trailer.",
+    "emailPlaceholder": "email@anda.com",
+    "join": "Gabung",
+    "subscribed": "✦ Anda resmi bergabung. Selamat datang di Starlights.",
+    "tagline": "Studio kreatif yang mewujudkan imajinasi melalui pengembangan game imersif, animasi 2D sinematik, dan pengalaman 3D berkualitas tinggi.",
+    "explore": "Jelajahi",
+    "follow": "Ikuti",
+    "social": "Tautan sosial",
+    "copyright": "© {{year}} Starlights Visuals. Dibuat dengan cahaya & kode."
+  },
+  "home": {
+    "metaTitle": "Starlights Visuals — Studio Animasi, VFX & Game Art",
+    "metaDescription": "Studio kreatif untuk animasi 2D / 3D, VFX, dan game art. Kami menghidupkan dunia fantasi, karakter, dan sinematik.",
+    "heroScript": "Menghidupkan dunia —",
+    "heroTitle1": "ANIMASI",
+    "heroTitle2": "& VFX",
+    "heroBody": "Starlights Visuals menghidupkan game dengan animasi dan efek visual yang membuat pemain terus terlibat dalam gameplay. Kami menganimasikan makhluk fantasi, karakter manusia, kendaraan, lingkungan, properti, bahkan objek hard-surface.",
+    "heroAlt": "Hero sinematik Starlights Visuals",
+    "seePortfolio": "Lihat Portofolio",
+    "startProject": "Mulai Proyek",
+    "servicesLabel": "Apa yang kami lakukan",
+    "servicesTitle": "LAYANAN",
+    "allServices": "Semua Layanan",
+    "showcaseLabel": "Karya terbaru",
+    "showcaseTitle1": "KARYA",
+    "showcaseTitle2": "TERPILIH",
+    "fullPortfolio": "Portofolio Lengkap",
+    "ctaScript": "Mari ciptakan sesuatu —",
+    "ctaTitle1": "SIAP",
+    "ctaTitle2": "BERKOLABORASI?",
+    "services": {
+      "01": { "title": "Animasi & VFX", "desc": "Animasi 2D & 3D sinematik, rig karakter, dan efek visual untuk game dan film." },
+      "02": { "title": "Pengembangan Game", "desc": "Produksi full-cycle — konsep, art, kode, audio, rilis." },
+      "03": { "title": "Konsep & Character Art", "desc": "Karakter orisinal, makhluk, lingkungan, dan properti yang memperkuat IP Anda." },
+      "04": { "title": "Trailer Sinematik", "desc": "Trailer berbasis cerita yang dirancang untuk meluncurkan game dan franchise." }
+    },
+    "showcase": {
+      "character": { "tag": "Karakter", "title": "Nova Vanguard" },
+      "gameArt": { "tag": "Game Art", "title": "Lumen Worlds" },
+      "animation2d": { "tag": "Animasi 2D", "title": "Neon Skyline" },
+      "cinematic": { "tag": "Sinematik", "title": "Iron Sentinel" },
+      "creature": { "tag": "Makhluk", "title": "Abyss Drake" },
+      "motion": { "tag": "Motion", "title": "Pulse" }
+    }
+  },
+  "trustedBy": {
+    "badge": "500+ brand DTC",
+    "trusted": "Dipercaya",
+    "by": "Oleh"
+  },
+  "testimonials": {
+    "badge": "Testimoni",
+    "title1": "Mereka mempercayai karya &",
+    "title2": "Hasil kami",
+    "verifiedClient": "Klien terverifikasi",
+    "starsAria": "{{rating}} dari 5 bintang",
+    "videoBadge": "Testimoni video",
+    "videoTitle1": "Dengarkan",
+    "videoTitle2": "apa kata brand",
+    "videoTitle3": "tentang Starlights Visuals",
+    "videoModalTitle": "Testimoni video — {{name}}",
+    "videoModalDefault": "Testimoni video",
+    "playAria": "Putar testimoni video dari {{name}}",
+    "items": {
+      "elena": {
+        "headline": "Profesional sejati yang memberikan hasil",
+        "quote": "Kualitas sinematik langsung meningkatkan persepsi brand kami. Engagement pada kampanye hero melonjak dalam minggu pertama — visualnya terasa premium, intentional, dan mustahil untuk dilewati.",
+        "role": "VP Brand Marketing"
+      },
+      "james": {
+        "headline": "Film peluncuran yang terasa seperti teater",
+        "quote": "Starlights menghadirkan film peluncuran yang terasa seperti trailer bioskop, bukan iklan produk. Retensi di paid social kami berlipat ganda dan kreatifnya menjadi standar setiap kampanye berikutnya.",
+        "role": "Founder & CEO"
+      },
+      "amara": {
+        "headline": "Craft presisi di tengah deadline global",
+        "quote": "Dari storyboard hingga color grade final, tim bekerja dengan presisi tinggi soal craft dan deadline. Kami meluncurkan kampanye global dengan 2 juta+ views dan brand lift yang masih direferensikan leadership di rapat direksi.",
+        "role": "Head of Creative"
+      }
+    },
+    "videoRoles": {
+      "ceo": "CEO",
+      "artDirector": "Art Director",
+      "founder": "Founder",
+      "headProduction": "Head of Production",
+      "vpMarketing": "VP Marketing",
+      "coFounder": "Co-Founder"
+    }
+  },
+  "servicesPage": {
+    "metaTitle": "Layanan — Starlights Visuals",
+    "metaDescription": "Animasi 2D, animasi 3D, pengembangan game, character design, motion graphics, VFX, dan trailer sinematik.",
+    "label": "Apa yang Kami Bangun",
+    "title": "LAYANAN",
+    "subtitle": "Satu studio, setiap tahap produksi — dari sketsa pertama hingga pixel terakhir.",
+    "ctaTitle1": "PUNYA",
+    "ctaTitle2": "PROYEK",
+    "ctaTitle3": "DI PIKIRAN?",
+    "ctaDesc": "Ceritakan visi Anda — kami siapkan kekuatannya.",
+    "ctaButton": "Hubungi Kami",
+    "items": {
+      "2d": { "title": "Animasi 2D", "desc": "2D frame-by-frame & rigged untuk serial, short, explainer, dan game. Menggabungkan craft klasik dengan pipeline digital." },
+      "3d": { "title": "Animasi 3D", "desc": "3D stylized dan photoreal — karakter, lingkungan, dan urutan sinematik penuh dengan polish kualitas feature." },
+      "game": { "title": "Pengembangan Game", "desc": "Produksi game end-to-end: konsep, art, kode, audio, dan peluncuran. Unreal, Unity, dan pipeline kustom." },
+      "character": { "title": "Character Design", "desc": "Karakter orisinal, makhluk, dan concept art yang memperkuat IP serta potensi merch Anda." },
+      "motion": { "title": "Motion Graphics", "desc": "Motion brand, animasi UI, paket broadcast, dan video explainer dengan sentuhan sinematik." },
+      "vfx": { "title": "Visual Effects (VFX)", "desc": "Compositing, particle FX, dan integrasi CG untuk game, film, dan kampanye digital." },
+      "trailer": { "title": "Trailer Sinematik", "desc": "Trailer berbasis cerita untuk meluncurkan game, IP, dan brand dengan dampak maksimal." }
+    }
+  },
+  "aboutPage": {
+    "metaTitle": "Tentang — Starlights Visuals",
+    "metaDescription": "Starlights Visuals adalah studio kreatif yang passionate, spesialisasi pengembangan game imersif, animasi 2D sinematik, dan animasi 3D berkualitas tinggi.",
+    "label": "Siapa Kami",
+    "title1": "STUDIO YANG DIBANGUN DARI",
+    "title2": "CAHAYA, KODE & CERITA",
+    "p1": "Starlights Visuals adalah studio kreatif yang passionate di persimpangan game, animasi, dan storytelling sinematik. Kami ada untuk mewujudkan imajinasi — baik itu game open-world yang luas, serial 2D buatan tangan, maupun trailer 3D photoreal.",
+    "p2": "Dari concept artist dan 3D sculptor hingga gameplay engineer dan motion designer, setiap anggota tim kami terobsesi pada satu hal: membuat audiens merasakan sesuatu. Kami tidak hanya membangun pixel yang indah — kami membangun dunia tempat orang ingin hidup.",
+    "p3": "Kami bermitra dengan kreator indie, studio AAA, dan brand global untuk menghadirkan karya yang punch above its weight, memenuhi deadline tanpa kompromi, dan terlihat seolah budgetnya dua kali lipat.",
+    "valuesLabel": "Nilai Inti",
+    "valuesTitle": "APA YANG MEMBUAT KAMI BERGERAK",
+    "values": {
+      "imagination": { "title": "Imajinasi Utama", "desc": "Setiap proyek dimulai dari ide berani dan kanvas kosong." },
+      "craft": { "title": "Obsesi Craft", "desc": "Frame demi frame, pixel demi pixel — kualitas tidak bisa ditawar." },
+      "energy": { "title": "Energi Sinematik", "desc": "Kami mengejar goosebumps. Jika belum menyentuh, kami refine." },
+      "story": { "title": "Berbasis Cerita", "desc": "Teknologi melayani cerita. Selalu." }
+    },
+    "stats": {
+      "projects": "Proyek Selesai",
+      "clients": "Klien Global",
+      "awards": "Penghargaan",
+      "years": "Tahun Crafting"
+    }
+  },
+  "contactPage": {
+    "metaTitle": "Kontak — Starlights Visuals",
+    "metaDescription": "Hubungi Starlights Visuals untuk proyek pengembangan game, animasi 2D & 3D, motion graphics, VFX, dan trailer sinematik.",
+    "label": "Mari Berbicara",
+    "title": "KONTAK",
+    "subtitle": "Inquiry produksi, kolaborasi, atau sekadar menyapa — kirimkan sinyal kepada kami.",
+    "formTitle": "MULAI PROYEK",
+    "formDesc": "Isi formulir di bawah dan kami akan merespons dalam 24 jam.",
+    "name": "Nama",
+    "email": "Email",
+    "projectType": "Jenis Proyek",
+    "message": "Ceritakan tentang proyek Anda",
+    "send": "Kirim Pesan",
+    "sent": "✦ Pesan diterima. Kami akan segera menghubungi Anda.",
+    "emailUs": "EMAIL KAMI",
+    "emailDesc": "Untuk proyek baru, media, dan kemitraan.",
+    "studio": "STUDIO",
+    "studioDesc": "Remote-first · Pengiriman global",
+    "responseTime": "WAKTU RESPON",
+    "responseDesc": "Dalam 24 jam, Sen – Jum.",
+    "projectTypes": {
+      "game": "Pengembangan Game",
+      "2d": "Animasi 2D",
+      "3d": "Animasi 3D",
+      "trailer": "Trailer Sinematik",
+      "character": "Character Design",
+      "motion": "Motion Graphics / VFX",
+      "other": "Lainnya"
+    }
+  },
+  "portfolioPage": {
+    "metaTitle": "Portofolio — Starlights Visuals",
+    "metaDescription": "Proyek terpilih: serial animasi, trailer game, character design, dan showreel studio oleh Starlights Visuals.",
+    "label": "Karya terpilih",
+    "title1": "PORT",
+    "title2": "FOLIO",
+    "subtitle": "Sekilas tentang dunia, karakter, dan cerita yang kami bantu hidupkan.",
+    "projects": {
+      "trailer": { "tag": "Trailer Sinematik", "title": "Iron Sentinel", "desc": "Trailer peluncuran game AAA." },
+      "character": { "tag": "Character Design", "title": "Nova Vanguard", "desc": "Sheet protagonis hero." },
+      "game": { "tag": "Game Art", "title": "Lumen Worlds", "desc": "Environment art open-world." },
+      "2d": { "tag": "Animasi 2D", "title": "Neon Skyline", "desc": "Episode pilot bergaya anime." },
+      "creature": { "tag": "Creature Design", "title": "Crystal Wyrm", "desc": "Konsep creature boss." },
+      "motion": { "tag": "Motion Graphics", "title": "Pulse Identity", "desc": "Sistem motion brand." }
+    }
+  },
+  "blogPage": {
+    "metaTitle": "Blog — Starlights Visuals",
+    "metaDescription": "Wawasan tentang animasi, VFX, game art, trailer sinematik, dan brand storytelling premium dari Starlights Visuals.",
+    "label": "Jurnal studio",
+    "title1": "THE",
+    "title2": "BLOG",
+    "subtitle": "Refleksi tentang craft sinematik, workflow produksi, dan membangun visual yang convert.",
+    "featured": "Unggulan · {{category}}",
+    "backToBlog": "Kembali ke blog",
+    "startProject": "Mulai proyek",
+    "moreFromJournal": "Lainnya dari jurnal",
+    "postBody1": "Di Starlights Visuals, kami memperlakukan setiap frame sebagai peluang konversi — bukan sekadar gambar indah. Artikel ini mengulas pemikiran di balik karya {{category}} kami dan keputusan yang membedakan kreatif bagus dari kreatif siap peluncuran.",
+    "postBody2": "Baik Anda meluncurkan trailer, menskalakan sistem motion brand, atau membangun game art untuk produk live, prinsipnya sama: kejelasan cerita dulu, polish kedua, dan editing tanpa kompromi terakhir. Disiplin itulah yang membuat tim memenuhi deadline tanpa perasaan \"hampir selesai\".",
+    "postBody3": "Ingin menerapkan pendekatan ini pada proyek berikutnya? Kami ingin mendengar apa yang Anda bangun — kirimkan brief dan kami akan memetakan jalur sinematik dari konsep hingga delivery.",
+    "posts": {
+      "cinematic-trailers-that-convert": {
+        "title": "Mengapa trailer sinematik convert lebih baik daripada demo produk",
+        "excerpt": "Film peluncuran story-first membangun stakes emosional sebelum CTA. Begini cara kami menyusun hook, pacing, dan grade untuk retensi maksimal.",
+        "category": "Strategi",
+        "date": "12 Mei 2026",
+        "readTime": "6 menit baca"
+      },
+      "character-design-for-ip": {
+        "title": "Character design yang memperkuat IP di setiap channel",
+        "excerpt": "Dari keterbacaan siluet hingga turnaround siap merch — checklist yang kami gunakan sebelum hero masuk produksi.",
+        "category": "Craft",
+        "date": "3 Mei 2026",
+        "readTime": "5 menit baca"
+      },
+      "game-art-pipeline": {
+        "title": "Di dalam pipeline game art kami: dari konsep ke asset shipped",
+        "excerpt": "Cara kami menyelaraskan art direction, constraint teknis, dan milestone review agar tim ship on time tanpa mengorbankan polish.",
+        "category": "Produksi",
+        "date": "21 Apr 2026",
+        "readTime": "8 menit baca"
+      },
+      "motion-systems-for-brands": {
+        "title": "Membangun motion system yang benar-benar bisa dipakai ulang brand",
+        "excerpt": "Perpustakaan motion modular, logo stings, dan micro-interaction UI yang menjaga konsistensi kampanye dalam skala besar.",
+        "category": "Motion",
+        "date": "8 Apr 2026",
+        "readTime": "4 menit baca"
+      },
+      "2d-animation-in-2026": {
+        "title": "Animasi 2D di 2026: pipeline hybrid yang tetap terasa handmade",
+        "excerpt": "Menggabungkan efisiensi rig dengan aksen frame-by-frame — kapan mendorong setiap teknik untuk hasil premium.",
+        "category": "Animasi",
+        "date": "29 Mar 2026",
+        "readTime": "7 menit baca"
+      },
+      "creature-design-breakdown": {
+        "title": "Breakdown creature design: dari mood board ke rig final",
+        "excerpt": "Cara kami mengembangkan boss creature dengan siluet yang terbaca, material storytelling, dan kehadiran sinematik.",
+        "category": "Craft",
+        "date": "14 Mar 2026",
+        "readTime": "6 menit baca"
+      }
+    }
+  },
+  "errors": {
+    "notFoundTitle": "SINYAL HILANG",
+    "notFoundDesc": "Halaman yang Anda cari telah terhanyut ke kehampaan.",
+    "returnHome": "Kembali ke Beranda",
+    "systemError": "KESALAHAN SISTEM",
+    "tryAgain": "Terjadi kesalahan. Coba lagi.",
+    "retry": "Coba Lagi",
+    "home": "Beranda",
+    "pageLoadTitle": "Halaman ini gagal dimuat",
+    "pageLoadDesc": "Terjadi masalah di pihak kami. Silakan coba lagi.",
+    "goHome": "Ke beranda"
+  },
+  "meta": {
+    "rootTitle": "Starlights Visuals — Studio Pengembangan Game & Animasi",
+    "rootDescription": "Starlights Visuals adalah studio kreatif yang spesialisasi pengembangan game, animasi 2D sinematik, dan animasi 3D berkualitas tinggi.",
+    "siteName": "Starlights Visuals"
+  },
+  "videoModal": {
+    "closeVideo": "Tutup video",
+    "close": "Tutup"
+  },
+  "logoMarquee": {
+    "logoAlt": "Logo {{brand}}"
+  }
+}

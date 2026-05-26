@@ -1,0 +1,303 @@
+{
+  "brand": {
+    "name": "Starlights Visuals",
+    "star": "כוכב",
+    "lights": "אורות",
+    "visuals": "VISUALS",
+    "email": "sternlichtespeciale@gmail.com"
+  },
+  "nav": {
+    "portfolio": "תיק עבודות",
+    "services": "שירותים",
+    "blog": "בלוג",
+    "company": "חברה",
+    "contacts": "יצירת קשר",
+    "about": "אודות",
+    "contact": "יצירת קשר",
+    "portfolioCta": "תיק עבודות →"
+  },
+  "header": {
+    "closeMenu": "סגור תפריט",
+    "openMenu": "פתח תפריט",
+    "closeSidebar": "סגור סרגל צד",
+    "openSidebar": "פתח סרגל צד"
+  },
+  "languageSwitcher": {
+    "label": "שפה",
+    "selectLanguage": "בחר שפה",
+    "current": "שפה נוכחית"
+  },
+  "popup": {
+    "title": "לתרגם את האתר?",
+    "message": "שמנו לב שאתם מבקרים מ-{{country}}. האם תרצו לתרגם את האתר ל-{{language}}?",
+    "translate": "תרגם",
+    "stayEnglish": "השאר באנגלית",
+    "close": "סגור הצעת תרגום"
+  },
+  "footer": {
+    "newsletterTitle": "הצטרפו ל",
+    "newsletterHighlight": "קבוצת הכוכבים",
+    "newsletterDesc": "מאחורי הקלעים, חשיפות פרויקטים והקרנות בכורה של טрейлерים.",
+    "emailPlaceholder": "your@email.com",
+    "join": "הצטרפו",
+    "subscribed": "✦ אתם בפנים. ברוכים הבאים ל-Starlights.",
+    "tagline": "סטודיו יצירתי שמגשים דמיון לחיים דרך פיתוח משחקים סוחפים, אנימציה דו-ממדית קולנועית וחוויות תלת-ממד באיכות גבוהה.",
+    "explore": "גלו",
+    "follow": "עקבו",
+    "social": "קישור חברתי",
+    "copyright": "© {{year}} Starlights Visuals. נוצר באור ובקוד."
+  },
+  "home": {
+    "metaTitle": "Starlights Visuals — סטודיו לאנימציה, VFX ו-Game Art",
+    "metaDescription": "סטודיו יצירתי לאנימציה 2D / 3D, VFX ו-game art. אנו מעניקים חיים לעולמות פנטזיה, דמויות וסצנות קולנועיות.",
+    "heroScript": "מעניקים חיים לעולמות —",
+    "heroTitle1": "אנימציה",
+    "heroTitle2": "& VFX",
+    "heroBody": "Starlights Visuals מעניקה חיים למשחקים באמצעות אנימציה ואפקטים ויזואליים ששומרים על שחקנים שקועים ב-gameplay. אנו מנפישים יצורי פנטזיה, דמויות אנושיות, כלי רכב, סביבות, אביזרים ואפילו אובייקטים hard-surface.",
+    "heroAlt": "Hero קולנועי של Starlights Visuals",
+    "seePortfolio": "צפו בתיק העבודות",
+    "startProject": "התחילו פרויקט",
+    "servicesLabel": "מה אנחנו עושים",
+    "servicesTitle": "שירותים",
+    "allServices": "כל השירותים",
+    "showcaseLabel": "עבודות אחרונות",
+    "showcaseTitle1": "עבודות",
+    "showcaseTitle2": "נבחרות",
+    "fullPortfolio": "תיק עבודות מלא",
+    "ctaScript": "בואו נבנה משהו —",
+    "ctaTitle1": "מוכנים",
+    "ctaTitle2": "לשיתוף פעולה?",
+    "services": {
+      "01": { "title": "אנימציה & VFX", "desc": "אנימציה קולנועית 2D & 3D, rigging לדמויות ואפקטים ויזואליים למשחקים ולסרטים." },
+      "02": { "title": "פיתוח משחקים", "desc": "הפקה מלאה — קונסепט, ארט, קוד, אודיו, שחרור." },
+      "03": { "title": "קונסепט & Character Art", "desc": "דמויות מקוריות, יצורים, סביבות ואביזרים שמעגנים את ה-IP שלכם." },
+      "04": { "title": "טрейלרים קולנועיים", "desc": "טрейלers מונחי סיפור שנועדו להשיק משחקים ו-franchises." }
+    },
+    "showcase": {
+      "character": { "tag": "דמות", "title": "Nova Vanguard" },
+      "gameArt": { "tag": "Game Art", "title": "Lumen Worlds" },
+      "animation2d": { "tag": "אנימציה 2D", "title": "Neon Skyline" },
+      "cinematic": { "tag": "קולנועי", "title": "Iron Sentinel" },
+      "creature": { "tag": "יצור", "title": "Abyss Drake" },
+      "motion": { "tag": "Motion", "title": "Pulse" }
+    }
+  },
+  "trustedBy": {
+    "badge": "500+ מותגי DTC",
+    "trusted": "סומכים",
+    "by": "עלינו"
+  },
+  "testimonials": {
+    "badge": "המלצות",
+    "title1": "הם סמכו על העבודה &",
+    "title2": "התוצאות שלנו",
+    "verifiedClient": "לקוח מאומת",
+    "starsAria": "{{rating}} מתוך 5 כוכבים",
+    "videoBadge": "המלצות וידאו",
+    "videoTitle1": "שמעו",
+    "videoTitle2": "מה מותגים אומרים",
+    "videoTitle3": "על Starlights Visuals",
+    "videoModalTitle": "המלצת וידאו — {{name}}",
+    "videoModalDefault": "המלצת וידאו",
+    "playAria": "נגן המלצת וידאו מ-{{name}}",
+    "items": {
+      "elena": {
+        "headline": "אנשי מקצוע אמיתיים שמספקים תוצאות",
+        "quote": "האיכות הקולנועית הרימה מיד את תפיסת המותג שלנו. המעורבות בקמפיין ה-hero קפצה כבר בשבוע הראשון — הוויזואלים מרגישים פרימיום, מכוונים ובלתי אפשרי לגלול מעליהם.",
+        "role": "VP Brand Marketing"
+      },
+      "james": {
+        "headline": "סרט השקה שהרגיש כמו קולנוע",
+        "quote": "Starlights סיפקה סרט השקה שהרגיש כמו טрейлер קולנועי, לא פרסומת מוצר. ה-retention שלנו ב-paid social הוכפל והיצירה הפכה לסטנדרט לכל קמפיין שאחרי.",
+        "role": "Founder & CEO"
+      },
+      "amara": {
+        "headline": "מקצועיות כירורגית בדדליין גלובלי",
+        "quote": "מה-storyboard ועד ה-color grade הסופי, הצוות היה כירורגי לגבי craft ודדליינים. השקנו קמפיין גלובלי עם 2M+ צפיות ו-brand lift שההנהלה עדיין מצטטת בישיבות דירקטוריון.",
+        "role": "Head of Creative"
+      }
+    },
+    "videoRoles": {
+      "ceo": "CEO",
+      "artDirector": "Art Director",
+      "founder": "Founder",
+      "headProduction": "Head of Production",
+      "vpMarketing": "VP Marketing",
+      "coFounder": "Co-Founder"
+    }
+  },
+  "servicesPage": {
+    "metaTitle": "שירותים — Starlights Visuals",
+    "metaDescription": "אנימציה 2D, אנימציה 3D, פיתוח משחקים, character design, motion graphics, VFX וטрейלרים קולנועיים.",
+    "label": "מה אנחנו בונים",
+    "title": "שירותים",
+    "subtitle": "סטודיו אחד, כל שלב ההפקה — מהסקיצה הראשונה ועד הפיקסל האחרון.",
+    "ctaTitle1": "יש לכם",
+    "ctaTitle2": "פרויקט",
+    "ctaTitle3": "בראש?",
+    "ctaDesc": "ספרו לנו את החזון — אנחנו מביאים את העוצמה.",
+    "ctaButton": "צרו קשר",
+    "items": {
+      "2d": { "title": "אנימציה 2D", "desc": "2D frame-by-frame ו-rigged לסדרות, שורטים, explainers ומשחקים. שילוב של craft קלאסי עם pipelines דיגיטליים." },
+      "3d": { "title": "אנימציה 3D", "desc": "3D stylized ו-phoreal — דמויות, סביבות ורצפי סצנות קולנועיים מלאים עם polish ברמת feature." },
+      "game": { "title": "פיתוח משחקים", "desc": "הפקת משחקים end-to-end: קונסепט, ארט, קוד, אודיו והשקה. Unreal, Unity ו-pipelines מותאמים." },
+      "character": { "title": "Character Design", "desc": "דמויות מקוריות, יצורים ו-concept art שמעגנים את ה-IP ופוטנציאל ה-merch שלכם." },
+      "motion": { "title": "Motion Graphics", "desc": "Motion למותג, אנימציית UI, חבילות broadcast וסרטוני explainer עם polish קולנועי." },
+      "vfx": { "title": "Visual Effects (VFX)", "desc": "Compositing, particle FX ואינטגרציית CG למשחקים, סרטים וקמפיינים דיגיטליים." },
+      "trailer": { "title": "טрейלרים קולנועיים", "desc": "טрейלers מונחי סיפור להשקת משחקים, IPs ומותגים עם השפעה מקסימלית." }
+    }
+  },
+  "aboutPage": {
+    "metaTitle": "אודות — Starlights Visuals",
+    "metaDescription": "Starlights Visuals הוא סטודיו יצירתי נלהב המתמחה בפיתוח משחקים סוחפים, אנימציה 2D קולנועית ואנימציה 3D באיכות גבוהה.",
+    "label": "מי אנחנו",
+    "title1": "סטודיו שנבנה על",
+    "title2": "אור, קוד וסיפור",
+    "p1": "Starlights Visuals הוא סטודיו יצירתי נלהב בצומת של משחקים, אנימציה וסיפור קולנועי. אנו קיימים כדי להגשים דמיון לחיים — בין אם מדובר במשחק open-world עצום, בסדרה 2D בעבודת יד או בטрейлер 3D photoreal.",
+    "p2": "מ-concept artists ו-3D sculptors ועד gameplay engineers ו-motion designers, כל חבר צוות אובססיבי לדבר אחד: לגרום לקהל להרגיש משהו. אנחנו לא רק בונים פיקסלים יפים — אנחנו בונים עולמות שאנשים רוצים לחיות בהם.",
+    "p3": "אנו משתפים פעולה עם יוצרים עצמאיים, סטודios AAA ומותגים גלובליים כדי לספק עבודה שחזקה מגודלה, עומדת בדדליינים ללא פשרות ונראית כאילו עלתה פי שניים מהתקציב.",
+    "valuesLabel": "ערכי ליבה",
+    "valuesTitle": "מה מניע אותנו",
+    "values": {
+      "imagination": { "title": "דמיון קודם", "desc": "כל פרויקט מתחיל ברעיון נועז ובדף לבן." },
+      "craft": { "title": "אובססיה ל-craft", "desc": "פריים אחר פריים, פיקסל אחר פיקסל — איכות לא ניתנת למשא ומתן." },
+      "energy": { "title": "אנרגיה קולנועית", "desc": "אנחנו רודפים אחרי goosebumps. אם זה לא נוגע בנו, אנחנו מחדדים." },
+      "story": { "title": "מונחה סיפור", "desc": "טכנולוגיה משרתת סיפור. תמיד." }
+    },
+    "stats": {
+      "projects": "פרויקטים שהושקו",
+      "clients": "לקוחות גלובליים",
+      "awards": "פרסים",
+      "years": "שנות craft"
+    }
+  },
+  "contactPage": {
+    "metaTitle": "יצירת קשר — Starlights Visuals",
+    "metaDescription": "צרו קשר עם Starlights Visuals לפרויקטי פיתוח משחקים, אנימציה 2D & 3D, motion graphics, VFX וטрейלרים קולנועיים.",
+    "label": "בואו נדבר",
+    "title": "יצירת קשר",
+    "subtitle": "פניות הפקה, שיתופי פעולה או סתם שלום — שלחו לנו אות.",
+    "formTitle": "התחילו פרויקט",
+    "formDesc": "מלאו את הטופס למטה ונחזור אליכם תוך 24 שעות.",
+    "name": "שם",
+    "email": "אימייל",
+    "projectType": "סוג פרויקט",
+    "message": "ספרו לנו עליו",
+    "send": "שלחו הודעה",
+    "sent": "✦ ההודעה התקבלה. ניצור קשר בקרוב.",
+    "emailUs": "שלחו אימייל",
+    "emailDesc": "לפרויקטים חדשים, עיתונות ושותפויות.",
+    "studio": "סטודיו",
+    "studioDesc": "Remote-first · מסירה גלובלית",
+    "responseTime": "זמן תגובה",
+    "responseDesc": "תוך 24 שעות, ב'-ו'.",
+    "projectTypes": {
+      "game": "פיתוח משחקים",
+      "2d": "אנימציה 2D",
+      "3d": "אנימציה 3D",
+      "trailer": "טрейлер קולנועי",
+      "character": "Character Design",
+      "motion": "Motion Graphics / VFX",
+      "other": "אחר"
+    }
+  },
+  "portfolioPage": {
+    "metaTitle": "תיק עבודות — Starlights Visuals",
+    "metaDescription": "פרויקטים נבחרים: סדרות אנימציה, טрейלרים למשחקים, character designs ו-showreels של הסטודיו מאת Starlights Visuals.",
+    "label": "עבודות נבחרות",
+    "title1": "PORT",
+    "title2": "FOLIO",
+    "subtitle": "מבט לעולמות, דמויות וסיפורים שעזרנו להעניק להם חיים.",
+    "projects": {
+      "trailer": { "tag": "טрейлер קולנועי", "title": "Iron Sentinel", "desc": "טрейлер השקה למשחק AAA." },
+      "character": { "tag": "Character Design", "title": "Nova Vanguard", "desc": "גיליון גיבור ראשי." },
+      "game": { "tag": "Game Art", "title": "Lumen Worlds", "desc": "Environment art ל-open-world." },
+      "2d": { "tag": "אנימציה 2D", "title": "Neon Skyline", "desc": "פרק פיילוט בהשראת אנימה." },
+      "creature": { "tag": "Creature Design", "title": "Crystal Wyrm", "desc": "קונסепט ל-boss creature." },
+      "motion": { "tag": "Motion Graphics", "title": "Pulse Identity", "desc": "מערכת motion למותג." }
+    }
+  },
+  "blogPage": {
+    "metaTitle": "בלוג — Starlights Visuals",
+    "metaDescription": "תובנות על אנימציה, VFX, game art, טрейלרים קולנועיים ו-brand storytelling פרימיום מ-Starlights Visuals.",
+    "label": "יומן הסטודיו",
+    "title1": "THE",
+    "title2": "BLOG",
+    "subtitle": "מחשבות על craft קולנועי, workflows של הפקה ובניית ויזואלים שממירים.",
+    "featured": "מומלץ · {{category}}",
+    "backToBlog": "חזרה לבלוג",
+    "startProject": "התחילו פרויקט",
+    "moreFromJournal": "עוד מהיומן",
+    "postBody1": "ב-Starlights Visuals, אנו מתייחסים לכל פריים כהזדמנות להמרה — לא רק כתמונה יפה. מאמר זה מרחיב את החשיבה מאחורי עבודת ה-{{category}} שלנו וההחלטות שמפרידות בין creative טוב ל-creative מוכן להשקה.",
+    "postBody2": "בין אם אתם משיקים טрейлер, מרחיבים מערכת motion למותג או בונים game art למוצר live, אותו עיקרון חל: בהירות סיפור קודם, polish שני, ועריכה חסרת רחמים אחרונה. המשמעת הזו היא איך צוותים עומדים בדדליינים בלי תחושת \"כמעט שם\".",
+    "postBody3": "רוצים ליישם את החשיבה הזו בפרויקט הבא? נשמח לשמוע מה אתם בונים — שלחו brief ונמפה מסלול קולנועי מקונסепט למסירה.",
+    "posts": {
+      "cinematic-trailers-that-convert": {
+        "title": "למה טрейלרים קולנועיים ממירים טוב יותר מ-demo מוצר",
+        "excerpt": "סרטי השקה story-first בונים stakes רגשיים לפני ה-CTA. כך אנו מבנים hooks, pacing ו-grade ל-retention מקסימלי.",
+        "category": "אסטרטגיה",
+        "date": "12 במאי 2026",
+        "readTime": "6 דקות קריאה"
+      },
+      "character-design-for-ip": {
+        "title": "Character design שמעגן את ה-IP שלכם בכל ערוץ",
+        "excerpt": "מקריאות silhouette ועד turnarounds מוכנים ל-merch — ה-checklist שאנו משתמשים בו לפני שהגיבור נכנס להפקה.",
+        "category": "Craft",
+        "date": "3 במאי 2026",
+        "readTime": "5 דקות קריאה"
+      },
+      "game-art-pipeline": {
+        "title": "בתוך ה-pipeline של game art: מקונסепט ל-assets שהושקו",
+        "excerpt": "איך אנו מיישרים art direction, מגבלות טכניות ו-milestone reviews כדי שצוותים ישלחו בזמן בלי לוותר על polish.",
+        "category": "הפקה",
+        "date": "21 באפר׳ 2026",
+        "readTime": "8 דקות קריאה"
+      },
+      "motion-systems-for-brands": {
+        "title": "בניית מערכות motion שמותגים באמת יכולים לעשות בהן שימוש חוזר",
+        "excerpt": "ספריות motion מודולריות, logo stings ו-micro-interactions ב-UI ששומרים על עקביות קמפיינים בקנה מידה.",
+        "category": "Motion",
+        "date": "8 באפר׳ 2026",
+        "readTime": "4 דקות קריאה"
+      },
+      "2d-animation-in-2026": {
+        "title": "אנימציה 2D ב-2026: pipelines היברידיים שעדיין מרגישים בעבודת יד",
+        "excerpt": "שילוב יעילות rig עם הדגשות frame-by-frame — מתי לדחוף כל טכניקה לתוצאות premium.",
+        "category": "אנימציה",
+        "date": "29 במרץ 2026",
+        "readTime": "7 דקות קריאה"
+      },
+      "creature-design-breakdown": {
+        "title": "פירוק creature design: מ-mood board ל-rig סופי",
+        "excerpt": "מבט על איך אנו מפתחים boss creatures עם silhouettes קריאים, material storytelling ונוכחות קולנועית.",
+        "category": "Craft",
+        "date": "14 במרץ 2026",
+        "readTime": "6 דקות קריאה"
+      }
+    }
+  },
+  "errors": {
+    "notFoundTitle": "האות אבד",
+    "notFoundDesc": "הדף שחיפשתם נסחף אל הריק.",
+    "returnHome": "חזרה לדף הבית",
+    "systemError": "שגיאת מערכת",
+    "tryAgain": "משהו השתבש. נסו שוב.",
+    "retry": "נסו שוב",
+    "home": "דף הבית",
+    "pageLoadTitle": "הדף לא נטען",
+    "pageLoadDesc": "משהו השתבש בצד שלנו. אנא נסו שוב.",
+    "goHome": "לדף הבית"
+  },
+  "meta": {
+    "rootTitle": "Starlights Visuals — סטודיו לפיתוח משחקים ואנימציה",
+    "rootDescription": "Starlights Visuals הוא סטודיו יצירתי המתמחה בפיתוח משחקים, אנימציה 2D קולנועית ואנימציה 3D באיכות גבוהה.",
+    "siteName": "Starlights Visuals"
+  },
+  "videoModal": {
+    "closeVideo": "סגור וידאו",
+    "close": "סגור"
+  },
+  "logoMarquee": {
+    "logoAlt": "לוגו {{brand}}"
+  }
+}

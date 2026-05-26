@@ -1,5 +1,6 @@
 import { brandLogos, type BrandLogo } from "@/data/brand-logos";
 import { cn } from "@/lib/utils";
+import { useTranslation } from "react-i18next";
 
 type LogoMarqueeProps = {
   className?: string;
@@ -17,10 +18,11 @@ function splitIntoRows(logos: BrandLogo[]): BrandLogo[][] {
 }
 
 function LogoItem({ logo, ariaHidden }: { logo: BrandLogo; ariaHidden?: boolean }) {
+  const { t } = useTranslation();
   return (
     <img
       src={logo.src}
-      alt={ariaHidden ? undefined : `${logo.name} logo`}
+      alt={ariaHidden ? undefined : t("logoMarquee.logoAlt", { brand: logo.name })}
       width={160}
       height={48}
       loading="lazy"

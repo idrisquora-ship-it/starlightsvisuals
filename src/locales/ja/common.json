@@ -1,0 +1,303 @@
+{
+  "brand": {
+    "name": "Starlights Visuals",
+    "star": "STAR",
+    "lights": "LIGHTS",
+    "visuals": "VISUALS",
+    "email": "sternlichtespeciale@gmail.com"
+  },
+  "nav": {
+    "portfolio": "ポートフォリオ",
+    "services": "サービス",
+    "blog": "ブログ",
+    "company": "会社情報",
+    "contacts": "お問い合わせ",
+    "about": "私たちについて",
+    "contact": "お問い合わせ",
+    "portfolioCta": "ポートフォリオ →"
+  },
+  "header": {
+    "closeMenu": "メニューを閉じる",
+    "openMenu": "メニューを開く",
+    "closeSidebar": "サイドバーを閉じる",
+    "openSidebar": "サイドバーを開く"
+  },
+  "languageSwitcher": {
+    "label": "言語",
+    "selectLanguage": "言語を選択",
+    "current": "現在の言語"
+  },
+  "popup": {
+    "title": "このサイトを翻訳しますか？",
+    "message": "{{country}} からのアクセスを検出しました。このウェブサイトを {{language}} に翻訳しますか？",
+    "translate": "翻訳する",
+    "stayEnglish": "英語のまま",
+    "close": "翻訳の提案を閉じる"
+  },
+  "footer": {
+    "newsletterTitle": "星座に",
+    "newsletterHighlight": "参加する",
+    "newsletterDesc": "舞台裏の最新情報、プロジェクト公開、トレーラー初公開。",
+    "emailPlaceholder": "your@email.com",
+    "join": "登録する",
+    "subscribed": "✦ 登録完了。Starlights へようこそ。",
+    "tagline": "没入型ゲーム開発、シネマティック2Dアニメーション、高品質3D体験を通じて、想像力に命を吹き込むクリエイティブスタジオ。",
+    "explore": "探索",
+    "follow": "フォロー",
+    "social": "ソーシャルリンク",
+    "copyright": "© {{year}} Starlights Visuals. 光とコードで創造。"
+  },
+  "home": {
+    "metaTitle": "Starlights Visuals — アニメーション・VFX・ゲームアートスタジオ",
+    "metaDescription": "2D / 3Dアニメーション、VFX、ゲームアートのクリエイティブスタジオ。ファンタジーの世界、キャラクター、シネマティックに命を吹き込みます。",
+    "heroScript": "世界に命を吹き込む —",
+    "heroTitle1": "アニメーション",
+    "heroTitle2": "& VFX",
+    "heroBody": "Starlights Visuals は、プレイヤーをゲームプレイに没入させるアニメーションとビジュアルエフェクトでゲームに命を吹き込みます。ファンタジークリーチャー、人間キャラクター、乗り物、環境、小道具、ハードサーフェスまで幅広くアニメーションします。",
+    "heroAlt": "Starlights Visuals シネマティックヒーロー",
+    "seePortfolio": "ポートフォリオを見る",
+    "startProject": "プロジェクトを始める",
+    "servicesLabel": "私たちの仕事",
+    "servicesTitle": "サービス",
+    "allServices": "すべてのサービス",
+    "showcaseLabel": "最近の作品",
+    "showcaseTitle1": "厳選",
+    "showcaseTitle2": "作品",
+    "fullPortfolio": "フルポートフォリオ",
+    "ctaScript": "一緒に創りましょう —",
+    "ctaTitle1": "コラボレーション",
+    "ctaTitle2": "の準備は？",
+    "services": {
+      "01": { "title": "アニメーション & VFX", "desc": "ゲームと映画向けのシネマティック2D & 3Dアニメーション、キャラクターリグ、ビジュアルエフェクト。" },
+      "02": { "title": "ゲーム開発", "desc": "フルサイクル制作 — コンセプト、アート、コード、オーディオ、リリース。" },
+      "03": { "title": "コンセプト & キャラクターアート", "desc": "IPの核となるオリジナルキャラクター、クリーチャー、環境、小道具。" },
+      "04": { "title": "シネマティックトレーラー", "desc": "ゲームやフランチャイズのローンチに特化したストーリー主導のトレーラー。" }
+    },
+    "showcase": {
+      "character": { "tag": "キャラクター", "title": "Nova Vanguard" },
+      "gameArt": { "tag": "ゲームアート", "title": "Lumen Worlds" },
+      "animation2d": { "tag": "2Dアニメーション", "title": "Neon Skyline" },
+      "cinematic": { "tag": "シネマティック", "title": "Iron Sentinel" },
+      "creature": { "tag": "クリーチャー", "title": "Abyss Drake" },
+      "motion": { "tag": "モーション", "title": "Pulse" }
+    }
+  },
+  "trustedBy": {
+    "badge": "500+ DTCブランド",
+    "trusted": "信頼",
+    "by": "される"
+  },
+  "testimonials": {
+    "badge": "お客様の声",
+    "title1": "私たちの仕事と",
+    "title2": "成果を信頼",
+    "verifiedClient": "認証済みクライアント",
+    "starsAria": "5段階中 {{rating}}",
+    "videoBadge": "動画のお客様の声",
+    "videoTitle1": "ブランドが語る",
+    "videoTitle2": "Starlights Visuals",
+    "videoTitle3": "について",
+    "videoModalTitle": "動画のお客様の声 — {{name}}",
+    "videoModalDefault": "動画のお客様の声",
+    "playAria": "{{name}} の動画のお客様の声を再生",
+    "items": {
+      "elena": {
+        "headline": "結果を届けた真のプロフェッショナル",
+        "quote": "シネマティックな品質が瞬時にブランド認知を向上させました。ヒーローキャンペーンのエンゲージメントは初週から急増 — ビジュアルはプレミアムで意図的、スクロールを止めずにはいられません。",
+        "role": "VP of Brand Marketing"
+      },
+      "james": {
+        "headline": "劇場のようなローンチフィルム",
+        "quote": "Starlights は製品広告ではなく、劇場版トレーラーのようなローンチフィルムを届けてくれました。有料ソーシャルのリテンションは倍増し、そのクリエイティブは以降のすべてのキャンペーンの基準になりました。",
+        "role": "Founder & CEO"
+      },
+      "amara": {
+        "headline": "グローバル期限に対する精密なクラフト",
+        "quote": "ストーリーボードから最終カラーグレーディングまで、チームはクラフトと期限に対して外科的な精度でした。200万回以上の再生を記録するグローバルキャンペーンをリリースし、経営陣が今も取締役会で言及するブランドリフトを達成しました。",
+        "role": "Head of Creative"
+      }
+    },
+    "videoRoles": {
+      "ceo": "CEO",
+      "artDirector": "Art Director",
+      "founder": "Founder",
+      "headProduction": "Head of Production",
+      "vpMarketing": "VP Marketing",
+      "coFounder": "Co-Founder"
+    }
+  },
+  "servicesPage": {
+    "metaTitle": "サービス — Starlights Visuals",
+    "metaDescription": "2Dアニメーション、3Dアニメーション、ゲーム開発、キャラクターデザイン、モーショングラフィックス、VFX、シネマティックトレーラー。",
+    "label": "私たちが創るもの",
+    "title": "サービス",
+    "subtitle": "一つのスタジオで、最初のスケッチから最終ピクセルまで、制作のすべての段階を。",
+    "ctaTitle1": "プロジェクトを",
+    "ctaTitle2": "お考え",
+    "ctaTitle3": "ですか？",
+    "ctaDesc": "ビジョンをお聞かせください — 私たちが火力を提供します。",
+    "ctaButton": "お問い合わせ",
+    "items": {
+      "2d": { "title": "2Dアニメーション", "desc": "シリーズ、ショート、エクスプレイナー、ゲーム向けのフレームバイフレーム & リグ2D。クラシックなクラフトとデジタルパイプラインを融合。" },
+      "3d": { "title": "3Dアニメーション", "desc": "スタイライズドからフォトリアルまで — キャラクター、環境、フィーチャー級の仕上がりのフルシネマティックシーケンス。" },
+      "game": { "title": "ゲーム開発", "desc": "エンドツーエンドのゲーム制作：コンセプト、アート、コード、オーディオ、ローンチ。Unreal、Unity、カスタムパイプライン。" },
+      "character": { "title": "キャラクターデザイン", "desc": "IPとマーチャンダイジングの可能性を支えるオリジナルキャラクター、クリーチャー、コンセプトアート。" },
+      "motion": { "title": "モーショングラフィックス", "desc": "ブランドモーション、UIアニメーション、放送パッケージ、シネマティックな仕上がりのエクスプレイナー動画。" },
+      "vfx": { "title": "ビジュアルエフェクト (VFX)", "desc": "ゲーム、映画、デジタルキャンペーン向けのコンポジット、パーティクルFX、CG統合。" },
+      "trailer": { "title": "シネマティックトレーラー", "desc": "ゲーム、IP、ブランドを最大のインパクトでローンチするストーリー主導のトレーラー。" }
+    }
+  },
+  "aboutPage": {
+    "metaTitle": "私たちについて — Starlights Visuals",
+    "metaDescription": "Starlights Visuals は、没入型ゲーム開発、シネマティック2Dアニメーション、高品質3Dアニメーション体験を専門とする情熱的なクリエイティブスタジオです。",
+    "label": "私たちについて",
+    "title1": "光・コード・ストーリーで",
+    "title2": "築かれたスタジオ",
+    "p1": "Starlights Visuals は、ゲーム、アニメーション、シネマティックストーリーテリングの交差点に立つ情熱的なクリエイティブスタジオです。壮大なオープンワールドゲーム、手作りの2Dシリーズ、フォトリアル3Dトレーラー — 想像力に命を吹き込むために存在しています。",
+    "p2": "コンセプトアーティストや3Dスカルプターから、ゲームプレイエンジニア、モーションデザイナーまで、チーム全員が一つのことに夢中です：観客に何かを感じさせること。美しいピクセルを作るだけでなく、人々が住みたいと思う世界を創ります。",
+    "p3": "インディークリエイター、AAAスタジオ、グローバルブランドと提携し、期待を超える成果、妥協のない期限遵守、予算の2倍かかったように見える作品を届けます。",
+    "valuesLabel": "コアバリュー",
+    "valuesTitle": "私たちを動かすもの",
+    "values": {
+      "imagination": { "title": "想像力ファースト", "desc": "すべてのプロジェクトは大胆なアイデアと白紙のキャンバスから始まります。" },
+      "craft": { "title": "クラフトへの執着", "desc": "フレームごと、ピクセルごと — 品質は譲れません。" },
+      "energy": { "title": "シネマティックエネルギー", "desc": "鳥肌を追い求めます。心が動かなければ、磨き込みます。" },
+      "story": { "title": "ストーリー主導", "desc": "テクノロジーはストーリーのために。常に。" }
+    },
+    "stats": {
+      "projects": "リリースしたプロジェクト",
+      "clients": "グローバルクライアント",
+      "awards": "受賞数",
+      "years": "クラフトの年数"
+    }
+  },
+  "contactPage": {
+    "metaTitle": "お問い合わせ — Starlights Visuals",
+    "metaDescription": "ゲーム開発、2D & 3Dアニメーション、モーショングラフィックス、VFX、シネマティックトレーラープロジェクトについて Starlights Visuals へお問い合わせください。",
+    "label": "お話しましょう",
+    "title": "お問い合わせ",
+    "subtitle": "制作のご相談、コラボレーション、またはご挨拶 — シグナルをお送りください。",
+    "formTitle": "プロジェクトを始める",
+    "formDesc": "以下のフォームにご記入ください。24時間以内にご返信します。",
+    "name": "お名前",
+    "email": "メール",
+    "projectType": "プロジェクトタイプ",
+    "message": "詳細をお聞かせください",
+    "send": "メッセージを送信",
+    "sent": "✦ メッセージを受信しました。まもなくご連絡いたします。",
+    "emailUs": "メールで連絡",
+    "emailDesc": "新規プロジェクト、プレス、パートナーシップについて。",
+    "studio": "スタジオ",
+    "studioDesc": "リモートファースト · グローバルデリバリー",
+    "responseTime": "返信時間",
+    "responseDesc": "24時間以内、月 – 金。",
+    "projectTypes": {
+      "game": "ゲーム開発",
+      "2d": "2Dアニメーション",
+      "3d": "3Dアニメーション",
+      "trailer": "シネマティックトレーラー",
+      "character": "キャラクターデザイン",
+      "motion": "モーショングラフィックス / VFX",
+      "other": "その他"
+    }
+  },
+  "portfolioPage": {
+    "metaTitle": "ポートフォリオ — Starlights Visuals",
+    "metaDescription": "厳選プロジェクト：アニメーションシリーズ、ゲームトレーラー、キャラクターデザイン、Starlights Visuals のスタジオショーケースリール。",
+    "label": "厳選作品",
+    "title1": "ポート",
+    "title2": "フォリオ",
+    "subtitle": "私たちが命を吹き込んだ世界、キャラクター、ストーリーの一端。",
+    "projects": {
+      "trailer": { "tag": "シネマティックトレーラー", "title": "Iron Sentinel", "desc": "AAAゲームローンチトレーラー。" },
+      "character": { "tag": "キャラクターデザイン", "title": "Nova Vanguard", "desc": "ヒーロー主人公シート。" },
+      "game": { "tag": "ゲームアート", "title": "Lumen Worlds", "desc": "オープンワールド環境アート。" },
+      "2d": { "tag": "2Dアニメーション", "title": "Neon Skyline", "desc": "アニメ風パイロットエピソード。" },
+      "creature": { "tag": "クリーチャーデザイン", "title": "Crystal Wyrm", "desc": "ボスクリーチャーコンセプト。" },
+      "motion": { "tag": "モーショングラフィックス", "title": "Pulse Identity", "desc": "ブランドモーションシステム。" }
+    }
+  },
+  "blogPage": {
+    "metaTitle": "ブログ — Starlights Visuals",
+    "metaDescription": "Starlights Visuals によるアニメーション、VFX、ゲームアート、シネマティックトレーラー、プレミアムブランドストーリーテリングに関するインサイト。",
+    "label": "スタジオジャーナル",
+    "title1": "ブ",
+    "title2": "ログ",
+    "subtitle": "シネマティッククラフト、制作ワークフロー、コンバージョンを生むビジュアルについて。",
+    "featured": "注目 · {{category}}",
+    "backToBlog": "ブログに戻る",
+    "startProject": "プロジェクトを始める",
+    "moreFromJournal": "ジャーナルの他の記事",
+    "postBody1": "Starlights Visuals では、すべてのフレームを美しい画像ではなく、コンバージョンの機会として扱います。この記事では、{{category}} 作品の背景にある思考と、優れたクリエイティブとローンチ準備完了のクリエイティブを分ける判断について掘り下げます。",
+    "postBody2": "トレーラーのリリース、ブランドモーションシステムのスケール、ライブプロダクト向けゲームアートの制作 — いずれも同じ原則が当てはまります：ストーリーの明確さが第一、仕上げが第二、容赦ない編集が最後。この規律こそが、チームが「あと少し」の感覚なしに期限を守る方法です。",
+    "postBody3": "次のプロジェクトにこの考え方を適用したいですか？あなたが創っているものをぜひお聞かせください — ブリーフをお送りいただければ、コンセプトから納品までのシネマティックな道筋を描きます。",
+    "posts": {
+      "cinematic-trailers-that-convert": {
+        "title": "シネマティックトレーラーがプロダクトデモよりコンバートする理由",
+        "excerpt": "ストーリーファーストのローンチフィルムはCTAの前に感情的な緊張感を構築。最大リテンションのためのフック、ペーシング、グレーディングの構造。",
+        "category": "戦略",
+        "date": "2026年5月12日",
+        "readTime": "6分で読める"
+      },
+      "character-design-for-ip": {
+        "title": "あらゆるチャネルでIPを支えるキャラクターデザイン",
+        "excerpt": "シルエットの可読性からマーチ対応ターンアラウンドまで — ヒーローが制作に入る前に使うチェックリスト。",
+        "category": "クラフト",
+        "date": "2026年5月3日",
+        "readTime": "5分で読める"
+      },
+      "game-art-pipeline": {
+        "title": "ゲームアートパイプラインの内部：コンセプトから納品アセットまで",
+        "excerpt": "アートディレクション、技術的制約、マイルストーンレビューをどう整合させ、仕上げを犠牲にせず期限通りにリリースするか。",
+        "category": "制作",
+        "date": "2026年4月21日",
+        "readTime": "8分で読める"
+      },
+      "motion-systems-for-brands": {
+        "title": "ブランドが実際に再利用できるモーションシステムの構築",
+        "excerpt": "モジュラーなモーションライブラリ、ロゴスティング、UIマイクロインタラクションで大規模キャンペーンの一貫性を維持。",
+        "category": "モーション",
+        "date": "2026年4月8日",
+        "readTime": "4分で読める"
+      },
+      "2d-animation-in-2026": {
+        "title": "2026年の2Dアニメーション：手作り感を保つハイブリッドパイプライン",
+        "excerpt": "リグの効率とフレームバイフレームのアクセントを組み合わせる — プレミアムな結果のために各技法をいつ押し出すか。",
+        "category": "アニメーション",
+        "date": "2026年3月29日",
+        "readTime": "7分で読める"
+      },
+      "creature-design-breakdown": {
+        "title": "クリーチャーデザイン解説：ムードボードから最終リグまで",
+        "excerpt": "読みやすいシルエット、マテリアルストーリーテリング、シネマティックな存在感を持つボスクリーチャーの開発方法。",
+        "category": "クラフト",
+        "date": "2026年3月14日",
+        "readTime": "6分で読める"
+      }
+    }
+  },
+  "errors": {
+    "notFoundTitle": "信号ロスト",
+    "notFoundDesc": "お探しのページは虚空に漂いました。",
+    "returnHome": "ホームに戻る",
+    "systemError": "システムエラー",
+    "tryAgain": "問題が発生しました。もう一度お試しください。",
+    "retry": "再試行",
+    "home": "ホーム",
+    "pageLoadTitle": "このページは読み込まれませんでした",
+    "pageLoadDesc": "こちら側で問題が発生しました。もう一度お試しください。",
+    "goHome": "ホームへ"
+  },
+  "meta": {
+    "rootTitle": "Starlights Visuals — ゲーム開発 & アニメーションスタジオ",
+    "rootDescription": "Starlights Visuals は、ゲーム開発、シネマティック2Dアニメーション、高品質3Dアニメーションを専門とするクリエイティブスタジオです。",
+    "siteName": "Starlights Visuals"
+  },
+  "videoModal": {
+    "closeVideo": "動画を閉じる",
+    "close": "閉じる"
+  },
+  "logoMarquee": {
+    "logoAlt": "{{brand}} ロゴ"
+  }
+}

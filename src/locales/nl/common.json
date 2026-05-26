@@ -1,0 +1,303 @@
+{
+  "brand": {
+    "name": "Starlights Visuals",
+    "star": "STAR",
+    "lights": "LIGHTS",
+    "visuals": "VISUALS",
+    "email": "sternlichtespeciale@gmail.com"
+  },
+  "nav": {
+    "portfolio": "Portfolio",
+    "services": "Diensten",
+    "blog": "Blog",
+    "company": "Studio",
+    "contacts": "Contact",
+    "about": "Over ons",
+    "contact": "Contact",
+    "portfolioCta": "Portfolio →"
+  },
+  "header": {
+    "closeMenu": "Menu sluiten",
+    "openMenu": "Menu openen",
+    "closeSidebar": "Zijbalk sluiten",
+    "openSidebar": "Zijbalk openen"
+  },
+  "languageSwitcher": {
+    "label": "Taal",
+    "selectLanguage": "Taal kiezen",
+    "current": "Huidige taal"
+  },
+  "popup": {
+    "title": "Deze site vertalen?",
+    "message": "We zien dat u vanuit {{country}} bezoekt. Wilt u deze website vertalen naar het {{language}}?",
+    "translate": "Vertalen",
+    "stayEnglish": "Engels houden",
+    "close": "Vertaalsuggestie sluiten"
+  },
+  "footer": {
+    "newsletterTitle": "WORD LID VAN DE",
+    "newsletterHighlight": "STERRENBEELD",
+    "newsletterDesc": "Behind-the-scenes drops, projectonthullingen en trailerpremières.",
+    "emailPlaceholder": "your@email.com",
+    "join": "Aanmelden",
+    "subscribed": "✦ Je bent binnen. Welkom bij Starlights.",
+    "tagline": "Een creatief studio die verbeelding tot leven brengt met meeslepende game-ontwikkeling, cinematische 2D-animatie en hoogwaardige 3D-ervaringen.",
+    "explore": "Ontdekken",
+    "follow": "Volgen",
+    "social": "Sociale link",
+    "copyright": "© {{year}} Starlights Visuals. Gemaakt met licht & code."
+  },
+  "home": {
+    "metaTitle": "Starlights Visuals — Animatie, VFX & Game Art Studio",
+    "metaDescription": "Een creatief studio voor 2D- / 3D-animatie, VFX en game art. Wij brengen fantasywerelden, personages en cinematics tot leven.",
+    "heroScript": "Werelden tot leven brengen —",
+    "heroTitle1": "ANIMATIE",
+    "heroTitle2": "& VFX",
+    "heroBody": "Starlights Visuals brengt games tot leven met animatie en visuele effecten die spelers in het spel houden. Wij animeren fantasywezens, menselijke personages, voertuigen, omgevingen, props en zelfs hard-surface objecten.",
+    "heroAlt": "Starlights Visuals cinematische hero",
+    "seePortfolio": "Bekijk portfolio",
+    "startProject": "Start een project",
+    "servicesLabel": "Wat we doen",
+    "servicesTitle": "DIENSTEN",
+    "allServices": "Alle diensten",
+    "showcaseLabel": "Recent werk",
+    "showcaseTitle1": "GESELECTEERD",
+    "showcaseTitle2": "WERK",
+    "fullPortfolio": "Volledig portfolio",
+    "ctaScript": "Laten we iets bouwen —",
+    "ctaTitle1": "KLAAR OM",
+    "ctaTitle2": "SAMEN TE WERKEN?",
+    "services": {
+      "01": { "title": "Animatie & VFX", "desc": "Cinematische 2D- en 3D-animatie, character rigs en visuele effecten voor games en films." },
+      "02": { "title": "Game-ontwikkeling", "desc": "Volledige productiecyclus — concept, art, code, audio, lancering." },
+      "03": { "title": "Concept- & character art", "desc": "Originele personages, wezens, omgevingen en props die uw IP verankeren." },
+      "04": { "title": "Cinematische trailers", "desc": "Verhaalgedreven trailers om games en franchises te lanceren." }
+    },
+    "showcase": {
+      "character": { "tag": "Personage", "title": "Nova Vanguard" },
+      "gameArt": { "tag": "Game art", "title": "Lumen Worlds" },
+      "animation2d": { "tag": "2D-animatie", "title": "Neon Skyline" },
+      "cinematic": { "tag": "Cinematic", "title": "Iron Sentinel" },
+      "creature": { "tag": "Wezen", "title": "Abyss Drake" },
+      "motion": { "tag": "Motion", "title": "Pulse" }
+    }
+  },
+  "trustedBy": {
+    "badge": "500+ DTC-merken",
+    "trusted": "Vertrouwd",
+    "by": "door"
+  },
+  "testimonials": {
+    "badge": "Getuigenissen",
+    "title1": "Zij vertrouwden ons werk &",
+    "title2": "resultaten",
+    "verifiedClient": "Geverifieerde klant",
+    "starsAria": "{{rating}} van 5 sterren",
+    "videoBadge": "Videotestimonials",
+    "videoTitle1": "Hoor",
+    "videoTitle2": "wat merken zeggen",
+    "videoTitle3": "over Starlights Visuals",
+    "videoModalTitle": "Videotestimonial — {{name}}",
+    "videoModalDefault": "Videotestimonial",
+    "playAria": "Videotestimonial afspelen van {{name}}",
+    "items": {
+      "elena": {
+        "headline": "Echte professionals die resultaten leverden",
+        "quote": "De cinematische kwaliteit tilde onze merkperceptie direct naar een hoger niveau. De betrokkenheid op onze hero-campagne steeg binnen de eerste week — de visuals voelen premium, doordacht en onmogelijk om voorbij te scrollen.",
+        "role": "VP Brand Marketing"
+      },
+      "james": {
+        "headline": "Een launchfilm die theatraal aanvoelde",
+        "quote": "Starlights leverde een launchfilm die aanvoelde als een bioscooptrailer, niet als een productreclame. Onze retentie op betaalde social verdubbelde en de creative werd de maatstaf voor elke campagne daarna.",
+        "role": "Oprichter & CEO"
+      },
+      "amara": {
+        "headline": "Chirurgisch vakmanschap op een wereldwijde deadline",
+        "quote": "Van storyboard tot final grade was het team chirurgisch precies over vakmanschap en deadlines. We lanceerden een wereldwijde campagne met 2M+ views en een merklift die ons management nog steeds noemt in boardmeetings.",
+        "role": "Head of Creative"
+      }
+    },
+    "videoRoles": {
+      "ceo": "CEO",
+      "artDirector": "Art Director",
+      "founder": "Oprichter",
+      "headProduction": "Head of Production",
+      "vpMarketing": "VP Marketing",
+      "coFounder": "Medeoprichter"
+    }
+  },
+  "servicesPage": {
+    "metaTitle": "Diensten — Starlights Visuals",
+    "metaDescription": "2D-animatie, 3D-animatie, game-ontwikkeling, character design, motion graphics, VFX en cinematische trailers.",
+    "label": "Wat we bouwen",
+    "title": "DIENSTEN",
+    "subtitle": "Eén studio, elke fase van productie — van eerste schets tot laatste pixel.",
+    "ctaTitle1": "HEBT U EEN",
+    "ctaTitle2": "PROJECT",
+    "ctaTitle3": "IN GEDACHTEN?",
+    "ctaDesc": "Vertel ons uw visie — wij leveren de vuurkracht.",
+    "ctaButton": "Neem contact op",
+    "items": {
+      "2d": { "title": "2D-animatie", "desc": "Frame-by-frame en rigged 2D voor series, shorts, explainers en games. Wij combineren klassiek vakmanschap met digitale pipelines." },
+      "3d": { "title": "3D-animatie", "desc": "Gestileerde en fotorealistische 3D — personages, omgevingen en volledige cinematische sequenties met feature-kwaliteit." },
+      "game": { "title": "Game-ontwikkeling", "desc": "End-to-end gameproductie: concept, art, code, audio en lancering. Unreal, Unity en custom pipelines." },
+      "character": { "title": "Character design", "desc": "Originele personages, wezens en concept art die uw IP en merchandisingpotentieel verankeren." },
+      "motion": { "title": "Motion graphics", "desc": "Branded motion, UI-animatie, broadcastpakketten en explainervideo's met cinematische afwerking." },
+      "vfx": { "title": "Visuele effecten (VFX)", "desc": "Compositing, particle FX en CG-integratie voor games, film en digitale campagnes." },
+      "trailer": { "title": "Cinematische trailers", "desc": "Verhaalgedreven trailers om games, IP's en merken met maximale impact te lanceren." }
+    }
+  },
+  "aboutPage": {
+    "metaTitle": "Over ons — Starlights Visuals",
+    "metaDescription": "Starlights Visuals is een gepassioneerd creatief studio gespecialiseerd in meeslepende game-ontwikkeling, cinematische 2D-animatie en hoogwaardige 3D-animatie.",
+    "label": "Wie we zijn",
+    "title1": "EEN STUDIO GEBOUWD OP",
+    "title2": "LICHT, CODE & VERHAAL",
+    "p1": "Starlights Visuals is een gepassioneerd creatief studio op het snijvlak van games, animatie en cinematisch storytelling. Wij bestaan om verbeelding tot leven te brengen — of dat nu een uitgestrekte open-world game is, een handgemaakte 2D-serie of een fotorealistische 3D-trailer.",
+    "p2": "Van onze concept artists en 3D-sculptors tot onze gameplay engineers en motion designers: elk teamlid is geobsedeerd door één ding — het publiek iets laten voelen. Wij bouwen niet alleen mooie pixels — wij bouwen werelden waar mensen in willen leven.",
+    "p3": "Wij werken samen met indie-makers, AAA-studio's en wereldwijde merken om werk te leveren dat boven zijn gewicht uitsteekt, deadlines haalt zonder compromis en eruitziet alsof het het dubbele budget kostte.",
+    "valuesLabel": "Kernwaarden",
+    "valuesTitle": "WAT ONS DRIJFT",
+    "values": {
+      "imagination": { "title": "Verbeelding eerst", "desc": "Elk project begint met een gedurfde idee en een leeg canvas." },
+      "craft": { "title": "Vakmanschap geobsedeerd", "desc": "Frame voor frame, pixel voor pixel — kwaliteit is niet onderhandelbaar." },
+      "energy": { "title": "Cinematische energie", "desc": "Wij jagen op kippenvel. Als het ons niet raakt, verfijnen we." },
+      "story": { "title": "Verhaalgedreven", "desc": "Techniek dient het verhaal. Altijd." }
+    },
+    "stats": {
+      "projects": "Projecten opgeleverd",
+      "clients": "Wereldwijde klanten",
+      "awards": "Prijzen gewonnen",
+      "years": "Jaar vakmanschap"
+    }
+  },
+  "contactPage": {
+    "metaTitle": "Contact — Starlights Visuals",
+    "metaDescription": "Neem contact op met Starlights Visuals voor game-ontwikkeling, 2D- en 3D-animatie, motion graphics, VFX en cinematische trailerprojecten.",
+    "label": "Laten we praten",
+    "title": "CONTACT",
+    "subtitle": "Productieaanvragen, samenwerkingen of gewoon hallo zeggen — stuur ons een signaal.",
+    "formTitle": "START EEN PROJECT",
+    "formDesc": "Vul het formulier in en we reageren binnen 24 uur.",
+    "name": "Naam",
+    "email": "E-mail",
+    "projectType": "Projecttype",
+    "message": "Vertel ons erover",
+    "send": "Bericht versturen",
+    "sent": "✦ Bericht ontvangen. We nemen snel contact op.",
+    "emailUs": "MAIL ONS",
+    "emailDesc": "Voor nieuwe projecten, pers en partnerships.",
+    "studio": "STUDIO",
+    "studioDesc": "Remote-first · Wereldwijde levering",
+    "responseTime": "REACTIETIJD",
+    "responseDesc": "Binnen 24 uur, ma – vr.",
+    "projectTypes": {
+      "game": "Game-ontwikkeling",
+      "2d": "2D-animatie",
+      "3d": "3D-animatie",
+      "trailer": "Cinematische trailer",
+      "character": "Character design",
+      "motion": "Motion graphics / VFX",
+      "other": "Overig"
+    }
+  },
+  "portfolioPage": {
+    "metaTitle": "Portfolio — Starlights Visuals",
+    "metaDescription": "Geselecteerde projecten: geanimeerde series, game-trailers, character designs en studio-showreels van Starlights Visuals.",
+    "label": "Geselecteerd werk",
+    "title1": "PORT",
+    "title2": "FOLIO",
+    "subtitle": "Een blik op de werelden, personages en verhalen die wij tot leven hebben geholpen.",
+    "projects": {
+      "trailer": { "tag": "Cinematische trailer", "title": "Iron Sentinel", "desc": "AAA game launch trailer." },
+      "character": { "tag": "Character design", "title": "Nova Vanguard", "desc": "Hero-protagonist sheet." },
+      "game": { "tag": "Game art", "title": "Lumen Worlds", "desc": "Open-world omgevingskunst." },
+      "2d": { "tag": "2D-animatie", "title": "Neon Skyline", "desc": "Anime-geïnspireerde pilootaflevering." },
+      "creature": { "tag": "Creature design", "title": "Crystal Wyrm", "desc": "Boss-wezen concept." },
+      "motion": { "tag": "Motion graphics", "title": "Pulse Identity", "desc": "Brand motion system." }
+    }
+  },
+  "blogPage": {
+    "metaTitle": "Blog — Starlights Visuals",
+    "metaDescription": "Inzichten over animatie, VFX, game art, cinematische trailers en premium brand storytelling van Starlights Visuals.",
+    "label": "Studiojournaal",
+    "title1": "DE",
+    "title2": "BLOG",
+    "subtitle": "Gedachten over cinematisch vakmanschap, productieworkflows en visuals bouwen die converteren.",
+    "featured": "Uitgelicht · {{category}}",
+    "backToBlog": "Terug naar blog",
+    "startProject": "Start een project",
+    "moreFromJournal": "Meer uit het journaal",
+    "postBody1": "Bij Starlights Visuals behandelen we elk frame als een conversiekans — niet alleen als een mooi beeld. Dit artikel gaat dieper in op het denken achter ons {{category}}-werk en de keuzes die goede creative onderscheiden van launch-ready creative.",
+    "postBody2": "Of u nu een trailer lanceert, een brand motion system opschaalt of game art bouwt voor een live product — hetzelfde principe geldt: helderheid van verhaal eerst, polish tweede, en meedogenloos editen als laatste. Die discipline is hoe teams deadlines halen zonder het gevoel van 'bijna klaar'.",
+    "postBody3": "Wilt u dit denken toepassen op uw volgende project? We horen graag wat u bouwt — stuur ons een brief en wij tekenen een cinematisch pad van concept tot oplevering.",
+    "posts": {
+      "cinematic-trailers-that-convert": {
+        "title": "Waarom cinematische trailers beter converteren dan productdemo's",
+        "excerpt": "Verhaal-eerst launchfilms bouwen emotionele inzet vóór de CTA. Zo structureren wij hooks, pacing en grade voor maximale retentie.",
+        "category": "Strategie",
+        "date": "12 mei 2026",
+        "readTime": "6 min lezen"
+      },
+      "character-design-for-ip": {
+        "title": "Character design dat uw IP op elk kanaal verankert",
+        "excerpt": "Van silhouetherkenbaarheid tot merch-ready turnarounds — de checklist die wij gebruiken voordat een hero in productie gaat.",
+        "category": "Vakmanschap",
+        "date": "3 mei 2026",
+        "readTime": "5 min lezen"
+      },
+      "game-art-pipeline": {
+        "title": "In onze game art pipeline: van concept tot opgeleverde assets",
+        "excerpt": "Hoe wij art direction, tech-constraints en milestone reviews afstemmen zodat teams op tijd shippen zonder polish op te offeren.",
+        "category": "Productie",
+        "date": "21 apr 2026",
+        "readTime": "8 min lezen"
+      },
+      "motion-systems-for-brands": {
+        "title": "Motion systems bouwen die merken echt kunnen hergebruiken",
+        "excerpt": "Modulaire motion libraries, logo stings en UI-micro-interacties die campagnes consistent op schaal houden.",
+        "category": "Motion",
+        "date": "8 apr 2026",
+        "readTime": "4 min lezen"
+      },
+      "2d-animation-in-2026": {
+        "title": "2D-animatie in 2026: hybride pipelines die nog handgemaakt aanvoelen",
+        "excerpt": "Rigged efficiëntie combineren met frame-by-frame accenten — wanneer je elke techniek inzet voor premium resultaten.",
+        "category": "Animatie",
+        "date": "29 mrt 2026",
+        "readTime": "7 min lezen"
+      },
+      "creature-design-breakdown": {
+        "title": "Creature design breakdown: van moodboard tot final rig",
+        "excerpt": "Een blik op hoe wij boss-wezens ontwikkelen met leesbare silhouetten, materiaalverhaal en cinematische aanwezigheid.",
+        "category": "Vakmanschap",
+        "date": "14 mrt 2026",
+        "readTime": "6 min lezen"
+      }
+    }
+  },
+  "errors": {
+    "notFoundTitle": "SIGNAAL VERLOREN",
+    "notFoundDesc": "De pagina die u zoekt is de leegte in gedreven.",
+    "returnHome": "Terug naar home",
+    "systemError": "SYSTEEMFOUT",
+    "tryAgain": "Er ging iets mis. Probeer opnieuw.",
+    "retry": "Opnieuw",
+    "home": "Home",
+    "pageLoadTitle": "Deze pagina laadde niet",
+    "pageLoadDesc": "Er ging iets mis aan onze kant. Probeer het opnieuw.",
+    "goHome": "Naar home"
+  },
+  "meta": {
+    "rootTitle": "Starlights Visuals — Game-ontwikkeling & animatiestudio",
+    "rootDescription": "Starlights Visuals is een creatief studio gespecialiseerd in game-ontwikkeling, cinematische 2D-animatie en hoogwaardige 3D-animatie.",
+    "siteName": "Starlights Visuals"
+  },
+  "videoModal": {
+    "closeVideo": "Video sluiten",
+    "close": "Sluiten"
+  },
+  "logoMarquee": {
+    "logoAlt": "{{brand}}-logo"
+  }
+}

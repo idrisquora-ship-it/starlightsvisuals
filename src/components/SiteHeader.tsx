@@ -1,19 +1,15 @@
 import { Link } from "@tanstack/react-router";
 import { Menu, PanelLeftClose, PanelLeftOpen, X } from "lucide-react";
+import { useMemo } from "react";
+import { useTranslation } from "react-i18next";
 
+import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { useSidebar } from "@/contexts/sidebar-context";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { cn } from "@/lib/utils";
 
-const nav = [
-  { to: "/portfolio", label: "Portfolio" },
-  { to: "/services", label: "Services" },
-  { to: "/blog", label: "Blog" },
-  { to: "/about", label: "Company" },
-  { to: "/contact", label: "Contacts" },
-];
-
 export function SiteHeader() {
+  const { t } = useTranslation();
   const isMobile = useIsMobile();
   const {
     desktopOpen,
@@ -24,6 +20,17 @@ export function SiteHeader() {
     sidebarWidth,
   } = useSidebar();
 
+  const nav = useMemo(
+    () => [
+      { to: "/portfolio", label: t("nav.portfolio") },
+      { to: "/services", label: t("nav.services") },
+      { to: "/blog", label: t("nav.blog") },
+      { to: "/about", label: t("nav.company") },
+      { to: "/contact", label: t("nav.contacts") },
+    ],
+    [t],
+  );
+
   const sidebarVisible = isMobile ? mobileOpen : desktopOpen;
 
   return (
@@ -31,18 +38,17 @@ export function SiteHeader() {
       {isMobile && mobileOpen && (
         <button
           type="button"
-          aria-label="Close menu"
+          aria-label={t("header.closeMenu")}
           className="fixed inset-0 z-40 bg-background/80 backdrop-blur-sm md:hidden"
           onClick={closeMobile}
         />
       )}
 
-      {/* Desktop — single toggle (fixes duplicate icon when collapsed) */}
       {!isMobile && (
         <button
           type="button"
           onClick={toggleDesktop}
-          aria-label={desktopOpen ? "Close sidebar" : "Open sidebar"}
+          aria-label={desktopOpen ? t("header.closeSidebar") : t("header.openSidebar")}
           aria-expanded={desktopOpen}
           aria-controls="site-sidebar"
           className={cn(
@@ -72,17 +78,18 @@ export function SiteHeader() {
         <div className={cn("flex items-start gap-3", isMobile ? "justify-between" : "justify-start")}>
           <Link to="/" className="block" onClick={closeMobile}>
             <div className="font-display text-2xl leading-none tracking-tight">
-              STAR<span className="neon-text">LIGHTS</span>
+              {t("brand.star")}
+              <span className="neon-text">{t("brand.lights")}</span>
             </div>
             <div className="font-display text-2xl leading-none tracking-tight text-muted-foreground">
-              VISUALS
+              {t("brand.visuals")}
             </div>
           </Link>
           {isMobile && (
             <button
               type="button"
               onClick={closeMobile}
-              aria-label="Close menu"
+              aria-label={t("header.closeMenu")}
               className="shrink-0 rounded border border-border p-2 text-foreground transition hover:border-neon-green hover:text-neon-green"
             >
               <X className="h-4 w-4" aria-hidden />
@@ -107,32 +114,42 @@ export function SiteHeader() {
           ))}
         </nav>
 
-        <div className="text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
-          © {new Date().getFullYear()}
+        <div className="space-y-4">
+          <LanguageSwitcher />
+          <div className="text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
+            © {new Date().getFullYear()}
+          </div>
         </div>
       </aside>
 
-      <Link
-        to="/portfolio"
-        className="fixed right-6 top-10 z-40 hidden font-script text-2xl text-neon-green hover:text-glow md:block"
-      >
-        Portfolio →
-      </Link>
-
-      <header className="sticky top-0 z-40 flex items-center justify-between border-b border-border/40 bg-background/80 px-5 py-4 backdrop-blur md:hidden">
-        <Link to="/" className="font-display text-lg tracking-tight">
-          STAR<span className="neon-text">LIGHTS</span> VISUALS
-        </Link>
-        <button
-          type="button"
-          onClick={toggleMobile}
-          aria-label={mobileOpen ? "Close menu" : "Open menu"}
-          aria-expanded={mobileOpen}
-          aria-controls="site-sidebar"
-          className="rounded border border-border p-2 text-foreground transition hover:border-neon-green hover:text-neon-green"
+      <div className="fixed right-6 top-10 z-40 hidden items-center gap-4 md:flex">
+        <LanguageSwitcher />
+        <Link
+          to="/portfolio"
+          className="font-script text-2xl text-neon-green hover:text-glow"
         >
-          {mobileOpen ? <X className="h-4 w-4" aria-hidden /> : <Menu className="h-4 w-4" aria-hidden />}
-        </button>
+          {t("nav.portfolioCta")}
+        </Link>
+      </div>
+
+      <header className="sticky top-0 z-40 flex items-center justify-between gap-3 border-b border-border/40 bg-background/80 px-5 py-4 backdrop-blur md:hidden">
+        <Link to="/" className="font-display text-lg tracking-tight">
+          {t("brand.star")}
+          <span className="neon-text">{t("brand.lights")}</span> {t("brand.visuals")}
+        </Link>
+        <div className="flex items-center gap-2">
+          <LanguageSwitcher />
+          <button
+            type="button"
+            onClick={toggleMobile}
+            aria-label={mobileOpen ? t("header.closeMenu") : t("header.openMenu")}
+            aria-expanded={mobileOpen}
+            aria-controls="site-sidebar"
+            className="rounded border border-border p-2 text-foreground transition hover:border-neon-green hover:text-neon-green"
+          >
+            {mobileOpen ? <X className="h-4 w-4" aria-hidden /> : <Menu className="h-4 w-4" aria-hidden />}
+          </button>
+        </div>
       </header>
     </>
   );

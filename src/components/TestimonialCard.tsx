@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { BadgeCheck, Star } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { staggerItem } from "@/components/SectionReveal";
@@ -28,6 +29,7 @@ type TestimonialCardProps = {
 };
 
 export function TestimonialCard({ testimonial, className }: TestimonialCardProps) {
+  const { t } = useTranslation();
   const rating = testimonial.rating ?? 5;
   const verified = testimonial.verified ?? true;
 
@@ -46,7 +48,7 @@ export function TestimonialCard({ testimonial, className }: TestimonialCardProps
       <div className="flex items-start justify-between gap-4">
         <div
           className="inline-flex gap-0.5 rounded-md bg-background px-2.5 py-1.5"
-          aria-label={`${rating} out of 5 stars`}
+          aria-label={t("testimonials.starsAria", { rating })}
         >
           {Array.from({ length: 5 }).map((_, i) => (
             <Star
@@ -62,7 +64,7 @@ export function TestimonialCard({ testimonial, className }: TestimonialCardProps
         {verified && (
           <div className="flex shrink-0 items-center gap-1.5 font-display text-[9px] uppercase tracking-[0.15em] text-muted-foreground">
             <BadgeCheck className="h-3.5 w-3.5 text-neon-green" aria-hidden />
-            <span>Verified client</span>
+            <span>{t("testimonials.verifiedClient")}</span>
           </div>
         )}
       </div>

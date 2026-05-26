@@ -1,0 +1,303 @@
+{
+  "brand": {
+    "name": "Starlights Visuals",
+    "star": "STAR",
+    "lights": "LIGHTS",
+    "visuals": "VISUALS",
+    "email": "sternlichtespeciale@gmail.com"
+  },
+  "nav": {
+    "portfolio": "作品集",
+    "services": "服务",
+    "blog": "博客",
+    "company": "公司",
+    "contacts": "联系",
+    "about": "关于我们",
+    "contact": "联系",
+    "portfolioCta": "作品集 →"
+  },
+  "header": {
+    "closeMenu": "关闭菜单",
+    "openMenu": "打开菜单",
+    "closeSidebar": "关闭侧边栏",
+    "openSidebar": "打开侧边栏"
+  },
+  "languageSwitcher": {
+    "label": "语言",
+    "selectLanguage": "选择语言",
+    "current": "当前语言"
+  },
+  "popup": {
+    "title": "翻译此网站？",
+    "message": "我们注意到您来自 {{country}}。是否将此网站翻译为 {{language}}？",
+    "translate": "翻译",
+    "stayEnglish": "保持英语",
+    "close": "关闭翻译建议"
+  },
+  "footer": {
+    "newsletterTitle": "加入",
+    "newsletterHighlight": "星座",
+    "newsletterDesc": "幕后花絮、项目揭秘与预告片首映。",
+    "emailPlaceholder": "your@email.com",
+    "join": "订阅",
+    "subscribed": "✦ 欢迎加入 Starlights。",
+    "tagline": "一家创意工作室，通过沉浸式游戏开发、电影级 2D 动画和高质量 3D 体验，将想象力化为现实。",
+    "explore": "探索",
+    "follow": "关注",
+    "social": "社交链接",
+    "copyright": "© {{year}} Starlights Visuals. 以光与代码精心打造。"
+  },
+  "home": {
+    "metaTitle": "Starlights Visuals — 动画、VFX 与游戏美术工作室",
+    "metaDescription": "专注 2D / 3D 动画、VFX 与游戏美术的创意工作室。我们为奇幻世界、角色与电影镜头注入生命。",
+    "heroScript": "赋予世界生命 —",
+    "heroTitle1": "动画",
+    "heroTitle2": "与 VFX",
+    "heroBody": "Starlights Visuals 以动画与视觉特效让游戏栩栩如生，让玩家沉浸于游戏之中。我们动画化奇幻生物、人类角色、载具、环境、道具，乃至硬表面物体。",
+    "heroAlt": "Starlights Visuals 电影级主视觉",
+    "seePortfolio": "查看作品集",
+    "startProject": "启动项目",
+    "servicesLabel": "我们的服务",
+    "servicesTitle": "服务",
+    "allServices": "全部服务",
+    "showcaseLabel": "近期作品",
+    "showcaseTitle1": "精选",
+    "showcaseTitle2": "作品",
+    "fullPortfolio": "完整作品集",
+    "ctaScript": "一起创造 —",
+    "ctaTitle1": "准备好",
+    "ctaTitle2": "合作了吗？",
+    "services": {
+      "01": { "title": "动画与 VFX", "desc": "面向游戏与电影的电影级 2D 与 3D 动画、角色绑定及视觉特效。" },
+      "02": { "title": "游戏开发", "desc": "全周期制作 — 概念、美术、代码、音频、上线。" },
+      "03": { "title": "概念与角色美术", "desc": "原创角色、生物、环境与道具，锚定您的 IP。" },
+      "04": { "title": "电影级预告片", "desc": "以故事驱动的预告片，助力游戏与 IP 发布。" }
+    },
+    "showcase": {
+      "character": { "tag": "角色", "title": "Nova Vanguard" },
+      "gameArt": { "tag": "游戏美术", "title": "Lumen Worlds" },
+      "animation2d": { "tag": "2D 动画", "title": "Neon Skyline" },
+      "cinematic": { "tag": "电影级", "title": "Iron Sentinel" },
+      "creature": { "tag": "生物", "title": "Abyss Drake" },
+      "motion": { "tag": "动态", "title": "Pulse" }
+    }
+  },
+  "trustedBy": {
+    "badge": "500+ DTC 品牌",
+    "trusted": "信赖",
+    "by": "于"
+  },
+  "testimonials": {
+    "badge": "客户评价",
+    "title1": "他们信赖我们的作品与",
+    "title2": "成果",
+    "verifiedClient": "已验证客户",
+    "starsAria": "{{rating}} / 5 星",
+    "videoBadge": "视频评价",
+    "videoTitle1": "聆听品牌",
+    "videoTitle2": "如何评价",
+    "videoTitle3": "Starlights Visuals",
+    "videoModalTitle": "视频评价 — {{name}}",
+    "videoModalDefault": "视频评价",
+    "playAria": "播放 {{name}} 的视频评价",
+    "items": {
+      "elena": {
+        "headline": "真正交付成果的专业团队",
+        "quote": "电影级品质瞬间提升了我们的品牌认知。主视觉战役的互动率在首周便大幅攀升 — 画面质感高级、意图明确，令人无法划走。",
+        "role": "VP of Brand Marketing"
+      },
+      "james": {
+        "headline": "如同院线预告的发布片",
+        "quote": "Starlights 交付的发布片如同院线预告，而非产品广告。付费社交留存率翻倍，该创意成为此后每场战役的标杆。",
+        "role": "Founder & CEO"
+      },
+      "amara": {
+        "headline": "全球截止日下的精准工艺",
+        "quote": "从分镜到最终调色，团队对工艺与期限把控精准如手术。我们发布了全球战役，播放量超 200 万，品牌提升至今仍被领导层在董事会引用。",
+        "role": "Head of Creative"
+      }
+    },
+    "videoRoles": {
+      "ceo": "CEO",
+      "artDirector": "Art Director",
+      "founder": "Founder",
+      "headProduction": "Head of Production",
+      "vpMarketing": "VP Marketing",
+      "coFounder": "Co-Founder"
+    }
+  },
+  "servicesPage": {
+    "metaTitle": "服务 — Starlights Visuals",
+    "metaDescription": "2D 动画、3D 动画、游戏开发、角色设计、动态图形、VFX 与电影级预告片。",
+    "label": "我们打造什么",
+    "title": "服务",
+    "subtitle": "一个工作室，覆盖从第一笔草图到最终像素的每个制作阶段。",
+    "ctaTitle1": "有",
+    "ctaTitle2": "项目",
+    "ctaTitle3": "想法？",
+    "ctaDesc": "告诉我们您的愿景 — 我们提供火力支持。",
+    "ctaButton": "联系我们",
+    "items": {
+      "2d": { "title": "2D 动画", "desc": "面向系列、短片、解说与游戏的逐帧与绑定 2D。融合经典工艺与数字流程。" },
+      "3d": { "title": "3D 动画", "desc": "风格化与照片级 3D — 角色、环境与完整电影序列，具备院线级打磨。" },
+      "game": { "title": "游戏开发", "desc": "端到端游戏制作：概念、美术、代码、音频与上线。Unreal、Unity 及定制流程。" },
+      "character": { "title": "角色设计", "desc": "原创角色、生物与概念美术，锚定 IP 与周边潜力。" },
+      "motion": { "title": "动态图形", "desc": "品牌动态、UI 动画、广播包装与电影级解说视频。" },
+      "vfx": { "title": "视觉特效 (VFX)", "desc": "面向游戏、电影与数字战役的合成、粒子特效与 CG 集成。" },
+      "trailer": { "title": "电影级预告片", "desc": "以故事驱动的预告片，以最大影响力发布游戏、IP 与品牌。" }
+    }
+  },
+  "aboutPage": {
+    "metaTitle": "关于我们 — Starlights Visuals",
+    "metaDescription": "Starlights Visuals 是一家充满热情的创意工作室，专注于沉浸式游戏开发、电影级 2D 动画与高质量 3D 动画体验。",
+    "label": "我们是谁",
+    "title1": "以光、代码与",
+    "title2": "故事构建的工作室",
+    "p1": "Starlights Visuals 是一家位于游戏、动画与电影叙事交汇处的创意工作室。我们存在的意义，是将想象力化为现实 — 无论是宏大的开放世界游戏、手工打造的 2D 系列，还是照片级 3D 预告片。",
+    "p2": "从概念艺术家与 3D 雕刻师，到 gameplay 工程师与动态设计师，团队每一位成员都痴迷于一件事：让观众有所感受。我们不仅打造精美的像素 — 更构建人们想要栖居的世界。",
+    "p3": "我们与独立创作者、AAA 工作室与全球品牌合作，交付超越预期的作品，在绝不妥协的前提下按时完成，且看起来像是预算翻倍的效果。",
+    "valuesLabel": "核心价值观",
+    "valuesTitle": "驱动我们的力量",
+    "values": {
+      "imagination": { "title": "想象力优先", "desc": "每个项目都始于大胆的想法与空白画布。" },
+      "craft": { "title": "工艺至上", "desc": "逐帧、逐像素 — 品质不可妥协。" },
+      "energy": { "title": "电影级能量", "desc": "我们追逐鸡皮疙瘩。若无法打动自己，便继续打磨。" },
+      "story": { "title": "故事驱动", "desc": "技术服务于故事。永远如此。" }
+    },
+    "stats": {
+      "projects": "已交付项目",
+      "clients": "全球客户",
+      "awards": "获奖数量",
+      "years": "匠心岁月"
+    }
+  },
+  "contactPage": {
+    "metaTitle": "联系 — Starlights Visuals",
+    "metaDescription": "联系 Starlights Visuals，洽谈游戏开发、2D 与 3D 动画、动态图形、VFX 及电影级预告片项目。",
+    "label": "聊聊吧",
+    "title": "联系",
+    "subtitle": "制作咨询、合作意向，或只是打个招呼 — 给我们发个信号。",
+    "formTitle": "启动项目",
+    "formDesc": "填写下方表单，我们将在 24 小时内回复。",
+    "name": "姓名",
+    "email": "邮箱",
+    "projectType": "项目类型",
+    "message": "告诉我们详情",
+    "send": "发送消息",
+    "sent": "✦ 消息已收到。我们将尽快联系您。",
+    "emailUs": "邮件联系",
+    "emailDesc": "新项目、媒体与合作伙伴事宜。",
+    "studio": "工作室",
+    "studioDesc": "远程优先 · 全球交付",
+    "responseTime": "回复时间",
+    "responseDesc": "24 小时内，周一至周五。",
+    "projectTypes": {
+      "game": "游戏开发",
+      "2d": "2D 动画",
+      "3d": "3D 动画",
+      "trailer": "电影级预告片",
+      "character": "角色设计",
+      "motion": "动态图形 / VFX",
+      "other": "其他"
+    }
+  },
+  "portfolioPage": {
+    "metaTitle": "作品集 — Starlights Visuals",
+    "metaDescription": "精选项目：动画系列、游戏预告片、角色设计与 Starlights Visuals 工作室展示片。",
+    "label": "精选作品",
+    "title1": "作品",
+    "title2": "集",
+    "subtitle": "一窥我们助力诞生的世界、角色与故事。",
+    "projects": {
+      "trailer": { "tag": "电影级预告片", "title": "Iron Sentinel", "desc": "AAA 游戏发布预告片。" },
+      "character": { "tag": "角色设计", "title": "Nova Vanguard", "desc": "主角设定表。" },
+      "game": { "tag": "游戏美术", "title": "Lumen Worlds", "desc": "开放世界环境美术。" },
+      "2d": { "tag": "2D 动画", "title": "Neon Skyline", "desc": "动漫风格试播集。" },
+      "creature": { "tag": "生物设计", "title": "Crystal Wyrm", "desc": "Boss 生物概念。" },
+      "motion": { "tag": "动态图形", "title": "Pulse Identity", "desc": "品牌动态系统。" }
+    }
+  },
+  "blogPage": {
+    "metaTitle": "博客 — Starlights Visuals",
+    "metaDescription": "Starlights Visuals 关于动画、VFX、游戏美术、电影级预告片与高端品牌叙事的见解。",
+    "label": "工作室日志",
+    "title1": "博",
+    "title2": "客",
+    "subtitle": "关于电影级工艺、制作流程与驱动转化的视觉思考。",
+    "featured": "精选 · {{category}}",
+    "backToBlog": "返回博客",
+    "startProject": "启动项目",
+    "moreFromJournal": "更多日志文章",
+    "postBody1": "在 Starlights Visuals，我们将每一帧视为转化机会 — 而非仅仅是精美画面。本文深入探讨我们 {{category}} 作品背后的思路，以及区分优秀创意与可上线创意的关键决策。",
+    "postBody2": "无论您是在发布预告片、扩展品牌动态系统，还是为上线产品制作游戏美术，原则相同：故事清晰第一，打磨第二，严苛剪辑最后。正是这份纪律，让团队按时交付而不留「差一点」的遗憾。",
+    "postBody3": "想将这一思路应用于您的下一个项目？我们很乐意了解您正在打造的内容 — 发送简报，我们将规划从概念到交付的电影级路径。",
+    "posts": {
+      "cinematic-trailers-that-convert": {
+        "title": "电影级预告片为何比产品演示更易转化",
+        "excerpt": "故事优先的发布片在 CTA 之前建立情感张力。我们如何构建钩子、节奏与调色以实现最大留存。",
+        "category": "策略",
+        "date": "2026年5月12日",
+        "readTime": "6 分钟阅读"
+      },
+      "character-design-for-ip": {
+        "title": "锚定 IP 跨渠道的角色设计",
+        "excerpt": "从轮廓可读性到周边就绪三视图 — 英雄进入制作前我们使用的清单。",
+        "category": "工艺",
+        "date": "2026年5月3日",
+        "readTime": "5 分钟阅读"
+      },
+      "game-art-pipeline": {
+        "title": "游戏美术流程揭秘：从概念到交付资产",
+        "excerpt": "如何对齐美术方向、技术约束与里程碑评审，使团队按时交付而不牺牲打磨品质。",
+        "category": "制作",
+        "date": "2026年4月21日",
+        "readTime": "8 分钟阅读"
+      },
+      "motion-systems-for-brands": {
+        "title": "构建品牌可真正复用的动态系统",
+        "excerpt": "模块化动态库、Logo 片头与 UI 微交互，保持大规模战役的一致性。",
+        "category": "动态",
+        "date": "2026年4月8日",
+        "readTime": "4 分钟阅读"
+      },
+      "2d-animation-in-2026": {
+        "title": "2026 年的 2D 动画：仍具手工感的混合流程",
+        "excerpt": "结合绑定效率与逐帧点缀 — 何时推进每种技法以获得高端成果。",
+        "category": "动画",
+        "date": "2026年3月29日",
+        "readTime": "7 分钟阅读"
+      },
+      "creature-design-breakdown": {
+        "title": "生物设计解析：从情绪板到最终绑定",
+        "excerpt": "我们如何开发具有清晰轮廓、材质叙事与电影级存在感的 Boss 生物。",
+        "category": "工艺",
+        "date": "2026年3月14日",
+        "readTime": "6 分钟阅读"
+      }
+    }
+  },
+  "errors": {
+    "notFoundTitle": "信号丢失",
+    "notFoundDesc": "您寻找的页面已漂入虚空。",
+    "returnHome": "返回首页",
+    "systemError": "系统错误",
+    "tryAgain": "出了点问题。请重试。",
+    "retry": "重试",
+    "home": "首页",
+    "pageLoadTitle": "页面未能加载",
+    "pageLoadDesc": "我们这边出了点问题。请重试。",
+    "goHome": "返回首页"
+  },
+  "meta": {
+    "rootTitle": "Starlights Visuals — 游戏开发与动画工作室",
+    "rootDescription": "Starlights Visuals 是一家专注于游戏开发、电影级 2D 动画与高质量 3D 动画的创意工作室。",
+    "siteName": "Starlights Visuals"
+  },
+  "videoModal": {
+    "closeVideo": "关闭视频",
+    "close": "关闭"
+  },
+  "logoMarquee": {
+    "logoAlt": "{{brand}} 标志"
+  }
+}

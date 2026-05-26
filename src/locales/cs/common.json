@@ -1,0 +1,303 @@
+{
+  "brand": {
+    "name": "Starlights Visuals",
+    "star": "STAR",
+    "lights": "LIGHTS",
+    "visuals": "VISUALS",
+    "email": "sternlichtespeciale@gmail.com"
+  },
+  "nav": {
+    "portfolio": "Portfolio",
+    "services": "Služby",
+    "blog": "Blog",
+    "company": "Studio",
+    "contacts": "Kontakty",
+    "about": "O nás",
+    "contact": "Kontakt",
+    "portfolioCta": "Portfolio →"
+  },
+  "header": {
+    "closeMenu": "Zavřít menu",
+    "openMenu": "Otevřít menu",
+    "closeSidebar": "Zavřít postranní panel",
+    "openSidebar": "Otevřít postranní panel"
+  },
+  "languageSwitcher": {
+    "label": "Jazyk",
+    "selectLanguage": "Vybrat jazyk",
+    "current": "Aktuální jazyk"
+  },
+  "popup": {
+    "title": "Přeložit tento web?",
+    "message": "Všimli jsme si, že navštěvujete z {{country}}. Chcete přeložit tento web do {{language}}?",
+    "translate": "Přeložit",
+    "stayEnglish": "Zůstat v angličtině",
+    "close": "Zavřít návrh překladu"
+  },
+  "footer": {
+    "newsletterTitle": "PŘIPOJTE SE K",
+    "newsletterHighlight": "SOUHVĚZDÍ",
+    "newsletterDesc": "Zákulisní materiály, odhalení projektů a premiéry trailerů.",
+    "emailPlaceholder": "your@email.com",
+    "join": "Připojit se",
+    "subscribed": "✦ Jste u nás. Vítejte ve Starlights.",
+    "tagline": "Kreativní studio, které oživuje představivost prostřednictvím pohlcujícího vývoje her, kinematografické 2D animace a špičkových 3D zážitků.",
+    "explore": "Prozkoumat",
+    "follow": "Sledovat",
+    "social": "Odkaz na sociální sítě",
+    "copyright": "© {{year}} Starlights Visuals. Vytvořeno se světlem a kódem."
+  },
+  "home": {
+    "metaTitle": "Starlights Visuals — studio animace, VFX a herního umění",
+    "metaDescription": "Kreativní studio pro 2D / 3D animaci, VFX a herní umění. Oživujeme fantasy světy, postavy a kinematografii.",
+    "heroScript": "Oživujeme světy —",
+    "heroTitle1": "ANIMACE",
+    "heroTitle2": "A VFX",
+    "heroBody": "Starlights Visuals oživuje hry animací a vizuálními efekty, které udrží hráče v gameplayi. Animujeme fantasy bytosti, lidské postavy, vozidla, prostředí, rekvizity i objekty z tvrdých materiálů.",
+    "heroAlt": "Kinematografický hero Starlights Visuals",
+    "seePortfolio": "Zobrazit portfolio",
+    "startProject": "Zahájit projekt",
+    "servicesLabel": "Co děláme",
+    "servicesTitle": "SLUŽBY",
+    "allServices": "Všechny služby",
+    "showcaseLabel": "Nedávné práce",
+    "showcaseTitle1": "VYBRANÉ",
+    "showcaseTitle2": "PRÁCE",
+    "fullPortfolio": "Celé portfolio",
+    "ctaScript": "Pojďme něco vytvořit —",
+    "ctaTitle1": "PŘIPRAVENI",
+    "ctaTitle2": "SPOLUPRACOVAT?",
+    "services": {
+      "01": { "title": "Animace a VFX", "desc": "Kinematografická 2D a 3D animace, rigy postav a vizuální efekty pro hry a film." },
+      "02": { "title": "Vývoj her", "desc": "Celý produkční cyklus — koncept, art, kód, audio, release." },
+      "03": { "title": "Koncept a art postav", "desc": "Originální postavy, bytosti, prostředí a rekvizity, které ukotví váš IP." },
+      "04": { "title": "Kinematografické trailery", "desc": "Příběhové trailery pro uvedení her a franšíz." }
+    },
+    "showcase": {
+      "character": { "tag": "Postava", "title": "Nova Vanguard" },
+      "gameArt": { "tag": "Herní art", "title": "Lumen Worlds" },
+      "animation2d": { "tag": "2D animace", "title": "Neon Skyline" },
+      "cinematic": { "tag": "Kino", "title": "Iron Sentinel" },
+      "creature": { "tag": "Bytost", "title": "Abyss Drake" },
+      "motion": { "tag": "Motion", "title": "Pulse" }
+    }
+  },
+  "trustedBy": {
+    "badge": "500+ DTC značek",
+    "trusted": "Důvěřují",
+    "by": "nám"
+  },
+  "testimonials": {
+    "badge": "Reference",
+    "title1": "Důvěřují naší práci a",
+    "title2": "výsledkům",
+    "verifiedClient": "Ověřený klient",
+    "starsAria": "{{rating}} z 5 hvězdiček",
+    "videoBadge": "Videoreference",
+    "videoTitle1": "Poslechněte si",
+    "videoTitle2": "co říkají značky",
+    "videoTitle3": "o Starlights Visuals",
+    "videoModalTitle": "Videoreference — {{name}}",
+    "videoModalDefault": "Videoreference",
+    "playAria": "Přehrát videoreferenci od {{name}}",
+    "items": {
+      "elena": {
+        "headline": "Skuteční profesionálové, kteří dodali výsledky",
+        "quote": "Kinematografická kvalita okamžitě pozvedla vnímání naší značky. Zapojení v hlavní kampani vzrostlo už v prvním týdnu — vizuály působí prémiově, promyšleně a nelze je přejít.",
+        "role": "Viceprezidentka brand marketingu"
+      },
+      "james": {
+        "headline": "Launch film na úrovni kina",
+        "quote": "Starlights dodali launch film, který působil jako kinematografický trailer, ne jako produktová reklama. Retence v placených sociálních sítích se zdvojnásobila a kreativa se stala benchmarkem pro všechny další kampaně.",
+        "role": "Zakladatel a CEO"
+      },
+      "amara": {
+        "headline": "Chirurgická preciznost v globálních termínech",
+        "quote": "Od storyboardu po finální grade byl tým nekompromisní v řemesle i deadlinách. Spustili jsme globální kampaň s 2M+ zhlédnutími a brand liftem, o kterém vedení stále mluví na board meetingech.",
+        "role": "Head of Creative"
+      }
+    },
+    "videoRoles": {
+      "ceo": "CEO",
+      "artDirector": "Art Director",
+      "founder": "Zakladatel",
+      "headProduction": "Head of Production",
+      "vpMarketing": "VP Marketing",
+      "coFounder": "Spoluzakladatel"
+    }
+  },
+  "servicesPage": {
+    "metaTitle": "Služby — Starlights Visuals",
+    "metaDescription": "2D animace, 3D animace, vývoj her, design postav, motion graphics, VFX a kinematografické trailery.",
+    "label": "Co tvoříme",
+    "title": "SLUŽBY",
+    "subtitle": "Jedno studio, každá fáze produkce — od první skici po finální pixel.",
+    "ctaTitle1": "MÁTE",
+    "ctaTitle2": "PROJEKT",
+    "ctaTitle3": "V HLAVĚ?",
+    "ctaDesc": "Řekněte nám svou vizi — dodáme sílu.",
+    "ctaButton": "Kontaktujte nás",
+    "items": {
+      "2d": { "title": "2D animace", "desc": "Frame-by-frame a rigovaná 2D pro seriály, krátké formáty, explainery a hry. Spojujeme klasické řemeslo s digitálními pipeline." },
+      "3d": { "title": "3D animace", "desc": "Stylizovaná i fotorealistická 3D — postavy, prostředí a plné kinematografické sekvence s kvalitou feature filmu." },
+      "game": { "title": "Vývoj her", "desc": "End-to-end herní produkce: koncept, art, kód, audio a launch. Unreal, Unity a vlastní pipeline." },
+      "character": { "title": "Design postav", "desc": "Originální postavy, bytosti a concept art, které ukotví váš IP a merch potenciál." },
+      "motion": { "title": "Motion graphics", "desc": "Branded motion, UI animace, broadcast balíčky a explainery s kinematografickým leskem." },
+      "vfx": { "title": "Vizuální efekty (VFX)", "desc": "Compositing, particle FX a integrace CG pro hry, film a digitální kampaně." },
+      "trailer": { "title": "Kinematografické trailery", "desc": "Příběhové trailery pro uvedení her, IP a značek s maximálním dopadem." }
+    }
+  },
+  "aboutPage": {
+    "metaTitle": "O nás — Starlights Visuals",
+    "metaDescription": "Starlights Visuals je vášnivé kreativní studio specializující se na pohlcující vývoj her, kinematografickou 2D animaci a špičkovou 3D animaci.",
+    "label": "Kdo jsme",
+    "title1": "STUDIO POSTAVENÉ NA",
+    "title2": "SVĚTLE, KÓDU A PŘÍBĚHU",
+    "p1": "Starlights Visuals je vášnivé kreativní studio na průsečíku her, animace a kinematografického storytellingu. Existujeme proto, abychom oživili představivost — ať už jde o rozsáhlou open-world hru, ručně tvořený 2D seriál nebo fotorealistický 3D trailer.",
+    "p2": "Od concept artistů a 3D sochařů po gameplay inženýry a motion designéry — každý v týmu je posedlý jedním: aby publikum něco cítilo. Nestavíme jen hezké pixely — stavíme světy, ve kterých chcete žít.",
+    "p3": "Spolupracujeme s indie tvůrci, AAA studii a globálními značkami, abychom dodávali práci, která překonává očekávání, drží termíny bez kompromisů a vypadá, jako by stála dvojnásobek rozpočtu.",
+    "valuesLabel": "Hodnoty",
+    "valuesTitle": "CO NÁS ŘÍDÍ",
+    "values": {
+      "imagination": { "title": "Představivost na prvním místě", "desc": "Každý projekt začíná odvážnou myšlenkou a prázdným plátnem." },
+      "craft": { "title": "Posedlost řemeslem", "desc": "Snímek po snímku, pixel po pixelu — kvalita je nepřekročitelná." },
+      "energy": { "title": "Kinematografická energie", "desc": "Honíme husí kůži. Pokud nás to nezasáhne, ladíme dál." },
+      "story": { "title": "Příběh v centru", "desc": "Technologie slouží příběhu. Vždy." }
+    },
+    "stats": {
+      "projects": "Dodaných projektů",
+      "clients": "Globálních klientů",
+      "awards": "Získaných ocenění",
+      "years": "Let řemesla"
+    }
+  },
+  "contactPage": {
+    "metaTitle": "Kontakt — Starlights Visuals",
+    "metaDescription": "Kontaktujte Starlights Visuals ohledně vývoje her, 2D a 3D animace, motion graphics, VFX a kinematografických trailerů.",
+    "label": "Pojďme mluvit",
+    "title": "KONTAKT",
+    "subtitle": "Produkční dotazy, spolupráce nebo jen pozdrav — pošlete signál.",
+    "formTitle": "ZAHÁJIT PROJEKT",
+    "formDesc": "Vyplňte formulář níže — ozveme se do 24 hodin.",
+    "name": "Jméno",
+    "email": "Email",
+    "projectType": "Typ projektu",
+    "message": "Řekněte nám víc",
+    "send": "Odeslat zprávu",
+    "sent": "✦ Zpráva dorazila. Brzy se ozveme.",
+    "emailUs": "NAPIŠTE NÁM",
+    "emailDesc": "Pro nové projekty, tisk a partnerství.",
+    "studio": "STUDIO",
+    "studioDesc": "Remote-first · globální dodávka",
+    "responseTime": "DOBA ODPOVĚDI",
+    "responseDesc": "Do 24 hodin, Po – Pá.",
+    "projectTypes": {
+      "game": "Vývoj her",
+      "2d": "2D animace",
+      "3d": "3D animace",
+      "trailer": "Kinematografický trailer",
+      "character": "Design postav",
+      "motion": "Motion graphics / VFX",
+      "other": "Jiné"
+    }
+  },
+  "portfolioPage": {
+    "metaTitle": "Portfolio — Starlights Visuals",
+    "metaDescription": "Vybrané projekty: animované seriály, herní trailery, design postav a showreely studia Starlights Visuals.",
+    "label": "Vybrané práce",
+    "title1": "PORT",
+    "title2": "FOLIO",
+    "subtitle": "Nahlédnutí do světů, postav a příběhů, které jsme pomohli oživit.",
+    "projects": {
+      "trailer": { "tag": "Kinematografický trailer", "title": "Iron Sentinel", "desc": "Launch trailer AAA hry." },
+      "character": { "tag": "Design postav", "title": "Nova Vanguard", "desc": "Sheet hlavního hrdiny." },
+      "game": { "tag": "Herní art", "title": "Lumen Worlds", "desc": "Art open-world prostředí." },
+      "2d": { "tag": "2D animace", "title": "Neon Skyline", "desc": "Pilotní epizoda v anime stylu." },
+      "creature": { "tag": "Design bytostí", "title": "Crystal Wyrm", "desc": "Concept boss bytosti." },
+      "motion": { "tag": "Motion graphics", "title": "Pulse Identity", "desc": "Brand motion systém." }
+    }
+  },
+  "blogPage": {
+    "metaTitle": "Blog — Starlights Visuals",
+    "metaDescription": "Postřehy o animaci, VFX, herním umění, kinematografických trailerech a prémiovém brand storytellingu od Starlights Visuals.",
+    "label": "Studio journal",
+    "title1": "NÁŠ",
+    "title2": "BLOG",
+    "subtitle": "Myšlenky o kinematografickém řemesle, produkčních workflow a vizuálech, které konvertují.",
+    "featured": "Vybrané · {{category}}",
+    "backToBlog": "Zpět na blog",
+    "startProject": "Zahájit projekt",
+    "moreFromJournal": "Více z journalu",
+    "postBody1": "Ve Starlights Visuals vnímáme každý snímek jako příležitost ke konverzi — nejen jako krásný obraz. Tento článek rozvíjí myšlení za naší prací v {{category}} a rozhodnutí, která oddělují dobrý kreativ od launch-ready kreativy.",
+    "postBody2": "Ať už uvádíte trailer, škálujete brand motion systém nebo tvoříte herní art pro live produkt — platí stejný princip: nejdřív jasnost příběhu, pak polish, nakonec nekompromisní střih. Tato disciplína je cesta, jak týmy drží termíny bez pocitu „skoro hotovo“.",
+    "postBody3": "Chcete tento přístup použít u dalšího projektu? Rádi uslyšíme, co stavíte — pošlete brief a namapujeme kinematografickou cestu od konceptu po dodání.",
+    "posts": {
+      "cinematic-trailers-that-convert": {
+        "title": "Proč kinematografické trailery konvertují lépe než produktová dema",
+        "excerpt": "Příběhové launch filmy budují emoční sázky před CTA. Jak strukturujeme hooky, tempo a grade pro maximální retenci.",
+        "category": "Strategie",
+        "date": "12. května 2026",
+        "readTime": "6 min čtení"
+      },
+      "character-design-for-ip": {
+        "title": "Design postav, který ukotví váš IP napříč kanály",
+        "excerpt": "Od čitelnosti siluety po merch-ready turnarounds — checklist, který procházíme před produkcí hrdiny.",
+        "category": "Řemeslo",
+        "date": "3. května 2026",
+        "readTime": "5 min čtení"
+      },
+      "game-art-pipeline": {
+        "title": "Uvnitř našeho game art pipeline: od konceptu po dodané assety",
+        "excerpt": "Jak sladíme art direction, technická omezení a milestone review, aby týmy dodaly včas bez ztráty kvality.",
+        "category": "Produkce",
+        "date": "21. dubna 2026",
+        "readTime": "8 min čtení"
+      },
+      "motion-systems-for-brands": {
+        "title": "Motion systémy, které značky skutečně znovu používají",
+        "excerpt": "Modulární motion knihovny, logo stings a UI mikroanimace pro konzistentní kampaně ve velkém měřítku.",
+        "category": "Motion",
+        "date": "8. dubna 2026",
+        "readTime": "4 min čtení"
+      },
+      "2d-animation-in-2026": {
+        "title": "2D animace v roce 2026: hybridní pipeline s ručním pocitem",
+        "excerpt": "Kombinace efektivity rigu s frame-by-frame akcenty — kdy tlačit kterou techniku pro prémiový výsledek.",
+        "category": "Animace",
+        "date": "29. března 2026",
+        "readTime": "7 min čtení"
+      },
+      "creature-design-breakdown": {
+        "title": "Rozbor designu bytosti: od mood boardu po finální rig",
+        "excerpt": "Jak vyvíjíme boss bytosti s čitelnými siluetami, materiálovým storytellingem a kinematografickou přítomností.",
+        "category": "Řemeslo",
+        "date": "14. března 2026",
+        "readTime": "6 min čtení"
+      }
+    }
+  },
+  "errors": {
+    "notFoundTitle": "SIGNÁL ZTRACEN",
+    "notFoundDesc": "Stránka, kterou hledáte, odplula do prázdnoty.",
+    "returnHome": "Domů",
+    "systemError": "SYSTÉMOVÁ CHYBA",
+    "tryAgain": "Něco se pokazilo. Zkuste to znovu.",
+    "retry": "Zkusit znovu",
+    "home": "Domů",
+    "pageLoadTitle": "Stránku se nepodařilo načíst",
+    "pageLoadDesc": "Něco se pokazilo na naší straně. Zkuste to prosím znovu.",
+    "goHome": "Domů"
+  },
+  "meta": {
+    "rootTitle": "Starlights Visuals — studio vývoje her a animace",
+    "rootDescription": "Starlights Visuals je kreativní studio specializující se na vývoj her, kinematografickou 2D animaci a špičkovou 3D animaci.",
+    "siteName": "Starlights Visuals"
+  },
+  "videoModal": {
+    "closeVideo": "Zavřít video",
+    "close": "Zavřít"
+  },
+  "logoMarquee": {
+    "logoAlt": "Logo {{brand}}"
+  }
+}

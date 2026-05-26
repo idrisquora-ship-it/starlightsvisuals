@@ -1,0 +1,303 @@
+{
+  "brand": {
+    "name": "Starlights Visuals",
+    "star": "TÄHTI",
+    "lights": "VALOT",
+    "visuals": "VISUALS",
+    "email": "sternlichtespeciale@gmail.com"
+  },
+  "nav": {
+    "portfolio": "Portfolio",
+    "services": "Palvelut",
+    "blog": "Blogi",
+    "company": "Yritys",
+    "contacts": "Yhteystiedot",
+    "about": "Meistä",
+    "contact": "Yhteys",
+    "portfolioCta": "Portfolio →"
+  },
+  "header": {
+    "closeMenu": "Sulje valikko",
+    "openMenu": "Avaa valikko",
+    "closeSidebar": "Sulje sivupalkki",
+    "openSidebar": "Avaa sivupalkki"
+  },
+  "languageSwitcher": {
+    "label": "Kieli",
+    "selectLanguage": "Valitse kieli",
+    "current": "Nykyinen kieli"
+  },
+  "popup": {
+    "title": "Käännä tämä sivusto?",
+    "message": "Huomasimme, että vierailet maasta {{country}}. Haluatko kääntää sivuston kielelle {{language}}?",
+    "translate": "Käännä",
+    "stayEnglish": "Pysy englanniksi",
+    "close": "Sulje käännösehdotus"
+  },
+  "footer": {
+    "newsletterTitle": "LIITY",
+    "newsletterHighlight": "TÄHTIKUVIOON",
+    "newsletterDesc": "Kulissien takaa: droppauksia, projektijulkaisuja ja trailerien ensi-iltoja.",
+    "emailPlaceholder": "sähköposti@esimerkki.fi",
+    "join": "Liity",
+    "subscribed": "✦ Olet mukana. Tervetuloa Starlightsiin.",
+    "tagline": "Luova studio, joka herättää mielikuvituksen henkiin immersiivisen pelikehityksen, elokuvamaisen 2D-animaation ja korkealaatuisten 3D-kokemusten kautta.",
+    "explore": "Tutustu",
+    "follow": "Seuraa",
+    "social": "Linkki sosiaaliseen mediaan",
+    "copyright": "© {{year}} Starlights Visuals. Luotu valolla & koodilla."
+  },
+  "home": {
+    "metaTitle": "Starlights Visuals — Animaatio, VFX & Game Art -studio",
+    "metaDescription": "Luova studio 2D-/3D-animaatioon, VFX:ään ja game artiin. Herätämme fantasimaailmat, hahmot ja cinematicsit henkiin.",
+    "heroScript": "Herätämme maailmat henkiin —",
+    "heroTitle1": "ANIMAATIO",
+    "heroTitle2": "& VFX",
+    "heroBody": "Starlights Visuals herättää pelit henkiin animaatiolla ja visuaalisilla efekteillä, jotka pitävät pelaajat uppiniskaisina pelissä. Animoimme fantasiahirviöitä, ihmishahmoja, ajoneuvoja, ympäristöjä, rekvisiittaa ja jopa kovapintaisia objekteja.",
+    "heroAlt": "Starlights Visuals elokuvamainen hero",
+    "seePortfolio": "Katso portfolio",
+    "startProject": "Aloita projekti",
+    "servicesLabel": "Mitä teemme",
+    "servicesTitle": "PALVELUT",
+    "allServices": "Kaikki palvelut",
+    "showcaseLabel": "Viimeaikaiset työt",
+    "showcaseTitle1": "VALIKOIDUT",
+    "showcaseTitle2": "TYÖT",
+    "fullPortfolio": "Koko portfolio",
+    "ctaScript": "Rakennetaan jotain —",
+    "ctaTitle1": "VALMIS",
+    "ctaTitle2": "YHTEISTYÖHÖN?",
+    "services": {
+      "01": { "title": "Animaatio & VFX", "desc": "Elokuvamainen 2D- ja 3D-animaatio, hahmorigit ja visuaaliset efektit peleihin ja elokuviin." },
+      "02": { "title": "Pelikehitys", "desc": "Kokonaistuotanto — konsepti, art, koodi, ääni, julkaisu." },
+      "03": { "title": "Concept & Character Art", "desc": "Alkuperäiset hahmot, hirviöt, ympäristöt ja rekvisiitta, jotka ankkuroivat IP:si." },
+      "04": { "title": "Cinematic Trailers", "desc": "Tarinaan perustuvat trailerit, jotka lanseeraavat pelit ja franchiset." }
+    },
+    "showcase": {
+      "character": { "tag": "Hahmo", "title": "Nova Vanguard" },
+      "gameArt": { "tag": "Game Art", "title": "Lumen Worlds" },
+      "animation2d": { "tag": "2D-animaatio", "title": "Neon Skyline" },
+      "cinematic": { "tag": "Cinematic", "title": "Iron Sentinel" },
+      "creature": { "tag": "Hirviö", "title": "Abyss Drake" },
+      "motion": { "tag": "Motion", "title": "Pulse" }
+    }
+  },
+  "trustedBy": {
+    "badge": "500+ DTC-brändiä",
+    "trusted": "Luottavat",
+    "by": "meihin"
+  },
+  "testimonials": {
+    "badge": "Suositukset",
+    "title1": "He luottivat työhömme &",
+    "title2": "tuloksiin",
+    "verifiedClient": "Vahvistettu asiakas",
+    "starsAria": "{{rating}} / 5 tähteä",
+    "videoBadge": "Videosuositukset",
+    "videoTitle1": "Kuule",
+    "videoTitle2": "mitä brändit sanovat",
+    "videoTitle3": "Starlights Visualsista",
+    "videoModalTitle": "Videosuositus — {{name}}",
+    "videoModalDefault": "Videosuositus",
+    "playAria": "Toista videosuositus: {{name}}",
+    "items": {
+      "elena": {
+        "headline": "Todellisia ammattilaisia, jotka toivat tuloksia",
+        "quote": "Elokuvamainen laatu nosti brändikokemustamme heti. Hero-kampanjan sitoutuminen kasvoi jo ensimmäisellä viikolla — visuaalit tuntuvat premiumilta, harkituilta ja mahdottomilta scrollata ohi.",
+        "role": "VP Brand Marketing"
+      },
+      "james": {
+        "headline": "Lanseerauselokuva, joka tuntui teatraaliselta",
+        "quote": "Starlights toimitti lanseerauselokuvan, joka tuntui elokuvateatterin trailerilta, ei tuotemainokselta. Retention maksetussa somessa tuplaantui ja luova työstä tuli mittapuu jokaiselle kampanjalle sen jälkeen.",
+        "role": "Perustaja & toimitusjohtaja"
+      },
+      "amara": {
+        "headline": "Kirurginen käsityö globaalilla aikataululla",
+        "quote": "Storyboardista final gradeen tiimi oli kirurgisen tarkka käsityössä ja deadlineissa. Julkaisimme globaalin kampanjan yli 2M katselukerralla ja brändin noston, johon johto viittaa yhä hallituksessa.",
+        "role": "Head of Creative"
+      }
+    },
+    "videoRoles": {
+      "ceo": "Toimitusjohtaja",
+      "artDirector": "Art Director",
+      "founder": "Perustaja",
+      "headProduction": "Head of Production",
+      "vpMarketing": "VP Marketing",
+      "coFounder": "Perustajakumppani"
+    }
+  },
+  "servicesPage": {
+    "metaTitle": "Palvelut — Starlights Visuals",
+    "metaDescription": "2D-animaatio, 3D-animaatio, pelikehitys, hahmosuunnittelu, motion graphics, VFX ja elokuvamaiset trailerit.",
+    "label": "Mitä rakennamme",
+    "title": "PALVELUT",
+    "subtitle": "Yksi studio, jokainen tuotannon vaihe — ensimmäisestä luonnoksesta viimeiseen pikseliin.",
+    "ctaTitle1": "ONKO SINULLA",
+    "ctaTitle2": "PROJEKTI",
+    "ctaTitle3": "MIELESSÄ?",
+    "ctaDesc": "Kerro visiosi — tuomme tulivoiman.",
+    "ctaButton": "Ota yhteyttä",
+    "items": {
+      "2d": { "title": "2D-animaatio", "desc": "Frame-by-frame ja rigattu 2D sarjoihin, lyhytelokuviin, explainereihin ja peleihin. Yhdistämme klassisen käsityön digitaalisiin pipelineihin." },
+      "3d": { "title": "3D-animaatio", "desc": "Stylisoitu ja fotorealistinen 3D — hahmot, ympäristöt ja täydet elokuvasekvenssit feature-tason viimeistelyllä." },
+      "game": { "title": "Pelikehitys", "desc": "Pelin tuotanto alusta loppuun: konsepti, art, koodi, ääni ja julkaisu. Unreal, Unity ja omat pipelinet." },
+      "character": { "title": "Hahmosuunnittelu", "desc": "Alkuperäiset hahmot, hirviöt ja concept art, jotka ankkuroivat IP:si ja merch-potentiaalin." },
+      "motion": { "title": "Motion Graphics", "desc": "Brändimotion, UI-animaatio, broadcast-paketit ja explainer-videot elokuvamaisella viimeistelyllä." },
+      "vfx": { "title": "Visuaaliset efektit (VFX)", "desc": "Compositing, partikkeliefektit ja CG-integraatio peleihin, elokuviin ja digitaalisiin kampanjoihin." },
+      "trailer": { "title": "Cinematic Trailers", "desc": "Tarinaan perustuvat trailerit, jotka lanseeraavat pelit, IP:t ja brändit maksimaalisella vaikutuksella." }
+    }
+  },
+  "aboutPage": {
+    "metaTitle": "Meistä — Starlights Visuals",
+    "metaDescription": "Starlights Visuals on intohimoinen luova studio, joka erikoistuu immersiiviseen pelikehitykseen, elokuvamaiseen 2D-animaatioon ja korkealaatuisiin 3D-kokemuksiin.",
+    "label": "Keitä olemme",
+    "title1": "STUDIO, JOKA ON RAKENNETTU",
+    "title2": "VALOON, KOODIIN & TARINAAN",
+    "p1": "Starlights Visuals on intohimoinen luova studio pelien, animaation ja elokuvamaisen tarinankerronnan risteyskohdassa. Olemme olemassa herättääksemme mielikuvituksen henkiin — olipa kyseessä laaja open world -peli, käsityönä tehty 2D-sarja tai fotorealistinen 3D-trailer.",
+    "p2": "Concept artisteista ja 3D-sculptoreista gameplay engineerseihin ja motion designereihin — jokainen tiimin jäsen on pakkomielteinen yhdestä asiasta: saada yleisö tuntemaan jotain. Emme rakenna vain kauniita pikseleitä — rakennamme maailmoja, joissa ihmiset haluavat elää.",
+    "p3": "Teemme yhteistyötä indie-luojien, AAA-studioiden ja globaalien brändien kanssa toimittaaksemme työtä, joka lyö painoluokkaansa yläpuolelle, pitää deadlineit ilman kompromisseja ja näyttää maksaneen kaksinkertaisen budjetin.",
+    "valuesLabel": "Ydinarvot",
+    "valuesTitle": "MIKÄ MEITÄ AJAA",
+    "values": {
+      "imagination": { "title": "Mielikuvitus ensin", "desc": "Jokainen projekti alkaa rohkeasta ideasta ja tyhjästä kankaasta." },
+      "craft": { "title": "Käsityöpakkomielteiset", "desc": "Frame frameilta, pikseli pikseliltä — laatu ei ole neuvoteltavissa." },
+      "energy": { "title": "Elokuvamainen energia", "desc": "Jaamme kananlihan. Jos se ei liikuta meitä, hiomme." },
+      "story": { "title": "Tarina edellä", "desc": "Tekniikka palvelee tarinaa. Aina." }
+    },
+    "stats": {
+      "projects": "Toimitetut projektit",
+      "clients": "Globaalit asiakkaat",
+      "awards": "Voitetut palkinnot",
+      "years": "Vuotta käsityötä"
+    }
+  },
+  "contactPage": {
+    "metaTitle": "Yhteys — Starlights Visuals",
+    "metaDescription": "Ota yhteyttä Starlights Visualsiin pelikehityksestä, 2D- ja 3D-animaatiosta, motion graphicsista, VFX:stä ja elokuvamaisista traileriprojekteista.",
+    "label": "Puhutaan",
+    "title": "YHTEYS",
+    "subtitle": "Tuotantokyselyt, yhteistyöt tai pelkkä hei — lähetä signaali.",
+    "formTitle": "ALOITA PROJEKTI",
+    "formDesc": "Täytä lomake alle, niin palaamme asiaan 24 tunnissa.",
+    "name": "Nimi",
+    "email": "Sähköposti",
+    "projectType": "Projektityyppi",
+    "message": "Kerro siitä",
+    "send": "Lähetä viesti",
+    "sent": "✦ Viesti vastaanotettu. Olemme pian yhteydessä.",
+    "emailUs": "SÄHKÖPOSTI",
+    "emailDesc": "Uudet projektit, lehdistö ja kumppanuudet.",
+    "studio": "STUDIO",
+    "studioDesc": "Remote-first · Globaali toimitus",
+    "responseTime": "VASTAUSAIKA",
+    "responseDesc": "24 tunnissa, ma–pe.",
+    "projectTypes": {
+      "game": "Pelikehitys",
+      "2d": "2D-animaatio",
+      "3d": "3D-animaatio",
+      "trailer": "Cinematic Trailer",
+      "character": "Hahmosuunnittelu",
+      "motion": "Motion Graphics / VFX",
+      "other": "Muu"
+    }
+  },
+  "portfolioPage": {
+    "metaTitle": "Portfolio — Starlights Visuals",
+    "metaDescription": "Valikoituja projekteja: animoituja sarjoja, pelitrailereita, hahmosuunnittelua ja studio-showreelejä Starlights Visualsilta.",
+    "label": "Valikoitua työtä",
+    "title1": "PORT",
+    "title2": "FOLIO",
+    "subtitle": "Vilaus maailmoihin, hahmoihin ja tarinoihin, joita olemme auttaneet herättämään henkiin.",
+    "projects": {
+      "trailer": { "tag": "Cinematic Trailer", "title": "Iron Sentinel", "desc": "AAA-pelin lanseeraustrailer." },
+      "character": { "tag": "Hahmosuunnittelu", "title": "Nova Vanguard", "desc": "Päähahmon character sheet." },
+      "game": { "tag": "Game Art", "title": "Lumen Worlds", "desc": "Open world -ympäristötaide." },
+      "2d": { "tag": "2D-animaatio", "title": "Neon Skyline", "desc": "Anime-inspiroitu pilottijakso." },
+      "creature": { "tag": "Hirviösuunnittelu", "title": "Crystal Wyrm", "desc": "Boss-hirviön konsepti." },
+      "motion": { "tag": "Motion Graphics", "title": "Pulse Identity", "desc": "Brändin motion system." }
+    }
+  },
+  "blogPage": {
+    "metaTitle": "Blogi — Starlights Visuals",
+    "metaDescription": "Näkemyksiä animaatiosta, VFX:stä, game artista, elokuvamaisista trailereista ja premium-tarinankerronnasta Starlights Visualsilta.",
+    "label": "Studiojournal",
+    "title1": "STUDIO",
+    "title2": "BLOGI",
+    "subtitle": "Ajatuksia elokuvamaisesta käsityöstä, tuotantoprosesseista ja visuaaleista, jotka konvertoivat.",
+    "featured": "Suositeltu · {{category}}",
+    "backToBlog": "Takaisin blogiin",
+    "startProject": "Aloita projekti",
+    "moreFromJournal": "Lisää journalista",
+    "postBody1": "Starlights Visualsilla käsittelemme jokaista framea konversiomahdollisuutena — ei pelkkänä kauniina kuvana. Tämä artikkeli avaa {{category}}-työmme taustalla olevaa ajattelua ja päätöksiä, jotka erottavat hyvän luovan työn lanseerausvalmiista.",
+    "postBody2": "Lanseeroitpa trailerin, skaalaat brändin motion systemiä tai rakennat game artia live-tuotteeseen, sama periaate pätee: tarinan selkeys ensin, viimeistely toiseksi ja armoton editointi viimeiseksi. Tämä kurinalaisuus on se, miten tiimit osuvat deadlineihin ilman ”melkein valmis” -tunnetta.",
+    "postBody3": "Haluatko soveltaa tätä ajattelua seuraavaan projektiisi? Kuulemme mielellämme, mitä rakennat — lähetä brief, niin kartoitamme elokuvamaisen polun konseptista toimitukseen.",
+    "posts": {
+      "cinematic-trailers-that-convert": {
+        "title": "Miksi elokuvamaiset trailerit konvertoivat paremmin kuin tuotedemot",
+        "excerpt": "Tarinaan perustuvat lanseerauselokuvat rakentavat emotionaalisen panoksen ennen CTA:ta. Näin rakennamme hookit, pacingin ja graden maksimaaliseen retentioniin.",
+        "category": "Strategia",
+        "date": "12.5.2026",
+        "readTime": "6 min lukuaika"
+      },
+      "character-design-for-ip": {
+        "title": "Hahmosuunnittelu, joka ankkuroi IP:si jokaisella kanavalla",
+        "excerpt": "Siluetin luettavuudesta merch-valmiisiin turnaroundeihin — tarkistuslista, jota käytämme ennen kuin sankari menee tuotantoon.",
+        "category": "Käsityö",
+        "date": "3.5.2026",
+        "readTime": "5 min lukuaika"
+      },
+      "game-art-pipeline": {
+        "title": "Game art -pipelinemme sisällä: konseptista toimitettuihin assetteihin",
+        "excerpt": "Miten sovitamme art directionin, tekniset rajoitteet ja milestone reviewt, jotta tiimit toimittavat ajallaan viimeistelyä uhraamatta.",
+        "category": "Tuotanto",
+        "date": "21.4.2026",
+        "readTime": "8 min lukuaika"
+      },
+      "motion-systems-for-brands": {
+        "title": "Motion systemien rakentaminen, joita brändit voivat oikeasti uudelleenkäyttää",
+        "excerpt": "Modulaariset motion-kirjastot, logo stingit ja UI-mikrointeraktiot, jotka pitävät kampanjat johdonmukaisina skaalassa.",
+        "category": "Motion",
+        "date": "8.4.2026",
+        "readTime": "4 min lukuaika"
+      },
+      "2d-animation-in-2026": {
+        "title": "2D-animaatio vuonna 2026: hybridipipelinet, jotka tuntuvat yhä käsityöltä",
+        "excerpt": "Yhdistä rigatun tehokkuuden frame-by-frame-korostuksiin — milloin painaa kumpaakin tekniikkaa premium-tuloksiin.",
+        "category": "Animaatio",
+        "date": "29.3.2026",
+        "readTime": "7 min lukuaika"
+      },
+      "creature-design-breakdown": {
+        "title": "Hirviösuunnittelun breakdown: mood boardista final rigiin",
+        "excerpt": "Katsaus siihen, miten kehitämme boss-hirviöitä luettavilla silueteilla, materiaalitarinankerronnalla ja elokuvamaisella läsnäololla.",
+        "category": "Käsityö",
+        "date": "14.3.2026",
+        "readTime": "6 min lukuaika"
+      }
+    }
+  },
+  "errors": {
+    "notFoundTitle": "SIGNAALI KADONNUT",
+    "notFoundDesc": "Etsimäsi sivu on ajautunut tyhjyyteen.",
+    "returnHome": "Takaisin etusivulle",
+    "systemError": "JÄRJESTELMÄVIRHE",
+    "tryAgain": "Jotain meni pieleen. Yritä uudelleen.",
+    "retry": "Yritä uudelleen",
+    "home": "Etusivu",
+    "pageLoadTitle": "Sivua ei voitu ladata",
+    "pageLoadDesc": "Jotain meni pieleen meidän päässämme. Yritä uudelleen.",
+    "goHome": "Etusivulle"
+  },
+  "meta": {
+    "rootTitle": "Starlights Visuals — Pelikehitys & animaatiostudio",
+    "rootDescription": "Starlights Visuals on luova studio, joka erikoistuu pelikehitykseen, elokuvamaiseen 2D-animaatioon ja korkealaatuiseen 3D-animaatioon.",
+    "siteName": "Starlights Visuals"
+  },
+  "videoModal": {
+    "closeVideo": "Sulje video",
+    "close": "Sulje"
+  },
+  "logoMarquee": {
+    "logoAlt": "{{brand}}-logo"
+  }
+}

@@ -1,6 +1,7 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { X } from "lucide-react";
 import { useCallback, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 import { cn } from "@/lib/utils";
 
@@ -13,6 +14,7 @@ export type VideoModalProps = {
 };
 
 export function VideoModal({ open, onClose, videoSrc, poster, title }: VideoModalProps) {
+  const { t } = useTranslation();
   const handleKeyDown = useCallback(
     (e: KeyboardEvent) => {
       if (e.key === "Escape") onClose();
@@ -46,7 +48,7 @@ export function VideoModal({ open, onClose, videoSrc, poster, title }: VideoModa
         >
           <motion.button
             type="button"
-            aria-label="Close video"
+            aria-label={t("videoModal.closeVideo")}
             className="absolute inset-0 bg-background/90 backdrop-blur-xl"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -69,7 +71,7 @@ export function VideoModal({ open, onClose, videoSrc, poster, title }: VideoModa
               type="button"
               onClick={onClose}
               className="absolute right-4 top-4 z-20 flex h-10 w-10 items-center justify-center rounded-full border border-white/15 bg-background/80 text-foreground backdrop-blur transition hover:border-neon-green hover:text-neon-green"
-              aria-label="Close"
+              aria-label={t("videoModal.close")}
             >
               <X className="h-5 w-5" />
             </button>

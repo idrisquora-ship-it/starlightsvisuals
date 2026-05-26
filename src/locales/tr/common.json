@@ -1,0 +1,303 @@
+{
+  "brand": {
+    "name": "Starlights Visuals",
+    "star": "STAR",
+    "lights": "LIGHTS",
+    "visuals": "VISUALS",
+    "email": "sternlichtespeciale@gmail.com"
+  },
+  "nav": {
+    "portfolio": "Portfolyo",
+    "services": "Hizmetler",
+    "blog": "Blog",
+    "company": "Stüdyo",
+    "contacts": "İletişim",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "portfolioCta": "Portfolyo →"
+  },
+  "header": {
+    "closeMenu": "Menüyü kapat",
+    "openMenu": "Menüyü aç",
+    "closeSidebar": "Kenar çubuğunu kapat",
+    "openSidebar": "Kenar çubuğunu aç"
+  },
+  "languageSwitcher": {
+    "label": "Dil",
+    "selectLanguage": "Dil seçin",
+    "current": "Geçerli dil"
+  },
+  "popup": {
+    "title": "Bu siteyi çevirmek ister misiniz?",
+    "message": "{{country}} üzerinden ziyaret ettiğinizi fark ettik. Bu web sitesini {{language}} diline çevirmek ister misiniz?",
+    "translate": "Çevir",
+    "stayEnglish": "İngilizce kalsın",
+    "close": "Çeviri önerisini kapat"
+  },
+  "footer": {
+    "newsletterTitle": "TAKIM YILDIZINA",
+    "newsletterHighlight": "KATILIN",
+    "newsletterDesc": "Perde arkası paylaşımlar, proje duyuruları ve fragman prömiyerleri.",
+    "emailPlaceholder": "your@email.com",
+    "join": "Katıl",
+    "subscribed": "✦ Aramızdasınız. Starlights'a hoş geldiniz.",
+    "tagline": "Sürükleyici oyun geliştirme, sinematik 2D animasyon ve yüksek kaliteli 3D deneyimlerle hayal gücünü hayata geçiren yaratıcı bir stüdyo.",
+    "explore": "Keşfet",
+    "follow": "Takip et",
+    "social": "Sosyal medya bağlantısı",
+    "copyright": "© {{year}} Starlights Visuals. Işık ve kodla üretildi."
+  },
+  "home": {
+    "metaTitle": "Starlights Visuals — Animasyon, VFX ve Oyun Sanatı Stüdyosu",
+    "metaDescription": "2D / 3D animasyon, VFX ve oyun sanatı için yaratıcı bir stüdyo. Fantezi dünyalarını, karakterleri ve sinematikleri hayata geçiriyoruz.",
+    "heroScript": "Dünyaları hayata geçiriyoruz —",
+    "heroTitle1": "ANİMASYON",
+    "heroTitle2": "VE VFX",
+    "heroBody": "Starlights Visuals, oyuncuları oynanışa bağlayan animasyon ve görsel efektlerle oyunları hayata geçirir. Fantezi yaratıkları, insan karakterleri, araçlar, ortamlar, aksesuarlar ve hatta hard-surface nesneleri canlandırıyoruz.",
+    "heroAlt": "Starlights Visuals sinematik hero",
+    "seePortfolio": "Portfolyoyu gör",
+    "startProject": "Proje başlat",
+    "servicesLabel": "Ne yapıyoruz",
+    "servicesTitle": "HİZMETLER",
+    "allServices": "Tüm hizmetler",
+    "showcaseLabel": "Son çalışmalar",
+    "showcaseTitle1": "SEÇİLMİŞ",
+    "showcaseTitle2": "İŞLER",
+    "fullPortfolio": "Tam portfolyo",
+    "ctaScript": "Birlikte bir şey inşa edelim —",
+    "ctaTitle1": "İŞ BİRLİĞİNE",
+    "ctaTitle2": "HAZIR MISINIZ?",
+    "services": {
+      "01": { "title": "Animasyon ve VFX", "desc": "Oyunlar ve filmler için sinematik 2D ve 3D animasyon, karakter rig'leri ve görsel efektler." },
+      "02": { "title": "Oyun geliştirme", "desc": "Tam döngü üretim — konsept, sanat, kod, ses, yayın." },
+      "03": { "title": "Konsept ve karakter sanatı", "desc": "IP'nizi güçlendiren özgün karakterler, yaratıklar, ortamlar ve aksesuarlar." },
+      "04": { "title": "Sinematik fragmanlar", "desc": "Oyunları ve markaları lansmana taşıyan hikâye odaklı fragmanlar." }
+    },
+    "showcase": {
+      "character": { "tag": "Karakter", "title": "Nova Vanguard" },
+      "gameArt": { "tag": "Oyun sanatı", "title": "Lumen Worlds" },
+      "animation2d": { "tag": "2D animasyon", "title": "Neon Skyline" },
+      "cinematic": { "tag": "Sinematik", "title": "Iron Sentinel" },
+      "creature": { "tag": "Yaratık", "title": "Abyss Drake" },
+      "motion": { "tag": "Motion", "title": "Pulse" }
+    }
+  },
+  "trustedBy": {
+    "badge": "500+ DTC markası",
+    "trusted": "Güvenen",
+    "by": "tarafından"
+  },
+  "testimonials": {
+    "badge": "Referanslar",
+    "title1": "Çalışmamıza ve",
+    "title2": "sonuçlarımıza güvendiler",
+    "verifiedClient": "Doğrulanmış müşteri",
+    "starsAria": "5 üzerinden {{rating}} yıldız",
+    "videoBadge": "Video referanslar",
+    "videoTitle1": "Dinleyin,",
+    "videoTitle2": "markaların söylediklerini",
+    "videoTitle3": "Starlights Visuals hakkında",
+    "videoModalTitle": "Video referans — {{name}}",
+    "videoModalDefault": "Video referans",
+    "playAria": "{{name}} adlı kişinin video referansını oynat",
+    "items": {
+      "elena": {
+        "headline": "Sonuçları teslim eden gerçek profesyoneller",
+        "quote": "Sinematik kalite marka algımızı anında yükseltti. Hero kampanyamızdaki etkileşim ilk hafta içinde arttı — görseller premium, kasıtlı ve kaydırılmaz hissettiriyor.",
+        "role": "Marka Pazarlama VP"
+      },
+      "james": {
+        "headline": "Tiyatral hissettiren lansman filmi",
+        "quote": "Starlights, ürün reklamı değil sinema fragmanı gibi hissettiren bir lansman filmi teslim etti. Ücretli sosyalde tutma oranımız ikiye katlandı ve kreatif sonraki her kampanyanın ölçütü oldu.",
+        "role": "Kurucu ve CEO"
+      },
+      "amara": {
+        "headline": "Küresel teslim tarihinde cerrahi ustalık",
+        "quote": "Storyboard'dan final grade'e kadar ekip ustalık ve teslim tarihlerinde cerrahi hassasiyetle çalıştı. 2M+ görüntülenme ve yönetimin hâlâ yönetim kurulunda anlattığı marka artışıyla küresel bir kampanya yayınladık.",
+        "role": "Kreatif Direktör"
+      }
+    },
+    "videoRoles": {
+      "ceo": "CEO",
+      "artDirector": "Art Director",
+      "founder": "Kurucu",
+      "headProduction": "Prodüksiyon Müdürü",
+      "vpMarketing": "Pazarlama VP",
+      "coFounder": "Ortak Kurucu"
+    }
+  },
+  "servicesPage": {
+    "metaTitle": "Hizmetler — Starlights Visuals",
+    "metaDescription": "2D animasyon, 3D animasyon, oyun geliştirme, karakter tasarımı, motion graphics, VFX ve sinematik fragmanlar.",
+    "label": "Ne inşa ediyoruz",
+    "title": "HİZMETLER",
+    "subtitle": "Tek stüdyo, üretimin her aşaması — ilk eskizden son piksele.",
+    "ctaTitle1": "AKLINDA BİR",
+    "ctaTitle2": "PROJE",
+    "ctaTitle3": "VAR MI?",
+    "ctaDesc": "Vizyonunuzu anlatın — gücü biz getirelim.",
+    "ctaButton": "İletişime geç",
+    "items": {
+      "2d": { "title": "2D animasyon", "desc": "Diziler, kısa filmler, açıklayıcılar ve oyunlar için kare kare ve rig'li 2D. Klasik ustalığı dijital pipeline'larla birleştiriyoruz." },
+      "3d": { "title": "3D animasyon", "desc": "Stilize ve fotogerçekçi 3D — karakterler, ortamlar ve feature kalitesinde cilalı tam sinematik sekanslar." },
+      "game": { "title": "Oyun geliştirme", "desc": "Uçtan uca oyun üretimi: konsept, sanat, kod, ses ve lansman. Unreal, Unity ve özel pipeline'lar." },
+      "character": { "title": "Karakter tasarımı", "desc": "IP'nizi ve merchandising potansiyelinizi güçlendiren özgün karakterler, yaratıklar ve konsept sanatı." },
+      "motion": { "title": "Motion graphics", "desc": "Markalı motion, UI animasyonu, yayın paketleri ve sinematik cilalı açıklayıcı videolar." },
+      "vfx": { "title": "Görsel efektler (VFX)", "desc": "Oyunlar, film ve dijital kampanyalar için compositing, particle FX ve CG entegrasyonu." },
+      "trailer": { "title": "Sinematik fragmanlar", "desc": "Oyunları, IP'leri ve markaları maksimum etkiyle lansmana taşıyan hikâye odaklı fragmanlar." }
+    }
+  },
+  "aboutPage": {
+    "metaTitle": "Hakkımızda — Starlights Visuals",
+    "metaDescription": "Starlights Visuals, sürükleyici oyun geliştirme, sinematik 2D animasyon ve yüksek kaliteli 3D animasyon deneyimlerinde uzman tutkulu bir yaratıcı stüdyodur.",
+    "label": "Biz kimiz",
+    "title1": "IŞIK, KOD VE HİKÂYE",
+    "title2": "ÜZERİNE KURULU STÜDYO",
+    "p1": "Starlights Visuals, oyunlar, animasyon ve sinematik anlatının kesişiminde tutkulu bir yaratıcı stüdyodur. Hayal gücünü hayata geçirmek için varız — ister geniş bir açık dünya oyunu, el yapımı bir 2D dizi ya da fotogerçekçi bir 3D fragman olsun.",
+    "p2": "Konsept sanatçılarımız ve 3D heykeltıraşlarımızdan oynanış mühendislerimize ve motion tasarımcılarımıza kadar ekibin her üyesi tek bir şeye takıntılı: izleyicide bir duygu uyandırmak. Sadece güzel pikseller inşa etmiyoruz — insanların yaşamak istediği dünyalar kuruyoruz.",
+    "p3": "Indie yaratıcılar, AAA stüdyoları ve küresel markalarla çalışarak ağırlığının üzerinde vuran, teslim tarihlerini ödün vermeden tutan ve bütçesinin iki katına mal olmuş gibi görünen işler üretiyoruz.",
+    "valuesLabel": "Temel değerler",
+    "valuesTitle": "BİZİ NE SÜRÜKLÜYOR",
+    "values": {
+      "imagination": { "title": "Önce hayal gücü", "desc": "Her proje cesur bir fikir ve boş bir tuvalle başlar." },
+      "craft": { "title": "Ustalık takıntısı", "desc": "Kare kare, piksel piksel — kalite pazarlık konusu değildir." },
+      "energy": { "title": "Sinematik enerji", "desc": "Tüylerimizi diken diken edeni kovalıyoruz. Bizi hareket ettirmiyorsa rafine ediyoruz." },
+      "story": { "title": "Hikâye odaklı", "desc": "Teknoloji hikâyeye hizmet eder. Her zaman." }
+    },
+    "stats": {
+      "projects": "Teslim edilen proje",
+      "clients": "Küresel müşteri",
+      "awards": "Kazanılan ödül",
+      "years": "Ustalık yılı"
+    }
+  },
+  "contactPage": {
+    "metaTitle": "İletişim — Starlights Visuals",
+    "metaDescription": "Oyun geliştirme, 2D ve 3D animasyon, motion graphics, VFX ve sinematik fragman projeleri için Starlights Visuals ile iletişime geçin.",
+    "label": "Konuşalım",
+    "title": "İLETİŞİM",
+    "subtitle": "Prodüksiyon talepleri, iş birlikleri veya sadece merhaba demek — bize bir sinyal gönderin.",
+    "formTitle": "PROJE BAŞLAT",
+    "formDesc": "Aşağıdaki formu doldurun, 24 saat içinde dönüş yapalım.",
+    "name": "Ad",
+    "email": "E-posta",
+    "projectType": "Proje türü",
+    "message": "Bize anlatın",
+    "send": "Mesaj gönder",
+    "sent": "✦ Mesajınız alındı. Kısa süre içinde dönüş yapacağız.",
+    "emailUs": "BİZE YAZIN",
+    "emailDesc": "Yeni projeler, basın ve ortaklıklar için.",
+    "studio": "STÜDYO",
+    "studioDesc": "Uzaktan öncelikli · Küresel teslimat",
+    "responseTime": "YANIT SÜRESİ",
+    "responseDesc": "24 saat içinde, Pzt – Cum.",
+    "projectTypes": {
+      "game": "Oyun geliştirme",
+      "2d": "2D animasyon",
+      "3d": "3D animasyon",
+      "trailer": "Sinematik fragman",
+      "character": "Karakter tasarımı",
+      "motion": "Motion graphics / VFX",
+      "other": "Diğer"
+    }
+  },
+  "portfolioPage": {
+    "metaTitle": "Portfolyo — Starlights Visuals",
+    "metaDescription": "Seçilmiş projeler: animasyon dizileri, oyun fragmanları, karakter tasarımları ve Starlights Visuals stüdyo showreel'leri.",
+    "label": "Seçilmiş işler",
+    "title1": "PORT",
+    "title2": "FOLYO",
+    "subtitle": "Hayata geçirmemize yardımcı olduğumuz dünyalara, karakterlere ve hikâyelere bir bakış.",
+    "projects": {
+      "trailer": { "tag": "Sinematik fragman", "title": "Iron Sentinel", "desc": "AAA oyun lansman fragmanı." },
+      "character": { "tag": "Karakter tasarımı", "title": "Nova Vanguard", "desc": "Kahraman protagonist sayfası." },
+      "game": { "tag": "Oyun sanatı", "title": "Lumen Worlds", "desc": "Açık dünya ortam sanatı." },
+      "2d": { "tag": "2D animasyon", "title": "Neon Skyline", "desc": "Anime esintili pilot bölüm." },
+      "creature": { "tag": "Yaratık tasarımı", "title": "Crystal Wyrm", "desc": "Boss yaratık konsepti." },
+      "motion": { "tag": "Motion graphics", "title": "Pulse Identity", "desc": "Marka motion sistemi." }
+    }
+  },
+  "blogPage": {
+    "metaTitle": "Blog — Starlights Visuals",
+    "metaDescription": "Starlights Visuals'tan animasyon, VFX, oyun sanatı, sinematik fragmanlar ve premium marka hikâye anlatımı üzerine içgörüler.",
+    "label": "Stüdyo günlüğü",
+    "title1": "BİZİM",
+    "title2": "BLOG",
+    "subtitle": "Sinematik ustalık, üretim iş akışları ve dönüşüm sağlayan görseller inşa etme üzerine düşünceler.",
+    "featured": "Öne çıkan · {{category}}",
+    "backToBlog": "Bloga dön",
+    "startProject": "Proje başlat",
+    "moreFromJournal": "Günlükten daha fazlası",
+    "postBody1": "Starlights Visuals'ta her kareyi yalnızca güzel bir görüntü değil, bir dönüşüm fırsatı olarak görüyoruz. Bu makale {{category}} çalışmamızın arkasındaki düşünceyi ve iyi kreatifi lansmana hazır kreatiften ayıran kararları genişletiyor.",
+    "postBody2": "İster bir fragman yayınlıyor, ister bir marka motion sistemini ölçeklendiriyor, ister canlı bir ürün için oyun sanatı inşa ediyor olun — aynı ilke geçerli: önce hikâye netliği, ikinci cilalama, son olarak acımasız kurgu. Bu disiplin ekiplerin «neredeyse hazır» hissini yaşamadan teslim tarihlerini tutmasını sağlar.",
+    "postBody3": "Bu düşünceyi bir sonraki projenize uygulamak ister misiniz? Ne inşa ettiğinizi duymak isteriz — bize bir brief gönderin, konseptten teslimata sinematik bir yol haritası çıkaralım.",
+    "posts": {
+      "cinematic-trailers-that-convert": {
+        "title": "Sinematik fragmanlar neden ürün demolarından daha iyi dönüştürür",
+        "excerpt": "Hikâye öncelikli lansman filmleri CTA'dan önce duygusal pay oluşturur. Maksimum tutma için hook, tempo ve grade'i nasıl yapılandırdığımız.",
+        "category": "Strateji",
+        "date": "12 Mayıs 2026",
+        "readTime": "6 dk okuma"
+      },
+      "character-design-for-ip": {
+        "title": "IP'nizi her kanalda güçlendiren karakter tasarımı",
+        "excerpt": "Silüet okunabilirliğinden merch'e hazır turnaround'lara — bir kahraman üretime girmeden önce kullandığımız kontrol listesi.",
+        "category": "Ustalık",
+        "date": "3 Mayıs 2026",
+        "readTime": "5 dk okuma"
+      },
+      "game-art-pipeline": {
+        "title": "Oyun sanatı pipeline'ımızın içinde: konseptten teslim asset'lere",
+        "excerpt": "Sanat yönü, teknik kısıtlar ve milestone incelemelerini nasıl hizalıyoruz ki ekipler cilayı feda etmeden zamanında teslim etsin.",
+        "category": "Prodüksiyon",
+        "date": "21 Nis 2026",
+        "readTime": "8 dk okuma"
+      },
+      "motion-systems-for-brands": {
+        "title": "Markaların gerçekten yeniden kullanabileceği motion sistemleri inşa etmek",
+        "excerpt": "Kampanyaları ölçekte tutarlı tutan modüler motion kütüphaneleri, logo sting'leri ve UI mikro etkileşimleri.",
+        "category": "Motion",
+        "date": "8 Nis 2026",
+        "readTime": "4 dk okuma"
+      },
+      "2d-animation-in-2026": {
+        "title": "2026'da 2D animasyon: hâlâ el yapımı hissettiren hibrit pipeline'lar",
+        "excerpt": "Rig'li verimliliği kare kare vurgularla birleştirmek — premium sonuçlar için her tekniği ne zaman kullanmalı.",
+        "category": "Animasyon",
+        "date": "29 Mar 2026",
+        "readTime": "7 dk okuma"
+      },
+      "creature-design-breakdown": {
+        "title": "Yaratık tasarımı: moodboard'dan final rig'e",
+        "excerpt": "Okunabilir silüetler, malzeme hikâyesi ve sinematik varlıkla boss yaratıkları nasıl geliştirdiğimize bir bakış.",
+        "category": "Ustalık",
+        "date": "14 Mar 2026",
+        "readTime": "6 dk okuma"
+      }
+    }
+  },
+  "errors": {
+    "notFoundTitle": "SİNYAL KAYBOLDU",
+    "notFoundDesc": "Aradığınız sayfa boşluğa sürüklendi.",
+    "returnHome": "Ana sayfaya dön",
+    "systemError": "SİSTEM HATASI",
+    "tryAgain": "Bir şeyler ters gitti. Tekrar deneyin.",
+    "retry": "Yeniden dene",
+    "home": "Ana sayfa",
+    "pageLoadTitle": "Bu sayfa yüklenmedi",
+    "pageLoadDesc": "Bizim tarafımızda bir şeyler ters gitti. Lütfen tekrar deneyin.",
+    "goHome": "Ana sayfaya git"
+  },
+  "meta": {
+    "rootTitle": "Starlights Visuals — Oyun Geliştirme ve Animasyon Stüdyosu",
+    "rootDescription": "Starlights Visuals, oyun geliştirme, sinematik 2D animasyon ve yüksek kaliteli 3D animasyonda uzmanlaşmış yaratıcı bir stüdyodur.",
+    "siteName": "Starlights Visuals"
+  },
+  "videoModal": {
+    "closeVideo": "Videoyu kapat",
+    "close": "Kapat"
+  },
+  "logoMarquee": {
+    "logoAlt": "{{brand}} logosu"
+  }
+}

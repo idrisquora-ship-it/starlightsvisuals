@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { BadgeCheck, Play, Star, Volume2 } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { staggerItem } from "@/components/SectionReveal";
@@ -35,6 +36,7 @@ export function VideoTestimonialCard({
   onPlay,
   className,
 }: VideoTestimonialCardProps) {
+  const { t } = useTranslation();
   const rating = testimonial.rating ?? 5;
   const progress = testimonial.progress ?? 0.35;
 
@@ -54,7 +56,7 @@ export function VideoTestimonialCard({
         type="button"
         onClick={onPlay}
         className="relative block w-full cursor-pointer overflow-hidden bg-black text-left"
-        aria-label={`Play video testimonial from ${testimonial.name}`}
+        aria-label={t("testimonials.playAria", { name: testimonial.name })}
       >
         <div className="relative aspect-[16/10] w-full overflow-hidden">
           <img
@@ -94,7 +96,7 @@ export function VideoTestimonialCard({
       </button>
 
       <div className="flex items-center justify-between gap-3 border-t border-white/[0.06] px-4 py-3">
-        <div className="inline-flex gap-0.5" aria-label={`${rating} out of 5 stars`}>
+        <div className="inline-flex gap-0.5" aria-label={t("testimonials.starsAria", { rating })}>
           {Array.from({ length: 5 }).map((_, i) => (
             <Star
               key={i}
@@ -107,7 +109,7 @@ export function VideoTestimonialCard({
         </div>
         <div className="flex items-center gap-1.5 font-display text-[9px] uppercase tracking-[0.15em] text-muted-foreground">
           <BadgeCheck className="h-3.5 w-3.5 text-neon-green" aria-hidden />
-          <span>Verified client</span>
+          <span>{t("testimonials.verifiedClient")}</span>
         </div>
       </div>
 

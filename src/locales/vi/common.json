@@ -1,0 +1,303 @@
+{
+  "brand": {
+    "name": "Starlights Visuals",
+    "star": "NGÔI SAO",
+    "lights": "ÁNH SÁNG",
+    "visuals": "VISUALS",
+    "email": "sternlichtespeciale@gmail.com"
+  },
+  "nav": {
+    "portfolio": "Portfolio",
+    "services": "Dịch vụ",
+    "blog": "Blog",
+    "company": "Công ty",
+    "contacts": "Liên hệ",
+    "about": "Giới thiệu",
+    "contact": "Liên hệ",
+    "portfolioCta": "Portfolio →"
+  },
+  "header": {
+    "closeMenu": "Đóng menu",
+    "openMenu": "Mở menu",
+    "closeSidebar": "Đóng thanh bên",
+    "openSidebar": "Mở thanh bên"
+  },
+  "languageSwitcher": {
+    "label": "Ngôn ngữ",
+    "selectLanguage": "Chọn ngôn ngữ",
+    "current": "Ngôn ngữ hiện tại"
+  },
+  "popup": {
+    "title": "Dịch trang web này?",
+    "message": "Chúng tôi nhận thấy bạn đang truy cập từ {{country}}. Bạn có muốn dịch trang web này sang {{language}} không?",
+    "translate": "Dịch",
+    "stayEnglish": "Giữ tiếng Anh",
+    "close": "Đóng gợi ý dịch"
+  },
+  "footer": {
+    "newsletterTitle": "THAM GIA",
+    "newsletterHighlight": "CHÒM SAO",
+    "newsletterDesc": "Hậu trường, công bố dự án và ra mắt trailer.",
+    "emailPlaceholder": "email@cua-ban.com",
+    "join": "Tham gia",
+    "subscribed": "✦ Bạn đã tham gia. Chào mừng đến Starlights.",
+    "tagline": "Studio sáng tạo biến trí tưởng tượng thành hiện thực qua phát triển game nhập vai, hoạt hình 2D điện ảnh và trải nghiệm 3D chất lượng cao.",
+    "explore": "Khám phá",
+    "follow": "Theo dõi",
+    "social": "Liên kết mạng xã hội",
+    "copyright": "© {{year}} Starlights Visuals. Được tạo bằng ánh sáng & code."
+  },
+  "home": {
+    "metaTitle": "Starlights Visuals — Studio Hoạt Hình, VFX & Game Art",
+    "metaDescription": "Studio sáng tạo cho hoạt hình 2D / 3D, VFX và game art. Chúng tôi thổi hồn vào thế giới fantasy, nhân vật và cảnh điện ảnh.",
+    "heroScript": "Thổi hồn vào thế giới —",
+    "heroTitle1": "HOẠT HÌNH",
+    "heroTitle2": "& VFX",
+    "heroBody": "Starlights Visuals thổi hồn vào game bằng hoạt hình và hiệu ứng hình ảnh giữ người chơi say mê gameplay. Chúng tôi animate sinh vật fantasy, nhân vật con người, phương tiện, môi trường, đạo cụ và cả vật thể hard-surface.",
+    "heroAlt": "Hero điện ảnh Starlights Visuals",
+    "seePortfolio": "Xem Portfolio",
+    "startProject": "Bắt đầu Dự án",
+    "servicesLabel": "Chúng tôi làm gì",
+    "servicesTitle": "DỊCH VỤ",
+    "allServices": "Tất cả Dịch vụ",
+    "showcaseLabel": "Tác phẩm gần đây",
+    "showcaseTitle1": "TÁC PHẨM",
+    "showcaseTitle2": "TIÊU BIỂU",
+    "fullPortfolio": "Portfolio Đầy đủ",
+    "ctaScript": "Hãy tạo nên điều gì đó —",
+    "ctaTitle1": "SẴN SÀNG",
+    "ctaTitle2": "HỢP TÁC?",
+    "services": {
+      "01": { "title": "Hoạt hình & VFX", "desc": "Hoạt hình 2D & 3D điện ảnh, rig nhân vật và hiệu ứng hình ảnh cho game và phim." },
+      "02": { "title": "Phát triển Game", "desc": "Sản xuất full-cycle — concept, art, code, audio, phát hành." },
+      "03": { "title": "Concept & Character Art", "desc": "Nhân vật, sinh vật, môi trường và đạo cụ độc bản củng cố IP của bạn." },
+      "04": { "title": "Trailer Điện ảnh", "desc": "Trailer kể chuyện được thiết kế để ra mắt game và franchise." }
+    },
+    "showcase": {
+      "character": { "tag": "Nhân vật", "title": "Nova Vanguard" },
+      "gameArt": { "tag": "Game Art", "title": "Lumen Worlds" },
+      "animation2d": { "tag": "Hoạt hình 2D", "title": "Neon Skyline" },
+      "cinematic": { "tag": "Điện ảnh", "title": "Iron Sentinel" },
+      "creature": { "tag": "Sinh vật", "title": "Abyss Drake" },
+      "motion": { "tag": "Motion", "title": "Pulse" }
+    }
+  },
+  "trustedBy": {
+    "badge": "500+ thương hiệu DTC",
+    "trusted": "Được",
+    "by": "Tin tưởng"
+  },
+  "testimonials": {
+    "badge": "Lời chứng thực",
+    "title1": "Họ tin tưởng tác phẩm &",
+    "title2": "Kết quả của chúng tôi",
+    "verifiedClient": "Khách hàng đã xác minh",
+    "starsAria": "{{rating}} trên 5 sao",
+    "videoBadge": "Lời chứng thực video",
+    "videoTitle1": "Lắng nghe",
+    "videoTitle2": "những gì thương hiệu nói",
+    "videoTitle3": "về Starlights Visuals",
+    "videoModalTitle": "Lời chứng thực video — {{name}}",
+    "videoModalDefault": "Lời chứng thực video",
+    "playAria": "Phát lời chứng thực video từ {{name}}",
+    "items": {
+      "elena": {
+        "headline": "Chuyên gia thực thụ mang lại kết quả",
+        "quote": "Chất lượng điện ảnh nâng tầm nhận thức thương hiệu ngay lập tức. Engagement trên chiến dịch hero tăng vọt trong tuần đầu — hình ảnh cảm giác premium, có chủ đích và không thể lướt qua.",
+        "role": "VP Brand Marketing"
+      },
+      "james": {
+        "headline": "Phim ra mắt như trailer rạp chiếu",
+        "quote": "Starlights bàn giao phim ra mắt cảm giác như trailer rạp chiếu, không phải quảng cáo sản phẩm. Retention trên paid social tăng gấp đôi và sáng tạo trở thành chuẩn mực cho mọi chiến dịch sau đó.",
+        "role": "Founder & CEO"
+      },
+      "amara": {
+        "headline": "Tinh xảo trong deadline toàn cầu",
+        "quote": "Từ storyboard đến color grade cuối, đội ngũ tinh xảo về craft và deadline. Chúng tôi triển khai chiến dịch toàn cầu với 2 triệu+ lượt xem và brand lift mà ban lãnh đạo vẫn trích dẫn trong họp hội đồng.",
+        "role": "Head of Creative"
+      }
+    },
+    "videoRoles": {
+      "ceo": "CEO",
+      "artDirector": "Art Director",
+      "founder": "Founder",
+      "headProduction": "Head of Production",
+      "vpMarketing": "VP Marketing",
+      "coFounder": "Co-Founder"
+    }
+  },
+  "servicesPage": {
+    "metaTitle": "Dịch vụ — Starlights Visuals",
+    "metaDescription": "Hoạt hình 2D, hoạt hình 3D, phát triển game, character design, motion graphics, VFX và trailer điện ảnh.",
+    "label": "Chúng tôi Tạo ra gì",
+    "title": "DỊCH VỤ",
+    "subtitle": "Một studio, mọi giai đoạn sản xuất — từ phác thảo đầu tiên đến pixel cuối cùng.",
+    "ctaTitle1": "CÓ",
+    "ctaTitle2": "DỰ ÁN",
+    "ctaTitle3": "TRONG ĐẦU?",
+    "ctaDesc": "Chia sẻ tầm nhìn — chúng tôi mang sức mạnh đến.",
+    "ctaButton": "Liên hệ",
+    "items": {
+      "2d": { "title": "Hoạt hình 2D", "desc": "2D frame-by-frame & rigged cho series, short, explainer và game. Kết hợp craft cổ điển với pipeline số." },
+      "3d": { "title": "Hoạt hình 3D", "desc": "3D stylized và photoreal — nhân vật, môi trường và chuỗi cảnh điện ảnh đầy đủ với polish chất lượng feature." },
+      "game": { "title": "Phát triển Game", "desc": "Sản xuất game end-to-end: concept, art, code, audio và ra mắt. Unreal, Unity và pipeline tùy chỉnh." },
+      "character": { "title": "Character Design", "desc": "Nhân vật, sinh vật và concept art độc bản củng cố IP và tiềm năng merch." },
+      "motion": { "title": "Motion Graphics", "desc": "Motion thương hiệu, animation UI, gói broadcast và video explainer với polish điện ảnh." },
+      "vfx": { "title": "Visual Effects (VFX)", "desc": "Compositing, particle FX và tích hợp CG cho game, phim và chiến dịch digital." },
+      "trailer": { "title": "Trailer Điện ảnh", "desc": "Trailer kể chuyện để ra mắt game, IP và thương hiệu với tác động tối đa." }
+    }
+  },
+  "aboutPage": {
+    "metaTitle": "Giới thiệu — Starlights Visuals",
+    "metaDescription": "Starlights Visuals là studio sáng tạo đam mê, chuyên phát triển game nhập vai, hoạt hình 2D điện ảnh và hoạt hình 3D chất lượng cao.",
+    "label": "Chúng tôi là ai",
+    "title1": "STUDIO ĐƯỢC XÂY DỰNG TỪ",
+    "title2": "ÁNH SÁNG, CODE & CÂU CHUYỆN",
+    "p1": "Starlights Visuals là studio sáng tạo đam mê tại giao điểm của game, hoạt hình và kể chuyện điện ảnh. Chúng tôi tồn tại để biến trí tưởng tượng thành hiện thực — dù đó là game open-world rộng lớn, series 2D thủ công hay trailer 3D photoreal.",
+    "p2": "Từ concept artist và 3D sculptor đến gameplay engineer và motion designer, mọi thành viên đều ám ảnh một điều: khiến khán giả cảm nhận được điều gì đó. Chúng tôi không chỉ xây pixel đẹp — chúng tôi xây thế giới mà người ta muốn sống.",
+    "p3": "Chúng tôi hợp tác với creator indie, studio AAA và thương hiệu toàn cầu để bàn giao tác phẩm vượt trội, đúng deadline không đánh đổi và trông như chi phí gấp đôi ngân sách.",
+    "valuesLabel": "Giá trị Cốt lõi",
+    "valuesTitle": "ĐIỀU THÚC ĐẨY CHÚNG TÔI",
+    "values": {
+      "imagination": { "title": "Trí tưởng tượng Trước tiên", "desc": "Mọi dự án bắt đầu từ ý tưởng táo bạo và tờ giấy trắng." },
+      "craft": { "title": "Ám ảnh Craft", "desc": "Frame by frame, pixel by pixel — chất lượng không thể thương lượng." },
+      "energy": { "title": "Năng lượng Điện ảnh", "desc": "Chúng tôi theo đuổi cảm giác nổi da gà. Nếu chưa chạm đến, chúng tôi refine." },
+      "story": { "title": "Hướng đến Câu chuyện", "desc": "Công nghệ phục vụ câu chuyện. Luôn luôn." }
+    },
+    "stats": {
+      "projects": "Dự án Đã bàn giao",
+      "clients": "Khách hàng Toàn cầu",
+      "awards": "Giải thưởng",
+      "years": "Năm Crafting"
+    }
+  },
+  "contactPage": {
+    "metaTitle": "Liên hệ — Starlights Visuals",
+    "metaDescription": "Liên hệ Starlights Visuals cho dự án phát triển game, hoạt hình 2D & 3D, motion graphics, VFX và trailer điện ảnh.",
+    "label": "Hãy trò chuyện",
+    "title": "LIÊN HỆ",
+    "subtitle": "Yêu cầu sản xuất, hợp tác hay chỉ muốn chào — gửi tín hiệu cho chúng tôi.",
+    "formTitle": "BẮT ĐẦU DỰ ÁN",
+    "formDesc": "Điền form bên dưới, chúng tôi sẽ phản hồi trong 24 giờ.",
+    "name": "Tên",
+    "email": "Email",
+    "projectType": "Loại Dự án",
+    "message": "Kể cho chúng tôi nghe",
+    "send": "Gửi Tin nhắn",
+    "sent": "✦ Đã nhận tin nhắn. Chúng tôi sẽ liên hệ sớm.",
+    "emailUs": "EMAIL CHÚNG TÔI",
+    "emailDesc": "Cho dự án mới, báo chí và đối tác.",
+    "studio": "STUDIO",
+    "studioDesc": "Remote-first · Giao hàng toàn cầu",
+    "responseTime": "THỜI GIAN PHẢN HỒI",
+    "responseDesc": "Trong 24 giờ, T2 – T6.",
+    "projectTypes": {
+      "game": "Phát triển Game",
+      "2d": "Hoạt hình 2D",
+      "3d": "Hoạt hình 3D",
+      "trailer": "Trailer Điện ảnh",
+      "character": "Character Design",
+      "motion": "Motion Graphics / VFX",
+      "other": "Khác"
+    }
+  },
+  "portfolioPage": {
+    "metaTitle": "Portfolio — Starlights Visuals",
+    "metaDescription": "Dự án tiêu biểu: series hoạt hình, trailer game, character design và showreel studio bởi Starlights Visuals.",
+    "label": "Tác phẩm tiêu biểu",
+    "title1": "PORT",
+    "title2": "FOLIO",
+    "subtitle": "Một cái nhìn vào thế giới, nhân vật và câu chuyện chúng tôi đã giúp thổi hồn.",
+    "projects": {
+      "trailer": { "tag": "Trailer Điện ảnh", "title": "Iron Sentinel", "desc": "Trailer ra mắt game AAA." },
+      "character": { "tag": "Character Design", "title": "Nova Vanguard", "desc": "Sheet nhân vật chính." },
+      "game": { "tag": "Game Art", "title": "Lumen Worlds", "desc": "Environment art open-world." },
+      "2d": { "tag": "Hoạt hình 2D", "title": "Neon Skyline", "desc": "Tập pilot phong cách anime." },
+      "creature": { "tag": "Creature Design", "title": "Crystal Wyrm", "desc": "Concept boss creature." },
+      "motion": { "tag": "Motion Graphics", "title": "Pulse Identity", "desc": "Hệ thống motion thương hiệu." }
+    }
+  },
+  "blogPage": {
+    "metaTitle": "Blog — Starlights Visuals",
+    "metaDescription": "Góc nhìn về hoạt hình, VFX, game art, trailer điện ảnh và brand storytelling premium từ Starlights Visuals.",
+    "label": "Nhật ký studio",
+    "title1": "THE",
+    "title2": "BLOG",
+    "subtitle": "Suy ngẫm về craft điện ảnh, workflow sản xuất và xây dựng hình ảnh convert.",
+    "featured": "Nổi bật · {{category}}",
+    "backToBlog": "Quay lại blog",
+    "startProject": "Bắt đầu dự án",
+    "moreFromJournal": "Thêm từ nhật ký",
+    "postBody1": "Tại Starlights Visuals, chúng tôi coi mỗi frame là cơ hội chuyển đổi — không chỉ là hình ảnh đẹp. Bài viết này mở rộng tư duy đằng sau công việc {{category}} và quyết định phân biệt sáng tạo tốt với sáng tạo sẵn sàng ra mắt.",
+    "postBody2": "Dù bạn ra mắt trailer, mở rộng hệ thống motion thương hiệu hay xây game art cho sản phẩm live, nguyên tắc giống nhau: rõ ràng câu chuyện trước, polish sau, và chỉnh sửa tàn nhẫn cuối cùng. Kỷ luật đó giúp team đúng deadline mà không còn cảm giác \"gần xong\".",
+    "postBody3": "Muốn áp dụng tư duy này cho dự án tiếp theo? Chúng tôi muốn nghe bạn đang xây dựng gì — gửi brief và chúng tôi sẽ vạch lộ trình điện ảnh từ concept đến bàn giao.",
+    "posts": {
+      "cinematic-trailers-that-convert": {
+        "title": "Vì sao trailer điện ảnh convert tốt hơn demo sản phẩm",
+        "excerpt": "Phim ra mắt story-first tạo stakes cảm xúc trước CTA. Đây là cách chúng tôi cấu trúc hook, pacing và grade để retention tối đa.",
+        "category": "Chiến lược",
+        "date": "12 thg 5, 2026",
+        "readTime": "6 phút đọc"
+      },
+      "character-design-for-ip": {
+        "title": "Character design củng cố IP trên mọi kênh",
+        "excerpt": "Từ độ đọc silhouette đến turnaround sẵn merch — checklist chúng tôi dùng trước khi hero vào sản xuất.",
+        "category": "Craft",
+        "date": "3 thg 5, 2026",
+        "readTime": "5 phút đọc"
+      },
+      "game-art-pipeline": {
+        "title": "Bên trong pipeline game art: từ concept đến asset bàn giao",
+        "excerpt": "Cách chúng tôi đồng bộ art direction, ràng buộc kỹ thuật và milestone review để team ship đúng hạn không hy sinh polish.",
+        "category": "Sản xuất",
+        "date": "21 thg 4, 2026",
+        "readTime": "8 phút đọc"
+      },
+      "motion-systems-for-brands": {
+        "title": "Xây hệ thống motion mà thương hiệu thực sự tái sử dụng được",
+        "excerpt": "Thư viện motion modular, logo stings và micro-interaction UI giữ chiến dịch nhất quán ở quy mô lớn.",
+        "category": "Motion",
+        "date": "8 thg 4, 2026",
+        "readTime": "4 phút đọc"
+      },
+      "2d-animation-in-2026": {
+        "title": "Hoạt hình 2D năm 2026: pipeline lai vẫn cảm giác thủ công",
+        "excerpt": "Kết hợp hiệu quả rig với accent frame-by-frame — khi nào đẩy từng kỹ thuật để có kết quả premium.",
+        "category": "Hoạt hình",
+        "date": "29 thg 3, 2026",
+        "readTime": "7 phút đọc"
+      },
+      "creature-design-breakdown": {
+        "title": "Phân tích creature design: từ mood board đến rig cuối",
+        "excerpt": "Cách chúng tôi phát triển boss creature với silhouette dễ đọc, material storytelling và presence điện ảnh.",
+        "category": "Craft",
+        "date": "14 thg 3, 2026",
+        "readTime": "6 phút đọc"
+      }
+    }
+  },
+  "errors": {
+    "notFoundTitle": "MẤT TÍN HIỆU",
+    "notFoundDesc": "Trang bạn tìm đã trôi vào hư vô.",
+    "returnHome": "Về Trang chủ",
+    "systemError": "LỖI HỆ THỐNG",
+    "tryAgain": "Đã xảy ra lỗi. Thử lại.",
+    "retry": "Thử lại",
+    "home": "Trang chủ",
+    "pageLoadTitle": "Trang này không tải được",
+    "pageLoadDesc": "Đã xảy ra sự cố phía chúng tôi. Vui lòng thử lại.",
+    "goHome": "Về trang chủ"
+  },
+  "meta": {
+    "rootTitle": "Starlights Visuals — Studio Phát triển Game & Hoạt hình",
+    "rootDescription": "Starlights Visuals là studio sáng tạo chuyên phát triển game, hoạt hình 2D điện ảnh và hoạt hình 3D chất lượng cao.",
+    "siteName": "Starlights Visuals"
+  },
+  "videoModal": {
+    "closeVideo": "Đóng video",
+    "close": "Đóng"
+  },
+  "logoMarquee": {
+    "logoAlt": "Logo {{brand}}"
+  }
+}

@@ -1,4 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
+import { useMemo } from "react";
+import { useTranslation } from "react-i18next";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { TextTestimonialsSection } from "@/components/TextTestimonialsSection";
@@ -17,44 +19,58 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "Starlights Visuals — Animation, VFX & Game Art Studio" },
-      { name: "description", content: "A creative studio for 2D / 3D animation, VFX, and game art. We bring fantasy worlds, characters and cinematics to life." },
+      {
+        name: "description",
+        content:
+          "A creative studio for 2D / 3D animation, VFX, and game art. We bring fantasy worlds, characters and cinematics to life.",
+      },
       { property: "og:title", content: "Starlights Visuals — Animation & VFX Studio" },
-      { property: "og:description", content: "Animation, VFX, and game art. Worlds, characters, cinematics." },
+      {
+        property: "og:description",
+        content: "Animation, VFX, and game art. Worlds, characters, cinematics.",
+      },
     ],
   }),
   component: Home,
 });
 
-const services = [
-  { num: "01", title: "Animation & VFX", desc: "Cinematic 2D & 3D animation, character rigs, and visual effects for games and films." },
-  { num: "02", title: "Game Development", desc: "Full-cycle production — concept, art, code, audio, ship." },
-  { num: "03", title: "Concept & Character Art", desc: "Original characters, creatures, environments, and props that anchor your IP." },
-  { num: "04", title: "Cinematic Trailers", desc: "Story-driven trailers built to launch games and franchises." },
-];
-
-const showcase = [
-  { img: portfolioCharacter, tag: "Character", title: "Nova Vanguard" },
-  { img: portfolioGame, tag: "Game Art", title: "Lumen Worlds" },
-  { img: portfolio2d, tag: "2D Animation", title: "Neon Skyline" },
-  { img: portfolioTrailer, tag: "Cinematic", title: "Iron Sentinel" },
-  { img: portfolioCreature, tag: "Creature", title: "Abyss Drake" },
-  { img: portfolioMotion, tag: "Motion", title: "Pulse" },
-];
-
 function Home() {
+  const { t } = useTranslation();
+
+  const services = useMemo(
+    () => [
+      { num: "01", title: t("home.services.01.title"), desc: t("home.services.01.desc") },
+      { num: "02", title: t("home.services.02.title"), desc: t("home.services.02.desc") },
+      { num: "03", title: t("home.services.03.title"), desc: t("home.services.03.desc") },
+      { num: "04", title: t("home.services.04.title"), desc: t("home.services.04.desc") },
+    ],
+    [t],
+  );
+
+  const showcase = useMemo(
+    () => [
+      { img: portfolioCharacter, tag: t("home.showcase.character.tag"), title: t("home.showcase.character.title") },
+      { img: portfolioGame, tag: t("home.showcase.gameArt.tag"), title: t("home.showcase.gameArt.title") },
+      { img: portfolio2d, tag: t("home.showcase.animation2d.tag"), title: t("home.showcase.animation2d.title") },
+      { img: portfolioTrailer, tag: t("home.showcase.cinematic.tag"), title: t("home.showcase.cinematic.title") },
+      { img: portfolioCreature, tag: t("home.showcase.creature.tag"), title: t("home.showcase.creature.title") },
+      { img: portfolioMotion, tag: t("home.showcase.motion.tag"), title: t("home.showcase.motion.title") },
+    ],
+    [t],
+  );
+
   return (
     <div className="min-h-screen bg-background text-foreground">
       <SiteHeader />
 
-      {/* 1. HERO */}
       <section className="relative isolate overflow-hidden border-b border-border/40">
         <div className="grid min-h-[88vh] grid-cols-1 lg:grid-cols-[1.1fr_1fr]">
           <div className="relative flex flex-col justify-center px-6 pt-16 pb-12 md:px-14 md:pt-24">
-            <p className="font-script text-3xl text-neon-green">Bringing worlds to life —</p>
+            <p className="font-script text-3xl text-neon-green">{t("home.heroScript")}</p>
 
             <h1 className="mt-6 font-display text-[14vw] leading-[0.9] tracking-tight md:text-[9rem]">
-              <span className="block">ANIMATION</span>
-              <span className="block text-outline">&amp; VFX</span>
+              <span className="block">{t("home.heroTitle1")}</span>
+              <span className="block text-outline">{t("home.heroTitle2")}</span>
             </h1>
 
             <svg
@@ -69,9 +85,7 @@ function Home() {
             </svg>
 
             <p className="mt-10 max-w-lg text-base leading-relaxed text-muted-foreground md:text-lg">
-              Starlights Visuals brings games to life with animation and visual effects
-              that keep players engrossed in gameplay. We animate fantasy creatures,
-              human characters, vehicles, environments, props, and even hard-surface objects.
+              {t("home.heroBody")}
             </p>
 
             <div className="mt-10 flex flex-wrap gap-4">
@@ -79,14 +93,14 @@ function Home() {
                 to="/portfolio"
                 className="group inline-flex items-center gap-3 rounded-full bg-neon-green px-7 py-3.5 font-display text-sm uppercase tracking-widest text-background transition hover:glow-blue"
               >
-                See Portfolio
+                {t("home.seePortfolio")}
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Link>
               <Link
                 to="/contact"
                 className="inline-flex items-center gap-3 rounded-full border border-foreground/40 px-7 py-3.5 font-display text-sm uppercase tracking-widest text-foreground transition hover:border-neon-green hover:text-neon-green"
               >
-                Start a Project
+                {t("home.startProject")}
               </Link>
             </div>
           </div>
@@ -94,7 +108,7 @@ function Home() {
           <div className="relative">
             <img
               src={heroImg}
-              alt="Starlights Visuals cinematic hero"
+              alt={t("home.heroAlt")}
               width={1920}
               height={1088}
               className="h-full w-full object-cover"
@@ -104,28 +118,29 @@ function Home() {
         </div>
       </section>
 
-      {/* 2. TRUSTED BY */}
       <TrustedBySection />
 
-      {/* 3. SERVICES */}
       <section className="border-b border-border/40">
         <div className="mx-auto max-w-7xl px-6 py-24 md:px-14">
           <div className="mb-16 flex items-end justify-between gap-6 flex-wrap">
             <div>
-              <p className="font-script text-2xl text-neon-green">What we do</p>
+              <p className="font-script text-2xl text-neon-green">{t("home.servicesLabel")}</p>
               <h2 className="mt-2 font-display text-5xl tracking-tight md:text-7xl">
-                SERVICES
+                {t("home.servicesTitle")}
               </h2>
             </div>
-            <Link to="/services" className="font-display text-xs uppercase tracking-widest text-muted-foreground hover:text-neon-green inline-flex items-center gap-2">
-              All Services <ArrowUpRight className="h-4 w-4" />
+            <Link
+              to="/services"
+              className="font-display text-xs uppercase tracking-widest text-muted-foreground hover:text-neon-green inline-flex items-center gap-2"
+            >
+              {t("home.allServices")} <ArrowUpRight className="h-4 w-4" />
             </Link>
           </div>
 
           <div className="divide-y divide-border/60 border-y border-border/60">
             {services.map((s) => (
               <Link
-                key={s.title}
+                key={s.num}
                 to="/services"
                 className="group grid grid-cols-1 items-center gap-4 py-8 md:grid-cols-[80px_1fr_1fr_40px] md:gap-10"
               >
@@ -141,18 +156,21 @@ function Home() {
         </div>
       </section>
 
-      {/* 4. PORTFOLIO / SHOWCASE */}
       <section className="border-b border-border/40">
         <div className="mx-auto max-w-7xl px-6 py-24 md:px-14">
           <div className="mb-12 flex items-end justify-between gap-4 flex-wrap">
             <div>
-              <p className="font-script text-2xl text-neon-green">Recent work</p>
+              <p className="font-script text-2xl text-neon-green">{t("home.showcaseLabel")}</p>
               <h2 className="mt-2 font-display text-5xl tracking-tight md:text-7xl">
-                <span className="text-outline">SELECTED</span> WORK
+                <span className="text-outline">{t("home.showcaseTitle1")}</span>{" "}
+                {t("home.showcaseTitle2")}
               </h2>
             </div>
-            <Link to="/portfolio" className="font-display text-xs uppercase tracking-widest text-muted-foreground hover:text-neon-green inline-flex items-center gap-2">
-              Full Portfolio <ArrowUpRight className="h-4 w-4" />
+            <Link
+              to="/portfolio"
+              className="font-display text-xs uppercase tracking-widest text-muted-foreground hover:text-neon-green inline-flex items-center gap-2"
+            >
+              {t("home.fullPortfolio")} <ArrowUpRight className="h-4 w-4" />
             </Link>
           </div>
 
@@ -174,7 +192,9 @@ function Home() {
                 </div>
                 <div className="absolute inset-x-0 bottom-0 flex items-end justify-between p-5">
                   <div>
-                    <p className="font-display text-[10px] uppercase tracking-widest text-neon-green">{item.tag}</p>
+                    <p className="font-display text-[10px] uppercase tracking-widest text-neon-green">
+                      {item.tag}
+                    </p>
                     <h3 className="mt-1 font-display text-2xl tracking-tight">{item.title}</h3>
                   </div>
                   <ArrowUpRight className="h-5 w-5 text-foreground transition group-hover:text-neon-green" />
@@ -185,31 +205,26 @@ function Home() {
         </div>
       </section>
 
-      {/* 5. TEXT TESTIMONIALS */}
       <TextTestimonialsSection />
-
-      {/* 6. VIDEO TESTIMONIALS */}
       <VideoTestimonialsSection />
 
-      {/* 7. FINAL CTA */}
       <section className="relative isolate overflow-hidden border-b border-border/40">
         <div className="absolute inset-0 -z-10 grid-bg" />
         <div className="mx-auto max-w-5xl px-6 py-28 text-center md:py-40">
-          <p className="font-script text-3xl text-neon-green">Let&apos;s build something —</p>
+          <p className="font-script text-3xl text-neon-green">{t("home.ctaScript")}</p>
           <h2 className="mt-4 font-display text-5xl tracking-tight md:text-8xl">
-            <span className="block">READY TO</span>
-            <span className="block text-outline-green">COLLABORATE?</span>
+            <span className="block">{t("home.ctaTitle1")}</span>
+            <span className="block text-outline-green">{t("home.ctaTitle2")}</span>
           </h2>
           <Link
             to="/contact"
             className="mt-12 inline-flex items-center gap-3 rounded-full bg-neon-green px-9 py-4 font-display text-sm uppercase tracking-widest text-background hover:glow-blue"
           >
-            Start a Project <ArrowRight className="h-4 w-4" />
+            {t("home.startProject")} <ArrowRight className="h-4 w-4" />
           </Link>
         </div>
       </section>
 
-      {/* 8. FOOTER */}
       <SiteFooter />
     </div>
   );

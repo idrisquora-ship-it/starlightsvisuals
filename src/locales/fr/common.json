@@ -1,0 +1,303 @@
+{
+  "brand": {
+    "name": "Starlights Visuals",
+    "star": "ÉTOILE",
+    "lights": "LUMIÈRES",
+    "visuals": "VISUALS",
+    "email": "sternlichtespeciale@gmail.com"
+  },
+  "nav": {
+    "portfolio": "Portfolio",
+    "services": "Services",
+    "blog": "Blog",
+    "company": "Entreprise",
+    "contacts": "Contacts",
+    "about": "À propos",
+    "contact": "Contact",
+    "portfolioCta": "Portfolio →"
+  },
+  "header": {
+    "closeMenu": "Fermer le menu",
+    "openMenu": "Ouvrir le menu",
+    "closeSidebar": "Fermer la barre latérale",
+    "openSidebar": "Ouvrir la barre latérale"
+  },
+  "languageSwitcher": {
+    "label": "Langue",
+    "selectLanguage": "Choisir la langue",
+    "current": "Langue actuelle"
+  },
+  "popup": {
+    "title": "Traduire ce site ?",
+    "message": "Nous avons remarqué que vous visitez depuis {{country}}. Souhaitez-vous traduire ce site en {{language}} ?",
+    "translate": "Traduire",
+    "stayEnglish": "Rester en anglais",
+    "close": "Fermer la suggestion de traduction"
+  },
+  "footer": {
+    "newsletterTitle": "REJOIGNEZ LA",
+    "newsletterHighlight": "CONSTELLATION",
+    "newsletterDesc": "Coulisses exclusives, révélations de projets et premières de trailers.",
+    "emailPlaceholder": "votre@email.com",
+    "join": "S'inscrire",
+    "subscribed": "✦ Vous êtes inscrit. Bienvenue chez Starlights.",
+    "tagline": "Un studio créatif qui donne vie à l'imagination à travers le développement de jeux immersifs, l'animation 2D cinématographique et des expériences 3D de haute qualité.",
+    "explore": "Explorer",
+    "follow": "Suivre",
+    "social": "Lien social",
+    "copyright": "© {{year}} Starlights Visuals. Créé avec lumière & code."
+  },
+  "home": {
+    "metaTitle": "Starlights Visuals — Studio d'animation, VFX & game art",
+    "metaDescription": "Un studio créatif pour l'animation 2D / 3D, les VFX et le game art. Nous donnons vie aux mondes fantastiques, aux personnages et aux cinématiques.",
+    "heroScript": "Donner vie aux mondes —",
+    "heroTitle1": "ANIMATION",
+    "heroTitle2": "& VFX",
+    "heroBody": "Starlights Visuals donne vie aux jeux grâce à l'animation et aux effets visuels qui captivent les joueurs en plein gameplay. Nous animons créatures fantastiques, personnages humains, véhicules, environnements, accessoires et même des objets hard-surface.",
+    "heroAlt": "Hero cinématographique Starlights Visuals",
+    "seePortfolio": "Voir le portfolio",
+    "startProject": "Lancer un projet",
+    "servicesLabel": "Ce que nous faisons",
+    "servicesTitle": "SERVICES",
+    "allServices": "Tous les services",
+    "showcaseLabel": "Travaux récents",
+    "showcaseTitle1": "TRAVAUX",
+    "showcaseTitle2": "SÉLECTIONNÉS",
+    "fullPortfolio": "Portfolio complet",
+    "ctaScript": "Construisons quelque chose —",
+    "ctaTitle1": "PRÊT À",
+    "ctaTitle2": "COLLABORER ?",
+    "services": {
+      "01": { "title": "Animation & VFX", "desc": "Animation 2D & 3D cinématographique, rigs de personnages et effets visuels pour jeux et films." },
+      "02": { "title": "Développement de jeux", "desc": "Production full-cycle — concept, art, code, audio, livraison." },
+      "03": { "title": "Concept & character art", "desc": "Personnages originaux, créatures, environnements et accessoires qui ancrent votre IP." },
+      "04": { "title": "Trailers cinématographiques", "desc": "Trailers narratifs conçus pour lancer jeux et franchises." }
+    },
+    "showcase": {
+      "character": { "tag": "Personnage", "title": "Nova Vanguard" },
+      "gameArt": { "tag": "Game art", "title": "Lumen Worlds" },
+      "animation2d": { "tag": "Animation 2D", "title": "Neon Skyline" },
+      "cinematic": { "tag": "Cinématique", "title": "Iron Sentinel" },
+      "creature": { "tag": "Créature", "title": "Abyss Drake" },
+      "motion": { "tag": "Motion", "title": "Pulse" }
+    }
+  },
+  "trustedBy": {
+    "badge": "500+ marques DTC",
+    "trusted": "Ils nous font",
+    "by": "confiance"
+  },
+  "testimonials": {
+    "badge": "Témoignages",
+    "title1": "Ils ont fait confiance à notre travail &",
+    "title2": "nos résultats",
+    "verifiedClient": "Client vérifié",
+    "starsAria": "{{rating}} étoiles sur 5",
+    "videoBadge": "Témoignages vidéo",
+    "videoTitle1": "Écoutez",
+    "videoTitle2": "ce que les marques disent",
+    "videoTitle3": "de Starlights Visuals",
+    "videoModalTitle": "Témoignage vidéo — {{name}}",
+    "videoModalDefault": "Témoignage vidéo",
+    "playAria": "Lire le témoignage vidéo de {{name}}",
+    "items": {
+      "elena": {
+        "headline": "De vrais professionnels qui livrent des résultats",
+        "quote": "La qualité cinématographique a instantanément élevé la perception de notre marque. L'engagement sur notre campagne hero a bondi dès la première semaine — les visuels sont premium, intentionnels et impossibles à faire défiler.",
+        "role": "VP Marketing de marque"
+      },
+      "james": {
+        "headline": "Un film de lancement digne du grand écran",
+        "quote": "Starlights a livré un film de lancement qui ressemblait à une bande-annonce de cinéma, pas à une pub produit. Notre rétention en social payant a doublé et la création est devenue la référence pour chaque campagne suivante.",
+        "role": "Fondateur & CEO"
+      },
+      "amara": {
+        "headline": "Un savoir-faire chirurgical sous deadline mondiale",
+        "quote": "Du storyboard au grade final, l'équipe a été chirurgicale sur le craft et les délais. Nous avons livré une campagne globale avec plus de 2 M de vues et un brand lift que notre direction cite encore en conseil d'administration.",
+        "role": "Directrice créative"
+      }
+    },
+    "videoRoles": {
+      "ceo": "CEO",
+      "artDirector": "Directeur artistique",
+      "founder": "Fondateur",
+      "headProduction": "Directeur de production",
+      "vpMarketing": "VP Marketing",
+      "coFounder": "Co-fondateur"
+    }
+  },
+  "servicesPage": {
+    "metaTitle": "Services — Starlights Visuals",
+    "metaDescription": "Animation 2D, animation 3D, développement de jeux, character design, motion graphics, VFX et trailers cinématographiques.",
+    "label": "Ce que nous créons",
+    "title": "SERVICES",
+    "subtitle": "Un studio, chaque étape de la production — de la première esquisse au pixel final.",
+    "ctaTitle1": "UN PROJET",
+    "ctaTitle2": "EN",
+    "ctaTitle3": "TÊTE ?",
+    "ctaDesc": "Partagez votre vision — nous apportons la puissance de feu.",
+    "ctaButton": "Nous contacter",
+    "items": {
+      "2d": { "title": "Animation 2D", "desc": "2D image par image & riggée pour séries, courts-métrages, explainers et jeux. Craft classique et pipelines digitaux." },
+      "3d": { "title": "Animation 3D", "desc": "3D stylisée et photoréaliste — personnages, environnements et séquences cinématographiques complètes avec finition feature." },
+      "game": { "title": "Développement de jeux", "desc": "Production de jeux de bout en bout : concept, art, code, audio et lancement. Unreal, Unity et pipelines sur mesure." },
+      "character": { "title": "Character design", "desc": "Personnages originaux, créatures et concept art qui ancrent votre IP et votre potentiel merch." },
+      "motion": { "title": "Motion graphics", "desc": "Motion de marque, animation UI, habillages broadcast et vidéos explicatives avec finition cinématographique." },
+      "vfx": { "title": "Effets visuels (VFX)", "desc": "Compositing, FX particules et intégration CG pour jeux, film et campagnes digitales." },
+      "trailer": { "title": "Trailers cinématographiques", "desc": "Trailers narratifs conçus pour lancer jeux, IPs et marques avec un impact maximal." }
+    }
+  },
+  "aboutPage": {
+    "metaTitle": "À propos — Starlights Visuals",
+    "metaDescription": "Starlights Visuals est un studio créatif passionné, spécialisé dans le développement de jeux immersifs, l'animation 2D cinématographique et l'animation 3D de haute qualité.",
+    "label": "Qui nous sommes",
+    "title1": "UN STUDIO BÂTI SUR",
+    "title2": "LUMIÈRE, CODE & RÉCIT",
+    "p1": "Starlights Visuals est un studio créatif passionné à la croisée des jeux, de l'animation et du storytelling cinématographique. Nous existons pour donner vie à l'imagination — qu'il s'agisse d'un jeu open-world vaste, d'une série 2D artisanale ou d'un trailer 3D photoréaliste.",
+    "p2": "De nos concept artists et sculpteurs 3D à nos ingénieurs gameplay et motion designers, chaque membre de l'équipe est obsédé par une chose : faire ressentir quelque chose au public. Nous ne construisons pas seulement de beaux pixels — nous construisons des mondes où l'on a envie de vivre.",
+    "p3": "Nous collaborons avec des créateurs indépendants, des studios AAA et des marques globales pour livrer un travail qui frappe au-dessus de son poids, respecte les deadlines sans compromis et paraît avoir coûté le double du budget.",
+    "valuesLabel": "Valeurs fondamentales",
+    "valuesTitle": "CE QUI NOUS ANIME",
+    "values": {
+      "imagination": { "title": "L'imagination d'abord", "desc": "Chaque projet commence par une idée audacieuse et une page blanche." },
+      "craft": { "title": "Obsédés par le craft", "desc": "Image par image, pixel par pixel — la qualité n'est pas négociable." },
+      "energy": { "title": "Énergie cinématographique", "desc": "Nous chassons la chair de poule. Si ça ne nous touche pas, on affine." },
+      "story": { "title": "Porté par le récit", "desc": "La technique sert l'histoire. Toujours." }
+    },
+    "stats": {
+      "projects": "Projets livrés",
+      "clients": "Clients internationaux",
+      "awards": "Prix remportés",
+      "years": "Années de craft"
+    }
+  },
+  "contactPage": {
+    "metaTitle": "Contact — Starlights Visuals",
+    "metaDescription": "Contactez Starlights Visuals pour vos projets de développement de jeux, animation 2D & 3D, motion graphics, VFX et trailers cinématographiques.",
+    "label": "Parlons-en",
+    "title": "CONTACT",
+    "subtitle": "Demandes de production, collaborations ou simple bonjour — envoyez-nous un signal.",
+    "formTitle": "LANCER UN PROJET",
+    "formDesc": "Remplissez le formulaire ci-dessous et nous vous répondrons sous 24 heures.",
+    "name": "Nom",
+    "email": "E-mail",
+    "projectType": "Type de projet",
+    "message": "Parlez-nous de votre projet",
+    "send": "Envoyer le message",
+    "sent": "✦ Message reçu. Nous vous recontacterons très bientôt.",
+    "emailUs": "NOUS ÉCRIRE",
+    "emailDesc": "Pour nouveaux projets, presse et partenariats.",
+    "studio": "STUDIO",
+    "studioDesc": "Remote-first · Livraison mondiale",
+    "responseTime": "DÉLAI DE RÉPONSE",
+    "responseDesc": "Sous 24 heures, lun – ven.",
+    "projectTypes": {
+      "game": "Développement de jeux",
+      "2d": "Animation 2D",
+      "3d": "Animation 3D",
+      "trailer": "Trailer cinématographique",
+      "character": "Character design",
+      "motion": "Motion graphics / VFX",
+      "other": "Autre"
+    }
+  },
+  "portfolioPage": {
+    "metaTitle": "Portfolio — Starlights Visuals",
+    "metaDescription": "Projets sélectionnés : séries animées, trailers de jeux, character designs et showreels studio par Starlights Visuals.",
+    "label": "Travaux sélectionnés",
+    "title1": "PORT",
+    "title2": "FOLIO",
+    "subtitle": "Un aperçu des mondes, personnages et histoires que nous avons aidé à donner vie.",
+    "projects": {
+      "trailer": { "tag": "Trailer cinématographique", "title": "Iron Sentinel", "desc": "Trailer de lancement de jeu AAA." },
+      "character": { "tag": "Character design", "title": "Nova Vanguard", "desc": "Fiche du héros protagoniste." },
+      "game": { "tag": "Game art", "title": "Lumen Worlds", "desc": "Art d'environnement open-world." },
+      "2d": { "tag": "Animation 2D", "title": "Neon Skyline", "desc": "Épisode pilote inspiré de l'anime." },
+      "creature": { "tag": "Creature design", "title": "Crystal Wyrm", "desc": "Concept de créature boss." },
+      "motion": { "tag": "Motion graphics", "title": "Pulse Identity", "desc": "Système de motion de marque." }
+    }
+  },
+  "blogPage": {
+    "metaTitle": "Blog — Starlights Visuals",
+    "metaDescription": "Réflexions sur l'animation, les VFX, le game art, les trailers cinématographiques et le storytelling de marque premium par Starlights Visuals.",
+    "label": "Journal du studio",
+    "title1": "LE",
+    "title2": "BLOG",
+    "subtitle": "Réflexions sur le craft cinématographique, les workflows de production et la création de visuels qui convertissent.",
+    "featured": "À la une · {{category}}",
+    "backToBlog": "Retour au blog",
+    "startProject": "Lancer un projet",
+    "moreFromJournal": "Plus du journal",
+    "postBody1": "Chez Starlights Visuals, nous traitons chaque image comme une opportunité de conversion — pas seulement comme une belle image. Cet article approfondit la réflexion derrière notre travail {{category}} et les choix qui séparent un bon créatif d'un créatif prêt au lancement.",
+    "postBody2": "Que vous livriez un trailer, scaliez un système de motion de marque ou construisiez du game art pour un produit live, le même principe s'applique : clarté du récit d'abord, polish ensuite, et montage impitoyable en dernier. C'est cette discipline qui permet aux équipes de tenir les deadlines sans le sentiment du « presque là ».",
+    "postBody3": "Envie d'appliquer cette approche à votre prochain projet ? Nous serions ravis d'entendre ce que vous construisez — envoyez-nous un brief et nous tracerons un parcours cinématographique du concept à la livraison.",
+    "posts": {
+      "cinematic-trailers-that-convert": {
+        "title": "Pourquoi les trailers cinématographiques convertissent mieux que les démos produit",
+        "excerpt": "Les films de lancement story-first créent des enjeux émotionnels avant le CTA. Voici comment nous structurons hooks, rythme et grade pour une rétention maximale.",
+        "category": "Stratégie",
+        "date": "12 mai 2026",
+        "readTime": "6 min de lecture"
+      },
+      "character-design-for-ip": {
+        "title": "Un character design qui ancre votre IP sur tous les canaux",
+        "excerpt": "De la lisibilité de la silhouette aux turnarounds prêts pour le merch — la checklist que nous utilisons avant qu'un héros entre en production.",
+        "category": "Craft",
+        "date": "3 mai 2026",
+        "readTime": "5 min de lecture"
+      },
+      "game-art-pipeline": {
+        "title": "Dans notre pipeline game art : du concept aux assets livrés",
+        "excerpt": "Comment nous alignons direction artistique, contraintes techniques et revues de jalons pour que les équipes livrent à temps sans sacrifier le polish.",
+        "category": "Production",
+        "date": "21 avr. 2026",
+        "readTime": "8 min de lecture"
+      },
+      "motion-systems-for-brands": {
+        "title": "Construire des systèmes de motion que les marques peuvent vraiment réutiliser",
+        "excerpt": "Bibliothèques de motion modulaires, logo stings et micro-interactions UI qui maintiennent la cohérence des campagnes à grande échelle.",
+        "category": "Motion",
+        "date": "8 avr. 2026",
+        "readTime": "4 min de lecture"
+      },
+      "2d-animation-in-2026": {
+        "title": "Animation 2D en 2026 : des pipelines hybrides qui restent artisanaux",
+        "excerpt": "Combiner l'efficacité du rig et les accents image par image — quand pousser chaque technique pour des résultats premium.",
+        "category": "Animation",
+        "date": "29 mars 2026",
+        "readTime": "7 min de lecture"
+      },
+      "creature-design-breakdown": {
+        "title": "Creature design décortiqué : du mood board au rig final",
+        "excerpt": "Comment nous développons des créatures boss avec des silhouettes lisibles, un storytelling matière et une présence cinématographique.",
+        "category": "Craft",
+        "date": "14 mars 2026",
+        "readTime": "6 min de lecture"
+      }
+    }
+  },
+  "errors": {
+    "notFoundTitle": "SIGNAL PERDU",
+    "notFoundDesc": "La page que vous cherchez a dérivé dans le vide.",
+    "returnHome": "Retour à l'accueil",
+    "systemError": "ERREUR SYSTÈME",
+    "tryAgain": "Une erreur s'est produite. Réessayez.",
+    "retry": "Réessayer",
+    "home": "Accueil",
+    "pageLoadTitle": "Cette page n'a pas pu se charger",
+    "pageLoadDesc": "Un problème est survenu de notre côté. Veuillez réessayer.",
+    "goHome": "Retour à l'accueil"
+  },
+  "meta": {
+    "rootTitle": "Starlights Visuals — Studio de développement de jeux & animation",
+    "rootDescription": "Starlights Visuals est un studio créatif spécialisé dans le développement de jeux, l'animation 2D cinématographique et l'animation 3D de haute qualité.",
+    "siteName": "Starlights Visuals"
+  },
+  "videoModal": {
+    "closeVideo": "Fermer la vidéo",
+    "close": "Fermer"
+  },
+  "logoMarquee": {
+    "logoAlt": "Logo {{brand}}"
+  }
+}

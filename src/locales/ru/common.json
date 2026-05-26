@@ -1,0 +1,303 @@
+{
+  "brand": {
+    "name": "Starlights Visuals",
+    "star": "STAR",
+    "lights": "LIGHTS",
+    "visuals": "VISUALS",
+    "email": "sternlichtespeciale@gmail.com"
+  },
+  "nav": {
+    "portfolio": "Портфолио",
+    "services": "Услуги",
+    "blog": "Блог",
+    "company": "Компания",
+    "contacts": "Контакты",
+    "about": "О нас",
+    "contact": "Контакты",
+    "portfolioCta": "Портфолио →"
+  },
+  "header": {
+    "closeMenu": "Закрыть меню",
+    "openMenu": "Открыть меню",
+    "closeSidebar": "Закрыть боковую панель",
+    "openSidebar": "Открыть боковую панель"
+  },
+  "languageSwitcher": {
+    "label": "Язык",
+    "selectLanguage": "Выберите язык",
+    "current": "Текущий язык"
+  },
+  "popup": {
+    "title": "Перевести этот сайт?",
+    "message": "Мы заметили, что вы заходите из {{country}}. Хотите перевести этот сайт на {{language}}?",
+    "translate": "Перевести",
+    "stayEnglish": "Оставить на английском",
+    "close": "Закрыть предложение перевода"
+  },
+  "footer": {
+    "newsletterTitle": "ПРИСОЕДИНЯЙТЕСЬ К",
+    "newsletterHighlight": "СОЗВЕЗДИЮ",
+    "newsletterDesc": "Закулисье, анонсы проектов и премьеры трейлеров.",
+    "emailPlaceholder": "your@email.com",
+    "join": "Подписаться",
+    "subscribed": "✦ Вы с нами. Добро пожаловать в Starlights.",
+    "tagline": "Креативная студия, которая воплощает воображение в жизнь через immersive-разработку игр, кинематографичную 2D-анимацию и высококачественные 3D-опыты.",
+    "explore": "Исследовать",
+    "follow": "Подписаться",
+    "social": "Социальная сеть",
+    "copyright": "© {{year}} Starlights Visuals. Создано со светом и кодом."
+  },
+  "home": {
+    "metaTitle": "Starlights Visuals — студия анимации, VFX и game art",
+    "metaDescription": "Креативная студия 2D / 3D-анимации, VFX и game art. Мы оживляем фантастические миры, персонажей и кинематографичные сцены.",
+    "heroScript": "Оживляем миры —",
+    "heroTitle1": "АНИМАЦИЯ",
+    "heroTitle2": "И VFX",
+    "heroBody": "Starlights Visuals оживляет игры анимацией и визуальными эффектами, которые удерживают игроков в геймплее. Мы анимируем фантастических существ, человеческих персонажей, транспорт, окружение, реквизит и даже hard-surface объекты.",
+    "heroAlt": "Кинематографичный hero Starlights Visuals",
+    "seePortfolio": "Смотреть портфолио",
+    "startProject": "Начать проект",
+    "servicesLabel": "Чем мы занимаемся",
+    "servicesTitle": "УСЛУГИ",
+    "allServices": "Все услуги",
+    "showcaseLabel": "Недавние работы",
+    "showcaseTitle1": "ИЗБРАННЫЕ",
+    "showcaseTitle2": "РАБОТЫ",
+    "fullPortfolio": "Полное портфолио",
+    "ctaScript": "Давайте создадим что-то —",
+    "ctaTitle1": "ГОТОВЫ",
+    "ctaTitle2": "К СОТРУДНИЧЕСТВУ?",
+    "services": {
+      "01": { "title": "Анимация и VFX", "desc": "Кинематографичная 2D и 3D-анимация, риги персонажей и визуальные эффекты для игр и фильмов." },
+      "02": { "title": "Разработка игр", "desc": "Полный цикл производства — концепт, арт, код, аудио, релиз." },
+      "03": { "title": "Concept и character art", "desc": "Оригинальные персонажи, существа, окружения и реквизит, которые закрепляют ваш IP." },
+      "04": { "title": "Кинематографичные трейлеры", "desc": "Сюжетные трейлеры для запуска игр и франшиз." }
+    },
+    "showcase": {
+      "character": { "tag": "Персонаж", "title": "Nova Vanguard" },
+      "gameArt": { "tag": "Game art", "title": "Lumen Worlds" },
+      "animation2d": { "tag": "2D-анимация", "title": "Neon Skyline" },
+      "cinematic": { "tag": "Кинематограф", "title": "Iron Sentinel" },
+      "creature": { "tag": "Существо", "title": "Abyss Drake" },
+      "motion": { "tag": "Motion", "title": "Pulse" }
+    }
+  },
+  "trustedBy": {
+    "badge": "500+ DTC-брендов",
+    "trusted": "Нам",
+    "by": "доверяют"
+  },
+  "testimonials": {
+    "badge": "Отзывы",
+    "title1": "Они доверились нашей работе и",
+    "title2": "результатам",
+    "verifiedClient": "Проверенный клиент",
+    "starsAria": "{{rating}} из 5 звёзд",
+    "videoBadge": "Видеоотзывы",
+    "videoTitle1": "Услышьте",
+    "videoTitle2": "что бренды говорят",
+    "videoTitle3": "о Starlights Visuals",
+    "videoModalTitle": "Видеоотзыв — {{name}}",
+    "videoModalDefault": "Видеоотзыв",
+    "playAria": "Воспроизвести видеоотзыв от {{name}}",
+    "items": {
+      "elena": {
+        "headline": "Настоящие профессионалы, которые дали результат",
+        "quote": "Кинематографичное качество мгновенно подняло восприятие нашего бренда. Вовлечённость в hero-кампании выросла уже в первую неделю — визуалы премиальные, продуманные и невозможные для пролистывания.",
+        "role": "VP of Brand Marketing"
+      },
+      "james": {
+        "headline": "Launch-фильм, который ощущался как кино",
+        "quote": "Starlights создали launch-фильм, который ощущался как кинотеатральный трейлер, а не реклама продукта. Удержание в paid social удвоилось, и креатив стал эталоном для всех последующих кампаний.",
+        "role": "Founder & CEO"
+      },
+      "amara": {
+        "headline": "Хирургическая точность при глобальном дедлайне",
+        "quote": "От раскадровки до финального color grade команда была хирургически точна в craft и сроках. Мы запустили глобальную кампанию с 2M+ просмотров и brand lift, который руководство до сих пор цитирует на board meetings.",
+        "role": "Head of Creative"
+      }
+    },
+    "videoRoles": {
+      "ceo": "CEO",
+      "artDirector": "Art Director",
+      "founder": "Founder",
+      "headProduction": "Head of Production",
+      "vpMarketing": "VP Marketing",
+      "coFounder": "Co-Founder"
+    }
+  },
+  "servicesPage": {
+    "metaTitle": "Услуги — Starlights Visuals",
+    "metaDescription": "2D-анимация, 3D-анимация, разработка игр, character design, motion graphics, VFX и кинематографичные трейлеры.",
+    "label": "Что мы создаём",
+    "title": "УСЛУГИ",
+    "subtitle": "Одна студия, каждый этап производства — от первого эскиза до финального пикселя.",
+    "ctaTitle1": "ЕСТЬ",
+    "ctaTitle2": "ПРОЕКТ",
+    "ctaTitle3": "В ГОЛОВЕ?",
+    "ctaDesc": "Расскажите о своём видении — мы обеспечим огневую мощь.",
+    "ctaButton": "Связаться",
+    "items": {
+      "2d": { "title": "2D-анимация", "desc": "Frame-by-frame и rigged 2D для сериалов, шортов, explainer и игр. Сочетаем классический craft с цифровыми pipeline." },
+      "3d": { "title": "3D-анимация", "desc": "Stylized и photoreal 3D — персонажи, окружения и полные кинематографичные последовательности с feature-качеством." },
+      "game": { "title": "Разработка игр", "desc": "End-to-end производство игр: концепт, арт, код, аудио и запуск. Unreal, Unity и custom pipeline." },
+      "character": { "title": "Character design", "desc": "Оригинальные персонажи, существа и concept art, которые закрепляют IP и merch-потенциал." },
+      "motion": { "title": "Motion graphics", "desc": "Брендовый motion, UI-анимация, broadcast-пакеты и explainer-видео с кинематографичной отделкой." },
+      "vfx": { "title": "Визуальные эффекты (VFX)", "desc": "Compositing, particle FX и CG-интеграция для игр, фильмов и digital-кампаний." },
+      "trailer": { "title": "Кинематографичные трейлеры", "desc": "Сюжетные трейлеры для запуска игр, IP и брендов с максимальным impact." }
+    }
+  },
+  "aboutPage": {
+    "metaTitle": "О нас — Starlights Visuals",
+    "metaDescription": "Starlights Visuals — страстная креативная студия, специализирующаяся на immersive-разработке игр, кинематографичной 2D-анимации и высококачественных 3D-опытах.",
+    "label": "Кто мы",
+    "title1": "СТУДИЯ, ПОСТРОЕННАЯ НА",
+    "title2": "СВЕТЕ, КОДЕ И ИСТОРИИ",
+    "p1": "Starlights Visuals — страстная креативная студия на стыке игр, анимации и кинематографичного storytelling. Мы существуем, чтобы воплощать воображение в жизнь — будь то масштабная open-world игра, hand-crafted 2D-сериал или photoreal 3D-трейлер.",
+    "p2": "От concept artists и 3D-скульпторов до gameplay engineers и motion designers — каждый член команды одержим одним: заставить аудиторию что-то почувствовать. Мы не просто создаём красивые пиксели — мы строим миры, в которых люди хотят жить.",
+    "p3": "Мы работаем с indie-создателями, AAA-студиями и global-брендами, чтобы доставлять работу, которая бьёт выше веса, укладывается в сроки без компромиссов и выглядит так, будто стоила вдвое больше.",
+    "valuesLabel": "Ключевые ценности",
+    "valuesTitle": "ЧТО НАС ДВИЖЕТ",
+    "values": {
+      "imagination": { "title": "Воображение прежде всего", "desc": "Каждый проект начинается с смелой идеи и чистого холста." },
+      "craft": { "title": "Одержимость craft", "desc": "Кадр за кадром, пиксель за пикселем — качество не обсуждается." },
+      "energy": { "title": "Кинематографичная энергия", "desc": "Мы гонимся за мурашками. Если не трогает нас — дорабатываем." },
+      "story": { "title": "Story-driven", "desc": "Технологии служат истории. Всегда." }
+    },
+    "stats": {
+      "projects": "Завершённых проектов",
+      "clients": "Клиентов по миру",
+      "awards": "Наград",
+      "years": "Лет craft"
+    }
+  },
+  "contactPage": {
+    "metaTitle": "Контакты — Starlights Visuals",
+    "metaDescription": "Свяжитесь с Starlights Visuals по вопросам разработки игр, 2D и 3D-анимации, motion graphics, VFX и кинематографичных трейлеров.",
+    "label": "Давайте поговорим",
+    "title": "КОНТАКТЫ",
+    "subtitle": "Запросы на производство, коллаборации или просто поздороваться — отправьте нам сигнал.",
+    "formTitle": "НАЧАТЬ ПРОЕКТ",
+    "formDesc": "Заполните форму ниже — мы ответим в течение 24 часов.",
+    "name": "Имя",
+    "email": "Email",
+    "projectType": "Тип проекта",
+    "message": "Расскажите подробнее",
+    "send": "Отправить сообщение",
+    "sent": "✦ Сообщение получено. Мы скоро свяжемся с вами.",
+    "emailUs": "НАПИШИТЕ НАМ",
+    "emailDesc": "Новые проекты, пресса и партнёрства.",
+    "studio": "СТУДИЯ",
+    "studioDesc": "Remote-first · Глобальная доставка",
+    "responseTime": "ВРЕМЯ ОТВЕТА",
+    "responseDesc": "В течение 24 часов, пн – пт.",
+    "projectTypes": {
+      "game": "Разработка игр",
+      "2d": "2D-анимация",
+      "3d": "3D-анимация",
+      "trailer": "Кинематографичный трейлер",
+      "character": "Character design",
+      "motion": "Motion graphics / VFX",
+      "other": "Другое"
+    }
+  },
+  "portfolioPage": {
+    "metaTitle": "Портфолио — Starlights Visuals",
+    "metaDescription": "Избранные проекты: анимационные сериалы, игровые трейлеры, character design и showcase-рилы Starlights Visuals.",
+    "label": "Избранные работы",
+    "title1": "ПОРТ",
+    "title2": "ФОЛИО",
+    "subtitle": "Взгляд на миры, персонажей и истории, которые мы помогли оживить.",
+    "projects": {
+      "trailer": { "tag": "Кинематографичный трейлер", "title": "Iron Sentinel", "desc": "Launch-трейлер AAA-игры." },
+      "character": { "tag": "Character design", "title": "Nova Vanguard", "desc": "Character sheet героя." },
+      "game": { "tag": "Game art", "title": "Lumen Worlds", "desc": "Environment art open world." },
+      "2d": { "tag": "2D-анимация", "title": "Neon Skyline", "desc": "Пилотный эпизод в anime-стиле." },
+      "creature": { "tag": "Creature design", "title": "Crystal Wyrm", "desc": "Concept boss-существа." },
+      "motion": { "tag": "Motion graphics", "title": "Pulse Identity", "desc": "Motion-система бренда." }
+    }
+  },
+  "blogPage": {
+    "metaTitle": "Блог — Starlights Visuals",
+    "metaDescription": "Инсайты об анимации, VFX, game art, кинематографичных трейлерах и premium brand storytelling от Starlights Visuals.",
+    "label": "Журнал студии",
+    "title1": "Б",
+    "title2": "ЛОГ",
+    "subtitle": "Мысли о кинематографичном craft, production workflow и визуалах, которые конвертируют.",
+    "featured": "Избранное · {{category}}",
+    "backToBlog": "Назад в блог",
+    "startProject": "Начать проект",
+    "moreFromJournal": "Ещё из журнала",
+    "postBody1": "В Starlights Visuals мы рассматриваем каждый кадр как возможность конверсии — а не просто красивое изображение. Эта статья раскрывает мышление за нашей работой {{category}} и решения, которые отделяют хороший креатив от готового к launch.",
+    "postBody2": "Будь то трейлер, масштабирование brand motion system или game art для live-продукта — действует тот же принцип: ясность истории первая, polish вторая, безжалостный монтаж последний. Именно эта дисциплина помогает командам укладываться в сроки без ощущения «почти готово».",
+    "postBody3": "Хотите применить этот подход к следующему проекту? Мы будем рады узнать, что вы создаёте — отправьте brief, и мы проложим кинематографичный путь от концепта до delivery.",
+    "posts": {
+      "cinematic-trailers-that-convert": {
+        "title": "Почему кинематографичные трейлеры конвертируют лучше product demo",
+        "excerpt": "Story-first launch-фильмы создают эмоциональные stakes до CTA. Как мы структурируем hooks, pacing и grade для максимального retention.",
+        "category": "Стратегия",
+        "date": "12 мая 2026 г.",
+        "readTime": "6 мин чтения"
+      },
+      "character-design-for-ip": {
+        "title": "Character design, который закрепляет IP на каждом канале",
+        "excerpt": "От читаемости silhouette до merch-ready turnaround — чеклист, который мы используем до того, как hero идёт в production.",
+        "category": "Craft",
+        "date": "3 мая 2026 г.",
+        "readTime": "5 мин чтения"
+      },
+      "game-art-pipeline": {
+        "title": "Внутри нашего game art pipeline: от концепта до shipped assets",
+        "excerpt": "Как мы выравниваем art direction, tech constraints и milestone reviews, чтобы команды укладывались в сроки без потери polish.",
+        "category": "Production",
+        "date": "21 апреля 2026 г.",
+        "readTime": "8 мин чтения"
+      },
+      "motion-systems-for-brands": {
+        "title": "Motion systems, которые бренды действительно могут переиспользовать",
+        "excerpt": "Модульные motion-библиотеки, logo stings и UI micro-interactions для согласованности кампаний в масштабе.",
+        "category": "Motion",
+        "date": "8 апреля 2026 г.",
+        "readTime": "4 мин чтения"
+      },
+      "2d-animation-in-2026": {
+        "title": "2D-анимация в 2026: гибридные pipeline, которые остаются handmade",
+        "excerpt": "Сочетание rigged efficiency с frame-by-frame акцентами — когда усиливать каждую технику для premium-результатов.",
+        "category": "Анимация",
+        "date": "29 марта 2026 г.",
+        "readTime": "7 мин чтения"
+      },
+      "creature-design-breakdown": {
+        "title": "Creature design breakdown: от mood board до финального rig",
+        "excerpt": "Как мы разрабатываем boss-существ с читаемыми silhouettes, material storytelling и кинематографичным presence.",
+        "category": "Craft",
+        "date": "14 марта 2026 г.",
+        "readTime": "6 мин чтения"
+      }
+    }
+  },
+  "errors": {
+    "notFoundTitle": "СИГНАЛ ПОТЕРЯН",
+    "notFoundDesc": "Страница, которую вы ищете, ушла в пустоту.",
+    "returnHome": "На главную",
+    "systemError": "СИСТЕМНАЯ ОШИБКА",
+    "tryAgain": "Что-то пошло не так. Попробуйте снова.",
+    "retry": "Повторить",
+    "home": "Главная",
+    "pageLoadTitle": "Страница не загрузилась",
+    "pageLoadDesc": "Что-то пошло не так на нашей стороне. Пожалуйста, попробуйте снова.",
+    "goHome": "На главную"
+  },
+  "meta": {
+    "rootTitle": "Starlights Visuals — студия разработки игр и анимации",
+    "rootDescription": "Starlights Visuals — креативная студия, специализирующаяся на разработке игр, кинематографичной 2D-анимации и высококачественной 3D-анимации.",
+    "siteName": "Starlights Visuals"
+  },
+  "videoModal": {
+    "closeVideo": "Закрыть видео",
+    "close": "Закрыть"
+  },
+  "logoMarquee": {
+    "logoAlt": "Логотип {{brand}}"
+  }
+}
