@@ -64,7 +64,6 @@ export function ProjectLightbox({ project, onClose }: ProjectLightboxProps) {
                 <PortfolioVideoPlayer
                   src={project.mediaSrc}
                   poster={project.thumbnail}
-                  autoPlay
                   className="object-contain"
                 />
               </div>

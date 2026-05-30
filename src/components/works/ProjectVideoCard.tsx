@@ -1,5 +1,5 @@
 import { Play } from "lucide-react";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 
 type ProjectVideoCardProps = {
   src: string;
@@ -8,8 +8,15 @@ type ProjectVideoCardProps = {
 
 export function ProjectVideoCard({ src, poster }: ProjectVideoCardProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
+  const [loaded, setLoaded] = useState(false);
+
+  const ensureLoaded = () => {
+    if (loaded) return;
+    setLoaded(true);
+  };
 
   const playPreview = () => {
+    ensureLoaded();
     const video = videoRef.current;
     if (!video) return;
     video.muted = true;
@@ -28,15 +35,17 @@ export function ProjectVideoCard({ src, poster }: ProjectVideoCardProps) {
       className="absolute inset-0"
       onMouseEnter={playPreview}
       onMouseLeave={pausePreview}
+      onFocus={playPreview}
+      onBlur={pausePreview}
     >
       <video
         ref={videoRef}
-        src={src}
+        src={loaded ? src : undefined}
         poster={poster}
         muted
         loop
         playsInline
-        preload="metadata"
+        preload="none"
         className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
       />
       <div

@@ -16,6 +16,8 @@ import huya from "@/assets/brand logo/huya.png";
 import snax from "@/assets/brand logo/snax.png";
 import moxeys from "@/assets/brand logo/moxeys.png";
 
+import { ijockeyVideos, industrialAnimationVideos } from "@/data/portfolio-media";
+
 import ijockeyPaper1 from "@/assets/Ijockey portfolio folder/Paper Image 1.jpeg";
 import ijockeyPaper3 from "@/assets/Ijockey portfolio folder/Paper Image 3.jpeg";
 import ijockeyImg0254 from "@/assets/Ijockey portfolio folder/IMG_0254.jpeg";
@@ -24,15 +26,9 @@ import ijockeyImg0257 from "@/assets/Ijockey portfolio folder/IMG_0257.jpeg";
 import ijockeyImg0184 from "@/assets/Ijockey portfolio folder/IMG_0184.jpeg";
 import ijockeyImg0183 from "@/assets/Ijockey portfolio folder/IMG_0183 (1).jpeg";
 import ijockeyKeyVisual from "@/assets/Ijockey portfolio folder/4ECE0B8C-A15F-4D74-8EB3-6E24D9223982.jpeg";
-import ijockeyWithText from "@/assets/Ijockey portfolio folder/With text Ijockey.mp4";
-import ijockeyWithoutText from "@/assets/Ijockey portfolio folder/Without text.mp4";
-import ijockeyShowcase from "@/assets/Ijockey portfolio folder/VID-20241114-WA0002.mp4";
 
 import caterpillarBanner from "@/assets/Caterpillar animation portfolio/industrial animation.jpg";
 import caterpillarKeyVisual from "@/assets/Caterpillar animation portfolio/create-realistic-3d-product-animation-industrial-animation-cgi-animation.png";
-import caterpillarFilm from "@/assets/Caterpillar animation portfolio/industrial animation video.mp4";
-import caterpillarCgiFilm from "@/assets/Caterpillar animation portfolio/create-realistic-3d-product-animation-industrial-animation-cgi-animation (1).mp4";
-import caterpillarSample from "@/assets/Caterpillar animation portfolio/animmation video sample 2.mp4";
 
 import portfolio2d from "@/assets/portfolio-2d.jpg";
 import portfolioCharacter from "@/assets/portfolio-character.jpg";
@@ -642,7 +638,7 @@ export const workCategories: WorkCategory[] = [
               description: "Full industrial animation showcasing machinery in motion.",
               thumbnail: caterpillarBanner,
               mediaType: "video",
-              mediaSrc: caterpillarFilm,
+              mediaSrc: industrialAnimationVideos.film,
               tags: ["Industrial", "Film"],
               year: 2025,
             },
@@ -651,7 +647,7 @@ export const workCategories: WorkCategory[] = [
               description: "Realistic 3D product animation with cinematic lighting and camera moves.",
               thumbnail: caterpillarKeyVisual,
               mediaType: "video",
-              mediaSrc: caterpillarCgiFilm,
+              mediaSrc: industrialAnimationVideos.cgi,
               tags: ["CGI", "Animation"],
               year: 2024,
             },
@@ -660,7 +656,7 @@ export const workCategories: WorkCategory[] = [
               description: "Sample industrial animation cut for social and presentation use.",
               thumbnail: caterpillarBanner,
               mediaType: "video",
-              mediaSrc: caterpillarSample,
+              mediaSrc: industrialAnimationVideos.sample,
               tags: ["Sample", "Industrial"],
               year: 2024,
             },
@@ -760,7 +756,7 @@ export const workCategories: WorkCategory[] = [
               description: "Branded product animation with on-screen typography and logo treatment.",
               thumbnail: ijockeyPaper1,
               mediaType: "video",
-              mediaSrc: ijockeyWithText,
+              mediaSrc: ijockeyVideos.withText,
               tags: ["Film", "Branded"],
               year: 2024,
             },
@@ -769,7 +765,7 @@ export const workCategories: WorkCategory[] = [
               description: "Logo-free product animation for flexible channel versioning.",
               thumbnail: ijockeyImg0254,
               mediaType: "video",
-              mediaSrc: ijockeyWithoutText,
+              mediaSrc: ijockeyVideos.withoutText,
               tags: ["Animation", "Product"],
               year: 2024,
             },
@@ -778,7 +774,7 @@ export const workCategories: WorkCategory[] = [
               description: "Full product showcase film for retail and digital placements.",
               thumbnail: ijockeyPaper3,
               mediaType: "video",
-              mediaSrc: ijockeyShowcase,
+              mediaSrc: ijockeyVideos.showcase,
               tags: ["Showcase", "Film"],
               year: 2024,
             },

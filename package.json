@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build",
+    "build": "git lfs pull && vite build",
     "sync:i18n": "node scripts/sync-i18n-works.mjs && node scripts/sync-i18n-hero.mjs && node scripts/sync-i18n-accordion.mjs",
     "build:dev": "vite build --mode development",
     "preview": "node .output/server/index.mjs",
