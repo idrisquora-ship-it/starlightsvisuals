@@ -1,0 +1,15 @@
+---
+description: Push all code changes to GitHub after completing work
+alwaysApply: true
+---
+
+# Push to GitHub
+
+After completing any implementation or fix in this repo:
+
+1. Commit all relevant changes with a clear message focused on why.
+2. Push to `origin/main` unless the user specifies another branch.
+3. Do this automatically at the end of the task — do not wait for the user to ask.
+4. Skip commit/push only when there are no file changes, or the user explicitly says not to push.
+
+Use the project's git safety protocol: never force-push to main, never skip hooks, never commit secrets.
