@@ -108,10 +108,8 @@ export function SiteHeader() {
           ))}
         </nav>
 
-        <div className="space-y-4">
-          <LanguageSwitcher
-            className="[&>button]:border-black/15 [&>button]:bg-white [&>button]:text-black [&>button:hover]:border-neon-green/50 [&>button:hover]:text-neon-green"
-          />
+        <div className="relative z-10 space-y-4">
+          <LanguageSwitcher menuPlacement="top" theme="light" />
           <div className="text-[10px] uppercase tracking-[0.25em] text-black/45">
             © {new Date().getFullYear()}
           </div>
