@@ -14,7 +14,8 @@
     "contacts": "Kontakt",
     "about": "O nas",
     "contact": "Kontakt",
-    "portfolioCta": "Portfolio →"
+    "portfolioCta": "Portfolio →",
+    "faq": "FAQ"
   },
   "header": {
     "closeMenu": "Zamknij menu",
@@ -468,5 +469,68 @@
         "title": "Industrial Animation"
       }
     }
+  },
+  "accordionPage": {
+    "metaTitle": "FAQ — Starlights Visuals",
+    "metaDescription": "Wszystko, co trzeba wiedzieć o współpracy z nami — od pierwszego briefu po finalne dostarczenie.",
+    "label": "Najczęściej zadawane pytania",
+    "title": "PYTANIA I ODPOWIEDZI",
+    "subtitle": "Wszystko, co trzeba wiedzieć o współpracy z nami — od pierwszego briefu po finalne dostarczenie.",
+    "sections": {
+      "general": {
+        "title": "Ogólne",
+        "items": {
+          "01": {
+            "question": "Jakimi typami projektów się zajmujecie?",
+            "answer": "Produkujemy animację, VFX, game art, cinematici, motion graphics i filmy brandingowe dla gier, filmów, seriali, reklamy oraz marek DTC. Briefy obejmują zakres od pojedynczych hero assets po pełne pakiety kampanii."
+          },
+          "02": {
+            "question": "Gdzie działa Starlights Visuals?",
+            "answer": "Jesteśmy studiem remote-first z członkami zespołu w wielu strefach czasowych. Współpracujemy z klientami globalnie i dostarczamy assety gotowe do produkcji dzięki uporządkowanym workflow asynchronicznym oraz live review."
+          },
+          "03": {
+            "question": "Jak rozpocząć projekt?",
+            "answer": "Skontaktuj się przez formularz, wysyłając brief, harmonogram i linki referencyjne. Umówimy rozmowę discovery, określimy zakres prac i wyślemy ofertę z kamieniami milowymi oraz deliverables."
+          }
+        }
+      },
+      "services": {
+        "title": "Usługi i zakres",
+        "items": {
+          "01": {
+            "question": "Jakie usługi oferujecie?",
+            "answer": "Nasze kluczowe usługi obejmują animację 2D i 3D, VFX, character i concept art, wsparcie developmentu gier, motion graphics oraz cinematic trailers. Możemy realizować pojedyncze specjalizacje lub pełną produkcję pipeline."
+          },
+          "02": {
+            "question": "Czy współpracujecie z zespołami indie i dużymi studiami?",
+            "answer": "Tak. Współpracujemy z twórcami indie, studiami średniej wielkości i globalnymi markami. Zakres i wielkość zespołu dopasowujemy do budżetu i harmonogramu bez kompromisów jakościowych."
+          },
+          "03": {
+            "question": "Czy możecie dopasować się do naszego obecnego stylu artystycznego?",
+            "answer": "Oczywiście. Zaczynamy od style frames i etapu look-dev zgodnego z wytycznymi marki lub światem gry, zanim przejdziemy do pełnej produkcji."
+          }
+        }
+      },
+      "production": {
+        "title": "Proces i dostarczenie",
+        "items": {
+          "01": {
+            "question": "Jakie są typowe terminy realizacji?",
+            "answer": "Terminy zależą od zakresu — social cutdown może zająć od jednego do dwóch tygodni, a pełna cinematica od czterech do ośmiu tygodni. W każdej ofercie wyznaczamy jasne kamienie milowe."
+          },
+          "02": {
+            "question": "Jak działają poprawki?",
+            "answer": "Każdy kamień milowy obejmuje określoną liczbę rund poprawek. Konsolidujemy feedback w uporządkowanych sesjach review, aby zmiany były efektywne i zgodne z harmonogramem."
+          },
+          "03": {
+            "question": "W jakich formatach plików dostarczacie materiały?",
+            "answer": "Dostarczamy eksporty gotowe do Twojego pipeline — MP4/MOV dla wideo, sekwencje PNG/EXR tam, gdzie to potrzebne, warstwowe pliki źródłowe na życzenie oraz assety gotowe do silnika dla projektów realtime."
+          }
+        }
+      }
+    },
+    "ctaTitle": "Masz jeszcze pytania?",
+    "ctaDesc": "Chętnie omówimy Twój brief podczas rozmowy.",
+    "ctaButton": "Skontaktuj się z nami"
   }
 }

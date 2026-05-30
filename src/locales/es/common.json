@@ -14,7 +14,8 @@
     "contacts": "Contacto",
     "about": "Nosotros",
     "contact": "Contacto",
-    "portfolioCta": "Portfolio →"
+    "portfolioCta": "Portfolio →",
+    "faq": "FAQ"
   },
   "header": {
     "closeMenu": "Cerrar menú",
@@ -468,5 +469,68 @@
         "title": "Industrial Animation"
       }
     }
+  },
+  "accordionPage": {
+    "metaTitle": "FAQ — Starlights Visuals",
+    "metaDescription": "Todo lo que necesitas saber para trabajar con nosotros, desde el primer brief hasta la entrega final.",
+    "label": "Preguntas frecuentes",
+    "title": "PREGUNTAS Y RESPUESTAS",
+    "subtitle": "Todo lo que necesitas saber para trabajar con nosotros, desde el primer brief hasta la entrega final.",
+    "sections": {
+      "general": {
+        "title": "General",
+        "items": {
+          "01": {
+            "question": "¿En qué tipos de proyectos trabajan?",
+            "answer": "Producimos animación, VFX, arte para videojuegos, cinemáticas, motion graphics y brand films para juegos, películas, series, publicidad y marcas DTC. Los briefs van desde un único asset hero hasta paquetes completos de campaña."
+          },
+          "02": {
+            "question": "¿Dónde está ubicado Starlights Visuals?",
+            "answer": "Somos un estudio remote-first con integrantes del equipo en múltiples zonas horarias. Colaboramos con clientes de todo el mundo y entregamos assets listos para producción mediante flujos asíncronos estructurados y revisiones en vivo."
+          },
+          "03": {
+            "question": "¿Cómo inicio un proyecto?",
+            "answer": "Contáctanos a través del formulario con tu brief, cronograma y enlaces de referencia. Agendaremos una llamada de descubrimiento, definiremos el alcance y enviaremos una propuesta con hitos y entregables."
+          }
+        }
+      },
+      "services": {
+        "title": "Servicios y alcance",
+        "items": {
+          "01": {
+            "question": "¿Qué servicios ofrecen?",
+            "answer": "Nuestros servicios principales incluyen animación 2D y 3D, VFX, arte de personajes y conceptual, soporte para desarrollo de videojuegos, motion graphics y tráilers cinemáticos. Podemos cubrir disciplinas individuales o la producción completa de pipeline."
+          },
+          "02": {
+            "question": "¿Trabajan con equipos indie y estudios grandes?",
+            "answer": "Sí. Colaboramos con creadores indie, estudios medianos y marcas globales. El alcance y el tamaño del equipo se ajustan a tu presupuesto y cronograma sin comprometer la calidad."
+          },
+          "03": {
+            "question": "¿Pueden igualar nuestro estilo artístico actual?",
+            "answer": "Por supuesto. Empezamos con style frames y una fase de look-dev alineada con tus guías de marca o el mundo de tu juego antes de pasar a la producción completa."
+          }
+        }
+      },
+      "production": {
+        "title": "Proceso y entrega",
+        "items": {
+          "01": {
+            "question": "¿Cuáles son los plazos habituales?",
+            "answer": "Los plazos dependen del alcance: un recorte para redes puede tomar de una a dos semanas, mientras que una cinemática completa puede durar de cuatro a ocho semanas. Definimos hitos claros en cada propuesta."
+          },
+          "02": {
+            "question": "¿Cómo funcionan las revisiones?",
+            "answer": "Cada hito incluye un número definido de rondas de revisión. Consolidamos el feedback en sesiones estructuradas para que los cambios sean eficientes y se mantengan dentro del calendario."
+          },
+          "03": {
+            "question": "¿Qué formatos de archivo entregan?",
+            "answer": "Entregamos exportaciones listas para tu pipeline: MP4/MOV para video, secuencias PNG/EXR cuando se necesiten, archivos fuente por capas bajo solicitud y assets listos para motor en proyectos en tiempo real."
+          }
+        }
+      }
+    },
+    "ctaTitle": "¿Aún tienes preguntas?",
+    "ctaDesc": "Con gusto revisamos tu brief en una llamada.",
+    "ctaButton": "Contáctanos"
   }
 }

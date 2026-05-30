@@ -14,7 +14,8 @@
     "contacts": "Kontakt",
     "about": "Über uns",
     "contact": "Kontakt",
-    "portfolioCta": "Portfolio →"
+    "portfolioCta": "Portfolio →",
+    "faq": "FAQ"
   },
   "header": {
     "closeMenu": "Menü schließen",
@@ -468,5 +469,68 @@
         "title": "Industrial Animation"
       }
     }
+  },
+  "accordionPage": {
+    "metaTitle": "FAQ — Starlights Visuals",
+    "metaDescription": "Alles, was Sie über die Zusammenarbeit mit uns wissen müssen – vom ersten Briefing bis zur finalen Lieferung.",
+    "label": "Häufige Fragen",
+    "title": "FRAGEN & ANTWORTEN",
+    "subtitle": "Alles, was Sie über die Zusammenarbeit mit uns wissen müssen – vom ersten Briefing bis zur finalen Lieferung.",
+    "sections": {
+      "general": {
+        "title": "Allgemein",
+        "items": {
+          "01": {
+            "question": "An welchen Projekttypen arbeitet ihr?",
+            "answer": "Wir produzieren Animation, VFX, Game Art, Cinematics, Motion Graphics und Brand Films für Games, Filme, Serien, Werbung und DTC-Marken. Briefings reichen von einzelnen Hero-Assets bis zu vollständigen Kampagnenpaketen."
+          },
+          "02": {
+            "question": "Wo hat Starlights Visuals seinen Sitz?",
+            "answer": "Wir sind ein Remote-First-Studio mit Teammitgliedern über mehrere Zeitzonen hinweg. Wir arbeiten weltweit mit Kundinnen und Kunden zusammen und liefern produktionsreife Assets über strukturierte asynchrone Workflows und Live-Reviews."
+          },
+          "03": {
+            "question": "Wie starte ich ein Projekt?",
+            "answer": "Kontaktieren Sie uns über das Kontaktformular mit Ihrem Briefing, Zeitplan und Referenzlinks. Wir vereinbaren ein Discovery-Call, definieren den Umfang und senden ein Angebot mit Meilensteinen und Deliverables."
+          }
+        }
+      },
+      "services": {
+        "title": "Services & Umfang",
+        "items": {
+          "01": {
+            "question": "Welche Leistungen bietet ihr an?",
+            "answer": "Zu unseren Kernleistungen gehören 2D- und 3D-Animation, VFX, Character- und Concept-Art, Unterstützung in der Spieleentwicklung, Motion Graphics und cinematic Trailer. Wir übernehmen einzelne Disziplinen oder die gesamte Pipeline-Produktion."
+          },
+          "02": {
+            "question": "Arbeitet ihr mit Indie-Teams und großen Studios?",
+            "answer": "Ja. Wir arbeiten mit Indie-Creators, mittelgroßen Studios und globalen Marken zusammen. Umfang und Teamgröße passen wir flexibel an Budget und Zeitplan an, ohne Kompromisse bei der Qualität."
+          },
+          "03": {
+            "question": "Könnt ihr unseren bestehenden Art-Style treffen?",
+            "answer": "Absolut. Wir starten mit Styleframes und einer Look-Dev-Phase, die auf Ihre Markenrichtlinien oder Ihre Game-Welt abgestimmt ist, bevor wir in die volle Produktion gehen."
+          }
+        }
+      },
+      "production": {
+        "title": "Prozess & Lieferung",
+        "items": {
+          "01": {
+            "question": "Wie sehen typische Zeitpläne aus?",
+            "answer": "Zeitpläne hängen vom Umfang ab – ein Social-Cutdown kann ein bis zwei Wochen dauern, während eine vollständige Cinematic vier bis acht Wochen laufen kann. In jedem Angebot definieren wir klare Meilensteine."
+          },
+          "02": {
+            "question": "Wie funktionieren Revisionen?",
+            "answer": "Jeder Meilenstein enthält eine festgelegte Anzahl an Revisionsrunden. Wir bündeln Feedback in strukturierten Review-Sessions, damit Änderungen effizient und im Zeitplan bleiben."
+          },
+          "03": {
+            "question": "Welche Dateiformate liefert ihr?",
+            "answer": "Wir liefern formatfertige Exporte für Ihre Pipeline – MP4/MOV für Video, PNG/EXR-Sequenzen bei Bedarf, auf Wunsch gelayerte Quelldateien sowie engine-fertige Assets für Echtzeitprojekte."
+          }
+        }
+      }
+    },
+    "ctaTitle": "Noch Fragen?",
+    "ctaDesc": "Gerne besprechen wir Ihr Briefing in einem Call.",
+    "ctaButton": "Kontaktieren Sie uns"
   }
 }

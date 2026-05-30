@@ -14,7 +14,8 @@
     "contacts": "Kontakty",
     "about": "O nás",
     "contact": "Kontakt",
-    "portfolioCta": "Portfolio →"
+    "portfolioCta": "Portfolio →",
+    "faq": "FAQ"
   },
   "header": {
     "closeMenu": "Zavřít menu",
@@ -468,5 +469,68 @@
         "title": "Industrial Animation"
       }
     }
+  },
+  "accordionPage": {
+    "metaTitle": "FAQ — Starlights Visuals",
+    "metaDescription": "Vše, co potřebujete vědět o spolupráci s námi — od prvního briefu po finální dodání.",
+    "label": "Často kladené otázky",
+    "title": "OTÁZKY A ODPOVĚDI",
+    "subtitle": "Vše, co potřebujete vědět o spolupráci s námi — od prvního briefu po finální dodání.",
+    "sections": {
+      "general": {
+        "title": "Obecné",
+        "items": {
+          "01": {
+            "question": "Na jakých typech projektů pracujete?",
+            "answer": "Produkujeme animaci, VFX, game art, cinematics, motion graphics a brand filmy pro hry, filmy, seriály, reklamu a DTC značky. Briefy se pohybují od jednoho hero assetu po kompletní balíčky kampaní."
+          },
+          "02": {
+            "question": "Kde sídlí Starlights Visuals?",
+            "answer": "Jsme remote-first studio s členy týmu napříč více časovými pásmy. Spolupracujeme s klienty globálně a dodáváme production-ready assety prostřednictvím strukturovaných asynchronních workflow a live review."
+          },
+          "03": {
+            "question": "Jak zahájím projekt?",
+            "answer": "Ozvěte se nám přes kontaktní formulář se svým briefem, harmonogramem a referenčními odkazy. Naplánujeme discovery call, vymezíme scope práce a pošleme nabídku s milníky a deliverables."
+          }
+        }
+      },
+      "services": {
+        "title": "Služby a rozsah",
+        "items": {
+          "01": {
+            "question": "Jaké služby nabízíte?",
+            "answer": "Naše klíčové služby zahrnují 2D a 3D animaci, VFX, character a concept art, podporu vývoje her, motion graphics a cinematic trailery. Umíme pokrýt jednotlivé disciplíny i kompletní pipeline produkci."
+          },
+          "02": {
+            "question": "Spolupracujete s indie týmy i velkými studii?",
+            "answer": "Ano. Spolupracujeme s indie tvůrci, středně velkými studii i globálními značkami. Rozsah i velikost týmu flexibilně přizpůsobíme vašemu rozpočtu a harmonogramu bez kompromisu v kvalitě."
+          },
+          "03": {
+            "question": "Dokážete navázat na náš stávající art style?",
+            "answer": "Rozhodně. Než přejdeme do plné produkce, začínáme style frames a look-dev fází sladěnou s vašimi brand guidelines nebo herním světem."
+          }
+        }
+      },
+      "production": {
+        "title": "Proces a dodání",
+        "items": {
+          "01": {
+            "question": "Jaké jsou typické časové rámce?",
+            "answer": "Časové rámce závisí na scope — social cutdown může trvat jeden až dva týdny, zatímco plná cinematic produkce může běžet čtyři až osm týdnů. V každé nabídce uvádíme jasné milníky."
+          },
+          "02": {
+            "question": "Jak fungují revize?",
+            "answer": "Každý milník zahrnuje definovaný počet kol revizí. Feedback konsolidujeme do strukturovaných review sezení, aby změny zůstaly efektivní a v souladu s harmonogramem."
+          },
+          "03": {
+            "question": "V jakých formátech souborů dodáváte?",
+            "answer": "Dodáváme exporty připravené pro váš pipeline — MP4/MOV pro video, PNG/EXR sekvence tam, kde je to potřeba, vrstvené source soubory na vyžádání a engine-ready assety pro real-time projekty."
+          }
+        }
+      }
+    },
+    "ctaTitle": "Máte ještě otázky?",
+    "ctaDesc": "Rádi projdeme váš brief na callu.",
+    "ctaButton": "Kontaktujte nás"
   }
 }

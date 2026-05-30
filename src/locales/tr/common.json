@@ -14,7 +14,8 @@
     "contacts": "İletişim",
     "about": "Hakkımızda",
     "contact": "İletişim",
-    "portfolioCta": "Portfolyo →"
+    "portfolioCta": "Portfolyo →",
+    "faq": "SSS"
   },
   "header": {
     "closeMenu": "Menüyü kapat",
@@ -468,5 +469,68 @@
         "title": "Industrial Animation"
       }
     }
+  },
+  "accordionPage": {
+    "metaTitle": "FAQ — Starlights Visuals",
+    "metaDescription": "İlk brief'ten nihai teslimata kadar bizimle çalışmak hakkında bilmeniz gereken her şey.",
+    "label": "Sıkça sorulan sorular",
+    "title": "SORULAR & CEVAPLAR",
+    "subtitle": "İlk brief'ten nihai teslimata kadar bizimle çalışmak hakkında bilmeniz gereken her şey.",
+    "sections": {
+      "general": {
+        "title": "Genel",
+        "items": {
+          "01": {
+            "question": "Hangi proje türleri üzerinde çalışıyorsunuz?",
+            "answer": "Oyunlar, filmler, diziler, reklamlar ve DTC markaları için animasyon, VFX, oyun sanatı, sinematikler, motion graphics ve marka filmleri üretiyoruz. Brief kapsamı tek bir hero asset'ten tam kampanya paketlerine kadar uzanır."
+          },
+          "02": {
+            "question": "Starlights Visuals nerede konumlanıyor?",
+            "answer": "Farklı saat dilimlerine yayılmış ekip üyeleriyle remote-first çalışan bir stüdyoyuz. Küresel müşterilerle iş birliği yapıyor, yapılandırılmış asenkron süreçler ve canlı incelemelerle prodüksiyona hazır asset'ler teslim ediyoruz."
+          },
+          "03": {
+            "question": "Bir projeye nasıl başlayabilirim?",
+            "answer": "Brief'inizi, zaman planınızı ve referans linklerinizi iletişim formu üzerinden paylaşın. Bir keşif görüşmesi planlayalım, kapsamı netleştirelim ve kilometre taşları ile teslimatlar içeren bir teklif gönderelim."
+          }
+        }
+      },
+      "services": {
+        "title": "Hizmetler ve kapsam",
+        "items": {
+          "01": {
+            "question": "Hangi hizmetleri sunuyorsunuz?",
+            "answer": "Temel hizmetlerimiz 2D ve 3D animasyon, VFX, karakter ve konsept sanat, oyun geliştirme desteği, motion graphics ve sinematik fragmanları kapsar. Tekil disiplinlerde ya da uçtan uca pipeline prodüksiyonunda çalışabiliriz."
+          },
+          "02": {
+            "question": "Indie ekipler ve büyük stüdyolarla çalışıyor musunuz?",
+            "answer": "Evet. Indie üreticiler, orta ölçekli stüdyolar ve küresel markalarla partnerlik yapıyoruz. Kapsam ve ekip büyüklüğü, işçilik kalitesinden ödün vermeden bütçe ve takviminize göre esner."
+          },
+          "03": {
+            "question": "Mevcut sanat stilimizi yakalayabilir misiniz?",
+            "answer": "Kesinlikle. Tam üretime geçmeden önce, marka kılavuzunuza veya oyun dünyanıza hizalı style frame'ler ve bir look-dev aşamasıyla başlıyoruz."
+          }
+        }
+      },
+      "production": {
+        "title": "Süreç ve teslimat",
+        "items": {
+          "01": {
+            "question": "Tipik zaman çizelgeleri nasıl oluyor?",
+            "answer": "Süreler kapsama göre değişir — sosyal medya için kısa bir versiyon bir ila iki hafta sürebilirken, tam bir sinematik dört ila sekiz hafta sürebilir. Her teklifte net kilometre taşları belirliyoruz."
+          },
+          "02": {
+            "question": "Revizyon süreci nasıl işliyor?",
+            "answer": "Her kilometre taşı, tanımlı sayıda revizyon turu içerir. Değişikliklerin verimli ve takvime uygun kalması için geri bildirimleri yapılandırılmış inceleme oturumlarında topluyoruz."
+          },
+          "03": {
+            "question": "Hangi dosya formatlarında teslim ediyorsunuz?",
+            "answer": "Pipeline'ınıza uygun formatlarda teslim ediyoruz — video için MP4/MOV, gerektiğinde PNG/EXR sekansları, talep üzerine katmanlı kaynak dosyalar ve gerçek zamanlı projeler için engine-ready asset'ler."
+          }
+        }
+      }
+    },
+    "ctaTitle": "Hâlâ sorularınız mı var?",
+    "ctaDesc": "Brief'inizi bir görüşmede birlikte değerlendirmekten memnuniyet duyarız.",
+    "ctaButton": "Bize ulaşın"
   }
 }

@@ -14,7 +14,8 @@
     "contacts": "Yhteystiedot",
     "about": "Meistä",
     "contact": "Yhteys",
-    "portfolioCta": "Portfolio →"
+    "portfolioCta": "Portfolio →",
+    "faq": "UKK"
   },
   "header": {
     "closeMenu": "Sulje valikko",
@@ -468,5 +469,68 @@
         "title": "Industrial Animation"
       }
     }
+  },
+  "accordionPage": {
+    "metaTitle": "FAQ — Starlights Visuals",
+    "metaDescription": "Kaikki mitä tarvitset tietää yhteistyöstä kanssamme — ensimmäisestä briefistä lopulliseen toimitukseen.",
+    "label": "Usein kysytyt kysymykset",
+    "title": "KYSYMYKSET & VASTAUKSET",
+    "subtitle": "Kaikki mitä tarvitset tietää yhteistyöstä kanssamme — ensimmäisestä briefistä lopulliseen toimitukseen.",
+    "sections": {
+      "general": {
+        "title": "Yleistä",
+        "items": {
+          "01": {
+            "question": "Millaisia projekteja teette?",
+            "answer": "Tuotamme animaatiota, VFX:ää, pelitaidetta, cinematics-sisältöä, motion graphicsia ja brändifilmejä peleihin, elokuviin, sarjoihin, mainontaan ja DTC-brändeille. Briefit vaihtelevat yksittäisestä hero-assetista täysiin kampanjapaketteihin."
+          },
+          "02": {
+            "question": "Missä Starlights Visuals sijaitsee?",
+            "answer": "Olemme remote-first-studio, jonka tiimin jäsenet työskentelevät useilla aikavyöhykkeillä. Teemme yhteistyötä asiakkaiden kanssa globaalisti ja toimitamme tuotantovalmiit assetit rakenteisten asynkronisten työnkulkujen ja live-reviewiden kautta."
+          },
+          "03": {
+            "question": "Miten aloitan projektin?",
+            "answer": "Ota yhteyttä yhteydenottolomakkeella ja lähetä briefisi, aikataulusi sekä referenssilinkit. Sovimme discovery-puhelun, määrittelemme scopin ja lähetämme ehdotuksen, jossa on milestonet ja deliverablesit."
+          }
+        }
+      },
+      "services": {
+        "title": "Palvelut ja laajuus",
+        "items": {
+          "01": {
+            "question": "Mitä palveluja tarjoatte?",
+            "answer": "Ydinpalveluihimme kuuluvat 2D- ja 3D-animaatio, VFX, character- ja concept art, pelikehityksen tuki, motion graphics sekä cinematic-trailerit. Voimme hoitaa yksittäisiä osa-alueita tai koko pipeline-tuotannon."
+          },
+          "02": {
+            "question": "Työskentelettekö indie-tiimien ja suurten studioiden kanssa?",
+            "answer": "Kyllä. Teemme yhteistyötä indie-tekijöiden, keskikokoisten studioiden ja globaalien brändien kanssa. Scope ja tiimin koko joustavat budjettisi ja aikataulusi mukaan ilman kompromisseja laadussa."
+          },
+          "03": {
+            "question": "Pystyttekö vastaamaan nykyistä taidetyyliämme?",
+            "answer": "Ehdottomasti. Aloitamme style frameilla ja look-dev-vaiheella, joka linjataan brändiohjeisiisi tai pelimaailmaasi ennen täyteen tuotantoon sitoutumista."
+          }
+        }
+      },
+      "production": {
+        "title": "Prosessi ja toimitus",
+        "items": {
+          "01": {
+            "question": "Mitkä ovat tyypilliset aikataulut?",
+            "answer": "Aikataulut riippuvat scopesta — some cutdown voi kestää yhdestä kahteen viikkoa, kun taas täysi cinematic voi kestää neljästä kahdeksaan viikkoa. Määrittelemme selkeät milestonet jokaisessa ehdotuksessa."
+          },
+          "02": {
+            "question": "Miten revisiot toimivat?",
+            "answer": "Jokainen milestone sisältää määritellyn määrän revisiokierroksia. Yhdistämme palautteen rakenteisiin review-sessioihin, jotta muutokset pysyvät tehokkaina ja aikataulussa."
+          },
+          "03": {
+            "question": "Missä tiedostomuodoissa toimitatte materiaalit?",
+            "answer": "Toimitamme pipelineesi valmiit exportit — MP4/MOV videolle, tarvittaessa PNG/EXR-sekvenssit, pyynnöstä kerrokselliset lähdetiedostot sekä engine-ready assetit reaaliaikaisiin projekteihin."
+          }
+        }
+      }
+    },
+    "ctaTitle": "Onko vielä kysymyksiä?",
+    "ctaDesc": "Käymme briefisi mielellämme läpi puhelussa.",
+    "ctaButton": "Ota yhteyttä"
   }
 }

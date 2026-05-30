@@ -14,7 +14,8 @@
     "contacts": "Contacts",
     "about": "À propos",
     "contact": "Contact",
-    "portfolioCta": "Portfolio →"
+    "portfolioCta": "Portfolio →",
+    "faq": "FAQ"
   },
   "header": {
     "closeMenu": "Fermer le menu",
@@ -468,5 +469,68 @@
         "title": "Industrial Animation"
       }
     }
+  },
+  "accordionPage": {
+    "metaTitle": "FAQ — Starlights Visuals",
+    "metaDescription": "Tout ce qu'il faut savoir pour travailler avec nous — du premier brief à la livraison finale.",
+    "label": "Foire aux questions",
+    "title": "QUESTIONS & RÉPONSES",
+    "subtitle": "Tout ce qu'il faut savoir pour travailler avec nous — du premier brief à la livraison finale.",
+    "sections": {
+      "general": {
+        "title": "Général",
+        "items": {
+          "01": {
+            "question": "Sur quels types de projets travaillez-vous ?",
+            "answer": "Nous produisons de l'animation, des VFX, du game art, des cinématiques, du motion design et des films de marque pour les jeux, films, séries, la publicité et les marques DTC. Les briefs vont d'un asset hero unique à des packs complets de campagne."
+          },
+          "02": {
+            "question": "Où est basé Starlights Visuals ?",
+            "answer": "Nous sommes un studio remote-first avec des membres d'équipe répartis sur plusieurs fuseaux horaires. Nous collaborons avec des clients dans le monde entier et livrons des assets prêts pour la production via des workflows asynchrones structurés et des revues en direct."
+          },
+          "03": {
+            "question": "Comment démarrer un projet ?",
+            "answer": "Contactez-nous via le formulaire de contact avec votre brief, votre calendrier et vos liens de référence. Nous planifierons un appel de découverte, cadrerons le périmètre et enverrons une proposition avec jalons et livrables."
+          }
+        }
+      },
+      "services": {
+        "title": "Services & périmètre",
+        "items": {
+          "01": {
+            "question": "Quels services proposez-vous ?",
+            "answer": "Nos services clés incluent l'animation 2D et 3D, les VFX, le character et concept art, le support au développement de jeux, le motion design et les bandes-annonces cinématiques. Nous gérons des disciplines individuelles ou une production pipeline complète."
+          },
+          "02": {
+            "question": "Travaillez-vous avec des équipes indé et de grands studios ?",
+            "answer": "Oui. Nous collaborons avec des créateurs indé, des studios de taille moyenne et des marques mondiales. Le périmètre et la taille d'équipe s'adaptent à votre budget et à votre calendrier sans compromis sur la qualité."
+          },
+          "03": {
+            "question": "Pouvez-vous reproduire notre style artistique existant ?",
+            "answer": "Absolument. Nous commençons par des style frames et une passe de look-dev alignée sur vos guidelines de marque ou l'univers de votre jeu avant de lancer la production complète."
+          }
+        }
+      },
+      "production": {
+        "title": "Processus & livraison",
+        "items": {
+          "01": {
+            "question": "Quels sont les délais habituels ?",
+            "answer": "Les délais dépendent du périmètre — un cutdown social peut prendre une à deux semaines, tandis qu'une cinématique complète peut durer de quatre à huit semaines. Nous définissons des jalons clairs dans chaque proposition."
+          },
+          "02": {
+            "question": "Comment fonctionnent les révisions ?",
+            "answer": "Chaque jalon inclut un nombre défini de tours de révision. Nous regroupons les retours dans des sessions structurées afin que les changements restent efficaces et respectent le planning."
+          },
+          "03": {
+            "question": "Quels formats de fichiers livrez-vous ?",
+            "answer": "Nous livrons des exports adaptés à votre pipeline — MP4/MOV pour la vidéo, séquences PNG/EXR si nécessaire, fichiers source en calques sur demande, et assets prêts moteur pour les projets temps réel."
+          }
+        }
+      }
+    },
+    "ctaTitle": "Vous avez encore des questions ?",
+    "ctaDesc": "Nous serons ravis d'échanger sur votre brief lors d'un appel.",
+    "ctaButton": "Contactez-nous"
   }
 }

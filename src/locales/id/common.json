@@ -14,7 +14,8 @@
     "contacts": "Kontak",
     "about": "Tentang",
     "contact": "Kontak",
-    "portfolioCta": "Portofolio →"
+    "portfolioCta": "Portofolio →",
+    "faq": "FAQ"
   },
   "header": {
     "closeMenu": "Tutup menu",
@@ -468,5 +469,68 @@
         "title": "Industrial Animation"
       }
     }
+  },
+  "accordionPage": {
+    "metaTitle": "FAQ — Starlights Visuals",
+    "metaDescription": "Semua yang perlu Anda ketahui untuk bekerja dengan kami — dari brief awal hingga pengiriman akhir.",
+    "label": "Pertanyaan umum",
+    "title": "PERTANYAAN & JAWABAN",
+    "subtitle": "Semua yang perlu Anda ketahui untuk bekerja dengan kami — dari brief awal hingga pengiriman akhir.",
+    "sections": {
+      "general": {
+        "title": "Umum",
+        "items": {
+          "01": {
+            "question": "Jenis proyek apa yang Anda kerjakan?",
+            "answer": "Kami memproduksi animasi, VFX, game art, sinematik, motion graphics, dan film brand untuk game, film, serial, iklan, serta brand DTC. Brief dapat mencakup dari satu hero asset hingga paket kampanye lengkap."
+          },
+          "02": {
+            "question": "Di mana Starlights Visuals berbasis?",
+            "answer": "Kami adalah studio remote-first dengan anggota tim di berbagai zona waktu. Kami berkolaborasi dengan klien global dan mengirimkan asset siap produksi melalui alur kerja async yang terstruktur serta live review."
+          },
+          "03": {
+            "question": "Bagaimana cara memulai proyek?",
+            "answer": "Hubungi kami melalui formulir kontak dengan brief, timeline, dan tautan referensi Anda. Kami akan menjadwalkan discovery call, menentukan scope pekerjaan, lalu mengirim proposal dengan milestone dan deliverables."
+          }
+        }
+      },
+      "services": {
+        "title": "Layanan & cakupan",
+        "items": {
+          "01": {
+            "question": "Layanan apa yang Anda tawarkan?",
+            "answer": "Layanan inti kami mencakup animasi 2D dan 3D, VFX, character dan concept art, dukungan pengembangan game, motion graphics, serta trailer sinematik. Kami bisa menangani disiplin tertentu maupun produksi pipeline penuh."
+          },
+          "02": {
+            "question": "Apakah Anda bekerja dengan tim indie dan studio besar?",
+            "answer": "Ya. Kami bermitra dengan kreator indie, studio menengah, dan brand global. Scope dan ukuran tim fleksibel menyesuaikan anggaran serta timeline Anda tanpa mengorbankan kualitas craft."
+          },
+          "03": {
+            "question": "Bisakah Anda menyesuaikan dengan gaya seni kami yang sudah ada?",
+            "answer": "Tentu. Kami memulai dengan style frame dan tahap look-dev yang selaras dengan panduan brand atau dunia game Anda sebelum masuk ke produksi penuh."
+          }
+        }
+      },
+      "production": {
+        "title": "Proses & pengiriman",
+        "items": {
+          "01": {
+            "question": "Berapa timeline yang umum?",
+            "answer": "Timeline bergantung pada scope — social cutdown bisa memakan waktu satu hingga dua minggu, sedangkan sinematik penuh bisa berlangsung empat hingga delapan minggu. Kami menetapkan milestone yang jelas di setiap proposal."
+          },
+          "02": {
+            "question": "Bagaimana proses revisi?",
+            "answer": "Setiap milestone mencakup jumlah putaran revisi yang sudah ditentukan. Kami menggabungkan umpan balik dalam sesi review terstruktur agar perubahan tetap efisien dan sesuai jadwal."
+          },
+          "03": {
+            "question": "Format file apa yang Anda kirimkan?",
+            "answer": "Kami mengirim export siap pakai untuk pipeline Anda — MP4/MOV untuk video, urutan PNG/EXR bila diperlukan, source file berlapis atas permintaan, serta asset siap engine untuk proyek real-time."
+          }
+        }
+      }
+    },
+    "ctaTitle": "Masih punya pertanyaan?",
+    "ctaDesc": "Kami dengan senang hati membahas brief Anda lewat panggilan.",
+    "ctaButton": "Hubungi kami"
   }
 }

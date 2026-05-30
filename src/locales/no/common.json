@@ -14,7 +14,8 @@
     "contacts": "Kontakter",
     "about": "Om oss",
     "contact": "Kontakt",
-    "portfolioCta": "Portfolio →"
+    "portfolioCta": "Portfolio →",
+    "faq": "FAQ"
   },
   "header": {
     "closeMenu": "Lukk meny",
@@ -468,5 +469,68 @@
         "title": "Industrial Animation"
       }
     }
+  },
+  "accordionPage": {
+    "metaTitle": "FAQ — Starlights Visuals",
+    "metaDescription": "Alt du trenger å vite om å jobbe med oss — fra første brief til endelig levering.",
+    "label": "Ofte stilte spørsmål",
+    "title": "SPØRSMÅL & SVAR",
+    "subtitle": "Alt du trenger å vite om å jobbe med oss — fra første brief til endelig levering.",
+    "sections": {
+      "general": {
+        "title": "Generelt",
+        "items": {
+          "01": {
+            "question": "Hvilke typer prosjekter jobber dere med?",
+            "answer": "Vi produserer animasjon, VFX, game art, cinematics, motion graphics og brandfilmer for spill, film, serier, reklame og DTC-merker. Briefs varierer fra enkeltstående hero-assets til komplette kampanjepakker."
+          },
+          "02": {
+            "question": "Hvor holder Starlights Visuals til?",
+            "answer": "Vi er et remote-first studio med teammedlemmer på tvers av flere tidssoner. Vi samarbeider med kunder globalt og leverer produksjonsklare assets gjennom strukturerte asynkrone arbeidsflyter og live reviews."
+          },
+          "03": {
+            "question": "Hvordan starter jeg et prosjekt?",
+            "answer": "Ta kontakt via kontaktskjemaet med brief, tidslinje og referanselenker. Vi setter opp en discovery-samtale, avklarer scope og sender et forslag med milepæler og deliverables."
+          }
+        }
+      },
+      "services": {
+        "title": "Tjenester og omfang",
+        "items": {
+          "01": {
+            "question": "Hvilke tjenester tilbyr dere?",
+            "answer": "Kjernetjenestene våre inkluderer 2D- og 3D-animasjon, VFX, character- og concept art, støtte til spillutvikling, motion graphics og cinematics-trailere. Vi kan levere enkeltfag eller full pipeline-produksjon."
+          },
+          "02": {
+            "question": "Jobber dere med indie-team og store studioer?",
+            "answer": "Ja. Vi samarbeider med indie-skapere, mellomstore studioer og globale merkevarer. Omfang og teamstørrelse skaleres etter budsjett og tidslinje uten å gå på kompromiss med håndverket."
+          },
+          "03": {
+            "question": "Kan dere matche vår eksisterende art style?",
+            "answer": "Absolutt. Vi starter med style frames og en look-dev fase som er tilpasset merkevareguidelines eller spillverdenen deres før vi går inn i full produksjon."
+          }
+        }
+      },
+      "production": {
+        "title": "Prosess og levering",
+        "items": {
+          "01": {
+            "question": "Hva er typiske tidslinjer?",
+            "answer": "Tidslinjer avhenger av omfang — en social cutdown kan ta én til to uker, mens en full cinematic kan ta fire til åtte uker. Vi setter tydelige milepæler i hvert forslag."
+          },
+          "02": {
+            "question": "Hvordan fungerer revisjoner?",
+            "answer": "Hver milepæl inkluderer et definert antall revisjonsrunder. Vi samler tilbakemeldinger i strukturerte review-økter slik at endringer holder seg effektive og på plan."
+          },
+          "03": {
+            "question": "Hvilke filformater leverer dere?",
+            "answer": "Vi leverer formatklare eksporter for pipeline-en deres — MP4/MOV for video, PNG/EXR-sekvenser ved behov, lagdelte kildefiler på forespørsel og engine-ready assets for sanntidsprosjekter."
+          }
+        }
+      }
+    },
+    "ctaTitle": "Har du fortsatt spørsmål?",
+    "ctaDesc": "Vi går gjerne gjennom briefen din i en samtale.",
+    "ctaButton": "Kontakt oss"
   }
 }

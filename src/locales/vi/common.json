@@ -14,7 +14,8 @@
     "contacts": "Liên hệ",
     "about": "Giới thiệu",
     "contact": "Liên hệ",
-    "portfolioCta": "Portfolio →"
+    "portfolioCta": "Portfolio →",
+    "faq": "Câu hỏi thường gặp"
   },
   "header": {
     "closeMenu": "Đóng menu",
@@ -468,5 +469,68 @@
         "title": "Industrial Animation"
       }
     }
+  },
+  "accordionPage": {
+    "metaTitle": "FAQ — Starlights Visuals",
+    "metaDescription": "Mọi điều bạn cần biết khi làm việc với chúng tôi — từ brief ban đầu đến bàn giao cuối cùng.",
+    "label": "FAQ",
+    "title": "CÂU HỎI & TRẢ LỜI",
+    "subtitle": "Mọi điều bạn cần biết khi làm việc với chúng tôi — từ brief ban đầu đến bàn giao cuối cùng.",
+    "sections": {
+      "general": {
+        "title": "Tổng quan",
+        "items": {
+          "01": {
+            "question": "Bạn nhận những loại dự án nào?",
+            "answer": "Chúng tôi sản xuất animation, VFX, game art, cinematic, motion graphics và brand film cho game, phim, series, quảng cáo và các thương hiệu DTC. Brief có thể từ một hero asset đơn lẻ đến trọn bộ chiến dịch."
+          },
+          "02": {
+            "question": "Starlights Visuals đặt trụ sở ở đâu?",
+            "answer": "Chúng tôi là studio remote-first với thành viên ở nhiều múi giờ. Chúng tôi hợp tác với khách hàng toàn cầu và bàn giao asset sẵn sàng cho sản xuất thông qua quy trình async có cấu trúc và các buổi review trực tiếp."
+          },
+          "03": {
+            "question": "Làm sao để bắt đầu một dự án?",
+            "answer": "Hãy liên hệ qua form với brief, timeline và các liên kết tham khảo. Chúng tôi sẽ sắp xếp discovery call, chốt phạm vi công việc và gửi proposal gồm milestone cùng deliverables."
+          }
+        }
+      },
+      "services": {
+        "title": "Dịch vụ và phạm vi",
+        "items": {
+          "01": {
+            "question": "Bạn cung cấp những dịch vụ nào?",
+            "answer": "Dịch vụ cốt lõi của chúng tôi gồm animation 2D/3D, VFX, character và concept art, hỗ trợ phát triển game, motion graphics và trailer cinematic. Chúng tôi có thể triển khai từng mảng riêng lẻ hoặc toàn bộ pipeline."
+          },
+          "02": {
+            "question": "Bạn có làm việc với cả đội indie và studio lớn không?",
+            "answer": "Có. Chúng tôi hợp tác với nhà sáng tạo indie, studio tầm trung và thương hiệu toàn cầu. Phạm vi và quy mô đội ngũ sẽ linh hoạt theo ngân sách và tiến độ mà vẫn đảm bảo chất lượng."
+          },
+          "03": {
+            "question": "Bạn có thể bám theo phong cách mỹ thuật hiện có của chúng tôi không?",
+            "answer": "Chắc chắn. Chúng tôi bắt đầu bằng style frame và giai đoạn look-dev bám sát guideline thương hiệu hoặc thế giới game của bạn trước khi bước vào sản xuất đầy đủ."
+          }
+        }
+      },
+      "production": {
+        "title": "Quy trình và bàn giao",
+        "items": {
+          "01": {
+            "question": "Thời gian thực hiện thường là bao lâu?",
+            "answer": "Timeline phụ thuộc vào phạm vi — một social cutdown có thể mất 1-2 tuần, còn một cinematic đầy đủ có thể kéo dài 4-8 tuần. Chúng tôi luôn nêu rõ milestone trong mọi proposal."
+          },
+          "02": {
+            "question": "Quy trình chỉnh sửa diễn ra như thế nào?",
+            "answer": "Mỗi milestone đều có số vòng chỉnh sửa được xác định trước. Chúng tôi tổng hợp phản hồi trong các phiên review có cấu trúc để việc thay đổi luôn hiệu quả và đúng tiến độ."
+          },
+          "03": {
+            "question": "Bạn bàn giao những định dạng tệp nào?",
+            "answer": "Chúng tôi bàn giao bản export sẵn sàng cho pipeline của bạn — MP4/MOV cho video, chuỗi PNG/EXR khi cần, source file theo lớp nếu yêu cầu và asset sẵn sàng cho engine ở các dự án thời gian thực."
+          }
+        }
+      }
+    },
+    "ctaTitle": "Bạn vẫn còn câu hỏi?",
+    "ctaDesc": "Chúng tôi rất sẵn lòng trao đổi brief của bạn qua một cuộc gọi.",
+    "ctaButton": "Liên hệ chúng tôi"
   }
 }

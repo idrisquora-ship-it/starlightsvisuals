@@ -14,6 +14,7 @@
     "contacts": "Contacts",
     "about": "About",
     "contact": "Contact",
+    "faq": "FAQ",
     "portfolioCta": "Portfolio →"
   },
   "header": {
@@ -263,6 +264,69 @@
       "motion": "Motion Graphics / VFX",
       "other": "Other"
     }
+  },
+  "accordionPage": {
+    "metaTitle": "FAQ — Starlights Visuals",
+    "metaDescription": "Frequently asked questions about Starlights Visuals — services, process, timelines, and how to start a project.",
+    "label": "FAQ",
+    "title": "QUESTIONS & ANSWERS",
+    "subtitle": "Everything you need to know about working with us — from first brief to final delivery.",
+    "sections": {
+      "general": {
+        "title": "General",
+        "items": {
+          "01": {
+            "question": "What types of projects do you work on?",
+            "answer": "We produce animation, VFX, game art, cinematics, motion graphics, and brand films for games, films, series, advertising, and DTC brands. Briefs range from single hero assets to full campaign packages."
+          },
+          "02": {
+            "question": "Where is Starlights Visuals based?",
+            "answer": "We're a remote-first studio with team members across multiple time zones. We collaborate with clients globally and deliver production-ready assets through structured async workflows and live reviews."
+          },
+          "03": {
+            "question": "How do I start a project?",
+            "answer": "Reach out via the contact form with your brief, timeline, and reference links. We'll schedule a discovery call, scope the work, and send a proposal with milestones and deliverables."
+          }
+        }
+      },
+      "services": {
+        "title": "Services & scope",
+        "items": {
+          "01": {
+            "question": "What services do you offer?",
+            "answer": "Our core services include 2D and 3D animation, VFX, character and concept art, game development support, motion graphics, and cinematic trailers. We can handle individual disciplines or full pipeline production."
+          },
+          "02": {
+            "question": "Do you work with indie teams and large studios?",
+            "answer": "Yes. We partner with indie creators, mid-size studios, and global brands. Scope and team size flex to match your budget and timeline without compromising craft."
+          },
+          "03": {
+            "question": "Can you match our existing art style?",
+            "answer": "Absolutely. We start with style frames and a look-dev pass aligned to your brand guidelines or game world before committing to full production."
+          }
+        }
+      },
+      "production": {
+        "title": "Process & delivery",
+        "items": {
+          "01": {
+            "question": "What are typical timelines?",
+            "answer": "Timelines depend on scope — a social cutdown may take one to two weeks, while a full cinematic can run four to eight weeks. We outline clear milestones in every proposal."
+          },
+          "02": {
+            "question": "How do revisions work?",
+            "answer": "Each milestone includes a defined number of revision rounds. We consolidate feedback into structured review sessions so changes stay efficient and on schedule."
+          },
+          "03": {
+            "question": "What file formats do you deliver?",
+            "answer": "We deliver format-ready exports for your pipeline — MP4/MOV for video, PNG/EXR sequences where needed, layered source files on request, and engine-ready assets for real-time projects."
+          }
+        }
+      }
+    },
+    "ctaTitle": "Still have questions?",
+    "ctaDesc": "We're happy to walk through your brief on a call.",
+    "ctaButton": "Contact us"
   },
   "portfolioPage": {
     "metaTitle": "Portfolio — Starlights Visuals",

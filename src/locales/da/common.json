@@ -14,7 +14,8 @@
     "contacts": "Kontakter",
     "about": "Om os",
     "contact": "Kontakt",
-    "portfolioCta": "Portfolio →"
+    "portfolioCta": "Portfolio →",
+    "faq": "FAQ"
   },
   "header": {
     "closeMenu": "Luk menu",
@@ -468,5 +469,68 @@
         "title": "Industrial Animation"
       }
     }
+  },
+  "accordionPage": {
+    "metaTitle": "FAQ — Starlights Visuals",
+    "metaDescription": "Alt, du skal vide om at arbejde med os — fra første brief til endelig levering.",
+    "label": "Ofte stillede spørgsmål",
+    "title": "SPØRGSMÅL & SVAR",
+    "subtitle": "Alt, du skal vide om at arbejde med os — fra første brief til endelig levering.",
+    "sections": {
+      "general": {
+        "title": "Generelt",
+        "items": {
+          "01": {
+            "question": "Hvilke typer projekter arbejder I på?",
+            "answer": "Vi producerer animation, VFX, game art, cinematics, motion graphics og brandfilm til spil, film, serier, reklamer og DTC-brands. Briefs spænder fra enkelte hero-assets til komplette kampagnepakker."
+          },
+          "02": {
+            "question": "Hvor er Starlights Visuals baseret?",
+            "answer": "Vi er et remote-first studie med teammedlemmer på tværs af flere tidszoner. Vi samarbejder med kunder globalt og leverer produktionsklare assets gennem strukturerede asynkrone workflows og live reviews."
+          },
+          "03": {
+            "question": "Hvordan starter jeg et projekt?",
+            "answer": "Kontakt os via kontaktformularen med dit brief, din tidsplan og reference-links. Vi planlægger en discovery-samtale, afklarer scope og sender et forslag med milepæle og deliverables."
+          }
+        }
+      },
+      "services": {
+        "title": "Services og scope",
+        "items": {
+          "01": {
+            "question": "Hvilke services tilbyder I?",
+            "answer": "Vores kerneydelser omfatter 2D- og 3D-animation, VFX, character- og concept art, support til spiludvikling, motion graphics og cinematics-trailere. Vi kan håndtere enkelte discipliner eller fuld pipeline-produktion."
+          },
+          "02": {
+            "question": "Arbejder I med indie-teams og store studier?",
+            "answer": "Ja. Vi samarbejder med indie-creators, mellemstore studier og globale brands. Scope og teamstørrelse tilpasses jeres budget og tidsplan uden at gå på kompromis med kvaliteten."
+          },
+          "03": {
+            "question": "Kan I matche vores eksisterende art style?",
+            "answer": "Helt sikkert. Vi starter med style frames og en look-dev fase, der er tilpasset jeres brand guidelines eller spilverden, før vi går i fuld produktion."
+          }
+        }
+      },
+      "production": {
+        "title": "Proces og levering",
+        "items": {
+          "01": {
+            "question": "Hvad er typiske tidslinjer?",
+            "answer": "Tidslinjer afhænger af scope — en social cutdown kan tage en til to uger, mens en fuld cinematic kan vare fire til otte uger. Vi opstiller klare milepæle i hvert forslag."
+          },
+          "02": {
+            "question": "Hvordan fungerer revisioner?",
+            "answer": "Hver milepæl indeholder et defineret antal revisionsrunder. Vi samler feedback i strukturerede review-sessioner, så ændringer forbliver effektive og på tidsplan."
+          },
+          "03": {
+            "question": "Hvilke filformater leverer I?",
+            "answer": "Vi leverer formatklare exports til jeres pipeline — MP4/MOV til video, PNG/EXR-sekvenser hvor nødvendigt, lagdelte source-filer efter behov og engine-ready assets til realtidsprojekter."
+          }
+        }
+      }
+    },
+    "ctaTitle": "Har du stadig spørgsmål?",
+    "ctaDesc": "Vi gennemgår gerne dit brief på et opkald.",
+    "ctaButton": "Kontakt os"
   }
 }

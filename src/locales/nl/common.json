@@ -14,7 +14,8 @@
     "contacts": "Contact",
     "about": "Over ons",
     "contact": "Contact",
-    "portfolioCta": "Portfolio →"
+    "portfolioCta": "Portfolio →",
+    "faq": "FAQ"
   },
   "header": {
     "closeMenu": "Menu sluiten",
@@ -468,5 +469,68 @@
         "title": "Industrial Animation"
       }
     }
+  },
+  "accordionPage": {
+    "metaTitle": "FAQ — Starlights Visuals",
+    "metaDescription": "Alles wat je moet weten over samenwerken met ons — van eerste briefing tot finale oplevering.",
+    "label": "Veelgestelde vragen",
+    "title": "VRAGEN & ANTWOORDEN",
+    "subtitle": "Alles wat je moet weten over samenwerken met ons — van eerste briefing tot finale oplevering.",
+    "sections": {
+      "general": {
+        "title": "Algemeen",
+        "items": {
+          "01": {
+            "question": "Aan welke soorten projecten werken jullie?",
+            "answer": "We produceren animatie, VFX, game art, cinematics, motion graphics en brand films voor games, films, series, advertising en DTC-merken. Briefings variëren van één hero-asset tot volledige campagnepakketten."
+          },
+          "02": {
+            "question": "Waar is Starlights Visuals gevestigd?",
+            "answer": "Wij zijn een remote-first studio met teamleden in meerdere tijdzones. We werken wereldwijd met klanten samen en leveren production-ready assets via gestructureerde asynchrone workflows en live reviews."
+          },
+          "03": {
+            "question": "Hoe start ik een project?",
+            "answer": "Neem contact op via het contactformulier met je briefing, planning en referentielinks. We plannen een discovery call, bepalen de scope en sturen een voorstel met mijlpalen en deliverables."
+          }
+        }
+      },
+      "services": {
+        "title": "Services & scope",
+        "items": {
+          "01": {
+            "question": "Welke diensten bieden jullie aan?",
+            "answer": "Onze kernservices omvatten 2D- en 3D-animatie, VFX, character- en concept art, ondersteuning bij game development, motion graphics en cinematic trailers. We kunnen losse disciplines of volledige pipelineproductie oppakken."
+          },
+          "02": {
+            "question": "Werken jullie met indie-teams en grote studio's?",
+            "answer": "Ja. We werken samen met indie-creators, middelgrote studio's en wereldwijde merken. Scope en teamgrootte schalen mee met je budget en planning zonder concessies aan kwaliteit."
+          },
+          "03": {
+            "question": "Kunnen jullie onze bestaande art style matchen?",
+            "answer": "Absoluut. We starten met style frames en een look-dev fase die aansluit op jullie brand guidelines of gamewereld voordat we naar volledige productie gaan."
+          }
+        }
+      },
+      "production": {
+        "title": "Proces & oplevering",
+        "items": {
+          "01": {
+            "question": "Wat zijn gebruikelijke doorlooptijden?",
+            "answer": "De timing hangt af van de scope — een social cutdown kan één tot twee weken duren, terwijl een volledige cinematic vier tot acht weken kan lopen. In elk voorstel nemen we duidelijke mijlpalen op."
+          },
+          "02": {
+            "question": "Hoe werken revisies?",
+            "answer": "Elke mijlpaal bevat een vast aantal revisierondes. We bundelen feedback in gestructureerde reviewsessies zodat wijzigingen efficiënt en volgens planning blijven."
+          },
+          "03": {
+            "question": "Welke bestandsformaten leveren jullie op?",
+            "answer": "We leveren formatklare exports voor jullie pipeline — MP4/MOV voor video, PNG/EXR-sequenties waar nodig, gelaagde bronbestanden op aanvraag en engine-ready assets voor real-time projecten."
+          }
+        }
+      }
+    },
+    "ctaTitle": "Nog vragen?",
+    "ctaDesc": "We lopen je briefing graag door in een call.",
+    "ctaButton": "Neem contact op"
   }
 }
