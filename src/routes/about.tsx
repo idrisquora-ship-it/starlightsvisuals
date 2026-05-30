@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { Sparkles, Target, Zap, Heart } from "lucide-react";
-import heroImg from "@/assets/hero-cosmic.jpg";
+import heroImg from "@/assets/portfolio-character.jpg";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
