@@ -68,18 +68,48 @@
     "ctaTitle1": "SIAP",
     "ctaTitle2": "BERKOLABORASI?",
     "services": {
-      "01": { "title": "Animasi & VFX", "desc": "Animasi 2D & 3D sinematik, rig karakter, dan efek visual untuk game dan film." },
-      "02": { "title": "Pengembangan Game", "desc": "Produksi full-cycle — konsep, art, kode, audio, rilis." },
-      "03": { "title": "Konsep & Character Art", "desc": "Karakter orisinal, makhluk, lingkungan, dan properti yang memperkuat IP Anda." },
-      "04": { "title": "Trailer Sinematik", "desc": "Trailer berbasis cerita yang dirancang untuk meluncurkan game dan franchise." }
+      "01": {
+        "title": "Animasi & VFX",
+        "desc": "Animasi 2D & 3D sinematik, rig karakter, dan efek visual untuk game dan film."
+      },
+      "02": {
+        "title": "Pengembangan Game",
+        "desc": "Produksi full-cycle — konsep, art, kode, audio, rilis."
+      },
+      "03": {
+        "title": "Konsep & Character Art",
+        "desc": "Karakter orisinal, makhluk, lingkungan, dan properti yang memperkuat IP Anda."
+      },
+      "04": {
+        "title": "Trailer Sinematik",
+        "desc": "Trailer berbasis cerita yang dirancang untuk meluncurkan game dan franchise."
+      }
     },
     "showcase": {
-      "character": { "tag": "Karakter", "title": "Nova Vanguard" },
-      "gameArt": { "tag": "Game Art", "title": "Lumen Worlds" },
-      "animation2d": { "tag": "Animasi 2D", "title": "Neon Skyline" },
-      "cinematic": { "tag": "Sinematik", "title": "Iron Sentinel" },
-      "creature": { "tag": "Makhluk", "title": "Abyss Drake" },
-      "motion": { "tag": "Motion", "title": "Pulse" }
+      "character": {
+        "tag": "3D Animation",
+        "title": "3D Animation"
+      },
+      "gameArt": {
+        "tag": "Game Environment",
+        "title": "Game Environment"
+      },
+      "animation2d": {
+        "tag": "Game Environment",
+        "title": "Game Environment"
+      },
+      "cinematic": {
+        "tag": "VFX",
+        "title": "VFX"
+      },
+      "creature": {
+        "tag": "3D",
+        "title": "Industrial Animation"
+      },
+      "motion": {
+        "tag": "3D",
+        "title": "Product Animation"
+      }
     }
   },
   "trustedBy": {
@@ -138,13 +168,34 @@
     "ctaDesc": "Ceritakan visi Anda — kami siapkan kekuatannya.",
     "ctaButton": "Hubungi Kami",
     "items": {
-      "2d": { "title": "Animasi 2D", "desc": "2D frame-by-frame & rigged untuk serial, short, explainer, dan game. Menggabungkan craft klasik dengan pipeline digital." },
-      "3d": { "title": "Animasi 3D", "desc": "3D stylized dan photoreal — karakter, lingkungan, dan urutan sinematik penuh dengan polish kualitas feature." },
-      "game": { "title": "Pengembangan Game", "desc": "Produksi game end-to-end: konsep, art, kode, audio, dan peluncuran. Unreal, Unity, dan pipeline kustom." },
-      "character": { "title": "Character Design", "desc": "Karakter orisinal, makhluk, dan concept art yang memperkuat IP serta potensi merch Anda." },
-      "motion": { "title": "Motion Graphics", "desc": "Motion brand, animasi UI, paket broadcast, dan video explainer dengan sentuhan sinematik." },
-      "vfx": { "title": "Visual Effects (VFX)", "desc": "Compositing, particle FX, dan integrasi CG untuk game, film, dan kampanye digital." },
-      "trailer": { "title": "Trailer Sinematik", "desc": "Trailer berbasis cerita untuk meluncurkan game, IP, dan brand dengan dampak maksimal." }
+      "2d": {
+        "title": "Animasi 2D",
+        "desc": "2D frame-by-frame & rigged untuk serial, short, explainer, dan game. Menggabungkan craft klasik dengan pipeline digital."
+      },
+      "3d": {
+        "title": "Animasi 3D",
+        "desc": "3D stylized dan photoreal — karakter, lingkungan, dan urutan sinematik penuh dengan polish kualitas feature."
+      },
+      "game": {
+        "title": "Pengembangan Game",
+        "desc": "Produksi game end-to-end: konsep, art, kode, audio, dan peluncuran. Unreal, Unity, dan pipeline kustom."
+      },
+      "character": {
+        "title": "Character Design",
+        "desc": "Karakter orisinal, makhluk, dan concept art yang memperkuat IP serta potensi merch Anda."
+      },
+      "motion": {
+        "title": "Motion Graphics",
+        "desc": "Motion brand, animasi UI, paket broadcast, dan video explainer dengan sentuhan sinematik."
+      },
+      "vfx": {
+        "title": "Visual Effects (VFX)",
+        "desc": "Compositing, particle FX, dan integrasi CG untuk game, film, dan kampanye digital."
+      },
+      "trailer": {
+        "title": "Trailer Sinematik",
+        "desc": "Trailer berbasis cerita untuk meluncurkan game, IP, dan brand dengan dampak maksimal."
+      }
     }
   },
   "aboutPage": {
@@ -159,10 +210,22 @@
     "valuesLabel": "Nilai Inti",
     "valuesTitle": "APA YANG MEMBUAT KAMI BERGERAK",
     "values": {
-      "imagination": { "title": "Imajinasi Utama", "desc": "Setiap proyek dimulai dari ide berani dan kanvas kosong." },
-      "craft": { "title": "Obsesi Craft", "desc": "Frame demi frame, pixel demi pixel — kualitas tidak bisa ditawar." },
-      "energy": { "title": "Energi Sinematik", "desc": "Kami mengejar goosebumps. Jika belum menyentuh, kami refine." },
-      "story": { "title": "Berbasis Cerita", "desc": "Teknologi melayani cerita. Selalu." }
+      "imagination": {
+        "title": "Imajinasi Utama",
+        "desc": "Setiap proyek dimulai dari ide berani dan kanvas kosong."
+      },
+      "craft": {
+        "title": "Obsesi Craft",
+        "desc": "Frame demi frame, pixel demi pixel — kualitas tidak bisa ditawar."
+      },
+      "energy": {
+        "title": "Energi Sinematik",
+        "desc": "Kami mengejar goosebumps. Jika belum menyentuh, kami refine."
+      },
+      "story": {
+        "title": "Berbasis Cerita",
+        "desc": "Teknologi melayani cerita. Selalu."
+      }
     },
     "stats": {
       "projects": "Proyek Selesai",
@@ -209,12 +272,36 @@
     "title2": "FOLIO",
     "subtitle": "Sekilas tentang dunia, karakter, dan cerita yang kami bantu hidupkan.",
     "projects": {
-      "trailer": { "tag": "Trailer Sinematik", "title": "Iron Sentinel", "desc": "Trailer peluncuran game AAA." },
-      "character": { "tag": "Character Design", "title": "Nova Vanguard", "desc": "Sheet protagonis hero." },
-      "game": { "tag": "Game Art", "title": "Lumen Worlds", "desc": "Environment art open-world." },
-      "2d": { "tag": "Animasi 2D", "title": "Neon Skyline", "desc": "Episode pilot bergaya anime." },
-      "creature": { "tag": "Creature Design", "title": "Crystal Wyrm", "desc": "Konsep creature boss." },
-      "motion": { "tag": "Motion Graphics", "title": "Pulse Identity", "desc": "Sistem motion brand." }
+      "trailer": {
+        "tag": "Trailer Sinematik",
+        "title": "Iron Sentinel",
+        "desc": "Trailer peluncuran game AAA."
+      },
+      "character": {
+        "tag": "Character Design",
+        "title": "Nova Vanguard",
+        "desc": "Sheet protagonis hero."
+      },
+      "game": {
+        "tag": "Game Art",
+        "title": "Lumen Worlds",
+        "desc": "Environment art open-world."
+      },
+      "2d": {
+        "tag": "Animasi 2D",
+        "title": "Neon Skyline",
+        "desc": "Episode pilot bergaya anime."
+      },
+      "creature": {
+        "tag": "Creature Design",
+        "title": "Crystal Wyrm",
+        "desc": "Konsep creature boss."
+      },
+      "motion": {
+        "tag": "Motion Graphics",
+        "title": "Pulse Identity",
+        "desc": "Sistem motion brand."
+      }
     }
   },
   "blogPage": {

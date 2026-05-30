@@ -68,18 +68,48 @@
     "ctaTitle1": "พร้อม",
     "ctaTitle2": "ร่วมงานไหม?",
     "services": {
-      "01": { "title": "แอนิเมชัน & VFX", "desc": "แอนิเมชัน 2D & 3D แบบภาพยนตร์ ริกตัวละคร และเอฟเฟกต์ภาพสำหรับเกมและภาพยนตร์" },
-      "02": { "title": "พัฒนาเกม", "desc": "โปรดักชันเต็มวงจร — คอนเซปต์ อาร์ต โค้ด เสียง ปล่อยงาน" },
-      "03": { "title": "คอนเซปต์ & Character Art", "desc": "ตัวละคร สิ่งมีชีวิต สภาพแวดล้อม และอุปกรณ์ต้นฉบับที่ยึด IP ของคุณ" },
-      "04": { "title": "ตัวอย่างภาพยนตร์", "desc": "ตัวอย่างที่ขับเคลื่อนด้วยเรื่องราว ออกแบบเพื่อเปิดตัวเกมและแฟรนไชส์" }
+      "01": {
+        "title": "แอนิเมชัน & VFX",
+        "desc": "แอนิเมชัน 2D & 3D แบบภาพยนตร์ ริกตัวละคร และเอฟเฟกต์ภาพสำหรับเกมและภาพยนตร์"
+      },
+      "02": {
+        "title": "พัฒนาเกม",
+        "desc": "โปรดักชันเต็มวงจร — คอนเซปต์ อาร์ต โค้ด เสียง ปล่อยงาน"
+      },
+      "03": {
+        "title": "คอนเซปต์ & Character Art",
+        "desc": "ตัวละคร สิ่งมีชีวิต สภาพแวดล้อม และอุปกรณ์ต้นฉบับที่ยึด IP ของคุณ"
+      },
+      "04": {
+        "title": "ตัวอย่างภาพยนตร์",
+        "desc": "ตัวอย่างที่ขับเคลื่อนด้วยเรื่องราว ออกแบบเพื่อเปิดตัวเกมและแฟรนไชส์"
+      }
     },
     "showcase": {
-      "character": { "tag": "ตัวละคร", "title": "Nova Vanguard" },
-      "gameArt": { "tag": "Game Art", "title": "Lumen Worlds" },
-      "animation2d": { "tag": "แอนิเมชัน 2D", "title": "Neon Skyline" },
-      "cinematic": { "tag": "ภาพยนตร์", "title": "Iron Sentinel" },
-      "creature": { "tag": "สิ่งมีชีวิต", "title": "Abyss Drake" },
-      "motion": { "tag": "Motion", "title": "Pulse" }
+      "character": {
+        "tag": "3D Animation",
+        "title": "3D Animation"
+      },
+      "gameArt": {
+        "tag": "Game Environment",
+        "title": "Game Environment"
+      },
+      "animation2d": {
+        "tag": "Game Environment",
+        "title": "Game Environment"
+      },
+      "cinematic": {
+        "tag": "VFX",
+        "title": "VFX"
+      },
+      "creature": {
+        "tag": "3D",
+        "title": "Industrial Animation"
+      },
+      "motion": {
+        "tag": "3D",
+        "title": "Product Animation"
+      }
     }
   },
   "trustedBy": {
@@ -138,13 +168,34 @@
     "ctaDesc": "บอกวิสัยทัศน์ของคุณ — เราจัดเตรียมพลังให้",
     "ctaButton": "ติดต่อเรา",
     "items": {
-      "2d": { "title": "แอนิเมชัน 2D", "desc": "2D ทีละเฟรมและ rigged สำหรับซีรีส์ หนังสั้น explainer และเกม ผสมผสานงานฝีมือคลาสสิกกับ pipeline ดิจิทัล" },
-      "3d": { "title": "แอนิเมชัน 3D", "desc": "3D สไตล์และ photoreal — ตัวละคร สภาพแวดล้อม และลำดับภาพยนตร์เต็มรูปแบบพร้อม polish ระดับ feature" },
-      "game": { "title": "พัฒนาเกม", "desc": "โปรดักชันเกมครบวงจร: คอนเซปต์ อาร์ต โค้ด เสียง และเปิดตัว Unreal Unity และ pipeline กำหนดเอง" },
-      "character": { "title": "ออกแบบตัวละคร", "desc": "ตัวละคร สิ่งมีชีวิต และ concept art ต้นฉบับที่ยึด IP และศักยภาพ merch ของคุณ" },
-      "motion": { "title": "Motion Graphics", "desc": "Motion แบรนด์ แอนิเมชัน UI แพ็กเกจ broadcast และวิดีโอ explainer พร้อม polish แบบภาพยนตร์" },
-      "vfx": { "title": "Visual Effects (VFX)", "desc": "Compositing particle FX และการผสาน CG สำหรับเกม ภาพยนตร์ และแคมเปญดิจิทัล" },
-      "trailer": { "title": "ตัวอย่างภาพยนตร์", "desc": "ตัวอย่างที่ขับเคลื่อนด้วยเรื่องราว เพื่อเปิดตัวเกม IP และแบรนด์ด้วยผลกระทบสูงสุด" }
+      "2d": {
+        "title": "แอนิเมชัน 2D",
+        "desc": "2D ทีละเฟรมและ rigged สำหรับซีรีส์ หนังสั้น explainer และเกม ผสมผสานงานฝีมือคลาสสิกกับ pipeline ดิจิทัล"
+      },
+      "3d": {
+        "title": "แอนิเมชัน 3D",
+        "desc": "3D สไตล์และ photoreal — ตัวละคร สภาพแวดล้อม และลำดับภาพยนตร์เต็มรูปแบบพร้อม polish ระดับ feature"
+      },
+      "game": {
+        "title": "พัฒนาเกม",
+        "desc": "โปรดักชันเกมครบวงจร: คอนเซปต์ อาร์ต โค้ด เสียง และเปิดตัว Unreal Unity และ pipeline กำหนดเอง"
+      },
+      "character": {
+        "title": "ออกแบบตัวละคร",
+        "desc": "ตัวละคร สิ่งมีชีวิต และ concept art ต้นฉบับที่ยึด IP และศักยภาพ merch ของคุณ"
+      },
+      "motion": {
+        "title": "Motion Graphics",
+        "desc": "Motion แบรนด์ แอนิเมชัน UI แพ็กเกจ broadcast และวิดีโอ explainer พร้อม polish แบบภาพยนตร์"
+      },
+      "vfx": {
+        "title": "Visual Effects (VFX)",
+        "desc": "Compositing particle FX และการผสาน CG สำหรับเกม ภาพยนตร์ และแคมเปญดิจิทัล"
+      },
+      "trailer": {
+        "title": "ตัวอย่างภาพยนตร์",
+        "desc": "ตัวอย่างที่ขับเคลื่อนด้วยเรื่องราว เพื่อเปิดตัวเกม IP และแบรนด์ด้วยผลกระทบสูงสุด"
+      }
     }
   },
   "aboutPage": {
@@ -159,10 +210,22 @@
     "valuesLabel": "คุณค่าหลัก",
     "valuesTitle": "สิ่งที่ขับเคลื่อนเรา",
     "values": {
-      "imagination": { "title": "จินตนาการมาก่อน", "desc": "ทุกโปรเจกต์เริ่มจากไอเดียกล้าหาญและผืนผ้าใบว่าง" },
-      "craft": { "title": "หลงใหลฝีมือ", "desc": "เฟรมต่อเฟรม พิกเซลต่อพิกเซล — คุณภาพไม่มีการต่อรอง" },
-      "energy": { "title": "พลังแบบภาพยนตร์", "desc": "เราไล่ตามความขนลุก ถ้ายังไม่สะเทือนใจ เราจะ refine ต่อ" },
-      "story": { "title": "ขับเคลื่อนด้วยเรื่องราว", "desc": "เทคโนโลยีอยู่เพื่อเรื่องราว เสมอ" }
+      "imagination": {
+        "title": "จินตนาการมาก่อน",
+        "desc": "ทุกโปรเจกต์เริ่มจากไอเดียกล้าหาญและผืนผ้าใบว่าง"
+      },
+      "craft": {
+        "title": "หลงใหลฝีมือ",
+        "desc": "เฟรมต่อเฟรม พิกเซลต่อพิกเซล — คุณภาพไม่มีการต่อรอง"
+      },
+      "energy": {
+        "title": "พลังแบบภาพยนตร์",
+        "desc": "เราไล่ตามความขนลุก ถ้ายังไม่สะเทือนใจ เราจะ refine ต่อ"
+      },
+      "story": {
+        "title": "ขับเคลื่อนด้วยเรื่องราว",
+        "desc": "เทคโนโลยีอยู่เพื่อเรื่องราว เสมอ"
+      }
     },
     "stats": {
       "projects": "โปรเจกต์ที่ส่งมอบ",
@@ -209,12 +272,36 @@
     "title2": "FOLIO",
     "subtitle": "แวบหนึ่งของโลก ตัวละคร และเรื่องราวที่เราช่วยทำให้มีชีวิต",
     "projects": {
-      "trailer": { "tag": "ตัวอย่างภาพยนตร์", "title": "Iron Sentinel", "desc": "ตัวอย่างเปิดตัวเกม AAA" },
-      "character": { "tag": "ออกแบบตัวละคร", "title": "Nova Vanguard", "desc": "ชีทตัวเอก" },
-      "game": { "tag": "Game Art", "title": "Lumen Worlds", "desc": "Environment art แบบ open-world" },
-      "2d": { "tag": "แอนิเมชัน 2D", "title": "Neon Skyline", "desc": "ตอนนำร่องสไตล์อนิเมะ" },
-      "creature": { "tag": "ออกแบบสิ่งมีชีวิต", "title": "Crystal Wyrm", "desc": "คอนเซปต์ boss creature" },
-      "motion": { "tag": "Motion Graphics", "title": "Pulse Identity", "desc": "ระบบ motion แบรนด์" }
+      "trailer": {
+        "tag": "ตัวอย่างภาพยนตร์",
+        "title": "Iron Sentinel",
+        "desc": "ตัวอย่างเปิดตัวเกม AAA"
+      },
+      "character": {
+        "tag": "ออกแบบตัวละคร",
+        "title": "Nova Vanguard",
+        "desc": "ชีทตัวเอก"
+      },
+      "game": {
+        "tag": "Game Art",
+        "title": "Lumen Worlds",
+        "desc": "Environment art แบบ open-world"
+      },
+      "2d": {
+        "tag": "แอนิเมชัน 2D",
+        "title": "Neon Skyline",
+        "desc": "ตอนนำร่องสไตล์อนิเมะ"
+      },
+      "creature": {
+        "tag": "ออกแบบสิ่งมีชีวิต",
+        "title": "Crystal Wyrm",
+        "desc": "คอนเซปต์ boss creature"
+      },
+      "motion": {
+        "tag": "Motion Graphics",
+        "title": "Pulse Identity",
+        "desc": "ระบบ motion แบรนด์"
+      }
     }
   },
   "blogPage": {

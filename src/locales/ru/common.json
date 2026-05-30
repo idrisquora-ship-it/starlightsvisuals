@@ -68,18 +68,48 @@
     "ctaTitle1": "ГОТОВЫ",
     "ctaTitle2": "К СОТРУДНИЧЕСТВУ?",
     "services": {
-      "01": { "title": "Анимация и VFX", "desc": "Кинематографичная 2D и 3D-анимация, риги персонажей и визуальные эффекты для игр и фильмов." },
-      "02": { "title": "Разработка игр", "desc": "Полный цикл производства — концепт, арт, код, аудио, релиз." },
-      "03": { "title": "Concept и character art", "desc": "Оригинальные персонажи, существа, окружения и реквизит, которые закрепляют ваш IP." },
-      "04": { "title": "Кинематографичные трейлеры", "desc": "Сюжетные трейлеры для запуска игр и франшиз." }
+      "01": {
+        "title": "Анимация и VFX",
+        "desc": "Кинематографичная 2D и 3D-анимация, риги персонажей и визуальные эффекты для игр и фильмов."
+      },
+      "02": {
+        "title": "Разработка игр",
+        "desc": "Полный цикл производства — концепт, арт, код, аудио, релиз."
+      },
+      "03": {
+        "title": "Concept и character art",
+        "desc": "Оригинальные персонажи, существа, окружения и реквизит, которые закрепляют ваш IP."
+      },
+      "04": {
+        "title": "Кинематографичные трейлеры",
+        "desc": "Сюжетные трейлеры для запуска игр и франшиз."
+      }
     },
     "showcase": {
-      "character": { "tag": "Персонаж", "title": "Nova Vanguard" },
-      "gameArt": { "tag": "Game art", "title": "Lumen Worlds" },
-      "animation2d": { "tag": "2D-анимация", "title": "Neon Skyline" },
-      "cinematic": { "tag": "Кинематограф", "title": "Iron Sentinel" },
-      "creature": { "tag": "Существо", "title": "Abyss Drake" },
-      "motion": { "tag": "Motion", "title": "Pulse" }
+      "character": {
+        "tag": "3D Animation",
+        "title": "3D Animation"
+      },
+      "gameArt": {
+        "tag": "Game Environment",
+        "title": "Game Environment"
+      },
+      "animation2d": {
+        "tag": "Game Environment",
+        "title": "Game Environment"
+      },
+      "cinematic": {
+        "tag": "VFX",
+        "title": "VFX"
+      },
+      "creature": {
+        "tag": "3D",
+        "title": "Industrial Animation"
+      },
+      "motion": {
+        "tag": "3D",
+        "title": "Product Animation"
+      }
     }
   },
   "trustedBy": {
@@ -138,13 +168,34 @@
     "ctaDesc": "Расскажите о своём видении — мы обеспечим огневую мощь.",
     "ctaButton": "Связаться",
     "items": {
-      "2d": { "title": "2D-анимация", "desc": "Frame-by-frame и rigged 2D для сериалов, шортов, explainer и игр. Сочетаем классический craft с цифровыми pipeline." },
-      "3d": { "title": "3D-анимация", "desc": "Stylized и photoreal 3D — персонажи, окружения и полные кинематографичные последовательности с feature-качеством." },
-      "game": { "title": "Разработка игр", "desc": "End-to-end производство игр: концепт, арт, код, аудио и запуск. Unreal, Unity и custom pipeline." },
-      "character": { "title": "Character design", "desc": "Оригинальные персонажи, существа и concept art, которые закрепляют IP и merch-потенциал." },
-      "motion": { "title": "Motion graphics", "desc": "Брендовый motion, UI-анимация, broadcast-пакеты и explainer-видео с кинематографичной отделкой." },
-      "vfx": { "title": "Визуальные эффекты (VFX)", "desc": "Compositing, particle FX и CG-интеграция для игр, фильмов и digital-кампаний." },
-      "trailer": { "title": "Кинематографичные трейлеры", "desc": "Сюжетные трейлеры для запуска игр, IP и брендов с максимальным impact." }
+      "2d": {
+        "title": "2D-анимация",
+        "desc": "Frame-by-frame и rigged 2D для сериалов, шортов, explainer и игр. Сочетаем классический craft с цифровыми pipeline."
+      },
+      "3d": {
+        "title": "3D-анимация",
+        "desc": "Stylized и photoreal 3D — персонажи, окружения и полные кинематографичные последовательности с feature-качеством."
+      },
+      "game": {
+        "title": "Разработка игр",
+        "desc": "End-to-end производство игр: концепт, арт, код, аудио и запуск. Unreal, Unity и custom pipeline."
+      },
+      "character": {
+        "title": "Character design",
+        "desc": "Оригинальные персонажи, существа и concept art, которые закрепляют IP и merch-потенциал."
+      },
+      "motion": {
+        "title": "Motion graphics",
+        "desc": "Брендовый motion, UI-анимация, broadcast-пакеты и explainer-видео с кинематографичной отделкой."
+      },
+      "vfx": {
+        "title": "Визуальные эффекты (VFX)",
+        "desc": "Compositing, particle FX и CG-интеграция для игр, фильмов и digital-кампаний."
+      },
+      "trailer": {
+        "title": "Кинематографичные трейлеры",
+        "desc": "Сюжетные трейлеры для запуска игр, IP и брендов с максимальным impact."
+      }
     }
   },
   "aboutPage": {
@@ -159,10 +210,22 @@
     "valuesLabel": "Ключевые ценности",
     "valuesTitle": "ЧТО НАС ДВИЖЕТ",
     "values": {
-      "imagination": { "title": "Воображение прежде всего", "desc": "Каждый проект начинается с смелой идеи и чистого холста." },
-      "craft": { "title": "Одержимость craft", "desc": "Кадр за кадром, пиксель за пикселем — качество не обсуждается." },
-      "energy": { "title": "Кинематографичная энергия", "desc": "Мы гонимся за мурашками. Если не трогает нас — дорабатываем." },
-      "story": { "title": "Story-driven", "desc": "Технологии служат истории. Всегда." }
+      "imagination": {
+        "title": "Воображение прежде всего",
+        "desc": "Каждый проект начинается с смелой идеи и чистого холста."
+      },
+      "craft": {
+        "title": "Одержимость craft",
+        "desc": "Кадр за кадром, пиксель за пикселем — качество не обсуждается."
+      },
+      "energy": {
+        "title": "Кинематографичная энергия",
+        "desc": "Мы гонимся за мурашками. Если не трогает нас — дорабатываем."
+      },
+      "story": {
+        "title": "Story-driven",
+        "desc": "Технологии служат истории. Всегда."
+      }
     },
     "stats": {
       "projects": "Завершённых проектов",
@@ -209,12 +272,36 @@
     "title2": "ФОЛИО",
     "subtitle": "Взгляд на миры, персонажей и истории, которые мы помогли оживить.",
     "projects": {
-      "trailer": { "tag": "Кинематографичный трейлер", "title": "Iron Sentinel", "desc": "Launch-трейлер AAA-игры." },
-      "character": { "tag": "Character design", "title": "Nova Vanguard", "desc": "Character sheet героя." },
-      "game": { "tag": "Game art", "title": "Lumen Worlds", "desc": "Environment art open world." },
-      "2d": { "tag": "2D-анимация", "title": "Neon Skyline", "desc": "Пилотный эпизод в anime-стиле." },
-      "creature": { "tag": "Creature design", "title": "Crystal Wyrm", "desc": "Concept boss-существа." },
-      "motion": { "tag": "Motion graphics", "title": "Pulse Identity", "desc": "Motion-система бренда." }
+      "trailer": {
+        "tag": "Кинематографичный трейлер",
+        "title": "Iron Sentinel",
+        "desc": "Launch-трейлер AAA-игры."
+      },
+      "character": {
+        "tag": "Character design",
+        "title": "Nova Vanguard",
+        "desc": "Character sheet героя."
+      },
+      "game": {
+        "tag": "Game art",
+        "title": "Lumen Worlds",
+        "desc": "Environment art open world."
+      },
+      "2d": {
+        "tag": "2D-анимация",
+        "title": "Neon Skyline",
+        "desc": "Пилотный эпизод в anime-стиле."
+      },
+      "creature": {
+        "tag": "Creature design",
+        "title": "Crystal Wyrm",
+        "desc": "Concept boss-существа."
+      },
+      "motion": {
+        "tag": "Motion graphics",
+        "title": "Pulse Identity",
+        "desc": "Motion-система бренда."
+      }
     }
   },
   "blogPage": {

@@ -68,18 +68,48 @@
     "ctaTitle1": "협업할",
     "ctaTitle2": "준비가 되셨나요?",
     "services": {
-      "01": { "title": "애니메이션 & VFX", "desc": "게임과 영화를 위한 시네마틱 2D & 3D 애니메이션, 캐릭터 리그, 시각 효과." },
-      "02": { "title": "게임 개발", "desc": "풀사이클 프로덕션 — 컨셉, 아트, 코드, 오디오, 출시." },
-      "03": { "title": "컨셉 & 캐릭터 아트", "desc": "IP를 뿌리내리게 하는 오리지널 캐릭터, 크리처, 환경, 소품." },
-      "04": { "title": "시네마틱 트레일러", "desc": "게임과 프랜차이즈 출시를 위해 제작된 스토리 중심 트레일러." }
+      "01": {
+        "title": "애니메이션 & VFX",
+        "desc": "게임과 영화를 위한 시네마틱 2D & 3D 애니메이션, 캐릭터 리그, 시각 효과."
+      },
+      "02": {
+        "title": "게임 개발",
+        "desc": "풀사이클 프로덕션 — 컨셉, 아트, 코드, 오디오, 출시."
+      },
+      "03": {
+        "title": "컨셉 & 캐릭터 아트",
+        "desc": "IP를 뿌리내리게 하는 오리지널 캐릭터, 크리처, 환경, 소품."
+      },
+      "04": {
+        "title": "시네마틱 트레일러",
+        "desc": "게임과 프랜차이즈 출시를 위해 제작된 스토리 중심 트레일러."
+      }
     },
     "showcase": {
-      "character": { "tag": "캐릭터", "title": "Nova Vanguard" },
-      "gameArt": { "tag": "게임 아트", "title": "Lumen Worlds" },
-      "animation2d": { "tag": "2D 애니메이션", "title": "Neon Skyline" },
-      "cinematic": { "tag": "시네마틱", "title": "Iron Sentinel" },
-      "creature": { "tag": "크리처", "title": "Abyss Drake" },
-      "motion": { "tag": "모션", "title": "Pulse" }
+      "character": {
+        "tag": "3D Animation",
+        "title": "3D Animation"
+      },
+      "gameArt": {
+        "tag": "Game Environment",
+        "title": "Game Environment"
+      },
+      "animation2d": {
+        "tag": "Game Environment",
+        "title": "Game Environment"
+      },
+      "cinematic": {
+        "tag": "VFX",
+        "title": "VFX"
+      },
+      "creature": {
+        "tag": "3D",
+        "title": "Industrial Animation"
+      },
+      "motion": {
+        "tag": "3D",
+        "title": "Product Animation"
+      }
     }
   },
   "trustedBy": {
@@ -138,13 +168,34 @@
     "ctaDesc": "비전을 알려주세요 — 우리가 화력을 더하겠습니다.",
     "ctaButton": "문의하기",
     "items": {
-      "2d": { "title": "2D 애니메이션", "desc": "시리즈, 단편, 설명 영상, 게임을 위한 프레임별 & 리그 2D. 클래식 장인정신과 디지털 파이프라인을 결합합니다." },
-      "3d": { "title": "3D 애니메이션", "desc": "스타일라이즈드 및 포토리얼 3D — 캐릭터, 환경, 피처 퀄리티의 완성도를 갖춘 풀 시네마틱 시퀀스." },
-      "game": { "title": "게임 개발", "desc": "엔드투엔드 게임 프로덕션: 컨셉, 아트, 코드, 오디오, 런치. Unreal, Unity, 커스텀 파이프라인." },
-      "character": { "title": "캐릭터 디자인", "desc": "IP와 머천다이즈 잠재력을 뿌리내리게 하는 오리지널 캐릭터, 크리처, 컨셉 아트." },
-      "motion": { "title": "모션 그래픽", "desc": "브랜드 모션, UI 애니메이션, 방송 패키지, 시네마틱 터치가 더해진 설명 영상." },
-      "vfx": { "title": "시각 효과 (VFX)", "desc": "게임, 영화, 디지털 캠페인을 위한 컴포지팅, 파티클 FX, CG 통합." },
-      "trailer": { "title": "시네마틱 트레일러", "desc": "게임, IP, 브랜드를 최대 임팩트로 출시하기 위해 제작된 스토리 중심 트레일러." }
+      "2d": {
+        "title": "2D 애니메이션",
+        "desc": "시리즈, 단편, 설명 영상, 게임을 위한 프레임별 & 리그 2D. 클래식 장인정신과 디지털 파이프라인을 결합합니다."
+      },
+      "3d": {
+        "title": "3D 애니메이션",
+        "desc": "스타일라이즈드 및 포토리얼 3D — 캐릭터, 환경, 피처 퀄리티의 완성도를 갖춘 풀 시네마틱 시퀀스."
+      },
+      "game": {
+        "title": "게임 개발",
+        "desc": "엔드투엔드 게임 프로덕션: 컨셉, 아트, 코드, 오디오, 런치. Unreal, Unity, 커스텀 파이프라인."
+      },
+      "character": {
+        "title": "캐릭터 디자인",
+        "desc": "IP와 머천다이즈 잠재력을 뿌리내리게 하는 오리지널 캐릭터, 크리처, 컨셉 아트."
+      },
+      "motion": {
+        "title": "모션 그래픽",
+        "desc": "브랜드 모션, UI 애니메이션, 방송 패키지, 시네마틱 터치가 더해진 설명 영상."
+      },
+      "vfx": {
+        "title": "시각 효과 (VFX)",
+        "desc": "게임, 영화, 디지털 캠페인을 위한 컴포지팅, 파티클 FX, CG 통합."
+      },
+      "trailer": {
+        "title": "시네마틱 트레일러",
+        "desc": "게임, IP, 브랜드를 최대 임팩트로 출시하기 위해 제작된 스토리 중심 트레일러."
+      }
     }
   },
   "aboutPage": {
@@ -159,10 +210,22 @@
     "valuesLabel": "핵심 가치",
     "valuesTitle": "우리를 움직이는 것",
     "values": {
-      "imagination": { "title": "상상력 우선", "desc": "모든 프로젝트는 대담한 아이디어와 빈 캔버스에서 시작됩니다." },
-      "craft": { "title": "장인정신 집착", "desc": "프레임 하나, 픽셀 하나 — 퀄리티는 타협할 수 없습니다." },
-      "energy": { "title": "시네마틱 에너지", "desc": "소름돋는 순간을 추구합니다. 감동이 없으면 다듬습니다." },
-      "story": { "title": "스토리 중심", "desc": "기술은 항상 스토리를 위해 존재합니다." }
+      "imagination": {
+        "title": "상상력 우선",
+        "desc": "모든 프로젝트는 대담한 아이디어와 빈 캔버스에서 시작됩니다."
+      },
+      "craft": {
+        "title": "장인정신 집착",
+        "desc": "프레임 하나, 픽셀 하나 — 퀄리티는 타협할 수 없습니다."
+      },
+      "energy": {
+        "title": "시네마틱 에너지",
+        "desc": "소름돋는 순간을 추구합니다. 감동이 없으면 다듬습니다."
+      },
+      "story": {
+        "title": "스토리 중심",
+        "desc": "기술은 항상 스토리를 위해 존재합니다."
+      }
     },
     "stats": {
       "projects": "완료 프로젝트",
@@ -209,12 +272,36 @@
     "title2": "폴리오",
     "subtitle": "우리가 함께 생명을 불어넣은 세계, 캐릭터, 스토리의 한눈에 보기.",
     "projects": {
-      "trailer": { "tag": "시네마틱 트레일러", "title": "Iron Sentinel", "desc": "AAA 게임 런치 트레일러." },
-      "character": { "tag": "캐릭터 디자인", "title": "Nova Vanguard", "desc": "히어로 주인공 시트." },
-      "game": { "tag": "게임 아트", "title": "Lumen Worlds", "desc": "오픈월드 환경 아트." },
-      "2d": { "tag": "2D 애니메이션", "title": "Neon Skyline", "desc": "애니메이션 영감 파일럿 에피소드." },
-      "creature": { "tag": "크리처 디자인", "title": "Crystal Wyrm", "desc": "보스 크리처 컨셉." },
-      "motion": { "tag": "모션 그래픽", "title": "Pulse Identity", "desc": "브랜드 모션 시스템." }
+      "trailer": {
+        "tag": "시네마틱 트레일러",
+        "title": "Iron Sentinel",
+        "desc": "AAA 게임 런치 트레일러."
+      },
+      "character": {
+        "tag": "캐릭터 디자인",
+        "title": "Nova Vanguard",
+        "desc": "히어로 주인공 시트."
+      },
+      "game": {
+        "tag": "게임 아트",
+        "title": "Lumen Worlds",
+        "desc": "오픈월드 환경 아트."
+      },
+      "2d": {
+        "tag": "2D 애니메이션",
+        "title": "Neon Skyline",
+        "desc": "애니메이션 영감 파일럿 에피소드."
+      },
+      "creature": {
+        "tag": "크리처 디자인",
+        "title": "Crystal Wyrm",
+        "desc": "보스 크리처 컨셉."
+      },
+      "motion": {
+        "tag": "모션 그래픽",
+        "title": "Pulse Identity",
+        "desc": "브랜드 모션 시스템."
+      }
     }
   },
   "blogPage": {

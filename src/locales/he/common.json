@@ -68,18 +68,48 @@
     "ctaTitle1": "מוכנים",
     "ctaTitle2": "לשיתוף פעולה?",
     "services": {
-      "01": { "title": "אנימציה & VFX", "desc": "אנימציה קולנועית 2D & 3D, rigging לדמויות ואפקטים ויזואליים למשחקים ולסרטים." },
-      "02": { "title": "פיתוח משחקים", "desc": "הפקה מלאה — קונסепט, ארט, קוד, אודיו, שחרור." },
-      "03": { "title": "קונסепט & Character Art", "desc": "דמויות מקוריות, יצורים, סביבות ואביזרים שמעגנים את ה-IP שלכם." },
-      "04": { "title": "טрейלרים קולנועיים", "desc": "טрейלers מונחי סיפור שנועדו להשיק משחקים ו-franchises." }
+      "01": {
+        "title": "אנימציה & VFX",
+        "desc": "אנימציה קולנועית 2D & 3D, rigging לדמויות ואפקטים ויזואליים למשחקים ולסרטים."
+      },
+      "02": {
+        "title": "פיתוח משחקים",
+        "desc": "הפקה מלאה — קונסепט, ארט, קוד, אודיו, שחרור."
+      },
+      "03": {
+        "title": "קונסепט & Character Art",
+        "desc": "דמויות מקוריות, יצורים, סביבות ואביזרים שמעגנים את ה-IP שלכם."
+      },
+      "04": {
+        "title": "טрейלרים קולנועיים",
+        "desc": "טрейלers מונחי סיפור שנועדו להשיק משחקים ו-franchises."
+      }
     },
     "showcase": {
-      "character": { "tag": "דמות", "title": "Nova Vanguard" },
-      "gameArt": { "tag": "Game Art", "title": "Lumen Worlds" },
-      "animation2d": { "tag": "אנימציה 2D", "title": "Neon Skyline" },
-      "cinematic": { "tag": "קולנועי", "title": "Iron Sentinel" },
-      "creature": { "tag": "יצור", "title": "Abyss Drake" },
-      "motion": { "tag": "Motion", "title": "Pulse" }
+      "character": {
+        "tag": "3D Animation",
+        "title": "3D Animation"
+      },
+      "gameArt": {
+        "tag": "Game Environment",
+        "title": "Game Environment"
+      },
+      "animation2d": {
+        "tag": "Game Environment",
+        "title": "Game Environment"
+      },
+      "cinematic": {
+        "tag": "VFX",
+        "title": "VFX"
+      },
+      "creature": {
+        "tag": "3D",
+        "title": "Industrial Animation"
+      },
+      "motion": {
+        "tag": "3D",
+        "title": "Product Animation"
+      }
     }
   },
   "trustedBy": {
@@ -138,13 +168,34 @@
     "ctaDesc": "ספרו לנו את החזון — אנחנו מביאים את העוצמה.",
     "ctaButton": "צרו קשר",
     "items": {
-      "2d": { "title": "אנימציה 2D", "desc": "2D frame-by-frame ו-rigged לסדרות, שורטים, explainers ומשחקים. שילוב של craft קלאסי עם pipelines דיגיטליים." },
-      "3d": { "title": "אנימציה 3D", "desc": "3D stylized ו-phoreal — דמויות, סביבות ורצפי סצנות קולנועיים מלאים עם polish ברמת feature." },
-      "game": { "title": "פיתוח משחקים", "desc": "הפקת משחקים end-to-end: קונסепט, ארט, קוד, אודיו והשקה. Unreal, Unity ו-pipelines מותאמים." },
-      "character": { "title": "Character Design", "desc": "דמויות מקוריות, יצורים ו-concept art שמעגנים את ה-IP ופוטנציאל ה-merch שלכם." },
-      "motion": { "title": "Motion Graphics", "desc": "Motion למותג, אנימציית UI, חבילות broadcast וסרטוני explainer עם polish קולנועי." },
-      "vfx": { "title": "Visual Effects (VFX)", "desc": "Compositing, particle FX ואינטגרציית CG למשחקים, סרטים וקמפיינים דיגיטליים." },
-      "trailer": { "title": "טрейלרים קולנועיים", "desc": "טрейלers מונחי סיפור להשקת משחקים, IPs ומותגים עם השפעה מקסימלית." }
+      "2d": {
+        "title": "אנימציה 2D",
+        "desc": "2D frame-by-frame ו-rigged לסדרות, שורטים, explainers ומשחקים. שילוב של craft קלאסי עם pipelines דיגיטליים."
+      },
+      "3d": {
+        "title": "אנימציה 3D",
+        "desc": "3D stylized ו-phoreal — דמויות, סביבות ורצפי סצנות קולנועיים מלאים עם polish ברמת feature."
+      },
+      "game": {
+        "title": "פיתוח משחקים",
+        "desc": "הפקת משחקים end-to-end: קונסепט, ארט, קוד, אודיו והשקה. Unreal, Unity ו-pipelines מותאמים."
+      },
+      "character": {
+        "title": "Character Design",
+        "desc": "דמויות מקוריות, יצורים ו-concept art שמעגנים את ה-IP ופוטנציאל ה-merch שלכם."
+      },
+      "motion": {
+        "title": "Motion Graphics",
+        "desc": "Motion למותג, אנימציית UI, חבילות broadcast וסרטוני explainer עם polish קולנועי."
+      },
+      "vfx": {
+        "title": "Visual Effects (VFX)",
+        "desc": "Compositing, particle FX ואינטגרציית CG למשחקים, סרטים וקמפיינים דיגיטליים."
+      },
+      "trailer": {
+        "title": "טрейלרים קולנועיים",
+        "desc": "טрейלers מונחי סיפור להשקת משחקים, IPs ומותגים עם השפעה מקסימלית."
+      }
     }
   },
   "aboutPage": {
@@ -159,10 +210,22 @@
     "valuesLabel": "ערכי ליבה",
     "valuesTitle": "מה מניע אותנו",
     "values": {
-      "imagination": { "title": "דמיון קודם", "desc": "כל פרויקט מתחיל ברעיון נועז ובדף לבן." },
-      "craft": { "title": "אובססיה ל-craft", "desc": "פריים אחר פריים, פיקסל אחר פיקסל — איכות לא ניתנת למשא ומתן." },
-      "energy": { "title": "אנרגיה קולנועית", "desc": "אנחנו רודפים אחרי goosebumps. אם זה לא נוגע בנו, אנחנו מחדדים." },
-      "story": { "title": "מונחה סיפור", "desc": "טכנולוגיה משרתת סיפור. תמיד." }
+      "imagination": {
+        "title": "דמיון קודם",
+        "desc": "כל פרויקט מתחיל ברעיון נועז ובדף לבן."
+      },
+      "craft": {
+        "title": "אובססיה ל-craft",
+        "desc": "פריים אחר פריים, פיקסל אחר פיקסל — איכות לא ניתנת למשא ומתן."
+      },
+      "energy": {
+        "title": "אנרגיה קולנועית",
+        "desc": "אנחנו רודפים אחרי goosebumps. אם זה לא נוגע בנו, אנחנו מחדדים."
+      },
+      "story": {
+        "title": "מונחה סיפור",
+        "desc": "טכנולוגיה משרתת סיפור. תמיד."
+      }
     },
     "stats": {
       "projects": "פרויקטים שהושקו",
@@ -209,12 +272,36 @@
     "title2": "FOLIO",
     "subtitle": "מבט לעולמות, דמויות וסיפורים שעזרנו להעניק להם חיים.",
     "projects": {
-      "trailer": { "tag": "טрейлер קולנועי", "title": "Iron Sentinel", "desc": "טрейлер השקה למשחק AAA." },
-      "character": { "tag": "Character Design", "title": "Nova Vanguard", "desc": "גיליון גיבור ראשי." },
-      "game": { "tag": "Game Art", "title": "Lumen Worlds", "desc": "Environment art ל-open-world." },
-      "2d": { "tag": "אנימציה 2D", "title": "Neon Skyline", "desc": "פרק פיילוט בהשראת אנימה." },
-      "creature": { "tag": "Creature Design", "title": "Crystal Wyrm", "desc": "קונסепט ל-boss creature." },
-      "motion": { "tag": "Motion Graphics", "title": "Pulse Identity", "desc": "מערכת motion למותג." }
+      "trailer": {
+        "tag": "טрейлер קולנועי",
+        "title": "Iron Sentinel",
+        "desc": "טрейлер השקה למשחק AAA."
+      },
+      "character": {
+        "tag": "Character Design",
+        "title": "Nova Vanguard",
+        "desc": "גיליון גיבור ראשי."
+      },
+      "game": {
+        "tag": "Game Art",
+        "title": "Lumen Worlds",
+        "desc": "Environment art ל-open-world."
+      },
+      "2d": {
+        "tag": "אנימציה 2D",
+        "title": "Neon Skyline",
+        "desc": "פרק פיילוט בהשראת אנימה."
+      },
+      "creature": {
+        "tag": "Creature Design",
+        "title": "Crystal Wyrm",
+        "desc": "קונסепט ל-boss creature."
+      },
+      "motion": {
+        "tag": "Motion Graphics",
+        "title": "Pulse Identity",
+        "desc": "מערכת motion למותג."
+      }
     }
   },
   "blogPage": {

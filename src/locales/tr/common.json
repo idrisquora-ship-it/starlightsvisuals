@@ -68,18 +68,48 @@
     "ctaTitle1": "İŞ BİRLİĞİNE",
     "ctaTitle2": "HAZIR MISINIZ?",
     "services": {
-      "01": { "title": "Animasyon ve VFX", "desc": "Oyunlar ve filmler için sinematik 2D ve 3D animasyon, karakter rig'leri ve görsel efektler." },
-      "02": { "title": "Oyun geliştirme", "desc": "Tam döngü üretim — konsept, sanat, kod, ses, yayın." },
-      "03": { "title": "Konsept ve karakter sanatı", "desc": "IP'nizi güçlendiren özgün karakterler, yaratıklar, ortamlar ve aksesuarlar." },
-      "04": { "title": "Sinematik fragmanlar", "desc": "Oyunları ve markaları lansmana taşıyan hikâye odaklı fragmanlar." }
+      "01": {
+        "title": "Animasyon ve VFX",
+        "desc": "Oyunlar ve filmler için sinematik 2D ve 3D animasyon, karakter rig'leri ve görsel efektler."
+      },
+      "02": {
+        "title": "Oyun geliştirme",
+        "desc": "Tam döngü üretim — konsept, sanat, kod, ses, yayın."
+      },
+      "03": {
+        "title": "Konsept ve karakter sanatı",
+        "desc": "IP'nizi güçlendiren özgün karakterler, yaratıklar, ortamlar ve aksesuarlar."
+      },
+      "04": {
+        "title": "Sinematik fragmanlar",
+        "desc": "Oyunları ve markaları lansmana taşıyan hikâye odaklı fragmanlar."
+      }
     },
     "showcase": {
-      "character": { "tag": "Karakter", "title": "Nova Vanguard" },
-      "gameArt": { "tag": "Oyun sanatı", "title": "Lumen Worlds" },
-      "animation2d": { "tag": "2D animasyon", "title": "Neon Skyline" },
-      "cinematic": { "tag": "Sinematik", "title": "Iron Sentinel" },
-      "creature": { "tag": "Yaratık", "title": "Abyss Drake" },
-      "motion": { "tag": "Motion", "title": "Pulse" }
+      "character": {
+        "tag": "3D Animation",
+        "title": "3D Animation"
+      },
+      "gameArt": {
+        "tag": "Game Environment",
+        "title": "Game Environment"
+      },
+      "animation2d": {
+        "tag": "Game Environment",
+        "title": "Game Environment"
+      },
+      "cinematic": {
+        "tag": "VFX",
+        "title": "VFX"
+      },
+      "creature": {
+        "tag": "3D",
+        "title": "Industrial Animation"
+      },
+      "motion": {
+        "tag": "3D",
+        "title": "Product Animation"
+      }
     }
   },
   "trustedBy": {
@@ -138,13 +168,34 @@
     "ctaDesc": "Vizyonunuzu anlatın — gücü biz getirelim.",
     "ctaButton": "İletişime geç",
     "items": {
-      "2d": { "title": "2D animasyon", "desc": "Diziler, kısa filmler, açıklayıcılar ve oyunlar için kare kare ve rig'li 2D. Klasik ustalığı dijital pipeline'larla birleştiriyoruz." },
-      "3d": { "title": "3D animasyon", "desc": "Stilize ve fotogerçekçi 3D — karakterler, ortamlar ve feature kalitesinde cilalı tam sinematik sekanslar." },
-      "game": { "title": "Oyun geliştirme", "desc": "Uçtan uca oyun üretimi: konsept, sanat, kod, ses ve lansman. Unreal, Unity ve özel pipeline'lar." },
-      "character": { "title": "Karakter tasarımı", "desc": "IP'nizi ve merchandising potansiyelinizi güçlendiren özgün karakterler, yaratıklar ve konsept sanatı." },
-      "motion": { "title": "Motion graphics", "desc": "Markalı motion, UI animasyonu, yayın paketleri ve sinematik cilalı açıklayıcı videolar." },
-      "vfx": { "title": "Görsel efektler (VFX)", "desc": "Oyunlar, film ve dijital kampanyalar için compositing, particle FX ve CG entegrasyonu." },
-      "trailer": { "title": "Sinematik fragmanlar", "desc": "Oyunları, IP'leri ve markaları maksimum etkiyle lansmana taşıyan hikâye odaklı fragmanlar." }
+      "2d": {
+        "title": "2D animasyon",
+        "desc": "Diziler, kısa filmler, açıklayıcılar ve oyunlar için kare kare ve rig'li 2D. Klasik ustalığı dijital pipeline'larla birleştiriyoruz."
+      },
+      "3d": {
+        "title": "3D animasyon",
+        "desc": "Stilize ve fotogerçekçi 3D — karakterler, ortamlar ve feature kalitesinde cilalı tam sinematik sekanslar."
+      },
+      "game": {
+        "title": "Oyun geliştirme",
+        "desc": "Uçtan uca oyun üretimi: konsept, sanat, kod, ses ve lansman. Unreal, Unity ve özel pipeline'lar."
+      },
+      "character": {
+        "title": "Karakter tasarımı",
+        "desc": "IP'nizi ve merchandising potansiyelinizi güçlendiren özgün karakterler, yaratıklar ve konsept sanatı."
+      },
+      "motion": {
+        "title": "Motion graphics",
+        "desc": "Markalı motion, UI animasyonu, yayın paketleri ve sinematik cilalı açıklayıcı videolar."
+      },
+      "vfx": {
+        "title": "Görsel efektler (VFX)",
+        "desc": "Oyunlar, film ve dijital kampanyalar için compositing, particle FX ve CG entegrasyonu."
+      },
+      "trailer": {
+        "title": "Sinematik fragmanlar",
+        "desc": "Oyunları, IP'leri ve markaları maksimum etkiyle lansmana taşıyan hikâye odaklı fragmanlar."
+      }
     }
   },
   "aboutPage": {
@@ -159,10 +210,22 @@
     "valuesLabel": "Temel değerler",
     "valuesTitle": "BİZİ NE SÜRÜKLÜYOR",
     "values": {
-      "imagination": { "title": "Önce hayal gücü", "desc": "Her proje cesur bir fikir ve boş bir tuvalle başlar." },
-      "craft": { "title": "Ustalık takıntısı", "desc": "Kare kare, piksel piksel — kalite pazarlık konusu değildir." },
-      "energy": { "title": "Sinematik enerji", "desc": "Tüylerimizi diken diken edeni kovalıyoruz. Bizi hareket ettirmiyorsa rafine ediyoruz." },
-      "story": { "title": "Hikâye odaklı", "desc": "Teknoloji hikâyeye hizmet eder. Her zaman." }
+      "imagination": {
+        "title": "Önce hayal gücü",
+        "desc": "Her proje cesur bir fikir ve boş bir tuvalle başlar."
+      },
+      "craft": {
+        "title": "Ustalık takıntısı",
+        "desc": "Kare kare, piksel piksel — kalite pazarlık konusu değildir."
+      },
+      "energy": {
+        "title": "Sinematik enerji",
+        "desc": "Tüylerimizi diken diken edeni kovalıyoruz. Bizi hareket ettirmiyorsa rafine ediyoruz."
+      },
+      "story": {
+        "title": "Hikâye odaklı",
+        "desc": "Teknoloji hikâyeye hizmet eder. Her zaman."
+      }
     },
     "stats": {
       "projects": "Teslim edilen proje",
@@ -209,12 +272,36 @@
     "title2": "FOLYO",
     "subtitle": "Hayata geçirmemize yardımcı olduğumuz dünyalara, karakterlere ve hikâyelere bir bakış.",
     "projects": {
-      "trailer": { "tag": "Sinematik fragman", "title": "Iron Sentinel", "desc": "AAA oyun lansman fragmanı." },
-      "character": { "tag": "Karakter tasarımı", "title": "Nova Vanguard", "desc": "Kahraman protagonist sayfası." },
-      "game": { "tag": "Oyun sanatı", "title": "Lumen Worlds", "desc": "Açık dünya ortam sanatı." },
-      "2d": { "tag": "2D animasyon", "title": "Neon Skyline", "desc": "Anime esintili pilot bölüm." },
-      "creature": { "tag": "Yaratık tasarımı", "title": "Crystal Wyrm", "desc": "Boss yaratık konsepti." },
-      "motion": { "tag": "Motion graphics", "title": "Pulse Identity", "desc": "Marka motion sistemi." }
+      "trailer": {
+        "tag": "Sinematik fragman",
+        "title": "Iron Sentinel",
+        "desc": "AAA oyun lansman fragmanı."
+      },
+      "character": {
+        "tag": "Karakter tasarımı",
+        "title": "Nova Vanguard",
+        "desc": "Kahraman protagonist sayfası."
+      },
+      "game": {
+        "tag": "Oyun sanatı",
+        "title": "Lumen Worlds",
+        "desc": "Açık dünya ortam sanatı."
+      },
+      "2d": {
+        "tag": "2D animasyon",
+        "title": "Neon Skyline",
+        "desc": "Anime esintili pilot bölüm."
+      },
+      "creature": {
+        "tag": "Yaratık tasarımı",
+        "title": "Crystal Wyrm",
+        "desc": "Boss yaratık konsepti."
+      },
+      "motion": {
+        "tag": "Motion graphics",
+        "title": "Pulse Identity",
+        "desc": "Marka motion sistemi."
+      }
     }
   },
   "blogPage": {

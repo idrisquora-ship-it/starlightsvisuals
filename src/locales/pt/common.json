@@ -68,18 +68,48 @@
     "ctaTitle1": "PRONTO PARA",
     "ctaTitle2": "COLABORAR?",
     "services": {
-      "01": { "title": "Animação & VFX", "desc": "Animação cinematográfica 2D e 3D, rigs de personagens e efeitos visuais para jogos e filmes." },
-      "02": { "title": "Desenvolvimento de Jogos", "desc": "Produção completa — conceito, arte, código, áudio, lançamento." },
-      "03": { "title": "Concept & Character Art", "desc": "Personagens, criaturas, ambientes e props originais que ancoram sua IP." },
-      "04": { "title": "Trailers Cinematográficos", "desc": "Trailers orientados por narrativa, criados para lançar jogos e franquias." }
+      "01": {
+        "title": "Animação & VFX",
+        "desc": "Animação cinematográfica 2D e 3D, rigs de personagens e efeitos visuais para jogos e filmes."
+      },
+      "02": {
+        "title": "Desenvolvimento de Jogos",
+        "desc": "Produção completa — conceito, arte, código, áudio, lançamento."
+      },
+      "03": {
+        "title": "Concept & Character Art",
+        "desc": "Personagens, criaturas, ambientes e props originais que ancoram sua IP."
+      },
+      "04": {
+        "title": "Trailers Cinematográficos",
+        "desc": "Trailers orientados por narrativa, criados para lançar jogos e franquias."
+      }
     },
     "showcase": {
-      "character": { "tag": "Personagem", "title": "Nova Vanguard" },
-      "gameArt": { "tag": "Game Art", "title": "Lumen Worlds" },
-      "animation2d": { "tag": "Animação 2D", "title": "Neon Skyline" },
-      "cinematic": { "tag": "Cinematográfico", "title": "Iron Sentinel" },
-      "creature": { "tag": "Criatura", "title": "Abyss Drake" },
-      "motion": { "tag": "Motion", "title": "Pulse" }
+      "character": {
+        "tag": "3D Animation",
+        "title": "3D Animation"
+      },
+      "gameArt": {
+        "tag": "Game Environment",
+        "title": "Game Environment"
+      },
+      "animation2d": {
+        "tag": "Game Environment",
+        "title": "Game Environment"
+      },
+      "cinematic": {
+        "tag": "VFX",
+        "title": "VFX"
+      },
+      "creature": {
+        "tag": "3D",
+        "title": "Industrial Animation"
+      },
+      "motion": {
+        "tag": "3D",
+        "title": "Product Animation"
+      }
     }
   },
   "trustedBy": {
@@ -138,13 +168,34 @@
     "ctaDesc": "Conte sua visão — nós traremos a potência criativa.",
     "ctaButton": "Entre em Contato",
     "items": {
-      "2d": { "title": "Animação 2D", "desc": "Frame a frame e 2D com rig para séries, curtas, explainers e jogos. Combinamos craft clássico com pipelines digitais." },
-      "3d": { "title": "Animação 3D", "desc": "3D estilizado e fotorrealista — personagens, ambientes e sequências cinematográficas completas com acabamento de qualidade cinematográfica." },
-      "game": { "title": "Desenvolvimento de Jogos", "desc": "Produção de jogos de ponta a ponta: conceito, arte, código, áudio e lançamento. Unreal, Unity e pipelines customizados." },
-      "character": { "title": "Design de Personagens", "desc": "Personagens, criaturas e concept art originais que ancoram sua IP e potencial de merchandising." },
-      "motion": { "title": "Motion Graphics", "desc": "Motion de marca, animação de UI, pacotes de broadcast e vídeos explicativos com acabamento cinematográfico." },
-      "vfx": { "title": "Efeitos Visuais (VFX)", "desc": "Compositing, FX de partículas e integração CG para jogos, filmes e campanhas digitais." },
-      "trailer": { "title": "Trailers Cinematográficos", "desc": "Trailers orientados por narrativa, criados para lançar jogos, IPs e marcas com impacto máximo." }
+      "2d": {
+        "title": "Animação 2D",
+        "desc": "Frame a frame e 2D com rig para séries, curtas, explainers e jogos. Combinamos craft clássico com pipelines digitais."
+      },
+      "3d": {
+        "title": "Animação 3D",
+        "desc": "3D estilizado e fotorrealista — personagens, ambientes e sequências cinematográficas completas com acabamento de qualidade cinematográfica."
+      },
+      "game": {
+        "title": "Desenvolvimento de Jogos",
+        "desc": "Produção de jogos de ponta a ponta: conceito, arte, código, áudio e lançamento. Unreal, Unity e pipelines customizados."
+      },
+      "character": {
+        "title": "Design de Personagens",
+        "desc": "Personagens, criaturas e concept art originais que ancoram sua IP e potencial de merchandising."
+      },
+      "motion": {
+        "title": "Motion Graphics",
+        "desc": "Motion de marca, animação de UI, pacotes de broadcast e vídeos explicativos com acabamento cinematográfico."
+      },
+      "vfx": {
+        "title": "Efeitos Visuais (VFX)",
+        "desc": "Compositing, FX de partículas e integração CG para jogos, filmes e campanhas digitais."
+      },
+      "trailer": {
+        "title": "Trailers Cinematográficos",
+        "desc": "Trailers orientados por narrativa, criados para lançar jogos, IPs e marcas com impacto máximo."
+      }
     }
   },
   "aboutPage": {
@@ -159,10 +210,22 @@
     "valuesLabel": "Valores Fundamentais",
     "valuesTitle": "O QUE NOS MOVE",
     "values": {
-      "imagination": { "title": "Imaginação em Primeiro Lugar", "desc": "Todo projeto começa com uma ideia ousada e uma tela em branco." },
-      "craft": { "title": "Obcecados por Craft", "desc": "Frame a frame, pixel a pixel — qualidade não é negociável." },
-      "energy": { "title": "Energia Cinematográfica", "desc": "Perseguimos os arrepios. Se não nos emociona, refinamos." },
-      "story": { "title": "Orientados por História", "desc": "A tecnologia serve à história. Sempre." }
+      "imagination": {
+        "title": "Imaginação em Primeiro Lugar",
+        "desc": "Todo projeto começa com uma ideia ousada e uma tela em branco."
+      },
+      "craft": {
+        "title": "Obcecados por Craft",
+        "desc": "Frame a frame, pixel a pixel — qualidade não é negociável."
+      },
+      "energy": {
+        "title": "Energia Cinematográfica",
+        "desc": "Perseguimos os arrepios. Se não nos emociona, refinamos."
+      },
+      "story": {
+        "title": "Orientados por História",
+        "desc": "A tecnologia serve à história. Sempre."
+      }
     },
     "stats": {
       "projects": "Projetos Entregues",
@@ -209,12 +272,36 @@
     "title2": "FÓLIO",
     "subtitle": "Um vislumbre dos mundos, personagens e histórias que ajudamos a dar vida.",
     "projects": {
-      "trailer": { "tag": "Trailer Cinematográfico", "title": "Iron Sentinel", "desc": "Trailer de lançamento de jogo AAA." },
-      "character": { "tag": "Design de Personagens", "title": "Nova Vanguard", "desc": "Folha do protagonista heroico." },
-      "game": { "tag": "Game Art", "title": "Lumen Worlds", "desc": "Arte de ambiente de mundo aberto." },
-      "2d": { "tag": "Animação 2D", "title": "Neon Skyline", "desc": "Episódio piloto inspirado em anime." },
-      "creature": { "tag": "Design de Criaturas", "title": "Crystal Wyrm", "desc": "Conceito de criatura boss." },
-      "motion": { "tag": "Motion Graphics", "title": "Pulse Identity", "desc": "Sistema de motion de marca." }
+      "trailer": {
+        "tag": "Trailer Cinematográfico",
+        "title": "Iron Sentinel",
+        "desc": "Trailer de lançamento de jogo AAA."
+      },
+      "character": {
+        "tag": "Design de Personagens",
+        "title": "Nova Vanguard",
+        "desc": "Folha do protagonista heroico."
+      },
+      "game": {
+        "tag": "Game Art",
+        "title": "Lumen Worlds",
+        "desc": "Arte de ambiente de mundo aberto."
+      },
+      "2d": {
+        "tag": "Animação 2D",
+        "title": "Neon Skyline",
+        "desc": "Episódio piloto inspirado em anime."
+      },
+      "creature": {
+        "tag": "Design de Criaturas",
+        "title": "Crystal Wyrm",
+        "desc": "Conceito de criatura boss."
+      },
+      "motion": {
+        "tag": "Motion Graphics",
+        "title": "Pulse Identity",
+        "desc": "Sistema de motion de marca."
+      }
     }
   },
   "blogPage": {

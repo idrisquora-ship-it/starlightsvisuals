@@ -68,18 +68,48 @@
     "ctaTitle1": "SẴN SÀNG",
     "ctaTitle2": "HỢP TÁC?",
     "services": {
-      "01": { "title": "Hoạt hình & VFX", "desc": "Hoạt hình 2D & 3D điện ảnh, rig nhân vật và hiệu ứng hình ảnh cho game và phim." },
-      "02": { "title": "Phát triển Game", "desc": "Sản xuất full-cycle — concept, art, code, audio, phát hành." },
-      "03": { "title": "Concept & Character Art", "desc": "Nhân vật, sinh vật, môi trường và đạo cụ độc bản củng cố IP của bạn." },
-      "04": { "title": "Trailer Điện ảnh", "desc": "Trailer kể chuyện được thiết kế để ra mắt game và franchise." }
+      "01": {
+        "title": "Hoạt hình & VFX",
+        "desc": "Hoạt hình 2D & 3D điện ảnh, rig nhân vật và hiệu ứng hình ảnh cho game và phim."
+      },
+      "02": {
+        "title": "Phát triển Game",
+        "desc": "Sản xuất full-cycle — concept, art, code, audio, phát hành."
+      },
+      "03": {
+        "title": "Concept & Character Art",
+        "desc": "Nhân vật, sinh vật, môi trường và đạo cụ độc bản củng cố IP của bạn."
+      },
+      "04": {
+        "title": "Trailer Điện ảnh",
+        "desc": "Trailer kể chuyện được thiết kế để ra mắt game và franchise."
+      }
     },
     "showcase": {
-      "character": { "tag": "Nhân vật", "title": "Nova Vanguard" },
-      "gameArt": { "tag": "Game Art", "title": "Lumen Worlds" },
-      "animation2d": { "tag": "Hoạt hình 2D", "title": "Neon Skyline" },
-      "cinematic": { "tag": "Điện ảnh", "title": "Iron Sentinel" },
-      "creature": { "tag": "Sinh vật", "title": "Abyss Drake" },
-      "motion": { "tag": "Motion", "title": "Pulse" }
+      "character": {
+        "tag": "3D Animation",
+        "title": "3D Animation"
+      },
+      "gameArt": {
+        "tag": "Game Environment",
+        "title": "Game Environment"
+      },
+      "animation2d": {
+        "tag": "Game Environment",
+        "title": "Game Environment"
+      },
+      "cinematic": {
+        "tag": "VFX",
+        "title": "VFX"
+      },
+      "creature": {
+        "tag": "3D",
+        "title": "Industrial Animation"
+      },
+      "motion": {
+        "tag": "3D",
+        "title": "Product Animation"
+      }
     }
   },
   "trustedBy": {
@@ -138,13 +168,34 @@
     "ctaDesc": "Chia sẻ tầm nhìn — chúng tôi mang sức mạnh đến.",
     "ctaButton": "Liên hệ",
     "items": {
-      "2d": { "title": "Hoạt hình 2D", "desc": "2D frame-by-frame & rigged cho series, short, explainer và game. Kết hợp craft cổ điển với pipeline số." },
-      "3d": { "title": "Hoạt hình 3D", "desc": "3D stylized và photoreal — nhân vật, môi trường và chuỗi cảnh điện ảnh đầy đủ với polish chất lượng feature." },
-      "game": { "title": "Phát triển Game", "desc": "Sản xuất game end-to-end: concept, art, code, audio và ra mắt. Unreal, Unity và pipeline tùy chỉnh." },
-      "character": { "title": "Character Design", "desc": "Nhân vật, sinh vật và concept art độc bản củng cố IP và tiềm năng merch." },
-      "motion": { "title": "Motion Graphics", "desc": "Motion thương hiệu, animation UI, gói broadcast và video explainer với polish điện ảnh." },
-      "vfx": { "title": "Visual Effects (VFX)", "desc": "Compositing, particle FX và tích hợp CG cho game, phim và chiến dịch digital." },
-      "trailer": { "title": "Trailer Điện ảnh", "desc": "Trailer kể chuyện để ra mắt game, IP và thương hiệu với tác động tối đa." }
+      "2d": {
+        "title": "Hoạt hình 2D",
+        "desc": "2D frame-by-frame & rigged cho series, short, explainer và game. Kết hợp craft cổ điển với pipeline số."
+      },
+      "3d": {
+        "title": "Hoạt hình 3D",
+        "desc": "3D stylized và photoreal — nhân vật, môi trường và chuỗi cảnh điện ảnh đầy đủ với polish chất lượng feature."
+      },
+      "game": {
+        "title": "Phát triển Game",
+        "desc": "Sản xuất game end-to-end: concept, art, code, audio và ra mắt. Unreal, Unity và pipeline tùy chỉnh."
+      },
+      "character": {
+        "title": "Character Design",
+        "desc": "Nhân vật, sinh vật và concept art độc bản củng cố IP và tiềm năng merch."
+      },
+      "motion": {
+        "title": "Motion Graphics",
+        "desc": "Motion thương hiệu, animation UI, gói broadcast và video explainer với polish điện ảnh."
+      },
+      "vfx": {
+        "title": "Visual Effects (VFX)",
+        "desc": "Compositing, particle FX và tích hợp CG cho game, phim và chiến dịch digital."
+      },
+      "trailer": {
+        "title": "Trailer Điện ảnh",
+        "desc": "Trailer kể chuyện để ra mắt game, IP và thương hiệu với tác động tối đa."
+      }
     }
   },
   "aboutPage": {
@@ -159,10 +210,22 @@
     "valuesLabel": "Giá trị Cốt lõi",
     "valuesTitle": "ĐIỀU THÚC ĐẨY CHÚNG TÔI",
     "values": {
-      "imagination": { "title": "Trí tưởng tượng Trước tiên", "desc": "Mọi dự án bắt đầu từ ý tưởng táo bạo và tờ giấy trắng." },
-      "craft": { "title": "Ám ảnh Craft", "desc": "Frame by frame, pixel by pixel — chất lượng không thể thương lượng." },
-      "energy": { "title": "Năng lượng Điện ảnh", "desc": "Chúng tôi theo đuổi cảm giác nổi da gà. Nếu chưa chạm đến, chúng tôi refine." },
-      "story": { "title": "Hướng đến Câu chuyện", "desc": "Công nghệ phục vụ câu chuyện. Luôn luôn." }
+      "imagination": {
+        "title": "Trí tưởng tượng Trước tiên",
+        "desc": "Mọi dự án bắt đầu từ ý tưởng táo bạo và tờ giấy trắng."
+      },
+      "craft": {
+        "title": "Ám ảnh Craft",
+        "desc": "Frame by frame, pixel by pixel — chất lượng không thể thương lượng."
+      },
+      "energy": {
+        "title": "Năng lượng Điện ảnh",
+        "desc": "Chúng tôi theo đuổi cảm giác nổi da gà. Nếu chưa chạm đến, chúng tôi refine."
+      },
+      "story": {
+        "title": "Hướng đến Câu chuyện",
+        "desc": "Công nghệ phục vụ câu chuyện. Luôn luôn."
+      }
     },
     "stats": {
       "projects": "Dự án Đã bàn giao",
@@ -209,12 +272,36 @@
     "title2": "FOLIO",
     "subtitle": "Một cái nhìn vào thế giới, nhân vật và câu chuyện chúng tôi đã giúp thổi hồn.",
     "projects": {
-      "trailer": { "tag": "Trailer Điện ảnh", "title": "Iron Sentinel", "desc": "Trailer ra mắt game AAA." },
-      "character": { "tag": "Character Design", "title": "Nova Vanguard", "desc": "Sheet nhân vật chính." },
-      "game": { "tag": "Game Art", "title": "Lumen Worlds", "desc": "Environment art open-world." },
-      "2d": { "tag": "Hoạt hình 2D", "title": "Neon Skyline", "desc": "Tập pilot phong cách anime." },
-      "creature": { "tag": "Creature Design", "title": "Crystal Wyrm", "desc": "Concept boss creature." },
-      "motion": { "tag": "Motion Graphics", "title": "Pulse Identity", "desc": "Hệ thống motion thương hiệu." }
+      "trailer": {
+        "tag": "Trailer Điện ảnh",
+        "title": "Iron Sentinel",
+        "desc": "Trailer ra mắt game AAA."
+      },
+      "character": {
+        "tag": "Character Design",
+        "title": "Nova Vanguard",
+        "desc": "Sheet nhân vật chính."
+      },
+      "game": {
+        "tag": "Game Art",
+        "title": "Lumen Worlds",
+        "desc": "Environment art open-world."
+      },
+      "2d": {
+        "tag": "Hoạt hình 2D",
+        "title": "Neon Skyline",
+        "desc": "Tập pilot phong cách anime."
+      },
+      "creature": {
+        "tag": "Creature Design",
+        "title": "Crystal Wyrm",
+        "desc": "Concept boss creature."
+      },
+      "motion": {
+        "tag": "Motion Graphics",
+        "title": "Pulse Identity",
+        "desc": "Hệ thống motion thương hiệu."
+      }
     }
   },
   "blogPage": {

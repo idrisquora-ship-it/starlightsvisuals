@@ -49,12 +49,12 @@ function Home() {
 
   const showcase = useMemo(
     () => [
-      { img: portfolioCharacter, tag: t("home.showcase.character.tag"), title: t("home.showcase.character.title") },
-      { img: portfolioGame, tag: t("home.showcase.gameArt.tag"), title: t("home.showcase.gameArt.title") },
-      { img: portfolio2d, tag: t("home.showcase.animation2d.tag"), title: t("home.showcase.animation2d.title") },
-      { img: portfolioTrailer, tag: t("home.showcase.cinematic.tag"), title: t("home.showcase.cinematic.title") },
-      { img: portfolioCreature, tag: t("home.showcase.creature.tag"), title: t("home.showcase.creature.title") },
-      { img: portfolioMotion, tag: t("home.showcase.motion.tag"), title: t("home.showcase.motion.title") },
+      { id: "character", img: portfolioCharacter, tag: t("home.showcase.character.tag"), title: t("home.showcase.character.title") },
+      { id: "gameArt", img: portfolioGame, tag: t("home.showcase.gameArt.tag"), title: t("home.showcase.gameArt.title") },
+      { id: "animation2d", img: portfolio2d, tag: t("home.showcase.animation2d.tag"), title: t("home.showcase.animation2d.title") },
+      { id: "cinematic", img: portfolioTrailer, tag: t("home.showcase.cinematic.tag"), title: t("home.showcase.cinematic.title") },
+      { id: "creature", img: portfolioCreature, tag: t("home.showcase.creature.tag"), title: t("home.showcase.creature.title") },
+      { id: "motion", img: portfolioMotion, tag: t("home.showcase.motion.tag"), title: t("home.showcase.motion.title") },
     ],
     [t],
   );
@@ -166,13 +166,13 @@ function Home() {
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {showcase.map((item) => (
               <article
-                key={item.title}
+                key={item.id}
                 className="group relative overflow-hidden border border-border bg-card transition hover:border-neon-green"
               >
                 <div className="aspect-[4/5] overflow-hidden">
                   <img
                     src={item.img}
-                    alt={item.title}
+                    alt={`${item.tag} ${item.title}`}
                     width={1024}
                     height={1024}
                     loading="lazy"
@@ -184,7 +184,9 @@ function Home() {
                     <p className="font-display text-[10px] uppercase tracking-widest text-neon-green">
                       {item.tag}
                     </p>
-                    <h3 className="mt-1 font-display text-2xl tracking-tight">{item.title}</h3>
+                    <h3 className="mt-1 font-display text-2xl tracking-tight text-foreground">
+                      {item.title}
+                    </h3>
                   </div>
                   <ArrowUpRight className="h-5 w-5 text-foreground transition group-hover:text-neon-green" />
                 </div>

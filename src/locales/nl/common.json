@@ -68,18 +68,48 @@
     "ctaTitle1": "KLAAR OM",
     "ctaTitle2": "SAMEN TE WERKEN?",
     "services": {
-      "01": { "title": "Animatie & VFX", "desc": "Cinematische 2D- en 3D-animatie, character rigs en visuele effecten voor games en films." },
-      "02": { "title": "Game-ontwikkeling", "desc": "Volledige productiecyclus — concept, art, code, audio, lancering." },
-      "03": { "title": "Concept- & character art", "desc": "Originele personages, wezens, omgevingen en props die uw IP verankeren." },
-      "04": { "title": "Cinematische trailers", "desc": "Verhaalgedreven trailers om games en franchises te lanceren." }
+      "01": {
+        "title": "Animatie & VFX",
+        "desc": "Cinematische 2D- en 3D-animatie, character rigs en visuele effecten voor games en films."
+      },
+      "02": {
+        "title": "Game-ontwikkeling",
+        "desc": "Volledige productiecyclus — concept, art, code, audio, lancering."
+      },
+      "03": {
+        "title": "Concept- & character art",
+        "desc": "Originele personages, wezens, omgevingen en props die uw IP verankeren."
+      },
+      "04": {
+        "title": "Cinematische trailers",
+        "desc": "Verhaalgedreven trailers om games en franchises te lanceren."
+      }
     },
     "showcase": {
-      "character": { "tag": "Personage", "title": "Nova Vanguard" },
-      "gameArt": { "tag": "Game art", "title": "Lumen Worlds" },
-      "animation2d": { "tag": "2D-animatie", "title": "Neon Skyline" },
-      "cinematic": { "tag": "Cinematic", "title": "Iron Sentinel" },
-      "creature": { "tag": "Wezen", "title": "Abyss Drake" },
-      "motion": { "tag": "Motion", "title": "Pulse" }
+      "character": {
+        "tag": "3D Animation",
+        "title": "3D Animation"
+      },
+      "gameArt": {
+        "tag": "Game Environment",
+        "title": "Game Environment"
+      },
+      "animation2d": {
+        "tag": "Game Environment",
+        "title": "Game Environment"
+      },
+      "cinematic": {
+        "tag": "VFX",
+        "title": "VFX"
+      },
+      "creature": {
+        "tag": "3D",
+        "title": "Industrial Animation"
+      },
+      "motion": {
+        "tag": "3D",
+        "title": "Product Animation"
+      }
     }
   },
   "trustedBy": {
@@ -138,13 +168,34 @@
     "ctaDesc": "Vertel ons uw visie — wij leveren de vuurkracht.",
     "ctaButton": "Neem contact op",
     "items": {
-      "2d": { "title": "2D-animatie", "desc": "Frame-by-frame en rigged 2D voor series, shorts, explainers en games. Wij combineren klassiek vakmanschap met digitale pipelines." },
-      "3d": { "title": "3D-animatie", "desc": "Gestileerde en fotorealistische 3D — personages, omgevingen en volledige cinematische sequenties met feature-kwaliteit." },
-      "game": { "title": "Game-ontwikkeling", "desc": "End-to-end gameproductie: concept, art, code, audio en lancering. Unreal, Unity en custom pipelines." },
-      "character": { "title": "Character design", "desc": "Originele personages, wezens en concept art die uw IP en merchandisingpotentieel verankeren." },
-      "motion": { "title": "Motion graphics", "desc": "Branded motion, UI-animatie, broadcastpakketten en explainervideo's met cinematische afwerking." },
-      "vfx": { "title": "Visuele effecten (VFX)", "desc": "Compositing, particle FX en CG-integratie voor games, film en digitale campagnes." },
-      "trailer": { "title": "Cinematische trailers", "desc": "Verhaalgedreven trailers om games, IP's en merken met maximale impact te lanceren." }
+      "2d": {
+        "title": "2D-animatie",
+        "desc": "Frame-by-frame en rigged 2D voor series, shorts, explainers en games. Wij combineren klassiek vakmanschap met digitale pipelines."
+      },
+      "3d": {
+        "title": "3D-animatie",
+        "desc": "Gestileerde en fotorealistische 3D — personages, omgevingen en volledige cinematische sequenties met feature-kwaliteit."
+      },
+      "game": {
+        "title": "Game-ontwikkeling",
+        "desc": "End-to-end gameproductie: concept, art, code, audio en lancering. Unreal, Unity en custom pipelines."
+      },
+      "character": {
+        "title": "Character design",
+        "desc": "Originele personages, wezens en concept art die uw IP en merchandisingpotentieel verankeren."
+      },
+      "motion": {
+        "title": "Motion graphics",
+        "desc": "Branded motion, UI-animatie, broadcastpakketten en explainervideo's met cinematische afwerking."
+      },
+      "vfx": {
+        "title": "Visuele effecten (VFX)",
+        "desc": "Compositing, particle FX en CG-integratie voor games, film en digitale campagnes."
+      },
+      "trailer": {
+        "title": "Cinematische trailers",
+        "desc": "Verhaalgedreven trailers om games, IP's en merken met maximale impact te lanceren."
+      }
     }
   },
   "aboutPage": {
@@ -159,10 +210,22 @@
     "valuesLabel": "Kernwaarden",
     "valuesTitle": "WAT ONS DRIJFT",
     "values": {
-      "imagination": { "title": "Verbeelding eerst", "desc": "Elk project begint met een gedurfde idee en een leeg canvas." },
-      "craft": { "title": "Vakmanschap geobsedeerd", "desc": "Frame voor frame, pixel voor pixel — kwaliteit is niet onderhandelbaar." },
-      "energy": { "title": "Cinematische energie", "desc": "Wij jagen op kippenvel. Als het ons niet raakt, verfijnen we." },
-      "story": { "title": "Verhaalgedreven", "desc": "Techniek dient het verhaal. Altijd." }
+      "imagination": {
+        "title": "Verbeelding eerst",
+        "desc": "Elk project begint met een gedurfde idee en een leeg canvas."
+      },
+      "craft": {
+        "title": "Vakmanschap geobsedeerd",
+        "desc": "Frame voor frame, pixel voor pixel — kwaliteit is niet onderhandelbaar."
+      },
+      "energy": {
+        "title": "Cinematische energie",
+        "desc": "Wij jagen op kippenvel. Als het ons niet raakt, verfijnen we."
+      },
+      "story": {
+        "title": "Verhaalgedreven",
+        "desc": "Techniek dient het verhaal. Altijd."
+      }
     },
     "stats": {
       "projects": "Projecten opgeleverd",
@@ -209,12 +272,36 @@
     "title2": "FOLIO",
     "subtitle": "Een blik op de werelden, personages en verhalen die wij tot leven hebben geholpen.",
     "projects": {
-      "trailer": { "tag": "Cinematische trailer", "title": "Iron Sentinel", "desc": "AAA game launch trailer." },
-      "character": { "tag": "Character design", "title": "Nova Vanguard", "desc": "Hero-protagonist sheet." },
-      "game": { "tag": "Game art", "title": "Lumen Worlds", "desc": "Open-world omgevingskunst." },
-      "2d": { "tag": "2D-animatie", "title": "Neon Skyline", "desc": "Anime-geïnspireerde pilootaflevering." },
-      "creature": { "tag": "Creature design", "title": "Crystal Wyrm", "desc": "Boss-wezen concept." },
-      "motion": { "tag": "Motion graphics", "title": "Pulse Identity", "desc": "Brand motion system." }
+      "trailer": {
+        "tag": "Cinematische trailer",
+        "title": "Iron Sentinel",
+        "desc": "AAA game launch trailer."
+      },
+      "character": {
+        "tag": "Character design",
+        "title": "Nova Vanguard",
+        "desc": "Hero-protagonist sheet."
+      },
+      "game": {
+        "tag": "Game art",
+        "title": "Lumen Worlds",
+        "desc": "Open-world omgevingskunst."
+      },
+      "2d": {
+        "tag": "2D-animatie",
+        "title": "Neon Skyline",
+        "desc": "Anime-geïnspireerde pilootaflevering."
+      },
+      "creature": {
+        "tag": "Creature design",
+        "title": "Crystal Wyrm",
+        "desc": "Boss-wezen concept."
+      },
+      "motion": {
+        "tag": "Motion graphics",
+        "title": "Pulse Identity",
+        "desc": "Brand motion system."
+      }
     }
   },
   "blogPage": {

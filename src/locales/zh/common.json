@@ -68,18 +68,48 @@
     "ctaTitle1": "准备好",
     "ctaTitle2": "合作了吗？",
     "services": {
-      "01": { "title": "动画与 VFX", "desc": "面向游戏与电影的电影级 2D 与 3D 动画、角色绑定及视觉特效。" },
-      "02": { "title": "游戏开发", "desc": "全周期制作 — 概念、美术、代码、音频、上线。" },
-      "03": { "title": "概念与角色美术", "desc": "原创角色、生物、环境与道具，锚定您的 IP。" },
-      "04": { "title": "电影级预告片", "desc": "以故事驱动的预告片，助力游戏与 IP 发布。" }
+      "01": {
+        "title": "动画与 VFX",
+        "desc": "面向游戏与电影的电影级 2D 与 3D 动画、角色绑定及视觉特效。"
+      },
+      "02": {
+        "title": "游戏开发",
+        "desc": "全周期制作 — 概念、美术、代码、音频、上线。"
+      },
+      "03": {
+        "title": "概念与角色美术",
+        "desc": "原创角色、生物、环境与道具，锚定您的 IP。"
+      },
+      "04": {
+        "title": "电影级预告片",
+        "desc": "以故事驱动的预告片，助力游戏与 IP 发布。"
+      }
     },
     "showcase": {
-      "character": { "tag": "角色", "title": "Nova Vanguard" },
-      "gameArt": { "tag": "游戏美术", "title": "Lumen Worlds" },
-      "animation2d": { "tag": "2D 动画", "title": "Neon Skyline" },
-      "cinematic": { "tag": "电影级", "title": "Iron Sentinel" },
-      "creature": { "tag": "生物", "title": "Abyss Drake" },
-      "motion": { "tag": "动态", "title": "Pulse" }
+      "character": {
+        "tag": "3D Animation",
+        "title": "3D Animation"
+      },
+      "gameArt": {
+        "tag": "Game Environment",
+        "title": "Game Environment"
+      },
+      "animation2d": {
+        "tag": "Game Environment",
+        "title": "Game Environment"
+      },
+      "cinematic": {
+        "tag": "VFX",
+        "title": "VFX"
+      },
+      "creature": {
+        "tag": "3D",
+        "title": "Industrial Animation"
+      },
+      "motion": {
+        "tag": "3D",
+        "title": "Product Animation"
+      }
     }
   },
   "trustedBy": {
@@ -138,13 +168,34 @@
     "ctaDesc": "告诉我们您的愿景 — 我们提供火力支持。",
     "ctaButton": "联系我们",
     "items": {
-      "2d": { "title": "2D 动画", "desc": "面向系列、短片、解说与游戏的逐帧与绑定 2D。融合经典工艺与数字流程。" },
-      "3d": { "title": "3D 动画", "desc": "风格化与照片级 3D — 角色、环境与完整电影序列，具备院线级打磨。" },
-      "game": { "title": "游戏开发", "desc": "端到端游戏制作：概念、美术、代码、音频与上线。Unreal、Unity 及定制流程。" },
-      "character": { "title": "角色设计", "desc": "原创角色、生物与概念美术，锚定 IP 与周边潜力。" },
-      "motion": { "title": "动态图形", "desc": "品牌动态、UI 动画、广播包装与电影级解说视频。" },
-      "vfx": { "title": "视觉特效 (VFX)", "desc": "面向游戏、电影与数字战役的合成、粒子特效与 CG 集成。" },
-      "trailer": { "title": "电影级预告片", "desc": "以故事驱动的预告片，以最大影响力发布游戏、IP 与品牌。" }
+      "2d": {
+        "title": "2D 动画",
+        "desc": "面向系列、短片、解说与游戏的逐帧与绑定 2D。融合经典工艺与数字流程。"
+      },
+      "3d": {
+        "title": "3D 动画",
+        "desc": "风格化与照片级 3D — 角色、环境与完整电影序列，具备院线级打磨。"
+      },
+      "game": {
+        "title": "游戏开发",
+        "desc": "端到端游戏制作：概念、美术、代码、音频与上线。Unreal、Unity 及定制流程。"
+      },
+      "character": {
+        "title": "角色设计",
+        "desc": "原创角色、生物与概念美术，锚定 IP 与周边潜力。"
+      },
+      "motion": {
+        "title": "动态图形",
+        "desc": "品牌动态、UI 动画、广播包装与电影级解说视频。"
+      },
+      "vfx": {
+        "title": "视觉特效 (VFX)",
+        "desc": "面向游戏、电影与数字战役的合成、粒子特效与 CG 集成。"
+      },
+      "trailer": {
+        "title": "电影级预告片",
+        "desc": "以故事驱动的预告片，以最大影响力发布游戏、IP 与品牌。"
+      }
     }
   },
   "aboutPage": {
@@ -159,10 +210,22 @@
     "valuesLabel": "核心价值观",
     "valuesTitle": "驱动我们的力量",
     "values": {
-      "imagination": { "title": "想象力优先", "desc": "每个项目都始于大胆的想法与空白画布。" },
-      "craft": { "title": "工艺至上", "desc": "逐帧、逐像素 — 品质不可妥协。" },
-      "energy": { "title": "电影级能量", "desc": "我们追逐鸡皮疙瘩。若无法打动自己，便继续打磨。" },
-      "story": { "title": "故事驱动", "desc": "技术服务于故事。永远如此。" }
+      "imagination": {
+        "title": "想象力优先",
+        "desc": "每个项目都始于大胆的想法与空白画布。"
+      },
+      "craft": {
+        "title": "工艺至上",
+        "desc": "逐帧、逐像素 — 品质不可妥协。"
+      },
+      "energy": {
+        "title": "电影级能量",
+        "desc": "我们追逐鸡皮疙瘩。若无法打动自己，便继续打磨。"
+      },
+      "story": {
+        "title": "故事驱动",
+        "desc": "技术服务于故事。永远如此。"
+      }
     },
     "stats": {
       "projects": "已交付项目",
@@ -209,12 +272,36 @@
     "title2": "集",
     "subtitle": "一窥我们助力诞生的世界、角色与故事。",
     "projects": {
-      "trailer": { "tag": "电影级预告片", "title": "Iron Sentinel", "desc": "AAA 游戏发布预告片。" },
-      "character": { "tag": "角色设计", "title": "Nova Vanguard", "desc": "主角设定表。" },
-      "game": { "tag": "游戏美术", "title": "Lumen Worlds", "desc": "开放世界环境美术。" },
-      "2d": { "tag": "2D 动画", "title": "Neon Skyline", "desc": "动漫风格试播集。" },
-      "creature": { "tag": "生物设计", "title": "Crystal Wyrm", "desc": "Boss 生物概念。" },
-      "motion": { "tag": "动态图形", "title": "Pulse Identity", "desc": "品牌动态系统。" }
+      "trailer": {
+        "tag": "电影级预告片",
+        "title": "Iron Sentinel",
+        "desc": "AAA 游戏发布预告片。"
+      },
+      "character": {
+        "tag": "角色设计",
+        "title": "Nova Vanguard",
+        "desc": "主角设定表。"
+      },
+      "game": {
+        "tag": "游戏美术",
+        "title": "Lumen Worlds",
+        "desc": "开放世界环境美术。"
+      },
+      "2d": {
+        "tag": "2D 动画",
+        "title": "Neon Skyline",
+        "desc": "动漫风格试播集。"
+      },
+      "creature": {
+        "tag": "生物设计",
+        "title": "Crystal Wyrm",
+        "desc": "Boss 生物概念。"
+      },
+      "motion": {
+        "tag": "动态图形",
+        "title": "Pulse Identity",
+        "desc": "品牌动态系统。"
+      }
     }
   },
   "blogPage": {

@@ -68,18 +68,48 @@
     "ctaTitle1": "GOTOWI",
     "ctaTitle2": "NA WSPÓŁPRACĘ?",
     "services": {
-      "01": { "title": "Animacja i VFX", "desc": "Kinowa animacja 2D i 3D, rigi postaci oraz efekty wizualne do gier i filmów." },
-      "02": { "title": "Produkcja gier", "desc": "Pełny cykl produkcji — koncepcja, art, kod, audio, premiera." },
-      "03": { "title": "Concept i character art", "desc": "Oryginalne postacie, stworzenia, środowiska i rekwizyty, które kotwiczą Twoje IP." },
-      "04": { "title": "Trailery kinowe", "desc": "Trailery oparte na historii, stworzone do premiery gier i franczyz." }
+      "01": {
+        "title": "Animacja i VFX",
+        "desc": "Kinowa animacja 2D i 3D, rigi postaci oraz efekty wizualne do gier i filmów."
+      },
+      "02": {
+        "title": "Produkcja gier",
+        "desc": "Pełny cykl produkcji — koncepcja, art, kod, audio, premiera."
+      },
+      "03": {
+        "title": "Concept i character art",
+        "desc": "Oryginalne postacie, stworzenia, środowiska i rekwizyty, które kotwiczą Twoje IP."
+      },
+      "04": {
+        "title": "Trailery kinowe",
+        "desc": "Trailery oparte na historii, stworzone do premiery gier i franczyz."
+      }
     },
     "showcase": {
-      "character": { "tag": "Postać", "title": "Nova Vanguard" },
-      "gameArt": { "tag": "Game art", "title": "Lumen Worlds" },
-      "animation2d": { "tag": "Animacja 2D", "title": "Neon Skyline" },
-      "cinematic": { "tag": "Kinowy", "title": "Iron Sentinel" },
-      "creature": { "tag": "Stworzenie", "title": "Abyss Drake" },
-      "motion": { "tag": "Motion", "title": "Pulse" }
+      "character": {
+        "tag": "3D Animation",
+        "title": "3D Animation"
+      },
+      "gameArt": {
+        "tag": "Game Environment",
+        "title": "Game Environment"
+      },
+      "animation2d": {
+        "tag": "Game Environment",
+        "title": "Game Environment"
+      },
+      "cinematic": {
+        "tag": "VFX",
+        "title": "VFX"
+      },
+      "creature": {
+        "tag": "3D",
+        "title": "Industrial Animation"
+      },
+      "motion": {
+        "tag": "3D",
+        "title": "Product Animation"
+      }
     }
   },
   "trustedBy": {
@@ -138,13 +168,34 @@
     "ctaDesc": "Opowiedz nam o swojej wizji — my dostarczymy siłę ognia.",
     "ctaButton": "Skontaktuj się",
     "items": {
-      "2d": { "title": "Animacja 2D", "desc": "Klatka po klatce i rigged 2D do seriali, krótkometrażówek, explainersów i gier. Łączymy klasyczne rzemiosło z cyfrowymi pipeline'ami." },
-      "3d": { "title": "Animacja 3D", "desc": "Stylizowana i fotorealistyczna 3D — postacie, środowiska i pełne sekwencje kinowe z jakością feature film." },
-      "game": { "title": "Produkcja gier", "desc": "Produkcja gier end-to-end: koncepcja, art, kod, audio i premiera. Unreal, Unity i własne pipeline'y." },
-      "character": { "title": "Projektowanie postaci", "desc": "Oryginalne postacie, stworzenia i concept art, które kotwiczą Twoje IP i potencjał merchandisingu." },
-      "motion": { "title": "Motion graphics", "desc": "Branded motion, animacja UI, pakiety broadcastowe i explainery z kinową dopracowaniem." },
-      "vfx": { "title": "Efekty wizualne (VFX)", "desc": "Compositing, particle FX i integracja CG do gier, filmu i kampanii cyfrowych." },
-      "trailer": { "title": "Trailery kinowe", "desc": "Trailery oparte na historii, stworzone do premiery gier, IP i marek z maksymalnym impaktem." }
+      "2d": {
+        "title": "Animacja 2D",
+        "desc": "Klatka po klatce i rigged 2D do seriali, krótkometrażówek, explainersów i gier. Łączymy klasyczne rzemiosło z cyfrowymi pipeline'ami."
+      },
+      "3d": {
+        "title": "Animacja 3D",
+        "desc": "Stylizowana i fotorealistyczna 3D — postacie, środowiska i pełne sekwencje kinowe z jakością feature film."
+      },
+      "game": {
+        "title": "Produkcja gier",
+        "desc": "Produkcja gier end-to-end: koncepcja, art, kod, audio i premiera. Unreal, Unity i własne pipeline'y."
+      },
+      "character": {
+        "title": "Projektowanie postaci",
+        "desc": "Oryginalne postacie, stworzenia i concept art, które kotwiczą Twoje IP i potencjał merchandisingu."
+      },
+      "motion": {
+        "title": "Motion graphics",
+        "desc": "Branded motion, animacja UI, pakiety broadcastowe i explainery z kinową dopracowaniem."
+      },
+      "vfx": {
+        "title": "Efekty wizualne (VFX)",
+        "desc": "Compositing, particle FX i integracja CG do gier, filmu i kampanii cyfrowych."
+      },
+      "trailer": {
+        "title": "Trailery kinowe",
+        "desc": "Trailery oparte na historii, stworzone do premiery gier, IP i marek z maksymalnym impaktem."
+      }
     }
   },
   "aboutPage": {
@@ -159,10 +210,22 @@
     "valuesLabel": "Wartości",
     "valuesTitle": "CO NAS NAPĘDZA",
     "values": {
-      "imagination": { "title": "Wyobraźnia na pierwszym miejscu", "desc": "Każdy projekt zaczyna się od odważnego pomysłu i pustego płótna." },
-      "craft": { "title": "Obsesja na punkcie rzemiosła", "desc": "Klatka po klatce, piksel po pikselu — jakość jest niepodlegająca negocjacjom." },
-      "energy": { "title": "Kinowa energia", "desc": "Gonimy za dreszczami. Jeśli nas nie porusza — dopracowujemy." },
-      "story": { "title": "Historia na pierwszym miejscu", "desc": "Technologia służy historii. Zawsze." }
+      "imagination": {
+        "title": "Wyobraźnia na pierwszym miejscu",
+        "desc": "Każdy projekt zaczyna się od odważnego pomysłu i pustego płótna."
+      },
+      "craft": {
+        "title": "Obsesja na punkcie rzemiosła",
+        "desc": "Klatka po klatce, piksel po pikselu — jakość jest niepodlegająca negocjacjom."
+      },
+      "energy": {
+        "title": "Kinowa energia",
+        "desc": "Gonimy za dreszczami. Jeśli nas nie porusza — dopracowujemy."
+      },
+      "story": {
+        "title": "Historia na pierwszym miejscu",
+        "desc": "Technologia służy historii. Zawsze."
+      }
     },
     "stats": {
       "projects": "Dostarczonych projektów",
@@ -209,12 +272,36 @@
     "title2": "FOLIO",
     "subtitle": "Spojrzenie na światy, postacie i historie, które pomogliśmy ożywić.",
     "projects": {
-      "trailer": { "tag": "Trailer kinowy", "title": "Iron Sentinel", "desc": "Trailer premiery gry AAA." },
-      "character": { "tag": "Projekt postaci", "title": "Nova Vanguard", "desc": "Arkusz bohatera protagonisty." },
-      "game": { "tag": "Game art", "title": "Lumen Worlds", "desc": "Art środowiska open-world." },
-      "2d": { "tag": "Animacja 2D", "title": "Neon Skyline", "desc": "Odcinek pilotażowy w stylu anime." },
-      "creature": { "tag": "Projekt stworzenia", "title": "Crystal Wyrm", "desc": "Koncepcja bossa." },
-      "motion": { "tag": "Motion graphics", "title": "Pulse Identity", "desc": "System motion marki." }
+      "trailer": {
+        "tag": "Trailer kinowy",
+        "title": "Iron Sentinel",
+        "desc": "Trailer premiery gry AAA."
+      },
+      "character": {
+        "tag": "Projekt postaci",
+        "title": "Nova Vanguard",
+        "desc": "Arkusz bohatera protagonisty."
+      },
+      "game": {
+        "tag": "Game art",
+        "title": "Lumen Worlds",
+        "desc": "Art środowiska open-world."
+      },
+      "2d": {
+        "tag": "Animacja 2D",
+        "title": "Neon Skyline",
+        "desc": "Odcinek pilotażowy w stylu anime."
+      },
+      "creature": {
+        "tag": "Projekt stworzenia",
+        "title": "Crystal Wyrm",
+        "desc": "Koncepcja bossa."
+      },
+      "motion": {
+        "tag": "Motion graphics",
+        "title": "Pulse Identity",
+        "desc": "System motion marki."
+      }
     }
   },
   "blogPage": {

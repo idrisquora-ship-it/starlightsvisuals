@@ -68,18 +68,48 @@
     "ctaTitle1": "VALMIS",
     "ctaTitle2": "YHTEISTYÖHÖN?",
     "services": {
-      "01": { "title": "Animaatio & VFX", "desc": "Elokuvamainen 2D- ja 3D-animaatio, hahmorigit ja visuaaliset efektit peleihin ja elokuviin." },
-      "02": { "title": "Pelikehitys", "desc": "Kokonaistuotanto — konsepti, art, koodi, ääni, julkaisu." },
-      "03": { "title": "Concept & Character Art", "desc": "Alkuperäiset hahmot, hirviöt, ympäristöt ja rekvisiitta, jotka ankkuroivat IP:si." },
-      "04": { "title": "Cinematic Trailers", "desc": "Tarinaan perustuvat trailerit, jotka lanseeraavat pelit ja franchiset." }
+      "01": {
+        "title": "Animaatio & VFX",
+        "desc": "Elokuvamainen 2D- ja 3D-animaatio, hahmorigit ja visuaaliset efektit peleihin ja elokuviin."
+      },
+      "02": {
+        "title": "Pelikehitys",
+        "desc": "Kokonaistuotanto — konsepti, art, koodi, ääni, julkaisu."
+      },
+      "03": {
+        "title": "Concept & Character Art",
+        "desc": "Alkuperäiset hahmot, hirviöt, ympäristöt ja rekvisiitta, jotka ankkuroivat IP:si."
+      },
+      "04": {
+        "title": "Cinematic Trailers",
+        "desc": "Tarinaan perustuvat trailerit, jotka lanseeraavat pelit ja franchiset."
+      }
     },
     "showcase": {
-      "character": { "tag": "Hahmo", "title": "Nova Vanguard" },
-      "gameArt": { "tag": "Game Art", "title": "Lumen Worlds" },
-      "animation2d": { "tag": "2D-animaatio", "title": "Neon Skyline" },
-      "cinematic": { "tag": "Cinematic", "title": "Iron Sentinel" },
-      "creature": { "tag": "Hirviö", "title": "Abyss Drake" },
-      "motion": { "tag": "Motion", "title": "Pulse" }
+      "character": {
+        "tag": "3D Animation",
+        "title": "3D Animation"
+      },
+      "gameArt": {
+        "tag": "Game Environment",
+        "title": "Game Environment"
+      },
+      "animation2d": {
+        "tag": "Game Environment",
+        "title": "Game Environment"
+      },
+      "cinematic": {
+        "tag": "VFX",
+        "title": "VFX"
+      },
+      "creature": {
+        "tag": "3D",
+        "title": "Industrial Animation"
+      },
+      "motion": {
+        "tag": "3D",
+        "title": "Product Animation"
+      }
     }
   },
   "trustedBy": {
@@ -138,13 +168,34 @@
     "ctaDesc": "Kerro visiosi — tuomme tulivoiman.",
     "ctaButton": "Ota yhteyttä",
     "items": {
-      "2d": { "title": "2D-animaatio", "desc": "Frame-by-frame ja rigattu 2D sarjoihin, lyhytelokuviin, explainereihin ja peleihin. Yhdistämme klassisen käsityön digitaalisiin pipelineihin." },
-      "3d": { "title": "3D-animaatio", "desc": "Stylisoitu ja fotorealistinen 3D — hahmot, ympäristöt ja täydet elokuvasekvenssit feature-tason viimeistelyllä." },
-      "game": { "title": "Pelikehitys", "desc": "Pelin tuotanto alusta loppuun: konsepti, art, koodi, ääni ja julkaisu. Unreal, Unity ja omat pipelinet." },
-      "character": { "title": "Hahmosuunnittelu", "desc": "Alkuperäiset hahmot, hirviöt ja concept art, jotka ankkuroivat IP:si ja merch-potentiaalin." },
-      "motion": { "title": "Motion Graphics", "desc": "Brändimotion, UI-animaatio, broadcast-paketit ja explainer-videot elokuvamaisella viimeistelyllä." },
-      "vfx": { "title": "Visuaaliset efektit (VFX)", "desc": "Compositing, partikkeliefektit ja CG-integraatio peleihin, elokuviin ja digitaalisiin kampanjoihin." },
-      "trailer": { "title": "Cinematic Trailers", "desc": "Tarinaan perustuvat trailerit, jotka lanseeraavat pelit, IP:t ja brändit maksimaalisella vaikutuksella." }
+      "2d": {
+        "title": "2D-animaatio",
+        "desc": "Frame-by-frame ja rigattu 2D sarjoihin, lyhytelokuviin, explainereihin ja peleihin. Yhdistämme klassisen käsityön digitaalisiin pipelineihin."
+      },
+      "3d": {
+        "title": "3D-animaatio",
+        "desc": "Stylisoitu ja fotorealistinen 3D — hahmot, ympäristöt ja täydet elokuvasekvenssit feature-tason viimeistelyllä."
+      },
+      "game": {
+        "title": "Pelikehitys",
+        "desc": "Pelin tuotanto alusta loppuun: konsepti, art, koodi, ääni ja julkaisu. Unreal, Unity ja omat pipelinet."
+      },
+      "character": {
+        "title": "Hahmosuunnittelu",
+        "desc": "Alkuperäiset hahmot, hirviöt ja concept art, jotka ankkuroivat IP:si ja merch-potentiaalin."
+      },
+      "motion": {
+        "title": "Motion Graphics",
+        "desc": "Brändimotion, UI-animaatio, broadcast-paketit ja explainer-videot elokuvamaisella viimeistelyllä."
+      },
+      "vfx": {
+        "title": "Visuaaliset efektit (VFX)",
+        "desc": "Compositing, partikkeliefektit ja CG-integraatio peleihin, elokuviin ja digitaalisiin kampanjoihin."
+      },
+      "trailer": {
+        "title": "Cinematic Trailers",
+        "desc": "Tarinaan perustuvat trailerit, jotka lanseeraavat pelit, IP:t ja brändit maksimaalisella vaikutuksella."
+      }
     }
   },
   "aboutPage": {
@@ -159,10 +210,22 @@
     "valuesLabel": "Ydinarvot",
     "valuesTitle": "MIKÄ MEITÄ AJAA",
     "values": {
-      "imagination": { "title": "Mielikuvitus ensin", "desc": "Jokainen projekti alkaa rohkeasta ideasta ja tyhjästä kankaasta." },
-      "craft": { "title": "Käsityöpakkomielteiset", "desc": "Frame frameilta, pikseli pikseliltä — laatu ei ole neuvoteltavissa." },
-      "energy": { "title": "Elokuvamainen energia", "desc": "Jaamme kananlihan. Jos se ei liikuta meitä, hiomme." },
-      "story": { "title": "Tarina edellä", "desc": "Tekniikka palvelee tarinaa. Aina." }
+      "imagination": {
+        "title": "Mielikuvitus ensin",
+        "desc": "Jokainen projekti alkaa rohkeasta ideasta ja tyhjästä kankaasta."
+      },
+      "craft": {
+        "title": "Käsityöpakkomielteiset",
+        "desc": "Frame frameilta, pikseli pikseliltä — laatu ei ole neuvoteltavissa."
+      },
+      "energy": {
+        "title": "Elokuvamainen energia",
+        "desc": "Jaamme kananlihan. Jos se ei liikuta meitä, hiomme."
+      },
+      "story": {
+        "title": "Tarina edellä",
+        "desc": "Tekniikka palvelee tarinaa. Aina."
+      }
     },
     "stats": {
       "projects": "Toimitetut projektit",
@@ -209,12 +272,36 @@
     "title2": "FOLIO",
     "subtitle": "Vilaus maailmoihin, hahmoihin ja tarinoihin, joita olemme auttaneet herättämään henkiin.",
     "projects": {
-      "trailer": { "tag": "Cinematic Trailer", "title": "Iron Sentinel", "desc": "AAA-pelin lanseeraustrailer." },
-      "character": { "tag": "Hahmosuunnittelu", "title": "Nova Vanguard", "desc": "Päähahmon character sheet." },
-      "game": { "tag": "Game Art", "title": "Lumen Worlds", "desc": "Open world -ympäristötaide." },
-      "2d": { "tag": "2D-animaatio", "title": "Neon Skyline", "desc": "Anime-inspiroitu pilottijakso." },
-      "creature": { "tag": "Hirviösuunnittelu", "title": "Crystal Wyrm", "desc": "Boss-hirviön konsepti." },
-      "motion": { "tag": "Motion Graphics", "title": "Pulse Identity", "desc": "Brändin motion system." }
+      "trailer": {
+        "tag": "Cinematic Trailer",
+        "title": "Iron Sentinel",
+        "desc": "AAA-pelin lanseeraustrailer."
+      },
+      "character": {
+        "tag": "Hahmosuunnittelu",
+        "title": "Nova Vanguard",
+        "desc": "Päähahmon character sheet."
+      },
+      "game": {
+        "tag": "Game Art",
+        "title": "Lumen Worlds",
+        "desc": "Open world -ympäristötaide."
+      },
+      "2d": {
+        "tag": "2D-animaatio",
+        "title": "Neon Skyline",
+        "desc": "Anime-inspiroitu pilottijakso."
+      },
+      "creature": {
+        "tag": "Hirviösuunnittelu",
+        "title": "Crystal Wyrm",
+        "desc": "Boss-hirviön konsepti."
+      },
+      "motion": {
+        "tag": "Motion Graphics",
+        "title": "Pulse Identity",
+        "desc": "Brändin motion system."
+      }
     }
   },
   "blogPage": {

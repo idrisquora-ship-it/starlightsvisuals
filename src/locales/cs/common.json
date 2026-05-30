@@ -68,18 +68,48 @@
     "ctaTitle1": "PŘIPRAVENI",
     "ctaTitle2": "SPOLUPRACOVAT?",
     "services": {
-      "01": { "title": "Animace a VFX", "desc": "Kinematografická 2D a 3D animace, rigy postav a vizuální efekty pro hry a film." },
-      "02": { "title": "Vývoj her", "desc": "Celý produkční cyklus — koncept, art, kód, audio, release." },
-      "03": { "title": "Koncept a art postav", "desc": "Originální postavy, bytosti, prostředí a rekvizity, které ukotví váš IP." },
-      "04": { "title": "Kinematografické trailery", "desc": "Příběhové trailery pro uvedení her a franšíz." }
+      "01": {
+        "title": "Animace a VFX",
+        "desc": "Kinematografická 2D a 3D animace, rigy postav a vizuální efekty pro hry a film."
+      },
+      "02": {
+        "title": "Vývoj her",
+        "desc": "Celý produkční cyklus — koncept, art, kód, audio, release."
+      },
+      "03": {
+        "title": "Koncept a art postav",
+        "desc": "Originální postavy, bytosti, prostředí a rekvizity, které ukotví váš IP."
+      },
+      "04": {
+        "title": "Kinematografické trailery",
+        "desc": "Příběhové trailery pro uvedení her a franšíz."
+      }
     },
     "showcase": {
-      "character": { "tag": "Postava", "title": "Nova Vanguard" },
-      "gameArt": { "tag": "Herní art", "title": "Lumen Worlds" },
-      "animation2d": { "tag": "2D animace", "title": "Neon Skyline" },
-      "cinematic": { "tag": "Kino", "title": "Iron Sentinel" },
-      "creature": { "tag": "Bytost", "title": "Abyss Drake" },
-      "motion": { "tag": "Motion", "title": "Pulse" }
+      "character": {
+        "tag": "3D Animation",
+        "title": "3D Animation"
+      },
+      "gameArt": {
+        "tag": "Game Environment",
+        "title": "Game Environment"
+      },
+      "animation2d": {
+        "tag": "Game Environment",
+        "title": "Game Environment"
+      },
+      "cinematic": {
+        "tag": "VFX",
+        "title": "VFX"
+      },
+      "creature": {
+        "tag": "3D",
+        "title": "Industrial Animation"
+      },
+      "motion": {
+        "tag": "3D",
+        "title": "Product Animation"
+      }
     }
   },
   "trustedBy": {
@@ -138,13 +168,34 @@
     "ctaDesc": "Řekněte nám svou vizi — dodáme sílu.",
     "ctaButton": "Kontaktujte nás",
     "items": {
-      "2d": { "title": "2D animace", "desc": "Frame-by-frame a rigovaná 2D pro seriály, krátké formáty, explainery a hry. Spojujeme klasické řemeslo s digitálními pipeline." },
-      "3d": { "title": "3D animace", "desc": "Stylizovaná i fotorealistická 3D — postavy, prostředí a plné kinematografické sekvence s kvalitou feature filmu." },
-      "game": { "title": "Vývoj her", "desc": "End-to-end herní produkce: koncept, art, kód, audio a launch. Unreal, Unity a vlastní pipeline." },
-      "character": { "title": "Design postav", "desc": "Originální postavy, bytosti a concept art, které ukotví váš IP a merch potenciál." },
-      "motion": { "title": "Motion graphics", "desc": "Branded motion, UI animace, broadcast balíčky a explainery s kinematografickým leskem." },
-      "vfx": { "title": "Vizuální efekty (VFX)", "desc": "Compositing, particle FX a integrace CG pro hry, film a digitální kampaně." },
-      "trailer": { "title": "Kinematografické trailery", "desc": "Příběhové trailery pro uvedení her, IP a značek s maximálním dopadem." }
+      "2d": {
+        "title": "2D animace",
+        "desc": "Frame-by-frame a rigovaná 2D pro seriály, krátké formáty, explainery a hry. Spojujeme klasické řemeslo s digitálními pipeline."
+      },
+      "3d": {
+        "title": "3D animace",
+        "desc": "Stylizovaná i fotorealistická 3D — postavy, prostředí a plné kinematografické sekvence s kvalitou feature filmu."
+      },
+      "game": {
+        "title": "Vývoj her",
+        "desc": "End-to-end herní produkce: koncept, art, kód, audio a launch. Unreal, Unity a vlastní pipeline."
+      },
+      "character": {
+        "title": "Design postav",
+        "desc": "Originální postavy, bytosti a concept art, které ukotví váš IP a merch potenciál."
+      },
+      "motion": {
+        "title": "Motion graphics",
+        "desc": "Branded motion, UI animace, broadcast balíčky a explainery s kinematografickým leskem."
+      },
+      "vfx": {
+        "title": "Vizuální efekty (VFX)",
+        "desc": "Compositing, particle FX a integrace CG pro hry, film a digitální kampaně."
+      },
+      "trailer": {
+        "title": "Kinematografické trailery",
+        "desc": "Příběhové trailery pro uvedení her, IP a značek s maximálním dopadem."
+      }
     }
   },
   "aboutPage": {
@@ -159,10 +210,22 @@
     "valuesLabel": "Hodnoty",
     "valuesTitle": "CO NÁS ŘÍDÍ",
     "values": {
-      "imagination": { "title": "Představivost na prvním místě", "desc": "Každý projekt začíná odvážnou myšlenkou a prázdným plátnem." },
-      "craft": { "title": "Posedlost řemeslem", "desc": "Snímek po snímku, pixel po pixelu — kvalita je nepřekročitelná." },
-      "energy": { "title": "Kinematografická energie", "desc": "Honíme husí kůži. Pokud nás to nezasáhne, ladíme dál." },
-      "story": { "title": "Příběh v centru", "desc": "Technologie slouží příběhu. Vždy." }
+      "imagination": {
+        "title": "Představivost na prvním místě",
+        "desc": "Každý projekt začíná odvážnou myšlenkou a prázdným plátnem."
+      },
+      "craft": {
+        "title": "Posedlost řemeslem",
+        "desc": "Snímek po snímku, pixel po pixelu — kvalita je nepřekročitelná."
+      },
+      "energy": {
+        "title": "Kinematografická energie",
+        "desc": "Honíme husí kůži. Pokud nás to nezasáhne, ladíme dál."
+      },
+      "story": {
+        "title": "Příběh v centru",
+        "desc": "Technologie slouží příběhu. Vždy."
+      }
     },
     "stats": {
       "projects": "Dodaných projektů",
@@ -209,12 +272,36 @@
     "title2": "FOLIO",
     "subtitle": "Nahlédnutí do světů, postav a příběhů, které jsme pomohli oživit.",
     "projects": {
-      "trailer": { "tag": "Kinematografický trailer", "title": "Iron Sentinel", "desc": "Launch trailer AAA hry." },
-      "character": { "tag": "Design postav", "title": "Nova Vanguard", "desc": "Sheet hlavního hrdiny." },
-      "game": { "tag": "Herní art", "title": "Lumen Worlds", "desc": "Art open-world prostředí." },
-      "2d": { "tag": "2D animace", "title": "Neon Skyline", "desc": "Pilotní epizoda v anime stylu." },
-      "creature": { "tag": "Design bytostí", "title": "Crystal Wyrm", "desc": "Concept boss bytosti." },
-      "motion": { "tag": "Motion graphics", "title": "Pulse Identity", "desc": "Brand motion systém." }
+      "trailer": {
+        "tag": "Kinematografický trailer",
+        "title": "Iron Sentinel",
+        "desc": "Launch trailer AAA hry."
+      },
+      "character": {
+        "tag": "Design postav",
+        "title": "Nova Vanguard",
+        "desc": "Sheet hlavního hrdiny."
+      },
+      "game": {
+        "tag": "Herní art",
+        "title": "Lumen Worlds",
+        "desc": "Art open-world prostředí."
+      },
+      "2d": {
+        "tag": "2D animace",
+        "title": "Neon Skyline",
+        "desc": "Pilotní epizoda v anime stylu."
+      },
+      "creature": {
+        "tag": "Design bytostí",
+        "title": "Crystal Wyrm",
+        "desc": "Concept boss bytosti."
+      },
+      "motion": {
+        "tag": "Motion graphics",
+        "title": "Pulse Identity",
+        "desc": "Brand motion systém."
+      }
     }
   },
   "blogPage": {

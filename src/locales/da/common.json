@@ -68,18 +68,48 @@
     "ctaTitle1": "KLAR TIL AT",
     "ctaTitle2": "SAMARBEJDE?",
     "services": {
-      "01": { "title": "Animation & VFX", "desc": "Filmisk 2D- og 3D-animation, karakterrigs og visuelle effekter til spil og film." },
-      "02": { "title": "Spiludvikling", "desc": "Fuld cyklus-produktion — koncept, art, kode, lyd, launch." },
-      "03": { "title": "Concept & Character Art", "desc": "Originale karakterer, væsener, miljøer og rekvisitter, der forankrer dit IP." },
-      "04": { "title": "Cinematic Trailers", "desc": "Historiedrevne trailers, der lancerer spil og franchises." }
+      "01": {
+        "title": "Animation & VFX",
+        "desc": "Filmisk 2D- og 3D-animation, karakterrigs og visuelle effekter til spil og film."
+      },
+      "02": {
+        "title": "Spiludvikling",
+        "desc": "Fuld cyklus-produktion — koncept, art, kode, lyd, launch."
+      },
+      "03": {
+        "title": "Concept & Character Art",
+        "desc": "Originale karakterer, væsener, miljøer og rekvisitter, der forankrer dit IP."
+      },
+      "04": {
+        "title": "Cinematic Trailers",
+        "desc": "Historiedrevne trailers, der lancerer spil og franchises."
+      }
     },
     "showcase": {
-      "character": { "tag": "Karakter", "title": "Nova Vanguard" },
-      "gameArt": { "tag": "Game Art", "title": "Lumen Worlds" },
-      "animation2d": { "tag": "2D-animation", "title": "Neon Skyline" },
-      "cinematic": { "tag": "Cinematic", "title": "Iron Sentinel" },
-      "creature": { "tag": "Væsen", "title": "Abyss Drake" },
-      "motion": { "tag": "Motion", "title": "Pulse" }
+      "character": {
+        "tag": "3D Animation",
+        "title": "3D Animation"
+      },
+      "gameArt": {
+        "tag": "Game Environment",
+        "title": "Game Environment"
+      },
+      "animation2d": {
+        "tag": "Game Environment",
+        "title": "Game Environment"
+      },
+      "cinematic": {
+        "tag": "VFX",
+        "title": "VFX"
+      },
+      "creature": {
+        "tag": "3D",
+        "title": "Industrial Animation"
+      },
+      "motion": {
+        "tag": "3D",
+        "title": "Product Animation"
+      }
     }
   },
   "trustedBy": {
@@ -138,13 +168,34 @@
     "ctaDesc": "Fortæl os din vision — vi bringer kraften.",
     "ctaButton": "Kontakt os",
     "items": {
-      "2d": { "title": "2D-animation", "desc": "Frame-by-frame og rigget 2D til serier, kortfilm, explainers og spil. Vi blander klassisk håndværk med digitale pipelines." },
-      "3d": { "title": "3D-animation", "desc": "Stiliseret og fotorealistisk 3D — karakterer, miljøer og fulde filmsekvenser med feature-kvalitet." },
-      "game": { "title": "Spiludvikling", "desc": "Spilproduktion fra start til slut: koncept, art, kode, lyd og launch. Unreal, Unity og egne pipelines." },
-      "character": { "title": "Karakterdesign", "desc": "Originale karakterer, væsener og concept art, der forankrer dit IP og merch-potentiale." },
-      "motion": { "title": "Motion Graphics", "desc": "Brandmotion, UI-animation, broadcastpakker og explainers med filmisk finish." },
-      "vfx": { "title": "Visuelle effekter (VFX)", "desc": "Compositing, partikeleffekter og CG-integration til spil, film og digitale kampagner." },
-      "trailer": { "title": "Cinematic Trailers", "desc": "Historiedrevne trailers, der lancerer spil, IP og brands med maksimal impact." }
+      "2d": {
+        "title": "2D-animation",
+        "desc": "Frame-by-frame og rigget 2D til serier, kortfilm, explainers og spil. Vi blander klassisk håndværk med digitale pipelines."
+      },
+      "3d": {
+        "title": "3D-animation",
+        "desc": "Stiliseret og fotorealistisk 3D — karakterer, miljøer og fulde filmsekvenser med feature-kvalitet."
+      },
+      "game": {
+        "title": "Spiludvikling",
+        "desc": "Spilproduktion fra start til slut: koncept, art, kode, lyd og launch. Unreal, Unity og egne pipelines."
+      },
+      "character": {
+        "title": "Karakterdesign",
+        "desc": "Originale karakterer, væsener og concept art, der forankrer dit IP og merch-potentiale."
+      },
+      "motion": {
+        "title": "Motion Graphics",
+        "desc": "Brandmotion, UI-animation, broadcastpakker og explainers med filmisk finish."
+      },
+      "vfx": {
+        "title": "Visuelle effekter (VFX)",
+        "desc": "Compositing, partikeleffekter og CG-integration til spil, film og digitale kampagner."
+      },
+      "trailer": {
+        "title": "Cinematic Trailers",
+        "desc": "Historiedrevne trailers, der lancerer spil, IP og brands med maksimal impact."
+      }
     }
   },
   "aboutPage": {
@@ -159,10 +210,22 @@
     "valuesLabel": "Kerneværdier",
     "valuesTitle": "HVAD DRIVER OS",
     "values": {
-      "imagination": { "title": "Fantasien først", "desc": "Hvert projekt starter med en dristig idé og et blankt lærred." },
-      "craft": { "title": "Håndværksbesatte", "desc": "Frame for frame, pixel for pixel — kvalitet er ikke til forhandling." },
-      "energy": { "title": "Filmisk energi", "desc": "Vi jagter gåsehuden. Hvis det ikke rører os, finpudser vi." },
-      "story": { "title": "Historiedrevne", "desc": "Teknik tjener historien. Altid." }
+      "imagination": {
+        "title": "Fantasien først",
+        "desc": "Hvert projekt starter med en dristig idé og et blankt lærred."
+      },
+      "craft": {
+        "title": "Håndværksbesatte",
+        "desc": "Frame for frame, pixel for pixel — kvalitet er ikke til forhandling."
+      },
+      "energy": {
+        "title": "Filmisk energi",
+        "desc": "Vi jagter gåsehuden. Hvis det ikke rører os, finpudser vi."
+      },
+      "story": {
+        "title": "Historiedrevne",
+        "desc": "Teknik tjener historien. Altid."
+      }
     },
     "stats": {
       "projects": "Leverede projekter",
@@ -209,12 +272,36 @@
     "title2": "FOLIO",
     "subtitle": "Et glimt af de verdener, karakterer og historier, vi har hjulpet med at vække til live.",
     "projects": {
-      "trailer": { "tag": "Cinematic Trailer", "title": "Iron Sentinel", "desc": "AAA-spil launch-trailer." },
-      "character": { "tag": "Karakterdesign", "title": "Nova Vanguard", "desc": "Hovedkarakter sheet." },
-      "game": { "tag": "Game Art", "title": "Lumen Worlds", "desc": "Open world-miljøkunst." },
-      "2d": { "tag": "2D-animation", "title": "Neon Skyline", "desc": "Anime-inspireret pilotafsnit." },
-      "creature": { "tag": "Væsendesign", "title": "Crystal Wyrm", "desc": "Boss-væsen koncept." },
-      "motion": { "tag": "Motion Graphics", "title": "Pulse Identity", "desc": "Brand motion system." }
+      "trailer": {
+        "tag": "Cinematic Trailer",
+        "title": "Iron Sentinel",
+        "desc": "AAA-spil launch-trailer."
+      },
+      "character": {
+        "tag": "Karakterdesign",
+        "title": "Nova Vanguard",
+        "desc": "Hovedkarakter sheet."
+      },
+      "game": {
+        "tag": "Game Art",
+        "title": "Lumen Worlds",
+        "desc": "Open world-miljøkunst."
+      },
+      "2d": {
+        "tag": "2D-animation",
+        "title": "Neon Skyline",
+        "desc": "Anime-inspireret pilotafsnit."
+      },
+      "creature": {
+        "tag": "Væsendesign",
+        "title": "Crystal Wyrm",
+        "desc": "Boss-væsen koncept."
+      },
+      "motion": {
+        "tag": "Motion Graphics",
+        "title": "Pulse Identity",
+        "desc": "Brand motion system."
+      }
     }
   },
   "blogPage": {
