@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 import type { WorkCategory } from "@/types/portfolio-works";
 
@@ -10,6 +11,8 @@ type CategoryCardProps = {
 };
 
 export function CategoryCard({ category, index = 0 }: CategoryCardProps) {
+  const { t } = useTranslation();
+
   return (
     <motion.article
       initial={{ opacity: 0, y: 24 }}
@@ -35,7 +38,7 @@ export function CategoryCard({ category, index = 0 }: CategoryCardProps) {
         <div className="absolute inset-x-0 bottom-0 flex items-end justify-between p-6">
           <div>
             <p className="font-display text-[10px] uppercase tracking-widest text-neon-green">
-              {category.clients.length} clients
+              {t("works.clientsCount", { count: category.clients.length })}
             </p>
             <h3 className="mt-1 font-display text-3xl tracking-tight md:text-4xl">{category.title}</h3>
             <p className="mt-2 max-w-md text-sm text-muted-foreground">{category.tagline}</p>

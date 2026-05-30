@@ -386,5 +386,87 @@
   },
   "logoMarquee": {
     "logoAlt": "شعار {{brand}}"
+  },
+  "works": {
+    "breadcrumbLabel": "Breadcrumb",
+    "breadcrumbHome": "Home",
+    "breadcrumbWorks": "أعمال مختارة",
+    "clientsTitle": "عملاء عملنا معهم",
+    "clientsCount": "{{count}} عميل",
+    "projectsCompleted": "{{count}} مشروع مكتمل",
+    "timeline": "Timeline",
+    "services": "Services provided",
+    "tools": "Tools & software",
+    "searchPlaceholder": "Search projects…",
+    "filterYear": "Filter by year",
+    "allYears": "All years",
+    "noClients": "No clients in this category yet.",
+    "noProjects": "No projects match your filters.",
+    "projectsTitle": "نماذج المشاريع",
+    "relatedProjects": "Related projects",
+    "closePreview": "إغلاق المعاينة",
+    "ctaScript": "جاهزون عندما تكون أنت —",
+    "ctaTitle": "ابدأ مشروعك معنا",
+    "ctaDesc": "أخبرنا عن علامتك وجدولك وأهدافك.",
+    "ctaButton": "ابدأ مشروعًا",
+    "portfolioHubDesc": "استكشف الأعمال حسب الفئة — رسوم متحركة ومؤثرات بصرية وحركة والمزيد.",
+    "categories": {
+      "2d-animation": {
+        "title": "رسوم متحركة ثنائية الأبعاد",
+        "tagline": "Frame-by-frame craft for campaigns and series",
+        "description": "Character-driven 2D animation for commercials, explainers, and episodic content with bold motion and cinematic timing."
+      },
+      "3d-animation": {
+        "title": "رسوم متحركة ثلاثية الأبعاد",
+        "tagline": "Photoreal and stylized 3D for brands and film",
+        "description": "Product, character, and environment animation with cinematic lighting, physics, and premium finish."
+      },
+      "motion-graphics": {
+        "title": "Game Environment",
+        "tagline": "Immersive worlds and playable spaces in motion",
+        "description": "Design-led motion systems for launches, dashboards, and brand worlds that scale across channels."
+      },
+      "video-editing": {
+        "title": "Product Animation",
+        "tagline": "Photoreal product films and cinematic packshots",
+        "description": "Editorial finishing, rhythm, and story structure for commercials, documentaries, and brand films."
+      },
+      "vfx": {
+        "title": "المؤثرات البصرية (VFX)",
+        "tagline": "Compositing, FX, and cinematic finishing",
+        "description": "Visual effects for trailers, product films, and branded content — from cleanups to full CG integration."
+      },
+      "branding": {
+        "title": "Industrial Animation",
+        "tagline": "Technical storytelling for products and manufacturing",
+        "description": "Brand films, identity motion, and launch assets that define how audiences remember your name."
+      }
+    },
+    "showcase": {
+      "2d-animation": {
+        "tag": "رسوم متحركة ثنائية الأبعاد",
+        "title": "رسوم متحركة ثنائية الأبعاد"
+      },
+      "3d-animation": {
+        "tag": "رسوم متحركة ثلاثية الأبعاد",
+        "title": "رسوم متحركة ثلاثية الأبعاد"
+      },
+      "motion-graphics": {
+        "tag": "Game Environment",
+        "title": "Game Environment"
+      },
+      "video-editing": {
+        "tag": "3D",
+        "title": "Product Animation"
+      },
+      "vfx": {
+        "tag": "المؤثرات البصرية (VFX)",
+        "title": "المؤثرات البصرية (VFX)"
+      },
+      "branding": {
+        "tag": "3D",
+        "title": "Industrial Animation"
+      }
+    }
   }
 }

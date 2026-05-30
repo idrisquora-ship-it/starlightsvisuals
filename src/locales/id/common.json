@@ -386,5 +386,87 @@
   },
   "logoMarquee": {
     "logoAlt": "Logo {{brand}}"
+  },
+  "works": {
+    "breadcrumbLabel": "Breadcrumb",
+    "breadcrumbHome": "Home",
+    "breadcrumbWorks": "Karya terpilih",
+    "clientsTitle": "Klien yang pernah kami garap",
+    "clientsCount": "{{count}} klien",
+    "projectsCompleted": "{{count}} proyek selesai",
+    "timeline": "Timeline",
+    "services": "Services provided",
+    "tools": "Tools & software",
+    "searchPlaceholder": "Search projects…",
+    "filterYear": "Filter by year",
+    "allYears": "All years",
+    "noClients": "No clients in this category yet.",
+    "noProjects": "No projects match your filters.",
+    "projectsTitle": "Contoh proyek",
+    "relatedProjects": "Related projects",
+    "closePreview": "Tutup pratinjau",
+    "ctaScript": "Siap saat Anda siap —",
+    "ctaTitle": "Mulai proyek Anda bersama kami",
+    "ctaDesc": "Ceritakan brand, timeline, dan tujuan Anda.",
+    "ctaButton": "Mulai proyek",
+    "portfolioHubDesc": "Jelajahi karya per kategori — animasi, VFX, motion, dan lainnya.",
+    "categories": {
+      "2d-animation": {
+        "title": "Animasi 2D",
+        "tagline": "Frame-by-frame craft for campaigns and series",
+        "description": "Character-driven 2D animation for commercials, explainers, and episodic content with bold motion and cinematic timing."
+      },
+      "3d-animation": {
+        "title": "Animasi 3D",
+        "tagline": "Photoreal and stylized 3D for brands and film",
+        "description": "Product, character, and environment animation with cinematic lighting, physics, and premium finish."
+      },
+      "motion-graphics": {
+        "title": "Game Environment",
+        "tagline": "Immersive worlds and playable spaces in motion",
+        "description": "Design-led motion systems for launches, dashboards, and brand worlds that scale across channels."
+      },
+      "video-editing": {
+        "title": "Product Animation",
+        "tagline": "Photoreal product films and cinematic packshots",
+        "description": "Editorial finishing, rhythm, and story structure for commercials, documentaries, and brand films."
+      },
+      "vfx": {
+        "title": "Visual Effects (VFX)",
+        "tagline": "Compositing, FX, and cinematic finishing",
+        "description": "Visual effects for trailers, product films, and branded content — from cleanups to full CG integration."
+      },
+      "branding": {
+        "title": "Industrial Animation",
+        "tagline": "Technical storytelling for products and manufacturing",
+        "description": "Brand films, identity motion, and launch assets that define how audiences remember your name."
+      }
+    },
+    "showcase": {
+      "2d-animation": {
+        "tag": "Animasi 2D",
+        "title": "Animasi 2D"
+      },
+      "3d-animation": {
+        "tag": "Animasi 3D",
+        "title": "Animasi 3D"
+      },
+      "motion-graphics": {
+        "tag": "Game Environment",
+        "title": "Game Environment"
+      },
+      "video-editing": {
+        "tag": "3D",
+        "title": "Product Animation"
+      },
+      "vfx": {
+        "tag": "Visual Effects (VFX)",
+        "title": "Visual Effects (VFX)"
+      },
+      "branding": {
+        "tag": "3D",
+        "title": "Industrial Animation"
+      }
+    }
   }
 }

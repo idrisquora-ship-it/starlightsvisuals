@@ -386,5 +386,87 @@
   },
   "logoMarquee": {
     "logoAlt": "{{brand}} लोगो"
+  },
+  "works": {
+    "breadcrumbLabel": "Breadcrumb",
+    "breadcrumbHome": "Home",
+    "breadcrumbWorks": "चयनित कार्य",
+    "clientsTitle": "जिन क्लाइंट्स के साथ हमने काम किया",
+    "clientsCount": "{{count}} क्लाइंट",
+    "projectsCompleted": "{{count}} पूर्ण प्रोजेक्ट",
+    "timeline": "Timeline",
+    "services": "Services provided",
+    "tools": "Tools & software",
+    "searchPlaceholder": "Search projects…",
+    "filterYear": "Filter by year",
+    "allYears": "All years",
+    "noClients": "No clients in this category yet.",
+    "noProjects": "No projects match your filters.",
+    "projectsTitle": "प्रोजेक्ट नमूने",
+    "relatedProjects": "Related projects",
+    "closePreview": "पूर्वावलोकन बंद करें",
+    "ctaScript": "जब आप तैयार हों —",
+    "ctaTitle": "हमारे साथ अपना प्रोजेक्ट शुरू करें",
+    "ctaDesc": "अपने ब्रांड, समयसीमा और लक्ष्यों के बारे में बताएं।",
+    "ctaButton": "प्रोजेक्ट शुरू करें",
+    "portfolioHubDesc": "श्रेणी के अनुसार कार्य देखें — एनिमेशन, VFX, मोशन और अधिक।",
+    "categories": {
+      "2d-animation": {
+        "title": "2D एनिमेशन",
+        "tagline": "Frame-by-frame craft for campaigns and series",
+        "description": "Character-driven 2D animation for commercials, explainers, and episodic content with bold motion and cinematic timing."
+      },
+      "3d-animation": {
+        "title": "3D एनिमेशन",
+        "tagline": "Photoreal and stylized 3D for brands and film",
+        "description": "Product, character, and environment animation with cinematic lighting, physics, and premium finish."
+      },
+      "motion-graphics": {
+        "title": "Game Environment",
+        "tagline": "Immersive worlds and playable spaces in motion",
+        "description": "Design-led motion systems for launches, dashboards, and brand worlds that scale across channels."
+      },
+      "video-editing": {
+        "title": "Product Animation",
+        "tagline": "Photoreal product films and cinematic packshots",
+        "description": "Editorial finishing, rhythm, and story structure for commercials, documentaries, and brand films."
+      },
+      "vfx": {
+        "title": "विज़ुअल इफ़ेक्ट्स (VFX)",
+        "tagline": "Compositing, FX, and cinematic finishing",
+        "description": "Visual effects for trailers, product films, and branded content — from cleanups to full CG integration."
+      },
+      "branding": {
+        "title": "Industrial Animation",
+        "tagline": "Technical storytelling for products and manufacturing",
+        "description": "Brand films, identity motion, and launch assets that define how audiences remember your name."
+      }
+    },
+    "showcase": {
+      "2d-animation": {
+        "tag": "2D एनिमेशन",
+        "title": "2D एनिमेशन"
+      },
+      "3d-animation": {
+        "tag": "3D एनिमेशन",
+        "title": "3D एनिमेशन"
+      },
+      "motion-graphics": {
+        "tag": "Game Environment",
+        "title": "Game Environment"
+      },
+      "video-editing": {
+        "tag": "3D",
+        "title": "Product Animation"
+      },
+      "vfx": {
+        "tag": "विज़ुअल इफ़ेक्ट्स (VFX)",
+        "title": "विज़ुअल इफ़ेक्ट्स (VFX)"
+      },
+      "branding": {
+        "tag": "3D",
+        "title": "Industrial Animation"
+      }
+    }
   }
 }

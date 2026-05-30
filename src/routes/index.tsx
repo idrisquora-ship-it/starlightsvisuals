@@ -8,7 +8,7 @@ import { TrustedBySection } from "@/components/TrustedBySection";
 import { VideoTestimonialsSection } from "@/components/VideoTestimonialsSection";
 import { HeroBackgroundVideo } from "@/components/HeroBackgroundVideo";
 import { SelectedWorkCard } from "@/components/works/SelectedWorkCard";
-import { showcaseCategories } from "@/data/portfolio-works";
+import { useLocalizedShowcaseCategories } from "@/hooks/use-localized-works";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 
 export const Route = createFileRoute("/")({
@@ -32,6 +32,7 @@ export const Route = createFileRoute("/")({
 
 function Home() {
   const { t } = useTranslation();
+  const showcaseCategories = useLocalizedShowcaseCategories();
 
   const services = useMemo(
     () => [

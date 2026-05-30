@@ -5,7 +5,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { SectionReveal } from "@/components/SectionReveal";
 import { CategoryCard } from "@/components/works/CategoryCard";
 import { WorksCta } from "@/components/works/WorksCta";
-import { getAllCategories } from "@/lib/portfolio-works";
+import { useLocalizedCategories } from "@/hooks/use-localized-works";
 
 export const Route = createFileRoute("/portfolio")({
   head: () => ({
@@ -28,7 +28,7 @@ export const Route = createFileRoute("/portfolio")({
 
 function PortfolioPage() {
   const { t } = useTranslation();
-  const categories = getAllCategories();
+  const categories = useLocalizedCategories();
 
   return (
     <div className="min-h-screen bg-background text-foreground">

@@ -9,6 +9,7 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { SectionReveal } from "@/components/SectionReveal";
 import { ProjectLightbox } from "@/components/works/ProjectLightbox";
 import { getCategory, getClient } from "@/lib/portfolio-works";
+import { useLocalizedClient } from "@/hooks/use-localized-works";
 import type { WorkProject } from "@/types/portfolio-works";
 
 export const Route = createFileRoute("/works/$category/$client")({
@@ -34,7 +35,8 @@ export const Route = createFileRoute("/works/$category/$client")({
 
 function ClientProjectsPage() {
   const { t } = useTranslation();
-  const { client } = Route.useLoaderData();
+  const { category: staticCategory, client: staticClient } = Route.useLoaderData();
+  const client = useLocalizedClient(staticCategory.slug, staticClient.slug) ?? staticClient;
   const [lightboxProject, setLightboxProject] = useState<WorkProject | null>(null);
 
   return (

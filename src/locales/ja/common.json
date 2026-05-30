@@ -386,5 +386,87 @@
   },
   "logoMarquee": {
     "logoAlt": "{{brand}} ロゴ"
+  },
+  "works": {
+    "breadcrumbLabel": "Breadcrumb",
+    "breadcrumbHome": "Home",
+    "breadcrumbWorks": "厳選作品",
+    "clientsTitle": "これまでにご一緒したクライアント",
+    "clientsCount": "{{count}}社のクライアント",
+    "projectsCompleted": "{{count}}件のプロジェクト完了",
+    "timeline": "Timeline",
+    "services": "Services provided",
+    "tools": "Tools & software",
+    "searchPlaceholder": "Search projects…",
+    "filterYear": "Filter by year",
+    "allYears": "All years",
+    "noClients": "No clients in this category yet.",
+    "noProjects": "No projects match your filters.",
+    "projectsTitle": "プロジェクトサンプル",
+    "relatedProjects": "Related projects",
+    "closePreview": "プレビューを閉じる",
+    "ctaScript": "準備ができたら —",
+    "ctaTitle": "私たちとプロジェクトを始めましょう",
+    "ctaDesc": "ブランド、スケジュール、目標をお聞かせください。",
+    "ctaButton": "プロジェクトを始める",
+    "portfolioHubDesc": "カテゴリー別に作品を探索 — アニメーション、VFX、モーションなど。",
+    "categories": {
+      "2d-animation": {
+        "title": "2Dアニメーション",
+        "tagline": "Frame-by-frame craft for campaigns and series",
+        "description": "Character-driven 2D animation for commercials, explainers, and episodic content with bold motion and cinematic timing."
+      },
+      "3d-animation": {
+        "title": "3Dアニメーション",
+        "tagline": "Photoreal and stylized 3D for brands and film",
+        "description": "Product, character, and environment animation with cinematic lighting, physics, and premium finish."
+      },
+      "motion-graphics": {
+        "title": "Game Environment",
+        "tagline": "Immersive worlds and playable spaces in motion",
+        "description": "Design-led motion systems for launches, dashboards, and brand worlds that scale across channels."
+      },
+      "video-editing": {
+        "title": "Product Animation",
+        "tagline": "Photoreal product films and cinematic packshots",
+        "description": "Editorial finishing, rhythm, and story structure for commercials, documentaries, and brand films."
+      },
+      "vfx": {
+        "title": "ビジュアルエフェクト (VFX)",
+        "tagline": "Compositing, FX, and cinematic finishing",
+        "description": "Visual effects for trailers, product films, and branded content — from cleanups to full CG integration."
+      },
+      "branding": {
+        "title": "Industrial Animation",
+        "tagline": "Technical storytelling for products and manufacturing",
+        "description": "Brand films, identity motion, and launch assets that define how audiences remember your name."
+      }
+    },
+    "showcase": {
+      "2d-animation": {
+        "tag": "2Dアニメーション",
+        "title": "2Dアニメーション"
+      },
+      "3d-animation": {
+        "tag": "3Dアニメーション",
+        "title": "3Dアニメーション"
+      },
+      "motion-graphics": {
+        "tag": "Game Environment",
+        "title": "Game Environment"
+      },
+      "video-editing": {
+        "tag": "3D",
+        "title": "Product Animation"
+      },
+      "vfx": {
+        "tag": "ビジュアルエフェクト (VFX)",
+        "title": "ビジュアルエフェクト (VFX)"
+      },
+      "branding": {
+        "tag": "3D",
+        "title": "Industrial Animation"
+      }
+    }
   }
 }

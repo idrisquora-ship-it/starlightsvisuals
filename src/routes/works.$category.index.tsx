@@ -10,6 +10,7 @@ import { WorksBreadcrumb } from "@/components/works/WorksBreadcrumb";
 import { WorksCta } from "@/components/works/WorksCta";
 import type { WorkCategorySlug } from "@/data/portfolio-works";
 import { getCategory } from "@/lib/portfolio-works";
+import { useLocalizedCategory } from "@/hooks/use-localized-works";
 
 export const Route = createFileRoute("/works/$category/")({
   loader: ({ params }) => {
@@ -33,7 +34,8 @@ export const Route = createFileRoute("/works/$category/")({
 
 function CategoryClientsPage() {
   const { t } = useTranslation();
-  const { category } = Route.useLoaderData();
+  const { category: staticCategory } = Route.useLoaderData();
+  const category = useLocalizedCategory(staticCategory.slug) ?? staticCategory;
   const slug = category.slug as WorkCategorySlug;
 
   return (
