@@ -70,7 +70,7 @@ export function SiteHeader() {
         id="site-sidebar"
         style={{ width: sidebarWidth }}
         className={cn(
-          "fixed left-0 top-0 z-50 flex h-screen flex-col justify-between border-r border-black/10 bg-white px-6 py-8 text-black transition-transform duration-300 ease-out md:px-7",
+          "fixed left-0 top-0 z-50 flex h-screen flex-col justify-between border-r border-border/40 bg-background/95 px-6 py-8 backdrop-blur transition-transform duration-300 ease-out md:px-7",
           sidebarVisible ? "translate-x-0" : "-translate-x-full",
           !sidebarVisible && "pointer-events-none",
         )}
@@ -84,7 +84,7 @@ export function SiteHeader() {
               type="button"
               onClick={closeMobile}
               aria-label={t("header.closeMenu")}
-              className="shrink-0 rounded border border-black/15 p-2 text-black transition hover:border-neon-green hover:text-neon-green"
+              className="shrink-0 rounded border border-border p-2 text-foreground transition hover:border-neon-green hover:text-neon-green"
             >
               <X className="h-4 w-4" aria-hidden />
             </button>
@@ -97,8 +97,8 @@ export function SiteHeader() {
               key={n.to}
               to={n.to}
               onClick={closeMobile}
-              className="group relative font-display text-sm uppercase tracking-widest text-black/75 transition hover:text-black"
-              activeProps={{ className: "text-black" }}
+              className="group relative font-display text-sm uppercase tracking-widest text-foreground/80 transition hover:text-foreground"
+              activeProps={{ className: "text-foreground" }}
             >
               <span className="relative inline-block">
                 {n.label}
@@ -109,8 +109,11 @@ export function SiteHeader() {
         </nav>
 
         <div className="relative z-10 space-y-4">
-          <LanguageSwitcher menuPlacement="top" theme="light" />
-          <div className="text-[10px] uppercase tracking-[0.25em] text-black/45">
+          <LanguageSwitcher
+            menuPlacement="top"
+            className="w-full [&>button]:w-full [&>button]:justify-between"
+          />
+          <div className="text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
             © {new Date().getFullYear()}
           </div>
         </div>
