@@ -15,8 +15,10 @@ import { Route as ContactRouteImport } from './routes/contact'
 import { Route as BlogRouteImport } from './routes/blog'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as BlogIndexRouteImport } from './routes/blog.index'
 import { Route as WorksCategoryRouteImport } from './routes/works.$category'
 import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
+import { Route as WorksCategoryIndexRouteImport } from './routes/works.$category.index'
 import { Route as WorksCategoryClientRouteImport } from './routes/works.$category.$client'
 
 const ServicesRoute = ServicesRouteImport.update({
@@ -49,6 +51,11 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const BlogIndexRoute = BlogIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => BlogRoute,
+} as any)
 const WorksCategoryRoute = WorksCategoryRouteImport.update({
   id: '/works/$category',
   path: '/works/$category',
@@ -58,6 +65,11 @@ const BlogSlugRoute = BlogSlugRouteImport.update({
   id: '/$slug',
   path: '/$slug',
   getParentRoute: () => BlogRoute,
+} as any)
+const WorksCategoryIndexRoute = WorksCategoryIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => WorksCategoryRoute,
 } as any)
 const WorksCategoryClientRoute = WorksCategoryClientRouteImport.update({
   id: '/$client',
@@ -74,18 +86,20 @@ export interface FileRoutesByFullPath {
   '/services': typeof ServicesRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/works/$category': typeof WorksCategoryRouteWithChildren
+  '/blog/': typeof BlogIndexRoute
   '/works/$category/$client': typeof WorksCategoryClientRoute
+  '/works/$category/': typeof WorksCategoryIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
-  '/blog': typeof BlogRouteWithChildren
   '/contact': typeof ContactRoute
   '/portfolio': typeof PortfolioRoute
   '/services': typeof ServicesRoute
   '/blog/$slug': typeof BlogSlugRoute
-  '/works/$category': typeof WorksCategoryRouteWithChildren
+  '/blog': typeof BlogIndexRoute
   '/works/$category/$client': typeof WorksCategoryClientRoute
+  '/works/$category': typeof WorksCategoryIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -97,7 +111,9 @@ export interface FileRoutesById {
   '/services': typeof ServicesRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/works/$category': typeof WorksCategoryRouteWithChildren
+  '/blog/': typeof BlogIndexRoute
   '/works/$category/$client': typeof WorksCategoryClientRoute
+  '/works/$category/': typeof WorksCategoryIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -110,18 +126,20 @@ export interface FileRouteTypes {
     | '/services'
     | '/blog/$slug'
     | '/works/$category'
+    | '/blog/'
     | '/works/$category/$client'
+    | '/works/$category/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
     | '/about'
-    | '/blog'
     | '/contact'
     | '/portfolio'
     | '/services'
     | '/blog/$slug'
-    | '/works/$category'
+    | '/blog'
     | '/works/$category/$client'
+    | '/works/$category'
   id:
     | '__root__'
     | '/'
@@ -132,7 +150,9 @@ export interface FileRouteTypes {
     | '/services'
     | '/blog/$slug'
     | '/works/$category'
+    | '/blog/'
     | '/works/$category/$client'
+    | '/works/$category/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -189,6 +209,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/blog/': {
+      id: '/blog/'
+      path: '/'
+      fullPath: '/blog/'
+      preLoaderRoute: typeof BlogIndexRouteImport
+      parentRoute: typeof BlogRoute
+    }
     '/works/$category': {
       id: '/works/$category'
       path: '/works/$category'
@@ -203,6 +230,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BlogSlugRouteImport
       parentRoute: typeof BlogRoute
     }
+    '/works/$category/': {
+      id: '/works/$category/'
+      path: '/'
+      fullPath: '/works/$category/'
+      preLoaderRoute: typeof WorksCategoryIndexRouteImport
+      parentRoute: typeof WorksCategoryRoute
+    }
     '/works/$category/$client': {
       id: '/works/$category/$client'
       path: '/$client'
@@ -215,20 +249,24 @@ declare module '@tanstack/react-router' {
 
 interface BlogRouteChildren {
   BlogSlugRoute: typeof BlogSlugRoute
+  BlogIndexRoute: typeof BlogIndexRoute
 }
 
 const BlogRouteChildren: BlogRouteChildren = {
   BlogSlugRoute: BlogSlugRoute,
+  BlogIndexRoute: BlogIndexRoute,
 }
 
 const BlogRouteWithChildren = BlogRoute._addFileChildren(BlogRouteChildren)
 
 interface WorksCategoryRouteChildren {
   WorksCategoryClientRoute: typeof WorksCategoryClientRoute
+  WorksCategoryIndexRoute: typeof WorksCategoryIndexRoute
 }
 
 const WorksCategoryRouteChildren: WorksCategoryRouteChildren = {
   WorksCategoryClientRoute: WorksCategoryClientRoute,
+  WorksCategoryIndexRoute: WorksCategoryIndexRoute,
 }
 
 const WorksCategoryRouteWithChildren = WorksCategoryRoute._addFileChildren(

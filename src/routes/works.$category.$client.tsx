@@ -132,6 +132,7 @@ function ClientProjectsPage() {
       </motion.section>
 
       <SectionReveal as="section" className="mx-auto max-w-7xl px-6 py-14 md:px-14">
+        <h2 className="font-display text-3xl tracking-tight md:text-4xl">{t("works.projectsTitle")}</h2>
         <WorksFilters query={query} onQueryChange={setQuery} year={year} onYearChange={setYear} years={years} />
 
         {filtered.length === 0 ? (

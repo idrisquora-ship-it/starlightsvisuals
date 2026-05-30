@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
-import { blogPosts, getBlogPost } from "@/data/blog-posts";
+import { getBlogPost } from "@/data/blog-posts";
 import { useLocalizedBlogPost, useLocalizedBlogPosts } from "@/hooks/use-localized-blog";
 
 export const Route = createFileRoute("/blog/$slug")({
@@ -34,9 +34,7 @@ export const Route = createFileRoute("/blog/$slug")({
 
 function BlogPostPage() {
   const { t } = useTranslation();
-  const { post: staticPost } = Route.useLoaderData() as {
-    post: NonNullable<ReturnType<typeof getBlogPost>>;
-  };
+  const { post: staticPost } = Route.useLoaderData();
   const post = useLocalizedBlogPost(staticPost.slug) ?? staticPost;
   const allPosts = useLocalizedBlogPosts();
 
@@ -49,9 +47,9 @@ function BlogPostPage() {
           <img
             src={post.image}
             alt=""
-            className="absolute inset-0 -z-10 h-full w-full object-cover opacity-25"
+            className="absolute inset-0 -z-10 h-full w-full object-cover opacity-30"
           />
-          <div className="absolute inset-0 -z-10 bg-background/80" />
+          <div className="absolute inset-0 -z-10 bg-background/75" />
           <div className="absolute inset-0 -z-10 grid-bg opacity-40" />
           <div className="mx-auto max-w-3xl px-6 py-20 md:py-28">
             <Link
@@ -63,25 +61,43 @@ function BlogPostPage() {
             <p className="mt-8 font-display text-[10px] uppercase tracking-widest text-neon-green">
               {post.category}
             </p>
-            <h1 className="mt-4 font-display text-4xl tracking-tight text-balance md:text-5xl">
+            <h1 className="mt-4 font-display text-4xl tracking-tight text-balance md:text-5xl lg:text-6xl">
               {post.title}
             </h1>
-            <p className="mt-4 text-sm text-muted-foreground">
-              {post.date} · {post.readTime}
+            <p className="mt-6 text-sm text-muted-foreground">
+              {post.date} · {post.readTime} · {post.author}
             </p>
           </div>
         </header>
 
         <div className="mx-auto max-w-3xl px-6 py-16 md:py-20">
-          <p className="text-lg leading-relaxed text-muted-foreground">{post.excerpt}</p>
-          <div className="mt-10 space-y-6 text-base leading-relaxed text-foreground/90">
-            <p>{t("blogPage.postBody1", { category: post.category.toLowerCase() })}</p>
-            <p>{t("blogPage.postBody2")}</p>
-            <p>{t("blogPage.postBody3")}</p>
+          <p className="text-xl leading-relaxed text-foreground/95 md:text-2xl">{post.excerpt}</p>
+
+          <div className="mt-12 space-y-12">
+            {post.sections.map((section, index) => (
+              <section key={index}>
+                {section.heading && (
+                  <h2 className="font-display text-2xl tracking-tight text-neon-green md:text-3xl">
+                    {section.heading}
+                  </h2>
+                )}
+                <div className={section.heading ? "mt-5 space-y-5" : "space-y-5"}>
+                  {section.paragraphs.map((paragraph, pIndex) => (
+                    <p
+                      key={pIndex}
+                      className="text-base leading-relaxed text-foreground/90 md:text-lg md:leading-relaxed"
+                    >
+                      {paragraph}
+                    </p>
+                  ))}
+                </div>
+              </section>
+            ))}
           </div>
+
           <Link
             to="/contact"
-            className="mt-12 inline-flex items-center justify-center rounded-full bg-neon-green px-8 py-3.5 font-display text-sm uppercase tracking-widest text-background transition hover:glow-blue"
+            className="mt-14 inline-flex items-center justify-center rounded-full bg-neon-green px-8 py-3.5 font-display text-sm uppercase tracking-widest text-background transition hover:glow-blue"
           >
             {t("blogPage.startProject")}
           </Link>
@@ -108,6 +124,7 @@ function BlogPostPage() {
                   <h3 className="mt-2 font-display text-lg tracking-tight group-hover:text-neon-green">
                     {p.title}
                   </h3>
+                  <p className="mt-2 line-clamp-2 text-sm text-muted-foreground">{p.excerpt}</p>
                 </Link>
               ))}
           </div>
