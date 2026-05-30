@@ -25,6 +25,7 @@ import portfolioCreature from "@/assets/portfolio-creature.jpg";
 import portfolioGame from "@/assets/portfolio-game.jpg";
 import portfolioMotion from "@/assets/portfolio-motion.jpg";
 import portfolioTrailer from "@/assets/portfolio-trailer.jpg";
+import heroVideo from "@/assets/hero-background.mp4";
 
 const portfolioImages = [
   portfolio2d,
@@ -53,20 +54,28 @@ function padProjects(
 
   while (padded.length < 5) {
     const i = padded.length;
+    const thumbnail = portfolioImages[i % portfolioImages.length];
     padded.push({
       title: `${clientName} ${sampleTitles[i]}`,
       description:
         seed?.description ??
         `Sample deliverable showcasing our work with ${clientName}.`,
-      thumbnail: portfolioImages[i % portfolioImages.length],
+      thumbnail,
       mediaType: "image",
-      mediaSrc: portfolioImages[i % portfolioImages.length],
+      mediaSrc: thumbnail,
       tags: seed?.tags ?? ["Campaign"],
       year: (seed?.year ?? 2025) - Math.floor(i / 2),
     });
   }
 
-  return projects(padded.slice(0, 5), prefix);
+  return projects(
+    padded.slice(0, 5).map((item, i) => ({
+      ...item,
+      mediaType: i % 2 === 1 ? "video" : "image",
+      mediaSrc: i % 2 === 1 ? heroVideo : item.thumbnail,
+    })),
+    prefix,
+  );
 }
 
 export type WorkCategorySlug =
