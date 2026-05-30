@@ -26,10 +26,17 @@ export function TranslationPopup() {
   useEffect(() => {
     if (typeof window === "undefined") return;
 
-    const dismissed = localStorage.getItem(POPUP_DISMISSED_KEY);
+    let dismissed: string | null = null;
+    let saved: string | null = null;
+    try {
+      dismissed = localStorage.getItem(POPUP_DISMISSED_KEY);
+      saved = localStorage.getItem("i18nextLng");
+    } catch {
+      return;
+    }
+
     if (dismissed === "true") return;
 
-    const saved = localStorage.getItem("i18nextLng");
     if (saved && saved !== DEFAULT_LANGUAGE) return;
 
     const detected = getDetectedLanguage();
@@ -42,14 +49,22 @@ export function TranslationPopup() {
   }, []);
 
   const dismiss = useCallback(() => {
-    localStorage.setItem(POPUP_DISMISSED_KEY, "true");
+    try {
+      localStorage.setItem(POPUP_DISMISSED_KEY, "true");
+    } catch {
+      /* storage blocked */
+    }
     setVisible(false);
   }, []);
 
   const handleTranslate = useCallback(async () => {
     await loadLocale(detectedCode);
     await i18n.changeLanguage(detectedCode);
-    localStorage.setItem(POPUP_DISMISSED_KEY, "true");
+    try {
+      localStorage.setItem(POPUP_DISMISSED_KEY, "true");
+    } catch {
+      /* storage blocked */
+    }
     setVisible(false);
   }, [detectedCode, i18n]);
 

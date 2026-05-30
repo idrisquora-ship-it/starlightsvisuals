@@ -2,10 +2,15 @@ import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
 import { TranslationPopup } from "@/components/TranslationPopup";
+import { applyStoredLanguage } from "@/i18n";
 import { isRtlLanguage } from "@/i18n/languages";
 
 export function I18nShell({ children }: { children: React.ReactNode }) {
   const { i18n } = useTranslation();
+
+  useEffect(() => {
+    void applyStoredLanguage();
+  }, []);
 
   useEffect(() => {
     const lang = i18n.language?.split("-")[0] ?? "en";

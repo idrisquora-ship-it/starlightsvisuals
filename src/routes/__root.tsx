@@ -44,12 +44,18 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
   console.error(error);
   const router = useRouter();
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background px-4">
+    <div
+      className="flex min-h-screen items-center justify-center bg-[#050505] px-4 text-[#f5f5f5]"
+      style={{ fontFamily: "Inter, system-ui, sans-serif" }}
+    >
       <div className="max-w-md text-center">
-        <h1 className="font-display text-xl tracking-widest text-foreground">
+        <h1
+          className="font-display text-xl tracking-widest text-foreground"
+          style={{ fontFamily: '"Archivo Black", Inter, system-ui, sans-serif' }}
+        >
           {t("errors.systemError")}
         </h1>
-        <p className="mt-2 text-sm text-muted-foreground">{t("errors.tryAgain")}</p>
+        <p className="mt-2 text-sm text-[#a3a3a3]">{t("errors.tryAgain")}</p>
         <div className="mt-6 flex flex-wrap justify-center gap-2">
           <button
             onClick={() => {

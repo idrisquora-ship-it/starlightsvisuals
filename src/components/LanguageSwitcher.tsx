@@ -7,6 +7,7 @@ import { loadLocale } from "@/i18n";
 
 import {
   DEFAULT_LANGUAGE,
+  LANGUAGE_PREFERENCE_KEY,
   supportedLanguages,
   type SupportedLanguage,
 } from "@/i18n/languages";
@@ -38,6 +39,11 @@ function LanguageSwitcherInner({
     async (lang: SupportedLanguage) => {
       await loadLocale(lang.code);
       await i18n.changeLanguage(lang.code);
+      try {
+        localStorage.setItem(LANGUAGE_PREFERENCE_KEY, lang.code);
+      } catch {
+        /* storage blocked */
+      }
       setOpen(false);
     },
     [i18n],
