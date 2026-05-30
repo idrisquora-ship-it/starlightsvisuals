@@ -15,7 +15,9 @@ import { Route as ContactRouteImport } from './routes/contact'
 import { Route as BlogRouteImport } from './routes/blog'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as WorksCategoryRouteImport } from './routes/works.$category'
 import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
+import { Route as WorksCategoryClientRouteImport } from './routes/works.$category.$client'
 
 const ServicesRoute = ServicesRouteImport.update({
   id: '/services',
@@ -47,10 +49,20 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const WorksCategoryRoute = WorksCategoryRouteImport.update({
+  id: '/works/$category',
+  path: '/works/$category',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const BlogSlugRoute = BlogSlugRouteImport.update({
   id: '/$slug',
   path: '/$slug',
   getParentRoute: () => BlogRoute,
+} as any)
+const WorksCategoryClientRoute = WorksCategoryClientRouteImport.update({
+  id: '/$client',
+  path: '/$client',
+  getParentRoute: () => WorksCategoryRoute,
 } as any)
 
 export interface FileRoutesByFullPath {
@@ -61,6 +73,8 @@ export interface FileRoutesByFullPath {
   '/portfolio': typeof PortfolioRoute
   '/services': typeof ServicesRoute
   '/blog/$slug': typeof BlogSlugRoute
+  '/works/$category': typeof WorksCategoryRouteWithChildren
+  '/works/$category/$client': typeof WorksCategoryClientRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -70,6 +84,8 @@ export interface FileRoutesByTo {
   '/portfolio': typeof PortfolioRoute
   '/services': typeof ServicesRoute
   '/blog/$slug': typeof BlogSlugRoute
+  '/works/$category': typeof WorksCategoryRouteWithChildren
+  '/works/$category/$client': typeof WorksCategoryClientRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -80,6 +96,8 @@ export interface FileRoutesById {
   '/portfolio': typeof PortfolioRoute
   '/services': typeof ServicesRoute
   '/blog/$slug': typeof BlogSlugRoute
+  '/works/$category': typeof WorksCategoryRouteWithChildren
+  '/works/$category/$client': typeof WorksCategoryClientRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -91,6 +109,8 @@ export interface FileRouteTypes {
     | '/portfolio'
     | '/services'
     | '/blog/$slug'
+    | '/works/$category'
+    | '/works/$category/$client'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -100,6 +120,8 @@ export interface FileRouteTypes {
     | '/portfolio'
     | '/services'
     | '/blog/$slug'
+    | '/works/$category'
+    | '/works/$category/$client'
   id:
     | '__root__'
     | '/'
@@ -109,6 +131,8 @@ export interface FileRouteTypes {
     | '/portfolio'
     | '/services'
     | '/blog/$slug'
+    | '/works/$category'
+    | '/works/$category/$client'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -118,6 +142,7 @@ export interface RootRouteChildren {
   ContactRoute: typeof ContactRoute
   PortfolioRoute: typeof PortfolioRoute
   ServicesRoute: typeof ServicesRoute
+  WorksCategoryRoute: typeof WorksCategoryRouteWithChildren
 }
 
 declare module '@tanstack/react-router' {
@@ -164,12 +189,26 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/works/$category': {
+      id: '/works/$category'
+      path: '/works/$category'
+      fullPath: '/works/$category'
+      preLoaderRoute: typeof WorksCategoryRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/blog/$slug': {
       id: '/blog/$slug'
       path: '/$slug'
       fullPath: '/blog/$slug'
       preLoaderRoute: typeof BlogSlugRouteImport
       parentRoute: typeof BlogRoute
+    }
+    '/works/$category/$client': {
+      id: '/works/$category/$client'
+      path: '/$client'
+      fullPath: '/works/$category/$client'
+      preLoaderRoute: typeof WorksCategoryClientRouteImport
+      parentRoute: typeof WorksCategoryRoute
     }
   }
 }
@@ -184,6 +223,18 @@ const BlogRouteChildren: BlogRouteChildren = {
 
 const BlogRouteWithChildren = BlogRoute._addFileChildren(BlogRouteChildren)
 
+interface WorksCategoryRouteChildren {
+  WorksCategoryClientRoute: typeof WorksCategoryClientRoute
+}
+
+const WorksCategoryRouteChildren: WorksCategoryRouteChildren = {
+  WorksCategoryClientRoute: WorksCategoryClientRoute,
+}
+
+const WorksCategoryRouteWithChildren = WorksCategoryRoute._addFileChildren(
+  WorksCategoryRouteChildren,
+)
+
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
@@ -191,6 +242,7 @@ const rootRouteChildren: RootRouteChildren = {
   ContactRoute: ContactRoute,
   PortfolioRoute: PortfolioRoute,
   ServicesRoute: ServicesRoute,
+  WorksCategoryRoute: WorksCategoryRouteWithChildren,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

@@ -363,6 +363,28 @@
       }
     }
   },
+  "works": {
+    "breadcrumbLabel": "Breadcrumb",
+    "breadcrumbHome": "Home",
+    "breadcrumbWorks": "Selected Works",
+    "clientsTitle": "Clients We've Worked With",
+    "projectsCompleted": "{{count}} projects completed",
+    "timeline": "Timeline",
+    "services": "Services provided",
+    "tools": "Tools & software",
+    "searchPlaceholder": "Search projects…",
+    "filterYear": "Filter by year",
+    "allYears": "All years",
+    "noClients": "No clients in this category yet.",
+    "noProjects": "No projects match your filters.",
+    "relatedProjects": "Related projects",
+    "closePreview": "Close preview",
+    "ctaScript": "Ready when you are —",
+    "ctaTitle": "Start Your Project With Us",
+    "ctaDesc": "Tell us about your brand, timeline, and goals. We'll map a cinematic path from concept to delivery.",
+    "ctaButton": "Start a project",
+    "portfolioHubDesc": "Explore work by category — animation, VFX, motion, and more."
+  },
   "errors": {
     "notFoundTitle": "SIGNAL LOST",
     "notFoundDesc": "The page you're looking for has drifted into the void.",

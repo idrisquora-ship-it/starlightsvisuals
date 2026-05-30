@@ -7,13 +7,9 @@ import { TextTestimonialsSection } from "@/components/TextTestimonialsSection";
 import { TrustedBySection } from "@/components/TrustedBySection";
 import { VideoTestimonialsSection } from "@/components/VideoTestimonialsSection";
 import { HeroBackgroundVideo } from "@/components/HeroBackgroundVideo";
+import { SelectedWorkCard } from "@/components/works/SelectedWorkCard";
+import { showcaseCategories } from "@/data/portfolio-works";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
-import portfolioCharacter from "@/assets/portfolio-character.jpg";
-import portfolioGame from "@/assets/portfolio-game.jpg";
-import portfolio2d from "@/assets/portfolio-2d.jpg";
-import portfolioTrailer from "@/assets/portfolio-trailer.jpg";
-import portfolioCreature from "@/assets/portfolio-creature.jpg";
-import portfolioMotion from "@/assets/portfolio-motion.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -43,18 +39,6 @@ function Home() {
       { num: "02", title: t("home.services.02.title"), desc: t("home.services.02.desc") },
       { num: "03", title: t("home.services.03.title"), desc: t("home.services.03.desc") },
       { num: "04", title: t("home.services.04.title"), desc: t("home.services.04.desc") },
-    ],
-    [t],
-  );
-
-  const showcase = useMemo(
-    () => [
-      { id: "character", img: portfolioCharacter, tag: t("home.showcase.character.tag"), title: t("home.showcase.character.title") },
-      { id: "gameArt", img: portfolioGame, tag: t("home.showcase.gameArt.tag"), title: t("home.showcase.gameArt.title") },
-      { id: "animation2d", img: portfolio2d, tag: t("home.showcase.animation2d.tag"), title: t("home.showcase.animation2d.title") },
-      { id: "cinematic", img: portfolioTrailer, tag: t("home.showcase.cinematic.tag"), title: t("home.showcase.cinematic.title") },
-      { id: "creature", img: portfolioCreature, tag: t("home.showcase.creature.tag"), title: t("home.showcase.creature.title") },
-      { id: "motion", img: portfolioMotion, tag: t("home.showcase.motion.tag"), title: t("home.showcase.motion.title") },
     ],
     [t],
   );
@@ -164,33 +148,15 @@ function Home() {
           </div>
 
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {showcase.map((item) => (
-              <article
-                key={item.id}
-                className="group relative overflow-hidden border border-border bg-card transition hover:border-neon-green"
-              >
-                <div className="aspect-[4/5] overflow-hidden">
-                  <img
-                    src={item.img}
-                    alt={`${item.tag} ${item.title}`}
-                    width={1024}
-                    height={1024}
-                    loading="lazy"
-                    className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
-                  />
-                </div>
-                <div className="absolute inset-x-0 bottom-0 flex items-end justify-between p-5">
-                  <div>
-                    <p className="font-display text-[10px] uppercase tracking-widest text-neon-green">
-                      {item.tag}
-                    </p>
-                    <h3 className="mt-1 font-display text-2xl tracking-tight text-foreground">
-                      {item.title}
-                    </h3>
-                  </div>
-                  <ArrowUpRight className="h-5 w-5 text-foreground transition group-hover:text-neon-green" />
-                </div>
-              </article>
+            {showcaseCategories.map((item, index) => (
+              <SelectedWorkCard
+                key={item.slug}
+                slug={item.slug}
+                tag={item.tag}
+                title={item.title}
+                coverImage={item.coverImage}
+                index={index}
+              />
             ))}
           </div>
         </div>
