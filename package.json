@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
-    "sync:i18n": "node scripts/sync-i18n-works.mjs",
+    "sync:i18n": "node scripts/sync-i18n-works.mjs && node scripts/sync-i18n-hero.mjs",
     "build:dev": "vite build --mode development",
     "preview": "node .output/server/index.mjs",
     "preview:vite": "vite preview",
