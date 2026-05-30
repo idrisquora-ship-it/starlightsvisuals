@@ -1,11 +1,9 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { X } from "lucide-react";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 
 import type { WorkProject } from "@/types/portfolio-works";
-
-import { PortfolioVideoPlayer } from "@/components/works/PortfolioVideoPlayer";
 
 type ProjectLightboxProps = {
   project: WorkProject | null;
@@ -14,6 +12,7 @@ type ProjectLightboxProps = {
 
 export function ProjectLightbox({ project, onClose }: ProjectLightboxProps) {
   const { t } = useTranslation();
+  const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
     if (!project) return;
@@ -28,6 +27,32 @@ export function ProjectLightbox({ project, onClose }: ProjectLightboxProps) {
       document.body.style.overflow = prev;
     };
   }, [project, onClose]);
+
+  useEffect(() => {
+    if (!project || project.mediaType !== "video") return;
+
+    const video = videoRef.current;
+    if (!video) return;
+
+    video.load();
+
+    const startPlayback = async () => {
+      try {
+        video.muted = true;
+        await video.play();
+        video.muted = false;
+      } catch {
+        /* Native controls remain available */
+      }
+    };
+
+    if (video.readyState >= 2) {
+      void startPlayback();
+      return;
+    }
+
+    video.addEventListener("canplay", () => void startPlayback(), { once: true });
+  }, [project]);
 
   return (
     <AnimatePresence>
@@ -54,17 +79,22 @@ export function ProjectLightbox({ project, onClose }: ProjectLightboxProps) {
             <button
               type="button"
               onClick={onClose}
-              className="absolute right-3 top-3 z-10 rounded-full border border-border bg-background/90 p-2 text-foreground transition hover:border-neon-green hover:text-neon-green"
+              className="absolute right-3 top-3 z-20 rounded-full border border-border bg-background/90 p-2 text-foreground transition hover:border-neon-green hover:text-neon-green"
               aria-label={t("works.closePreview")}
             >
               <X className="h-4 w-4" />
             </button>
             {project.mediaType === "video" ? (
               <div className="aspect-video w-full bg-black">
-                <PortfolioVideoPlayer
+                <video
+                  ref={videoRef}
+                  key={project.mediaSrc}
                   src={project.mediaSrc}
-                  poster={project.thumbnail}
-                  className="object-contain"
+                  controls
+                  autoPlay
+                  playsInline
+                  preload="auto"
+                  className="h-full w-full object-contain"
                 />
               </div>
             ) : (
