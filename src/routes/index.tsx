@@ -51,12 +51,12 @@ function Home() {
         <HeroBackgroundVideo />
 
         <div className="relative z-10 flex min-h-[88vh] flex-col justify-center px-6 pt-20 pb-16 md:px-14 md:pt-28 md:pb-20 lg:max-w-4xl">
-          <div className="pointer-events-none absolute -inset-x-4 -inset-y-6 -z-10 max-w-3xl rounded-3xl bg-background/50 blur-2xl md:-inset-x-8" />
-          <p className="font-script text-3xl text-neon-green drop-shadow-[0_2px_12px_rgba(0,0,0,0.8)]">{t("home.heroScript")}</p>
+          <div className="pointer-events-none absolute -inset-x-4 -inset-y-6 -z-10 max-w-3xl rounded-3xl bg-background/65 blur-3xl md:-inset-x-8" />
+          <p className="font-script text-3xl text-neon-green drop-shadow-[0_2px_16px_rgba(0,0,0,0.95)]">{t("home.heroScript")}</p>
 
-          <h1 className="mt-6 font-display text-[14vw] leading-[0.9] tracking-tight drop-shadow-[0_4px_24px_rgba(0,0,0,0.85)] md:text-[7.5rem] lg:text-[9rem]">
+          <h1 className="mt-6 font-display text-[14vw] leading-[0.9] tracking-tight drop-shadow-[0_4px_32px_rgba(0,0,0,0.95)] md:text-[7.5rem] lg:text-[9rem]">
             <span className="block">{t("home.heroTitle1")}</span>
-            <span className="block text-outline">{t("home.heroTitle2")}</span>
+            <span className="block text-outline [text-shadow:0_4px_32px_rgba(0,0,0,0.95)]">{t("home.heroTitle2")}</span>
           </h1>
 
           <svg
@@ -70,7 +70,7 @@ function Home() {
             <path d="M5 50 C 80 5, 150 90, 230 40 S 380 10, 460 55 S 580 30, 595 45" />
           </svg>
 
-          <p className="mt-10 max-w-lg text-base leading-relaxed text-foreground/90 drop-shadow-[0_2px_12px_rgba(0,0,0,0.75)] md:text-lg">
+          <p className="mt-10 max-w-lg text-base leading-relaxed text-foreground drop-shadow-[0_2px_16px_rgba(0,0,0,0.9)] md:text-lg">
             {t("home.heroBody")}
           </p>
 
