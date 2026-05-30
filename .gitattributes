@@ -1,1 +1,1 @@
-public/portfolio/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
+public/portfolio/ijockey/without-text.mp4 filter=lfs diff=lfs merge=lfs -text

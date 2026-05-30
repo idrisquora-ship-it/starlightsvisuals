@@ -1,8 +1,8 @@
 /** Public portfolio video URLs — served from /public for reliable playback in dev and production. */
 export const ijockeyVideos = {
-  withText: "/portfolio/ijockey/with-text.mp4",
+  withText: "/portfolio/ijockey/branded-web.mp4",
   withoutText: "/portfolio/ijockey/without-text.mp4",
-  showcase: "/portfolio/ijockey/showcase.mp4",
+  showcase: "/portfolio/ijockey/showcase-web.mp4",
 } as const;
 
 export const industrialAnimationVideos = {
