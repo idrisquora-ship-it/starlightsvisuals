@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
 
-import siteLogo from "@/assets/starligh-logo-transparent.png";
+import siteLogo from "@/assets/starlights-logo-transparent.png";
 import { cn } from "@/lib/utils";
 
 type SiteLogoProps = {
@@ -23,11 +23,13 @@ export function SiteLogo({ className, imageClassName, onClick }: SiteLogoProps) 
       <img
         src={siteLogo}
         alt={t("brand.name")}
-        width={320}
-        height={160}
+        width={771}
+        height={625}
         decoding="async"
         className={cn(
-          "h-auto w-[108px] max-w-full object-contain object-left md:w-[120px]",
+          "h-auto w-[132px] max-w-full object-contain object-left",
+          "drop-shadow-[0_0_14px_rgba(76,255,61,0.45)]",
+          "md:w-[148px]",
           imageClassName,
         )}
       />

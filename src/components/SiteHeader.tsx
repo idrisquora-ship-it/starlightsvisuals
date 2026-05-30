@@ -130,7 +130,7 @@ export function SiteHeader() {
       </div>
 
       <header className="sticky top-0 z-40 flex items-center justify-between gap-3 border-b border-border/40 bg-background/80 px-5 py-3 backdrop-blur md:hidden">
-        <SiteLogo imageClassName="w-[92px]" />
+        <SiteLogo imageClassName="w-[112px] drop-shadow-[0_0_12px_rgba(76,255,61,0.4)]" />
         <div className="flex items-center gap-2">
           <LanguageSwitcher />
           <button

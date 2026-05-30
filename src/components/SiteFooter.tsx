@@ -62,7 +62,7 @@ export function SiteFooter() {
 
       <div className="mx-auto grid max-w-7xl gap-10 px-6 py-14 md:grid-cols-4">
         <div className="md:col-span-2">
-          <SiteLogo imageClassName="w-[100px]" />
+          <SiteLogo imageClassName="w-[128px]" />
           <p className="mt-4 max-w-md text-sm text-muted-foreground leading-relaxed">
             {t("footer.tagline")}
           </p>
