@@ -17,7 +17,18 @@ import innermost from "@/assets/brand logo/innermost.png";
 import huya from "@/assets/brand logo/huya.png";
 import snax from "@/assets/brand logo/snax.png";
 import moxeys from "@/assets/brand logo/moxeys.png";
-import swolly from "@/assets/brand logo/swolly.png";
+
+import ijockeyPaper1 from "@/assets/Ijockey portfolio folder/Paper Image 1.jpeg";
+import ijockeyPaper3 from "@/assets/Ijockey portfolio folder/Paper Image 3.jpeg";
+import ijockeyImg0254 from "@/assets/Ijockey portfolio folder/IMG_0254.jpeg";
+import ijockeyImg0253 from "@/assets/Ijockey portfolio folder/IMG_0253.jpeg";
+import ijockeyImg0257 from "@/assets/Ijockey portfolio folder/IMG_0257.jpeg";
+import ijockeyImg0184 from "@/assets/Ijockey portfolio folder/IMG_0184.jpeg";
+import ijockeyImg0183 from "@/assets/Ijockey portfolio folder/IMG_0183 (1).jpeg";
+import ijockeyKeyVisual from "@/assets/Ijockey portfolio folder/4ECE0B8C-A15F-4D74-8EB3-6E24D9223982.jpeg";
+import ijockeyWithText from "@/assets/Ijockey portfolio folder/With text Ijockey.mp4";
+import ijockeyWithoutText from "@/assets/Ijockey portfolio folder/Without text.mp4";
+import ijockeyShowcase from "@/assets/Ijockey portfolio folder/VID-20241114-WA0002.mp4";
 
 import portfolio2d from "@/assets/portfolio-2d.jpg";
 import portfolioCharacter from "@/assets/portfolio-character.jpg";
@@ -96,11 +107,14 @@ function projects(
 function client(
   partial: Omit<WorkClient, "projects"> & { projects: Omit<WorkProject, "id">[] },
   projectPrefix: string,
+  options?: { skipPad?: boolean },
 ): WorkClient {
-  const projectList = padProjects(partial.projects, projectPrefix, partial.name);
+  const projectList = options?.skipPad
+    ? projects(partial.projects, projectPrefix)
+    : padProjects(partial.projects, projectPrefix, partial.name);
   return {
     ...partial,
-    projectCount: Math.max(partial.projectCount, projectList.length),
+    projectCount: options?.skipPad ? projectList.length : Math.max(partial.projectCount, projectList.length),
     projects: projectList,
   };
 }
@@ -641,29 +655,121 @@ export const workCategories: WorkCategory[] = [
       ),
       client(
         {
-          slug: "swolly",
-          name: "Swolly",
-          industry: "Manufacturing",
-          description: "3D industrial animation explaining assembly lines and machinery.",
-          projectCount: 5,
-          logo: swolly,
-          banner: portfolio2d,
-          services: ["Industrial Animation", "Technical Explainer"],
-          timeline: "2022 — 2025",
+          slug: "ijockey",
+          name: "Ijockey",
+          industry: "Consumer Products",
+          description:
+            "3D product animation, paper renders, and branded films for Ijockey's retail and campaign launches.",
+          projectCount: 11,
+          logo: ijockeyImg0254,
+          banner: ijockeyPaper1,
+          services: ["3D Product Animation", "Industrial Render", "Brand Film"],
+          timeline: "2024 — 2025",
           tools: ["Cinema 4D", "Blender", "After Effects"],
           projects: [
             {
-              title: "Assembly Line Explainer",
-              description: "Cutaway factory animation with labeled components and motion.",
-              thumbnail: portfolio2d,
+              title: "Product Paper Render",
+              description: "Studio paper-style product visualization for campaign look development.",
+              thumbnail: ijockeyPaper1,
               mediaType: "image",
-              mediaSrc: portfolio2d,
-              tags: ["Industrial", "Explainer"],
+              mediaSrc: ijockeyPaper1,
+              tags: ["Product", "Render"],
               year: 2025,
+            },
+            {
+              title: "Packaging Concept",
+              description: "Packaging layout and material study for retail shelf presence.",
+              thumbnail: ijockeyPaper3,
+              mediaType: "image",
+              mediaSrc: ijockeyPaper3,
+              tags: ["Packaging", "3D"],
+              year: 2025,
+            },
+            {
+              title: "Studio Product Still",
+              description: "Hero-angle product still with controlled studio lighting.",
+              thumbnail: ijockeyImg0254,
+              mediaType: "image",
+              mediaSrc: ijockeyImg0254,
+              tags: ["Product", "Still"],
+              year: 2025,
+            },
+            {
+              title: "Product Detail Shot",
+              description: "Macro detail render highlighting material and finish.",
+              thumbnail: ijockeyImg0253,
+              mediaType: "image",
+              mediaSrc: ijockeyImg0253,
+              tags: ["Detail", "3D"],
+              year: 2024,
+            },
+            {
+              title: "3D Product Frame",
+              description: "Composed product frame for social and e-commerce use.",
+              thumbnail: ijockeyImg0257,
+              mediaType: "image",
+              mediaSrc: ijockeyImg0257,
+              tags: ["Product", "Campaign"],
+              year: 2024,
+            },
+            {
+              title: "Lifestyle Render",
+              description: "Contextual lifestyle render placing the product in use.",
+              thumbnail: ijockeyImg0184,
+              mediaType: "image",
+              mediaSrc: ijockeyImg0184,
+              tags: ["Lifestyle", "3D"],
+              year: 2024,
+            },
+            {
+              title: "Hero Product Angle",
+              description: "Primary hero angle for launch and paid media placements.",
+              thumbnail: ijockeyImg0183,
+              mediaType: "image",
+              mediaSrc: ijockeyImg0183,
+              tags: ["Hero", "Product"],
+              year: 2024,
+            },
+            {
+              title: "Campaign Key Visual",
+              description: "Key visual render anchoring the Ijockey campaign art direction.",
+              thumbnail: ijockeyKeyVisual,
+              mediaType: "image",
+              mediaSrc: ijockeyKeyVisual,
+              tags: ["Campaign", "Key Visual"],
+              year: 2024,
+            },
+            {
+              title: "Branded Product Film",
+              description: "Branded product animation with on-screen typography and logo treatment.",
+              thumbnail: ijockeyPaper1,
+              mediaType: "video",
+              mediaSrc: ijockeyWithText,
+              tags: ["Film", "Branded"],
+              year: 2024,
+            },
+            {
+              title: "Clean Product Animation",
+              description: "Logo-free product animation for flexible channel versioning.",
+              thumbnail: ijockeyImg0254,
+              mediaType: "video",
+              mediaSrc: ijockeyWithoutText,
+              tags: ["Animation", "Product"],
+              year: 2024,
+            },
+            {
+              title: "Product Showcase",
+              description: "Full product showcase film for retail and digital placements.",
+              thumbnail: ijockeyPaper3,
+              mediaType: "video",
+              mediaSrc: ijockeyShowcase,
+              tags: ["Showcase", "Film"],
+              year: 2024,
             },
           ],
         },
-        "swolly-industrial",
+        "ijockey-industrial",
+        { skipPad: true },
       ),
     ],
   },
