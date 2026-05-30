@@ -1,6 +1,5 @@
 import { createFileRoute, notFound } from "@tanstack/react-router";
 import { motion } from "framer-motion";
-import { Play } from "lucide-react";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
@@ -8,6 +7,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SectionReveal } from "@/components/SectionReveal";
 import { ProjectLightbox } from "@/components/works/ProjectLightbox";
+import { ProjectVideoCard } from "@/components/works/ProjectVideoCard";
 import { getCategory, getClient } from "@/lib/portfolio-works";
 import { useLocalizedClient } from "@/hooks/use-localized-works";
 import type { WorkProject } from "@/types/portfolio-works";
@@ -60,19 +60,7 @@ function ClientProjectsPage() {
               className="group relative aspect-[4/3] cursor-pointer overflow-hidden rounded-xl border border-border/60 bg-card/30 transition hover:border-neon-green/60 hover:shadow-[0_0_24px_-10px_rgba(76,255,61,0.45)]"
             >
               {project.mediaType === "video" ? (
-                <>
-                  <img
-                    src={project.thumbnail}
-                    alt=""
-                    className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
-                    loading="lazy"
-                  />
-                  <div className="absolute inset-0 flex items-center justify-center bg-background/20 transition group-hover:bg-background/10">
-                    <span className="flex h-14 w-14 items-center justify-center rounded-full border border-foreground/30 bg-background/80 backdrop-blur-sm transition group-hover:border-neon-green group-hover:text-neon-green">
-                      <Play className="h-6 w-6 fill-current pl-0.5" />
-                    </span>
-                  </div>
-                </>
+                <ProjectVideoCard src={project.mediaSrc} poster={project.thumbnail} />
               ) : (
                 <img
                   src={project.thumbnail}

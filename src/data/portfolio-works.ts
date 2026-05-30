@@ -9,8 +9,6 @@ import kurk from "@/assets/brand logo/kurk.png";
 import mirrorskin from "@/assets/brand logo/mirrorskin.png";
 import nutrition from "@/assets/brand logo/nutrition.png";
 import bello from "@/assets/brand logo/bello.png";
-import cardigan from "@/assets/brand logo/cardigan.png";
-import scoop from "@/assets/brand logo/scoop.png";
 import saltyface from "@/assets/brand logo/saltyface.png";
 import itsy from "@/assets/brand logo/itsy.png";
 import innermost from "@/assets/brand logo/innermost.png";
@@ -29,6 +27,12 @@ import ijockeyKeyVisual from "@/assets/Ijockey portfolio folder/4ECE0B8C-A15F-4D
 import ijockeyWithText from "@/assets/Ijockey portfolio folder/With text Ijockey.mp4";
 import ijockeyWithoutText from "@/assets/Ijockey portfolio folder/Without text.mp4";
 import ijockeyShowcase from "@/assets/Ijockey portfolio folder/VID-20241114-WA0002.mp4";
+
+import caterpillarBanner from "@/assets/Caterpillar animation portfolio/industrial animation.jpg";
+import caterpillarKeyVisual from "@/assets/Caterpillar animation portfolio/create-realistic-3d-product-animation-industrial-animation-cgi-animation.png";
+import caterpillarFilm from "@/assets/Caterpillar animation portfolio/industrial animation video.mp4";
+import caterpillarCgiFilm from "@/assets/Caterpillar animation portfolio/create-realistic-3d-product-animation-industrial-animation-cgi-animation (1).mp4";
+import caterpillarSample from "@/assets/Caterpillar animation portfolio/animmation video sample 2.mp4";
 
 import portfolio2d from "@/assets/portfolio-2d.jpg";
 import portfolioCharacter from "@/assets/portfolio-character.jpg";
@@ -603,55 +607,67 @@ export const workCategories: WorkCategory[] = [
     clients: [
       client(
         {
-          slug: "cardigan",
-          name: "Cardigan",
-          industry: "Fashion",
-          description: "Seasonal brand films and motion identity for digital-first launches.",
+          slug: "industrial-animation",
+          name: "Industrial Animation",
+          industry: "Manufacturing & Heavy Equipment",
+          description:
+            "Realistic 3D industrial and CGI product animation for heavy machinery, assembly showcases, and technical marketing films.",
           projectCount: 5,
-          logo: cardigan,
-          banner: portfolioGame,
-          services: ["Brand Film", "Identity Motion"],
-          timeline: "2023 — 2025",
-          tools: ["After Effects", "Cinema 4D", "Premiere Pro"],
+          logo: caterpillarBanner,
+          banner: caterpillarKeyVisual,
+          services: ["Industrial Animation", "CGI Product Film", "Technical Visualization"],
+          timeline: "2024 — 2025",
+          tools: ["Cinema 4D", "Blender", "After Effects"],
           projects: [
             {
-              title: "Season Launch Film",
-              description: "60s brand narrative with typographic system and color world.",
-              thumbnail: portfolioGame,
+              title: "Industrial Hero Still",
+              description: "Key still frame from a heavy-equipment industrial animation sequence.",
+              thumbnail: caterpillarBanner,
               mediaType: "image",
-              mediaSrc: portfolioGame,
-              tags: ["Brand", "Fashion"],
+              mediaSrc: caterpillarBanner,
+              tags: ["Industrial", "Still"],
               year: 2025,
             },
-          ],
-        },
-        "cardigan-brand",
-      ),
-      client(
-        {
-          slug: "scoop",
-          name: "Scoop",
-          industry: "Media & Publishing",
-          description: "Rebrand motion toolkit and template library for editorial teams.",
-          projectCount: 3,
-          logo: scoop,
-          banner: portfolioMotion,
-          services: ["Rebrand", "Motion System"],
-          timeline: "2024",
-          tools: ["After Effects", "Figma"],
-          projects: [
             {
-              title: "Motion Identity",
-              description: "Logo sting, lower thirds, and transition package.",
-              thumbnail: portfolioMotion,
+              title: "CGI Product Key Visual",
+              description: "Photoreal CGI product render for campaign and pitch decks.",
+              thumbnail: caterpillarKeyVisual,
               mediaType: "image",
-              mediaSrc: portfolioMotion,
-              tags: ["Identity"],
+              mediaSrc: caterpillarKeyVisual,
+              tags: ["CGI", "Product"],
+              year: 2025,
+            },
+            {
+              title: "Industrial Animation Film",
+              description: "Full industrial animation showcasing machinery in motion.",
+              thumbnail: caterpillarBanner,
+              mediaType: "video",
+              mediaSrc: caterpillarFilm,
+              tags: ["Industrial", "Film"],
+              year: 2025,
+            },
+            {
+              title: "CGI Product Animation",
+              description: "Realistic 3D product animation with cinematic lighting and camera moves.",
+              thumbnail: caterpillarKeyVisual,
+              mediaType: "video",
+              mediaSrc: caterpillarCgiFilm,
+              tags: ["CGI", "Animation"],
+              year: 2024,
+            },
+            {
+              title: "Animation Sample Reel",
+              description: "Sample industrial animation cut for social and presentation use.",
+              thumbnail: caterpillarBanner,
+              mediaType: "video",
+              mediaSrc: caterpillarSample,
+              tags: ["Sample", "Industrial"],
               year: 2024,
             },
           ],
         },
-        "scoop-brand",
+        "industrial-animation",
+        { skipPad: true },
       ),
       client(
         {

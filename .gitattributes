@@ -1,1 +1,2 @@
 src/assets/Ijockey[[:space:]]portfolio[[:space:]]folder/*.mp4 filter=lfs diff=lfs merge=lfs -text
+src/assets/Caterpillar[[:space:]]animation[[:space:]]portfolio/*.mp4 filter=lfs diff=lfs merge=lfs -text

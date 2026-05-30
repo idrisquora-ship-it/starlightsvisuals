@@ -5,6 +5,8 @@ import { useTranslation } from "react-i18next";
 
 import type { WorkProject } from "@/types/portfolio-works";
 
+import { PortfolioVideoPlayer } from "@/components/works/PortfolioVideoPlayer";
+
 type ProjectLightboxProps = {
   project: WorkProject | null;
   onClose: () => void;
@@ -41,6 +43,7 @@ export function ProjectLightbox({ project, onClose }: ProjectLightboxProps) {
           onClick={onClose}
         >
           <motion.div
+            key={project.id}
             initial={{ opacity: 0, scale: 0.96, y: 12 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.96, y: 12 }}
@@ -57,14 +60,14 @@ export function ProjectLightbox({ project, onClose }: ProjectLightboxProps) {
               <X className="h-4 w-4" />
             </button>
             {project.mediaType === "video" ? (
-              <video
-                src={project.mediaSrc}
-                poster={project.thumbnail}
-                controls
-                autoPlay
-                playsInline
-                className="max-h-[90vh] w-full bg-black object-contain"
-              />
+              <div className="aspect-video w-full bg-black">
+                <PortfolioVideoPlayer
+                  src={project.mediaSrc}
+                  poster={project.thumbnail}
+                  autoPlay
+                  className="object-contain"
+                />
+              </div>
             ) : (
               <img
                 src={project.mediaSrc}
