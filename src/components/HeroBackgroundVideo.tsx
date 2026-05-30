@@ -92,7 +92,7 @@ export function HeroBackgroundVideo({ className }: HeroBackgroundVideoProps) {
         loop
         playsInline
         preload="auto"
-        className="absolute inset-0 h-full w-full object-cover"
+        className="absolute inset-0 h-full w-full object-cover opacity-40"
       />
       <div className="absolute inset-0 bg-gradient-to-r from-background via-background/85 to-background/40 lg:via-background/75 lg:to-background/25" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_60%_at_30%_50%,transparent,oklch(0.05_0_0/0.65))]" />

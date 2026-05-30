@@ -125,7 +125,7 @@ function ClientProjectsPage() {
               <dt className="font-display text-[10px] uppercase tracking-widest text-muted-foreground">
                 {t("works.projectsCompleted", { count: client.projectCount })}
               </dt>
-              <dd className="mt-1 font-display text-lg text-neon-green">{client.projects.length}+</dd>
+              <dd className="mt-1 font-display text-lg text-neon-green">{client.projects.length}</dd>
             </div>
           </dl>
         </div>

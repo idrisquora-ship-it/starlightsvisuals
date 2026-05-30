@@ -12,6 +12,12 @@ import bello from "@/assets/brand logo/bello.png";
 import cardigan from "@/assets/brand logo/cardigan.png";
 import scoop from "@/assets/brand logo/scoop.png";
 import saltyface from "@/assets/brand logo/saltyface.png";
+import itsy from "@/assets/brand logo/itsy.png";
+import innermost from "@/assets/brand logo/innermost.png";
+import huya from "@/assets/brand logo/huya.png";
+import snax from "@/assets/brand logo/snax.png";
+import moxeys from "@/assets/brand logo/moxeys.png";
+import swolly from "@/assets/brand logo/swolly.png";
 
 import portfolio2d from "@/assets/portfolio-2d.jpg";
 import portfolioCharacter from "@/assets/portfolio-character.jpg";
@@ -19,6 +25,49 @@ import portfolioCreature from "@/assets/portfolio-creature.jpg";
 import portfolioGame from "@/assets/portfolio-game.jpg";
 import portfolioMotion from "@/assets/portfolio-motion.jpg";
 import portfolioTrailer from "@/assets/portfolio-trailer.jpg";
+
+const portfolioImages = [
+  portfolio2d,
+  portfolioCharacter,
+  portfolioCreature,
+  portfolioGame,
+  portfolioMotion,
+  portfolioTrailer,
+] as const;
+
+const sampleTitles = [
+  "Hero Campaign",
+  "Social Cutdown Pack",
+  "Launch Film",
+  "Brand Story",
+  "Seasonal Refresh",
+] as const;
+
+function padProjects(
+  items: Omit<WorkProject, "id">[],
+  prefix: string,
+  clientName: string,
+): WorkProject[] {
+  const padded: Omit<WorkProject, "id">[] = [...items];
+  const seed = items[0];
+
+  while (padded.length < 5) {
+    const i = padded.length;
+    padded.push({
+      title: `${clientName} ${sampleTitles[i]}`,
+      description:
+        seed?.description ??
+        `Sample deliverable showcasing our work with ${clientName}.`,
+      thumbnail: portfolioImages[i % portfolioImages.length],
+      mediaType: "image",
+      mediaSrc: portfolioImages[i % portfolioImages.length],
+      tags: seed?.tags ?? ["Campaign"],
+      year: (seed?.year ?? 2025) - Math.floor(i / 2),
+    });
+  }
+
+  return projects(padded.slice(0, 5), prefix);
+}
 
 export type WorkCategorySlug =
   | "2d-animation"
@@ -39,9 +88,11 @@ function client(
   partial: Omit<WorkClient, "projects"> & { projects: Omit<WorkProject, "id">[] },
   projectPrefix: string,
 ): WorkClient {
+  const projectList = padProjects(partial.projects, projectPrefix, partial.name);
   return {
     ...partial,
-    projects: projects(partial.projects, projectPrefix),
+    projectCount: Math.max(partial.projectCount, projectList.length),
+    projects: projectList,
   };
 }
 
@@ -119,6 +170,32 @@ export const workCategories: WorkCategory[] = [
         },
         "crossrope-2d",
       ),
+      client(
+        {
+          slug: "itsy",
+          name: "Itsy",
+          industry: "Children & Education",
+          description: "Playful 2D character animation for app stories and learning content.",
+          projectCount: 5,
+          logo: itsy,
+          banner: portfolioCharacter,
+          services: ["2D Character Animation", "Storyboarding"],
+          timeline: "2023 — 2025",
+          tools: ["After Effects", "Toon Boom"],
+          projects: [
+            {
+              title: "Storybook Series",
+              description: "Episodic 2D shorts for in-app learning journeys.",
+              thumbnail: portfolioCharacter,
+              mediaType: "image",
+              mediaSrc: portfolioCharacter,
+              tags: ["Character", "Series"],
+              year: 2025,
+            },
+          ],
+        },
+        "itsy-2d",
+      ),
     ],
   },
   {
@@ -191,12 +268,38 @@ export const workCategories: WorkCategory[] = [
         },
         "joyjolt-3d",
       ),
+      client(
+        {
+          slug: "innermost",
+          name: "Innermost",
+          industry: "Health & Wellness",
+          description: "3D supplement visualization with macro textures and fluid dynamics.",
+          projectCount: 5,
+          logo: innermost,
+          banner: portfolioCreature,
+          services: ["3D Product", "Macro CGI"],
+          timeline: "2022 — 2025",
+          tools: sharedTools,
+          projects: [
+            {
+              title: "Powder Macro Film",
+              description: "Slow-motion powder pour with photoreal lighting and grade.",
+              thumbnail: portfolioCreature,
+              mediaType: "image",
+              mediaSrc: portfolioCreature,
+              tags: ["Product", "Macro"],
+              year: 2025,
+            },
+          ],
+        },
+        "innermost-3d",
+      ),
     ],
   },
   {
     slug: "motion-graphics",
-    title: "Motion Graphics",
-    tagline: "Kinetic type, UI motion, and brand systems",
+    title: "Game Environment",
+    tagline: "Immersive worlds and playable spaces in motion",
     description:
       "Design-led motion systems for launches, dashboards, and brand worlds that scale across channels.",
     coverImage: portfolioMotion,
@@ -253,12 +356,38 @@ export const workCategories: WorkCategory[] = [
         },
         "kurk-motion",
       ),
+      client(
+        {
+          slug: "huya",
+          name: "Huya",
+          industry: "Gaming & Live Streaming",
+          description: "Game environment flythroughs and arena worlds for launch campaigns.",
+          projectCount: 5,
+          logo: huya,
+          banner: portfolioGame,
+          services: ["Environment Art", "Cinematic Flythrough"],
+          timeline: "2023 — 2025",
+          tools: ["Unreal Engine", "Cinema 4D", "After Effects"],
+          projects: [
+            {
+              title: "Arena World Reveal",
+              description: "Cinematic environment tour with dynamic lighting and VFX.",
+              thumbnail: portfolioGame,
+              mediaType: "image",
+              mediaSrc: portfolioGame,
+              tags: ["Environment", "Launch"],
+              year: 2025,
+            },
+          ],
+        },
+        "huya-env",
+      ),
     ],
   },
   {
     slug: "video-editing",
-    title: "Video Editing",
-    tagline: "Cinematic pacing for campaigns and long-form",
+    title: "Product Animation",
+    tagline: "Photoreal product films and cinematic packshots",
     description:
       "Editorial finishing, rhythm, and story structure for commercials, documentaries, and brand films.",
     coverImage: portfolioTrailer,
@@ -314,6 +443,32 @@ export const workCategories: WorkCategory[] = [
           ],
         },
         "saltyface-edit",
+      ),
+      client(
+        {
+          slug: "snax",
+          name: "Snax",
+          industry: "Food & Beverage",
+          description: "3D product animation for packshots, splashes, and hero retail films.",
+          projectCount: 5,
+          logo: snax,
+          banner: portfolioTrailer,
+          services: ["3D Product Animation", "Packshot Films"],
+          timeline: "2022 — 2025",
+          tools: ["Cinema 4D", "Redshift", "After Effects"],
+          projects: [
+            {
+              title: "Packshot Hero",
+              description: "Photoreal product spin with liquid sim and studio lighting.",
+              thumbnail: portfolioTrailer,
+              mediaType: "image",
+              mediaSrc: portfolioTrailer,
+              tags: ["Product", "Packshot"],
+              year: 2025,
+            },
+          ],
+        },
+        "snax-product",
       ),
     ],
   },
@@ -387,12 +542,38 @@ export const workCategories: WorkCategory[] = [
         },
         "bello-vfx",
       ),
+      client(
+        {
+          slug: "moxeys",
+          name: "Moxeys",
+          industry: "Retail & E-commerce",
+          description: "VFX-heavy product films with set extensions and particle systems.",
+          projectCount: 5,
+          logo: moxeys,
+          banner: portfolioMotion,
+          services: ["Compositing", "Particle FX"],
+          timeline: "2023 — 2025",
+          tools: ["Nuke", "Houdini", "After Effects"],
+          projects: [
+            {
+              title: "Particle Product Pass",
+              description: "Macro particle FX integrated with studio product plates.",
+              thumbnail: portfolioMotion,
+              mediaType: "image",
+              mediaSrc: portfolioMotion,
+              tags: ["VFX", "Product"],
+              year: 2025,
+            },
+          ],
+        },
+        "moxeys-vfx",
+      ),
     ],
   },
   {
     slug: "branding",
-    title: "Branding",
-    tagline: "Visual identity in motion and stills",
+    title: "Industrial Animation",
+    tagline: "Technical storytelling for products and manufacturing",
     description:
       "Brand films, identity motion, and launch assets that define how audiences remember your name.",
     coverImage: portfolioGame,
@@ -449,13 +630,51 @@ export const workCategories: WorkCategory[] = [
         },
         "scoop-brand",
       ),
+      client(
+        {
+          slug: "swolly",
+          name: "Swolly",
+          industry: "Manufacturing",
+          description: "3D industrial animation explaining assembly lines and machinery.",
+          projectCount: 5,
+          logo: swolly,
+          banner: portfolio2d,
+          services: ["Industrial Animation", "Technical Explainer"],
+          timeline: "2022 — 2025",
+          tools: ["Cinema 4D", "Blender", "After Effects"],
+          projects: [
+            {
+              title: "Assembly Line Explainer",
+              description: "Cutaway factory animation with labeled components and motion.",
+              thumbnail: portfolio2d,
+              mediaType: "image",
+              mediaSrc: portfolio2d,
+              tags: ["Industrial", "Explainer"],
+              year: 2025,
+            },
+          ],
+        },
+        "swolly-industrial",
+      ),
     ],
   },
 ];
 
+const showcaseLabels: Record<
+  WorkCategorySlug,
+  { tag: string; title: string }
+> = {
+  "2d-animation": { tag: "2D Animation", title: "2D Animation" },
+  "3d-animation": { tag: "3D Animation", title: "3D Animation" },
+  "motion-graphics": { tag: "Game Environment", title: "Game Environment" },
+  "video-editing": { tag: "3D", title: "Product Animation" },
+  vfx: { tag: "VFX", title: "VFX" },
+  branding: { tag: "3D", title: "Industrial Animation" },
+};
+
 export const showcaseCategories = workCategories.map((c) => ({
   slug: c.slug,
-  tag: c.title,
-  title: c.title,
+  tag: showcaseLabels[c.slug as WorkCategorySlug].tag,
+  title: showcaseLabels[c.slug as WorkCategorySlug].title,
   coverImage: c.coverImage,
 }));

@@ -42,7 +42,7 @@ export function SelectedWorkCard({
         <div className="aspect-[4/5] overflow-hidden">
           <img
             src={coverImage}
-            alt={title}
+            alt={tag === title ? title : `${tag} ${title}`}
             width={800}
             height={1000}
             loading="lazy"
