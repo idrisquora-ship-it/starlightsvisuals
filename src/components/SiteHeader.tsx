@@ -4,6 +4,7 @@ import { useMemo } from "react";
 import { useTranslation } from "react-i18next";
 
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { SiteLogo } from "@/components/SiteLogo";
 import { useSidebar } from "@/contexts/sidebar-context";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { cn } from "@/lib/utils";
@@ -52,9 +53,10 @@ export function SiteHeader() {
           aria-expanded={desktopOpen}
           aria-controls="site-sidebar"
           className={cn(
-            "fixed top-8 z-[60] hidden items-center justify-center rounded border border-border bg-background p-2.5 text-foreground shadow-sm backdrop-blur transition-all duration-300 ease-out hover:border-neon-green hover:text-neon-green md:flex",
+            "fixed top-8 z-[60] hidden items-center justify-center rounded border border-border bg-background p-2 text-foreground shadow-sm backdrop-blur transition-[left] duration-300 ease-out hover:border-neon-green hover:text-neon-green md:flex",
+            desktopOpen ? "-translate-x-1/2" : "translate-x-0",
           )}
-          style={{ left: desktopOpen ? sidebarWidth - 44 : 16 }}
+          style={{ left: desktopOpen ? sidebarWidth : 16 }}
         >
           {desktopOpen ? (
             <PanelLeftClose className="h-5 w-5" aria-hidden />
@@ -68,7 +70,7 @@ export function SiteHeader() {
         id="site-sidebar"
         style={{ width: sidebarWidth }}
         className={cn(
-          "fixed left-0 top-0 z-50 flex h-screen flex-col justify-between border-r border-border/40 bg-background/95 px-8 py-8 backdrop-blur transition-transform duration-300 ease-out",
+          "fixed left-0 top-0 z-50 flex h-screen flex-col justify-between border-r border-border/40 bg-background/95 px-6 py-8 backdrop-blur transition-transform duration-300 ease-out md:px-7",
           sidebarVisible ? "translate-x-0" : "-translate-x-full",
           !sidebarVisible && "pointer-events-none",
         )}
@@ -76,15 +78,7 @@ export function SiteHeader() {
         inert={!sidebarVisible ? true : undefined}
       >
         <div className={cn("flex items-start gap-3", isMobile ? "justify-between" : "justify-start")}>
-          <Link to="/" className="block" onClick={closeMobile}>
-            <div className="font-display text-2xl leading-none tracking-tight">
-              {t("brand.star")}
-              <span className="neon-text">{t("brand.lights")}</span>
-            </div>
-            <div className="font-display text-2xl leading-none tracking-tight text-muted-foreground">
-              {t("brand.visuals")}
-            </div>
-          </Link>
+          <SiteLogo onClick={closeMobile} className="pr-2" />
           {isMobile && (
             <button
               type="button"
@@ -132,11 +126,8 @@ export function SiteHeader() {
         </Link>
       </div>
 
-      <header className="sticky top-0 z-40 flex items-center justify-between gap-3 border-b border-border/40 bg-background/80 px-5 py-4 backdrop-blur md:hidden">
-        <Link to="/" className="font-display text-lg tracking-tight">
-          {t("brand.star")}
-          <span className="neon-text">{t("brand.lights")}</span> {t("brand.visuals")}
-        </Link>
+      <header className="sticky top-0 z-40 flex items-center justify-between gap-3 border-b border-border/40 bg-background/80 px-5 py-3 backdrop-blur md:hidden">
+        <SiteLogo imageClassName="w-[92px]" />
         <div className="flex items-center gap-2">
           <LanguageSwitcher />
           <button

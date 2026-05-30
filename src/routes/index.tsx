@@ -6,8 +6,8 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { TextTestimonialsSection } from "@/components/TextTestimonialsSection";
 import { TrustedBySection } from "@/components/TrustedBySection";
 import { VideoTestimonialsSection } from "@/components/VideoTestimonialsSection";
+import { HeroBackgroundVideo } from "@/components/HeroBackgroundVideo";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
-import heroImg from "@/assets/hero-cosmic.jpg";
 import portfolioCharacter from "@/assets/portfolio-character.jpg";
 import portfolioGame from "@/assets/portfolio-game.jpg";
 import portfolio2d from "@/assets/portfolio-2d.jpg";
@@ -63,57 +63,46 @@ function Home() {
     <div className="min-h-screen bg-background text-foreground">
       <SiteHeader />
 
-      <section className="relative isolate overflow-hidden border-b border-border/40">
-        <div className="grid min-h-[88vh] grid-cols-1 lg:grid-cols-[1.1fr_1fr]">
-          <div className="relative flex flex-col justify-center px-6 pt-16 pb-12 md:px-14 md:pt-24">
-            <p className="font-script text-3xl text-neon-green">{t("home.heroScript")}</p>
+      <section className="relative isolate min-h-[88vh] overflow-hidden border-b border-border/40">
+        <HeroBackgroundVideo />
 
-            <h1 className="mt-6 font-display text-[14vw] leading-[0.9] tracking-tight md:text-[9rem]">
-              <span className="block">{t("home.heroTitle1")}</span>
-              <span className="block text-outline">{t("home.heroTitle2")}</span>
-            </h1>
+        <div className="relative z-10 flex min-h-[88vh] flex-col justify-center px-6 pt-20 pb-16 md:px-14 md:pt-28 md:pb-20 lg:max-w-4xl">
+          <p className="font-script text-3xl text-neon-green">{t("home.heroScript")}</p>
 
-            <svg
-              viewBox="0 0 600 80"
-              className="draw-squiggle mt-6 h-12 w-72 text-neon-green"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="3"
-              strokeLinecap="round"
+          <h1 className="mt-6 font-display text-[14vw] leading-[0.9] tracking-tight md:text-[7.5rem] lg:text-[9rem]">
+            <span className="block">{t("home.heroTitle1")}</span>
+            <span className="block text-outline">{t("home.heroTitle2")}</span>
+          </h1>
+
+          <svg
+            viewBox="0 0 600 80"
+            className="draw-squiggle mt-6 h-12 w-72 text-neon-green"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="3"
+            strokeLinecap="round"
+          >
+            <path d="M5 50 C 80 5, 150 90, 230 40 S 380 10, 460 55 S 580 30, 595 45" />
+          </svg>
+
+          <p className="mt-10 max-w-lg text-base leading-relaxed text-muted-foreground md:text-lg">
+            {t("home.heroBody")}
+          </p>
+
+          <div className="mt-10 flex flex-wrap gap-4">
+            <Link
+              to="/portfolio"
+              className="group inline-flex items-center gap-3 rounded-full bg-neon-green px-7 py-3.5 font-display text-sm uppercase tracking-widest text-background transition hover:glow-blue"
             >
-              <path d="M5 50 C 80 5, 150 90, 230 40 S 380 10, 460 55 S 580 30, 595 45" />
-            </svg>
-
-            <p className="mt-10 max-w-lg text-base leading-relaxed text-muted-foreground md:text-lg">
-              {t("home.heroBody")}
-            </p>
-
-            <div className="mt-10 flex flex-wrap gap-4">
-              <Link
-                to="/portfolio"
-                className="group inline-flex items-center gap-3 rounded-full bg-neon-green px-7 py-3.5 font-display text-sm uppercase tracking-widest text-background transition hover:glow-blue"
-              >
-                {t("home.seePortfolio")}
-                <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </Link>
-              <Link
-                to="/contact"
-                className="inline-flex items-center gap-3 rounded-full border border-foreground/40 px-7 py-3.5 font-display text-sm uppercase tracking-widest text-foreground transition hover:border-neon-green hover:text-neon-green"
-              >
-                {t("home.startProject")}
-              </Link>
-            </div>
-          </div>
-
-          <div className="relative">
-            <img
-              src={heroImg}
-              alt={t("home.heroAlt")}
-              width={1920}
-              height={1088}
-              className="h-full w-full object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-l from-transparent via-background/20 to-background" />
+              {t("home.seePortfolio")}
+              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+            </Link>
+            <Link
+              to="/contact"
+              className="inline-flex items-center gap-3 rounded-full border border-foreground/40 px-7 py-3.5 font-display text-sm uppercase tracking-widest text-foreground transition hover:border-neon-green hover:text-neon-green"
+            >
+              {t("home.startProject")}
+            </Link>
           </div>
         </div>
       </section>

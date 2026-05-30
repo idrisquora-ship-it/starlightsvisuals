@@ -1,7 +1,9 @@
 import { Link } from "@tanstack/react-router";
-import { Sparkles, Instagram, Youtube, Twitter, Linkedin, Mail, Send } from "lucide-react";
+import { Instagram, Youtube, Twitter, Linkedin, Mail, Send } from "lucide-react";
 import { useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
+
+import { SiteLogo } from "@/components/SiteLogo";
 
 export function SiteFooter() {
   const { t } = useTranslation();
@@ -60,13 +62,7 @@ export function SiteFooter() {
 
       <div className="mx-auto grid max-w-7xl gap-10 px-6 py-14 md:grid-cols-4">
         <div className="md:col-span-2">
-          <Link to="/" className="flex items-center gap-2">
-            <Sparkles className="h-5 w-5 text-neon-blue" />
-            <span className="font-display text-lg font-bold tracking-widest">
-              {t("brand.star")}
-              <span className="neon-text">{t("brand.lights")}</span> {t("brand.visuals")}
-            </span>
-          </Link>
+          <SiteLogo imageClassName="w-[100px]" />
           <p className="mt-4 max-w-md text-sm text-muted-foreground leading-relaxed">
             {t("footer.tagline")}
           </p>
