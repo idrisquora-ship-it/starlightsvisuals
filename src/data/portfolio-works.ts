@@ -18,11 +18,11 @@ import moxeys from "@/assets/brand logo/moxeys.png";
 
 import { ijockeyVideos, industrialAnimationVideos } from "@/data/portfolio-media";
 
-import ijockeySketch from "@/assets/Ijockey portfolio folder/Sketch.jpeg";
-import ijockeySketch1 from "@/assets/Ijockey portfolio folder/sketch 1.jpeg";
+import ijockeyProjectDescription from "@/assets/Ijockey portfolio folder/Project Description.jpeg";
+import ijockeyClientSketch from "@/assets/Ijockey portfolio folder/Client Sketch.jpeg";
+import ijockeyClientSketch1 from "@/assets/Ijockey portfolio folder/Client sketch 1.jpeg";
 import ijockeyModelling from "@/assets/Ijockey portfolio folder/Modelling.jpeg";
 import ijockeyModelling1 from "@/assets/Ijockey portfolio folder/Modelling 1.jpeg";
-import ijockeyModelling2 from "@/assets/Ijockey portfolio folder/Modelling 2.jpeg";
 import ijockeyFinalProduct from "@/assets/Ijockey portfolio folder/Final Product.jpeg";
 import ijockeyFinalProduct1 from "@/assets/Ijockey portfolio folder/Final Product 1.jpeg";
 import ijockeyFinalProduct2 from "@/assets/Ijockey portfolio folder/Final Product 2.jpeg";
@@ -680,21 +680,30 @@ export const workCategories: WorkCategory[] = [
           tools: ["Cinema 4D", "Blender", "After Effects"],
           projects: [
             {
-              title: "Sketch",
-              description: "Initial product concept sketch for Ijockey form and proportions.",
-              thumbnail: ijockeySketch,
+              title: "Project Description",
+              description: "Product overview and dynamic ventilation system for the Ijockey helmet.",
+              thumbnail: ijockeyProjectDescription,
               mediaType: "image",
-              mediaSrc: ijockeySketch,
-              tags: ["Sketch", "Concept"],
+              mediaSrc: ijockeyProjectDescription,
+              tags: ["Description", "Product"],
               year: 2025,
             },
             {
-              title: "Sketch",
-              description: "Refined sketch exploring silhouette and detail placement.",
-              thumbnail: ijockeySketch1,
+              title: "Client Sketch",
+              description: "Initial product concept sketch for Ijockey form and proportions.",
+              thumbnail: ijockeyClientSketch,
               mediaType: "image",
-              mediaSrc: ijockeySketch1,
-              tags: ["Sketch", "Concept"],
+              mediaSrc: ijockeyClientSketch,
+              tags: ["Client Sketch", "Concept"],
+              year: 2025,
+            },
+            {
+              title: "Client Sketch",
+              description: "Refined client sketch exploring silhouette and detail placement.",
+              thumbnail: ijockeyClientSketch1,
+              mediaType: "image",
+              mediaSrc: ijockeyClientSketch1,
+              tags: ["Client Sketch", "Concept"],
               year: 2025,
             },
             {
@@ -714,15 +723,6 @@ export const workCategories: WorkCategory[] = [
               mediaSrc: ijockeyModelling1,
               tags: ["Modelling", "3D"],
               year: 2025,
-            },
-            {
-              title: "Modelling",
-              description: "Final modelling stage before materials and lighting.",
-              thumbnail: ijockeyModelling2,
-              mediaType: "image",
-              mediaSrc: ijockeyModelling2,
-              tags: ["Modelling", "3D"],
-              year: 2024,
             },
             {
               title: "Final Product",
