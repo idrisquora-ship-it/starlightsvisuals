@@ -18,14 +18,14 @@ import moxeys from "@/assets/brand logo/moxeys.png";
 
 import { ijockeyVideos, industrialAnimationVideos } from "@/data/portfolio-media";
 
-import ijockeyPaper1 from "@/assets/Ijockey portfolio folder/Paper Image 1.jpeg";
-import ijockeyPaper3 from "@/assets/Ijockey portfolio folder/Paper Image 3.jpeg";
-import ijockeyImg0254 from "@/assets/Ijockey portfolio folder/IMG_0254.jpeg";
-import ijockeyImg0253 from "@/assets/Ijockey portfolio folder/IMG_0253.jpeg";
-import ijockeyImg0257 from "@/assets/Ijockey portfolio folder/IMG_0257.jpeg";
-import ijockeyImg0184 from "@/assets/Ijockey portfolio folder/IMG_0184.jpeg";
-import ijockeyImg0183 from "@/assets/Ijockey portfolio folder/IMG_0183 (1).jpeg";
-import ijockeyKeyVisual from "@/assets/Ijockey portfolio folder/4ECE0B8C-A15F-4D74-8EB3-6E24D9223982.jpeg";
+import ijockeySketch from "@/assets/Ijockey portfolio folder/Sketch.jpeg";
+import ijockeySketch1 from "@/assets/Ijockey portfolio folder/sketch 1.jpeg";
+import ijockeyModelling from "@/assets/Ijockey portfolio folder/Modelling.jpeg";
+import ijockeyModelling1 from "@/assets/Ijockey portfolio folder/Modelling 1.jpeg";
+import ijockeyModelling2 from "@/assets/Ijockey portfolio folder/Modelling 2.jpeg";
+import ijockeyFinalProduct from "@/assets/Ijockey portfolio folder/Final Product.jpeg";
+import ijockeyFinalProduct1 from "@/assets/Ijockey portfolio folder/Final Product 1.jpeg";
+import ijockeyFinalProduct2 from "@/assets/Ijockey portfolio folder/Final Product 2.jpeg";
 
 import caterpillarBanner from "@/assets/Caterpillar animation portfolio/industrial animation.jpg";
 import caterpillarKeyVisual from "@/assets/Caterpillar animation portfolio/create-realistic-3d-product-animation-industrial-animation-cgi-animation.png";
@@ -673,88 +673,88 @@ export const workCategories: WorkCategory[] = [
           description:
             "3D product animation, paper renders, and branded films for Ijockey's retail and campaign launches.",
           projectCount: 11,
-          logo: ijockeyImg0254,
-          banner: ijockeyPaper1,
+          logo: ijockeyFinalProduct,
+          banner: ijockeyFinalProduct1,
           services: ["3D Product Animation", "Industrial Render", "Brand Film"],
           timeline: "2024 — 2025",
           tools: ["Cinema 4D", "Blender", "After Effects"],
           projects: [
             {
-              title: "Product Paper Render",
-              description: "Studio paper-style product visualization for campaign look development.",
-              thumbnail: ijockeyPaper1,
+              title: "Sketch",
+              description: "Initial product concept sketch for Ijockey form and proportions.",
+              thumbnail: ijockeySketch,
               mediaType: "image",
-              mediaSrc: ijockeyPaper1,
-              tags: ["Product", "Render"],
+              mediaSrc: ijockeySketch,
+              tags: ["Sketch", "Concept"],
               year: 2025,
             },
             {
-              title: "Packaging Concept",
-              description: "Packaging layout and material study for retail shelf presence.",
-              thumbnail: ijockeyPaper3,
+              title: "Sketch",
+              description: "Refined sketch exploring silhouette and detail placement.",
+              thumbnail: ijockeySketch1,
               mediaType: "image",
-              mediaSrc: ijockeyPaper3,
-              tags: ["Packaging", "3D"],
+              mediaSrc: ijockeySketch1,
+              tags: ["Sketch", "Concept"],
               year: 2025,
             },
             {
-              title: "Studio Product Still",
-              description: "Hero-angle product still with controlled studio lighting.",
-              thumbnail: ijockeyImg0254,
+              title: "Modelling",
+              description: "3D block-out and modelling pass for the Ijockey product.",
+              thumbnail: ijockeyModelling,
               mediaType: "image",
-              mediaSrc: ijockeyImg0254,
-              tags: ["Product", "Still"],
+              mediaSrc: ijockeyModelling,
+              tags: ["Modelling", "3D"],
               year: 2025,
             },
             {
-              title: "Product Detail Shot",
-              description: "Macro detail render highlighting material and finish.",
-              thumbnail: ijockeyImg0253,
+              title: "Modelling",
+              description: "Modelling refinement with improved topology and surface flow.",
+              thumbnail: ijockeyModelling1,
               mediaType: "image",
-              mediaSrc: ijockeyImg0253,
-              tags: ["Detail", "3D"],
+              mediaSrc: ijockeyModelling1,
+              tags: ["Modelling", "3D"],
+              year: 2025,
+            },
+            {
+              title: "Modelling",
+              description: "Final modelling stage before materials and lighting.",
+              thumbnail: ijockeyModelling2,
+              mediaType: "image",
+              mediaSrc: ijockeyModelling2,
+              tags: ["Modelling", "3D"],
               year: 2024,
             },
             {
-              title: "3D Product Frame",
-              description: "Composed product frame for social and e-commerce use.",
-              thumbnail: ijockeyImg0257,
+              title: "Final Product",
+              description: "Finished product render with materials and studio lighting.",
+              thumbnail: ijockeyFinalProduct,
               mediaType: "image",
-              mediaSrc: ijockeyImg0257,
-              tags: ["Product", "Campaign"],
+              mediaSrc: ijockeyFinalProduct,
+              tags: ["Final Product", "Render"],
               year: 2024,
             },
             {
-              title: "Lifestyle Render",
-              description: "Contextual lifestyle render placing the product in use.",
-              thumbnail: ijockeyImg0184,
+              title: "Final Product",
+              description: "Hero final product frame for campaign and retail use.",
+              thumbnail: ijockeyFinalProduct1,
               mediaType: "image",
-              mediaSrc: ijockeyImg0184,
-              tags: ["Lifestyle", "3D"],
+              mediaSrc: ijockeyFinalProduct1,
+              tags: ["Final Product", "Render"],
               year: 2024,
             },
             {
-              title: "Hero Product Angle",
-              description: "Primary hero angle for launch and paid media placements.",
-              thumbnail: ijockeyImg0183,
+              title: "Final Product",
+              description: "Alternate final product angle for launch and paid media.",
+              thumbnail: ijockeyFinalProduct2,
               mediaType: "image",
-              mediaSrc: ijockeyImg0183,
-              tags: ["Hero", "Product"],
-              year: 2024,
-            },
-            {
-              title: "Campaign Key Visual",
-              description: "Key visual render anchoring the Ijockey campaign art direction.",
-              thumbnail: ijockeyKeyVisual,
-              mediaType: "image",
-              mediaSrc: ijockeyKeyVisual,
-              tags: ["Campaign", "Key Visual"],
+              mediaSrc: ijockeyFinalProduct2,
+              tags: ["Final Product", "Render"],
               year: 2024,
             },
             {
               title: "Branded Product Film",
               description: "Branded product animation with on-screen typography and logo treatment.",
-              thumbnail: ijockeyPaper1,
+              thumbnail: ijockeyFinalProduct,
               mediaType: "video",
               mediaSrc: ijockeyVideos.withText,
               tags: ["Film", "Branded"],
@@ -763,7 +763,7 @@ export const workCategories: WorkCategory[] = [
             {
               title: "Clean Product Animation",
               description: "Logo-free product animation for flexible channel versioning.",
-              thumbnail: ijockeyImg0254,
+              thumbnail: ijockeyFinalProduct1,
               mediaType: "video",
               mediaSrc: ijockeyVideos.withoutText,
               tags: ["Animation", "Product"],
@@ -772,7 +772,7 @@ export const workCategories: WorkCategory[] = [
             {
               title: "Product Showcase",
               description: "Full product showcase film for retail and digital placements.",
-              thumbnail: ijockeyPaper3,
+              thumbnail: ijockeyFinalProduct2,
               mediaType: "video",
               mediaSrc: ijockeyVideos.showcase,
               tags: ["Showcase", "Film"],
