@@ -8,5 +8,5 @@ export const ijockeyVideos = {
 export const industrialAnimationVideos = {
   film: "/portfolio/industrial-animation/industrial-animation-web.mp4",
   cgi: "/portfolio/industrial-animation/cgi-animation-web.mp4",
-  sample: "/portfolio/industrial-animation/sample-2.mp4",
+  sample: "/portfolio/industrial-animation/sample-2-web.mp4",
 } as const;
