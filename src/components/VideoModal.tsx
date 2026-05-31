@@ -83,7 +83,9 @@ export function VideoModal({ open, onClose, videoSrc, poster, title }: VideoModa
                 poster={poster}
                 controls
                 autoPlay
+                muted
                 playsInline
+                preload="auto"
                 className="h-full w-full object-cover"
               />
             </div>

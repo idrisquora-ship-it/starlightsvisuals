@@ -8,18 +8,13 @@ import {
   VideoTestimonialCard,
   type VideoTestimonial,
 } from "@/components/VideoTestimonialCard";
+import { showcaseVideos } from "@/data/showcase-media";
 import portfolioCharacter from "@/assets/portfolio-character.jpg";
 import portfolioCreature from "@/assets/portfolio-creature.jpg";
 import portfolioGame from "@/assets/portfolio-game.jpg";
 import portfolioMotion from "@/assets/portfolio-motion.jpg";
 import portfolioTrailer from "@/assets/portfolio-trailer.jpg";
 import portfolio2d from "@/assets/portfolio-2d.jpg";
-import trailerVid from "@/assets/portfolio-trailer.mp4.asset.json";
-import characterVid from "@/assets/portfolio-character.mp4.asset.json";
-import creatureVid from "@/assets/portfolio-creature.mp4.asset.json";
-import gameVid from "@/assets/portfolio-game.mp4.asset.json";
-import motionVid from "@/assets/portfolio-motion.mp4.asset.json";
-import twoDVid from "@/assets/portfolio-2d.mp4.asset.json";
 
 export function VideoTestimonialsSection() {
   const { t } = useTranslation();
@@ -31,7 +26,7 @@ export function VideoTestimonialsSection() {
     () => [
       {
         id: "trailer",
-        videoSrc: trailerVid.url,
+        videoSrc: showcaseVideos.trailer,
         poster: portfolioTrailer,
         name: "Alex Morgan",
         company: "Lumen Worlds",
@@ -42,7 +37,7 @@ export function VideoTestimonialsSection() {
       },
       {
         id: "character",
-        videoSrc: characterVid.url,
+        videoSrc: showcaseVideos.character,
         poster: portfolioCharacter,
         name: "Priya Shah",
         company: "Nova Vanguard",
@@ -53,7 +48,7 @@ export function VideoTestimonialsSection() {
       },
       {
         id: "creature",
-        videoSrc: creatureVid.url,
+        videoSrc: showcaseVideos.creature,
         poster: portfolioCreature,
         name: "Jonas Weber",
         company: "Abyss Studios",
@@ -64,7 +59,7 @@ export function VideoTestimonialsSection() {
       },
       {
         id: "game",
-        videoSrc: gameVid.url,
+        videoSrc: showcaseVideos.game,
         poster: portfolioGame,
         name: "Mia Laurent",
         company: "Iron Forge Interactive",
@@ -75,7 +70,7 @@ export function VideoTestimonialsSection() {
       },
       {
         id: "motion",
-        videoSrc: motionVid.url,
+        videoSrc: showcaseVideos.motion,
         poster: portfolioMotion,
         name: "Elena Vasquez",
         company: "Raycon",
@@ -86,7 +81,7 @@ export function VideoTestimonialsSection() {
       },
       {
         id: "2d",
-        videoSrc: twoDVid.url,
+        videoSrc: showcaseVideos.twoD,
         poster: portfolio2d,
         name: "James Whitfield",
         company: "Crossrope",

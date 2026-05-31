@@ -92,6 +92,7 @@ export function ProjectLightbox({ project, onClose }: ProjectLightboxProps) {
                   src={project.mediaSrc}
                   controls
                   autoPlay
+                  muted
                   playsInline
                   preload="auto"
                   className="h-full w-full object-contain"
