@@ -18,7 +18,7 @@ import moxeys from "@/assets/brand logo/moxeys.png";
 
 import { ijockeyVideos, industrialAnimationVideos } from "@/data/portfolio-media";
 
-import ijockeyProjectDescription from "@/assets/Ijockey portfolio folder/Project Description.jpeg";
+import ijockeyHelmetPart from "@/assets/Ijockey portfolio folder/Helmet Part.jpeg";
 import ijockeyClientSketch from "@/assets/Ijockey portfolio folder/Client Sketch.jpeg";
 import ijockeyClientSketch1 from "@/assets/Ijockey portfolio folder/Client sketch 1.jpeg";
 import ijockeyModelling from "@/assets/Ijockey portfolio folder/Modelling.jpeg";
@@ -680,12 +680,12 @@ export const workCategories: WorkCategory[] = [
           tools: ["Cinema 4D", "Blender", "After Effects"],
           projects: [
             {
-              title: "Project Description",
+              title: "Helmet Part",
               description: "Product overview and dynamic ventilation system for the Ijockey helmet.",
-              thumbnail: ijockeyProjectDescription,
+              thumbnail: ijockeyHelmetPart,
               mediaType: "image",
-              mediaSrc: ijockeyProjectDescription,
-              tags: ["Description", "Product"],
+              mediaSrc: ijockeyHelmetPart,
+              tags: ["Helmet Part", "Product"],
               year: 2025,
             },
             {
