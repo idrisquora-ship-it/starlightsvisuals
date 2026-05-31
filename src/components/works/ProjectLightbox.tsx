@@ -35,23 +35,7 @@ export function ProjectLightbox({ project, onClose }: ProjectLightboxProps) {
     if (!video) return;
 
     video.load();
-
-    const startPlayback = async () => {
-      try {
-        video.muted = true;
-        await video.play();
-        video.muted = false;
-      } catch {
-        /* Native controls remain available */
-      }
-    };
-
-    if (video.readyState >= 2) {
-      void startPlayback();
-      return;
-    }
-
-    video.addEventListener("canplay", () => void startPlayback(), { once: true });
+    void video.play().catch(() => undefined);
   }, [project]);
 
   return (
