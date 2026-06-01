@@ -67,7 +67,7 @@ function MarqueeRow({
         {Array.from({ length: MARQUEE_COPIES }, (_, copyIndex) => (
           <div
             key={copyIndex}
-            className="logo-marquee-row flex shrink-0 flex-nowrap items-center gap-1.5 md:gap-2"
+            className="logo-marquee-row flex shrink-0 flex-nowrap items-center"
             aria-hidden={copyIndex > 0}
           >
             {stripLogos.map((logo, logoIndex) => (
