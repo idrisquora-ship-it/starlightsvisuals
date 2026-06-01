@@ -1,6 +1,6 @@
 /**
  * Process Untitled design brand logos for the marquee.
- * Trims empty margins, zooms logo to fill tile, keeps background color.
+ * Trims empty margins, fits logo inside tile (no crop), keeps background.
  * Run: npm run process:brand-logos
  */
 import fs from "node:fs";
@@ -15,6 +15,9 @@ const outDir = path.join(root, "public", "brand-marquee");
 
 const CANVAS_W = 160;
 const CANVAS_H = 48;
+/** Logo fills ~76% of tile — visible but not cropped */
+const FILL = 0.76;
+
 const SOURCES = [
   { file: "Untitled design (5).png", slug: "brand-1", name: "IJOCKEY" },
   { file: "Untitled design (6).png", slug: "brand-2", name: "projekt w" },
@@ -26,6 +29,19 @@ const SOURCES = [
   { file: "Untitled design (12).png", slug: "brand-8", name: "Brand 8" },
   { file: "Untitled design (13).png", slug: "brand-9", name: "NOVATORQ" },
 ];
+
+function sampleBackground(input) {
+  return sharp(input)
+    .clone()
+    .extract({ left: 0, top: 0, width: 1, height: 1 })
+    .raw()
+    .toBuffer({ resolveWithObject: true })
+    .then(({ data }) => ({
+      r: data[0],
+      g: data[1],
+      b: data[2],
+    }));
+}
 
 async function loadTrimmed(input) {
   try {
@@ -42,25 +58,41 @@ async function processOne({ file, slug, name }) {
     return null;
   }
 
+  const bg = await sampleBackground(input);
   const trimmed = await loadTrimmed(input);
-  const meta = await sharp(trimmed).metadata();
+  const maxW = Math.round(CANVAS_W * FILL);
+  const maxH = Math.round(CANVAS_H * FILL);
 
-  await sharp(trimmed)
-    .resize(CANVAS_W, CANVAS_H, {
-      fit: "cover",
-      position: "centre",
+  const fitted = await sharp(trimmed)
+    .resize(maxW, maxH, {
+      fit: "inside",
+      withoutEnlargement: false,
+      background: bg,
     })
+    .png()
+    .toBuffer({ resolveWithObject: true });
+
+  const left = Math.max(0, Math.floor((CANVAS_W - fitted.info.width) / 2));
+  const top = Math.max(0, Math.floor((CANVAS_H - fitted.info.height) / 2));
+
+  await sharp({
+    create: {
+      width: CANVAS_W,
+      height: CANVAS_H,
+      channels: 3,
+      background: bg,
+    },
+  })
+    .composite([{ input: fitted.data, left, top }])
     .png()
     .toFile(path.join(outDir, `${slug}.png`));
 
-  console.log(
-    `  ${slug} (${name}): ${meta.width}×${meta.height} → zoomed ${CANVAS_W}×${CANVAS_H}`,
-  );
+  console.log(`  ${slug} (${name}): fit ${fitted.info.width}×${fitted.info.height} in ${CANVAS_W}×${CANVAS_H}`);
 }
 
 fs.mkdirSync(outDir, { recursive: true });
 
-console.log("Processing Untitled brand logos (zoomed, backgrounds kept)…");
+console.log("Processing Untitled brand logos (fit inside tile)…");
 for (const entry of SOURCES) {
   await processOne(entry);
 }
