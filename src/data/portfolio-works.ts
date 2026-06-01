@@ -1,22 +1,10 @@
 import type { WorkCategory, WorkClient, WorkProject } from "@/types/portfolio-works";
 
-import raycon from "@/assets/brand logo/raycon.png";
-import crossrope from "@/assets/brand logo/crossrope.png";
-import depology from "@/assets/brand logo/depology.png";
-import joyjolt from "@/assets/brand logo/joyjolt.png";
-import exa from "@/assets/brand logo/exa.png";
-import kurk from "@/assets/brand logo/kurk.png";
-import mirrorskin from "@/assets/brand logo/mirrorskin.png";
-import nutrition from "@/assets/brand logo/nutrition.png";
-import bello from "@/assets/brand logo/bello.png";
-import saltyface from "@/assets/brand logo/saltyface.png";
-import itsy from "@/assets/brand logo/itsy.png";
-import innermost from "@/assets/brand logo/innermost.png";
-import huya from "@/assets/brand logo/huya.png";
-import snax from "@/assets/brand logo/snax.png";
-import moxeys from "@/assets/brand logo/moxeys.png";
-
+import { brandLogos } from "@/data/brand-logos";
 import { ijockeyVideos, industrialAnimationVideos } from "@/data/portfolio-media";
+
+/** Placeholder client logos from the brand marquee set. */
+const brandLogo = (index: number) => brandLogos[index % brandLogos.length]!.src;
 
 import ijockeyHelmetPart from "@/assets/Ijockey portfolio folder/Helmet Part.jpeg";
 import ijockeyClientSketch from "@/assets/Ijockey portfolio folder/Client Sketch.jpeg";
@@ -139,7 +127,7 @@ export const workCategories: WorkCategory[] = [
             "Animated product stories and character loops for global paid social and hero campaign launches.",
           projectCount: 8,
           testimonial: "The motion language felt premium from the first storyboard frame.",
-          logo: raycon,
+          logo: brandLogo(0),
           banner: portfolio2d,
           services: ["2D Character Animation", "Explainer Sequences", "Social Cutdowns"],
           timeline: "2022 — Present",
@@ -174,7 +162,7 @@ export const workCategories: WorkCategory[] = [
           industry: "Fitness & Wellness",
           description: "High-energy 2D motion for app onboarding and performance marketing.",
           projectCount: 5,
-          logo: crossrope,
+          logo: brandLogo(1),
           banner: portfolioMotion,
           services: ["2D Motion Graphics", "UI Animation"],
           timeline: "2023 — 2025",
@@ -200,7 +188,7 @@ export const workCategories: WorkCategory[] = [
           industry: "Children & Education",
           description: "Playful 2D character animation for app stories and learning content.",
           projectCount: 5,
-          logo: itsy,
+          logo: brandLogo(2),
           banner: portfolioCharacter,
           services: ["2D Character Animation", "Storyboarding"],
           timeline: "2023 — 2025",
@@ -237,7 +225,7 @@ export const workCategories: WorkCategory[] = [
           description: "3D product visualization and macro beauty shots for DTC campaigns.",
           projectCount: 12,
           testimonial: "Every frame felt editorial — our conversion creative finally matched our brand.",
-          logo: depology,
+          logo: brandLogo(3),
           banner: portfolioCreature,
           services: ["3D Product Animation", "Beauty Macro", "CGI Environments"],
           timeline: "2021 — Present",
@@ -272,7 +260,7 @@ export const workCategories: WorkCategory[] = [
           industry: "Home & Lifestyle",
           description: "Stylized 3D glassware animation for Amazon and paid social.",
           projectCount: 6,
-          logo: joyjolt,
+          logo: brandLogo(4),
           banner: portfolioGame,
           services: ["3D Product", "Hard Surface"],
           timeline: "2022 — 2024",
@@ -298,7 +286,7 @@ export const workCategories: WorkCategory[] = [
           industry: "Health & Wellness",
           description: "3D supplement visualization with macro textures and fluid dynamics.",
           projectCount: 5,
-          logo: innermost,
+          logo: brandLogo(5),
           banner: portfolioCreature,
           services: ["3D Product", "Macro CGI"],
           timeline: "2022 — 2025",
@@ -334,7 +322,7 @@ export const workCategories: WorkCategory[] = [
           industry: "Technology",
           description: "Launch motion toolkits and abstract data visualizations.",
           projectCount: 4,
-          logo: exa,
+          logo: brandLogo(6),
           banner: portfolioMotion,
           services: ["Brand Motion", "Launch Films"],
           timeline: "2024 — 2025",
@@ -360,7 +348,7 @@ export const workCategories: WorkCategory[] = [
           industry: "Health & Supplements",
           description: "Supplement brand motion with organic textures and bold typography.",
           projectCount: 7,
-          logo: kurk,
+          logo: brandLogo(7),
           banner: portfolio2d,
           services: ["Motion Graphics", "Paid Social"],
           timeline: "2023 — 2025",
@@ -386,7 +374,7 @@ export const workCategories: WorkCategory[] = [
           industry: "Gaming & Live Streaming",
           description: "Game environment flythroughs and arena worlds for launch campaigns.",
           projectCount: 5,
-          logo: huya,
+          logo: brandLogo(8),
           banner: portfolioGame,
           services: ["Environment Art", "Cinematic Flythrough"],
           timeline: "2023 — 2025",
@@ -422,7 +410,7 @@ export const workCategories: WorkCategory[] = [
           industry: "Health & Fitness",
           description: "High-retention edits for YouTube, paid social, and influencer collaborations.",
           projectCount: 9,
-          logo: nutrition,
+          logo: brandLogo(9),
           banner: portfolioTrailer,
           services: ["Commercial Edit", "Social Cutdowns"],
           timeline: "2022 — 2025",
@@ -448,7 +436,7 @@ export const workCategories: WorkCategory[] = [
           industry: "Beauty",
           description: "Beauty editorial edits with seamless transitions and grade consistency.",
           projectCount: 5,
-          logo: saltyface,
+          logo: brandLogo(10),
           banner: portfolioCharacter,
           services: ["Editorial", "Color"],
           timeline: "2023 — 2024",
@@ -474,7 +462,7 @@ export const workCategories: WorkCategory[] = [
           industry: "Food & Beverage",
           description: "3D product animation for packshots, splashes, and hero retail films.",
           projectCount: 5,
-          logo: snax,
+          logo: brandLogo(0),
           banner: portfolioTrailer,
           services: ["3D Product Animation", "Packshot Films"],
           timeline: "2022 — 2025",
@@ -511,7 +499,7 @@ export const workCategories: WorkCategory[] = [
           description: "Beauty VFX, skin retouching, and particle FX for premium campaign films.",
           projectCount: 6,
           testimonial: "Invisible VFX that still felt magical on screen.",
-          logo: mirrorskin,
+          logo: brandLogo(1),
           banner: portfolioTrailer,
           services: ["Compositing", "Beauty VFX", "Particles"],
           timeline: "2023 — 2025",
@@ -546,7 +534,7 @@ export const workCategories: WorkCategory[] = [
           industry: "Consumer Goods",
           description: "Product enhancement and environment extensions for retail campaigns.",
           projectCount: 4,
-          logo: bello,
+          logo: brandLogo(2),
           banner: portfolioGame,
           services: ["Compositing", "Set Extension"],
           timeline: "2024",
@@ -572,7 +560,7 @@ export const workCategories: WorkCategory[] = [
           industry: "Retail & E-commerce",
           description: "VFX-heavy product films with set extensions and particle systems.",
           projectCount: 5,
-          logo: moxeys,
+          logo: brandLogo(3),
           banner: portfolioMotion,
           services: ["Compositing", "Particle FX"],
           timeline: "2023 — 2025",

@@ -19,15 +19,20 @@ function splitIntoRows(logos: BrandLogo[]): BrandLogo[][] {
 
 function LogoItem({ logo, ariaHidden }: { logo: BrandLogo; ariaHidden?: boolean }) {
   const { t } = useTranslation();
+  const isColor = logo.variant === "color";
+
   return (
     <img
       src={logo.src}
       alt={ariaHidden ? undefined : t("logoMarquee.logoAlt", { brand: logo.name })}
       width={160}
-      height={48}
+      height={56}
       loading="lazy"
       decoding="async"
-      className="logo-marquee-img max-h-6 w-auto max-w-[96px] shrink-0 object-contain md:max-h-7 md:max-w-[108px]"
+      className={cn(
+        "logo-marquee-img max-h-7 w-auto max-w-[112px] shrink-0 object-contain md:max-h-9 md:max-w-[128px]",
+        isColor ? "logo-marquee-img--color" : "logo-marquee-img--mono",
+      )}
     />
   );
 }

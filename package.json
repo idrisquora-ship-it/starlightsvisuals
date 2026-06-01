@@ -7,6 +7,7 @@
     "dev": "vite dev",
     "build": "vite build",
     "sync:i18n": "node scripts/sync-i18n-works.mjs && node scripts/sync-i18n-hero.mjs && node scripts/sync-i18n-accordion.mjs",
+    "process:brand-logos": "node scripts/process-brand-logos.mjs",
     "build:dev": "vite build --mode development",
     "preview": "node .output/server/index.mjs",
     "preview:vite": "vite preview",
@@ -87,6 +88,7 @@
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^15.15.0",
     "prettier": "^3.7.3",
+    "sharp": "^0.34.5",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.56.1",
     "vite": "^7.3.1"
