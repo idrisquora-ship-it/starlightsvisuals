@@ -1,6 +1,6 @@
 /**
- * Prepare brand marquee assets: white silhouettes for dark logos (1,2,7,8),
- * original colors for the rest. All exported at the same canvas size.
+ * Prepare brand marquee assets: white silhouettes for dark logos (1,2,7),
+ * original colors for the rest (including brand 8 from brand 8 - Copy.jpg).
  * Run: npm run process:brand-logos
  */
 import fs from "node:fs";
@@ -19,7 +19,7 @@ const CANVAS_H = 48;
 const LOGO_H = 40;
 
 /** Only these need forced white on dark UI */
-const WHITE_SLUGS = new Set(["brand-1", "brand-2", "brand-7", "brand-8"]);
+const WHITE_SLUGS = new Set(["brand-1", "brand-2", "brand-7"]);
 
 const SOURCES = [
   { file: "Brand.jpg", slug: "brand" },

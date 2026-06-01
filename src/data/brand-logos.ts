@@ -16,7 +16,7 @@ export const brandLogos: BrandLogo[] = [
   { name: "Brand 5", src: "/brand-marquee/brand-5.png", variant: "color" },
   { name: "Brand 6", src: "/brand-marquee/brand-6.png", variant: "color" },
   { name: "Brand 7", src: "/brand-marquee/brand-7.png", variant: "mono" },
-  { name: "Brand 8", src: "/brand-marquee/brand-8.png", variant: "mono" },
+  { name: "Brand 8", src: "/brand-marquee/brand-8.png", variant: "color" },
   { name: "Brand 9", src: "/brand-marquee/brand-9.png", variant: "color" },
   { name: "Brand 10", src: "/brand-marquee/brand-10.png", variant: "color" },
 ];
