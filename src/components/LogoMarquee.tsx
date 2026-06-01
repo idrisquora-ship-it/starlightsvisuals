@@ -19,17 +19,23 @@ function splitIntoRows(logos: BrandLogo[]): BrandLogo[][] {
 
 function LogoItem({ logo, ariaHidden }: { logo: BrandLogo; ariaHidden?: boolean }) {
   const { t } = useTranslation();
+  const isMono = logo.variant === "mono";
 
   return (
-    <img
-      src={logo.src}
-      alt={ariaHidden ? undefined : t("logoMarquee.logoAlt", { brand: logo.name })}
-      width={160}
-      height={56}
-      loading="lazy"
-      decoding="async"
-      className="logo-marquee-img max-h-7 w-auto max-w-[112px] shrink-0 object-contain opacity-95 md:max-h-9 md:max-w-[128px]"
-    />
+    <div className="logo-marquee-slot flex h-12 w-40 shrink-0 items-center justify-center">
+      <img
+        src={logo.src}
+        alt={ariaHidden ? undefined : t("logoMarquee.logoAlt", { brand: logo.name })}
+        width={160}
+        height={48}
+        loading="lazy"
+        decoding="async"
+        className={cn(
+          "logo-marquee-img h-full w-full object-contain",
+          isMono ? "logo-marquee-img--mono" : "logo-marquee-img--color",
+        )}
+      />
+    </div>
   );
 }
 

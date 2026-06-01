@@ -208,10 +208,20 @@
     }
   }
 
-  /* Brand marks — white transparent PNGs from process-brand-logos */
+  .logo-marquee-slot {
+    flex-shrink: 0;
+  }
+  /* Uniform slots; mono = white PNGs, color = original palette */
   .logo-marquee-img {
     filter: none;
+    opacity: 0.92;
     transition: opacity 0.25s ease;
+  }
+  .logo-marquee-img--mono {
+    filter: none;
+  }
+  .logo-marquee-img--color {
+    filter: none;
   }
   .logo-marquee-rows:hover .logo-marquee-img {
     opacity: 1;
