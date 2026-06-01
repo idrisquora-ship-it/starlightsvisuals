@@ -15,8 +15,8 @@ const outDir = path.join(root, "public", "brand-marquee");
 
 const CANVAS_W = 160;
 const CANVAS_H = 48;
-/** Logo fills ~76% of tile — visible but not cropped */
-const FILL = 0.76;
+/** Logo fills tile — tight grid look with minimal inner padding */
+const FILL = 0.88;
 
 const SOURCES = [
   { file: "Untitled design (5).png", slug: "brand-1", name: "IJOCKEY" },

@@ -21,7 +21,7 @@ function LogoItem({ logo, ariaHidden }: { logo: BrandLogo; ariaHidden?: boolean 
   const { t } = useTranslation();
 
   return (
-    <div className="logo-marquee-slot flex h-10 w-36 shrink-0 items-center justify-center overflow-hidden rounded-md p-1">
+    <div className="logo-marquee-slot flex h-10 w-36 shrink-0 items-center justify-center overflow-hidden">
       <img
         src={logo.src}
         alt={ariaHidden ? undefined : t("logoMarquee.logoAlt", { brand: logo.name })}
