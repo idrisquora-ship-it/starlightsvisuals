@@ -19,10 +19,9 @@ function splitIntoRows(logos: BrandLogo[]): BrandLogo[][] {
 
 function LogoItem({ logo, ariaHidden }: { logo: BrandLogo; ariaHidden?: boolean }) {
   const { t } = useTranslation();
-  const isDarkInk = logo.variant === "dark";
 
   return (
-    <div className="logo-marquee-slot flex h-12 w-40 shrink-0 items-center justify-center">
+    <div className="logo-marquee-slot flex h-12 w-40 shrink-0 items-center justify-center overflow-hidden rounded-sm">
       <img
         src={logo.src}
         alt={ariaHidden ? undefined : t("logoMarquee.logoAlt", { brand: logo.name })}
@@ -30,10 +29,7 @@ function LogoItem({ logo, ariaHidden }: { logo: BrandLogo; ariaHidden?: boolean 
         height={48}
         loading="lazy"
         decoding="async"
-        className={cn(
-          "logo-marquee-img h-full w-full object-contain",
-          isDarkInk ? "logo-marquee-img--dark" : "logo-marquee-img--color",
-        )}
+        className="logo-marquee-img block h-12 w-40"
       />
     </div>
   );
