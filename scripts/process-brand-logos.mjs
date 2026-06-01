@@ -1,5 +1,5 @@
 /**
- * Prepare brand marquee assets: remove backgrounds and normalize for dark UI.
+ * Prepare brand marquee assets as white silhouettes on transparent PNGs for dark UI.
  * Run: npm run process:brand-logos
  */
 import fs from "node:fs";
@@ -13,101 +13,77 @@ const sourceDir = path.join(root, "src", "assets", "brand logo");
 const outDir = path.join(root, "public", "brand-marquee");
 
 const SOURCES = [
-  { file: "Brand.jpg", slug: "brand", variant: "mono" },
-  { file: "Brand 1.jpg", slug: "brand-1", variant: "mono" },
-  { file: "brand 2.jpg", slug: "brand-2", variant: "mono" },
-  { file: "brand 3.jpg", slug: "brand-3", variant: "mono" },
-  { file: "brand 4.jpg", slug: "brand-4", variant: "mono" },
-  { file: "brand 5.jpg", slug: "brand-5", variant: "mono" },
-  { file: "brand 6.jpg", slug: "brand-6", variant: "mono" },
-  { file: "brand 7.png", slug: "brand-7", variant: "color" },
-  { file: "brand 8 - Copy.jpg", slug: "brand-8", variant: "color" },
-  { file: "brand 9.png", slug: "brand-9", variant: "color" },
-  { file: "brad 10.jpg", slug: "brand-10", variant: "mono" },
+  { file: "Brand.jpg", slug: "brand" },
+  { file: "Brand 1.jpg", slug: "brand-1" },
+  { file: "brand 2.jpg", slug: "brand-2" },
+  { file: "brand 3.jpg", slug: "brand-3" },
+  { file: "brand 4.jpg", slug: "brand-4" },
+  { file: "brand 5.jpg", slug: "brand-5" },
+  { file: "brand 6.jpg", slug: "brand-6" },
+  { file: "brand 7.png", slug: "brand-7" },
+  { file: "brand 8 - Copy.jpg", slug: "brand-8" },
+  { file: "brand 9.png", slug: "brand-9" },
+  { file: "brad 10.jpg", slug: "brand-10" },
 ];
 
-function luminance(r, g, b) {
-  return 0.299 * r + 0.587 * g + 0.114 * b;
+function averageGray(gray, channels) {
+  let sum = 0;
+  const n = gray.length / channels;
+  for (let i = 0; i < gray.length; i += channels) {
+    sum += gray[i];
+  }
+  return sum / n;
 }
 
-function peakChannel(data) {
-  let peak = 0;
-  for (let i = 0; i < data.length; i += 4) {
-    peak = Math.max(peak, data[i], data[i + 1], data[i + 2]);
-  }
-  return peak;
-}
+function toWhiteRgba(gray, channels, aggressive) {
+  const n = gray.length / channels;
+  const out = new Uint8Array(n * 4);
+  const floor = aggressive ? 10 : 22;
+  let visible = 0;
 
-function isBackground(r, g, b, a, variant, inverted) {
-  if (a < 16) return true;
-  const max = Math.max(r, g, b);
-  const min = Math.min(r, g, b);
-  const lum = luminance(r, g, b);
+  for (let i = 0; i < n; i++) {
+    const g = gray[i * channels];
+    const o = i * 4;
 
-  if (variant === "color") {
-    return lum < 18 || (lum > 248 && max - min < 15);
-  }
-
-  if (inverted) {
-    return lum > 232 || max > 238;
-  }
-
-  return max < 52 || lum < 40;
-}
-
-function processPixels(data, variant, inverted) {
-  for (let i = 0; i < data.length; i += 4) {
-    const r = data[i];
-    const g = data[i + 1];
-    const b = data[i + 2];
-    const a = data[i + 3];
-
-    if (isBackground(r, g, b, a, variant, inverted)) {
-      data[i + 3] = 0;
+    if (g < floor) {
+      out[o + 3] = 0;
       continue;
     }
 
-    if (variant === "mono") {
-      const lum = luminance(r, g, b);
-      const alpha = Math.min(255, Math.round(lum * 1.2 + 70));
-      data[i] = 255;
-      data[i + 1] = 255;
-      data[i + 2] = 255;
-      data[i + 3] = Math.max(alpha, 160);
-    } else {
-      const lum = luminance(r, g, b);
-      if (lum < 100) {
-        const boost = Math.min(255, lum + 210);
-        data[i] = boost;
-        data[i + 1] = boost;
-        data[i + 2] = boost;
-      }
-      data[i + 3] = Math.max(data[i + 3], 230);
-    }
+    const alpha = Math.min(255, Math.round(g * 2.4 + 55));
+    out[o] = 255;
+    out[o + 1] = 255;
+    out[o + 2] = 255;
+    out[o + 3] = Math.max(alpha, 235);
+    visible++;
   }
+  return { out, visible };
 }
 
-async function processOne({ file, slug, variant }) {
+async function processOne({ file, slug }) {
   const input = path.join(sourceDir, file);
   if (!fs.existsSync(input)) {
     console.warn(`Skip missing: ${file}`);
     return null;
   }
 
-  let pipeline = sharp(input).resize({ height: 96, withoutEnlargement: false });
+  const base = sharp(input)
+    .resize({ height: 96, withoutEnlargement: false })
+    .flatten({ background: { r: 0, g: 0, b: 0 } });
 
-  const probe = await pipeline.clone().ensureAlpha().raw().toBuffer({ resolveWithObject: true });
-  const peak = peakChannel(probe.data);
-  const inverted = variant === "mono" && peak < 80;
+  const probeMeta = await base.clone().grayscale().raw().toBuffer({ resolveWithObject: true });
+  const avg = averageGray(probeMeta.data, probeMeta.info.channels);
 
-  if (inverted) {
+  const aggressive = avg < 40;
+
+  let pipeline = base.grayscale();
+  if (avg > 115) {
     pipeline = pipeline.negate({ alpha: false });
   }
+  pipeline = pipeline.normalize();
 
-  const { data, info } = await pipeline.ensureAlpha().raw().toBuffer({ resolveWithObject: true });
-
-  const pixels = new Uint8Array(data);
-  processPixels(pixels, variant, inverted);
+  const { data, info } = await pipeline.raw().toBuffer({ resolveWithObject: true });
+  const { out: pixels, visible } = toWhiteRgba(data, info.channels, aggressive);
 
   const output = path.join(outDir, `${slug}.png`);
   await sharp(Buffer.from(pixels), {
@@ -116,19 +92,16 @@ async function processOne({ file, slug, variant }) {
     .png()
     .toFile(output);
 
-  const outPeak = peakChannel(pixels);
-  console.log(`  ${slug}: peak ${peak}${inverted ? " (inverted)" : ""} → out peak ${outPeak}`);
+  const tags = [avg > 115 && "negated", aggressive && "boosted"].filter(Boolean).join(", ");
+  console.log(`  ${slug}: avg ${avg.toFixed(0)}${tags ? ` (${tags})` : ""} → ${visible} visible px`);
 
-  return { slug, variant, src: `/brand-marquee/${slug}.png` };
+  return { slug, src: `/brand-marquee/${slug}.png` };
 }
 
 fs.mkdirSync(outDir, { recursive: true });
 
-console.log("Processing brand logos…");
-const results = [];
+console.log("Processing brand logos as white silhouettes…");
 for (const entry of SOURCES) {
-  const result = await processOne(entry);
-  if (result) results.push(result);
+  await processOne(entry);
 }
-
-console.log(`Done — ${results.length} logos → ${outDir}`);
+console.log(`Done → ${outDir}`);

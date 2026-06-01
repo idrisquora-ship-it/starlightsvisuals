@@ -208,18 +208,9 @@
     }
   }
 
-  /* Brand marks — transparent PNGs, no card containers */
-  .logo-marquee-img--mono {
-    filter: none;
-    opacity: 0.9;
-    transition: opacity 0.25s ease;
-  }
-  .logo-marquee-img--color {
-    filter: none;
-    opacity: 0.95;
-    transition: opacity 0.25s ease;
-  }
+  /* Brand marks — white transparent PNGs from process-brand-logos */
   .logo-marquee-img {
+    filter: none;
     transition: opacity 0.25s ease;
   }
   .logo-marquee-rows:hover .logo-marquee-img {

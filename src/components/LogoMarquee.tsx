@@ -19,7 +19,6 @@ function splitIntoRows(logos: BrandLogo[]): BrandLogo[][] {
 
 function LogoItem({ logo, ariaHidden }: { logo: BrandLogo; ariaHidden?: boolean }) {
   const { t } = useTranslation();
-  const isColor = logo.variant === "color";
 
   return (
     <img
@@ -29,10 +28,7 @@ function LogoItem({ logo, ariaHidden }: { logo: BrandLogo; ariaHidden?: boolean 
       height={56}
       loading="lazy"
       decoding="async"
-      className={cn(
-        "logo-marquee-img max-h-7 w-auto max-w-[112px] shrink-0 object-contain md:max-h-9 md:max-w-[128px]",
-        isColor ? "logo-marquee-img--color" : "logo-marquee-img--mono",
-      )}
+      className="logo-marquee-img max-h-7 w-auto max-w-[112px] shrink-0 object-contain opacity-95 md:max-h-9 md:max-w-[128px]"
     />
   );
 }
