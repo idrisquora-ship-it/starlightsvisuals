@@ -1,6 +1,6 @@
 /**
  * Process Untitled design brand logos for the marquee.
- * Keeps original backgrounds (no removal). Uniform 160×48px output.
+ * Trims empty margins, zooms logo to fill tile, keeps background color.
  * Run: npm run process:brand-logos
  */
 import fs from "node:fs";
@@ -15,7 +15,6 @@ const outDir = path.join(root, "public", "brand-marquee");
 
 const CANVAS_W = 160;
 const CANVAS_H = 48;
-
 const SOURCES = [
   { file: "Untitled design (5).png", slug: "brand-1", name: "IJOCKEY" },
   { file: "Untitled design (6).png", slug: "brand-2", name: "projekt w" },
@@ -28,17 +27,12 @@ const SOURCES = [
   { file: "Untitled design (13).png", slug: "brand-9", name: "NOVATORQ" },
 ];
 
-function sampleBackground(input) {
-  return sharp(input)
-    .clone()
-    .extract({ left: 0, top: 0, width: 1, height: 1 })
-    .raw()
-    .toBuffer({ resolveWithObject: true })
-    .then(({ data }) => ({
-      r: data[0],
-      g: data[1],
-      b: data[2],
-    }));
+async function loadTrimmed(input) {
+  try {
+    return await sharp(input).trim({ threshold: 12 }).toBuffer();
+  } catch {
+    return fs.readFileSync(input);
+  }
 }
 
 async function processOne({ file, slug, name }) {
@@ -48,23 +42,25 @@ async function processOne({ file, slug, name }) {
     return null;
   }
 
-  const bg = await sampleBackground(input);
+  const trimmed = await loadTrimmed(input);
+  const meta = await sharp(trimmed).metadata();
 
-  await sharp(input)
+  await sharp(trimmed)
     .resize(CANVAS_W, CANVAS_H, {
-      fit: "contain",
+      fit: "cover",
       position: "centre",
-      background: bg,
     })
     .png()
     .toFile(path.join(outDir, `${slug}.png`));
 
-  console.log(`  ${slug} (${name}): ${CANVAS_W}×${CANVAS_H}, bg rgb(${bg.r},${bg.g},${bg.b})`);
+  console.log(
+    `  ${slug} (${name}): ${meta.width}×${meta.height} → zoomed ${CANVAS_W}×${CANVAS_H}`,
+  );
 }
 
 fs.mkdirSync(outDir, { recursive: true });
 
-console.log(`Processing Untitled brand logos (backgrounds preserved)…`);
+console.log("Processing Untitled brand logos (zoomed, backgrounds kept)…");
 for (const entry of SOURCES) {
   await processOne(entry);
 }

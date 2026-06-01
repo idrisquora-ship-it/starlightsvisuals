@@ -21,7 +21,7 @@ function LogoItem({ logo, ariaHidden }: { logo: BrandLogo; ariaHidden?: boolean 
   const { t } = useTranslation();
 
   return (
-    <div className="logo-marquee-slot flex h-12 w-40 shrink-0 items-center justify-center overflow-hidden rounded-sm">
+    <div className="logo-marquee-slot flex h-12 w-40 shrink-0 items-center justify-center overflow-hidden rounded-md">
       <img
         src={logo.src}
         alt={ariaHidden ? undefined : t("logoMarquee.logoAlt", { brand: logo.name })}
@@ -67,7 +67,7 @@ function MarqueeRow({
         {Array.from({ length: MARQUEE_COPIES }, (_, copyIndex) => (
           <div
             key={copyIndex}
-            className="logo-marquee-row flex shrink-0 flex-nowrap items-center"
+            className="logo-marquee-row flex shrink-0 flex-nowrap items-center gap-3 md:gap-4"
             aria-hidden={copyIndex > 0}
           >
             {stripLogos.map((logo, logoIndex) => (
