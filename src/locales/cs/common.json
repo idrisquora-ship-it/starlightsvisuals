@@ -391,10 +391,10 @@
   "works": {
     "breadcrumbLabel": "Breadcrumb",
     "breadcrumbHome": "Home",
-    "breadcrumbWorks": "Vybrané práce",
-    "clientsTitle": "Klienti, se kterými jsme spolupracovali",
-    "clientsCount": "{{count}} klientů",
-    "projectsCompleted": "{{count}} dokončených projektů",
+    "breadcrumbWorks": "Selected Works",
+    "clientsTitle": "Clients We've Worked With",
+    "clientsCount": "{{count}} clients",
+    "projectsCompleted": "{{count}} projects completed",
     "timeline": "Timeline",
     "services": "Services provided",
     "tools": "Tools & software",
@@ -403,44 +403,44 @@
     "allYears": "All years",
     "noClients": "No clients in this category yet.",
     "noProjects": "No projects match your filters.",
-    "projectsTitle": "Ukázky projektů",
+    "projectsTitle": "Project Samples",
     "relatedProjects": "Related projects",
-    "closePreview": "Zavřít náhled",
-    "ctaScript": "Připraveni, až budete vy —",
-    "ctaTitle": "Začněte projekt s námi",
-    "ctaDesc": "Řekněte nám o značce, harmonogramu a cílech.",
-    "ctaButton": "Začít projekt",
-    "portfolioHubDesc": "Prozkoumejte práce podle kategorie — animace, VFX, motion a další.",
+    "closePreview": "Close preview",
+    "ctaScript": "Ready when you are —",
+    "ctaTitle": "Start Your Project With Us",
+    "ctaDesc": "Tell us about your brand, timeline, and goals. We'll map a cinematic path from concept to delivery.",
+    "ctaButton": "Start a project",
+    "portfolioHubDesc": "Explore work by category — animation, VFX, motion, and more.",
     "categories": {
       "2d-animation": {
         "title": "2D animace",
-        "tagline": "Frame-by-frame craft for campaigns and series",
-        "description": "Character-driven 2D animation for commercials, explainers, and episodic content with bold motion and cinematic timing."
+        "tagline": "Kreslení snímek po snímku pro kampaně a série",
+        "description": "2D animace řízená postavami pro reklamy, vysvětlovače a epizodický obsah s výrazným pohybem a filmovým načasováním."
       },
       "3d-animation": {
         "title": "3D animace",
-        "tagline": "Photoreal and stylized 3D for brands and film",
-        "description": "Product, character, and environment animation with cinematic lighting, physics, and premium finish."
+        "tagline": "Fotorealistické a stylizované 3D pro značky a film",
+        "description": "Animace produktů, postav a prostředí s filmovým osvětlením, fyzikou a prémiovou povrchovou úpravou."
       },
       "motion-graphics": {
-        "title": "Game Environment",
-        "tagline": "Immersive worlds and playable spaces in motion",
-        "description": "Design-led motion systems for launches, dashboards, and brand worlds that scale across channels."
+        "title": "Herní prostředí",
+        "tagline": "Pohlcující světy a hratelné prostory v pohybu",
+        "description": "Pohybové systémy vedené designem pro uvedení na trh, řídicí panely a světy značek, které lze škálovat napříč kanály."
       },
       "video-editing": {
-        "title": "Product Animation",
-        "tagline": "Photoreal product films and cinematic packshots",
-        "description": "Editorial finishing, rhythm, and story structure for commercials, documentaries, and brand films."
+        "title": "Animace produktu",
+        "tagline": "Fotoreálné produktové filmy a filmové snímky",
+        "description": "Redakční úprava, rytmus a struktura příběhu pro reklamy, dokumentární filmy a značkové filmy."
       },
       "vfx": {
-        "title": "Vizuální efekty (VFX)",
-        "tagline": "Compositing, FX, and cinematic finishing",
-        "description": "Visual effects for trailers, product films, and branded content — from cleanups to full CG integration."
+        "title": "VFX",
+        "tagline": "Kompozice, efekty a filmová úprava",
+        "description": "Vizuální efekty pro upoutávky, produktové filmy a značkový obsah – od čištění po plnou integraci CG."
       },
       "branding": {
-        "title": "Industrial Animation",
-        "tagline": "Technical storytelling for products and manufacturing",
-        "description": "Brand films, identity motion, and launch assets that define how audiences remember your name."
+        "title": "Průmyslová animace",
+        "tagline": "Technické vyprávění příběhů pro produkty a výrobu",
+        "description": "Značkové filmy, pohyb identity a spouštěcí prvky, které definují, jak si publikum zapamatuje vaše jméno."
       }
     },
     "showcase": {
@@ -453,20 +453,551 @@
         "title": "3D animace"
       },
       "motion-graphics": {
-        "tag": "Game Environment",
-        "title": "Game Environment"
+        "tag": "Herní prostředí",
+        "title": "Herní prostředí"
       },
       "video-editing": {
-        "tag": "3D",
-        "title": "Product Animation"
+        "tag": "Animace produktu",
+        "title": "Animace produktu"
       },
       "vfx": {
-        "tag": "Vizuální efekty (VFX)",
-        "title": "Vizuální efekty (VFX)"
+        "tag": "VFX",
+        "title": "VFX"
       },
       "branding": {
-        "tag": "3D",
-        "title": "Industrial Animation"
+        "tag": "Průmyslová animace",
+        "title": "Průmyslová animace"
+      }
+    },
+    "clients": {
+      "2d-animation": {
+        "raycon": {
+          "name": "Raycon",
+          "industry": "Spotřební elektronika",
+          "description": "Animované příběhy produktů a smyčky postav pro globální placené sociální sítě a kampaně hrdinů.",
+          "testimonial": "Jazyk pohybu byl od prvního snímku scénáře prémiový.",
+          "timeline": "2022 – současnost",
+          "services": {
+            "0": "2D animace postav",
+            "1": "Vysvětlující sekvence",
+            "2": "Sociální omezení"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Toon Boom",
+            "2": "Photoshop"
+          }
+        },
+        "crossrope": {
+          "name": "Křížové lano",
+          "industry": "Fitness & Wellness",
+          "description": "Vysokoenergetický 2D pohyb pro zavedení aplikace a výkonnostní marketing.",
+          "timeline": "2023 – 2025",
+          "services": {
+            "0": "2D pohyblivá grafika",
+            "1": "Animace uživatelského rozhraní"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Ilustrátor"
+          }
+        },
+        "itsy": {
+          "name": "Jeho",
+          "industry": "Děti a vzdělávání",
+          "description": "Hravá 2D animace postav pro příběhy aplikací a výukový obsah.",
+          "timeline": "2023 – 2025",
+          "services": {
+            "0": "2D animace postav",
+            "1": "Storyboarding"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Toon Boom"
+          }
+        }
+      },
+      "3d-animation": {
+        "depology": {
+          "name": "Depologie",
+          "industry": "Krása a péče o pleť",
+          "description": "3D vizualizace produktu a makro snímky krásy pro kampaně DTC.",
+          "testimonial": "Redakční úprava každého rámu – naše konverzní kreativa konečně odpovídala naší značce.",
+          "timeline": "2021 – současnost",
+          "services": {
+            "0": "3D animace produktu",
+            "1": "Krása makro",
+            "2": "Prostředí CGI"
+          },
+          "tools": {}
+        },
+        "joyjolt": {
+          "name": "Joyjolt",
+          "industry": "Domov a životní styl",
+          "description": "Stylizované 3D skleněné animace pro Amazon a placené sociální sítě.",
+          "timeline": "2022 – 2024",
+          "services": {
+            "0": "3D produkt",
+            "1": "Tvrdý povrch"
+          },
+          "tools": {
+            "0": "Kino 4D",
+            "1": "Červený posuv",
+            "2": "After Effects"
+          }
+        },
+        "innermost": {
+          "name": "Nejvnitřnější",
+          "industry": "Zdraví a wellness",
+          "description": "3D doplňková vizualizace s makro texturami a dynamikou tekutin.",
+          "timeline": "2022 – 2025",
+          "services": {
+            "0": "3D produkt",
+            "1": "Makro CGI"
+          },
+          "tools": {}
+        }
+      },
+      "motion-graphics": {
+        "exa": {
+          "name": "Exa",
+          "industry": "Technologie",
+          "description": "Spusťte sady nástrojů pro pohyb a vizualizace abstraktních dat.",
+          "timeline": "2024 – 2025",
+          "services": {
+            "0": "Pohyb značky",
+            "1": "Spusťte Filmy"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Kino 4D"
+          }
+        },
+        "kurk": {
+          "name": "Kurk",
+          "industry": "Zdraví a doplňky",
+          "description": "Doplňte pohyb značky organickými texturami a výraznou typografií.",
+          "timeline": "2023 – 2025",
+          "services": {
+            "0": "Pohyblivá grafika",
+            "1": "Placené sociální sítě"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Ilustrátor"
+          }
+        },
+        "huya": {
+          "name": "Huya",
+          "industry": "Hraní a živé vysílání",
+          "description": "Průlety herním prostředím a světy arén pro zahájení kampaní.",
+          "timeline": "2023 – 2025",
+          "services": {
+            "0": "Životní prostředí Umění",
+            "1": "Filmový průlet"
+          },
+          "tools": {
+            "0": "Unreal Engine",
+            "1": "Kino 4D",
+            "2": "After Effects"
+          }
+        }
+      },
+      "video-editing": {
+        "nutrition": {
+          "name": "Výživa",
+          "industry": "Zdraví a fitness",
+          "description": "Úpravy s vysokým uchováním pro YouTube, placené sociální sítě a spolupráci s influencery.",
+          "timeline": "2022 – 2025",
+          "services": {
+            "0": "Komerční úprava",
+            "1": "Sociální omezení"
+          },
+          "tools": {
+            "0": "Premiere Pro",
+            "1": "DaVinci Resolve"
+          }
+        },
+        "saltyface": {
+          "name": "Slaný obličej",
+          "industry": "Krása",
+          "description": "Krása redakční úpravy s plynulými přechody a konzistence hodnocení.",
+          "timeline": "2023 – 2024",
+          "services": {
+            "0": "Redakční",
+            "1": "Barva"
+          },
+          "tools": {
+            "0": "DaVinci Resolve"
+          }
+        },
+        "snax": {
+          "name": "Snax",
+          "industry": "Jídlo & Nápoje",
+          "description": "3D animace produktu pro packshoty, šplouchání a hrdinské maloobchodní filmy.",
+          "timeline": "2022 – 2025",
+          "services": {
+            "0": "3D animace produktu",
+            "1": "Packshot filmy"
+          },
+          "tools": {
+            "0": "Kino 4D",
+            "1": "Červený posuv",
+            "2": "After Effects"
+          }
+        }
+      },
+      "vfx": {
+        "mirrorskin": {
+          "name": "Zrcadlová kůže",
+          "industry": "Péče o pleť",
+          "description": "Beauty VFX, retušování pleti a částicové FX pro filmy prémiové kampaně.",
+          "testimonial": "Neviditelný VFX, který se na obrazovce stále cítil magicky.",
+          "timeline": "2023 – 2025",
+          "services": {
+            "0": "Skládání",
+            "1": "Krása VFX",
+            "2": "Částice"
+          },
+          "tools": {
+            "0": "Nuke",
+            "1": "After Effects",
+            "2": "Houdini"
+          }
+        },
+        "bello": {
+          "name": "Bello",
+          "industry": "Konzumní zboží",
+          "description": "Vylepšení produktu a rozšíření prostředí pro maloobchodní kampaně.",
+          "timeline": "2024",
+          "services": {
+            "0": "Skládání",
+            "1": "Nastavit rozšíření"
+          },
+          "tools": {
+            "0": "Nuke",
+            "1": "Photoshop"
+          }
+        },
+        "moxeys": {
+          "name": "Moxeys",
+          "industry": "Maloobchod a elektronický obchod",
+          "description": "VFX-těžké produktové fólie s rozšířením sady a částicovými systémy.",
+          "timeline": "2023 – 2025",
+          "services": {
+            "0": "Skládání",
+            "1": "Částice FX"
+          },
+          "tools": {
+            "0": "Nuke",
+            "1": "Houdini",
+            "2": "After Effects"
+          }
+        }
+      },
+      "branding": {
+        "industrial-animation": {
+          "name": "Průmyslová animace",
+          "industry": "Výroba a těžká zařízení",
+          "description": "Realistická 3D průmyslová a CGI produktová animace pro těžké stroje, montážní vitríny a technické marketingové filmy.",
+          "timeline": "2024 – 2025",
+          "services": {
+            "0": "Průmyslová animace",
+            "1": "Produktový film CGI",
+            "2": "Technická vizualizace"
+          },
+          "tools": {
+            "0": "Kino 4D",
+            "1": "Mixér",
+            "2": "After Effects"
+          }
+        },
+        "ijockey": {
+          "name": "Ijockey",
+          "industry": "Spotřební produkty",
+          "description": "3D animace produktů, papírové rendery a značkové filmy pro maloobchodní prodej a zahájení kampaní Ijockey.",
+          "timeline": "2024 – 2025",
+          "services": {
+            "0": "3D animace produktu",
+            "1": "Průmyslové vykreslování",
+            "2": "Značkový film"
+          },
+          "tools": {
+            "0": "Kino 4D",
+            "1": "Mixér",
+            "2": "After Effects"
+          }
+        }
+      }
+    },
+    "projects": {
+      "raycon-2d-p1": {
+        "title": "Hero Launch Loop",
+        "description": "15s animace s opakováním pro placené sociální sítě s vyprávěním příběhu jako prvního produktu.",
+        "tags": {
+          "0": "Kampaň",
+          "1": "Produkt"
+        }
+      },
+      "raycon-2d-p2": {
+        "title": "Charakterové místo",
+        "description": "Ručně kreslená postava působící pro sezónní osvěžení značky.",
+        "tags": {
+          "0": "Charakter",
+          "1": "Přenos"
+        }
+      },
+      "crossrope-2d-p1": {
+        "title": "Přihlášení do aplikace",
+        "description": "Modulární 2D scény vysvětlující režimy cvičení a sledování.",
+        "tags": {
+          "0": "UI",
+          "1": "Vysvětlovač"
+        }
+      },
+      "itsy-2d-p1": {
+        "title": "Pohádková série",
+        "description": "Epizodické 2D šortky pro výukové cesty v aplikaci.",
+        "tags": {
+          "0": "Charakter",
+          "1": "Série"
+        }
+      },
+      "depology-3d-p1": {
+        "title": "Sérum Hero Film",
+        "description": "Fotorealistický gramofon s fluidní sim a makro čočkou.",
+        "tags": {
+          "0": "Produkt",
+          "1": "Krása"
+        }
+      },
+      "depology-3d-p2": {
+        "title": "Rutinní odhalení",
+        "description": "Rutinní animace ve třech krocích pro hrdinu vstupní stránky.",
+        "tags": {
+          "0": "Kampaň"
+        }
+      },
+      "joyjolt-3d-p1": {
+        "title": "Kolekce skla",
+        "description": "Studie lomu krystalů a animace packshotů.",
+        "tags": {
+          "0": "Produkt"
+        }
+      },
+      "innermost-3d-p1": {
+        "title": "Práškový makro film",
+        "description": "Pomalý pohyb prášku s fotoreálným osvětlením a stupněm.",
+        "tags": {
+          "0": "Produkt",
+          "1": "Makro"
+        }
+      },
+      "exa-motion-p1": {
+        "title": "Spusťte Toolkit",
+        "description": "Modulární pohybové komponenty pro keynote a sociální zavádění.",
+        "tags": {
+          "0": "Zahájit",
+          "1": "Toolkit"
+        }
+      },
+      "kurk-motion-p1": {
+        "title": "Příběh ingrediencí",
+        "description": "Kinetický typ a makro překryvy pro hlavní reklamy DTC.",
+        "tags": {
+          "0": "DTC",
+          "1": "Typografie"
+        }
+      },
+      "huya-env-p1": {
+        "title": "Arena World Reveal",
+        "description": "Prohlídka filmového prostředí s dynamickým osvětlením a VFX.",
+        "tags": {
+          "0": "Prostředí",
+          "1": "Zahájit"
+        }
+      },
+      "nutrition-edit-p1": {
+        "title": "Montáž kampaně",
+        "description": "Rychlá úprava výkonu se zvukovým designem a barevným leskem.",
+        "tags": {
+          "0": "Upravit",
+          "1": "Sociální"
+        }
+      },
+      "saltyface-edit-p1": {
+        "title": "Redakční film",
+        "description": "Značkový film 60. let sestavený z vícedenních produkčních záběrů.",
+        "tags": {
+          "0": "Krása",
+          "1": "Film"
+        }
+      },
+      "snax-product-p1": {
+        "title": "Hrdina Packshot",
+        "description": "Photoreal product spin s tekutým sim a studiovým osvětlením.",
+        "tags": {
+          "0": "Produkt",
+          "1": "Packshot"
+        }
+      },
+      "mirrorskin-vfx-p1": {
+        "title": "Particle Beauty Pass",
+        "description": "Částice makroséra integrované do živě působících destiček.",
+        "tags": {
+          "0": "VFX",
+          "1": "Krása"
+        }
+      },
+      "mirrorskin-vfx-p2": {
+        "title": "Dokončení přívěsu",
+        "description": "Kompletní kompilace pro 30s launch trailer.",
+        "tags": {
+          "0": "Přívěs"
+        }
+      },
+      "bello-vfx-p1": {
+        "title": "Maloobchodní hrdina",
+        "description": "Prostředí CG se prolíná se studiovou produktovou fotografií.",
+        "tags": {
+          "0": "Maloobchodní"
+        }
+      },
+      "moxeys-vfx-p1": {
+        "title": "Particle Product Pass",
+        "description": "Makro částice FX integrovaná s deskami studiových produktů.",
+        "tags": {
+          "0": "VFX",
+          "1": "Produkt"
+        }
+      },
+      "industrial-animation-p1": {
+        "title": "Průmyslový hrdina Still",
+        "description": "Klíčový statický snímek z těžké průmyslové animační sekvence.",
+        "tags": {
+          "0": "Průmyslový",
+          "1": "Stále"
+        }
+      },
+      "industrial-animation-p2": {
+        "title": "Vizuální produktový klíč CGI",
+        "description": "Photoreal CGI produkt render pro kampaň a pitch decky.",
+        "tags": {
+          "0": "CGI",
+          "1": "Produkt"
+        }
+      },
+      "industrial-animation-p3": {
+        "title": "Průmyslový animovaný film",
+        "description": "Plná průmyslová animace předvádějící stroje v pohybu.",
+        "tags": {
+          "0": "Průmyslový",
+          "1": "Film"
+        }
+      },
+      "industrial-animation-p4": {
+        "title": "Animace produktu CGI",
+        "description": "Realistická 3D animace produktu s filmovým osvětlením a pohyby kamery.",
+        "tags": {
+          "0": "CGI",
+          "1": "Animace"
+        }
+      },
+      "industrial-animation-p5": {
+        "title": "Ukázka animace",
+        "description": "Ukázka průmyslové animace pro sociální a prezentační použití.",
+        "tags": {
+          "0": "Ochutnat",
+          "1": "Průmyslový"
+        }
+      },
+      "ijockey-industrial-p1": {
+        "title": "Část helmy",
+        "description": "Přehled produktů a dynamický ventilační systém pro helmu Ijockey.",
+        "tags": {
+          "0": "Část helmy",
+          "1": "Produkt"
+        }
+      },
+      "ijockey-industrial-p2": {
+        "title": "Náčrt klienta",
+        "description": "Počáteční skica konceptu produktu pro tvar a proporce Ijockey.",
+        "tags": {
+          "0": "Náčrt klienta",
+          "1": "Pojem"
+        }
+      },
+      "ijockey-industrial-p3": {
+        "title": "Náčrt klienta",
+        "description": "Vytříbená klientská skica zkoumající umístění siluety a detailů.",
+        "tags": {
+          "0": "Náčrt klienta",
+          "1": "Pojem"
+        }
+      },
+      "ijockey-industrial-p4": {
+        "title": "Modelování",
+        "description": "3D blokování a modelování pro produkt Ijockey.",
+        "tags": {
+          "0": "Modelování",
+          "1": "3D"
+        }
+      },
+      "ijockey-industrial-p5": {
+        "title": "Modelování",
+        "description": "Upřesnění modelování s vylepšenou topologií a povrchovým tokem.",
+        "tags": {
+          "0": "Modelování",
+          "1": "3D"
+        }
+      },
+      "ijockey-industrial-p6": {
+        "title": "Konečný produkt",
+        "description": "Vykreslení hotového výrobku s materiály a studiovým osvětlením.",
+        "tags": {
+          "0": "Konečný produkt",
+          "1": "Vykreslit"
+        }
+      },
+      "ijockey-industrial-p7": {
+        "title": "Konečný produkt",
+        "description": "Hero finální produktový rám pro kampaň a maloobchodní použití.",
+        "tags": {
+          "0": "Konečný produkt",
+          "1": "Vykreslit"
+        }
+      },
+      "ijockey-industrial-p8": {
+        "title": "Konečný produkt",
+        "description": "Alternativní úhel konečného produktu pro uvedení na trh a placená média.",
+        "tags": {
+          "0": "Konečný produkt",
+          "1": "Vykreslit"
+        }
+      },
+      "ijockey-industrial-p9": {
+        "title": "Značkový produktový film",
+        "description": "Animace značkového produktu s typografií na obrazovce a zpracováním loga.",
+        "tags": {
+          "0": "Film",
+          "1": "Značkový"
+        }
+      },
+      "ijockey-industrial-p10": {
+        "title": "Animace čistého produktu",
+        "description": "Animace produktu bez loga pro flexibilní vytváření verzí kanálů.",
+        "tags": {
+          "0": "Animace",
+          "1": "Produkt"
+        }
+      },
+      "ijockey-industrial-p11": {
+        "title": "Prezentace produktu",
+        "description": "Kompletní produktový vitrínový film pro maloobchod a digitální umístění.",
+        "tags": {
+          "0": "Vitrína",
+          "1": "Film"
+        }
       }
     }
   },

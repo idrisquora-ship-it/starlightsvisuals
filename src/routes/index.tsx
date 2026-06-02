@@ -31,7 +31,7 @@ export const Route = createFileRoute("/")({
 });
 
 function Home() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const showcaseCategories = useLocalizedShowcaseCategories();
 
   const services = useMemo(
@@ -41,7 +41,7 @@ function Home() {
       { num: "03", title: t("home.services.03.title"), desc: t("home.services.03.desc") },
       { num: "04", title: t("home.services.04.title"), desc: t("home.services.04.desc") },
     ],
-    [t],
+    [t, i18n.language],
   );
 
   return (

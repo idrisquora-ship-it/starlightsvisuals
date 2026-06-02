@@ -78,7 +78,8 @@ void i18n.use(initReactI18next).init({
   },
   lng: DEFAULT_LANGUAGE,
   supportedLngs: supportedLanguageCodes,
-  fallbackLng: DEFAULT_LANGUAGE,
+  fallbackLng: { default: [DEFAULT_LANGUAGE] },
+  returnNull: false,
   ns: ["common"],
   defaultNS: "common",
   interpolation: {

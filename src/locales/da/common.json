@@ -391,10 +391,10 @@
   "works": {
     "breadcrumbLabel": "Breadcrumb",
     "breadcrumbHome": "Home",
-    "breadcrumbWorks": "Udvalgt arbejde",
-    "clientsTitle": "Kunder vi har arbejdet med",
-    "clientsCount": "{{count}} kunder",
-    "projectsCompleted": "{{count}} afsluttede projekter",
+    "breadcrumbWorks": "Selected Works",
+    "clientsTitle": "Clients We've Worked With",
+    "clientsCount": "{{count}} clients",
+    "projectsCompleted": "{{count}} projects completed",
     "timeline": "Timeline",
     "services": "Services provided",
     "tools": "Tools & software",
@@ -403,70 +403,601 @@
     "allYears": "All years",
     "noClients": "No clients in this category yet.",
     "noProjects": "No projects match your filters.",
-    "projectsTitle": "Projekteksempler",
+    "projectsTitle": "Project Samples",
     "relatedProjects": "Related projects",
-    "closePreview": "Luk forhåndsvisning",
-    "ctaScript": "Klar når du er —",
-    "ctaTitle": "Start dit projekt med os",
-    "ctaDesc": "Fortæl os om dit brand, tidsplan og mål.",
-    "ctaButton": "Start et projekt",
-    "portfolioHubDesc": "Udforsk arbejde efter kategori — animation, VFX, motion og mere.",
+    "closePreview": "Close preview",
+    "ctaScript": "Ready when you are —",
+    "ctaTitle": "Start Your Project With Us",
+    "ctaDesc": "Tell us about your brand, timeline, and goals. We'll map a cinematic path from concept to delivery.",
+    "ctaButton": "Start a project",
+    "portfolioHubDesc": "Explore work by category — animation, VFX, motion, and more.",
     "categories": {
       "2d-animation": {
-        "title": "2D-animation",
-        "tagline": "Frame-by-frame craft for campaigns and series",
-        "description": "Character-driven 2D animation for commercials, explainers, and episodic content with bold motion and cinematic timing."
+        "title": "2D animation",
+        "tagline": "Ramme-for-ramme håndværk til kampagner og serier",
+        "description": "Karakterdrevet 2D-animation til reklamer, forklaringer og episodisk indhold med fed bevægelse og filmisk timing."
       },
       "3d-animation": {
-        "title": "3D-animation",
-        "tagline": "Photoreal and stylized 3D for brands and film",
-        "description": "Product, character, and environment animation with cinematic lighting, physics, and premium finish."
+        "title": "3D animation",
+        "tagline": "Fotorealiseret og stiliseret 3D til mærker og film",
+        "description": "Produkt-, karakter- og miljøanimation med filmisk belysning, fysik og førsteklasses finish."
       },
       "motion-graphics": {
-        "title": "Game Environment",
-        "tagline": "Immersive worlds and playable spaces in motion",
-        "description": "Design-led motion systems for launches, dashboards, and brand worlds that scale across channels."
+        "title": "Spilmiljø",
+        "tagline": "Fordybende verdener og spilbare rum i bevægelse",
+        "description": "Designledede bevægelsessystemer til lanceringer, dashboards og brandverdener, der skalerer på tværs af kanaler."
       },
       "video-editing": {
-        "title": "Product Animation",
-        "tagline": "Photoreal product films and cinematic packshots",
-        "description": "Editorial finishing, rhythm, and story structure for commercials, documentaries, and brand films."
+        "title": "Produktanimation",
+        "tagline": "Fotorealistiske produktfilm og filmiske packshots",
+        "description": "Redaktionel efterbehandling, rytme og historiestruktur for reklamer, dokumentarer og mærkefilm."
       },
       "vfx": {
-        "title": "Visuelle effekter (VFX)",
-        "tagline": "Compositing, FX, and cinematic finishing",
-        "description": "Visual effects for trailers, product films, and branded content — from cleanups to full CG integration."
+        "title": "VFX",
+        "tagline": "Komposition, FX og filmisk efterbehandling",
+        "description": "Visuelle effekter til trailere, produktfilm og brandet indhold - fra oprydning til fuld CG-integration."
       },
       "branding": {
-        "title": "Industrial Animation",
-        "tagline": "Technical storytelling for products and manufacturing",
-        "description": "Brand films, identity motion, and launch assets that define how audiences remember your name."
+        "title": "Industriel animation",
+        "tagline": "Teknisk historiefortælling til produkter og fremstilling",
+        "description": "Brandfilm, identitetsbevægelser og lanceringsaktiver, der definerer, hvordan publikum husker dit navn."
       }
     },
     "showcase": {
       "2d-animation": {
-        "tag": "2D-animation",
-        "title": "2D-animation"
+        "tag": "2D animation",
+        "title": "2D animation"
       },
       "3d-animation": {
-        "tag": "3D-animation",
-        "title": "3D-animation"
+        "tag": "3D animation",
+        "title": "3D animation"
       },
       "motion-graphics": {
-        "tag": "Game Environment",
-        "title": "Game Environment"
+        "tag": "Spilmiljø",
+        "title": "Spilmiljø"
       },
       "video-editing": {
-        "tag": "3D",
-        "title": "Product Animation"
+        "tag": "Produktanimation",
+        "title": "Produktanimation"
       },
       "vfx": {
-        "tag": "Visuelle effekter (VFX)",
-        "title": "Visuelle effekter (VFX)"
+        "tag": "VFX",
+        "title": "VFX"
       },
       "branding": {
-        "tag": "3D",
-        "title": "Industrial Animation"
+        "tag": "Industriel animation",
+        "title": "Industriel animation"
+      }
+    },
+    "clients": {
+      "2d-animation": {
+        "raycon": {
+          "name": "Raycon",
+          "industry": "Forbrugerelektronik",
+          "description": "Animerede produkthistorier og karakterloops til globale betalte sociale og heltekampagnelanceringer.",
+          "testimonial": "Bevægelsessproget føltes førsteklasses fra den første storyboard-ramme.",
+          "timeline": "2022 - Nuværende",
+          "services": {
+            "0": "2D-karakteranimation",
+            "1": "Forklaringssekvenser",
+            "2": "Sociale nedskæringer"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Toon Boom",
+            "2": "Photoshop"
+          }
+        },
+        "crossrope": {
+          "name": "Crossrope",
+          "industry": "Fitness & Wellness",
+          "description": "Højenergi 2D-bevægelse til app onboarding og performance marketing.",
+          "timeline": "2023 - 2025",
+          "services": {
+            "0": "2D Motion Graphics",
+            "1": "UI-animation"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Illustrator"
+          }
+        },
+        "itsy": {
+          "name": "Itsy",
+          "industry": "Børn & Uddannelse",
+          "description": "Legende 2D-karakteranimation til apphistorier og læringsindhold.",
+          "timeline": "2023 - 2025",
+          "services": {
+            "0": "2D-karakteranimation",
+            "1": "Storyboarding"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Toon Boom"
+          }
+        }
+      },
+      "3d-animation": {
+        "depology": {
+          "name": "Depology",
+          "industry": "Skønhed og hudpleje",
+          "description": "3D-produktvisualisering og makroskønhedsbilleder til DTC-kampagner.",
+          "testimonial": "Hvert billede føltes redaktionelt – vores konverteringsannoncemateriale matchede endelig vores brand.",
+          "timeline": "2021 - Nuværende",
+          "services": {
+            "0": "3D produktanimation",
+            "1": "Skønhedsmakro",
+            "2": "CGI-miljøer"
+          },
+          "tools": {}
+        },
+        "joyjolt": {
+          "name": "Joyjolt",
+          "industry": "Hjem & Livsstil",
+          "description": "Stiliseret 3D-glasanimation til Amazon og betalt social.",
+          "timeline": "2022 - 2024",
+          "services": {
+            "0": "3D produkt",
+            "1": "Hård overflade"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Rødforskydning",
+            "2": "After Effects"
+          }
+        },
+        "innermost": {
+          "name": "Innermost",
+          "industry": "Sundhed & Wellness",
+          "description": "3D supplerer visualisering med makroteksturer og flydende dynamik.",
+          "timeline": "2022 - 2025",
+          "services": {
+            "0": "3D produkt",
+            "1": "Makro CGI"
+          },
+          "tools": {}
+        }
+      },
+      "motion-graphics": {
+        "exa": {
+          "name": "Exa",
+          "industry": "Teknologi",
+          "description": "Start bevægelsesværktøjssæt og abstrakte datavisualiseringer.",
+          "timeline": "2024 - 2025",
+          "services": {
+            "0": "Brand Motion",
+            "1": "Start film"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Cinema 4D"
+          }
+        },
+        "kurk": {
+          "name": "Kurk",
+          "industry": "Sundhed og kosttilskud",
+          "description": "Suppler mærkebevægelse med organiske teksturer og fed typografi.",
+          "timeline": "2023 - 2025",
+          "services": {
+            "0": "Motion Graphics",
+            "1": "Betalt socialt"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Illustrator"
+          }
+        },
+        "huya": {
+          "name": "Huya",
+          "industry": "Spil og livestreaming",
+          "description": "Spilmiljøgennembrud og arenaverdener til lanceringskampagner.",
+          "timeline": "2023 - 2025",
+          "services": {
+            "0": "Miljø Art",
+            "1": "Filmisk gennemflugt"
+          },
+          "tools": {
+            "0": "Uvirkelig motor",
+            "1": "Cinema 4D",
+            "2": "After Effects"
+          }
+        }
+      },
+      "video-editing": {
+        "nutrition": {
+          "name": "Nutrition",
+          "industry": "Sundhed & Fitness",
+          "description": "Redigeringer med høj fastholdelse for YouTube, betalte sociale og influencer-samarbejder.",
+          "timeline": "2022 - 2025",
+          "services": {
+            "0": "Kommerciel redigering",
+            "1": "Sociale nedskæringer"
+          },
+          "tools": {
+            "0": "Premiere Pro",
+            "1": "DaVinci Resolve"
+          }
+        },
+        "saltyface": {
+          "name": "Saltyface",
+          "industry": "Skønhed",
+          "description": "Skønhedsredaktionelle redigeringer med sømløse overgange og karakterkonsistens.",
+          "timeline": "2023 - 2024",
+          "services": {
+            "0": "Redaktionel",
+            "1": "Farve"
+          },
+          "tools": {
+            "0": "DaVinci Resolve"
+          }
+        },
+        "snax": {
+          "name": "Snax",
+          "industry": "Mad & drikke",
+          "description": "3D-produktanimation til packshots, stænk og helte-detailfilm.",
+          "timeline": "2022 - 2025",
+          "services": {
+            "0": "3D produktanimation",
+            "1": "Packshot film"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Rødforskydning",
+            "2": "After Effects"
+          }
+        }
+      },
+      "vfx": {
+        "mirrorskin": {
+          "name": "Mirrorskin",
+          "industry": "Hudpleje",
+          "description": "Skønheds-VFX, hudretouchering og partikel-FX til premium-kampagnefilm.",
+          "testimonial": "Usynlig VFX, der stadig føltes magisk på skærmen.",
+          "timeline": "2023 - 2025",
+          "services": {
+            "0": "Sammensætning",
+            "1": "Skønhed VFX",
+            "2": "Partikler"
+          },
+          "tools": {
+            "0": "Nuke",
+            "1": "After Effects",
+            "2": "Houdini"
+          }
+        },
+        "bello": {
+          "name": "Bello",
+          "industry": "Forbrugsvarer",
+          "description": "Produktforbedring og miljøudvidelser til detailkampagner.",
+          "timeline": "2024",
+          "services": {
+            "0": "Sammensætning",
+            "1": "Indstil udvidelse"
+          },
+          "tools": {
+            "0": "Nuke",
+            "1": "Photoshop"
+          }
+        },
+        "moxeys": {
+          "name": "Moxeys",
+          "industry": "Detail & E-handel",
+          "description": "VFX-tunge produktfilm med sæt forlængere og partikelsystemer.",
+          "timeline": "2023 - 2025",
+          "services": {
+            "0": "Sammensætning",
+            "1": "Partikel FX"
+          },
+          "tools": {
+            "0": "Nuke",
+            "1": "Houdini",
+            "2": "After Effects"
+          }
+        }
+      },
+      "branding": {
+        "industrial-animation": {
+          "name": "Industrial Animation",
+          "industry": "Fremstilling og tungt udstyr",
+          "description": "Realistisk 3D industri- og CGI-produktanimation til tungt maskineri, montagemontre og tekniske marketingfilm.",
+          "timeline": "2024 - 2025",
+          "services": {
+            "0": "Industriel animation",
+            "1": "CGI produktfilm",
+            "2": "Teknisk visualisering"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Blender",
+            "2": "After Effects"
+          }
+        },
+        "ijockey": {
+          "name": "Ijockey",
+          "industry": "Forbrugerprodukter",
+          "description": "3D-produktanimation, papirgengivelser og mærkefilm til Ijockeys detail- og kampagnelanceringer.",
+          "timeline": "2024 - 2025",
+          "services": {
+            "0": "3D produktanimation",
+            "1": "Industriel Render",
+            "2": "Brand Film"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Blender",
+            "2": "After Effects"
+          }
+        }
+      }
+    },
+    "projects": {
+      "raycon-2d-p1": {
+        "title": "Hero Launch Loop",
+        "description": "15'er looping animation til betalt social med produkt-første historiefortælling.",
+        "tags": {
+          "0": "Kampagne",
+          "1": "Produkt"
+        }
+      },
+      "raycon-2d-p2": {
+        "title": "Karakter Spot",
+        "description": "Håndtegnet karakter, der handler for en sæsonbestemt brandforfriskning.",
+        "tags": {
+          "0": "Karakter",
+          "1": "Udsende"
+        }
+      },
+      "crossrope-2d-p1": {
+        "title": "App Onboarding",
+        "description": "Modulære 2D-scener, der forklarer træningstilstande og sporing.",
+        "tags": {
+          "0": "UI",
+          "1": "Forklarer"
+        }
+      },
+      "itsy-2d-p1": {
+        "title": "Historiebog-serien",
+        "description": "Episodiske 2D-shorts til læringsrejser i appen.",
+        "tags": {
+          "0": "Karakter",
+          "1": "Serie"
+        }
+      },
+      "depology-3d-p1": {
+        "title": "Serum Hero Film",
+        "description": "Fotorealistisk produktpladespiller med flydende sim- og makroobjektiv.",
+        "tags": {
+          "0": "Produkt",
+          "1": "Skønhed"
+        }
+      },
+      "depology-3d-p2": {
+        "title": "Rutinemæssig afsløring",
+        "description": "Tre-trins rutineanimation til landingssidehelt.",
+        "tags": {
+          "0": "Kampagne"
+        }
+      },
+      "joyjolt-3d-p1": {
+        "title": "Samling af glasvarer",
+        "description": "Krystalbrydningsundersøgelser og packshot-animationer.",
+        "tags": {
+          "0": "Produkt"
+        }
+      },
+      "innermost-3d-p1": {
+        "title": "Powder Macro Film",
+        "description": "Slow-motion pulver hældning med fotoreal belysning og kvalitet.",
+        "tags": {
+          "0": "Produkt",
+          "1": "Makro"
+        }
+      },
+      "exa-motion-p1": {
+        "title": "Start Toolkit",
+        "description": "Modulære bevægelseskomponenter til keynote og social udrulning.",
+        "tags": {
+          "0": "Lancering",
+          "1": "Værktøjskasse"
+        }
+      },
+      "kurk-motion-p1": {
+        "title": "Ingredienshistorie",
+        "description": "Kinetisk type og makro-overlejringer til hero DTC-annoncer.",
+        "tags": {
+          "0": "DTC",
+          "1": "Typografi"
+        }
+      },
+      "huya-env-p1": {
+        "title": "Arena World Reveal",
+        "description": "Filmisk miljøtur med dynamisk belysning og VFX.",
+        "tags": {
+          "0": "Miljø",
+          "1": "Lancering"
+        }
+      },
+      "nutrition-edit-p1": {
+        "title": "Kampagnemontage",
+        "description": "Hurtigt skåret ydeevneredigering med lyddesign og farvepolering.",
+        "tags": {
+          "0": "Redigere",
+          "1": "Social"
+        }
+      },
+      "saltyface-edit-p1": {
+        "title": "Redaktionel film",
+        "description": "60'er-mærkefilm samlet af flerdages produktionsoptagelser.",
+        "tags": {
+          "0": "Skønhed",
+          "1": "Film"
+        }
+      },
+      "snax-product-p1": {
+        "title": "Packshot Hero",
+        "description": "Fotorealistisk produktspin med flydende sim og studiebelysning.",
+        "tags": {
+          "0": "Produkt",
+          "1": "Packshot"
+        }
+      },
+      "mirrorskin-vfx-p1": {
+        "title": "Particle Beauty Pass",
+        "description": "Makroserumpartikler integreret i live-action plader.",
+        "tags": {
+          "0": "VFX",
+          "1": "Skønhed"
+        }
+      },
+      "mirrorskin-vfx-p2": {
+        "title": "Trailer finish",
+        "description": "Fuld komp pipeline til en 30'er launch trailer.",
+        "tags": {
+          "0": "Anhænger"
+        }
+      },
+      "bello-vfx-p1": {
+        "title": "Retail Hero",
+        "description": "CG-miljø blandes med studieproduktfotografering.",
+        "tags": {
+          "0": "Detailhandel"
+        }
+      },
+      "moxeys-vfx-p1": {
+        "title": "Partikelproduktpas",
+        "description": "Makro partikel FX integreret med studie produktplader.",
+        "tags": {
+          "0": "VFX",
+          "1": "Produkt"
+        }
+      },
+      "industrial-animation-p1": {
+        "title": "Industrial Hero Still",
+        "description": "Nøglestillbillede fra en industriel animationssekvens med tungt udstyr.",
+        "tags": {
+          "0": "Industriel",
+          "1": "Stadig"
+        }
+      },
+      "industrial-animation-p2": {
+        "title": "Visuel CGI produktnøgle",
+        "description": "Photoreal CGI-produktgengivelse til kampagne- og pitchdæk.",
+        "tags": {
+          "0": "CGI",
+          "1": "Produkt"
+        }
+      },
+      "industrial-animation-p3": {
+        "title": "Industriel animationsfilm",
+        "description": "Fuld industriel animation, der viser maskineri i bevægelse.",
+        "tags": {
+          "0": "Industriel",
+          "1": "Film"
+        }
+      },
+      "industrial-animation-p4": {
+        "title": "CGI produktanimation",
+        "description": "Realistisk 3D-produktanimation med filmisk belysning og kamerabevægelser.",
+        "tags": {
+          "0": "CGI",
+          "1": "Animation"
+        }
+      },
+      "industrial-animation-p5": {
+        "title": "Animation Sample Reel",
+        "description": "Eksempel på industriel animation til social og præsentationsbrug.",
+        "tags": {
+          "0": "Prøve",
+          "1": "Industriel"
+        }
+      },
+      "ijockey-industrial-p1": {
+        "title": "Hjelm del",
+        "description": "Produktoversigt og dynamisk ventilationssystem til Ijockey-hjelmen.",
+        "tags": {
+          "0": "Hjelm del",
+          "1": "Produkt"
+        }
+      },
+      "ijockey-industrial-p2": {
+        "title": "Klient skitse",
+        "description": "Indledende produktkonceptskitse for Ijockey form og proportioner.",
+        "tags": {
+          "0": "Klient skitse",
+          "1": "Begreb"
+        }
+      },
+      "ijockey-industrial-p3": {
+        "title": "Klient skitse",
+        "description": "Raffineret klientskitse, der udforsker silhuet og detaljeplacering.",
+        "tags": {
+          "0": "Klient skitse",
+          "1": "Begreb"
+        }
+      },
+      "ijockey-industrial-p4": {
+        "title": "Modellering",
+        "description": "3D-blokerings- og modelleringspas for Ijockey-produktet.",
+        "tags": {
+          "0": "Modellering",
+          "1": "3D"
+        }
+      },
+      "ijockey-industrial-p5": {
+        "title": "Modellering",
+        "description": "Forfining af modellering med forbedret topologi og overfladeflow.",
+        "tags": {
+          "0": "Modellering",
+          "1": "3D"
+        }
+      },
+      "ijockey-industrial-p6": {
+        "title": "Slutprodukt",
+        "description": "Færdig produktgengivelse med materialer og studiebelysning.",
+        "tags": {
+          "0": "Slutprodukt",
+          "1": "Render"
+        }
+      },
+      "ijockey-industrial-p7": {
+        "title": "Slutprodukt",
+        "description": "Hero slutproduktramme til kampagne- og detailbrug.",
+        "tags": {
+          "0": "Slutprodukt",
+          "1": "Render"
+        }
+      },
+      "ijockey-industrial-p8": {
+        "title": "Slutprodukt",
+        "description": "Alternativ slutproduktvinkel for lancering og betalte medier.",
+        "tags": {
+          "0": "Slutprodukt",
+          "1": "Render"
+        }
+      },
+      "ijockey-industrial-p9": {
+        "title": "Brandet produktfilm",
+        "description": "Brandet produktanimation med typografi på skærmen og logobehandling.",
+        "tags": {
+          "0": "Film",
+          "1": "Mærkemærket"
+        }
+      },
+      "ijockey-industrial-p10": {
+        "title": "Ren produktanimation",
+        "description": "Logofri produktanimation til fleksibel kanalversionering.",
+        "tags": {
+          "0": "Animation",
+          "1": "Produkt"
+        }
+      },
+      "ijockey-industrial-p11": {
+        "title": "Produktudstilling",
+        "description": "Fuld produktudstillingsfilm til detailhandel og digitale placeringer.",
+        "tags": {
+          "0": "Udstillingsvindue",
+          "1": "Film"
+        }
       }
     }
   },

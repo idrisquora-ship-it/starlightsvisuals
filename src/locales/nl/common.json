@@ -391,10 +391,10 @@
   "works": {
     "breadcrumbLabel": "Breadcrumb",
     "breadcrumbHome": "Home",
-    "breadcrumbWorks": "Geselecteerd werk",
-    "clientsTitle": "Klanten waarmee we hebben gewerkt",
-    "clientsCount": "{{count}} klanten",
-    "projectsCompleted": "{{count}} voltooide projecten",
+    "breadcrumbWorks": "Selected Works",
+    "clientsTitle": "Clients We've Worked With",
+    "clientsCount": "{{count}} clients",
+    "projectsCompleted": "{{count}} projects completed",
     "timeline": "Timeline",
     "services": "Services provided",
     "tools": "Tools & software",
@@ -403,14 +403,14 @@
     "allYears": "All years",
     "noClients": "No clients in this category yet.",
     "noProjects": "No projects match your filters.",
-    "projectsTitle": "Projectvoorbeelden",
+    "projectsTitle": "Project Samples",
     "relatedProjects": "Related projects",
-    "closePreview": "Voorbeeld sluiten",
-    "ctaScript": "Klaar wanneer jij het bent —",
-    "ctaTitle": "Start je project met ons",
-    "ctaDesc": "Vertel ons over je merk, planning en doelen.",
-    "ctaButton": "Start een project",
-    "portfolioHubDesc": "Ontdek werk per categorie — animatie, VFX, motion en meer.",
+    "closePreview": "Close preview",
+    "ctaScript": "Ready when you are —",
+    "ctaTitle": "Start Your Project With Us",
+    "ctaDesc": "Tell us about your brand, timeline, and goals. We'll map a cinematic path from concept to delivery.",
+    "ctaButton": "Start a project",
+    "portfolioHubDesc": "Explore work by category — animation, VFX, motion, and more.",
     "categories": {
       "2d-animation": {
         "title": "2D-animatie",
@@ -467,6 +467,537 @@
       "branding": {
         "tag": "3D",
         "title": "Industrial Animation"
+      }
+    },
+    "clients": {
+      "2d-animation": {
+        "raycon": {
+          "name": "Raycon",
+          "industry": "Consumer Electronics",
+          "description": "Animated product stories and character loops for global paid social and hero campaign launches.",
+          "testimonial": "The motion language felt premium from the first storyboard frame.",
+          "timeline": "2022 — Present",
+          "services": {
+            "0": "2D Character Animation",
+            "1": "Explainer Sequences",
+            "2": "Social Cutdowns"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Toon Boom",
+            "2": "Photoshop"
+          }
+        },
+        "crossrope": {
+          "name": "Crossrope",
+          "industry": "Fitness & Wellness",
+          "description": "High-energy 2D motion for app onboarding and performance marketing.",
+          "timeline": "2023 — 2025",
+          "services": {
+            "0": "2D Motion Graphics",
+            "1": "UI Animation"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Illustrator"
+          }
+        },
+        "itsy": {
+          "name": "Itsy",
+          "industry": "Children & Education",
+          "description": "Playful 2D character animation for app stories and learning content.",
+          "timeline": "2023 — 2025",
+          "services": {
+            "0": "2D Character Animation",
+            "1": "Storyboarding"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Toon Boom"
+          }
+        }
+      },
+      "3d-animation": {
+        "depology": {
+          "name": "Depology",
+          "industry": "Beauty & Skincare",
+          "description": "3D product visualization and macro beauty shots for DTC campaigns.",
+          "testimonial": "Every frame felt editorial — our conversion creative finally matched our brand.",
+          "timeline": "2021 — Present",
+          "services": {
+            "0": "3D Product Animation",
+            "1": "Beauty Macro",
+            "2": "CGI Environments"
+          },
+          "tools": {}
+        },
+        "joyjolt": {
+          "name": "Joyjolt",
+          "industry": "Home & Lifestyle",
+          "description": "Stylized 3D glassware animation for Amazon and paid social.",
+          "timeline": "2022 — 2024",
+          "services": {
+            "0": "3D Product",
+            "1": "Hard Surface"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Redshift",
+            "2": "After Effects"
+          }
+        },
+        "innermost": {
+          "name": "Innermost",
+          "industry": "Health & Wellness",
+          "description": "3D supplement visualization with macro textures and fluid dynamics.",
+          "timeline": "2022 — 2025",
+          "services": {
+            "0": "3D Product",
+            "1": "Macro CGI"
+          },
+          "tools": {}
+        }
+      },
+      "motion-graphics": {
+        "exa": {
+          "name": "Exa",
+          "industry": "Technology",
+          "description": "Launch motion toolkits and abstract data visualizations.",
+          "timeline": "2024 — 2025",
+          "services": {
+            "0": "Brand Motion",
+            "1": "Launch Films"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Cinema 4D"
+          }
+        },
+        "kurk": {
+          "name": "Kurk",
+          "industry": "Health & Supplements",
+          "description": "Supplement brand motion with organic textures and bold typography.",
+          "timeline": "2023 — 2025",
+          "services": {
+            "0": "Motion Graphics",
+            "1": "Paid Social"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Illustrator"
+          }
+        },
+        "huya": {
+          "name": "Huya",
+          "industry": "Gaming & Live Streaming",
+          "description": "Game environment flythroughs and arena worlds for launch campaigns.",
+          "timeline": "2023 — 2025",
+          "services": {
+            "0": "Environment Art",
+            "1": "Cinematic Flythrough"
+          },
+          "tools": {
+            "0": "Unreal Engine",
+            "1": "Cinema 4D",
+            "2": "After Effects"
+          }
+        }
+      },
+      "video-editing": {
+        "nutrition": {
+          "name": "Nutrition",
+          "industry": "Health & Fitness",
+          "description": "High-retention edits for YouTube, paid social, and influencer collaborations.",
+          "timeline": "2022 — 2025",
+          "services": {
+            "0": "Commercial Edit",
+            "1": "Social Cutdowns"
+          },
+          "tools": {
+            "0": "Premiere Pro",
+            "1": "DaVinci Resolve"
+          }
+        },
+        "saltyface": {
+          "name": "Saltyface",
+          "industry": "Beauty",
+          "description": "Beauty editorial edits with seamless transitions and grade consistency.",
+          "timeline": "2023 — 2024",
+          "services": {
+            "0": "Editorial",
+            "1": "Color"
+          },
+          "tools": {
+            "0": "DaVinci Resolve"
+          }
+        },
+        "snax": {
+          "name": "Snax",
+          "industry": "Food & Beverage",
+          "description": "3D product animation for packshots, splashes, and hero retail films.",
+          "timeline": "2022 — 2025",
+          "services": {
+            "0": "3D Product Animation",
+            "1": "Packshot Films"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Redshift",
+            "2": "After Effects"
+          }
+        }
+      },
+      "vfx": {
+        "mirrorskin": {
+          "name": "Mirrorskin",
+          "industry": "Skincare",
+          "description": "Beauty VFX, skin retouching, and particle FX for premium campaign films.",
+          "testimonial": "Invisible VFX that still felt magical on screen.",
+          "timeline": "2023 — 2025",
+          "services": {
+            "0": "Compositing",
+            "1": "Beauty VFX",
+            "2": "Particles"
+          },
+          "tools": {
+            "0": "Nuke",
+            "1": "After Effects",
+            "2": "Houdini"
+          }
+        },
+        "bello": {
+          "name": "Bello",
+          "industry": "Consumer Goods",
+          "description": "Product enhancement and environment extensions for retail campaigns.",
+          "timeline": "2024",
+          "services": {
+            "0": "Compositing",
+            "1": "Set Extension"
+          },
+          "tools": {
+            "0": "Nuke",
+            "1": "Photoshop"
+          }
+        },
+        "moxeys": {
+          "name": "Moxeys",
+          "industry": "Retail & E-commerce",
+          "description": "VFX-heavy product films with set extensions and particle systems.",
+          "timeline": "2023 — 2025",
+          "services": {
+            "0": "Compositing",
+            "1": "Particle FX"
+          },
+          "tools": {
+            "0": "Nuke",
+            "1": "Houdini",
+            "2": "After Effects"
+          }
+        }
+      },
+      "branding": {
+        "industrial-animation": {
+          "name": "Industrial Animation",
+          "industry": "Manufacturing & Heavy Equipment",
+          "description": "Realistic 3D industrial and CGI product animation for heavy machinery, assembly showcases, and technical marketing films.",
+          "timeline": "2024 — 2025",
+          "services": {
+            "0": "Industrial Animation",
+            "1": "CGI Product Film",
+            "2": "Technical Visualization"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Blender",
+            "2": "After Effects"
+          }
+        },
+        "ijockey": {
+          "name": "Ijockey",
+          "industry": "Consumer Products",
+          "description": "3D product animation, paper renders, and branded films for Ijockey's retail and campaign launches.",
+          "timeline": "2024 — 2025",
+          "services": {
+            "0": "3D Product Animation",
+            "1": "Industrial Render",
+            "2": "Brand Film"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Blender",
+            "2": "After Effects"
+          }
+        }
+      }
+    },
+    "projects": {
+      "raycon-2d-p1": {
+        "title": "Hero Launch Loop",
+        "description": "15s looping animation for paid social with product-first storytelling.",
+        "tags": {
+          "0": "Campaign",
+          "1": "Product"
+        }
+      },
+      "raycon-2d-p2": {
+        "title": "Character Spot",
+        "description": "Hand-drawn character acting for a seasonal brand refresh.",
+        "tags": {
+          "0": "Character",
+          "1": "Broadcast"
+        }
+      },
+      "crossrope-2d-p1": {
+        "title": "App Onboarding",
+        "description": "Modular 2D scenes explaining workout modes and tracking.",
+        "tags": {
+          "0": "UI",
+          "1": "Explainer"
+        }
+      },
+      "itsy-2d-p1": {
+        "title": "Storybook Series",
+        "description": "Episodic 2D shorts for in-app learning journeys.",
+        "tags": {
+          "0": "Character",
+          "1": "Series"
+        }
+      },
+      "depology-3d-p1": {
+        "title": "Serum Hero Film",
+        "description": "Photoreal product turntable with fluid sim and macro lensing.",
+        "tags": {
+          "0": "Product",
+          "1": "Beauty"
+        }
+      },
+      "depology-3d-p2": {
+        "title": "Routine Reveal",
+        "description": "Three-step routine animation for landing page hero.",
+        "tags": {
+          "0": "Campaign"
+        }
+      },
+      "joyjolt-3d-p1": {
+        "title": "Glassware Collection",
+        "description": "Crystal refraction studies and packshot animations.",
+        "tags": {
+          "0": "Product"
+        }
+      },
+      "innermost-3d-p1": {
+        "title": "Powder Macro Film",
+        "description": "Slow-motion powder pour with photoreal lighting and grade.",
+        "tags": {
+          "0": "Product",
+          "1": "Macro"
+        }
+      },
+      "exa-motion-p1": {
+        "title": "Launch Toolkit",
+        "description": "Modular motion components for keynote and social rollout.",
+        "tags": {
+          "0": "Launch",
+          "1": "Toolkit"
+        }
+      },
+      "kurk-motion-p1": {
+        "title": "Ingredient Story",
+        "description": "Kinetic type and macro overlays for hero DTC ads.",
+        "tags": {
+          "0": "DTC",
+          "1": "Typography"
+        }
+      },
+      "huya-env-p1": {
+        "title": "Arena World Reveal",
+        "description": "Cinematic environment tour with dynamic lighting and VFX.",
+        "tags": {
+          "0": "Environment",
+          "1": "Launch"
+        }
+      },
+      "nutrition-edit-p1": {
+        "title": "Campaign Montage",
+        "description": "Fast-cut performance edit with sound design and color polish.",
+        "tags": {
+          "0": "Edit",
+          "1": "Social"
+        }
+      },
+      "saltyface-edit-p1": {
+        "title": "Editorial Film",
+        "description": "60s brand film assembled from multi-day production footage.",
+        "tags": {
+          "0": "Beauty",
+          "1": "Film"
+        }
+      },
+      "snax-product-p1": {
+        "title": "Packshot Hero",
+        "description": "Photoreal product spin with liquid sim and studio lighting.",
+        "tags": {
+          "0": "Product",
+          "1": "Packshot"
+        }
+      },
+      "mirrorskin-vfx-p1": {
+        "title": "Particle Beauty Pass",
+        "description": "Macro serum particles integrated into live-action plates.",
+        "tags": {
+          "0": "VFX",
+          "1": "Beauty"
+        }
+      },
+      "mirrorskin-vfx-p2": {
+        "title": "Trailer Finish",
+        "description": "Full comp pipeline for a 30s launch trailer.",
+        "tags": {
+          "0": "Trailer"
+        }
+      },
+      "bello-vfx-p1": {
+        "title": "Retail Hero",
+        "description": "CG environment blend with studio product photography.",
+        "tags": {
+          "0": "Retail"
+        }
+      },
+      "moxeys-vfx-p1": {
+        "title": "Particle Product Pass",
+        "description": "Macro particle FX integrated with studio product plates.",
+        "tags": {
+          "0": "VFX",
+          "1": "Product"
+        }
+      },
+      "industrial-animation-p1": {
+        "title": "Industrial Hero Still",
+        "description": "Key still frame from a heavy-equipment industrial animation sequence.",
+        "tags": {
+          "0": "Industrial",
+          "1": "Still"
+        }
+      },
+      "industrial-animation-p2": {
+        "title": "CGI Product Key Visual",
+        "description": "Photoreal CGI product render for campaign and pitch decks.",
+        "tags": {
+          "0": "CGI",
+          "1": "Product"
+        }
+      },
+      "industrial-animation-p3": {
+        "title": "Industrial Animation Film",
+        "description": "Full industrial animation showcasing machinery in motion.",
+        "tags": {
+          "0": "Industrial",
+          "1": "Film"
+        }
+      },
+      "industrial-animation-p4": {
+        "title": "CGI Product Animation",
+        "description": "Realistic 3D product animation with cinematic lighting and camera moves.",
+        "tags": {
+          "0": "CGI",
+          "1": "Animation"
+        }
+      },
+      "industrial-animation-p5": {
+        "title": "Animation Sample Reel",
+        "description": "Sample industrial animation cut for social and presentation use.",
+        "tags": {
+          "0": "Sample",
+          "1": "Industrial"
+        }
+      },
+      "ijockey-industrial-p1": {
+        "title": "Helmet Part",
+        "description": "Product overview and dynamic ventilation system for the Ijockey helmet.",
+        "tags": {
+          "0": "Helmet Part",
+          "1": "Product"
+        }
+      },
+      "ijockey-industrial-p2": {
+        "title": "Client Sketch",
+        "description": "Initial product concept sketch for Ijockey form and proportions.",
+        "tags": {
+          "0": "Client Sketch",
+          "1": "Concept"
+        }
+      },
+      "ijockey-industrial-p3": {
+        "title": "Client Sketch",
+        "description": "Refined client sketch exploring silhouette and detail placement.",
+        "tags": {
+          "0": "Client Sketch",
+          "1": "Concept"
+        }
+      },
+      "ijockey-industrial-p4": {
+        "title": "Modelling",
+        "description": "3D block-out and modelling pass for the Ijockey product.",
+        "tags": {
+          "0": "Modelling",
+          "1": "3D"
+        }
+      },
+      "ijockey-industrial-p5": {
+        "title": "Modelling",
+        "description": "Modelling refinement with improved topology and surface flow.",
+        "tags": {
+          "0": "Modelling",
+          "1": "3D"
+        }
+      },
+      "ijockey-industrial-p6": {
+        "title": "Final Product",
+        "description": "Finished product render with materials and studio lighting.",
+        "tags": {
+          "0": "Final Product",
+          "1": "Render"
+        }
+      },
+      "ijockey-industrial-p7": {
+        "title": "Final Product",
+        "description": "Hero final product frame for campaign and retail use.",
+        "tags": {
+          "0": "Final Product",
+          "1": "Render"
+        }
+      },
+      "ijockey-industrial-p8": {
+        "title": "Final Product",
+        "description": "Alternate final product angle for launch and paid media.",
+        "tags": {
+          "0": "Final Product",
+          "1": "Render"
+        }
+      },
+      "ijockey-industrial-p9": {
+        "title": "Branded Product Film",
+        "description": "Branded product animation with on-screen typography and logo treatment.",
+        "tags": {
+          "0": "Film",
+          "1": "Branded"
+        }
+      },
+      "ijockey-industrial-p10": {
+        "title": "Clean Product Animation",
+        "description": "Logo-free product animation for flexible channel versioning.",
+        "tags": {
+          "0": "Animation",
+          "1": "Product"
+        }
+      },
+      "ijockey-industrial-p11": {
+        "title": "Product Showcase",
+        "description": "Full product showcase film for retail and digital placements.",
+        "tags": {
+          "0": "Showcase",
+          "1": "Film"
+        }
       }
     }
   },

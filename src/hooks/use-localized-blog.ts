@@ -28,7 +28,7 @@ function localizeSections(
 }
 
 export function useLocalizedBlogPosts(): BlogPost[] {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   return useMemo(
     () =>
@@ -45,7 +45,7 @@ export function useLocalizedBlogPosts(): BlogPost[] {
           sections: localizeSections(t, post.slug, post.sections),
         };
       }),
-    [t],
+    [t, i18n.language],
   );
 }
 

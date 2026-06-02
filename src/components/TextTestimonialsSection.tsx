@@ -7,7 +7,7 @@ import { TestimonialCard, type TextTestimonial } from "@/components/TestimonialC
 import { SectionReveal } from "@/components/SectionReveal";
 
 export function TextTestimonialsSection() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const carouselRef = useRef<HTMLDivElement>(null);
   const carouselInView = useInView(carouselRef, { once: true, margin: "-5% 0px" });
 
@@ -41,7 +41,7 @@ export function TextTestimonialsSection() {
         rating: 5,
       },
     ],
-    [t],
+    [t, i18n.language],
   );
 
   return (

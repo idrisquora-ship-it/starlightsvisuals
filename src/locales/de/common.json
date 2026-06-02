@@ -395,16 +395,16 @@
     "clientsTitle": "Kunden, mit denen wir gearbeitet haben",
     "clientsCount": "{{count}} Kunden",
     "projectsCompleted": "{{count}} abgeschlossene Projekte",
-    "timeline": "Timeline",
-    "services": "Services provided",
-    "tools": "Tools & software",
-    "searchPlaceholder": "Search projects…",
-    "filterYear": "Filter by year",
-    "allYears": "All years",
-    "noClients": "No clients in this category yet.",
-    "noProjects": "No projects match your filters.",
+    "timeline": "Zeitplan",
+    "services": "Erbrachte Leistungen",
+    "tools": "Tools & Software",
+    "searchPlaceholder": "Projekte suchen…",
+    "filterYear": "Nach Jahr filtern",
+    "allYears": "Alle Jahre",
+    "noClients": "In dieser Kategorie gibt es noch keine Kunden.",
+    "noProjects": "Keine Projekte entsprechen Ihren Filtern.",
     "projectsTitle": "Projektbeispiele",
-    "relatedProjects": "Related projects",
+    "relatedProjects": "Verwandte Projekte",
     "closePreview": "Vorschau schließen",
     "ctaScript": "Bereit, wenn Sie es sind —",
     "ctaTitle": "Starten Sie Ihr Projekt mit uns",
@@ -414,33 +414,33 @@
     "categories": {
       "2d-animation": {
         "title": "2D-Animation",
-        "tagline": "Frame-by-frame craft for campaigns and series",
-        "description": "Character-driven 2D animation for commercials, explainers, and episodic content with bold motion and cinematic timing."
+        "tagline": "Bild für Bild für Kampagnen und Serien",
+        "description": "Charaktergesteuerte 2D-Animation für Werbespots, Erklärfilme und episodische Inhalte mit kräftigen Bewegungen und filmischem Timing."
       },
       "3d-animation": {
         "title": "3D-Animation",
-        "tagline": "Photoreal and stylized 3D for brands and film",
-        "description": "Product, character, and environment animation with cinematic lighting, physics, and premium finish."
+        "tagline": "Fotorealistisches und stilisiertes 3D für Marken und Film",
+        "description": "Produkt-, Charakter- und Umgebungsanimationen mit filmischer Beleuchtung, Physik und erstklassiger Verarbeitung."
       },
       "motion-graphics": {
-        "title": "Game Environment",
-        "tagline": "Immersive worlds and playable spaces in motion",
-        "description": "Design-led motion systems for launches, dashboards, and brand worlds that scale across channels."
+        "title": "Spielumgebung",
+        "tagline": "Immersive Welten und spielbare Räume in Bewegung",
+        "description": "Designorientierte Bewegungssysteme für Markteinführungen, Dashboards und Markenwelten, die über alle Kanäle hinweg skalierbar sind."
       },
       "video-editing": {
-        "title": "Product Animation",
-        "tagline": "Photoreal product films and cinematic packshots",
-        "description": "Editorial finishing, rhythm, and story structure for commercials, documentaries, and brand films."
+        "title": "Produktanimation",
+        "tagline": "Fotorealistische Produktfilme und filmische Packshots",
+        "description": "Redaktioneller Abschluss, Rhythmus und Story-Struktur für Werbespots, Dokumentationen und Markenfilme."
       },
       "vfx": {
-        "title": "Visual Effects (VFX)",
-        "tagline": "Compositing, FX, and cinematic finishing",
-        "description": "Visual effects for trailers, product films, and branded content — from cleanups to full CG integration."
+        "title": "VFX",
+        "tagline": "Compositing, FX und filmisches Finishing",
+        "description": "Visuelle Effekte für Trailer, Produktfilme und Markeninhalte – von Aufräumarbeiten bis hin zur vollständigen CG-Integration."
       },
       "branding": {
-        "title": "Industrial Animation",
-        "tagline": "Technical storytelling for products and manufacturing",
-        "description": "Brand films, identity motion, and launch assets that define how audiences remember your name."
+        "title": "Industrielle Animation",
+        "tagline": "Technisches Storytelling für Produkte und Fertigung",
+        "description": "Markieren Sie Filme, Identitätsbewegungen und Launch-Assets, die definieren, wie sich das Publikum an Ihren Namen erinnert."
       }
     },
     "showcase": {
@@ -453,20 +453,551 @@
         "title": "3D-Animation"
       },
       "motion-graphics": {
-        "tag": "Game Environment",
-        "title": "Game Environment"
+        "tag": "Spielumgebung",
+        "title": "Spielumgebung"
       },
       "video-editing": {
-        "tag": "3D",
-        "title": "Product Animation"
+        "tag": "Produktanimation",
+        "title": "Produktanimation"
       },
       "vfx": {
-        "tag": "Visual Effects (VFX)",
-        "title": "Visual Effects (VFX)"
+        "tag": "VFX",
+        "title": "VFX"
       },
       "branding": {
-        "tag": "3D",
-        "title": "Industrial Animation"
+        "tag": "Industrielle Animation",
+        "title": "Industrielle Animation"
+      }
+    },
+    "clients": {
+      "2d-animation": {
+        "raycon": {
+          "name": "Raycon",
+          "industry": "Unterhaltungselektronik",
+          "description": "Animierte Produktgeschichten und Charakterschleifen für den Start globaler bezahlter Social-Media- und Hero-Kampagnen.",
+          "testimonial": "Die Bewegungssprache fühlte sich vom ersten Storyboard-Frame an erstklassig an.",
+          "timeline": "2022 – Heute",
+          "services": {
+            "0": "2D-Charakteranimation",
+            "1": "Erklärsequenzen",
+            "2": "Sozialabbau"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Toon-Boom",
+            "2": "Photoshop"
+          }
+        },
+        "crossrope": {
+          "name": "Crossrope",
+          "industry": "Fitness & Wellness",
+          "description": "Hochenergetische 2D-Bewegung für App-Onboarding und Performance-Marketing.",
+          "timeline": "2023 – 2025",
+          "services": {
+            "0": "2D-Motion-Grafiken",
+            "1": "UI-Animation"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Illustrator"
+          }
+        },
+        "itsy": {
+          "name": "Itsy",
+          "industry": "Kinder & Bildung",
+          "description": "Spielerische 2D-Charakteranimation für App-Storys und Lerninhalte.",
+          "timeline": "2023 – 2025",
+          "services": {
+            "0": "2D-Charakteranimation",
+            "1": "Storyboarding"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Toon-Boom"
+          }
+        }
+      },
+      "3d-animation": {
+        "depology": {
+          "name": "Depology",
+          "industry": "Schönheit und Hautpflege",
+          "description": "3D-Produktvisualisierung und Makro-Beauty-Aufnahmen für DTC-Kampagnen.",
+          "testimonial": "Jeder Frame fühlte sich redaktionell an – unser Conversion-Creative passte endlich zu unserer Marke.",
+          "timeline": "2021 – Heute",
+          "services": {
+            "0": "3D-Produktanimation",
+            "1": "Schönheitsmakro",
+            "2": "CGI-Umgebungen"
+          },
+          "tools": {}
+        },
+        "joyjolt": {
+          "name": "Joyjolt",
+          "industry": "Zuhause & Lifestyle",
+          "description": "Stilisierte 3D-Glaswaren-Animation für Amazon und kostenpflichtige soziale Netzwerke.",
+          "timeline": "2022 – 2024",
+          "services": {
+            "0": "3D-Produkt",
+            "1": "Harte Oberfläche"
+          },
+          "tools": {
+            "0": "Kino 4D",
+            "1": "Rotverschiebung",
+            "2": "After Effects"
+          }
+        },
+        "innermost": {
+          "name": "Innermost",
+          "industry": "Gesundheit und Wohlbefinden",
+          "description": "3D-Ergänzungsvisualisierung mit Makrotexturen und Fluiddynamik.",
+          "timeline": "2022 – 2025",
+          "services": {
+            "0": "3D-Produkt",
+            "1": "Makro-CGI"
+          },
+          "tools": {}
+        }
+      },
+      "motion-graphics": {
+        "exa": {
+          "name": "Exa",
+          "industry": "Technologie",
+          "description": "Starten Sie Bewegungs-Toolkits und abstrakte Datenvisualisierungen.",
+          "timeline": "2024 – 2025",
+          "services": {
+            "0": "Markenbewegung",
+            "1": "Filme starten"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Kino 4D"
+          }
+        },
+        "kurk": {
+          "name": "Kurk",
+          "industry": "Gesundheit und Nahrungsergänzungsmittel",
+          "description": "Ergänzen Sie die Markenbewegung mit organischen Texturen und kräftiger Typografie.",
+          "timeline": "2023 – 2025",
+          "services": {
+            "0": "Bewegungsgrafiken",
+            "1": "Bezahlte soziale Netzwerke"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Illustrator"
+          }
+        },
+        "huya": {
+          "name": "Huya",
+          "industry": "Gaming und Live-Streaming",
+          "description": "Durchflüge von Spielumgebungen und Arenawelten für Startkampagnen.",
+          "timeline": "2023 – 2025",
+          "services": {
+            "0": "Umweltkunst",
+            "1": "Filmischer Flythrough"
+          },
+          "tools": {
+            "0": "Unwirkliche Engine",
+            "1": "Kino 4D",
+            "2": "After Effects"
+          }
+        }
+      },
+      "video-editing": {
+        "nutrition": {
+          "name": "Nutrition",
+          "industry": "Gesundheit und Fitness",
+          "description": "Bearbeitungen mit hoher Retention für YouTube, bezahlte soziale Netzwerke und Influencer-Kooperationen.",
+          "timeline": "2022 – 2025",
+          "services": {
+            "0": "Kommerzielle Bearbeitung",
+            "1": "Sozialabbau"
+          },
+          "tools": {
+            "0": "Premiere Pro",
+            "1": "DaVinci Resolve"
+          }
+        },
+        "saltyface": {
+          "name": "Saltyface",
+          "industry": "Schönheit",
+          "description": "Beauty-Redaktionsbearbeitungen mit nahtlosen Übergängen und einheitlicher Qualität.",
+          "timeline": "2023 – 2024",
+          "services": {
+            "0": "Leitartikel",
+            "1": "Farbe"
+          },
+          "tools": {
+            "0": "DaVinci Resolve"
+          }
+        },
+        "snax": {
+          "name": "Snax",
+          "industry": "Essen und Trinken",
+          "description": "3D-Produktanimation für Packshots, Splashes und Hero-Retail-Filme.",
+          "timeline": "2022 – 2025",
+          "services": {
+            "0": "3D-Produktanimation",
+            "1": "Packshot-Filme"
+          },
+          "tools": {
+            "0": "Kino 4D",
+            "1": "Rotverschiebung",
+            "2": "After Effects"
+          }
+        }
+      },
+      "vfx": {
+        "mirrorskin": {
+          "name": "Mirrorskin",
+          "industry": "Hautpflege",
+          "description": "Beauty VFX, Hautretusche und Partikeleffekte für Premium-Kampagnenfilme.",
+          "testimonial": "Unsichtbarer VFX, der sich auf dem Bildschirm immer noch magisch anfühlte.",
+          "timeline": "2023 – 2025",
+          "services": {
+            "0": "Compositing",
+            "1": "Schönheit VFX",
+            "2": "Partikel"
+          },
+          "tools": {
+            "0": "Nuklear",
+            "1": "After Effects",
+            "2": "Houdini"
+          }
+        },
+        "bello": {
+          "name": "Bello",
+          "industry": "Konsumgüter",
+          "description": "Produktverbesserung und Umgebungserweiterungen für Einzelhandelskampagnen.",
+          "timeline": "2024",
+          "services": {
+            "0": "Compositing",
+            "1": "Erweiterung festlegen"
+          },
+          "tools": {
+            "0": "Nuklear",
+            "1": "Photoshop"
+          }
+        },
+        "moxeys": {
+          "name": "Moxeys",
+          "industry": "Einzelhandel und E-Commerce",
+          "description": "VFX-lastige Produktfilme mit Set-Erweiterungen und Partikelsystemen.",
+          "timeline": "2023 – 2025",
+          "services": {
+            "0": "Compositing",
+            "1": "Partikeleffekte"
+          },
+          "tools": {
+            "0": "Nuklear",
+            "1": "Houdini",
+            "2": "After Effects"
+          }
+        }
+      },
+      "branding": {
+        "industrial-animation": {
+          "name": "Industrial Animation",
+          "industry": "Fertigung und Schwermaschinen",
+          "description": "Realistische 3D-Industrie- und CGI-Produktanimationen für Schwermaschinen, Montagevitrinen und technische Marketingfilme.",
+          "timeline": "2024 – 2025",
+          "services": {
+            "0": "Industrielle Animation",
+            "1": "CGI-Produktfilm",
+            "2": "Technische Visualisierung"
+          },
+          "tools": {
+            "0": "Kino 4D",
+            "1": "Mixer",
+            "2": "After Effects"
+          }
+        },
+        "ijockey": {
+          "name": "Ijockey",
+          "industry": "Konsumgüter",
+          "description": "3D-Produktanimationen, Papierrenderings und Markenfilme für die Einzelhandels- und Kampagneneinführungen von Ijockey.",
+          "timeline": "2024 – 2025",
+          "services": {
+            "0": "3D-Produktanimation",
+            "1": "Industrieller Putz",
+            "2": "Markenfilm"
+          },
+          "tools": {
+            "0": "Kino 4D",
+            "1": "Mixer",
+            "2": "After Effects"
+          }
+        }
+      }
+    },
+    "projects": {
+      "raycon-2d-p1": {
+        "title": "Heldenstartschleife",
+        "description": "15-sekündige Loop-Animation für bezahlte soziale Netzwerke mit produktorientiertem Storytelling.",
+        "tags": {
+          "0": "Kampagne",
+          "1": "Produkt"
+        }
+      },
+      "raycon-2d-p2": {
+        "title": "Charakter-Spot",
+        "description": "Handgezeichneter Charakter für eine saisonale Markenauffrischung.",
+        "tags": {
+          "0": "Charakter",
+          "1": "Übertragen"
+        }
+      },
+      "crossrope-2d-p1": {
+        "title": "App-Onboarding",
+        "description": "Modulare 2D-Szenen, die Trainingsmodi und Tracking erklären.",
+        "tags": {
+          "0": "Benutzeroberfläche",
+          "1": "Erklärer"
+        }
+      },
+      "itsy-2d-p1": {
+        "title": "Märchenbuchreihe",
+        "description": "Episodische 2D-Kurzfilme für In-App-Lernreisen.",
+        "tags": {
+          "0": "Charakter",
+          "1": "Serie"
+        }
+      },
+      "depology-3d-p1": {
+        "title": "Serum Hero Film",
+        "description": "Drehteller für fotorealistische Produkte mit flüssiger Sim- und Makrolinse.",
+        "tags": {
+          "0": "Produkt",
+          "1": "Schönheit"
+        }
+      },
+      "depology-3d-p2": {
+        "title": "Routine-Enthüllung",
+        "description": "Dreistufige Routineanimation für Landing Page Hero.",
+        "tags": {
+          "0": "Kampagne"
+        }
+      },
+      "joyjolt-3d-p1": {
+        "title": "Glaswarensammlung",
+        "description": "Kristallbrechungsstudien und Packshot-Animationen.",
+        "tags": {
+          "0": "Produkt"
+        }
+      },
+      "innermost-3d-p1": {
+        "title": "Pulver-Makrofilm",
+        "description": "Pulvergießen in Zeitlupe mit fotorealistischer Beleuchtung und Qualität.",
+        "tags": {
+          "0": "Produkt",
+          "1": "Makro"
+        }
+      },
+      "exa-motion-p1": {
+        "title": "Toolkit starten",
+        "description": "Modulare Bewegungskomponenten für Keynote- und Social-Rollout.",
+        "tags": {
+          "0": "Start",
+          "1": "Toolkit"
+        }
+      },
+      "kurk-motion-p1": {
+        "title": "Zutatengeschichte",
+        "description": "Kinetischer Typ und Makro-Overlays für Hero-DTC-Anzeigen.",
+        "tags": {
+          "0": "DTC",
+          "1": "Typografie"
+        }
+      },
+      "huya-env-p1": {
+        "title": "Enthüllung der Arena-Welt",
+        "description": "Filmischer Umgebungsrundgang mit dynamischer Beleuchtung und VFX.",
+        "tags": {
+          "0": "Umfeld",
+          "1": "Start"
+        }
+      },
+      "nutrition-edit-p1": {
+        "title": "Kampagnenmontage",
+        "description": "Schneller Performance-Schnitt mit Sounddesign und Farbpolitur.",
+        "tags": {
+          "0": "Bearbeiten",
+          "1": "Sozial"
+        }
+      },
+      "saltyface-edit-p1": {
+        "title": "Redaktioneller Film",
+        "description": "60er-Jahre-Markenfilm, zusammengestellt aus mehrtägigem Produktionsmaterial.",
+        "tags": {
+          "0": "Schönheit",
+          "1": "Film"
+        }
+      },
+      "snax-product-p1": {
+        "title": "Packshot-Held",
+        "description": "Fotorealistische Produktdrehung mit Flüssigsimulation und Studiobeleuchtung.",
+        "tags": {
+          "0": "Produkt",
+          "1": "Packshot"
+        }
+      },
+      "mirrorskin-vfx-p1": {
+        "title": "Partikelschönheitspass",
+        "description": "In Live-Action-Platten integrierte Makroserumpartikel.",
+        "tags": {
+          "0": "VFX",
+          "1": "Schönheit"
+        }
+      },
+      "mirrorskin-vfx-p2": {
+        "title": "Trailer-Finish",
+        "description": "Vollständige Comp-Pipeline für einen 30er-Launch-Trailer.",
+        "tags": {
+          "0": "Anhänger"
+        }
+      },
+      "bello-vfx-p1": {
+        "title": "Einzelhandelsheld",
+        "description": "CG-Umgebung vermischt sich mit Studio-Produktfotografie.",
+        "tags": {
+          "0": "Einzelhandel"
+        }
+      },
+      "moxeys-vfx-p1": {
+        "title": "Partikelproduktpass",
+        "description": "Makropartikel-FX integriert in Studioproduktplatten.",
+        "tags": {
+          "0": "VFX",
+          "1": "Produkt"
+        }
+      },
+      "industrial-animation-p1": {
+        "title": "Industrial Hero Still",
+        "description": "Schlüsselstandbild aus einer Animationssequenz mit schwerem Industriegerät.",
+        "tags": {
+          "0": "Industriell",
+          "1": "Trotzdem"
+        }
+      },
+      "industrial-animation-p2": {
+        "title": "CGI-Produkt-Keyvisual",
+        "description": "Fotorealistisches CGI-Produktrendering für Kampagnen- und Pitch-Decks.",
+        "tags": {
+          "0": "CGI",
+          "1": "Produkt"
+        }
+      },
+      "industrial-animation-p3": {
+        "title": "Industrieller Animationsfilm",
+        "description": "Vollständige Industrieanimation, die Maschinen in Bewegung zeigt.",
+        "tags": {
+          "0": "Industriell",
+          "1": "Film"
+        }
+      },
+      "industrial-animation-p4": {
+        "title": "CGI-Produktanimation",
+        "description": "Realistische 3D-Produktanimation mit filmischer Beleuchtung und Kamerabewegungen.",
+        "tags": {
+          "0": "CGI",
+          "1": "Animation"
+        }
+      },
+      "industrial-animation-p5": {
+        "title": "Animationsbeispielrolle",
+        "description": "Beispielhafter Industrieanimationsschnitt für soziale und Präsentationszwecke.",
+        "tags": {
+          "0": "Probe",
+          "1": "Industriell"
+        }
+      },
+      "ijockey-industrial-p1": {
+        "title": "Helmteil",
+        "description": "Produktübersicht und dynamisches Belüftungssystem für den Ijockey-Helm.",
+        "tags": {
+          "0": "Helmteil",
+          "1": "Produkt"
+        }
+      },
+      "ijockey-industrial-p2": {
+        "title": "Kundenskizze",
+        "description": "Erste Produktkonzeptskizze für Ijockey-Form und -Proportionen.",
+        "tags": {
+          "0": "Kundenskizze",
+          "1": "Konzept"
+        }
+      },
+      "ijockey-industrial-p3": {
+        "title": "Kundenskizze",
+        "description": "Verfeinerte Kundenskizze zur Erkundung der Silhouette und Detailplatzierung.",
+        "tags": {
+          "0": "Kundenskizze",
+          "1": "Konzept"
+        }
+      },
+      "ijockey-industrial-p4": {
+        "title": "Modellieren",
+        "description": "3D-Ausblock- und Modellierungsdurchgang für das Ijockey-Produkt.",
+        "tags": {
+          "0": "Modellieren",
+          "1": "3D"
+        }
+      },
+      "ijockey-industrial-p5": {
+        "title": "Modellieren",
+        "description": "Verfeinerung der Modellierung mit verbesserter Topologie und Oberflächenströmung.",
+        "tags": {
+          "0": "Modellieren",
+          "1": "3D"
+        }
+      },
+      "ijockey-industrial-p6": {
+        "title": "Endprodukt",
+        "description": "Fertigprodukt-Rendering mit Materialien und Studiobeleuchtung.",
+        "tags": {
+          "0": "Endprodukt",
+          "1": "Machen"
+        }
+      },
+      "ijockey-industrial-p7": {
+        "title": "Endprodukt",
+        "description": "Hero-Endproduktrahmen für Kampagnen- und Einzelhandelszwecke.",
+        "tags": {
+          "0": "Endprodukt",
+          "1": "Machen"
+        }
+      },
+      "ijockey-industrial-p8": {
+        "title": "Endprodukt",
+        "description": "Alternativer Blickwinkel auf das Endprodukt für Start- und Bezahlmedien.",
+        "tags": {
+          "0": "Endprodukt",
+          "1": "Machen"
+        }
+      },
+      "ijockey-industrial-p9": {
+        "title": "Markenproduktfilm",
+        "description": "Markenproduktanimation mit On-Screen-Typografie und Logo-Behandlung.",
+        "tags": {
+          "0": "Film",
+          "1": "Gebrandmarkt"
+        }
+      },
+      "ijockey-industrial-p10": {
+        "title": "Saubere Produktanimation",
+        "description": "Logofreie Produktanimation für flexible Kanalversionierung.",
+        "tags": {
+          "0": "Animation",
+          "1": "Produkt"
+        }
+      },
+      "ijockey-industrial-p11": {
+        "title": "Produktpräsentation",
+        "description": "Vollständiger Produktpräsentationsfilm für den Einzelhandel und digitale Platzierungen.",
+        "tags": {
+          "0": "Vitrine",
+          "1": "Film"
+        }
       }
     }
   },

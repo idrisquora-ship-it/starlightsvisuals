@@ -189,7 +189,7 @@
     backface-visibility: hidden;
   }
   .logo-marquee-rows {
-    gap: 2px;
+    row-gap: 14px;
   }
   /* Brick offset ~half a tile, like reference grid */
   .logo-marquee-row-offset {

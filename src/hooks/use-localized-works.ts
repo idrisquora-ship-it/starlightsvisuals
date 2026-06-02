@@ -60,11 +60,11 @@ function localizeCategory(
 }
 
 export function useLocalizedCategories(): WorkCategory[] {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   return useMemo(
     () => staticCategories.map((category) => localizeCategory(t, category)),
-    [t],
+    [t, i18n.language],
   );
 }
 
@@ -79,7 +79,7 @@ export function useLocalizedClient(categorySlug: string, clientSlug: string): Wo
 }
 
 export function useLocalizedShowcaseCategories() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   return useMemo(
     () =>
@@ -91,7 +91,7 @@ export function useLocalizedShowcaseCategories() {
           title: t(`${base}.title`, { defaultValue: item.title }),
         };
       }),
-    [t],
+    [t, i18n.language],
   );
 }
 

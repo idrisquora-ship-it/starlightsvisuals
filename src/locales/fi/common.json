@@ -391,10 +391,10 @@
   "works": {
     "breadcrumbLabel": "Breadcrumb",
     "breadcrumbHome": "Home",
-    "breadcrumbWorks": "Valitut työt",
-    "clientsTitle": "Asiakkaat, joiden kanssa olemme työskennelleet",
-    "clientsCount": "{{count}} asiakasta",
-    "projectsCompleted": "{{count}} valmistunutta projektia",
+    "breadcrumbWorks": "Selected Works",
+    "clientsTitle": "Clients We've Worked With",
+    "clientsCount": "{{count}} clients",
+    "projectsCompleted": "{{count}} projects completed",
     "timeline": "Timeline",
     "services": "Services provided",
     "tools": "Tools & software",
@@ -403,44 +403,44 @@
     "allYears": "All years",
     "noClients": "No clients in this category yet.",
     "noProjects": "No projects match your filters.",
-    "projectsTitle": "Projektinäytteet",
+    "projectsTitle": "Project Samples",
     "relatedProjects": "Related projects",
-    "closePreview": "Sulje esikatselu",
-    "ctaScript": "Valmiina kun sinä olet —",
-    "ctaTitle": "Aloita projektisi kanssamme",
-    "ctaDesc": "Kerro brändistäsi, aikataulusta ja tavoitteista.",
-    "ctaButton": "Aloita projekti",
-    "portfolioHubDesc": "Selaa töitä kategorioittain — animaatio, VFX, motion ja muuta.",
+    "closePreview": "Close preview",
+    "ctaScript": "Ready when you are —",
+    "ctaTitle": "Start Your Project With Us",
+    "ctaDesc": "Tell us about your brand, timeline, and goals. We'll map a cinematic path from concept to delivery.",
+    "ctaButton": "Start a project",
+    "portfolioHubDesc": "Explore work by category — animation, VFX, motion, and more.",
     "categories": {
       "2d-animation": {
         "title": "2D-animaatio",
-        "tagline": "Frame-by-frame craft for campaigns and series",
-        "description": "Character-driven 2D animation for commercials, explainers, and episodic content with bold motion and cinematic timing."
+        "tagline": "Askartelu kehys kehykseltä kampanjoihin ja sarjoihin",
+        "description": "Hahmovetoinen 2D-animaatio mainoksille, selityksille ja jaksoittaiselle sisällölle rohkealla liikkeellä ja elokuvamaisella ajoituksella."
       },
       "3d-animation": {
         "title": "3D-animaatio",
-        "tagline": "Photoreal and stylized 3D for brands and film",
-        "description": "Product, character, and environment animation with cinematic lighting, physics, and premium finish."
+        "tagline": "Valokuvallinen ja tyylitelty 3D brändeille ja elokuville",
+        "description": "Tuote-, hahmo- ja ympäristöanimaatio elokuvamaisella valaistuksella, fysiikalla ja ensiluokkaisella viimeistelyllä."
       },
       "motion-graphics": {
-        "title": "Game Environment",
-        "tagline": "Immersive worlds and playable spaces in motion",
-        "description": "Design-led motion systems for launches, dashboards, and brand worlds that scale across channels."
+        "title": "Peliympäristö",
+        "tagline": "Mukaansatempaavia maailmoja ja pelattavia tiloja liikkeessä",
+        "description": "Suunnitteluvetoiset liikejärjestelmät lanseerauksille, kojelaudoille ja brändimaailmoille, jotka skaalautuvat eri kanaviin."
       },
       "video-editing": {
-        "title": "Product Animation",
-        "tagline": "Photoreal product films and cinematic packshots",
-        "description": "Editorial finishing, rhythm, and story structure for commercials, documentaries, and brand films."
+        "title": "Tuoteanimaatio",
+        "tagline": "Valokuvallisia tuotefilmejä ja elokuvamaisia ​​paketteja",
+        "description": "Toimituksellinen viimeistely, rytmi ja tarinan rakenne mainoksille, dokumenteille ja brändielokuville."
       },
       "vfx": {
-        "title": "Visuaaliset efektit (VFX)",
-        "tagline": "Compositing, FX, and cinematic finishing",
-        "description": "Visual effects for trailers, product films, and branded content — from cleanups to full CG integration."
+        "title": "VFX",
+        "tagline": "Kompositio, FX ja elokuvamainen viimeistely",
+        "description": "Visuaaliset tehosteet trailereihin, tuoteelokuviin ja merkkisisältöön – siivouksista täydelliseen CG-integraatioon."
       },
       "branding": {
-        "title": "Industrial Animation",
-        "tagline": "Technical storytelling for products and manufacturing",
-        "description": "Brand films, identity motion, and launch assets that define how audiences remember your name."
+        "title": "Teollinen animaatio",
+        "tagline": "Tuotteiden ja valmistuksen tekninen tarinankerronta",
+        "description": "Brändielokuvat, identiteettiliikkeet ja julkaisumateriaalit, jotka määrittelevät, kuinka yleisö muistaa nimesi."
       }
     },
     "showcase": {
@@ -453,20 +453,551 @@
         "title": "3D-animaatio"
       },
       "motion-graphics": {
-        "tag": "Game Environment",
-        "title": "Game Environment"
+        "tag": "Peliympäristö",
+        "title": "Peliympäristö"
       },
       "video-editing": {
-        "tag": "3D",
-        "title": "Product Animation"
+        "tag": "Tuoteanimaatio",
+        "title": "Tuoteanimaatio"
       },
       "vfx": {
-        "tag": "Visuaaliset efektit (VFX)",
-        "title": "Visuaaliset efektit (VFX)"
+        "tag": "VFX",
+        "title": "VFX"
       },
       "branding": {
-        "tag": "3D",
-        "title": "Industrial Animation"
+        "tag": "Teollinen animaatio",
+        "title": "Teollinen animaatio"
+      }
+    },
+    "clients": {
+      "2d-animation": {
+        "raycon": {
+          "name": "Raycon",
+          "industry": "Kuluttajaelektroniikka",
+          "description": "Animoituja tuotetarinoita ja hahmosilmukoita maailmanlaajuisiin maksullisiin sosiaalisiin ja sankarikampanjoihin.",
+          "testimonial": "Liikekieli tuntui ensiluokkaiselta ensimmäisestä kuvakäsikirjoituksesta lähtien.",
+          "timeline": "2022 - Nykyinen",
+          "services": {
+            "0": "2D-hahmoanimaatio",
+            "1": "Selitä sekvenssit",
+            "2": "Sosiaaliset leikkaukset"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Toon Boom",
+            "2": "Photoshop"
+          }
+        },
+        "crossrope": {
+          "name": "Crossrope",
+          "industry": "Fitness & Wellness",
+          "description": "Tehokas 2D-liike sovellusten käyttöönottoon ja suorituskykymarkkinointiin.",
+          "timeline": "2023-2025",
+          "services": {
+            "0": "2D-liikegrafiikka",
+            "1": "Käyttöliittymän animaatio"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Kuvittaja"
+          }
+        },
+        "itsy": {
+          "name": "Itsy",
+          "industry": "Lapset ja koulutus",
+          "description": "Leikkisä 2D-hahmoanimaatio sovellustarinoihin ja oppimissisältöön.",
+          "timeline": "2023-2025",
+          "services": {
+            "0": "2D-hahmoanimaatio",
+            "1": "Kuvakäsikirjoitus"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Toon Boom"
+          }
+        }
+      },
+      "3d-animation": {
+        "depology": {
+          "name": "Depology",
+          "industry": "Kauneus ja ihonhoito",
+          "description": "3D-tuotevisualisointi ja makrokauneuskuvia DTC-kampanjoihin.",
+          "testimonial": "Jokainen kehys tuntui toimitukselta – konversiomainoksemme vastasi vihdoin brändiämme.",
+          "timeline": "2021 - Nykyinen",
+          "services": {
+            "0": "3D-tuoteanimaatio",
+            "1": "Kauneus makro",
+            "2": "CGI-ympäristöt"
+          },
+          "tools": {}
+        },
+        "joyjolt": {
+          "name": "Joyjolt",
+          "industry": "Koti & Lifestyle",
+          "description": "Tyylitelty 3D-lasitavaraanimaatio Amazonille ja maksullisille yhteisöille.",
+          "timeline": "2022-2024",
+          "services": {
+            "0": "3D tuote",
+            "1": "Kova pinta"
+          },
+          "tools": {
+            "0": "Elokuva 4D",
+            "1": "Punasiirtymä",
+            "2": "After Effects"
+          }
+        },
+        "innermost": {
+          "name": "Innermost",
+          "industry": "Terveys & Hyvinvointi",
+          "description": "3D täydentää visualisointia makrotekstuureilla ja nestedynamiikalla.",
+          "timeline": "2022-2025",
+          "services": {
+            "0": "3D tuote",
+            "1": "Makro CGI"
+          },
+          "tools": {}
+        }
+      },
+      "motion-graphics": {
+        "exa": {
+          "name": "Exa",
+          "industry": "Tekniikka",
+          "description": "Käynnistä liiketyökalupakkeja ja abstrakteja datavisualisointeja.",
+          "timeline": "2024-2025",
+          "services": {
+            "0": "Brand Motion",
+            "1": "Käynnistä Films"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Elokuva 4D"
+          }
+        },
+        "kurk": {
+          "name": "Kurk",
+          "industry": "Terveys ja lisäravinteet",
+          "description": "Täydennä brändin liikettä orgaanisilla tekstuureilla ja rohkealla typografialla.",
+          "timeline": "2023-2025",
+          "services": {
+            "0": "Liikegrafiikka",
+            "1": "Maksullinen sosiaalinen"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Kuvittaja"
+          }
+        },
+        "huya": {
+          "name": "Huya",
+          "industry": "Pelit ja suoratoisto",
+          "description": "Peliympäristön läpilennot ja areenamaailmat julkaisukampanjoita varten.",
+          "timeline": "2023-2025",
+          "services": {
+            "0": "Ympäristö Art",
+            "1": "Elokuvallinen läpikulku"
+          },
+          "tools": {
+            "0": "Epätodellinen moottori",
+            "1": "Elokuva 4D",
+            "2": "After Effects"
+          }
+        }
+      },
+      "video-editing": {
+        "nutrition": {
+          "name": "Nutrition",
+          "industry": "Terveys & Fitness",
+          "description": "Säilyttävät YouTube-muokkaukset, maksulliset sosiaaliset ja vaikuttajayhteistyöt.",
+          "timeline": "2022-2025",
+          "services": {
+            "0": "Kaupallinen muokkaus",
+            "1": "Sosiaaliset leikkaukset"
+          },
+          "tools": {
+            "0": "Premiere Pro",
+            "1": "DaVinci ratkaise"
+          }
+        },
+        "saltyface": {
+          "name": "Saltyface",
+          "industry": "Kauneus",
+          "description": "Kauneustoimituksellisia muokkauksia saumattomilla siirtymillä ja johdonmukaisella arvosanalla.",
+          "timeline": "2023-2024",
+          "services": {
+            "0": "Toimitus",
+            "1": "Väri"
+          },
+          "tools": {
+            "0": "DaVinci ratkaise"
+          }
+        },
+        "snax": {
+          "name": "Snax",
+          "industry": "Ruoka ja juoma",
+          "description": "3D-tuoteanimaatio pakkauskuvia, roiskeita ja sankarielokuvia varten.",
+          "timeline": "2022-2025",
+          "services": {
+            "0": "3D-tuoteanimaatio",
+            "1": "Packshot-elokuvat"
+          },
+          "tools": {
+            "0": "Elokuva 4D",
+            "1": "Punasiirtymä",
+            "2": "After Effects"
+          }
+        }
+      },
+      "vfx": {
+        "mirrorskin": {
+          "name": "Mirrorskin",
+          "industry": "Ihonhoito",
+          "description": "Beauty VFX, ihon retusointi ja hiukkasten FX huippuluokan kampanjaelokuviin.",
+          "testimonial": "Näkymätön VFX, joka tuntui edelleen taianomaiselta näytöllä.",
+          "timeline": "2023-2025",
+          "services": {
+            "0": "Kompositio",
+            "1": "Kauneus VFX",
+            "2": "Hiukkaset"
+          },
+          "tools": {
+            "0": "Nuke",
+            "1": "After Effects",
+            "2": "Houdini"
+          }
+        },
+        "bello": {
+          "name": "Bello",
+          "industry": "Kuluttajat",
+          "description": "Tuoteparannus- ja ympäristölaajennukset vähittäismyyntikampanjoihin.",
+          "timeline": "2024",
+          "services": {
+            "0": "Kompositio",
+            "1": "Aseta laajennus"
+          },
+          "tools": {
+            "0": "Nuke",
+            "1": "Photoshop"
+          }
+        },
+        "moxeys": {
+          "name": "Moxeys",
+          "industry": "Vähittäiskauppa ja verkkokauppa",
+          "description": "VFX-raskaat tuotekalvot, joissa on pidennykset ja hiukkasjärjestelmät.",
+          "timeline": "2023-2025",
+          "services": {
+            "0": "Kompositio",
+            "1": "Partikkeli FX"
+          },
+          "tools": {
+            "0": "Nuke",
+            "1": "Houdini",
+            "2": "After Effects"
+          }
+        }
+      },
+      "branding": {
+        "industrial-animation": {
+          "name": "Industrial Animation",
+          "industry": "Valmistus ja raskaat laitteet",
+          "description": "Realistinen 3D teollisuus- ja CGI-tuoteanimaatio raskaille koneille, kokoonpanovitriineihin ja teknisiin markkinointielokuviin.",
+          "timeline": "2024-2025",
+          "services": {
+            "0": "Teollinen animaatio",
+            "1": "CGI tuotekalvo",
+            "2": "Tekninen visualisointi"
+          },
+          "tools": {
+            "0": "Elokuva 4D",
+            "1": "Tehosekoitin",
+            "2": "After Effects"
+          }
+        },
+        "ijockey": {
+          "name": "Ijockey",
+          "industry": "Kuluttajatuotteet",
+          "description": "3D-tuoteanimaatioita, paperirappauksia ja merkkifilmejä Ijockeyn vähittäismyynti- ja kampanjalanseerauksiin.",
+          "timeline": "2024-2025",
+          "services": {
+            "0": "3D-tuoteanimaatio",
+            "1": "Teollinen renderöinti",
+            "2": "Tuotemerkki elokuva"
+          },
+          "tools": {
+            "0": "Elokuva 4D",
+            "1": "Tehosekoitin",
+            "2": "After Effects"
+          }
+        }
+      }
+    },
+    "projects": {
+      "raycon-2d-p1": {
+        "title": "Hero Launch Loop",
+        "description": "15s looping-animaatio maksulliseen yhteisöön ja tuote-ensikerrontaa.",
+        "tags": {
+          "0": "Kampanja",
+          "1": "Tuote"
+        }
+      },
+      "raycon-2d-p2": {
+        "title": "Hahmon paikka",
+        "description": "Käsin piirretty hahmo näyttelevänä kausiluonteisen brändin virkistykseen.",
+        "tags": {
+          "0": "Merkki",
+          "1": "Lähettää"
+        }
+      },
+      "crossrope-2d-p1": {
+        "title": "Sovelluksen käyttöönotto",
+        "description": "Modulaariset 2D-kohtaukset, jotka selittävät harjoitustilat ja seurannan.",
+        "tags": {
+          "0": "UI",
+          "1": "Selittäjä"
+        }
+      },
+      "itsy-2d-p1": {
+        "title": "Satukirjasarja",
+        "description": "Episodiset 2D-shortsit sovelluksen sisäisiin oppimismatkoihin.",
+        "tags": {
+          "0": "Merkki",
+          "1": "Sarja"
+        }
+      },
+      "depology-3d-p1": {
+        "title": "Seerumin sankarielokuva",
+        "description": "Photoreal-tuotteen levysoitin nestemäisellä sim- ja makro-objektiivilla.",
+        "tags": {
+          "0": "Tuote",
+          "1": "Kauneus"
+        }
+      },
+      "depology-3d-p2": {
+        "title": "Rutiini paljastaa",
+        "description": "Kolmivaiheinen rutiinianimaatio aloitussivun sankarille.",
+        "tags": {
+          "0": "Kampanja"
+        }
+      },
+      "joyjolt-3d-p1": {
+        "title": "Lasitavara kokoelma",
+        "description": "Crystal refraktion tutkimukset ja packshot animaatiot.",
+        "tags": {
+          "0": "Tuote"
+        }
+      },
+      "innermost-3d-p1": {
+        "title": "Jauhemakrofilmi",
+        "description": "Hidastettu jauheen kaatovalokuvavalo ja laatu.",
+        "tags": {
+          "0": "Tuote",
+          "1": "Makro"
+        }
+      },
+      "exa-motion-p1": {
+        "title": "Käynnistä Toolkit",
+        "description": "Modulaariset liikekomponentit pääpuheenvuoroon ja sosiaaliseen levitykseen.",
+        "tags": {
+          "0": "Käynnistää",
+          "1": "Toolkit"
+        }
+      },
+      "kurk-motion-p1": {
+        "title": "Ainesosien tarina",
+        "description": "Kineettiset tyyppi- ja makropeittokuvat sankari-DTC-mainoksille.",
+        "tags": {
+          "0": "DTC",
+          "1": "Typografia"
+        }
+      },
+      "huya-env-p1": {
+        "title": "Areenan maailma paljastuu",
+        "description": "Elokuvamainen ympäristökierros dynaamisella valaistuksella ja VFX:llä.",
+        "tags": {
+          "0": "Ympäristö",
+          "1": "Käynnistää"
+        }
+      },
+      "nutrition-edit-p1": {
+        "title": "Kampanjan asennus",
+        "description": "Nopeasti leikattu suoritusmuokkaus äänisuunnittelulla ja värikiillotuksella.",
+        "tags": {
+          "0": "Muokata",
+          "1": "Sosiaalinen"
+        }
+      },
+      "saltyface-edit-p1": {
+        "title": "Toimituksellinen elokuva",
+        "description": "60-luvun tuotemerkkielokuva koottu usean päivän tuotantomateriaalista.",
+        "tags": {
+          "0": "Kauneus",
+          "1": "Elokuva"
+        }
+      },
+      "snax-product-p1": {
+        "title": "Packshot Hero",
+        "description": "Photoreal tuotespin nestemäisellä sim- ja studiovalolla.",
+        "tags": {
+          "0": "Tuote",
+          "1": "Packshot"
+        }
+      },
+      "mirrorskin-vfx-p1": {
+        "title": "Particle Beauty Pass",
+        "description": "Makroseerumihiukkaset integroituina live-action-levyille.",
+        "tags": {
+          "0": "VFX",
+          "1": "Kauneus"
+        }
+      },
+      "mirrorskin-vfx-p2": {
+        "title": "Trailerin viimeistely",
+        "description": "Täydellinen putkilinja 30-luvun laukaisutraileriin.",
+        "tags": {
+          "0": "Traileri"
+        }
+      },
+      "bello-vfx-p1": {
+        "title": "Vähittäiskaupan sankari",
+        "description": "CG-ympäristö sekoittuu studiotuotekuvaukseen.",
+        "tags": {
+          "0": "Vähittäiskauppa"
+        }
+      },
+      "moxeys-vfx-p1": {
+        "title": "Hiukkastuotteen passi",
+        "description": "Studion tuotelevyihin integroitu makropartikkeli FX.",
+        "tags": {
+          "0": "VFX",
+          "1": "Tuote"
+        }
+      },
+      "industrial-animation-p1": {
+        "title": "Industrial Hero Still",
+        "description": "Keskeinen still-kehys raskaan kaluston teollisesta animaatiosarjasta.",
+        "tags": {
+          "0": "Teollinen",
+          "1": "Edelleen"
+        }
+      },
+      "industrial-animation-p2": {
+        "title": "Visuaalinen CGI-tuoteavain",
+        "description": "Photoreal CGI -tuoterenderöinti kampanja- ja pitch-dekkiin.",
+        "tags": {
+          "0": "CGI",
+          "1": "Tuote"
+        }
+      },
+      "industrial-animation-p3": {
+        "title": "Teollinen animaatioelokuva",
+        "description": "Täysi teollinen animaatio esittelee koneita liikkeessä.",
+        "tags": {
+          "0": "Teollinen",
+          "1": "Elokuva"
+        }
+      },
+      "industrial-animation-p4": {
+        "title": "CGI-tuoteanimaatio",
+        "description": "Realistinen 3D-tuoteanimaatio elokuvamaisella valaistuksella ja kameran liikkeillä.",
+        "tags": {
+          "0": "CGI",
+          "1": "Animaatio"
+        }
+      },
+      "industrial-animation-p5": {
+        "title": "Animaationäyterulla",
+        "description": "Esimerkki teollisesta animaatioleikkauksesta sosiaaliseen ja esityskäyttöön.",
+        "tags": {
+          "0": "Näyte",
+          "1": "Teollinen"
+        }
+      },
+      "ijockey-industrial-p1": {
+        "title": "Kypärän osa",
+        "description": "Tuotekatsaus ja dynaaminen tuuletusjärjestelmä Ijockey-kypärään.",
+        "tags": {
+          "0": "Kypärän osa",
+          "1": "Tuote"
+        }
+      },
+      "ijockey-industrial-p2": {
+        "title": "Asiakaspiirros",
+        "description": "Alkuperäinen tuotekonseptiluonnos Ijockey-muodolle ja mittasuhteille.",
+        "tags": {
+          "0": "Asiakaspiirros",
+          "1": "Käsite"
+        }
+      },
+      "ijockey-industrial-p3": {
+        "title": "Asiakaspiirros",
+        "description": "Hienostunut asiakasluonnos, jossa tutkitaan siluettia ja yksityiskohtien sijoittelua.",
+        "tags": {
+          "0": "Asiakaspiirros",
+          "1": "Käsite"
+        }
+      },
+      "ijockey-industrial-p4": {
+        "title": "Mallintaminen",
+        "description": "3D-sulku- ja mallinnuspassi Ijockey-tuotteelle.",
+        "tags": {
+          "0": "Mallintaminen",
+          "1": "3D"
+        }
+      },
+      "ijockey-industrial-p5": {
+        "title": "Mallintaminen",
+        "description": "Mallintamisen parannus parannetulla topologialla ja pintavirtauksella.",
+        "tags": {
+          "0": "Mallintaminen",
+          "1": "3D"
+        }
+      },
+      "ijockey-industrial-p6": {
+        "title": "Lopputuote",
+        "description": "Valmis tuote renderöi materiaaleilla ja studiovalaistuksella.",
+        "tags": {
+          "0": "Lopputuote",
+          "1": "Renderöi"
+        }
+      },
+      "ijockey-industrial-p7": {
+        "title": "Lopputuote",
+        "description": "Hero-lopputuotekehys kampanja- ja vähittäiskäyttöön.",
+        "tags": {
+          "0": "Lopputuote",
+          "1": "Renderöi"
+        }
+      },
+      "ijockey-industrial-p8": {
+        "title": "Lopputuote",
+        "description": "Vaihtoehtoinen lopputuotekulma julkaisua ja maksullista mediaa varten.",
+        "tags": {
+          "0": "Lopputuote",
+          "1": "Renderöi"
+        }
+      },
+      "ijockey-industrial-p9": {
+        "title": "Merkkituotekalvo",
+        "description": "Merkkituoteanimaatio näytön typografialla ja logokäsittelyllä.",
+        "tags": {
+          "0": "Elokuva",
+          "1": "Tuotemerkki"
+        }
+      },
+      "ijockey-industrial-p10": {
+        "title": "Puhdas tuoteanimaatio",
+        "description": "Logoton tuoteanimaatio joustavaan kanavaversioon.",
+        "tags": {
+          "0": "Animaatio",
+          "1": "Tuote"
+        }
+      },
+      "ijockey-industrial-p11": {
+        "title": "Tuotteen esittely",
+        "description": "Täydellinen tuote-esittelyfilmi vähittäismyyntiin ja digitaalisiin sijoitteluihin.",
+        "tags": {
+          "0": "Showcase",
+          "1": "Elokuva"
+        }
       }
     }
   },

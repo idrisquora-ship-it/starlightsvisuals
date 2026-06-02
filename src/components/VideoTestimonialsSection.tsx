@@ -17,7 +17,7 @@ import portfolioTrailer from "@/assets/portfolio-trailer.jpg";
 import portfolio2d from "@/assets/portfolio-2d.jpg";
 
 export function VideoTestimonialsSection() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [active, setActive] = useState<VideoTestimonial | null>(null);
   const carouselRef = useRef<HTMLDivElement>(null);
   const carouselInView = useInView(carouselRef, { once: true, margin: "-5% 0px" });
@@ -91,7 +91,7 @@ export function VideoTestimonialsSection() {
         progress: 0.55,
       },
     ],
-    [t],
+    [t, i18n.language],
   );
 
   return (
