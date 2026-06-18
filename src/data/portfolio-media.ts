@@ -18,3 +18,7 @@ export const anabomfimVideos = {
 export const valentinoVideos = {
   perfume: "/portfolio/valentino/perfume-web.mp4",
 } as const;
+
+export const watchDesignVideos = {
+  productDesign: "/portfolio/watch-design/product-design-web.mp4",
+} as const;

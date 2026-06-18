@@ -716,6 +716,23 @@
             "1": "Redshift",
             "2": "After Effects"
           }
+        },
+        "watch-design-and-animation": {
+          "name": "Watch Design and Animation",
+          "industry": "Luxury Watches & Product Design",
+          "description": "Concept-to-final 3D watch design, photoreal renders, and cinematic product animation for luxury timepieces.",
+          "timeline": "2025",
+          "services": {
+            "0": "Product Design",
+            "1": "3D Product Animation",
+            "2": "Luxury Renders"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Blender",
+            "2": "Redshift",
+            "3": "After Effects"
+          }
         }
       },
       "vfx": {
@@ -958,6 +975,46 @@
         "tags": {
           "0": "Film",
           "1": "Fragrance"
+        }
+      },
+      "watch-design-product-p1": {
+        "title": "Watch Render",
+        "description": "Hero studio render showcasing dial detail, materials, and premium lighting.",
+        "tags": {
+          "0": "Render",
+          "1": "Watch"
+        }
+      },
+      "watch-design-product-p2": {
+        "title": "Watch Render",
+        "description": "Alternate angle highlighting case geometry and bracelet finish.",
+        "tags": {
+          "0": "Render",
+          "1": "Product"
+        }
+      },
+      "watch-design-product-p3": {
+        "title": "Watch Render",
+        "description": "Close-up product render with refined reflections and surface detail.",
+        "tags": {
+          "0": "Render",
+          "1": "Detail"
+        }
+      },
+      "watch-design-product-p4": {
+        "title": "Watch Render",
+        "description": "Final packshot frame for campaign and retail placements.",
+        "tags": {
+          "0": "Render",
+          "1": "Campaign"
+        }
+      },
+      "watch-design-product-p5": {
+        "title": "Watch Product Film",
+        "description": "Cinematic 3D watch animation from concept design through final product presentation.",
+        "tags": {
+          "0": "Film",
+          "1": "Product Design"
         }
       },
       "mirrorskin-vfx-p1": {

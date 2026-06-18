@@ -1,7 +1,7 @@
 import type { WorkCategory, WorkClient, WorkProject } from "@/types/portfolio-works";
 
 import { brandLogos } from "@/data/brand-logos";
-import { anabomfimVideos, ijockeyVideos, industrialAnimationVideos, valentinoVideos } from "@/data/portfolio-media";
+import { anabomfimVideos, ijockeyVideos, industrialAnimationVideos, valentinoVideos, watchDesignVideos } from "@/data/portfolio-media";
 
 /** Placeholder client logos from the brand marquee set. */
 const brandLogo = (index: number) => brandLogos[index % brandLogos.length]!.src;
@@ -24,6 +24,11 @@ import valentinoRender1 from "@/assets/Valentino Project/Valentino perfume rende
 import valentinoRender2 from "@/assets/Valentino Project/Valentino perfume render2.jpg";
 import valentinoRender3 from "@/assets/Valentino Project/Valentino perfume render 3.jpg";
 import valentinoRender4 from "@/assets/Valentino Project/Valentino perfume render 4.jpg";
+
+import watchRender1 from "@/assets/watch concept/Final rendered Image watch concept.png";
+import watchRender2 from "@/assets/watch concept/Final rendered Image watch concept 2.png";
+import watchRender3 from "@/assets/watch concept/Final rendered Image watch concept 3.jpg";
+import watchRender4 from "@/assets/watch concept/Final rendered Image watch concept 4.jpg";
 
 import portfolio2d from "@/assets/portfolio-2d.jpg";
 import portfolioCharacter from "@/assets/portfolio-character.jpg";
@@ -580,6 +585,71 @@ export const workCategories: WorkCategory[] = [
           ],
         },
         "valentino-product",
+        { skipPad: true },
+      ),
+      client(
+        {
+          slug: "watch-design-and-animation",
+          name: "Watch Design and Animation",
+          industry: "Luxury Watches & Product Design",
+          description:
+            "Concept-to-final 3D watch design, photoreal renders, and cinematic product animation for luxury timepieces.",
+          projectCount: 5,
+          logo: watchRender1,
+          banner: watchRender2,
+          services: ["Product Design", "3D Product Animation", "Luxury Renders"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Blender", "Redshift", "After Effects"],
+          projects: [
+            {
+              title: "Watch Render",
+              description: "Hero studio render showcasing dial detail, materials, and premium lighting.",
+              thumbnail: watchRender1,
+              mediaType: "image",
+              mediaSrc: watchRender1,
+              tags: ["Render", "Watch"],
+              year: 2025,
+            },
+            {
+              title: "Watch Render",
+              description: "Alternate angle highlighting case geometry and bracelet finish.",
+              thumbnail: watchRender2,
+              mediaType: "image",
+              mediaSrc: watchRender2,
+              tags: ["Render", "Product"],
+              year: 2025,
+            },
+            {
+              title: "Watch Render",
+              description: "Close-up product render with refined reflections and surface detail.",
+              thumbnail: watchRender3,
+              mediaType: "image",
+              mediaSrc: watchRender3,
+              tags: ["Render", "Detail"],
+              year: 2025,
+            },
+            {
+              title: "Watch Render",
+              description: "Final packshot frame for campaign and retail placements.",
+              thumbnail: watchRender4,
+              mediaType: "image",
+              mediaSrc: watchRender4,
+              tags: ["Render", "Campaign"],
+              year: 2025,
+            },
+            {
+              title: "Watch Product Film",
+              description:
+                "Cinematic 3D watch animation from concept design through final product presentation.",
+              thumbnail: watchRender1,
+              mediaType: "video",
+              mediaSrc: watchDesignVideos.productDesign,
+              tags: ["Film", "Product Design"],
+              year: 2025,
+            },
+          ],
+        },
+        "watch-design-product",
         { skipPad: true },
       ),
     ],
