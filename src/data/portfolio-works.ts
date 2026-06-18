@@ -1,7 +1,7 @@
 import type { WorkCategory, WorkClient, WorkProject } from "@/types/portfolio-works";
 
 import { brandLogos } from "@/data/brand-logos";
-import { anabomfimVideos, ijockeyVideos, industrialAnimationVideos, valentinoVideos, watchDesignVideos } from "@/data/portfolio-media";
+import { anabomfimVideos, ijockeyVideos, industrialAnimationVideos, lemonadeJuiceVideos, valentinoVideos, watchDesignVideos } from "@/data/portfolio-media";
 
 /** Placeholder client logos from the brand marquee set. */
 const brandLogo = (index: number) => brandLogos[index % brandLogos.length]!.src;
@@ -29,6 +29,10 @@ import watchRender1 from "@/assets/watch concept/Final rendered Image watch conc
 import watchRender2 from "@/assets/watch concept/Final rendered Image watch concept 2.png";
 import watchRender3 from "@/assets/watch concept/Final rendered Image watch concept 3.jpg";
 import watchRender4 from "@/assets/watch concept/Final rendered Image watch concept 4.jpg";
+
+import lemonadeRender1 from "@/assets/Lemonade Juice/I will create photorealistic renders and 3d product animations.jpg";
+import lemonadeRender2 from "@/assets/Lemonade Juice/I will create photorealistic renders and 3d product animations (1).jpg";
+import lemonadeRender3 from "@/assets/Lemonade Juice/I will create photorealistic renders and 3d product animations (2).jpg";
 
 import portfolio2d from "@/assets/portfolio-2d.jpg";
 import portfolioCharacter from "@/assets/portfolio-character.jpg";
@@ -500,13 +504,23 @@ export const workCategories: WorkCategory[] = [
           industry: "Beauty & Fragrance",
           description:
             "Photoreal 3D product animation for luxury fragrance launches and campaign hero films.",
-          projectCount: 1,
+          projectCount: 2,
           logo: anabomfimPerfume,
           banner: anabomfimPerfume,
           services: ["3D Product Animation", "Packshot Films", "Beauty CGI"],
           timeline: "2025",
           tools: ["Cinema 4D", "Redshift", "After Effects"],
           projects: [
+            {
+              title: "Perfume Render",
+              description:
+                "Photoreal studio render with premium glass materials, ribbon detail, and campaign-ready lighting.",
+              thumbnail: anabomfimPerfume,
+              mediaType: "image",
+              mediaSrc: anabomfimPerfume,
+              tags: ["Render", "Fragrance"],
+              year: 2025,
+            },
             {
               title: "Perfume Product Film",
               description:
@@ -650,6 +664,62 @@ export const workCategories: WorkCategory[] = [
           ],
         },
         "watch-design-product",
+        { skipPad: true },
+      ),
+      client(
+        {
+          slug: "lemonade-juice",
+          name: "Lemonade Juice",
+          industry: "Food & Beverage",
+          description:
+            "Photoreal 3D lemonade renders and cinematic product animation for beverage campaigns and retail.",
+          projectCount: 4,
+          logo: lemonadeRender1,
+          banner: lemonadeRender2,
+          services: ["3D Product Animation", "Packshot Films", "Beverage CGI"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Redshift", "After Effects"],
+          projects: [
+            {
+              title: "Lemonade Render",
+              description: "Hero studio render with condensation, citrus accents, and premium packshot finish.",
+              thumbnail: lemonadeRender1,
+              mediaType: "image",
+              mediaSrc: lemonadeRender1,
+              tags: ["Render", "Beverage"],
+              year: 2025,
+            },
+            {
+              title: "Lemonade Render",
+              description: "Alternate angle highlighting bottle form, label, and refreshment cues.",
+              thumbnail: lemonadeRender2,
+              mediaType: "image",
+              mediaSrc: lemonadeRender2,
+              tags: ["Render", "Product"],
+              year: 2025,
+            },
+            {
+              title: "Lemonade Render",
+              description: "Close-up product render with refined liquid and glass material detail.",
+              thumbnail: lemonadeRender3,
+              mediaType: "image",
+              mediaSrc: lemonadeRender3,
+              tags: ["Render", "Packshot"],
+              year: 2025,
+            },
+            {
+              title: "Lemonade Product Film",
+              description:
+                "Cinematic 3D lemonade animation with fluid motion and campaign-ready product presentation.",
+              thumbnail: lemonadeRender1,
+              mediaType: "video",
+              mediaSrc: lemonadeJuiceVideos.product,
+              tags: ["Film", "Beverage"],
+              year: 2025,
+            },
+          ],
+        },
+        "lemonade-juice-product",
         { skipPad: true },
       ),
     ],

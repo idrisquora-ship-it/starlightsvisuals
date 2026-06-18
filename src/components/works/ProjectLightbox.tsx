@@ -74,6 +74,7 @@ export function ProjectLightbox({ project, onClose }: ProjectLightboxProps) {
                   ref={videoRef}
                   key={project.mediaSrc}
                   src={project.mediaSrc}
+                  poster={project.thumbnail}
                   controls
                   autoPlay
                   muted

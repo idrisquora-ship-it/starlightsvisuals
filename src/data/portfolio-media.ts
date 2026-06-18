@@ -22,3 +22,7 @@ export const valentinoVideos = {
 export const watchDesignVideos = {
   productDesign: "/portfolio/watch-design/product-design-web.mp4",
 } as const;
+
+export const lemonadeJuiceVideos = {
+  product: "/portfolio/lemonade-juice/product-web.mp4",
+} as const;

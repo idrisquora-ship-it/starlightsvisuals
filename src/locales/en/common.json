@@ -733,6 +733,22 @@
             "2": "Redshift",
             "3": "After Effects"
           }
+        },
+        "lemonade-juice": {
+          "name": "Lemonade Juice",
+          "industry": "Food & Beverage",
+          "description": "Photoreal 3D lemonade renders and cinematic product animation for beverage campaigns and retail.",
+          "timeline": "2025",
+          "services": {
+            "0": "3D Product Animation",
+            "1": "Packshot Films",
+            "2": "Beverage CGI"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Redshift",
+            "2": "After Effects"
+          }
         }
       },
       "vfx": {
@@ -930,6 +946,14 @@
         }
       },
       "anabomfim-product-p1": {
+        "title": "Perfume Render",
+        "description": "Photoreal studio render with premium glass materials, ribbon detail, and campaign-ready lighting.",
+        "tags": {
+          "0": "Render",
+          "1": "Fragrance"
+        }
+      },
+      "anabomfim-product-p2": {
         "title": "Perfume Product Film",
         "description": "Cinematic 3D perfume animation with studio lighting, liquid sim, and premium packshot finish.",
         "tags": {
@@ -1015,6 +1039,38 @@
         "tags": {
           "0": "Film",
           "1": "Product Design"
+        }
+      },
+      "lemonade-juice-product-p1": {
+        "title": "Lemonade Render",
+        "description": "Hero studio render with condensation, citrus accents, and premium packshot finish.",
+        "tags": {
+          "0": "Render",
+          "1": "Beverage"
+        }
+      },
+      "lemonade-juice-product-p2": {
+        "title": "Lemonade Render",
+        "description": "Alternate angle highlighting bottle form, label, and refreshment cues.",
+        "tags": {
+          "0": "Render",
+          "1": "Product"
+        }
+      },
+      "lemonade-juice-product-p3": {
+        "title": "Lemonade Render",
+        "description": "Close-up product render with refined liquid and glass material detail.",
+        "tags": {
+          "0": "Render",
+          "1": "Packshot"
+        }
+      },
+      "lemonade-juice-product-p4": {
+        "title": "Lemonade Product Film",
+        "description": "Cinematic 3D lemonade animation with fluid motion and campaign-ready product presentation.",
+        "tags": {
+          "0": "Film",
+          "1": "Beverage"
         }
       },
       "mirrorskin-vfx-p1": {

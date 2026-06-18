@@ -1,5 +1,5 @@
 import { Play } from "lucide-react";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 
 type ProjectVideoCardProps = {
   src: string;
@@ -8,6 +8,7 @@ type ProjectVideoCardProps = {
 
 export function ProjectVideoCard({ src, poster }: ProjectVideoCardProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
+  const [isPlaying, setIsPlaying] = useState(false);
 
   const playPreview = () => {
     const video = videoRef.current;
@@ -21,6 +22,7 @@ export function ProjectVideoCard({ src, poster }: ProjectVideoCardProps) {
     if (!video) return;
     video.pause();
     video.currentTime = 0;
+    setIsPlaying(false);
   };
 
   return (
@@ -32,6 +34,14 @@ export function ProjectVideoCard({ src, poster }: ProjectVideoCardProps) {
       onBlur={pausePreview}
       onTouchStart={playPreview}
     >
+      <img
+        src={poster}
+        alt=""
+        className={`absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-105 ${
+          isPlaying ? "opacity-0" : "opacity-100"
+        }`}
+        loading="lazy"
+      />
       <video
         ref={videoRef}
         src={src}
@@ -40,7 +50,11 @@ export function ProjectVideoCard({ src, poster }: ProjectVideoCardProps) {
         loop
         playsInline
         preload="metadata"
-        className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+        onPlaying={() => setIsPlaying(true)}
+        onPause={() => setIsPlaying(false)}
+        className={`absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-105 ${
+          isPlaying ? "opacity-100" : "opacity-0"
+        }`}
       />
       <div
         className="pointer-events-none absolute inset-0 flex items-center justify-center bg-background/20 transition group-hover:bg-background/10"
