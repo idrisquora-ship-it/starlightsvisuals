@@ -1,7 +1,7 @@
 import type { WorkCategory, WorkClient, WorkProject } from "@/types/portfolio-works";
 
 import { brandLogos } from "@/data/brand-logos";
-import { anabomfimVideos, cartoon2dPosters, cartoon2dVideos, ijockeyVideos, industrialAnimationVideos, lemonadeJuiceVideos, shoksPosters, shoksVideos, steelReefVideos, valentinoVideos, watchDesignVideos } from "@/data/portfolio-media";
+import { anabomfimVideos, cartoon2dPosters, cartoon2dVideos, character3dVideos, ijockeyVideos, industrialAnimationVideos, lemonadeJuiceVideos, shoksPosters, shoksVideos, steelReefVideos, valentinoVideos, watchDesignVideos } from "@/data/portfolio-media";
 
 /** Placeholder client logos from the brand marquee set. */
 const brandLogo = (index: number) => brandLogos[index % brandLogos.length]!.src;
@@ -36,6 +36,11 @@ import lemonadeRender3 from "@/assets/Lemonade Juice/I will create photorealisti
 
 import steelReefRender1 from "@/assets/STEEL REEF/Steel Reef rendered image.jpg";
 import steelReefRender2 from "@/assets/STEEL REEF/Steel Reef rendered image (2).jpg";
+
+import character3dImage1 from "@/assets/3D Character/3d character image.jpg";
+import character3dImage2 from "@/assets/3D Character/3d character image 2.jpg";
+import character3dImage3 from "@/assets/3D Character/3d character image 3.jpg";
+import character3dImage4 from "@/assets/3D Character/3d character image 4.jpg";
 
 import portfolio2d from "@/assets/portfolio-2d.jpg";
 import portfolioCharacter from "@/assets/portfolio-character.jpg";
@@ -362,6 +367,71 @@ export const workCategories: WorkCategory[] = [
           ],
         },
         "innermost-3d",
+      ),
+      client(
+        {
+          slug: "3d-character-animation",
+          name: "3D Character Animation",
+          industry: "Character & Entertainment",
+          description:
+            "Stylized 3D character design, posing, and cinematic animation from concept through final showcase films.",
+          projectCount: 5,
+          logo: character3dImage1,
+          banner: character3dImage3,
+          services: ["3D Character Design", "Character Animation", "Stylized CGI"],
+          timeline: "2025",
+          tools: ["Blender", "Cinema 4D", "After Effects"],
+          projects: [
+            {
+              title: "Character Render",
+              description: "Hero character render with expressive posing and polished stylized materials.",
+              thumbnail: character3dImage1,
+              mediaType: "image",
+              mediaSrc: character3dImage1,
+              tags: ["Character", "Render"],
+              year: 2025,
+            },
+            {
+              title: "Character Render",
+              description: "Alternate pose highlighting silhouette, accessories, and personality.",
+              thumbnail: character3dImage2,
+              mediaType: "image",
+              mediaSrc: character3dImage2,
+              tags: ["Character", "Pose"],
+              year: 2025,
+            },
+            {
+              title: "Character Render",
+              description: "Full-body character frame with refined lighting and surface detail.",
+              thumbnail: character3dImage3,
+              mediaType: "image",
+              mediaSrc: character3dImage3,
+              tags: ["Character", "Stylized"],
+              year: 2025,
+            },
+            {
+              title: "Character Render",
+              description: "Campaign-ready character still for social, pitch decks, and launch assets.",
+              thumbnail: character3dImage4,
+              mediaType: "image",
+              mediaSrc: character3dImage4,
+              tags: ["Character", "Campaign"],
+              year: 2025,
+            },
+            {
+              title: "Animation Workflow Film",
+              description:
+                "Behind-the-scenes 3D cartoon animation workflow from modeling through final character motion.",
+              thumbnail: character3dImage1,
+              mediaType: "video",
+              mediaSrc: character3dVideos.workflow,
+              tags: ["Film", "Workflow"],
+              year: 2025,
+            },
+          ],
+        },
+        "3d-character-animation",
+        { skipPad: true },
       ),
     ],
   },

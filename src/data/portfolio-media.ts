@@ -48,3 +48,7 @@ export const shoksPosters = {
 export const steelReefVideos = {
   product: "/portfolio/steel-reef/product-web.mp4",
 } as const;
+
+export const character3dVideos = {
+  workflow: "/portfolio/3d-character-animation/workflow-web.mp4",
+} as const;

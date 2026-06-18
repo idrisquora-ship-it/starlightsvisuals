@@ -572,6 +572,22 @@
             "1": "Macro CGI"
           },
           "tools": {}
+        },
+        "3d-character-animation": {
+          "name": "3D Character Animation",
+          "industry": "Character & Entertainment",
+          "description": "Stylized 3D character design, posing, and cinematic animation from concept through final showcase films.",
+          "timeline": "2025",
+          "services": {
+            "0": "3D Character Design",
+            "1": "Character Animation",
+            "2": "Stylized CGI"
+          },
+          "tools": {
+            "0": "Blender",
+            "1": "Cinema 4D",
+            "2": "After Effects"
+          }
         }
       },
       "motion-graphics": {
@@ -878,6 +894,46 @@
         "tags": {
           "0": "Product",
           "1": "Macro"
+        }
+      },
+      "3d-character-animation-p1": {
+        "title": "Character Render",
+        "description": "Hero character render with expressive posing and polished stylized materials.",
+        "tags": {
+          "0": "Character",
+          "1": "Render"
+        }
+      },
+      "3d-character-animation-p2": {
+        "title": "Character Render",
+        "description": "Alternate pose highlighting silhouette, accessories, and personality.",
+        "tags": {
+          "0": "Character",
+          "1": "Pose"
+        }
+      },
+      "3d-character-animation-p3": {
+        "title": "Character Render",
+        "description": "Full-body character frame with refined lighting and surface detail.",
+        "tags": {
+          "0": "Character",
+          "1": "Stylized"
+        }
+      },
+      "3d-character-animation-p4": {
+        "title": "Character Render",
+        "description": "Campaign-ready character still for social, pitch decks, and launch assets.",
+        "tags": {
+          "0": "Character",
+          "1": "Campaign"
+        }
+      },
+      "3d-character-animation-p5": {
+        "title": "Animation Workflow Film",
+        "description": "Behind-the-scenes 3D cartoon animation workflow from modeling through final character motion.",
+        "tags": {
+          "0": "Film",
+          "1": "Workflow"
         }
       },
       "exa-motion-p1": {
