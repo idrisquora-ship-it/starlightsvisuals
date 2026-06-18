@@ -810,6 +810,22 @@
             "1": "Tehosekoitin",
             "2": "After Effects"
           }
+        },
+        "atx": {
+          "name": "ATX",
+          "industry": "Manufacturing & Technical Products",
+          "description": "3D technical product animation and industrial visualization for ATX, from Fusion 360 builds through Blender renders and cinematic films.",
+          "timeline": "2025",
+          "services": {
+            "0": "Industrial Animation",
+            "1": "Technical Visualization",
+            "2": "Product CGI"
+          },
+          "tools": {
+            "0": "Fusion 360",
+            "1": "Blender",
+            "2": "After Effects"
+          }
         }
       }
     },
@@ -1306,6 +1322,38 @@
         "tags": {
           "0": "Showcase",
           "1": "Elokuva"
+        }
+      },
+      "atx-industrial-p1": {
+        "title": "Technical Product Render",
+        "description": "Photoreal industrial product render with technical lighting and campaign-ready finish.",
+        "tags": {
+          "0": "Render",
+          "1": "Industrial"
+        }
+      },
+      "atx-industrial-p2": {
+        "title": "Technical Product Render",
+        "description": "Alternate angle showcasing product form, materials, and technical detail.",
+        "tags": {
+          "0": "Render",
+          "1": "Product"
+        }
+      },
+      "atx-industrial-p3": {
+        "title": "Technical Product Render",
+        "description": "Studio render highlighting industrial design and surface finish for marketing use.",
+        "tags": {
+          "0": "Render",
+          "1": "Technical"
+        }
+      },
+      "atx-industrial-p4": {
+        "title": "Industrial Animation Film",
+        "description": "Cinematic 3D industrial animation showcasing technical product motion and manufacturing presentation.",
+        "tags": {
+          "0": "Film",
+          "1": "Industrial"
         }
       }
     }

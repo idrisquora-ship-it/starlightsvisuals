@@ -1,7 +1,7 @@
 import type { WorkCategory, WorkClient, WorkProject } from "@/types/portfolio-works";
 
 import { brandLogos } from "@/data/brand-logos";
-import { anabomfimVideos, anime2dPosters, anime2dVideos, anime3dVideos, cartoon2dPosters, cartoon2dVideos, character3dVideos, ijockeyVideos, industrialAnimationVideos, lemonadeJuiceVideos, medical3dPosters, medical3dVideos, shoksPosters, shoksVideos, simbaMattressPosters, simbaMattressVideos, steelReefVideos, suitcasePosters, suitcaseVideos, valentinoVideos, watchDesignVideos } from "@/data/portfolio-media";
+import { anabomfimVideos, anime2dPosters, anime2dVideos, anime3dVideos, atxPosters, atxVideos, cartoon2dPosters, cartoon2dVideos, character3dVideos, ijockeyVideos, industrialAnimationVideos, lemonadeJuiceVideos, medical3dPosters, medical3dVideos, shoksPosters, shoksVideos, simbaMattressPosters, simbaMattressVideos, steelReefVideos, suitcasePosters, suitcaseVideos, valentinoVideos, watchDesignVideos } from "@/data/portfolio-media";
 
 /** Placeholder client logos from the brand marquee set. */
 const brandLogo = (index: number) => brandLogos[index % brandLogos.length]!.src;
@@ -17,6 +17,10 @@ import ijockeyFinalProduct2 from "@/assets/Ijockey portfolio folder/Final Produc
 
 import caterpillarBanner from "@/assets/Caterpillar animation portfolio/industrial animation.jpg";
 import caterpillarKeyVisual from "@/assets/Caterpillar animation portfolio/create-realistic-3d-product-animation-industrial-animation-cgi-animation.png";
+
+import atxRender1 from "@/assets/ATX Project/3d-technical-product-animation-industrial-fusion-360-video-and-blender-render.jpg";
+import atxRender2 from "@/assets/ATX Project/3d-technical-product-animation-industrial-fusion-360-video-and-blender-render (1).jpg";
+import atxRender3 from "@/assets/ATX Project/3d-technical-product-animation-industrial-fusion-360-video-and-blender-render (2).jpg";
 
 import anabomfimPerfume from "@/assets/Anabomfim project/ana-bomfim-perfume.jpg";
 
@@ -1157,6 +1161,62 @@ export const workCategories: WorkCategory[] = [
           ],
         },
         "ijockey-industrial",
+        { skipPad: true },
+      ),
+      client(
+        {
+          slug: "atx",
+          name: "ATX",
+          industry: "Manufacturing & Technical Products",
+          description:
+            "3D technical product animation and industrial visualization for ATX, from Fusion 360 builds through Blender renders and cinematic films.",
+          projectCount: 4,
+          logo: atxRender1,
+          banner: atxRender2,
+          services: ["Industrial Animation", "Technical Visualization", "Product CGI"],
+          timeline: "2025",
+          tools: ["Fusion 360", "Blender", "After Effects"],
+          projects: [
+            {
+              title: "Technical Product Render",
+              description: "Photoreal industrial product render with technical lighting and campaign-ready finish.",
+              thumbnail: atxRender1,
+              mediaType: "image",
+              mediaSrc: atxRender1,
+              tags: ["Render", "Industrial"],
+              year: 2025,
+            },
+            {
+              title: "Technical Product Render",
+              description: "Alternate angle showcasing product form, materials, and technical detail.",
+              thumbnail: atxRender2,
+              mediaType: "image",
+              mediaSrc: atxRender2,
+              tags: ["Render", "Product"],
+              year: 2025,
+            },
+            {
+              title: "Technical Product Render",
+              description: "Studio render highlighting industrial design and surface finish for marketing use.",
+              thumbnail: atxRender3,
+              mediaType: "image",
+              mediaSrc: atxRender3,
+              tags: ["Render", "Technical"],
+              year: 2025,
+            },
+            {
+              title: "Industrial Animation Film",
+              description:
+                "Cinematic 3D industrial animation showcasing technical product motion and manufacturing presentation.",
+              thumbnail: atxPosters.industrial,
+              mediaType: "video",
+              mediaSrc: atxVideos.industrial,
+              tags: ["Film", "Industrial"],
+              year: 2025,
+            },
+          ],
+        },
+        "atx-industrial",
         { skipPad: true },
       ),
     ],

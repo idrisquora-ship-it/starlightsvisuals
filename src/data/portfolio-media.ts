@@ -11,6 +11,14 @@ export const industrialAnimationVideos = {
   sample: "/portfolio/industrial-animation/sample-2-web.mp4",
 } as const;
 
+export const atxVideos = {
+  industrial: "/portfolio/atx/industrial-web.mp4",
+} as const;
+
+export const atxPosters = {
+  industrial: "/portfolio/atx/poster-industrial.jpg",
+} as const;
+
 export const anabomfimVideos = {
   perfume: "/portfolio/anabomfim/perfume-web.mp4",
 } as const;
