@@ -36,3 +36,11 @@ export const cartoon2dPosters = {
   numberNames: "/portfolio/2d-cartoon-animation/poster-number-names.jpg",
   cartoon: "/portfolio/2d-cartoon-animation/poster-cartoon.jpg",
 } as const;
+
+export const shoksVideos = {
+  earbud: "/portfolio/shoks/earbud-web.mp4",
+} as const;
+
+export const shoksPosters = {
+  earbud: "/portfolio/shoks/poster-earbud.jpg",
+} as const;

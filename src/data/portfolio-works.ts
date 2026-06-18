@@ -1,7 +1,7 @@
 import type { WorkCategory, WorkClient, WorkProject } from "@/types/portfolio-works";
 
 import { brandLogos } from "@/data/brand-logos";
-import { anabomfimVideos, cartoon2dPosters, cartoon2dVideos, ijockeyVideos, industrialAnimationVideos, lemonadeJuiceVideos, valentinoVideos, watchDesignVideos } from "@/data/portfolio-media";
+import { anabomfimVideos, cartoon2dPosters, cartoon2dVideos, ijockeyVideos, industrialAnimationVideos, lemonadeJuiceVideos, shoksPosters, shoksVideos, valentinoVideos, watchDesignVideos } from "@/data/portfolio-media";
 
 /** Placeholder client logos from the brand marquee set. */
 const brandLogo = (index: number) => brandLogos[index % brandLogos.length]!.src;
@@ -681,6 +681,35 @@ export const workCategories: WorkCategory[] = [
           ],
         },
         "lemonade-juice-product",
+        { skipPad: true },
+      ),
+      client(
+        {
+          slug: "shoks",
+          name: "SHOKS",
+          industry: "Consumer Electronics",
+          description:
+            "Photoreal 3D earbud product animation with studio lighting, material detail, and campaign-ready motion.",
+          projectCount: 1,
+          logo: shoksPosters.earbud,
+          banner: shoksPosters.earbud,
+          services: ["3D Product Animation", "Packshot Films", "Tech CGI"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Redshift", "After Effects"],
+          projects: [
+            {
+              title: "Earbud Product Film",
+              description:
+                "Cinematic 3D earbud animation highlighting form, materials, and premium product presentation.",
+              thumbnail: shoksPosters.earbud,
+              mediaType: "video",
+              mediaSrc: shoksVideos.earbud,
+              tags: ["Product", "Electronics"],
+              year: 2025,
+            },
+          ],
+        },
+        "shoks-product",
         { skipPad: true },
       ),
     ],

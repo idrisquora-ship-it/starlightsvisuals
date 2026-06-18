@@ -723,6 +723,22 @@
             "1": "Redshift",
             "2": "After Effects"
           }
+        },
+        "shoks": {
+          "name": "SHOKS",
+          "industry": "Consumer Electronics",
+          "description": "Photoreal 3D earbud product animation with studio lighting, material detail, and campaign-ready motion.",
+          "timeline": "2025",
+          "services": {
+            "0": "3D Product Animation",
+            "1": "Packshot Films",
+            "2": "Tech CGI"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Redshift",
+            "2": "After Effects"
+          }
         }
       },
       "vfx": {
@@ -1037,6 +1053,14 @@
         "tags": {
           "0": "Film",
           "1": "Beverage"
+        }
+      },
+      "shoks-product-p1": {
+        "title": "Earbud Product Film",
+        "description": "Cinematic 3D earbud animation highlighting form, materials, and premium product presentation.",
+        "tags": {
+          "0": "Product",
+          "1": "Electronics"
         }
       },
       "mirrorskin-vfx-p1": {
