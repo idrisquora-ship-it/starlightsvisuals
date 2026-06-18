@@ -288,6 +288,22 @@
           "1": "Redshift",
           "2": "After Effects"
         }
+      },
+      "steel-reef": {
+        "name": "STEEL REEF",
+        "industry": "Consumer Products",
+        "description": "Photoreal 3D product renders and cinematic animation for STEEL REEF brand campaigns and retail.",
+        "timeline": "2025",
+        "services": {
+          "0": "3D Product Animation",
+          "1": "Packshot Films",
+          "2": "Product CGI"
+        },
+        "tools": {
+          "0": "Cinema 4D",
+          "1": "Redshift",
+          "2": "After Effects"
+        }
       }
     },
     "vfx": {
@@ -610,6 +626,30 @@
       "tags": {
         "0": "Product",
         "1": "Electronics"
+      }
+    },
+    "steel-reef-product-p1": {
+      "title": "Product Render",
+      "description": "Hero studio render with premium materials, lighting, and campaign-ready finish.",
+      "tags": {
+        "0": "Render",
+        "1": "Product"
+      }
+    },
+    "steel-reef-product-p2": {
+      "title": "Product Render",
+      "description": "Alternate angle showcasing product form, surface detail, and brand presentation.",
+      "tags": {
+        "0": "Render",
+        "1": "Packshot"
+      }
+    },
+    "steel-reef-product-p3": {
+      "title": "Product Film",
+      "description": "Cinematic 3D product animation with dynamic camera moves and polished commercial finish.",
+      "tags": {
+        "0": "Film",
+        "1": "Product"
       }
     },
     "mirrorskin-vfx-p1": {

@@ -44,3 +44,7 @@ export const shoksVideos = {
 export const shoksPosters = {
   earbud: "/portfolio/shoks/poster-earbud.jpg",
 } as const;
+
+export const steelReefVideos = {
+  product: "/portfolio/steel-reef/product-web.mp4",
+} as const;

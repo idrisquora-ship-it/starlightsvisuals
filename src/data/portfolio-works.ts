@@ -1,7 +1,7 @@
 import type { WorkCategory, WorkClient, WorkProject } from "@/types/portfolio-works";
 
 import { brandLogos } from "@/data/brand-logos";
-import { anabomfimVideos, cartoon2dPosters, cartoon2dVideos, ijockeyVideos, industrialAnimationVideos, lemonadeJuiceVideos, shoksPosters, shoksVideos, valentinoVideos, watchDesignVideos } from "@/data/portfolio-media";
+import { anabomfimVideos, cartoon2dPosters, cartoon2dVideos, ijockeyVideos, industrialAnimationVideos, lemonadeJuiceVideos, shoksPosters, shoksVideos, steelReefVideos, valentinoVideos, watchDesignVideos } from "@/data/portfolio-media";
 
 /** Placeholder client logos from the brand marquee set. */
 const brandLogo = (index: number) => brandLogos[index % brandLogos.length]!.src;
@@ -33,6 +33,9 @@ import watchRender4 from "@/assets/watch concept/Final rendered Image watch conc
 import lemonadeRender1 from "@/assets/Lemonade Juice/I will create photorealistic renders and 3d product animations.jpg";
 import lemonadeRender2 from "@/assets/Lemonade Juice/I will create photorealistic renders and 3d product animations (1).jpg";
 import lemonadeRender3 from "@/assets/Lemonade Juice/I will create photorealistic renders and 3d product animations (2).jpg";
+
+import steelReefRender1 from "@/assets/STEEL REEF/Steel Reef rendered image.jpg";
+import steelReefRender2 from "@/assets/STEEL REEF/Steel Reef rendered image (2).jpg";
 
 import portfolio2d from "@/assets/portfolio-2d.jpg";
 import portfolioCharacter from "@/assets/portfolio-character.jpg";
@@ -710,6 +713,53 @@ export const workCategories: WorkCategory[] = [
           ],
         },
         "shoks-product",
+        { skipPad: true },
+      ),
+      client(
+        {
+          slug: "steel-reef",
+          name: "STEEL REEF",
+          industry: "Consumer Products",
+          description:
+            "Photoreal 3D product renders and cinematic animation for STEEL REEF brand campaigns and retail.",
+          projectCount: 3,
+          logo: steelReefRender1,
+          banner: steelReefRender2,
+          services: ["3D Product Animation", "Packshot Films", "Product CGI"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Redshift", "After Effects"],
+          projects: [
+            {
+              title: "Product Render",
+              description: "Hero studio render with premium materials, lighting, and campaign-ready finish.",
+              thumbnail: steelReefRender1,
+              mediaType: "image",
+              mediaSrc: steelReefRender1,
+              tags: ["Render", "Product"],
+              year: 2025,
+            },
+            {
+              title: "Product Render",
+              description: "Alternate angle showcasing product form, surface detail, and brand presentation.",
+              thumbnail: steelReefRender2,
+              mediaType: "image",
+              mediaSrc: steelReefRender2,
+              tags: ["Render", "Packshot"],
+              year: 2025,
+            },
+            {
+              title: "Product Film",
+              description:
+                "Cinematic 3D product animation with dynamic camera moves and polished commercial finish.",
+              thumbnail: steelReefRender1,
+              mediaType: "video",
+              mediaSrc: steelReefVideos.product,
+              tags: ["Film", "Product"],
+              year: 2025,
+            },
+          ],
+        },
+        "steel-reef-product",
         { skipPad: true },
       ),
     ],
