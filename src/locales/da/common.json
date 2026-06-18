@@ -413,60 +413,60 @@
     "portfolioHubDesc": "Explore work by category — animation, VFX, motion, and more.",
     "categories": {
       "2d-animation": {
-        "title": "2D animation",
+        "title": "2D-animation",
         "tagline": "Ramme-for-ramme håndværk til kampagner og serier",
         "description": "Karakterdrevet 2D-animation til reklamer, forklaringer og episodisk indhold med fed bevægelse og filmisk timing."
       },
       "3d-animation": {
-        "title": "3D animation",
+        "title": "3D-animation",
         "tagline": "Fotorealiseret og stiliseret 3D til mærker og film",
         "description": "Produkt-, karakter- og miljøanimation med filmisk belysning, fysik og førsteklasses finish."
       },
       "motion-graphics": {
-        "title": "Spilmiljø",
+        "title": "Game Environment",
         "tagline": "Fordybende verdener og spilbare rum i bevægelse",
         "description": "Designledede bevægelsessystemer til lanceringer, dashboards og brandverdener, der skalerer på tværs af kanaler."
       },
       "video-editing": {
-        "title": "Produktanimation",
+        "title": "Product Animation",
         "tagline": "Fotorealistiske produktfilm og filmiske packshots",
         "description": "Redaktionel efterbehandling, rytme og historiestruktur for reklamer, dokumentarer og mærkefilm."
       },
       "vfx": {
-        "title": "VFX",
+        "title": "Visuelle effekter (VFX)",
         "tagline": "Komposition, FX og filmisk efterbehandling",
         "description": "Visuelle effekter til trailere, produktfilm og brandet indhold - fra oprydning til fuld CG-integration."
       },
       "branding": {
-        "title": "Industriel animation",
+        "title": "Industrial Animation",
         "tagline": "Teknisk historiefortælling til produkter og fremstilling",
         "description": "Brandfilm, identitetsbevægelser og lanceringsaktiver, der definerer, hvordan publikum husker dit navn."
       }
     },
     "showcase": {
       "2d-animation": {
-        "tag": "2D animation",
-        "title": "2D animation"
+        "tag": "2D-animation",
+        "title": "2D-animation"
       },
       "3d-animation": {
-        "tag": "3D animation",
-        "title": "3D animation"
+        "tag": "3D-animation",
+        "title": "3D-animation"
       },
       "motion-graphics": {
-        "tag": "Spilmiljø",
-        "title": "Spilmiljø"
+        "tag": "Game Environment",
+        "title": "Game Environment"
       },
       "video-editing": {
-        "tag": "Produktanimation",
-        "title": "Produktanimation"
+        "tag": "3D",
+        "title": "Product Animation"
       },
       "vfx": {
-        "tag": "VFX",
-        "title": "VFX"
+        "tag": "Visuelle effekter (VFX)",
+        "title": "Visuelle effekter (VFX)"
       },
       "branding": {
-        "tag": "Industriel animation",
-        "title": "Industriel animation"
+        "tag": "3D",
+        "title": "Industrial Animation"
       }
     },
     "clients": {
@@ -643,6 +643,38 @@
           "tools": {
             "0": "Cinema 4D",
             "1": "Rødforskydning",
+            "2": "After Effects"
+          }
+        },
+        "anabomfim": {
+          "name": "Anabomfim",
+          "industry": "Beauty & Fragrance",
+          "description": "Photoreal 3D product animation for luxury fragrance launches and campaign hero films.",
+          "timeline": "2025",
+          "services": {
+            "0": "3D Product Animation",
+            "1": "Packshot Films",
+            "2": "Beauty CGI"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Redshift",
+            "2": "After Effects"
+          }
+        },
+        "valentino": {
+          "name": "Valentino",
+          "industry": "Luxury Beauty & Fragrance",
+          "description": "High-end 3D perfume visualization and cinematic product films for luxury fragrance campaigns.",
+          "timeline": "2025",
+          "services": {
+            "0": "3D Product Animation",
+            "1": "Luxury Packshots",
+            "2": "Beauty CGI"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Redshift",
             "2": "After Effects"
           }
         }
@@ -839,6 +871,54 @@
         "tags": {
           "0": "Produkt",
           "1": "Packshot"
+        }
+      },
+      "anabomfim-product-p1": {
+        "title": "Perfume Product Film",
+        "description": "Cinematic 3D perfume animation with studio lighting, liquid sim, and premium packshot finish.",
+        "tags": {
+          "0": "Product",
+          "1": "Fragrance"
+        }
+      },
+      "valentino-product-p1": {
+        "title": "Perfume Render",
+        "description": "Hero studio render with soft lighting and premium glass material finish.",
+        "tags": {
+          "0": "Render",
+          "1": "Packshot"
+        }
+      },
+      "valentino-product-p2": {
+        "title": "Perfume Render",
+        "description": "Alternate angle showcasing bottle silhouette and label detail.",
+        "tags": {
+          "0": "Render",
+          "1": "Product"
+        }
+      },
+      "valentino-product-p3": {
+        "title": "Perfume Render",
+        "description": "Close-up product render with refined reflections and color grade.",
+        "tags": {
+          "0": "Render",
+          "1": "Beauty"
+        }
+      },
+      "valentino-product-p4": {
+        "title": "Perfume Render",
+        "description": "Final packshot frame for campaign and retail placements.",
+        "tags": {
+          "0": "Render",
+          "1": "Campaign"
+        }
+      },
+      "valentino-product-p5": {
+        "title": "Perfume Product Film",
+        "description": "Cinematic 3D perfume animation with fluid dynamics and luxury brand presentation.",
+        "tags": {
+          "0": "Film",
+          "1": "Fragrance"
         }
       },
       "mirrorskin-vfx-p1": {

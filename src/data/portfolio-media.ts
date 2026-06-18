@@ -10,3 +10,11 @@ export const industrialAnimationVideos = {
   cgi: "/portfolio/industrial-animation/cgi-animation-web.mp4",
   sample: "/portfolio/industrial-animation/sample-2-web.mp4",
 } as const;
+
+export const anabomfimVideos = {
+  perfume: "/portfolio/anabomfim/perfume-web.mp4",
+} as const;
+
+export const valentinoVideos = {
+  perfume: "/portfolio/valentino/perfume-web.mp4",
+} as const;

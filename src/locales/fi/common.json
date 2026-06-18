@@ -423,22 +423,22 @@
         "description": "Tuote-, hahmo- ja ympäristöanimaatio elokuvamaisella valaistuksella, fysiikalla ja ensiluokkaisella viimeistelyllä."
       },
       "motion-graphics": {
-        "title": "Peliympäristö",
+        "title": "Game Environment",
         "tagline": "Mukaansatempaavia maailmoja ja pelattavia tiloja liikkeessä",
         "description": "Suunnitteluvetoiset liikejärjestelmät lanseerauksille, kojelaudoille ja brändimaailmoille, jotka skaalautuvat eri kanaviin."
       },
       "video-editing": {
-        "title": "Tuoteanimaatio",
+        "title": "Product Animation",
         "tagline": "Valokuvallisia tuotefilmejä ja elokuvamaisia ​​paketteja",
         "description": "Toimituksellinen viimeistely, rytmi ja tarinan rakenne mainoksille, dokumenteille ja brändielokuville."
       },
       "vfx": {
-        "title": "VFX",
+        "title": "Visuaaliset efektit (VFX)",
         "tagline": "Kompositio, FX ja elokuvamainen viimeistely",
         "description": "Visuaaliset tehosteet trailereihin, tuoteelokuviin ja merkkisisältöön – siivouksista täydelliseen CG-integraatioon."
       },
       "branding": {
-        "title": "Teollinen animaatio",
+        "title": "Industrial Animation",
         "tagline": "Tuotteiden ja valmistuksen tekninen tarinankerronta",
         "description": "Brändielokuvat, identiteettiliikkeet ja julkaisumateriaalit, jotka määrittelevät, kuinka yleisö muistaa nimesi."
       }
@@ -453,20 +453,20 @@
         "title": "3D-animaatio"
       },
       "motion-graphics": {
-        "tag": "Peliympäristö",
-        "title": "Peliympäristö"
+        "tag": "Game Environment",
+        "title": "Game Environment"
       },
       "video-editing": {
-        "tag": "Tuoteanimaatio",
-        "title": "Tuoteanimaatio"
+        "tag": "3D",
+        "title": "Product Animation"
       },
       "vfx": {
-        "tag": "VFX",
-        "title": "VFX"
+        "tag": "Visuaaliset efektit (VFX)",
+        "title": "Visuaaliset efektit (VFX)"
       },
       "branding": {
-        "tag": "Teollinen animaatio",
-        "title": "Teollinen animaatio"
+        "tag": "3D",
+        "title": "Industrial Animation"
       }
     },
     "clients": {
@@ -643,6 +643,38 @@
           "tools": {
             "0": "Elokuva 4D",
             "1": "Punasiirtymä",
+            "2": "After Effects"
+          }
+        },
+        "anabomfim": {
+          "name": "Anabomfim",
+          "industry": "Beauty & Fragrance",
+          "description": "Photoreal 3D product animation for luxury fragrance launches and campaign hero films.",
+          "timeline": "2025",
+          "services": {
+            "0": "3D Product Animation",
+            "1": "Packshot Films",
+            "2": "Beauty CGI"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Redshift",
+            "2": "After Effects"
+          }
+        },
+        "valentino": {
+          "name": "Valentino",
+          "industry": "Luxury Beauty & Fragrance",
+          "description": "High-end 3D perfume visualization and cinematic product films for luxury fragrance campaigns.",
+          "timeline": "2025",
+          "services": {
+            "0": "3D Product Animation",
+            "1": "Luxury Packshots",
+            "2": "Beauty CGI"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Redshift",
             "2": "After Effects"
           }
         }
@@ -839,6 +871,54 @@
         "tags": {
           "0": "Tuote",
           "1": "Packshot"
+        }
+      },
+      "anabomfim-product-p1": {
+        "title": "Perfume Product Film",
+        "description": "Cinematic 3D perfume animation with studio lighting, liquid sim, and premium packshot finish.",
+        "tags": {
+          "0": "Product",
+          "1": "Fragrance"
+        }
+      },
+      "valentino-product-p1": {
+        "title": "Perfume Render",
+        "description": "Hero studio render with soft lighting and premium glass material finish.",
+        "tags": {
+          "0": "Render",
+          "1": "Packshot"
+        }
+      },
+      "valentino-product-p2": {
+        "title": "Perfume Render",
+        "description": "Alternate angle showcasing bottle silhouette and label detail.",
+        "tags": {
+          "0": "Render",
+          "1": "Product"
+        }
+      },
+      "valentino-product-p3": {
+        "title": "Perfume Render",
+        "description": "Close-up product render with refined reflections and color grade.",
+        "tags": {
+          "0": "Render",
+          "1": "Beauty"
+        }
+      },
+      "valentino-product-p4": {
+        "title": "Perfume Render",
+        "description": "Final packshot frame for campaign and retail placements.",
+        "tags": {
+          "0": "Render",
+          "1": "Campaign"
+        }
+      },
+      "valentino-product-p5": {
+        "title": "Perfume Product Film",
+        "description": "Cinematic 3D perfume animation with fluid dynamics and luxury brand presentation.",
+        "tags": {
+          "0": "Film",
+          "1": "Fragrance"
         }
       },
       "mirrorskin-vfx-p1": {

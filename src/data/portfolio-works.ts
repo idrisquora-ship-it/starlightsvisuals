@@ -1,7 +1,7 @@
 import type { WorkCategory, WorkClient, WorkProject } from "@/types/portfolio-works";
 
 import { brandLogos } from "@/data/brand-logos";
-import { ijockeyVideos, industrialAnimationVideos } from "@/data/portfolio-media";
+import { anabomfimVideos, ijockeyVideos, industrialAnimationVideos, valentinoVideos } from "@/data/portfolio-media";
 
 /** Placeholder client logos from the brand marquee set. */
 const brandLogo = (index: number) => brandLogos[index % brandLogos.length]!.src;
@@ -17,6 +17,13 @@ import ijockeyFinalProduct2 from "@/assets/Ijockey portfolio folder/Final Produc
 
 import caterpillarBanner from "@/assets/Caterpillar animation portfolio/industrial animation.jpg";
 import caterpillarKeyVisual from "@/assets/Caterpillar animation portfolio/create-realistic-3d-product-animation-industrial-animation-cgi-animation.png";
+
+import anabomfimPerfume from "@/assets/Anabomfim project/ana-bomfim-perfume.jpg";
+
+import valentinoRender1 from "@/assets/Valentino Project/Valentino perfume render1.jpg";
+import valentinoRender2 from "@/assets/Valentino Project/Valentino perfume render2.jpg";
+import valentinoRender3 from "@/assets/Valentino Project/Valentino perfume render 3.jpg";
+import valentinoRender4 from "@/assets/Valentino Project/Valentino perfume render 4.jpg";
 
 import portfolio2d from "@/assets/portfolio-2d.jpg";
 import portfolioCharacter from "@/assets/portfolio-character.jpg";
@@ -480,6 +487,100 @@ export const workCategories: WorkCategory[] = [
           ],
         },
         "snax-product",
+      ),
+      client(
+        {
+          slug: "anabomfim",
+          name: "Anabomfim",
+          industry: "Beauty & Fragrance",
+          description:
+            "Photoreal 3D product animation for luxury fragrance launches and campaign hero films.",
+          projectCount: 1,
+          logo: anabomfimPerfume,
+          banner: anabomfimPerfume,
+          services: ["3D Product Animation", "Packshot Films", "Beauty CGI"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Redshift", "After Effects"],
+          projects: [
+            {
+              title: "Perfume Product Film",
+              description:
+                "Cinematic 3D perfume animation with studio lighting, liquid sim, and premium packshot finish.",
+              thumbnail: anabomfimPerfume,
+              mediaType: "video",
+              mediaSrc: anabomfimVideos.perfume,
+              tags: ["Product", "Fragrance"],
+              year: 2025,
+            },
+          ],
+        },
+        "anabomfim-product",
+        { skipPad: true },
+      ),
+      client(
+        {
+          slug: "valentino",
+          name: "Valentino",
+          industry: "Luxury Beauty & Fragrance",
+          description:
+            "High-end 3D perfume visualization and cinematic product films for luxury fragrance campaigns.",
+          projectCount: 5,
+          logo: valentinoRender1,
+          banner: valentinoRender2,
+          services: ["3D Product Animation", "Luxury Packshots", "Beauty CGI"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Redshift", "After Effects"],
+          projects: [
+            {
+              title: "Perfume Render",
+              description: "Hero studio render with soft lighting and premium glass material finish.",
+              thumbnail: valentinoRender1,
+              mediaType: "image",
+              mediaSrc: valentinoRender1,
+              tags: ["Render", "Packshot"],
+              year: 2025,
+            },
+            {
+              title: "Perfume Render",
+              description: "Alternate angle showcasing bottle silhouette and label detail.",
+              thumbnail: valentinoRender2,
+              mediaType: "image",
+              mediaSrc: valentinoRender2,
+              tags: ["Render", "Product"],
+              year: 2025,
+            },
+            {
+              title: "Perfume Render",
+              description: "Close-up product render with refined reflections and color grade.",
+              thumbnail: valentinoRender3,
+              mediaType: "image",
+              mediaSrc: valentinoRender3,
+              tags: ["Render", "Beauty"],
+              year: 2025,
+            },
+            {
+              title: "Perfume Render",
+              description: "Final packshot frame for campaign and retail placements.",
+              thumbnail: valentinoRender4,
+              mediaType: "image",
+              mediaSrc: valentinoRender4,
+              tags: ["Render", "Campaign"],
+              year: 2025,
+            },
+            {
+              title: "Perfume Product Film",
+              description:
+                "Cinematic 3D perfume animation with fluid dynamics and luxury brand presentation.",
+              thumbnail: valentinoRender1,
+              mediaType: "video",
+              mediaSrc: valentinoVideos.perfume,
+              tags: ["Film", "Fragrance"],
+              year: 2025,
+            },
+          ],
+        },
+        "valentino-product",
+        { skipPad: true },
       ),
     ],
   },
