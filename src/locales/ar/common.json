@@ -515,6 +515,22 @@
             "0": "بعد التأثيرات",
             "1": "تون بوم"
           }
+        },
+        "2d-cartoon-animation": {
+          "name": "2D Cartoon Animation",
+          "industry": "Children & Education",
+          "description": "Custom 2D character animation and cartoon films for kids learning content, explainers, and branded storytelling.",
+          "timeline": "2025",
+          "services": {
+            "0": "2D Character Animation",
+            "1": "Kids Learning",
+            "2": "Cartoon Films"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Toon Boom",
+            "2": "Illustrator"
+          }
         }
       },
       "3d-animation": {
@@ -604,48 +620,6 @@
         }
       },
       "video-editing": {
-        "nutrition": {
-          "name": "تَغذِيَة",
-          "industry": "الصحة واللياقة البدنية",
-          "description": "تعديلات عالية الاحتفاظ على YouTube، والتعاون الاجتماعي المدفوع، والمؤثرين.",
-          "timeline": "2022 — 2025",
-          "services": {
-            "0": "التحرير التجاري",
-            "1": "التخفيضات الاجتماعية"
-          },
-          "tools": {
-            "0": "بريميير برو",
-            "1": "حل دافينشي"
-          }
-        },
-        "saltyface": {
-          "name": "وجه مالح",
-          "industry": "جمال",
-          "description": "تعديلات تحريرية للجمال مع انتقالات سلسة واتساق الصف.",
-          "timeline": "2023 - 2024",
-          "services": {
-            "0": "افتتاحية",
-            "1": "لون"
-          },
-          "tools": {
-            "0": "حل دافينشي"
-          }
-        },
-        "snax": {
-          "name": "سناكس",
-          "industry": "الأطعمة والمشروبات",
-          "description": "الرسوم المتحركة ثلاثية الأبعاد للمنتج للحزم والبقع وأفلام البيع بالتجزئة للأبطال.",
-          "timeline": "2022 — 2025",
-          "services": {
-            "0": "الرسوم المتحركة ثلاثية الأبعاد للمنتج",
-            "1": "أفلام الحزمة"
-          },
-          "tools": {
-            "0": "سينما 4 دي",
-            "1": "الانزياح الأحمر",
-            "2": "بعد التأثيرات"
-          }
-        },
         "anabomfim": {
           "name": "Anabomfim",
           "industry": "Beauty & Fragrance",
@@ -828,6 +802,22 @@
           "1": "مسلسل"
         }
       },
+      "2d-cartoon-animation-p1": {
+        "title": "Number Names Learning Video",
+        "description": "Educational 2D cartoon animation teaching number names with playful characters and clear pacing.",
+        "tags": {
+          "0": "Education",
+          "1": "Character"
+        }
+      },
+      "2d-cartoon-animation-p2": {
+        "title": "Custom Cartoon Animation",
+        "description": "Bespoke 2D character animation with expressive acting, bold color, and campaign-ready motion.",
+        "tags": {
+          "0": "Cartoon",
+          "1": "Character"
+        }
+      },
       "depology-3d-p1": {
         "title": "فيلم سيروم هيرو",
         "description": "قرص دوار للمنتج الصوري مع شريحة سائلة وعدسة ماكرو.",
@@ -880,30 +870,6 @@
         "tags": {
           "0": "بيئة",
           "1": "يطلق"
-        }
-      },
-      "nutrition-edit-p1": {
-        "title": "مونتاج الحملة",
-        "description": "تحرير أداء سريع مع تصميم الصوت وتلميع الألوان.",
-        "tags": {
-          "0": "يحرر",
-          "1": "اجتماعي"
-        }
-      },
-      "saltyface-edit-p1": {
-        "title": "فيلم التحرير",
-        "description": "فيلم من الستينيات تم تجميعه من لقطات إنتاجية متعددة الأيام.",
-        "tags": {
-          "0": "جمال",
-          "1": "فيلم"
-        }
-      },
-      "snax-product-p1": {
-        "title": "بطل الحزمة",
-        "description": "تدور المنتجات الفوتوغرافية الحقيقية باستخدام الشريحة السائلة وإضاءة الاستوديو.",
-        "tags": {
-          "0": "منتج",
-          "1": "حزمة"
         }
       },
       "anabomfim-product-p1": {

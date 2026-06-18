@@ -515,6 +515,22 @@
             "0": "After Effects",
             "1": "Toon Boom"
           }
+        },
+        "2d-cartoon-animation": {
+          "name": "2D Cartoon Animation",
+          "industry": "Children & Education",
+          "description": "Custom 2D character animation and cartoon films for kids learning content, explainers, and branded storytelling.",
+          "timeline": "2025",
+          "services": {
+            "0": "2D Character Animation",
+            "1": "Kids Learning",
+            "2": "Cartoon Films"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Toon Boom",
+            "2": "Illustrator"
+          }
         }
       },
       "3d-animation": {
@@ -604,48 +620,6 @@
         }
       },
       "video-editing": {
-        "nutrition": {
-          "name": "Nutrition",
-          "industry": "Sundhed & Fitness",
-          "description": "Redigeringer med høj fastholdelse for YouTube, betalte sociale og influencer-samarbejder.",
-          "timeline": "2022 - 2025",
-          "services": {
-            "0": "Kommerciel redigering",
-            "1": "Sociale nedskæringer"
-          },
-          "tools": {
-            "0": "Premiere Pro",
-            "1": "DaVinci Resolve"
-          }
-        },
-        "saltyface": {
-          "name": "Saltyface",
-          "industry": "Skønhed",
-          "description": "Skønhedsredaktionelle redigeringer med sømløse overgange og karakterkonsistens.",
-          "timeline": "2023 - 2024",
-          "services": {
-            "0": "Redaktionel",
-            "1": "Farve"
-          },
-          "tools": {
-            "0": "DaVinci Resolve"
-          }
-        },
-        "snax": {
-          "name": "Snax",
-          "industry": "Mad & drikke",
-          "description": "3D-produktanimation til packshots, stænk og helte-detailfilm.",
-          "timeline": "2022 - 2025",
-          "services": {
-            "0": "3D produktanimation",
-            "1": "Packshot film"
-          },
-          "tools": {
-            "0": "Cinema 4D",
-            "1": "Rødforskydning",
-            "2": "After Effects"
-          }
-        },
         "anabomfim": {
           "name": "Anabomfim",
           "industry": "Beauty & Fragrance",
@@ -828,6 +802,22 @@
           "1": "Serie"
         }
       },
+      "2d-cartoon-animation-p1": {
+        "title": "Number Names Learning Video",
+        "description": "Educational 2D cartoon animation teaching number names with playful characters and clear pacing.",
+        "tags": {
+          "0": "Education",
+          "1": "Character"
+        }
+      },
+      "2d-cartoon-animation-p2": {
+        "title": "Custom Cartoon Animation",
+        "description": "Bespoke 2D character animation with expressive acting, bold color, and campaign-ready motion.",
+        "tags": {
+          "0": "Cartoon",
+          "1": "Character"
+        }
+      },
       "depology-3d-p1": {
         "title": "Serum Hero Film",
         "description": "Fotorealistisk produktpladespiller med flydende sim- og makroobjektiv.",
@@ -880,30 +870,6 @@
         "tags": {
           "0": "Miljø",
           "1": "Lancering"
-        }
-      },
-      "nutrition-edit-p1": {
-        "title": "Kampagnemontage",
-        "description": "Hurtigt skåret ydeevneredigering med lyddesign og farvepolering.",
-        "tags": {
-          "0": "Redigere",
-          "1": "Social"
-        }
-      },
-      "saltyface-edit-p1": {
-        "title": "Redaktionel film",
-        "description": "60'er-mærkefilm samlet af flerdages produktionsoptagelser.",
-        "tags": {
-          "0": "Skønhed",
-          "1": "Film"
-        }
-      },
-      "snax-product-p1": {
-        "title": "Packshot Hero",
-        "description": "Fotorealistisk produktspin med flydende sim og studiebelysning.",
-        "tags": {
-          "0": "Produkt",
-          "1": "Packshot"
         }
       },
       "anabomfim-product-p1": {

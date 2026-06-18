@@ -515,6 +515,22 @@
             "0": "Setelah Efek",
             "1": "Booming Toon"
           }
+        },
+        "2d-cartoon-animation": {
+          "name": "2D Cartoon Animation",
+          "industry": "Children & Education",
+          "description": "Custom 2D character animation and cartoon films for kids learning content, explainers, and branded storytelling.",
+          "timeline": "2025",
+          "services": {
+            "0": "2D Character Animation",
+            "1": "Kids Learning",
+            "2": "Cartoon Films"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Toon Boom",
+            "2": "Illustrator"
+          }
         }
       },
       "3d-animation": {
@@ -604,48 +620,6 @@
         }
       },
       "video-editing": {
-        "nutrition": {
-          "name": "Nutrition",
-          "industry": "Kesehatan & Kebugaran",
-          "description": "Pengeditan dengan retensi tinggi untuk YouTube, media sosial berbayar, dan kolaborasi influencer.",
-          "timeline": "2022—2025",
-          "services": {
-            "0": "Sunting Komersial",
-            "1": "Pemotongan Sosial"
-          },
-          "tools": {
-            "0": "Premier Pro",
-            "1": "Tekad DaVinci"
-          }
-        },
-        "saltyface": {
-          "name": "Saltyface",
-          "industry": "Kecantikan",
-          "description": "Pengeditan editorial kecantikan dengan transisi mulus dan konsistensi tingkat.",
-          "timeline": "2023—2024",
-          "services": {
-            "0": "Tajuk rencana",
-            "1": "Warna"
-          },
-          "tools": {
-            "0": "Tekad DaVinci"
-          }
-        },
-        "snax": {
-          "name": "Snax",
-          "industry": "Makanan & Minuman",
-          "description": "Animasi produk 3D untuk packshot, splash, dan film retail pahlawan.",
-          "timeline": "2022—2025",
-          "services": {
-            "0": "Animasi Produk 3D",
-            "1": "Film Paket"
-          },
-          "tools": {
-            "0": "Bioskop 4D",
-            "1": "Pergeseran merah",
-            "2": "Setelah Efek"
-          }
-        },
         "anabomfim": {
           "name": "Anabomfim",
           "industry": "Beauty & Fragrance",
@@ -828,6 +802,22 @@
           "1": "Seri"
         }
       },
+      "2d-cartoon-animation-p1": {
+        "title": "Number Names Learning Video",
+        "description": "Educational 2D cartoon animation teaching number names with playful characters and clear pacing.",
+        "tags": {
+          "0": "Education",
+          "1": "Character"
+        }
+      },
+      "2d-cartoon-animation-p2": {
+        "title": "Custom Cartoon Animation",
+        "description": "Bespoke 2D character animation with expressive acting, bold color, and campaign-ready motion.",
+        "tags": {
+          "0": "Cartoon",
+          "1": "Character"
+        }
+      },
       "depology-3d-p1": {
         "title": "Film Pahlawan Serum",
         "description": "Meja putar produk fotoreal dengan sim cair dan lensa makro.",
@@ -880,30 +870,6 @@
         "tags": {
           "0": "Lingkungan",
           "1": "Meluncurkan"
-        }
-      },
-      "nutrition-edit-p1": {
-        "title": "Montase Kampanye",
-        "description": "Pengeditan performa cepat dengan desain suara dan polesan warna.",
-        "tags": {
-          "0": "Sunting",
-          "1": "Sosial"
-        }
-      },
-      "saltyface-edit-p1": {
-        "title": "Film Editorial",
-        "description": "Film merek tahun 60an yang dirangkai dari rekaman produksi beberapa hari.",
-        "tags": {
-          "0": "Kecantikan",
-          "1": "Film"
-        }
-      },
-      "snax-product-p1": {
-        "title": "Pahlawan Paket",
-        "description": "Putaran produk fotoreal dengan sim cair dan pencahayaan studio.",
-        "tags": {
-          "0": "Produk",
-          "1": "paket"
         }
       },
       "anabomfim-product-p1": {

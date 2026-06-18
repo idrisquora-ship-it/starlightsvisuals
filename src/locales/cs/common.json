@@ -515,6 +515,22 @@
             "0": "After Effects",
             "1": "Toon Boom"
           }
+        },
+        "2d-cartoon-animation": {
+          "name": "2D Cartoon Animation",
+          "industry": "Children & Education",
+          "description": "Custom 2D character animation and cartoon films for kids learning content, explainers, and branded storytelling.",
+          "timeline": "2025",
+          "services": {
+            "0": "2D Character Animation",
+            "1": "Kids Learning",
+            "2": "Cartoon Films"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Toon Boom",
+            "2": "Illustrator"
+          }
         }
       },
       "3d-animation": {
@@ -604,48 +620,6 @@
         }
       },
       "video-editing": {
-        "nutrition": {
-          "name": "Výživa",
-          "industry": "Zdraví a fitness",
-          "description": "Úpravy s vysokým uchováním pro YouTube, placené sociální sítě a spolupráci s influencery.",
-          "timeline": "2022 – 2025",
-          "services": {
-            "0": "Komerční úprava",
-            "1": "Sociální omezení"
-          },
-          "tools": {
-            "0": "Premiere Pro",
-            "1": "DaVinci Resolve"
-          }
-        },
-        "saltyface": {
-          "name": "Slaný obličej",
-          "industry": "Krása",
-          "description": "Krása redakční úpravy s plynulými přechody a konzistence hodnocení.",
-          "timeline": "2023 – 2024",
-          "services": {
-            "0": "Redakční",
-            "1": "Barva"
-          },
-          "tools": {
-            "0": "DaVinci Resolve"
-          }
-        },
-        "snax": {
-          "name": "Snax",
-          "industry": "Jídlo & Nápoje",
-          "description": "3D animace produktu pro packshoty, šplouchání a hrdinské maloobchodní filmy.",
-          "timeline": "2022 – 2025",
-          "services": {
-            "0": "3D animace produktu",
-            "1": "Packshot filmy"
-          },
-          "tools": {
-            "0": "Kino 4D",
-            "1": "Červený posuv",
-            "2": "After Effects"
-          }
-        },
         "anabomfim": {
           "name": "Anabomfim",
           "industry": "Beauty & Fragrance",
@@ -828,6 +802,22 @@
           "1": "Série"
         }
       },
+      "2d-cartoon-animation-p1": {
+        "title": "Number Names Learning Video",
+        "description": "Educational 2D cartoon animation teaching number names with playful characters and clear pacing.",
+        "tags": {
+          "0": "Education",
+          "1": "Character"
+        }
+      },
+      "2d-cartoon-animation-p2": {
+        "title": "Custom Cartoon Animation",
+        "description": "Bespoke 2D character animation with expressive acting, bold color, and campaign-ready motion.",
+        "tags": {
+          "0": "Cartoon",
+          "1": "Character"
+        }
+      },
       "depology-3d-p1": {
         "title": "Sérum Hero Film",
         "description": "Fotorealistický gramofon s fluidní sim a makro čočkou.",
@@ -880,30 +870,6 @@
         "tags": {
           "0": "Prostředí",
           "1": "Zahájit"
-        }
-      },
-      "nutrition-edit-p1": {
-        "title": "Montáž kampaně",
-        "description": "Rychlá úprava výkonu se zvukovým designem a barevným leskem.",
-        "tags": {
-          "0": "Upravit",
-          "1": "Sociální"
-        }
-      },
-      "saltyface-edit-p1": {
-        "title": "Redakční film",
-        "description": "Značkový film 60. let sestavený z vícedenních produkčních záběrů.",
-        "tags": {
-          "0": "Krása",
-          "1": "Film"
-        }
-      },
-      "snax-product-p1": {
-        "title": "Hrdina Packshot",
-        "description": "Photoreal product spin s tekutým sim a studiovým osvětlením.",
-        "tags": {
-          "0": "Produkt",
-          "1": "Packshot"
         }
       },
       "anabomfim-product-p1": {

@@ -1,7 +1,7 @@
 import type { WorkCategory, WorkClient, WorkProject } from "@/types/portfolio-works";
 
 import { brandLogos } from "@/data/brand-logos";
-import { anabomfimVideos, ijockeyVideos, industrialAnimationVideos, lemonadeJuiceVideos, valentinoVideos, watchDesignVideos } from "@/data/portfolio-media";
+import { anabomfimVideos, cartoon2dPosters, cartoon2dVideos, ijockeyVideos, industrialAnimationVideos, lemonadeJuiceVideos, valentinoVideos, watchDesignVideos } from "@/data/portfolio-media";
 
 /** Placeholder client logos from the brand marquee set. */
 const brandLogo = (index: number) => brandLogos[index % brandLogos.length]!.src;
@@ -223,6 +223,45 @@ export const workCategories: WorkCategory[] = [
         },
         "itsy-2d",
       ),
+      client(
+        {
+          slug: "2d-cartoon-animation",
+          name: "2D Cartoon Animation",
+          industry: "Children & Education",
+          description:
+            "Custom 2D character animation and cartoon films for kids learning content, explainers, and branded storytelling.",
+          projectCount: 2,
+          logo: cartoon2dPosters.cartoon,
+          banner: cartoon2dPosters.numberNames,
+          services: ["2D Character Animation", "Kids Learning", "Cartoon Films"],
+          timeline: "2025",
+          tools: ["After Effects", "Toon Boom", "Illustrator"],
+          projects: [
+            {
+              title: "Number Names Learning Video",
+              description:
+                "Educational 2D cartoon animation teaching number names with playful characters and clear pacing.",
+              thumbnail: cartoon2dPosters.numberNames,
+              mediaType: "video",
+              mediaSrc: cartoon2dVideos.numberNames,
+              tags: ["Education", "Character"],
+              year: 2025,
+            },
+            {
+              title: "Custom Cartoon Animation",
+              description:
+                "Bespoke 2D character animation with expressive acting, bold color, and campaign-ready motion.",
+              thumbnail: cartoon2dPosters.cartoon,
+              mediaType: "video",
+              mediaSrc: cartoon2dVideos.cartoon,
+              tags: ["Cartoon", "Character"],
+              year: 2025,
+            },
+          ],
+        },
+        "2d-cartoon-animation",
+        { skipPad: true },
+      ),
     ],
   },
   {
@@ -419,84 +458,6 @@ export const workCategories: WorkCategory[] = [
       "Editorial finishing, rhythm, and story structure for commercials, documentaries, and brand films.",
     coverImage: portfolioTrailer,
     clients: [
-      client(
-        {
-          slug: "nutrition",
-          name: "Nutrition",
-          industry: "Health & Fitness",
-          description: "High-retention edits for YouTube, paid social, and influencer collaborations.",
-          projectCount: 9,
-          logo: brandLogo(9),
-          banner: portfolioTrailer,
-          services: ["Commercial Edit", "Social Cutdowns"],
-          timeline: "2022 — 2025",
-          tools: ["Premiere Pro", "DaVinci Resolve"],
-          projects: [
-            {
-              title: "Campaign Montage",
-              description: "Fast-cut performance edit with sound design and color polish.",
-              thumbnail: portfolioTrailer,
-              mediaType: "image",
-              mediaSrc: portfolioTrailer,
-              tags: ["Edit", "Social"],
-              year: 2025,
-            },
-          ],
-        },
-        "nutrition-edit",
-      ),
-      client(
-        {
-          slug: "saltyface",
-          name: "Saltyface",
-          industry: "Beauty",
-          description: "Beauty editorial edits with seamless transitions and grade consistency.",
-          projectCount: 5,
-          logo: brandLogo(10),
-          banner: portfolioCharacter,
-          services: ["Editorial", "Color"],
-          timeline: "2023 — 2024",
-          tools: ["DaVinci Resolve"],
-          projects: [
-            {
-              title: "Editorial Film",
-              description: "60s brand film assembled from multi-day production footage.",
-              thumbnail: portfolioCharacter,
-              mediaType: "image",
-              mediaSrc: portfolioCharacter,
-              tags: ["Beauty", "Film"],
-              year: 2024,
-            },
-          ],
-        },
-        "saltyface-edit",
-      ),
-      client(
-        {
-          slug: "snax",
-          name: "Snax",
-          industry: "Food & Beverage",
-          description: "3D product animation for packshots, splashes, and hero retail films.",
-          projectCount: 5,
-          logo: brandLogo(0),
-          banner: portfolioTrailer,
-          services: ["3D Product Animation", "Packshot Films"],
-          timeline: "2022 — 2025",
-          tools: ["Cinema 4D", "Redshift", "After Effects"],
-          projects: [
-            {
-              title: "Packshot Hero",
-              description: "Photoreal product spin with liquid sim and studio lighting.",
-              thumbnail: portfolioTrailer,
-              mediaType: "image",
-              mediaSrc: portfolioTrailer,
-              tags: ["Product", "Packshot"],
-              year: 2025,
-            },
-          ],
-        },
-        "snax-product",
-      ),
       client(
         {
           slug: "anabomfim",

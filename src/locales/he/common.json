@@ -515,6 +515,22 @@
             "0": "אפטר אפקטס",
             "1": "טון בום"
           }
+        },
+        "2d-cartoon-animation": {
+          "name": "2D Cartoon Animation",
+          "industry": "Children & Education",
+          "description": "Custom 2D character animation and cartoon films for kids learning content, explainers, and branded storytelling.",
+          "timeline": "2025",
+          "services": {
+            "0": "2D Character Animation",
+            "1": "Kids Learning",
+            "2": "Cartoon Films"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Toon Boom",
+            "2": "Illustrator"
+          }
         }
       },
       "3d-animation": {
@@ -604,48 +620,6 @@
         }
       },
       "video-editing": {
-        "nutrition": {
-          "name": "Nutrition",
-          "industry": "בריאות וכושר",
-          "description": "עריכות בשמירה גבוהה עבור YouTube, שיתופי פעולה חברתיים בתשלום ושיתופי פעולה עם משפיעים.",
-          "timeline": "2022 - 2025",
-          "services": {
-            "0": "עריכה מסחרית",
-            "1": "קיצוצים חברתיים"
-          },
-          "tools": {
-            "0": "Premiere Pro",
-            "1": "DaVinci Resolve"
-          }
-        },
-        "saltyface": {
-          "name": "Saltyface",
-          "industry": "יוֹפִי",
-          "description": "עריכות עריכה של יופי עם מעברים חלקים ועקביות ציונים.",
-          "timeline": "2023 - 2024",
-          "services": {
-            "0": "מאמר מערכת",
-            "1": "צֶבַע"
-          },
-          "tools": {
-            "0": "DaVinci Resolve"
-          }
-        },
-        "snax": {
-          "name": "Snax",
-          "industry": "מזון ומשקאות",
-          "description": "אנימציית מוצר תלת מימדית לצילומי חבילה, שפריצים וסרטי גיבורים קמעונאיים.",
-          "timeline": "2022 - 2025",
-          "services": {
-            "0": "אנימציית מוצר תלת מימדית",
-            "1": "סרטי Packshot"
-          },
-          "tools": {
-            "0": "קולנוע 4D",
-            "1": "הסטה לאדום",
-            "2": "אפטר אפקטס"
-          }
-        },
         "anabomfim": {
           "name": "Anabomfim",
           "industry": "Beauty & Fragrance",
@@ -828,6 +802,22 @@
           "1": "סִדרָה"
         }
       },
+      "2d-cartoon-animation-p1": {
+        "title": "Number Names Learning Video",
+        "description": "Educational 2D cartoon animation teaching number names with playful characters and clear pacing.",
+        "tags": {
+          "0": "Education",
+          "1": "Character"
+        }
+      },
+      "2d-cartoon-animation-p2": {
+        "title": "Custom Cartoon Animation",
+        "description": "Bespoke 2D character animation with expressive acting, bold color, and campaign-ready motion.",
+        "tags": {
+          "0": "Cartoon",
+          "1": "Character"
+        }
+      },
       "depology-3d-p1": {
         "title": "סרט גיבורי סרום",
         "description": "פטיפון מוצר Photoreal עם עדשת סים נוזלית ועדשת מאקרו.",
@@ -880,30 +870,6 @@
         "tags": {
           "0": "סְבִיבָה",
           "1": "לְהַשִׁיק"
-        }
-      },
-      "nutrition-edit-p1": {
-        "title": "התקנת מסע פרסום",
-        "description": "עריכת ביצועים בחיתוך מהיר עם עיצוב סאונד וליטוש צבעוני.",
-        "tags": {
-          "0": "לַעֲרוֹך",
-          "1": "חֶברָתִי"
-        }
-      },
-      "saltyface-edit-p1": {
-        "title": "סרט עריכה",
-        "description": "סרט מותג משנות ה-60 שהורכב מצילומי הפקה מרובי ימים.",
-        "tags": {
-          "0": "יוֹפִי",
-          "1": "סֶרֶט"
-        }
-      },
-      "snax-product-p1": {
-        "title": "Packshot Hero",
-        "description": "ספין מוצר פוטוריאל עם סים נוזלי ותאורת סטודיו.",
-        "tags": {
-          "0": "מוּצָר",
-          "1": "Packshot"
         }
       },
       "anabomfim-product-p1": {

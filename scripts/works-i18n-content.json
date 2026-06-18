@@ -103,6 +103,22 @@
           "0": "After Effects",
           "1": "Toon Boom"
         }
+      },
+      "2d-cartoon-animation": {
+        "name": "2D Cartoon Animation",
+        "industry": "Children & Education",
+        "description": "Custom 2D character animation and cartoon films for kids learning content, explainers, and branded storytelling.",
+        "timeline": "2025",
+        "services": {
+          "0": "2D Character Animation",
+          "1": "Kids Learning",
+          "2": "Cartoon Films"
+        },
+        "tools": {
+          "0": "After Effects",
+          "1": "Toon Boom",
+          "2": "Illustrator"
+        }
       }
     },
     "3d-animation": {
@@ -192,48 +208,6 @@
       }
     },
     "video-editing": {
-      "nutrition": {
-        "name": "Nutrition",
-        "industry": "Health & Fitness",
-        "description": "High-retention edits for YouTube, paid social, and influencer collaborations.",
-        "timeline": "2022 — 2025",
-        "services": {
-          "0": "Commercial Edit",
-          "1": "Social Cutdowns"
-        },
-        "tools": {
-          "0": "Premiere Pro",
-          "1": "DaVinci Resolve"
-        }
-      },
-      "saltyface": {
-        "name": "Saltyface",
-        "industry": "Beauty",
-        "description": "Beauty editorial edits with seamless transitions and grade consistency.",
-        "timeline": "2023 — 2024",
-        "services": {
-          "0": "Editorial",
-          "1": "Color"
-        },
-        "tools": {
-          "0": "DaVinci Resolve"
-        }
-      },
-      "snax": {
-        "name": "Snax",
-        "industry": "Food & Beverage",
-        "description": "3D product animation for packshots, splashes, and hero retail films.",
-        "timeline": "2022 — 2025",
-        "services": {
-          "0": "3D Product Animation",
-          "1": "Packshot Films"
-        },
-        "tools": {
-          "0": "Cinema 4D",
-          "1": "Redshift",
-          "2": "After Effects"
-        }
-      },
       "anabomfim": {
         "name": "Anabomfim",
         "industry": "Beauty & Fragrance",
@@ -416,6 +390,22 @@
         "1": "Series"
       }
     },
+    "2d-cartoon-animation-p1": {
+      "title": "Number Names Learning Video",
+      "description": "Educational 2D cartoon animation teaching number names with playful characters and clear pacing.",
+      "tags": {
+        "0": "Education",
+        "1": "Character"
+      }
+    },
+    "2d-cartoon-animation-p2": {
+      "title": "Custom Cartoon Animation",
+      "description": "Bespoke 2D character animation with expressive acting, bold color, and campaign-ready motion.",
+      "tags": {
+        "0": "Cartoon",
+        "1": "Character"
+      }
+    },
     "depology-3d-p1": {
       "title": "Serum Hero Film",
       "description": "Photoreal product turntable with fluid sim and macro lensing.",
@@ -468,30 +458,6 @@
       "tags": {
         "0": "Environment",
         "1": "Launch"
-      }
-    },
-    "nutrition-edit-p1": {
-      "title": "Campaign Montage",
-      "description": "Fast-cut performance edit with sound design and color polish.",
-      "tags": {
-        "0": "Edit",
-        "1": "Social"
-      }
-    },
-    "saltyface-edit-p1": {
-      "title": "Editorial Film",
-      "description": "60s brand film assembled from multi-day production footage.",
-      "tags": {
-        "0": "Beauty",
-        "1": "Film"
-      }
-    },
-    "snax-product-p1": {
-      "title": "Packshot Hero",
-      "description": "Photoreal product spin with liquid sim and studio lighting.",
-      "tags": {
-        "0": "Product",
-        "1": "Packshot"
       }
     },
     "anabomfim-product-p1": {

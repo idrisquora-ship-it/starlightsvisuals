@@ -515,6 +515,22 @@
             "0": "Después de los efectos",
             "1": "auge de dibujos animados"
           }
+        },
+        "2d-cartoon-animation": {
+          "name": "2D Cartoon Animation",
+          "industry": "Children & Education",
+          "description": "Custom 2D character animation and cartoon films for kids learning content, explainers, and branded storytelling.",
+          "timeline": "2025",
+          "services": {
+            "0": "2D Character Animation",
+            "1": "Kids Learning",
+            "2": "Cartoon Films"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Toon Boom",
+            "2": "Illustrator"
+          }
         }
       },
       "3d-animation": {
@@ -604,48 +620,6 @@
         }
       },
       "video-editing": {
-        "nutrition": {
-          "name": "Nutrition",
-          "industry": "Salud y fitness",
-          "description": "Ediciones de alta retención para YouTube, redes sociales pagas y colaboraciones de influencers.",
-          "timeline": "2022-2025",
-          "services": {
-            "0": "Edición comercial",
-            "1": "Reducciones sociales"
-          },
-          "tools": {
-            "0": "Estreno Pro",
-            "1": "DaVinci resolver"
-          }
-        },
-        "saltyface": {
-          "name": "Saltyface",
-          "industry": "Belleza",
-          "description": "Ediciones editoriales de belleza con transiciones fluidas y consistencia de calificaciones.",
-          "timeline": "2023-2024",
-          "services": {
-            "0": "Editorial",
-            "1": "Color"
-          },
-          "tools": {
-            "0": "DaVinci resolver"
-          }
-        },
-        "snax": {
-          "name": "Snax",
-          "industry": "Alimentos y bebidas",
-          "description": "Animación de productos en 3D para fotografías de paquetes, salpicaduras y películas de héroes minoristas.",
-          "timeline": "2022-2025",
-          "services": {
-            "0": "Animación de productos 3D",
-            "1": "Películas de paquete"
-          },
-          "tools": {
-            "0": "Cine 4D",
-            "1": "corrimiento al rojo",
-            "2": "Después de los efectos"
-          }
-        },
         "anabomfim": {
           "name": "Anabomfim",
           "industry": "Beauty & Fragrance",
@@ -828,6 +802,22 @@
           "1": "Serie"
         }
       },
+      "2d-cartoon-animation-p1": {
+        "title": "Number Names Learning Video",
+        "description": "Educational 2D cartoon animation teaching number names with playful characters and clear pacing.",
+        "tags": {
+          "0": "Education",
+          "1": "Character"
+        }
+      },
+      "2d-cartoon-animation-p2": {
+        "title": "Custom Cartoon Animation",
+        "description": "Bespoke 2D character animation with expressive acting, bold color, and campaign-ready motion.",
+        "tags": {
+          "0": "Cartoon",
+          "1": "Character"
+        }
+      },
       "depology-3d-p1": {
         "title": "Película del héroe del suero",
         "description": "Plataforma giratoria de producto fotorrealista con simulación de fluidos y lentes macro.",
@@ -880,30 +870,6 @@
         "tags": {
           "0": "Ambiente",
           "1": "Lanzamiento"
-        }
-      },
-      "nutrition-edit-p1": {
-        "title": "Montaje de campaña",
-        "description": "Edición de interpretación rápida con diseño de sonido y pulido de color.",
-        "tags": {
-          "0": "Editar",
-          "1": "Social"
-        }
-      },
-      "saltyface-edit-p1": {
-        "title": "Película editorial",
-        "description": "Película de los años 60 ensamblada a partir de material de producción de varios días.",
-        "tags": {
-          "0": "Belleza",
-          "1": "Película"
-        }
-      },
-      "snax-product-p1": {
-        "title": "Héroe del paquete",
-        "description": "Giro de producto fotorrealista con simulación líquida e iluminación de estudio.",
-        "tags": {
-          "0": "Producto",
-          "1": "Foto de paquete"
         }
       },
       "anabomfim-product-p1": {

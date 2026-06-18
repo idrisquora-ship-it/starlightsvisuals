@@ -26,3 +26,13 @@ export const watchDesignVideos = {
 export const lemonadeJuiceVideos = {
   product: "/portfolio/lemonade-juice/product-web.mp4",
 } as const;
+
+export const cartoon2dVideos = {
+  numberNames: "/portfolio/2d-cartoon-animation/number-names-web.mp4",
+  cartoon: "/portfolio/2d-cartoon-animation/cartoon-web.mp4",
+} as const;
+
+export const cartoon2dPosters = {
+  numberNames: "/portfolio/2d-cartoon-animation/poster-number-names.jpg",
+  cartoon: "/portfolio/2d-cartoon-animation/poster-cartoon.jpg",
+} as const;
