@@ -471,51 +471,6 @@
     },
     "clients": {
       "2d-animation": {
-        "raycon": {
-          "name": "Raycon",
-          "industry": "Electrónica de Consumo",
-          "description": "Historias de productos animadas y bucles de personajes para lanzamientos globales de campañas sociales y de héroes pagados.",
-          "testimonial": "El lenguaje de movimiento se sintió premium desde el primer fotograma del guión gráfico.",
-          "timeline": "2022 - Presente",
-          "services": {
-            "0": "Animación de personajes 2D",
-            "1": "Secuencias explicativas",
-            "2": "Reducciones sociales"
-          },
-          "tools": {
-            "0": "Después de los efectos",
-            "1": "auge de dibujos animados",
-            "2": "Photoshop"
-          }
-        },
-        "crossrope": {
-          "name": "Crossrope",
-          "industry": "Fitness y bienestar",
-          "description": "Movimiento 2D de alta energía para incorporación de aplicaciones y marketing de resultados.",
-          "timeline": "2023-2025",
-          "services": {
-            "0": "Gráficos en movimiento 2D",
-            "1": "Animación de la interfaz de usuario"
-          },
-          "tools": {
-            "0": "Después de los efectos",
-            "1": "ilustrador"
-          }
-        },
-        "itsy": {
-          "name": "Itsy",
-          "industry": "Niños y educación",
-          "description": "Divertida animación de personajes en 2D para historias de aplicaciones y contenido de aprendizaje.",
-          "timeline": "2023-2025",
-          "services": {
-            "0": "Animación de personajes 2D",
-            "1": "Guión gráfico"
-          },
-          "tools": {
-            "0": "Después de los efectos",
-            "1": "auge de dibujos animados"
-          }
-        },
         "2d-cartoon-animation": {
           "name": "2D Cartoon Animation",
           "industry": "Children & Education",
@@ -530,6 +485,22 @@
             "0": "After Effects",
             "1": "Toon Boom",
             "2": "Illustrator"
+          }
+        },
+        "2d-anime-animation": {
+          "name": "2D Anime Animation",
+          "industry": "Entertainment & Music",
+          "description": "High-quality 2D anime-style animation and music videos with expressive characters and cinematic motion.",
+          "timeline": "2025",
+          "services": {
+            "0": "2D Anime Animation",
+            "1": "Music Videos",
+            "2": "Character Animation"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Toon Boom",
+            "2": "Clip Studio Paint"
           }
         }
       },
@@ -818,38 +789,6 @@
       }
     },
     "projects": {
-      "raycon-2d-p1": {
-        "title": "Bucle de lanzamiento del héroe",
-        "description": "Animación en bucle de 15 segundos para redes sociales pagas con narración centrada en el producto.",
-        "tags": {
-          "0": "Campaña",
-          "1": "Producto"
-        }
-      },
-      "raycon-2d-p2": {
-        "title": "Punto de personaje",
-        "description": "Personaje dibujado a mano que actúa para una actualización de marca de temporada.",
-        "tags": {
-          "0": "Personaje",
-          "1": "Transmisión"
-        }
-      },
-      "crossrope-2d-p1": {
-        "title": "Incorporación de aplicaciones",
-        "description": "Escenas modulares 2D que explican los modos de entrenamiento y el seguimiento.",
-        "tags": {
-          "0": "interfaz de usuario",
-          "1": "Explicador"
-        }
-      },
-      "itsy-2d-p1": {
-        "title": "Serie de libros de cuentos",
-        "description": "Cortometrajes episódicos en 2D para viajes de aprendizaje dentro de la aplicación.",
-        "tags": {
-          "0": "Personaje",
-          "1": "Serie"
-        }
-      },
       "2d-cartoon-animation-p1": {
         "title": "Number Names Learning Video",
         "description": "Educational 2D cartoon animation teaching number names with playful characters and clear pacing.",
@@ -864,6 +803,22 @@
         "tags": {
           "0": "Cartoon",
           "1": "Character"
+        }
+      },
+      "2d-anime-animation-p1": {
+        "title": "Anime Style Animation",
+        "description": "Japanese anime-style 2D animation with dynamic posing, expressive acting, and polished line work.",
+        "tags": {
+          "0": "Anime",
+          "1": "Character"
+        }
+      },
+      "2d-anime-animation-p2": {
+        "title": "Anime Music Video",
+        "description": "2D anime music video with rhythmic character motion, bold visuals, and cinematic storytelling.",
+        "tags": {
+          "0": "Music Video",
+          "1": "Anime"
         }
       },
       "depology-3d-p1": {

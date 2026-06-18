@@ -37,6 +37,16 @@ export const cartoon2dPosters = {
   cartoon: "/portfolio/2d-cartoon-animation/poster-cartoon.jpg",
 } as const;
 
+export const anime2dVideos = {
+  animeStyle: "/portfolio/2d-anime-animation/anime-style-web.mp4",
+  musicVideo: "/portfolio/2d-anime-animation/music-video-web.mp4",
+} as const;
+
+export const anime2dPosters = {
+  animeStyle: "/portfolio/2d-anime-animation/poster-anime-style.jpg",
+  musicVideo: "/portfolio/2d-anime-animation/poster-music-video.jpg",
+} as const;
+
 export const shoksVideos = {
   earbud: "/portfolio/shoks/earbud-web.mp4",
 } as const;

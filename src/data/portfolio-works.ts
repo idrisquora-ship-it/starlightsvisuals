@@ -1,7 +1,7 @@
 import type { WorkCategory, WorkClient, WorkProject } from "@/types/portfolio-works";
 
 import { brandLogos } from "@/data/brand-logos";
-import { anabomfimVideos, cartoon2dPosters, cartoon2dVideos, character3dVideos, ijockeyVideos, industrialAnimationVideos, lemonadeJuiceVideos, shoksPosters, shoksVideos, steelReefVideos, valentinoVideos, watchDesignVideos } from "@/data/portfolio-media";
+import { anabomfimVideos, anime2dPosters, anime2dVideos, cartoon2dPosters, cartoon2dVideos, character3dVideos, ijockeyVideos, industrialAnimationVideos, lemonadeJuiceVideos, shoksPosters, shoksVideos, steelReefVideos, valentinoVideos, watchDesignVideos } from "@/data/portfolio-media";
 
 /** Placeholder client logos from the brand marquee set. */
 const brandLogo = (index: number) => brandLogos[index % brandLogos.length]!.src;
@@ -144,95 +144,6 @@ export const workCategories: WorkCategory[] = [
     clients: [
       client(
         {
-          slug: "raycon",
-          name: "Raycon",
-          industry: "Consumer Electronics",
-          description:
-            "Animated product stories and character loops for global paid social and hero campaign launches.",
-          projectCount: 8,
-          testimonial: "The motion language felt premium from the first storyboard frame.",
-          logo: brandLogo(0),
-          banner: portfolio2d,
-          services: ["2D Character Animation", "Explainer Sequences", "Social Cutdowns"],
-          timeline: "2022 — Present",
-          tools: ["After Effects", "Toon Boom", "Photoshop"],
-          projects: [
-            {
-              title: "Hero Launch Loop",
-              description: "15s looping animation for paid social with product-first storytelling.",
-              thumbnail: portfolio2d,
-              mediaType: "image",
-              mediaSrc: portfolio2d,
-              tags: ["Campaign", "Product"],
-              year: 2025,
-            },
-            {
-              title: "Character Spot",
-              description: "Hand-drawn character acting for a seasonal brand refresh.",
-              thumbnail: portfolioCharacter,
-              mediaType: "image",
-              mediaSrc: portfolioCharacter,
-              tags: ["Character", "Broadcast"],
-              year: 2024,
-            },
-          ],
-        },
-        "raycon-2d",
-      ),
-      client(
-        {
-          slug: "crossrope",
-          name: "Crossrope",
-          industry: "Fitness & Wellness",
-          description: "High-energy 2D motion for app onboarding and performance marketing.",
-          projectCount: 5,
-          logo: brandLogo(1),
-          banner: portfolioMotion,
-          services: ["2D Motion Graphics", "UI Animation"],
-          timeline: "2023 — 2025",
-          tools: ["After Effects", "Illustrator"],
-          projects: [
-            {
-              title: "App Onboarding",
-              description: "Modular 2D scenes explaining workout modes and tracking.",
-              thumbnail: portfolioMotion,
-              mediaType: "image",
-              mediaSrc: portfolioMotion,
-              tags: ["UI", "Explainer"],
-              year: 2025,
-            },
-          ],
-        },
-        "crossrope-2d",
-      ),
-      client(
-        {
-          slug: "itsy",
-          name: "Itsy",
-          industry: "Children & Education",
-          description: "Playful 2D character animation for app stories and learning content.",
-          projectCount: 5,
-          logo: brandLogo(2),
-          banner: portfolioCharacter,
-          services: ["2D Character Animation", "Storyboarding"],
-          timeline: "2023 — 2025",
-          tools: ["After Effects", "Toon Boom"],
-          projects: [
-            {
-              title: "Storybook Series",
-              description: "Episodic 2D shorts for in-app learning journeys.",
-              thumbnail: portfolioCharacter,
-              mediaType: "image",
-              mediaSrc: portfolioCharacter,
-              tags: ["Character", "Series"],
-              year: 2025,
-            },
-          ],
-        },
-        "itsy-2d",
-      ),
-      client(
-        {
           slug: "2d-cartoon-animation",
           name: "2D Cartoon Animation",
           industry: "Children & Education",
@@ -268,6 +179,45 @@ export const workCategories: WorkCategory[] = [
           ],
         },
         "2d-cartoon-animation",
+        { skipPad: true },
+      ),
+      client(
+        {
+          slug: "2d-anime-animation",
+          name: "2D Anime Animation",
+          industry: "Entertainment & Music",
+          description:
+            "High-quality 2D anime-style animation and music videos with expressive characters and cinematic motion.",
+          projectCount: 2,
+          logo: anime2dPosters.animeStyle,
+          banner: anime2dPosters.musicVideo,
+          services: ["2D Anime Animation", "Music Videos", "Character Animation"],
+          timeline: "2025",
+          tools: ["After Effects", "Toon Boom", "Clip Studio Paint"],
+          projects: [
+            {
+              title: "Anime Style Animation",
+              description:
+                "Japanese anime-style 2D animation with dynamic posing, expressive acting, and polished line work.",
+              thumbnail: anime2dPosters.animeStyle,
+              mediaType: "video",
+              mediaSrc: anime2dVideos.animeStyle,
+              tags: ["Anime", "Character"],
+              year: 2025,
+            },
+            {
+              title: "Anime Music Video",
+              description:
+                "2D anime music video with rhythmic character motion, bold visuals, and cinematic storytelling.",
+              thumbnail: anime2dPosters.musicVideo,
+              mediaType: "video",
+              mediaSrc: anime2dVideos.musicVideo,
+              tags: ["Music Video", "Anime"],
+              year: 2025,
+            },
+          ],
+        },
+        "2d-anime-animation",
         { skipPad: true },
       ),
     ],

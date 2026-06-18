@@ -471,51 +471,6 @@
     },
     "clients": {
       "2d-animation": {
-        "raycon": {
-          "name": "Raycon",
-          "industry": "Kuluttajaelektroniikka",
-          "description": "Animoituja tuotetarinoita ja hahmosilmukoita maailmanlaajuisiin maksullisiin sosiaalisiin ja sankarikampanjoihin.",
-          "testimonial": "Liikekieli tuntui ensiluokkaiselta ensimmäisestä kuvakäsikirjoituksesta lähtien.",
-          "timeline": "2022 - Nykyinen",
-          "services": {
-            "0": "2D-hahmoanimaatio",
-            "1": "Selitä sekvenssit",
-            "2": "Sosiaaliset leikkaukset"
-          },
-          "tools": {
-            "0": "After Effects",
-            "1": "Toon Boom",
-            "2": "Photoshop"
-          }
-        },
-        "crossrope": {
-          "name": "Crossrope",
-          "industry": "Fitness & Wellness",
-          "description": "Tehokas 2D-liike sovellusten käyttöönottoon ja suorituskykymarkkinointiin.",
-          "timeline": "2023-2025",
-          "services": {
-            "0": "2D-liikegrafiikka",
-            "1": "Käyttöliittymän animaatio"
-          },
-          "tools": {
-            "0": "After Effects",
-            "1": "Kuvittaja"
-          }
-        },
-        "itsy": {
-          "name": "Itsy",
-          "industry": "Lapset ja koulutus",
-          "description": "Leikkisä 2D-hahmoanimaatio sovellustarinoihin ja oppimissisältöön.",
-          "timeline": "2023-2025",
-          "services": {
-            "0": "2D-hahmoanimaatio",
-            "1": "Kuvakäsikirjoitus"
-          },
-          "tools": {
-            "0": "After Effects",
-            "1": "Toon Boom"
-          }
-        },
         "2d-cartoon-animation": {
           "name": "2D Cartoon Animation",
           "industry": "Children & Education",
@@ -530,6 +485,22 @@
             "0": "After Effects",
             "1": "Toon Boom",
             "2": "Illustrator"
+          }
+        },
+        "2d-anime-animation": {
+          "name": "2D Anime Animation",
+          "industry": "Entertainment & Music",
+          "description": "High-quality 2D anime-style animation and music videos with expressive characters and cinematic motion.",
+          "timeline": "2025",
+          "services": {
+            "0": "2D Anime Animation",
+            "1": "Music Videos",
+            "2": "Character Animation"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Toon Boom",
+            "2": "Clip Studio Paint"
           }
         }
       },
@@ -818,38 +789,6 @@
       }
     },
     "projects": {
-      "raycon-2d-p1": {
-        "title": "Hero Launch Loop",
-        "description": "15s looping-animaatio maksulliseen yhteisöön ja tuote-ensikerrontaa.",
-        "tags": {
-          "0": "Kampanja",
-          "1": "Tuote"
-        }
-      },
-      "raycon-2d-p2": {
-        "title": "Hahmon paikka",
-        "description": "Käsin piirretty hahmo näyttelevänä kausiluonteisen brändin virkistykseen.",
-        "tags": {
-          "0": "Merkki",
-          "1": "Lähettää"
-        }
-      },
-      "crossrope-2d-p1": {
-        "title": "Sovelluksen käyttöönotto",
-        "description": "Modulaariset 2D-kohtaukset, jotka selittävät harjoitustilat ja seurannan.",
-        "tags": {
-          "0": "UI",
-          "1": "Selittäjä"
-        }
-      },
-      "itsy-2d-p1": {
-        "title": "Satukirjasarja",
-        "description": "Episodiset 2D-shortsit sovelluksen sisäisiin oppimismatkoihin.",
-        "tags": {
-          "0": "Merkki",
-          "1": "Sarja"
-        }
-      },
       "2d-cartoon-animation-p1": {
         "title": "Number Names Learning Video",
         "description": "Educational 2D cartoon animation teaching number names with playful characters and clear pacing.",
@@ -864,6 +803,22 @@
         "tags": {
           "0": "Cartoon",
           "1": "Character"
+        }
+      },
+      "2d-anime-animation-p1": {
+        "title": "Anime Style Animation",
+        "description": "Japanese anime-style 2D animation with dynamic posing, expressive acting, and polished line work.",
+        "tags": {
+          "0": "Anime",
+          "1": "Character"
+        }
+      },
+      "2d-anime-animation-p2": {
+        "title": "Anime Music Video",
+        "description": "2D anime music video with rhythmic character motion, bold visuals, and cinematic storytelling.",
+        "tags": {
+          "0": "Music Video",
+          "1": "Anime"
         }
       },
       "depology-3d-p1": {
