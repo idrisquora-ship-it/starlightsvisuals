@@ -536,6 +536,22 @@
             "1": "Cinema 4D",
             "2": "After Effects"
           }
+        },
+        "3d-medical-animation": {
+          "name": "3D Medical Animation",
+          "industry": "Healthcare & Medical",
+          "description": "High-quality 3D medical animation covering anatomy, surgical procedures, and medical device visualization.",
+          "timeline": "2025",
+          "services": {
+            "0": "Medical Animation",
+            "1": "Anatomy Visualization",
+            "2": "Surgical CGI"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Blender",
+            "2": "After Effects"
+          }
         }
       },
       "motion-graphics": {
@@ -892,6 +908,22 @@
         "tags": {
           "0": "Showcase",
           "1": "Anime"
+        }
+      },
+      "3d-medical-animation-p1": {
+        "title": "Surgical & Medical Device Film",
+        "description": "Detailed 3D medical animation showcasing anatomy, surgical technique, and medical device presentation.",
+        "tags": {
+          "0": "Surgical",
+          "1": "Medical"
+        }
+      },
+      "3d-medical-animation-p2": {
+        "title": "Medical Animation Sample",
+        "description": "Cinematic medical visualization with accurate anatomy, lighting, and educational storytelling.",
+        "tags": {
+          "0": "Anatomy",
+          "1": "Healthcare"
         }
       },
       "exa-motion-p1": {

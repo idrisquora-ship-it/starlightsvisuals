@@ -1,7 +1,7 @@
 import type { WorkCategory, WorkClient, WorkProject } from "@/types/portfolio-works";
 
 import { brandLogos } from "@/data/brand-logos";
-import { anabomfimVideos, anime2dPosters, anime2dVideos, anime3dVideos, cartoon2dPosters, cartoon2dVideos, character3dVideos, ijockeyVideos, industrialAnimationVideos, lemonadeJuiceVideos, shoksPosters, shoksVideos, simbaMattressPosters, simbaMattressVideos, steelReefVideos, valentinoVideos, watchDesignVideos } from "@/data/portfolio-media";
+import { anabomfimVideos, anime2dPosters, anime2dVideos, anime3dVideos, cartoon2dPosters, cartoon2dVideos, character3dVideos, ijockeyVideos, industrialAnimationVideos, lemonadeJuiceVideos, medical3dPosters, medical3dVideos, shoksPosters, shoksVideos, simbaMattressPosters, simbaMattressVideos, steelReefVideos, valentinoVideos, watchDesignVideos } from "@/data/portfolio-media";
 
 /** Placeholder client logos from the brand marquee set. */
 const brandLogo = (index: number) => brandLogos[index % brandLogos.length]!.src;
@@ -361,6 +361,45 @@ export const workCategories: WorkCategory[] = [
           ],
         },
         "3d-anime-animation",
+        { skipPad: true },
+      ),
+      client(
+        {
+          slug: "3d-medical-animation",
+          name: "3D Medical Animation",
+          industry: "Healthcare & Medical",
+          description:
+            "High-quality 3D medical animation covering anatomy, surgical procedures, and medical device visualization.",
+          projectCount: 2,
+          logo: medical3dPosters.surgical,
+          banner: medical3dPosters.sample,
+          services: ["Medical Animation", "Anatomy Visualization", "Surgical CGI"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Blender", "After Effects"],
+          projects: [
+            {
+              title: "Surgical & Medical Device Film",
+              description:
+                "Detailed 3D medical animation showcasing anatomy, surgical technique, and medical device presentation.",
+              thumbnail: medical3dPosters.surgical,
+              mediaType: "video",
+              mediaSrc: medical3dVideos.surgical,
+              tags: ["Surgical", "Medical"],
+              year: 2025,
+            },
+            {
+              title: "Medical Animation Sample",
+              description:
+                "Cinematic medical visualization with accurate anatomy, lighting, and educational storytelling.",
+              thumbnail: medical3dPosters.sample,
+              mediaType: "video",
+              mediaSrc: medical3dVideos.sample,
+              tags: ["Anatomy", "Healthcare"],
+              year: 2025,
+            },
+          ],
+        },
+        "3d-medical-animation",
         { skipPad: true },
       ),
     ],

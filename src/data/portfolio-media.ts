@@ -77,3 +77,13 @@ export const anime3dVideos = {
   modeling: "/portfolio/3d-anime-animation/modeling-web.mp4",
   showcase: "/portfolio/3d-anime-animation/showcase-web.mp4",
 } as const;
+
+export const medical3dVideos = {
+  surgical: "/portfolio/3d-medical-animation/surgical-web.mp4",
+  sample: "/portfolio/3d-medical-animation/sample-web.mp4",
+} as const;
+
+export const medical3dPosters = {
+  surgical: "/portfolio/3d-medical-animation/poster-surgical.jpg",
+  sample: "/portfolio/3d-medical-animation/poster-sample.jpg",
+} as const;
