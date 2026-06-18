@@ -59,6 +59,16 @@ export const steelReefVideos = {
   product: "/portfolio/steel-reef/product-web.mp4",
 } as const;
 
+export const simbaMattressVideos = {
+  introducing: "/portfolio/simba-mattress-animation/introducing-web.mp4",
+  product: "/portfolio/simba-mattress-animation/product-web.mp4",
+} as const;
+
+export const simbaMattressPosters = {
+  introducing: "/portfolio/simba-mattress-animation/poster-introducing.jpg",
+  product: "/portfolio/simba-mattress-animation/poster-product.jpg",
+} as const;
+
 export const character3dVideos = {
   workflow: "/portfolio/3d-character-animation/workflow-web.mp4",
 } as const;

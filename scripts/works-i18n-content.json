@@ -268,6 +268,22 @@
           "1": "Redshift",
           "2": "After Effects"
         }
+      },
+      "simba-mattress-animation": {
+        "name": "Simba Mattress Animation",
+        "industry": "Home & Furniture",
+        "description": "Photoreal 3D mattress and furniture product animation with cinematic lighting and commercial polish.",
+        "timeline": "2025",
+        "services": {
+          "0": "3D Product Animation",
+          "1": "Furniture CGI",
+          "2": "Packshot Films"
+        },
+        "tools": {
+          "0": "Cinema 4D",
+          "1": "Redshift",
+          "2": "After Effects"
+        }
       }
     },
     "vfx": {
@@ -648,6 +664,22 @@
       "tags": {
         "0": "Film",
         "1": "Product"
+      }
+    },
+    "simba-mattress-product-p1": {
+      "title": "Simba Introducing Film",
+      "description": "Cinematic 3D product animation introducing the Simba mattress with dynamic camera moves and premium finish.",
+      "tags": {
+        "0": "Film",
+        "1": "Mattress"
+      }
+    },
+    "simba-mattress-product-p2": {
+      "title": "Mattress Product Film",
+      "description": "Photoreal 3D mattress animation highlighting materials, comfort layers, and furniture product presentation.",
+      "tags": {
+        "0": "Product",
+        "1": "Furniture"
       }
     },
     "mirrorskin-vfx-p1": {

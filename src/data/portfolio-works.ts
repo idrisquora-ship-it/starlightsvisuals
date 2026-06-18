@@ -1,7 +1,7 @@
 import type { WorkCategory, WorkClient, WorkProject } from "@/types/portfolio-works";
 
 import { brandLogos } from "@/data/brand-logos";
-import { anabomfimVideos, anime2dPosters, anime2dVideos, anime3dVideos, cartoon2dPosters, cartoon2dVideos, character3dVideos, ijockeyVideos, industrialAnimationVideos, lemonadeJuiceVideos, shoksPosters, shoksVideos, steelReefVideos, valentinoVideos, watchDesignVideos } from "@/data/portfolio-media";
+import { anabomfimVideos, anime2dPosters, anime2dVideos, anime3dVideos, cartoon2dPosters, cartoon2dVideos, character3dVideos, ijockeyVideos, industrialAnimationVideos, lemonadeJuiceVideos, shoksPosters, shoksVideos, simbaMattressPosters, simbaMattressVideos, steelReefVideos, valentinoVideos, watchDesignVideos } from "@/data/portfolio-media";
 
 /** Placeholder client logos from the brand marquee set. */
 const brandLogo = (index: number) => brandLogos[index % brandLogos.length]!.src;
@@ -760,6 +760,45 @@ export const workCategories: WorkCategory[] = [
           ],
         },
         "steel-reef-product",
+        { skipPad: true },
+      ),
+      client(
+        {
+          slug: "simba-mattress-animation",
+          name: "Simba Mattress Animation",
+          industry: "Home & Furniture",
+          description:
+            "Photoreal 3D mattress and furniture product animation with cinematic lighting and commercial polish.",
+          projectCount: 2,
+          logo: simbaMattressPosters.introducing,
+          banner: simbaMattressPosters.product,
+          services: ["3D Product Animation", "Furniture CGI", "Packshot Films"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Redshift", "After Effects"],
+          projects: [
+            {
+              title: "Simba Introducing Film",
+              description:
+                "Cinematic 3D product animation introducing the Simba mattress with dynamic camera moves and premium finish.",
+              thumbnail: simbaMattressPosters.introducing,
+              mediaType: "video",
+              mediaSrc: simbaMattressVideos.introducing,
+              tags: ["Film", "Mattress"],
+              year: 2025,
+            },
+            {
+              title: "Mattress Product Film",
+              description:
+                "Photoreal 3D mattress animation highlighting materials, comfort layers, and furniture product presentation.",
+              thumbnail: simbaMattressPosters.product,
+              mediaType: "video",
+              mediaSrc: simbaMattressVideos.product,
+              tags: ["Product", "Furniture"],
+              year: 2025,
+            },
+          ],
+        },
+        "simba-mattress-product",
         { skipPad: true },
       ),
     ],
