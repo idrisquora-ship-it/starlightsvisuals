@@ -712,6 +712,22 @@
             "1": "Redshift",
             "2": "After Effects"
           }
+        },
+        "suitcase-animation": {
+          "name": "Suitcase Animation",
+          "industry": "Travel & Luggage",
+          "description": "Photoreal 3D suitcase and bag product animation with cinematic lighting and commercial polish.",
+          "timeline": "2025",
+          "services": {
+            "0": "3D Product Animation",
+            "1": "Luggage CGI",
+            "2": "Packshot Films"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Redshift",
+            "2": "After Effects"
+          }
         }
       },
       "vfx": {
@@ -1124,6 +1140,14 @@
         "tags": {
           "0": "Product",
           "1": "Furniture"
+        }
+      },
+      "suitcase-product-p1": {
+        "title": "Suitcase Product Film",
+        "description": "Cinematic 3D suitcase animation highlighting materials, form, and premium luggage product presentation.",
+        "tags": {
+          "0": "Product",
+          "1": "Luggage"
         }
       },
       "mirrorskin-vfx-p1": {

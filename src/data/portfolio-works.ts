@@ -1,7 +1,7 @@
 import type { WorkCategory, WorkClient, WorkProject } from "@/types/portfolio-works";
 
 import { brandLogos } from "@/data/brand-logos";
-import { anabomfimVideos, anime2dPosters, anime2dVideos, anime3dVideos, cartoon2dPosters, cartoon2dVideos, character3dVideos, ijockeyVideos, industrialAnimationVideos, lemonadeJuiceVideos, medical3dPosters, medical3dVideos, shoksPosters, shoksVideos, simbaMattressPosters, simbaMattressVideos, steelReefVideos, valentinoVideos, watchDesignVideos } from "@/data/portfolio-media";
+import { anabomfimVideos, anime2dPosters, anime2dVideos, anime3dVideos, cartoon2dPosters, cartoon2dVideos, character3dVideos, ijockeyVideos, industrialAnimationVideos, lemonadeJuiceVideos, medical3dPosters, medical3dVideos, shoksPosters, shoksVideos, simbaMattressPosters, simbaMattressVideos, steelReefVideos, suitcasePosters, suitcaseVideos, valentinoVideos, watchDesignVideos } from "@/data/portfolio-media";
 
 /** Placeholder client logos from the brand marquee set. */
 const brandLogo = (index: number) => brandLogos[index % brandLogos.length]!.src;
@@ -838,6 +838,35 @@ export const workCategories: WorkCategory[] = [
           ],
         },
         "simba-mattress-product",
+        { skipPad: true },
+      ),
+      client(
+        {
+          slug: "suitcase-animation",
+          name: "Suitcase Animation",
+          industry: "Travel & Luggage",
+          description:
+            "Photoreal 3D suitcase and bag product animation with cinematic lighting and commercial polish.",
+          projectCount: 1,
+          logo: suitcasePosters.product,
+          banner: suitcasePosters.product,
+          services: ["3D Product Animation", "Luggage CGI", "Packshot Films"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Redshift", "After Effects"],
+          projects: [
+            {
+              title: "Suitcase Product Film",
+              description:
+                "Cinematic 3D suitcase animation highlighting materials, form, and premium luggage product presentation.",
+              thumbnail: suitcasePosters.product,
+              mediaType: "video",
+              mediaSrc: suitcaseVideos.product,
+              tags: ["Product", "Luggage"],
+              year: 2025,
+            },
+          ],
+        },
+        "suitcase-product",
         { skipPad: true },
       ),
     ],

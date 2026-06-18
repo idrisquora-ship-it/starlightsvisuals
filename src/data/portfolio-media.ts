@@ -69,6 +69,14 @@ export const simbaMattressPosters = {
   product: "/portfolio/simba-mattress-animation/poster-product.jpg",
 } as const;
 
+export const suitcaseVideos = {
+  product: "/portfolio/suitcase-animation/product-web.mp4",
+} as const;
+
+export const suitcasePosters = {
+  product: "/portfolio/suitcase-animation/poster-product.jpg",
+} as const;
+
 export const character3dVideos = {
   workflow: "/portfolio/3d-character-animation/workflow-web.mp4",
 } as const;
