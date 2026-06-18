@@ -62,3 +62,8 @@ export const steelReefVideos = {
 export const character3dVideos = {
   workflow: "/portfolio/3d-character-animation/workflow-web.mp4",
 } as const;
+
+export const anime3dVideos = {
+  modeling: "/portfolio/3d-anime-animation/modeling-web.mp4",
+  showcase: "/portfolio/3d-anime-animation/showcase-web.mp4",
+} as const;

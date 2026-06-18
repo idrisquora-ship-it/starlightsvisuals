@@ -505,45 +505,6 @@
         }
       },
       "3d-animation": {
-        "depology": {
-          "name": "Depology",
-          "industry": "יופי וטיפוח עור",
-          "description": "הדמיית מוצר בתלת מימד וצילומי יופי מאקרו לקמפיינים של DTC.",
-          "testimonial": "כל פריים הרגיש העריכה - קריאייטיב ההמרה שלנו התאים סוף סוף למותג שלנו.",
-          "timeline": "2021 - היום",
-          "services": {
-            "0": "אנימציית מוצר תלת מימדית",
-            "1": "מאקרו יופי",
-            "2": "סביבות CGI"
-          },
-          "tools": {}
-        },
-        "joyjolt": {
-          "name": "Joyjolt",
-          "industry": "בית וסגנון חיים",
-          "description": "אנימציה מסוגננת של כלי זכוכית תלת מימדיים עבור אמזון וחברתית בתשלום.",
-          "timeline": "2022 - 2024",
-          "services": {
-            "0": "מוצר תלת מימד",
-            "1": "משטח קשה"
-          },
-          "tools": {
-            "0": "קולנוע 4D",
-            "1": "הסטה לאדום",
-            "2": "אפטר אפקטס"
-          }
-        },
-        "innermost": {
-          "name": "Innermost",
-          "industry": "בריאות ואיכות חיים",
-          "description": "הדמיית תוספת תלת מימדית עם טקסטורות מאקרו ודינמיקה נוזלית.",
-          "timeline": "2022 - 2025",
-          "services": {
-            "0": "מוצר תלת מימד",
-            "1": "מאקרו CGI"
-          },
-          "tools": {}
-        },
         "3d-character-animation": {
           "name": "3D Character Animation",
           "industry": "Character & Entertainment",
@@ -553,6 +514,22 @@
             "0": "3D Character Design",
             "1": "Character Animation",
             "2": "Stylized CGI"
+          },
+          "tools": {
+            "0": "Blender",
+            "1": "Cinema 4D",
+            "2": "After Effects"
+          }
+        },
+        "3d-anime-animation": {
+          "name": "3D Anime Animation",
+          "industry": "Anime & Character Design",
+          "description": "3D anime character development from client reference through modeling, turntable renders, and client showcase films.",
+          "timeline": "2025",
+          "services": {
+            "0": "3D Character Modeling",
+            "1": "Anime Character Design",
+            "2": "Client Showcase Films"
           },
           "tools": {
             "0": "Blender",
@@ -821,36 +798,6 @@
           "1": "Anime"
         }
       },
-      "depology-3d-p1": {
-        "title": "סרט גיבורי סרום",
-        "description": "פטיפון מוצר Photoreal עם עדשת סים נוזלית ועדשת מאקרו.",
-        "tags": {
-          "0": "מוּצָר",
-          "1": "יוֹפִי"
-        }
-      },
-      "depology-3d-p2": {
-        "title": "גילוי שגרתי",
-        "description": "אנימציה שגרתית בשלושה שלבים לגיבור דף נחיתה.",
-        "tags": {
-          "0": "מַסָע"
-        }
-      },
-      "joyjolt-3d-p1": {
-        "title": "אוסף כלי זכוכית",
-        "description": "מחקרי שבירה של קריסטל ואנימציות צילום חבילות.",
-        "tags": {
-          "0": "מוּצָר"
-        }
-      },
-      "innermost-3d-p1": {
-        "title": "סרט מאקרו באבקה",
-        "description": "שפכו אבקה בהילוך איטי עם תאורה פוטוריאלית וציון.",
-        "tags": {
-          "0": "מוּצָר",
-          "1": "מאקרו"
-        }
-      },
       "3d-character-animation-p1": {
         "title": "Character Render",
         "description": "Hero character render with expressive posing and polished stylized materials.",
@@ -889,6 +836,46 @@
         "tags": {
           "0": "Film",
           "1": "Workflow"
+        }
+      },
+      "3d-anime-animation-p1": {
+        "title": "Client Reference",
+        "description": "Initial client reference and concept direction for the 3D anime character build.",
+        "tags": {
+          "0": "Concept",
+          "1": "Reference"
+        }
+      },
+      "3d-anime-animation-p2": {
+        "title": "Character Render",
+        "description": "Front-facing character render with anime styling, materials, and lighting polish.",
+        "tags": {
+          "0": "Character",
+          "1": "Render"
+        }
+      },
+      "3d-anime-animation-p3": {
+        "title": "Character Render",
+        "description": "Back-facing character render showcasing hair, costume, and silhouette detail.",
+        "tags": {
+          "0": "Character",
+          "1": "Turnaround"
+        }
+      },
+      "3d-anime-animation-p4": {
+        "title": "3D Modeling Process",
+        "description": "Modeling workflow film showing the character build from reference to finished mesh.",
+        "tags": {
+          "0": "Modeling",
+          "1": "Workflow"
+        }
+      },
+      "3d-anime-animation-p5": {
+        "title": "Client Showcase Film",
+        "description": "Final 3D anime character showcase animation prepared for client review and delivery.",
+        "tags": {
+          "0": "Showcase",
+          "1": "Anime"
         }
       },
       "exa-motion-p1": {

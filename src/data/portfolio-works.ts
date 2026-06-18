@@ -1,7 +1,7 @@
 import type { WorkCategory, WorkClient, WorkProject } from "@/types/portfolio-works";
 
 import { brandLogos } from "@/data/brand-logos";
-import { anabomfimVideos, anime2dPosters, anime2dVideos, cartoon2dPosters, cartoon2dVideos, character3dVideos, ijockeyVideos, industrialAnimationVideos, lemonadeJuiceVideos, shoksPosters, shoksVideos, steelReefVideos, valentinoVideos, watchDesignVideos } from "@/data/portfolio-media";
+import { anabomfimVideos, anime2dPosters, anime2dVideos, anime3dVideos, cartoon2dPosters, cartoon2dVideos, character3dVideos, ijockeyVideos, industrialAnimationVideos, lemonadeJuiceVideos, shoksPosters, shoksVideos, steelReefVideos, valentinoVideos, watchDesignVideos } from "@/data/portfolio-media";
 
 /** Placeholder client logos from the brand marquee set. */
 const brandLogo = (index: number) => brandLogos[index % brandLogos.length]!.src;
@@ -41,6 +41,10 @@ import character3dImage1 from "@/assets/3D Character/3d character image.jpg";
 import character3dImage2 from "@/assets/3D Character/3d character image 2.jpg";
 import character3dImage3 from "@/assets/3D Character/3d character image 3.jpg";
 import character3dImage4 from "@/assets/3D Character/3d character image 4.jpg";
+
+import anime3dClientReference from "@/assets/3D Anime/client reference.png";
+import anime3dBlackRedFront from "@/assets/3D Anime/Black_red_front.png";
+import anime3dBlackRedBack from "@/assets/3D Anime/Black_red_back.png";
 
 import portfolio2d from "@/assets/portfolio-2d.jpg";
 import portfolioCharacter from "@/assets/portfolio-character.jpg";
@@ -232,94 +236,6 @@ export const workCategories: WorkCategory[] = [
     clients: [
       client(
         {
-          slug: "depology",
-          name: "Depology",
-          industry: "Beauty & Skincare",
-          description: "3D product visualization and macro beauty shots for DTC campaigns.",
-          projectCount: 12,
-          testimonial: "Every frame felt editorial — our conversion creative finally matched our brand.",
-          logo: brandLogo(3),
-          banner: portfolioCreature,
-          services: ["3D Product Animation", "Beauty Macro", "CGI Environments"],
-          timeline: "2021 — Present",
-          tools: sharedTools,
-          projects: [
-            {
-              title: "Serum Hero Film",
-              description: "Photoreal product turntable with fluid sim and macro lensing.",
-              thumbnail: portfolioCreature,
-              mediaType: "image",
-              mediaSrc: portfolioCreature,
-              tags: ["Product", "Beauty"],
-              year: 2025,
-            },
-            {
-              title: "Routine Reveal",
-              description: "Three-step routine animation for landing page hero.",
-              thumbnail: portfolioCharacter,
-              mediaType: "image",
-              mediaSrc: portfolioCharacter,
-              tags: ["Campaign"],
-              year: 2024,
-            },
-          ],
-        },
-        "depology-3d",
-      ),
-      client(
-        {
-          slug: "joyjolt",
-          name: "Joyjolt",
-          industry: "Home & Lifestyle",
-          description: "Stylized 3D glassware animation for Amazon and paid social.",
-          projectCount: 6,
-          logo: brandLogo(4),
-          banner: portfolioGame,
-          services: ["3D Product", "Hard Surface"],
-          timeline: "2022 — 2024",
-          tools: ["Cinema 4D", "Redshift", "After Effects"],
-          projects: [
-            {
-              title: "Glassware Collection",
-              description: "Crystal refraction studies and packshot animations.",
-              thumbnail: portfolioGame,
-              mediaType: "image",
-              mediaSrc: portfolioGame,
-              tags: ["Product"],
-              year: 2024,
-            },
-          ],
-        },
-        "joyjolt-3d",
-      ),
-      client(
-        {
-          slug: "innermost",
-          name: "Innermost",
-          industry: "Health & Wellness",
-          description: "3D supplement visualization with macro textures and fluid dynamics.",
-          projectCount: 5,
-          logo: brandLogo(5),
-          banner: portfolioCreature,
-          services: ["3D Product", "Macro CGI"],
-          timeline: "2022 — 2025",
-          tools: sharedTools,
-          projects: [
-            {
-              title: "Powder Macro Film",
-              description: "Slow-motion powder pour with photoreal lighting and grade.",
-              thumbnail: portfolioCreature,
-              mediaType: "image",
-              mediaSrc: portfolioCreature,
-              tags: ["Product", "Macro"],
-              year: 2025,
-            },
-          ],
-        },
-        "innermost-3d",
-      ),
-      client(
-        {
           slug: "3d-character-animation",
           name: "3D Character Animation",
           industry: "Character & Entertainment",
@@ -381,6 +297,70 @@ export const workCategories: WorkCategory[] = [
           ],
         },
         "3d-character-animation",
+        { skipPad: true },
+      ),
+      client(
+        {
+          slug: "3d-anime-animation",
+          name: "3D Anime Animation",
+          industry: "Anime & Character Design",
+          description:
+            "3D anime character development from client reference through modeling, turntable renders, and client showcase films.",
+          projectCount: 5,
+          logo: anime3dClientReference,
+          banner: anime3dBlackRedFront,
+          services: ["3D Character Modeling", "Anime Character Design", "Client Showcase Films"],
+          timeline: "2025",
+          tools: ["Blender", "Cinema 4D", "After Effects"],
+          projects: [
+            {
+              title: "Client Reference",
+              description: "Initial client reference and concept direction for the 3D anime character build.",
+              thumbnail: anime3dClientReference,
+              mediaType: "image",
+              mediaSrc: anime3dClientReference,
+              tags: ["Concept", "Reference"],
+              year: 2025,
+            },
+            {
+              title: "Character Render",
+              description: "Front-facing character render with anime styling, materials, and lighting polish.",
+              thumbnail: anime3dBlackRedFront,
+              mediaType: "image",
+              mediaSrc: anime3dBlackRedFront,
+              tags: ["Character", "Render"],
+              year: 2025,
+            },
+            {
+              title: "Character Render",
+              description: "Back-facing character render showcasing hair, costume, and silhouette detail.",
+              thumbnail: anime3dBlackRedBack,
+              mediaType: "image",
+              mediaSrc: anime3dBlackRedBack,
+              tags: ["Character", "Turnaround"],
+              year: 2025,
+            },
+            {
+              title: "3D Modeling Process",
+              description: "Modeling workflow film showing the character build from reference to finished mesh.",
+              thumbnail: anime3dBlackRedFront,
+              mediaType: "video",
+              mediaSrc: anime3dVideos.modeling,
+              tags: ["Modeling", "Workflow"],
+              year: 2025,
+            },
+            {
+              title: "Client Showcase Film",
+              description: "Final 3D anime character showcase animation prepared for client review and delivery.",
+              thumbnail: anime3dBlackRedBack,
+              mediaType: "video",
+              mediaSrc: anime3dVideos.showcase,
+              tags: ["Showcase", "Anime"],
+              year: 2025,
+            },
+          ],
+        },
+        "3d-anime-animation",
         { skipPad: true },
       ),
     ],

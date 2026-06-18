@@ -505,45 +505,6 @@
         }
       },
       "3d-animation": {
-        "depology": {
-          "name": "Depology",
-          "industry": "सौंदर्य एवं त्वचा की देखभाल",
-          "description": "डीटीसी अभियानों के लिए 3डी उत्पाद विज़ुअलाइज़ेशन और मैक्रो ब्यूटी शॉट्स।",
-          "testimonial": "हर फ्रेम संपादकीय लगा - हमारा रूपांतरण क्रिएटिव अंततः हमारे ब्रांड से मेल खाता है।",
-          "timeline": "2021 - वर्तमान",
-          "services": {
-            "0": "3डी उत्पाद एनिमेशन",
-            "1": "सौंदर्य मैक्रो",
-            "2": "सीजीआई वातावरण"
-          },
-          "tools": {}
-        },
-        "joyjolt": {
-          "name": "Joyjolt",
-          "industry": "घर और जीवनशैली",
-          "description": "अमेज़ॅन और सशुल्क सोशल के लिए स्टाइलिश 3डी ग्लासवेयर एनीमेशन।",
-          "timeline": "2022 — 2024",
-          "services": {
-            "0": "3डी उत्पाद",
-            "1": "कठोर सतह"
-          },
-          "tools": {
-            "0": "सिनेमा 4डी",
-            "1": "रेडशिफ्ट",
-            "2": "प्रभाव के बाद"
-          }
-        },
-        "innermost": {
-          "name": "Innermost",
-          "industry": "स्वास्थ्य और कल्याण",
-          "description": "मैक्रो बनावट और द्रव गतिशीलता के साथ 3डी पूरक विज़ुअलाइज़ेशन।",
-          "timeline": "2022 — 2025",
-          "services": {
-            "0": "3डी उत्पाद",
-            "1": "मैक्रो सीजीआई"
-          },
-          "tools": {}
-        },
         "3d-character-animation": {
           "name": "3D Character Animation",
           "industry": "Character & Entertainment",
@@ -553,6 +514,22 @@
             "0": "3D Character Design",
             "1": "Character Animation",
             "2": "Stylized CGI"
+          },
+          "tools": {
+            "0": "Blender",
+            "1": "Cinema 4D",
+            "2": "After Effects"
+          }
+        },
+        "3d-anime-animation": {
+          "name": "3D Anime Animation",
+          "industry": "Anime & Character Design",
+          "description": "3D anime character development from client reference through modeling, turntable renders, and client showcase films.",
+          "timeline": "2025",
+          "services": {
+            "0": "3D Character Modeling",
+            "1": "Anime Character Design",
+            "2": "Client Showcase Films"
           },
           "tools": {
             "0": "Blender",
@@ -821,36 +798,6 @@
           "1": "Anime"
         }
       },
-      "depology-3d-p1": {
-        "title": "सीरम हीरो फिल्म",
-        "description": "फ्लूइड सिम और मैक्रो लेंसिंग के साथ फोटोरियल उत्पाद टर्नटेबल।",
-        "tags": {
-          "0": "उत्पाद",
-          "1": "सुंदरता"
-        }
-      },
-      "depology-3d-p2": {
-        "title": "नियमित खुलासा",
-        "description": "लैंडिंग पृष्ठ नायक के लिए तीन-चरणीय नियमित एनीमेशन।",
-        "tags": {
-          "0": "अभियान"
-        }
-      },
-      "joyjolt-3d-p1": {
-        "title": "कांच के बर्तनों का संग्रह",
-        "description": "क्रिस्टल अपवर्तन अध्ययन और पैकशॉट एनिमेशन।",
-        "tags": {
-          "0": "उत्पाद"
-        }
-      },
-      "innermost-3d-p1": {
-        "title": "पाउडर मैक्रो फिल्म",
-        "description": "फोटोरियल लाइटिंग और ग्रेड के साथ धीमी गति वाला पाउडर डालें।",
-        "tags": {
-          "0": "उत्पाद",
-          "1": "मैक्रो"
-        }
-      },
       "3d-character-animation-p1": {
         "title": "Character Render",
         "description": "Hero character render with expressive posing and polished stylized materials.",
@@ -889,6 +836,46 @@
         "tags": {
           "0": "Film",
           "1": "Workflow"
+        }
+      },
+      "3d-anime-animation-p1": {
+        "title": "Client Reference",
+        "description": "Initial client reference and concept direction for the 3D anime character build.",
+        "tags": {
+          "0": "Concept",
+          "1": "Reference"
+        }
+      },
+      "3d-anime-animation-p2": {
+        "title": "Character Render",
+        "description": "Front-facing character render with anime styling, materials, and lighting polish.",
+        "tags": {
+          "0": "Character",
+          "1": "Render"
+        }
+      },
+      "3d-anime-animation-p3": {
+        "title": "Character Render",
+        "description": "Back-facing character render showcasing hair, costume, and silhouette detail.",
+        "tags": {
+          "0": "Character",
+          "1": "Turnaround"
+        }
+      },
+      "3d-anime-animation-p4": {
+        "title": "3D Modeling Process",
+        "description": "Modeling workflow film showing the character build from reference to finished mesh.",
+        "tags": {
+          "0": "Modeling",
+          "1": "Workflow"
+        }
+      },
+      "3d-anime-animation-p5": {
+        "title": "Client Showcase Film",
+        "description": "Final 3D anime character showcase animation prepared for client review and delivery.",
+        "tags": {
+          "0": "Showcase",
+          "1": "Anime"
         }
       },
       "exa-motion-p1": {
