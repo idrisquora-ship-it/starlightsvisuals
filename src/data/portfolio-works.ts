@@ -1,7 +1,7 @@
 import type { WorkCategory, WorkClient, WorkProject } from "@/types/portfolio-works";
 
 import { brandLogos } from "@/data/brand-logos";
-import { anabomfimVideos, anime2dPosters, anime2dVideos, anime3dVideos, atxPosters, atxVideos, cartoon2dPosters, cartoon2dVideos, character3dVideos, ijockeyVideos, industrialAnimationVideos, lemonadeJuiceVideos, medical3dPosters, medical3dVideos, shoksPosters, shoksVideos, simbaMattressPosters, simbaMattressVideos, steelReefVideos, suitcasePosters, suitcaseVideos, valentinoVideos, watchDesignVideos } from "@/data/portfolio-media";
+import { anabomfimVideos, anime2dPosters, anime2dVideos, anime3dVideos, atxPosters, atxVideos, autozCravePosters, autozCraveVideos, cartoon2dPosters, cartoon2dVideos, character3dVideos, chibiArtPosters, chibiArtVideos, credexCleaningPosters, credexCleaningVideos, ijockeyVideos, industrialAnimationVideos, lemonadeJuiceVideos, live2dPosters, live2dVideos, medical3dPosters, medical3dVideos, phr1Posters, phr1Videos, raiv2dPosters, raiv2dVideos, shoksPosters, shoksVideos, simbaMattressPosters, simbaMattressVideos, steelReefVideos, suitcasePosters, suitcaseVideos, valentinoVideos, vtuberPosters, vtuberVideos, watchDesignVideos, wristbandPosters, wristbandVideos } from "@/data/portfolio-media";
 
 /** Placeholder client logos from the brand marquee set. */
 const brandLogo = (index: number) => brandLogos[index % brandLogos.length]!.src;
@@ -22,6 +22,17 @@ import atxRender1 from "@/assets/ATX Project/3d-technical-product-animation-indu
 import atxRender2 from "@/assets/ATX Project/3d-technical-product-animation-industrial-fusion-360-video-and-blender-render (1).jpg";
 import atxRender3 from "@/assets/ATX Project/3d-technical-product-animation-industrial-fusion-360-video-and-blender-render (2).jpg";
 
+import credexClientReference1 from "@/assets/CREDEX CARPET Cleaning Macchine/Client image reference.jpg";
+import credexClientReference2 from "@/assets/CREDEX CARPET Cleaning Macchine/Client image reference (2).jpg";
+
+import live2dCharacterImage from "@/assets/Live2D/Live2d character image.jpg";
+
+import vtuberCharacterImage1 from "@/assets/vtuber/Vtuber character  image.jpg";
+import vtuberCharacterImage2 from "@/assets/vtuber/Vtuber character Image.jpg";
+
+import raivCharacterColors from "@/assets/RAIV 2D GAME NSFW/character with colors.png";
+import raivCharacterSketch from "@/assets/RAIV 2D GAME NSFW/Character sketch.jpeg";
+
 import anabomfimPerfume from "@/assets/Anabomfim project/ana-bomfim-perfume.jpg";
 
 import valentinoRender1 from "@/assets/Valentino Project/Valentino perfume render1.jpg";
@@ -40,6 +51,15 @@ import lemonadeRender3 from "@/assets/Lemonade Juice/I will create photorealisti
 
 import steelReefRender1 from "@/assets/STEEL REEF/Steel Reef rendered image.jpg";
 import steelReefRender2 from "@/assets/STEEL REEF/Steel Reef rendered image (2).jpg";
+
+import phr1Render1 from "@/assets/PHR 1 Electric Engine/CAAA85E4-B35B-48D8-98F2-F830C1670BE6.jpeg";
+import phr1Render2 from "@/assets/PHR 1 Electric Engine/check.jpeg";
+
+import wristbandRef1 from "@/assets/wristband animation/Client's ref image.jpeg";
+import wristbandRef2 from "@/assets/wristband animation/Client's ref image (2).jpeg";
+import wristbandRef3 from "@/assets/wristband animation/Client's ref image (3).jpeg";
+import wristbandRef4 from "@/assets/wristband animation/Client's ref image (4).jpeg";
+import wristbandRef5 from "@/assets/wristband animation/Client's ref image (5).jpeg";
 
 import character3dImage1 from "@/assets/3D Character/3d character image.jpg";
 import character3dImage2 from "@/assets/3D Character/3d character image 2.jpg";
@@ -226,6 +246,341 @@ export const workCategories: WorkCategory[] = [
           ],
         },
         "2d-anime-animation",
+        { skipPad: true },
+      ),
+      client(
+        {
+          slug: "chibi-art",
+          name: "Chbi ART",
+          industry: "Character & Illustration",
+          description:
+            "Chibi-style 2D character animation with expressive scenes and behind-the-scenes making process films.",
+          projectCount: 3,
+          logo: chibiArtPosters.scene1,
+          banner: chibiArtPosters.scene2,
+          services: ["2D Character Animation", "Chibi Art", "Scene Animation"],
+          timeline: "2025",
+          tools: ["After Effects", "Clip Studio Paint", "Illustrator"],
+          projects: [
+            {
+              title: "Chibi Art Scene 1",
+              description:
+                "Playful chibi character animation with bold color, expressive acting, and charming scene storytelling.",
+              thumbnail: chibiArtPosters.scene1,
+              mediaType: "video",
+              mediaSrc: chibiArtVideos.scene1,
+              tags: ["Chibi", "Scene"],
+              year: 2025,
+            },
+            {
+              title: "Chibi Art Scene 2",
+              description:
+                "Second chibi animation scene with dynamic character motion and polished 2D illustration style.",
+              thumbnail: chibiArtPosters.scene2,
+              mediaType: "video",
+              mediaSrc: chibiArtVideos.scene2,
+              tags: ["Chibi", "Character"],
+              year: 2025,
+            },
+            {
+              title: "Making Process Film",
+              description:
+                "Behind-the-scenes look at the chibi art creation and animation workflow from sketch to final motion.",
+              thumbnail: chibiArtPosters.makingProcess,
+              mediaType: "video",
+              mediaSrc: chibiArtVideos.makingProcess,
+              tags: ["Process", "Workflow"],
+              year: 2025,
+            },
+          ],
+        },
+        "chibi-art",
+        { skipPad: true },
+      ),
+      client(
+        {
+          slug: "live2d",
+          name: "Live2D",
+          industry: "Character & VTuber",
+          description:
+            "Live2D character art, rigging, and animation from character design through sample films and making-process breakdowns.",
+          projectCount: 4,
+          logo: live2dCharacterImage,
+          banner: live2dPosters.sample,
+          services: ["Live2D Animation", "Character Rigging", "VTuber Art"],
+          timeline: "2025",
+          tools: ["Live2D Cubism", "Clip Studio Paint", "After Effects"],
+          projects: [
+            {
+              title: "Character Art",
+              description: "Finished Live2D character illustration with expressive posing and campaign-ready polish.",
+              thumbnail: live2dCharacterImage,
+              mediaType: "image",
+              mediaSrc: live2dCharacterImage,
+              tags: ["Character", "Illustration"],
+              year: 2025,
+            },
+            {
+              title: "Live2D Video Sample",
+              description:
+                "Animated Live2D character sample showcasing rigged motion, expression, and polished 2D performance.",
+              thumbnail: live2dPosters.sample,
+              mediaType: "video",
+              mediaSrc: live2dVideos.sample,
+              tags: ["Live2D", "Animation"],
+              year: 2025,
+            },
+            {
+              title: "Rigging Process",
+              description:
+                "Live2D rigging workflow film showing mesh setup, deformation, and character puppet preparation.",
+              thumbnail: live2dPosters.rigging,
+              mediaType: "video",
+              mediaSrc: live2dVideos.rigging,
+              tags: ["Rigging", "Process"],
+              year: 2025,
+            },
+            {
+              title: "Making Process Film",
+              description:
+                "Behind-the-scenes look at the Live2D character build from art through rigging and final animation.",
+              thumbnail: live2dPosters.makingProcess,
+              mediaType: "video",
+              mediaSrc: live2dVideos.makingProcess,
+              tags: ["Process", "Workflow"],
+              year: 2025,
+            },
+          ],
+        },
+        "live2d",
+        { skipPad: true },
+      ),
+      client(
+        {
+          slug: "vtuber",
+          name: "Vtuber",
+          industry: "VTuber & Character",
+          description:
+            "VTuber character art and 2D animation — princess samples, character films, process breakdowns, and polished Live2D-style performance.",
+          projectCount: 8,
+          logo: vtuberCharacterImage1,
+          banner: vtuberPosters.princessSample,
+          services: ["VTuber Animation", "2D Character Animation", "Live2D"],
+          timeline: "2025",
+          tools: ["Live2D Cubism", "Clip Studio Paint", "After Effects"],
+          projects: [
+            {
+              title: "VTuber Character Art",
+              description: "Finished VTuber character illustration with expressive posing and campaign-ready polish.",
+              thumbnail: vtuberCharacterImage1,
+              mediaType: "image",
+              mediaSrc: vtuberCharacterImage1,
+              tags: ["Character", "Illustration"],
+              year: 2025,
+            },
+            {
+              title: "VTuber Character Art",
+              description: "Alternate VTuber character render highlighting costume detail and personality.",
+              thumbnail: vtuberCharacterImage2,
+              mediaType: "image",
+              mediaSrc: vtuberCharacterImage2,
+              tags: ["Character", "VTuber"],
+              year: 2025,
+            },
+            {
+              title: "Princess VTuber Sample",
+              description:
+                "Animated princess VTuber sample showcasing character expression, rigged motion, and polished 2D performance.",
+              thumbnail: vtuberPosters.princessSample,
+              mediaType: "video",
+              mediaSrc: vtuberVideos.princessSample,
+              tags: ["VTuber", "Princess"],
+              year: 2025,
+            },
+            {
+              title: "VTuber 2D Film",
+              description: "Cinematic 2D VTuber animation with dynamic character motion and expressive performance.",
+              thumbnail: vtuberPosters.vtuber2d,
+              mediaType: "video",
+              mediaSrc: vtuberVideos.vtuber2d,
+              tags: ["2D", "Animation"],
+              year: 2025,
+            },
+            {
+              title: "VTuber Sample 2",
+              description: "Second VTuber animation sample with bold character acting and polished motion.",
+              thumbnail: vtuberPosters.sample2,
+              mediaType: "video",
+              mediaSrc: vtuberVideos.sample2,
+              tags: ["VTuber", "Sample"],
+              year: 2025,
+            },
+            {
+              title: "VTuber Sample 3",
+              description: "Extended VTuber character showcase with cinematic pacing and expressive 2D animation.",
+              thumbnail: vtuberPosters.sample3,
+              mediaType: "video",
+              mediaSrc: vtuberVideos.sample3,
+              tags: ["VTuber", "Showcase"],
+              year: 2025,
+            },
+            {
+              title: "Video Process Film",
+              description: "Behind-the-scenes VTuber animation process from art through rigging and final motion.",
+              thumbnail: vtuberPosters.process,
+              mediaType: "video",
+              mediaSrc: vtuberVideos.process,
+              tags: ["Process", "Workflow"],
+              year: 2025,
+            },
+            {
+              title: "Stella Manami VTuber Film",
+              description: "Character-driven VTuber animation sample featuring Stella Manami with polished 2D performance.",
+              thumbnail: vtuberPosters.stellaManami,
+              mediaType: "video",
+              mediaSrc: vtuberVideos.stellaManami,
+              tags: ["VTuber", "Character"],
+              year: 2025,
+            },
+          ],
+        },
+        "vtuber",
+        { skipPad: true },
+      ),
+      client(
+        {
+          slug: "raiv-2d-game-nsfw",
+          name: "RAIV 2D Game NSFW",
+          industry: "Game & Interactive",
+          description:
+            "2D game character animation and scene work for RAIV — character design, motion cycles, and polished in-game animation sequences.",
+          projectCount: 13,
+          logo: raivCharacterColors,
+          banner: raivCharacterSketch,
+          services: ["2D Game Animation", "Character Animation", "Scene Animation"],
+          timeline: "2025",
+          tools: ["Spine", "After Effects", "Clip Studio Paint"],
+          projects: [
+            {
+              title: "Character Art",
+              description: "Finished 2D game character illustration with full color, posing, and production-ready polish.",
+              thumbnail: raivCharacterColors,
+              mediaType: "image",
+              mediaSrc: raivCharacterColors,
+              tags: ["Character", "Art"],
+              year: 2025,
+            },
+            {
+              title: "Character Sketch",
+              description: "Initial character concept sketch exploring form, proportions, and design direction.",
+              thumbnail: raivCharacterSketch,
+              mediaType: "image",
+              mediaSrc: raivCharacterSketch,
+              tags: ["Sketch", "Concept"],
+              year: 2025,
+            },
+            {
+              title: "Scene 1 Animation",
+              description: "Cinematic 2D game scene animation with character acting and polished motion timing.",
+              thumbnail: raiv2dPosters.scene1,
+              mediaType: "video",
+              mediaSrc: raiv2dVideos.scene1,
+              tags: ["Scene", "Animation"],
+              year: 2025,
+            },
+            {
+              title: "Jump Animation",
+              description: "2D character jump cycle animation with expressive motion and game-ready timing.",
+              thumbnail: raiv2dPosters.animation01Jump,
+              mediaType: "video",
+              mediaSrc: raiv2dVideos.animation01Jump,
+              tags: ["Motion", "Character"],
+              year: 2025,
+            },
+            {
+              title: "Animation 02",
+              description: "Second 2D game animation sequence with dynamic character performance.",
+              thumbnail: raiv2dPosters.an02,
+              mediaType: "video",
+              mediaSrc: raiv2dVideos.an02,
+              tags: ["Animation", "Game"],
+              year: 2025,
+            },
+            {
+              title: "Animation 02 Alt",
+              description: "Alternate animation 02 cut with refined character motion and scene pacing.",
+              thumbnail: raiv2dPosters.an02Video,
+              mediaType: "video",
+              mediaSrc: raiv2dVideos.an02Video,
+              tags: ["Animation", "Scene"],
+              year: 2025,
+            },
+            {
+              title: "Animation 03.1",
+              description: "Polished 2D game animation sequence with expressive character acting.",
+              thumbnail: raiv2dPosters.an031,
+              mediaType: "video",
+              mediaSrc: raiv2dVideos.an031,
+              tags: ["Animation", "Character"],
+              year: 2025,
+            },
+            {
+              title: "Animation 03 Video",
+              description: "Animation 03 scene cut with cinematic 2D character motion.",
+              thumbnail: raiv2dPosters.an03Video,
+              mediaType: "video",
+              mediaSrc: raiv2dVideos.an03Video,
+              tags: ["Scene", "Motion"],
+              year: 2025,
+            },
+            {
+              title: "Animation 04",
+              description: "Fourth 2D game animation with bold character performance and polished finish.",
+              thumbnail: raiv2dPosters.an04,
+              mediaType: "video",
+              mediaSrc: raiv2dVideos.an04,
+              tags: ["Animation", "Game"],
+              year: 2025,
+            },
+            {
+              title: "Animation 04 Video",
+              description: "Alternate animation 04 scene with dynamic pacing and character expression.",
+              thumbnail: raiv2dPosters.an04Video,
+              mediaType: "video",
+              mediaSrc: raiv2dVideos.an04Video,
+              tags: ["Scene", "Animation"],
+              year: 2025,
+            },
+            {
+              title: "Animation 05",
+              description: "Fifth 2D game animation sequence with expressive character motion.",
+              thumbnail: raiv2dPosters.an05,
+              mediaType: "video",
+              mediaSrc: raiv2dVideos.an05,
+              tags: ["Animation", "Character"],
+              year: 2025,
+            },
+            {
+              title: "Animation 06",
+              description: "Sixth 2D game animation cut with polished timing and scene storytelling.",
+              thumbnail: raiv2dPosters.an06,
+              mediaType: "video",
+              mediaSrc: raiv2dVideos.an06,
+              tags: ["Animation", "Scene"],
+              year: 2025,
+            },
+            {
+              title: "Animation 07",
+              description: "Seventh 2D game animation sequence with refined character performance.",
+              thumbnail: raiv2dPosters.an07,
+              mediaType: "video",
+              mediaSrc: raiv2dVideos.an07,
+              tags: ["Animation", "Game"],
+              year: 2025,
+            },
+          ],
+        },
+        "raiv-2d-game-nsfw",
         { skipPad: true },
       ),
     ],
@@ -873,6 +1228,147 @@ export const workCategories: WorkCategory[] = [
         "suitcase-product",
         { skipPad: true },
       ),
+      client(
+        {
+          slug: "phr-1",
+          name: "PHR 1",
+          industry: "Automotive & Electric",
+          description:
+            "Photoreal 3D electric engine product animation and technical renders for the PHR-1 with cinematic commercial polish.",
+          projectCount: 4,
+          logo: phr1Render1,
+          banner: phr1Render2,
+          services: ["3D Product Animation", "Electric Engine CGI", "Technical Visualization"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Blender", "Redshift", "After Effects"],
+          projects: [
+            {
+              title: "Electric Engine Render",
+              description: "Hero studio render of the PHR-1 electric engine with technical lighting and premium materials.",
+              thumbnail: phr1Render1,
+              mediaType: "image",
+              mediaSrc: phr1Render1,
+              tags: ["Render", "Engine"],
+              year: 2025,
+            },
+            {
+              title: "Technical Check Render",
+              description: "Technical product render highlighting engine components, form, and assembly detail.",
+              thumbnail: phr1Render2,
+              mediaType: "image",
+              mediaSrc: phr1Render2,
+              tags: ["Render", "Technical"],
+              year: 2025,
+            },
+            {
+              title: "PHR-1 Draft Film",
+              description:
+                "Draft 3D product animation showcasing the PHR-1 electric engine in motion with cinematic camera work.",
+              thumbnail: phr1Posters.draft,
+              mediaType: "video",
+              mediaSrc: phr1Videos.draft,
+              tags: ["Draft", "Engine"],
+              year: 2025,
+            },
+            {
+              title: "Electric Engine Film",
+              description:
+                "Cinematic 3D electric engine animation with dynamic motion, materials, and commercial finish.",
+              thumbnail: phr1Posters.film,
+              mediaType: "video",
+              mediaSrc: phr1Videos.film,
+              tags: ["Film", "Product"],
+              year: 2025,
+            },
+          ],
+        },
+        "phr-1-product",
+        { skipPad: true },
+      ),
+      client(
+        {
+          slug: "wristband-animation",
+          name: "Wristband Animation",
+          industry: "Wearables & Consumer Products",
+          description:
+            "Photoreal 3D wristband product animation from client references through cinematic films and animation process breakdowns.",
+          projectCount: 7,
+          logo: wristbandRef1,
+          banner: wristbandRef3,
+          services: ["3D Product Animation", "Wearable CGI", "Packshot Films"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Blender", "Redshift", "After Effects"],
+          projects: [
+            {
+              title: "Client Reference",
+              description: "Initial client reference image for the wristband product design and animation direction.",
+              thumbnail: wristbandRef1,
+              mediaType: "image",
+              mediaSrc: wristbandRef1,
+              tags: ["Reference", "Product"],
+              year: 2025,
+            },
+            {
+              title: "Client Reference",
+              description: "Alternate client reference showcasing wristband form, materials, and brand styling.",
+              thumbnail: wristbandRef2,
+              mediaType: "image",
+              mediaSrc: wristbandRef2,
+              tags: ["Reference", "Wearable"],
+              year: 2025,
+            },
+            {
+              title: "Client Reference",
+              description: "Third client reference highlighting product detail, color, and campaign-ready presentation.",
+              thumbnail: wristbandRef3,
+              mediaType: "image",
+              mediaSrc: wristbandRef3,
+              tags: ["Reference", "Design"],
+              year: 2025,
+            },
+            {
+              title: "Client Reference",
+              description: "Additional reference angle for wristband proportions and surface finish.",
+              thumbnail: wristbandRef4,
+              mediaType: "image",
+              mediaSrc: wristbandRef4,
+              tags: ["Reference", "Product"],
+              year: 2025,
+            },
+            {
+              title: "Client Reference",
+              description: "Final client reference frame for modeling and animation alignment.",
+              thumbnail: wristbandRef5,
+              mediaType: "image",
+              mediaSrc: wristbandRef5,
+              tags: ["Reference", "Wearable"],
+              year: 2025,
+            },
+            {
+              title: "Wristband Product Film",
+              description:
+                "Cinematic 3D wristband animation with dynamic camera moves, premium materials, and commercial polish.",
+              thumbnail: wristbandPosters.wristband02,
+              mediaType: "video",
+              mediaSrc: wristbandVideos.wristband02,
+              tags: ["Film", "Product"],
+              year: 2025,
+            },
+            {
+              title: "Animation Process Film",
+              description:
+                "Behind-the-scenes animation process showing the wristband build from reference through final motion.",
+              thumbnail: wristbandPosters.process,
+              mediaType: "video",
+              mediaSrc: wristbandVideos.process,
+              tags: ["Process", "Workflow"],
+              year: 2025,
+            },
+          ],
+        },
+        "wristband-product",
+        { skipPad: true },
+      ),
     ],
   },
   {
@@ -1217,6 +1713,110 @@ export const workCategories: WorkCategory[] = [
           ],
         },
         "atx-industrial",
+        { skipPad: true },
+      ),
+      client(
+        {
+          slug: "autoz-crave",
+          name: "AUTOZ CRAVE",
+          industry: "Automotive & Mechanical",
+          description:
+            "3D industrial product animation showcasing mechanical systems, technical detail, and cinematic automotive presentation.",
+          projectCount: 1,
+          logo: autozCravePosters.industrial,
+          banner: autozCravePosters.industrial,
+          services: ["Industrial Animation", "Mechanical Visualization", "Product CGI"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Blender", "After Effects"],
+          projects: [
+            {
+              title: "Industrial Product Film",
+              description:
+                "Cinematic 3D mechanical and technical product animation with dynamic camera moves and industrial polish.",
+              thumbnail: autozCravePosters.industrial,
+              mediaType: "video",
+              mediaSrc: autozCraveVideos.industrial,
+              tags: ["Film", "Mechanical"],
+              year: 2025,
+            },
+          ],
+        },
+        "autoz-crave-industrial",
+        { skipPad: true },
+      ),
+      client(
+        {
+          slug: "credex-cleaning-carpet",
+          name: "CREDEX CLEANING CARPET",
+          industry: "Consumer Products & Cleaning",
+          description:
+            "3D industrial product animation for CREDEX carpet cleaning machines — client references, exploded views, and cinematic films with SFX.",
+          projectCount: 6,
+          logo: credexClientReference1,
+          banner: credexClientReference2,
+          services: ["Industrial Animation", "Product CGI", "Technical Visualization"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Blender", "After Effects"],
+          projects: [
+            {
+              title: "Client Reference",
+              description: "Initial client reference image for the CREDEX carpet cleaning machine product build.",
+              thumbnail: credexClientReference1,
+              mediaType: "image",
+              mediaSrc: credexClientReference1,
+              tags: ["Reference", "Product"],
+              year: 2025,
+            },
+            {
+              title: "Client Reference",
+              description: "Alternate client reference showcasing machine form, materials, and design direction.",
+              thumbnail: credexClientReference2,
+              mediaType: "image",
+              mediaSrc: credexClientReference2,
+              tags: ["Reference", "Industrial"],
+              year: 2025,
+            },
+            {
+              title: "Exploded Views Film",
+              description:
+                "10-second exploded-view animation revealing internal components and assembly of the carpet cleaner.",
+              thumbnail: credexCleaningPosters.explodedViews,
+              mediaType: "video",
+              mediaSrc: credexCleaningVideos.explodedViews,
+              tags: ["Exploded", "Technical"],
+              year: 2025,
+            },
+            {
+              title: "Carpet Cleaner Update",
+              description: "Updated 3D carpet cleaning machine animation with refined motion and product presentation.",
+              thumbnail: credexCleaningPosters.update,
+              mediaType: "video",
+              mediaSrc: credexCleaningVideos.update,
+              tags: ["Update", "Product"],
+              year: 2025,
+            },
+            {
+              title: "Product Showcase Film",
+              description: "Cinematic carpet cleaner product animation highlighting form, function, and brand presentation.",
+              thumbnail: credexCleaningPosters.showcase,
+              mediaType: "video",
+              mediaSrc: credexCleaningVideos.showcase,
+              tags: ["Showcase", "Film"],
+              year: 2025,
+            },
+            {
+              title: "Final HD Film with SFX",
+              description:
+                "Final high-definition industrial animation with sound design, dynamic camera moves, and commercial polish.",
+              thumbnail: credexCleaningPosters.finalSfx,
+              mediaType: "video",
+              mediaSrc: credexCleaningVideos.finalSfx,
+              tags: ["Final", "SFX"],
+              year: 2025,
+            },
+          ],
+        },
+        "credex-cleaning-carpet-industrial",
         { skipPad: true },
       ),
     ],

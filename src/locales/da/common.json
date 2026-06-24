@@ -502,6 +502,70 @@
             "1": "Toon Boom",
             "2": "Clip Studio Paint"
           }
+        },
+        "chibi-art": {
+          "name": "Chbi ART",
+          "industry": "Character & Illustration",
+          "description": "Chibi-style 2D character animation with expressive scenes and behind-the-scenes making process films.",
+          "timeline": "2025",
+          "services": {
+            "0": "2D Character Animation",
+            "1": "Chibi Art",
+            "2": "Scene Animation"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Clip Studio Paint",
+            "2": "Illustrator"
+          }
+        },
+        "live2d": {
+          "name": "Live2D",
+          "industry": "Character & VTuber",
+          "description": "Live2D character art, rigging, and animation from character design through sample films and making-process breakdowns.",
+          "timeline": "2025",
+          "services": {
+            "0": "Live2D Animation",
+            "1": "Character Rigging",
+            "2": "VTuber Art"
+          },
+          "tools": {
+            "0": "Live2D Cubism",
+            "1": "Clip Studio Paint",
+            "2": "After Effects"
+          }
+        },
+        "vtuber": {
+          "name": "Vtuber",
+          "industry": "VTuber & Character",
+          "description": "VTuber character art and 2D animation — princess samples, character films, process breakdowns, and polished Live2D-style performance.",
+          "timeline": "2025",
+          "services": {
+            "0": "VTuber Animation",
+            "1": "2D Character Animation",
+            "2": "Live2D"
+          },
+          "tools": {
+            "0": "Live2D Cubism",
+            "1": "Clip Studio Paint",
+            "2": "After Effects"
+          }
+        },
+        "raiv-2d-game-nsfw": {
+          "name": "RAIV 2D Game NSFW",
+          "industry": "Game & Interactive",
+          "description": "2D game character animation and scene work for RAIV — character design, motion cycles, and polished in-game animation sequences.",
+          "timeline": "2025",
+          "services": {
+            "0": "2D Game Animation",
+            "1": "Character Animation",
+            "2": "Scene Animation"
+          },
+          "tools": {
+            "0": "Spine",
+            "1": "After Effects",
+            "2": "Clip Studio Paint"
+          }
         }
       },
       "3d-animation": {
@@ -728,6 +792,40 @@
             "1": "Redshift",
             "2": "After Effects"
           }
+        },
+        "phr-1": {
+          "name": "PHR 1",
+          "industry": "Automotive & Electric",
+          "description": "Photoreal 3D electric engine product animation and technical renders for the PHR-1 with cinematic commercial polish.",
+          "timeline": "2025",
+          "services": {
+            "0": "3D Product Animation",
+            "1": "Electric Engine CGI",
+            "2": "Technical Visualization"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Blender",
+            "2": "Redshift",
+            "3": "After Effects"
+          }
+        },
+        "wristband-animation": {
+          "name": "Wristband Animation",
+          "industry": "Wearables & Consumer Products",
+          "description": "Photoreal 3D wristband product animation from client references through cinematic films and animation process breakdowns.",
+          "timeline": "2025",
+          "services": {
+            "0": "3D Product Animation",
+            "1": "Wearable CGI",
+            "2": "Packshot Films"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Blender",
+            "2": "Redshift",
+            "3": "After Effects"
+          }
         }
       },
       "vfx": {
@@ -826,6 +924,38 @@
             "1": "Blender",
             "2": "After Effects"
           }
+        },
+        "autoz-crave": {
+          "name": "AUTOZ CRAVE",
+          "industry": "Automotive & Mechanical",
+          "description": "3D industrial product animation showcasing mechanical systems, technical detail, and cinematic automotive presentation.",
+          "timeline": "2025",
+          "services": {
+            "0": "Industrial Animation",
+            "1": "Mechanical Visualization",
+            "2": "Product CGI"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Blender",
+            "2": "After Effects"
+          }
+        },
+        "credex-cleaning-carpet": {
+          "name": "CREDEX CLEANING CARPET",
+          "industry": "Consumer Products & Cleaning",
+          "description": "3D industrial product animation for CREDEX carpet cleaning machines — client references, exploded views, and cinematic films with SFX.",
+          "timeline": "2025",
+          "services": {
+            "0": "Industrial Animation",
+            "1": "Product CGI",
+            "2": "Technical Visualization"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Blender",
+            "2": "After Effects"
+          }
         }
       }
     },
@@ -860,6 +990,230 @@
         "tags": {
           "0": "Music Video",
           "1": "Anime"
+        }
+      },
+      "chibi-art-p1": {
+        "title": "Chibi Art Scene 1",
+        "description": "Playful chibi character animation with bold color, expressive acting, and charming scene storytelling.",
+        "tags": {
+          "0": "Chibi",
+          "1": "Scene"
+        }
+      },
+      "chibi-art-p2": {
+        "title": "Chibi Art Scene 2",
+        "description": "Second chibi animation scene with dynamic character motion and polished 2D illustration style.",
+        "tags": {
+          "0": "Chibi",
+          "1": "Character"
+        }
+      },
+      "chibi-art-p3": {
+        "title": "Making Process Film",
+        "description": "Behind-the-scenes look at the chibi art creation and animation workflow from sketch to final motion.",
+        "tags": {
+          "0": "Process",
+          "1": "Workflow"
+        }
+      },
+      "live2d-p1": {
+        "title": "Character Art",
+        "description": "Finished Live2D character illustration with expressive posing and campaign-ready polish.",
+        "tags": {
+          "0": "Character",
+          "1": "Illustration"
+        }
+      },
+      "live2d-p2": {
+        "title": "Live2D Video Sample",
+        "description": "Animated Live2D character sample showcasing rigged motion, expression, and polished 2D performance.",
+        "tags": {
+          "0": "Live2D",
+          "1": "Animation"
+        }
+      },
+      "live2d-p3": {
+        "title": "Rigging Process",
+        "description": "Live2D rigging workflow film showing mesh setup, deformation, and character puppet preparation.",
+        "tags": {
+          "0": "Rigging",
+          "1": "Process"
+        }
+      },
+      "live2d-p4": {
+        "title": "Making Process Film",
+        "description": "Behind-the-scenes look at the Live2D character build from art through rigging and final animation.",
+        "tags": {
+          "0": "Process",
+          "1": "Workflow"
+        }
+      },
+      "vtuber-p1": {
+        "title": "VTuber Character Art",
+        "description": "Finished VTuber character illustration with expressive posing and campaign-ready polish.",
+        "tags": {
+          "0": "Character",
+          "1": "Illustration"
+        }
+      },
+      "vtuber-p2": {
+        "title": "VTuber Character Art",
+        "description": "Alternate VTuber character render highlighting costume detail and personality.",
+        "tags": {
+          "0": "Character",
+          "1": "VTuber"
+        }
+      },
+      "vtuber-p3": {
+        "title": "Princess VTuber Sample",
+        "description": "Animated princess VTuber sample showcasing character expression, rigged motion, and polished 2D performance.",
+        "tags": {
+          "0": "VTuber",
+          "1": "Princess"
+        }
+      },
+      "vtuber-p4": {
+        "title": "VTuber 2D Film",
+        "description": "Cinematic 2D VTuber animation with dynamic character motion and expressive performance.",
+        "tags": {
+          "0": "2D",
+          "1": "Animation"
+        }
+      },
+      "vtuber-p5": {
+        "title": "VTuber Sample 2",
+        "description": "Second VTuber animation sample with bold character acting and polished motion.",
+        "tags": {
+          "0": "VTuber",
+          "1": "Sample"
+        }
+      },
+      "vtuber-p6": {
+        "title": "VTuber Sample 3",
+        "description": "Extended VTuber character showcase with cinematic pacing and expressive 2D animation.",
+        "tags": {
+          "0": "VTuber",
+          "1": "Showcase"
+        }
+      },
+      "vtuber-p7": {
+        "title": "Video Process Film",
+        "description": "Behind-the-scenes VTuber animation process from art through rigging and final motion.",
+        "tags": {
+          "0": "Process",
+          "1": "Workflow"
+        }
+      },
+      "vtuber-p8": {
+        "title": "Stella Manami VTuber Film",
+        "description": "Character-driven VTuber animation sample featuring Stella Manami with polished 2D performance.",
+        "tags": {
+          "0": "VTuber",
+          "1": "Character"
+        }
+      },
+      "raiv-2d-game-nsfw-p1": {
+        "title": "Character Art",
+        "description": "Finished 2D game character illustration with full color, posing, and production-ready polish.",
+        "tags": {
+          "0": "Character",
+          "1": "Art"
+        }
+      },
+      "raiv-2d-game-nsfw-p2": {
+        "title": "Character Sketch",
+        "description": "Initial character concept sketch exploring form, proportions, and design direction.",
+        "tags": {
+          "0": "Sketch",
+          "1": "Concept"
+        }
+      },
+      "raiv-2d-game-nsfw-p3": {
+        "title": "Scene 1 Animation",
+        "description": "Cinematic 2D game scene animation with character acting and polished motion timing.",
+        "tags": {
+          "0": "Scene",
+          "1": "Animation"
+        }
+      },
+      "raiv-2d-game-nsfw-p4": {
+        "title": "Jump Animation",
+        "description": "2D character jump cycle animation with expressive motion and game-ready timing.",
+        "tags": {
+          "0": "Motion",
+          "1": "Character"
+        }
+      },
+      "raiv-2d-game-nsfw-p5": {
+        "title": "Animation 02",
+        "description": "Second 2D game animation sequence with dynamic character performance.",
+        "tags": {
+          "0": "Animation",
+          "1": "Game"
+        }
+      },
+      "raiv-2d-game-nsfw-p6": {
+        "title": "Animation 02 Alt",
+        "description": "Alternate animation 02 cut with refined character motion and scene pacing.",
+        "tags": {
+          "0": "Animation",
+          "1": "Scene"
+        }
+      },
+      "raiv-2d-game-nsfw-p7": {
+        "title": "Animation 03.1",
+        "description": "Polished 2D game animation sequence with expressive character acting.",
+        "tags": {
+          "0": "Animation",
+          "1": "Character"
+        }
+      },
+      "raiv-2d-game-nsfw-p8": {
+        "title": "Animation 03 Video",
+        "description": "Animation 03 scene cut with cinematic 2D character motion.",
+        "tags": {
+          "0": "Scene",
+          "1": "Motion"
+        }
+      },
+      "raiv-2d-game-nsfw-p9": {
+        "title": "Animation 04",
+        "description": "Fourth 2D game animation with bold character performance and polished finish.",
+        "tags": {
+          "0": "Animation",
+          "1": "Game"
+        }
+      },
+      "raiv-2d-game-nsfw-p10": {
+        "title": "Animation 04 Video",
+        "description": "Alternate animation 04 scene with dynamic pacing and character expression.",
+        "tags": {
+          "0": "Scene",
+          "1": "Animation"
+        }
+      },
+      "raiv-2d-game-nsfw-p11": {
+        "title": "Animation 05",
+        "description": "Fifth 2D game animation sequence with expressive character motion.",
+        "tags": {
+          "0": "Animation",
+          "1": "Character"
+        }
+      },
+      "raiv-2d-game-nsfw-p12": {
+        "title": "Animation 06",
+        "description": "Sixth 2D game animation cut with polished timing and scene storytelling.",
+        "tags": {
+          "0": "Animation",
+          "1": "Scene"
+        }
+      },
+      "raiv-2d-game-nsfw-p13": {
+        "title": "Animation 07",
+        "description": "Seventh 2D game animation sequence with refined character performance.",
+        "tags": {
+          "0": "Animation",
+          "1": "Game"
         }
       },
       "3d-character-animation-p1": {
@@ -1166,6 +1520,94 @@
           "1": "Luggage"
         }
       },
+      "phr-1-product-p1": {
+        "title": "Electric Engine Render",
+        "description": "Hero studio render of the PHR-1 electric engine with technical lighting and premium materials.",
+        "tags": {
+          "0": "Render",
+          "1": "Engine"
+        }
+      },
+      "phr-1-product-p2": {
+        "title": "Technical Check Render",
+        "description": "Technical product render highlighting engine components, form, and assembly detail.",
+        "tags": {
+          "0": "Render",
+          "1": "Technical"
+        }
+      },
+      "phr-1-product-p3": {
+        "title": "PHR-1 Draft Film",
+        "description": "Draft 3D product animation showcasing the PHR-1 electric engine in motion with cinematic camera work.",
+        "tags": {
+          "0": "Draft",
+          "1": "Engine"
+        }
+      },
+      "phr-1-product-p4": {
+        "title": "Electric Engine Film",
+        "description": "Cinematic 3D electric engine animation with dynamic motion, materials, and commercial finish.",
+        "tags": {
+          "0": "Film",
+          "1": "Product"
+        }
+      },
+      "wristband-product-p1": {
+        "title": "Client Reference",
+        "description": "Initial client reference image for the wristband product design and animation direction.",
+        "tags": {
+          "0": "Reference",
+          "1": "Product"
+        }
+      },
+      "wristband-product-p2": {
+        "title": "Client Reference",
+        "description": "Alternate client reference showcasing wristband form, materials, and brand styling.",
+        "tags": {
+          "0": "Reference",
+          "1": "Wearable"
+        }
+      },
+      "wristband-product-p3": {
+        "title": "Client Reference",
+        "description": "Third client reference highlighting product detail, color, and campaign-ready presentation.",
+        "tags": {
+          "0": "Reference",
+          "1": "Design"
+        }
+      },
+      "wristband-product-p4": {
+        "title": "Client Reference",
+        "description": "Additional reference angle for wristband proportions and surface finish.",
+        "tags": {
+          "0": "Reference",
+          "1": "Product"
+        }
+      },
+      "wristband-product-p5": {
+        "title": "Client Reference",
+        "description": "Final client reference frame for modeling and animation alignment.",
+        "tags": {
+          "0": "Reference",
+          "1": "Wearable"
+        }
+      },
+      "wristband-product-p6": {
+        "title": "Wristband Product Film",
+        "description": "Cinematic 3D wristband animation with dynamic camera moves, premium materials, and commercial polish.",
+        "tags": {
+          "0": "Film",
+          "1": "Product"
+        }
+      },
+      "wristband-product-p7": {
+        "title": "Animation Process Film",
+        "description": "Behind-the-scenes animation process showing the wristband build from reference through final motion.",
+        "tags": {
+          "0": "Process",
+          "1": "Workflow"
+        }
+      },
       "mirrorskin-vfx-p1": {
         "title": "Particle Beauty Pass",
         "description": "Makroserumpartikler integreret i live-action plader.",
@@ -1354,6 +1796,62 @@
         "tags": {
           "0": "Film",
           "1": "Industrial"
+        }
+      },
+      "autoz-crave-industrial-p1": {
+        "title": "Industrial Product Film",
+        "description": "Cinematic 3D mechanical and technical product animation with dynamic camera moves and industrial polish.",
+        "tags": {
+          "0": "Film",
+          "1": "Mechanical"
+        }
+      },
+      "credex-cleaning-carpet-industrial-p1": {
+        "title": "Client Reference",
+        "description": "Initial client reference image for the CREDEX carpet cleaning machine product build.",
+        "tags": {
+          "0": "Reference",
+          "1": "Product"
+        }
+      },
+      "credex-cleaning-carpet-industrial-p2": {
+        "title": "Client Reference",
+        "description": "Alternate client reference showcasing machine form, materials, and design direction.",
+        "tags": {
+          "0": "Reference",
+          "1": "Industrial"
+        }
+      },
+      "credex-cleaning-carpet-industrial-p3": {
+        "title": "Exploded Views Film",
+        "description": "10-second exploded-view animation revealing internal components and assembly of the carpet cleaner.",
+        "tags": {
+          "0": "Exploded",
+          "1": "Technical"
+        }
+      },
+      "credex-cleaning-carpet-industrial-p4": {
+        "title": "Carpet Cleaner Update",
+        "description": "Updated 3D carpet cleaning machine animation with refined motion and product presentation.",
+        "tags": {
+          "0": "Update",
+          "1": "Product"
+        }
+      },
+      "credex-cleaning-carpet-industrial-p5": {
+        "title": "Product Showcase Film",
+        "description": "Cinematic carpet cleaner product animation highlighting form, function, and brand presentation.",
+        "tags": {
+          "0": "Showcase",
+          "1": "Film"
+        }
+      },
+      "credex-cleaning-carpet-industrial-p6": {
+        "title": "Final HD Film with SFX",
+        "description": "Final high-definition industrial animation with sound design, dynamic camera moves, and commercial polish.",
+        "tags": {
+          "0": "Final",
+          "1": "SFX"
         }
       }
     }
