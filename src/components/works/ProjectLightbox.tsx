@@ -83,7 +83,7 @@ export function ProjectLightbox({ project, onClose }: ProjectLightboxProps) {
                   className="h-full w-full border-0"
                 />
               </div>
-            ) : project.mediaType === "video" ? (
+            ) : project.mediaType === "video" && project.mediaSrc ? (
               <div className="aspect-video w-full bg-black">
                 <video
                   ref={videoRef}
@@ -97,6 +97,12 @@ export function ProjectLightbox({ project, onClose }: ProjectLightboxProps) {
                   preload="auto"
                   className="h-full w-full object-contain"
                 />
+              </div>
+            ) : project.mediaType === "video" ? (
+              <div className="flex aspect-video w-full items-center justify-center bg-black p-8 text-center">
+                <p className="text-sm text-muted-foreground">
+                  {t("works.videoComingSoon", { defaultValue: "Video sample coming soon." })}
+                </p>
               </div>
             ) : (
               <img

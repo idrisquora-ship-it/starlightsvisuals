@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" fill="none">
+  <rect width="640" height="360" fill="#0a0a0a"/>
+  <rect x="1" y="1" width="638" height="358" stroke="#2a2a2a" stroke-width="2"/>
+  <circle cx="320" cy="168" r="36" stroke="#4cff3d" stroke-width="2" opacity="0.6"/>
+  <polygon points="308,152 308,184 336,168" fill="#4cff3d" opacity="0.8"/>
+  <text x="320" y="240" text-anchor="middle" fill="#666" font-family="system-ui,sans-serif" font-size="14">Video coming soon</text>
+</svg>

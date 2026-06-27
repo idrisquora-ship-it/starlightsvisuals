@@ -51,10 +51,10 @@
   "home": {
     "metaTitle": "Starlights Visuals | Animation | VFX & Game Art Studio",
     "metaDescription": "En kreativ studio för 2D-/3D animation, VFX och game art. Vi väcker fantasyvärldar, karaktärer och cinematics till liv.",
-    "heroScript": "Berättelser i rörelse,",
+    "heroScript": "Berättelser i rörelse —",
     "heroTitle1": "ANIMATION",
     "heroTitle2": "& VFX",
-    "heroBody": "Starlights Visuals väcker berättelser till liv med animation och visuella effekter som fängslar publiken och lyfter varje bildruta. Vi animerar fantasy varelser, mänskliga karaktärer, fordon, miljöer, rekvisita och hard surface objekt, för film, serier, reklam och varumärkeskampanjer.",
+    "heroBody": "Starlights Visuals väcker berättelser till liv med animation och visuella effekter som fängslar publiken och lyfter varje bildruta. Vi animerar fantasy-varelser, mänskliga karaktärer, fordon, miljöer, rekvisita och hard-surface-objekt — för film, serier, reklam och varumärkeskampanjer.",
     "heroAlt": "Starlights Visuals filmisk hero",
     "seePortfolio": "Se portfolio",
     "startProject": "Starta ett projekt",
@@ -422,10 +422,20 @@
         "tagline": "Photoreal and stylized 3D for brands and film",
         "description": "Product, character, and environment animation with cinematic lighting, physics, and premium finish."
       },
+      "motion-graphics": {
+        "title": "Game Environment",
+        "tagline": "Immersive worlds and playable spaces in motion",
+        "description": "Design led motion systems for launches, dashboards, and brand worlds that scale across channels."
+      },
       "video-editing": {
         "title": "Product Animation",
         "tagline": "Photoreal product films and cinematic packshots",
         "description": "Editorial finishing, rhythm, and story structure for commercials, documentaries, and brand films."
+      },
+      "vfx": {
+        "title": "Visuella effekter (VFX)",
+        "tagline": "Compositing, FX, and cinematic finishing",
+        "description": "Visual effects for trailers, product films, and branded content, from cleanups to full CG integration."
       },
       "branding": {
         "title": "Industrial Animation",
@@ -442,9 +452,17 @@
         "tag": "3D animation",
         "title": "3D animation"
       },
+      "motion-graphics": {
+        "tag": "Game Environment",
+        "title": "Game Environment"
+      },
       "video-editing": {
         "tag": "3D",
         "title": "Product Animation"
+      },
+      "vfx": {
+        "tag": "Visuella effekter (VFX)",
+        "title": "Visuella effekter (VFX)"
       },
       "branding": {
         "tag": "3D",
@@ -596,6 +614,51 @@
           "tools": {
             "0": "Cinema 4D",
             "1": "Blender",
+            "2": "After Effects"
+          }
+        }
+      },
+      "motion-graphics": {
+        "exa": {
+          "name": "Exa",
+          "industry": "Technology",
+          "description": "Launch motion toolkits and abstract data visualizations.",
+          "timeline": "2024 to 2025",
+          "services": {
+            "0": "Brand Motion",
+            "1": "Launch Films"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Cinema 4D"
+          }
+        },
+        "kurk": {
+          "name": "Kurk",
+          "industry": "Health & Supplements",
+          "description": "Supplement brand motion with organic textures and bold typography.",
+          "timeline": "2023 to 2025",
+          "services": {
+            "0": "Motion Graphics",
+            "1": "Paid Social"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Illustrator"
+          }
+        },
+        "huya": {
+          "name": "Huya",
+          "industry": "Gaming & Live Streaming",
+          "description": "Game environment flythroughs and arena worlds for launch campaigns.",
+          "timeline": "2023 to 2025",
+          "services": {
+            "0": "Environment Art",
+            "1": "Cinematic Flythrough"
+          },
+          "tools": {
+            "0": "Unreal Engine",
+            "1": "Cinema 4D",
             "2": "After Effects"
           }
         }
@@ -762,6 +825,54 @@
             "1": "Blender",
             "2": "Redshift",
             "3": "After Effects"
+          }
+        }
+      },
+      "vfx": {
+        "mirrorskin": {
+          "name": "Mirrorskin",
+          "industry": "Skincare",
+          "description": "Beauty VFX, skin retouching, and particle FX for premium campaign films.",
+          "testimonial": "Invisible VFX that still felt magical on screen.",
+          "timeline": "2023 to 2025",
+          "services": {
+            "0": "Compositing",
+            "1": "Beauty VFX",
+            "2": "Particles"
+          },
+          "tools": {
+            "0": "Nuke",
+            "1": "After Effects",
+            "2": "Houdini"
+          }
+        },
+        "bello": {
+          "name": "Bello",
+          "industry": "Consumer Goods",
+          "description": "Product enhancement and environment extensions for retail campaigns.",
+          "timeline": "2024",
+          "services": {
+            "0": "Compositing",
+            "1": "Set Extension"
+          },
+          "tools": {
+            "0": "Nuke",
+            "1": "Photoshop"
+          }
+        },
+        "moxeys": {
+          "name": "Moxeys",
+          "industry": "Retail & E-commerce",
+          "description": "VFX heavy product films with set extensions and particle systems.",
+          "timeline": "2023 to 2025",
+          "services": {
+            "0": "Compositing",
+            "1": "Particle FX"
+          },
+          "tools": {
+            "0": "Nuke",
+            "1": "Houdini",
+            "2": "After Effects"
           }
         }
       },
@@ -1217,6 +1328,30 @@
           "1": "Healthcare"
         }
       },
+      "exa-motion-p1": {
+        "title": "Launch Toolkit",
+        "description": "Modular motion components for keynote and social rollout.",
+        "tags": {
+          "0": "Launch",
+          "1": "Toolkit"
+        }
+      },
+      "kurk-motion-p1": {
+        "title": "Ingredient Story",
+        "description": "Kinetic type and macro overlays for hero DTC ads.",
+        "tags": {
+          "0": "DTC",
+          "1": "Typography"
+        }
+      },
+      "huya-env-p1": {
+        "title": "Arena World Reveal",
+        "description": "Cinematic environment tour with dynamic lighting and VFX.",
+        "tags": {
+          "0": "Environment",
+          "1": "Launch"
+        }
+      },
       "anabomfim-product-p1": {
         "title": "Perfume Product Film",
         "description": "Cinematic 3D perfume animation with studio lighting, liquid sim, and premium packshot finish.",
@@ -1489,6 +1624,36 @@
           "1": "Workflow"
         }
       },
+      "mirrorskin-vfx-p1": {
+        "title": "Particle Beauty Pass",
+        "description": "Macro serum particles integrated into live action plates.",
+        "tags": {
+          "0": "VFX",
+          "1": "Beauty"
+        }
+      },
+      "mirrorskin-vfx-p2": {
+        "title": "Trailer Finish",
+        "description": "Full comp pipeline for a 30s launch trailer.",
+        "tags": {
+          "0": "Trailer"
+        }
+      },
+      "bello-vfx-p1": {
+        "title": "Retail Hero",
+        "description": "CG environment blend with studio product photography.",
+        "tags": {
+          "0": "Retail"
+        }
+      },
+      "moxeys-vfx-p1": {
+        "title": "Particle Product Pass",
+        "description": "Macro particle FX integrated with studio product plates.",
+        "tags": {
+          "0": "VFX",
+          "1": "Product"
+        }
+      },
       "industrial-animation-p1": {
         "title": "Industrial Hero Still",
         "description": "Key still frame from a heavy equipment industrial animation sequence.",
@@ -1724,26 +1889,26 @@
     }
   },
   "accordionPage": {
-    "metaTitle": "FAQ | Starlights Visuals",
-    "metaDescription": "Allt du behöver veta om att arbeta med oss, från första brief till slutleverans.",
+    "metaTitle": "FAQ — Starlights Visuals",
+    "metaDescription": "Allt du behöver veta om att arbeta med oss — från första brief till slutleverans.",
     "label": "Vanliga frågor",
     "title": "FRÅGOR & SVAR",
-    "subtitle": "Allt du behöver veta om att arbeta med oss, från första brief till slutleverans.",
+    "subtitle": "Allt du behöver veta om att arbeta med oss — från första brief till slutleverans.",
     "sections": {
       "general": {
         "title": "Allmänt",
         "items": {
           "01": {
             "question": "Vilka typer av projekt arbetar ni med?",
-            "answer": "Vi producerar animation, VFX, spelgrafik, cinematics, motion graphics och varumärkesfilmer för spel, film, serier, reklam och DTC varumärken. Briefar varierar från enstaka hero assets till kompletta kampanjpaket."
+            "answer": "Vi producerar animation, VFX, spelgrafik, cinematics, motion graphics och varumärkesfilmer för spel, film, serier, reklam och DTC-varumärken. Briefar varierar från enstaka hero-assets till kompletta kampanjpaket."
           },
           "02": {
             "question": "Var är Starlights Visuals baserat?",
-            "answer": "Vi är en remote first studio med teammedlemmar i flera tidszoner. Vi samarbetar med kunder globalt och levererar produktionsklara assets genom strukturerade asynkrona arbetsflöden och live reviews."
+            "answer": "Vi är en remote-first studio med teammedlemmar i flera tidszoner. Vi samarbetar med kunder globalt och levererar produktionsklara assets genom strukturerade asynkrona arbetsflöden och live-reviews."
           },
           "03": {
             "question": "Hur startar jag ett projekt?",
-            "answer": "Kontakta oss via kontaktformuläret med din brief, tidsplan och referenslänkar. Vi bokar ett discovery samtal, definierar scope och skickar ett förslag med milstolpar och leverabler."
+            "answer": "Kontakta oss via kontaktformuläret med din brief, tidsplan och referenslänkar. Vi bokar ett discovery-samtal, definierar scope och skickar ett förslag med milstolpar och leverabler."
           }
         }
       },
@@ -1752,15 +1917,15 @@
         "items": {
           "01": {
             "question": "Vilka tjänster erbjuder ni?",
-            "answer": "Våra kärntjänster inkluderar 2D- och 3D animation, VFX, character- och concept art, stöd för spelutveckling, motion graphics och cinematisk trailers. Vi kan hantera enskilda discipliner eller fullständig pipeline produktion."
+            "answer": "Våra kärntjänster inkluderar 2D- och 3D-animation, VFX, character- och concept art, stöd för spelutveckling, motion graphics och cinematisk trailers. Vi kan hantera enskilda discipliner eller fullständig pipeline-produktion."
           },
           "02": {
-            "question": "Arbetar ni med indie team och stora studios?",
-            "answer": "Ja. Vi samarbetar med indie skapare, medelstora studios och globala varumärken. Omfattning och teamstorlek anpassas efter budget och tidsplan utan att kompromissa med hantverket."
+            "question": "Arbetar ni med indie-team och stora studios?",
+            "answer": "Ja. Vi samarbetar med indie-skapare, medelstora studios och globala varumärken. Omfattning och teamstorlek anpassas efter budget och tidsplan utan att kompromissa med hantverket."
           },
           "03": {
             "question": "Kan ni matcha vår befintliga art style?",
-            "answer": "Absolut. Vi börjar med style frames och en look development passning i linje med era varumärkesriktlinjer eller spelvärld innan vi går in i full produktion."
+            "answer": "Absolut. Vi börjar med style frames och en look-dev-passning i linje med era varumärkesriktlinjer eller spelvärld innan vi går in i full produktion."
           }
         }
       },
@@ -1769,15 +1934,15 @@
         "items": {
           "01": {
             "question": "Vilka tidsramar är typiska?",
-            "answer": "Tidsramar beror på omfattning, en social cutdown kan ta en till två veckor, medan en full cinematic kan ta fyra till åtta veckor. Vi sätter tydliga milstolpar i varje förslag."
+            "answer": "Tidsramar beror på omfattning — en social cutdown kan ta en till två veckor, medan en full cinematic kan ta fyra till åtta veckor. Vi sätter tydliga milstolpar i varje förslag."
           },
           "02": {
             "question": "Hur fungerar revisioner?",
-            "answer": "Varje milstolpe innehåller ett definierat antal revisionsrundor. Vi samlar feedback i strukturerade review sessioner så att ändringar förblir effektiva och håller tidplanen."
+            "answer": "Varje milstolpe innehåller ett definierat antal revisionsrundor. Vi samlar feedback i strukturerade review-sessioner så att ändringar förblir effektiva och håller tidplanen."
           },
           "03": {
             "question": "Vilka filformat levererar ni?",
-            "answer": "Vi levererar formatklara exporter för er pipeline, MP4 and MOV för video, PNG and EXR sekvenser vid behov, lagerbaserade källfiler på begäran och engine ready assets för realtidsprojekt."
+            "answer": "Vi levererar formatklara exporter för er pipeline — MP4/MOV för video, PNG/EXR-sekvenser vid behov, lagerbaserade källfiler på begäran och engine-ready assets för realtidsprojekt."
           }
         }
       }

@@ -32,12 +32,44 @@ dist-ssr
 *.sln
 *.sw?
 
-# Large source videos (web-optimized copies live in public/portfolio/)
-src/assets/PHR 1 Electric Engine/Draft_01_PHR-1.mp4
-src/assets/wristband animation/Wristband-Animation-02.mp4
-src/assets/CREDEX CARPET Cleaning Macchine/Final_HD_project_vaccume_cleaner_with_SFX.mp4
 scripts/translation-cache.json
 
 # Hosted sample media (portfolio uses YouTube links instead)
 public/portfolio/
 public/showcase/
+
+# Portfolio source media in src/assets (samples hosted on YouTube)
+src/assets/**/*.mp4
+src/assets/**/*.MP4
+src/assets/**/*.mov
+src/assets/**/*.MOV
+src/assets/**/*.webm
+src/assets/**/*.WEBM
+src/assets/**/*.asset.json
+src/assets/2d Character Animation/
+src/assets/2D Anime/
+src/assets/3D Anime/
+src/assets/3D Character/
+src/assets/3D Cartoon Character/
+src/assets/3D  Medical Animation/
+src/assets/Anabomfim project/
+src/assets/ATX Project/
+src/assets/Autoz Crave/
+src/assets/Caterpillar animation portfolio/
+src/assets/Chibi Art/
+src/assets/CREDEX CARPET Cleaning Macchine/
+src/assets/Ijockey portfolio folder/
+src/assets/Integra PW/
+src/assets/Lemonade Juice/
+src/assets/Live2D/
+src/assets/Mattress Animation/
+src/assets/PHR 1 Electric Engine/
+src/assets/Princess Vtuber/
+src/assets/RAIV 2D GAME NSFW/
+src/assets/SHOKS/
+src/assets/STEEL REEF/
+src/assets/Suitcase/
+src/assets/Valentino Project/
+src/assets/vtuber/
+src/assets/watch concept/
+src/assets/wristband animation/
