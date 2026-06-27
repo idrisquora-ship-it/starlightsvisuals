@@ -49,12 +49,12 @@
     "copyright": "© {{year}} Starlights Visuals. נוצר באור ובקוד."
   },
   "home": {
-    "metaTitle": "Starlights Visuals — סטודיו לאנימציה, VFX ו-Game Art",
-    "metaDescription": "סטודיו יצירתי לאנימציה 2D / 3D, VFX ו-game art. אנו מעניקים חיים לעולמות פנטזיה, דמויות וסצנות קולנועיות.",
-    "heroScript": "סיפורים בתנועה —",
+    "metaTitle": "Starlights Visuals | סטודיו לאנימציה | VFX ו-Game Art",
+    "metaDescription": "סטודיו יצירתי לאנימציה 2D and 3D, VFX ו-game art. אנו מעניקים חיים לעולמות פנטזיה, דמויות וסצנות קולנועיות.",
+    "heroScript": "סיפורים בתנועה,",
     "heroTitle1": "אנימציה",
     "heroTitle2": "& VFX",
-    "heroBody": "Starlights Visuals מחיה סיפורים באמצעות אנימציה ואפקטים ויזואליים שמקסימים את הקהל ומרימים כל פריים. אנו מנפישים יצורי פנטזיה, דמויות אנושיות, כלי רכב, סביבות, אביזרים ואובייקטי hard-surface — לקולנוע, סדרות, פרסום וקמפיינים ממותגים.",
+    "heroBody": "Starlights Visuals מחיה סיפורים באמצעות אנימציה ואפקטים ויזואליים שמקסימים את הקהל ומרימים כל פריים. אנו מנפישים יצורי פנטזיה, דמויות אנושיות, כלי רכב, סביבות, אביזרים ואובייקטי hard surface, לקולנוע, סדרות, פרסום וקמפיינים ממותגים.",
     "heroAlt": "Hero קולנועי של Starlights Visuals",
     "seePortfolio": "צפו בתיק העבודות",
     "startProject": "התחילו פרויקט",
@@ -65,7 +65,7 @@
     "showcaseTitle1": "עבודות",
     "showcaseTitle2": "נבחרות",
     "fullPortfolio": "תיק עבודות מלא",
-    "ctaScript": "בואו נבנה משהו —",
+    "ctaScript": "בואו נבנה משהו,",
     "ctaTitle1": "מוכנים",
     "ctaTitle2": "לשיתוף פעולה?",
     "services": {
@@ -75,7 +75,7 @@
       },
       "02": {
         "title": "פיתוח משחקים",
-        "desc": "הפקה מלאה — קונסепט, ארט, קוד, אודיו, שחרור."
+        "desc": "הפקה מלאה, קונסепט, ארט, קוד, אודיו, שחרור."
       },
       "03": {
         "title": "קונסепט & Character Art",
@@ -128,13 +128,13 @@
     "videoTitle1": "שמעו",
     "videoTitle2": "מה מותגים אומרים",
     "videoTitle3": "על Starlights Visuals",
-    "videoModalTitle": "המלצת וידאו — {{name}}",
+    "videoModalTitle": "המלצת וידאו, {{name}}",
     "videoModalDefault": "המלצת וידאו",
     "playAria": "נגן המלצת וידאו מ-{{name}}",
     "items": {
       "elena": {
         "headline": "אנשי מקצוע אמיתיים שמספקים תוצאות",
-        "quote": "האיכות הקולנועית הרימה מיד את תפיסת המותג שלנו. המעורבות בקמפיין ה-hero קפצה כבר בשבוע הראשון — הוויזואלים מרגישים פרימיום, מכוונים ובלתי אפשרי לגלול מעליהם.",
+        "quote": "האיכות הקולנועית הרימה מיד את תפיסת המותג שלנו. המעורבות בקמפיין ה-hero קפצה כבר בשבוע הראשון, הוויזואלים מרגישים פרימיום, מכוונים ובלתי אפשרי לגלול מעליהם.",
         "role": "VP Brand Marketing"
       },
       "james": {
@@ -154,32 +154,32 @@
       "founder": "Founder",
       "headProduction": "Head of Production",
       "vpMarketing": "VP Marketing",
-      "coFounder": "Co-Founder"
+      "coFounder": "Co Founder"
     }
   },
   "servicesPage": {
-    "metaTitle": "שירותים — Starlights Visuals",
+    "metaTitle": "שירותים | Starlights Visuals",
     "metaDescription": "אנימציה 2D, אנימציה 3D, פיתוח משחקים, character design, motion graphics, VFX וטрейלרים קולנועיים.",
     "label": "מה אנחנו בונים",
     "title": "שירותים",
-    "subtitle": "סטודיו אחד, כל שלב ההפקה — מהסקיצה הראשונה ועד הפיקסל האחרון.",
+    "subtitle": "סטודיו אחד, כל שלב ההפקה, מהסקיצה הראשונה ועד הפיקסל האחרון.",
     "ctaTitle1": "יש לכם",
     "ctaTitle2": "פרויקט",
     "ctaTitle3": "בראש?",
-    "ctaDesc": "ספרו לנו את החזון — אנחנו מביאים את העוצמה.",
+    "ctaDesc": "ספרו לנו את החזון, אנחנו מביאים את העוצמה.",
     "ctaButton": "צרו קשר",
     "items": {
       "2d": {
         "title": "אנימציה 2D",
-        "desc": "2D frame-by-frame ו-rigged לסדרות, שורטים, explainers ומשחקים. שילוב של craft קלאסי עם pipelines דיגיטליים."
+        "desc": "2D frame by frame ו-rigged לסדרות, שורטים, explainers ומשחקים. שילוב של craft קלאסי עם pipelines דיגיטליים."
       },
       "3d": {
         "title": "אנימציה 3D",
-        "desc": "3D stylized ו-phoreal — דמויות, סביבות ורצפי סצנות קולנועיים מלאים עם polish ברמת feature."
+        "desc": "3D stylized ו-phoreal, דמויות, סביבות ורצפי סצנות קולנועיים מלאים עם polish ברמת feature."
       },
       "game": {
         "title": "פיתוח משחקים",
-        "desc": "הפקת משחקים end-to-end: קונסепט, ארט, קוד, אודיו והשקה. Unreal, Unity ו-pipelines מותאמים."
+        "desc": "הפקת משחקים end to end: קונסепט, ארט, קוד, אודיו והשקה. Unreal, Unity ו-pipelines מותאמים."
       },
       "character": {
         "title": "Character Design",
@@ -200,13 +200,13 @@
     }
   },
   "aboutPage": {
-    "metaTitle": "אודות — Starlights Visuals",
+    "metaTitle": "אודות | Starlights Visuals",
     "metaDescription": "Starlights Visuals הוא סטודיו יצירתי נלהב המתמחה בפיתוח משחקים סוחפים, אנימציה 2D קולנועית ואנימציה 3D באיכות גבוהה.",
     "label": "מי אנחנו",
     "title1": "סטודיו שנבנה על",
     "title2": "אור, קוד וסיפור",
-    "p1": "Starlights Visuals הוא סטודיו יצירתי נלהב בצומת של משחקים, אנימציה וסיפור קולנועי. אנו קיימים כדי להגשים דמיון לחיים — בין אם מדובר במשחק open-world עצום, בסדרה 2D בעבודת יד או בטрейлер 3D photoreal.",
-    "p2": "מ-concept artists ו-3D sculptors ועד gameplay engineers ו-motion designers, כל חבר צוות אובססיבי לדבר אחד: לגרום לקהל להרגיש משהו. אנחנו לא רק בונים פיקסלים יפים — אנחנו בונים עולמות שאנשים רוצים לחיות בהם.",
+    "p1": "Starlights Visuals הוא סטודיו יצירתי נלהב בצומת של משחקים, אנימציה וסיפור קולנועי. אנו קיימים כדי להגשים דמיון לחיים, בין אם מדובר במשחק open world עצום, בסדרה 2D בעבודת יד או בטрейлер 3D photoreal.",
+    "p2": "מ-concept artists ו-3D sculptors ועד gameplay engineers ו-motion designers, כל חבר צוות אובססיבי לדבר אחד: לגרום לקהל להרגיש משהו. אנחנו לא רק בונים פיקסלים יפים, אנחנו בונים עולמות שאנשים רוצים לחיות בהם.",
     "p3": "אנו משתפים פעולה עם יוצרים עצמאיים, סטודios AAA ומותגים גלובליים כדי לספק עבודה שחזקה מגודלה, עומדת בדדליינים ללא פשרות ונראית כאילו עלתה פי שניים מהתקציב.",
     "valuesLabel": "ערכי ליבה",
     "valuesTitle": "מה מניע אותנו",
@@ -217,7 +217,7 @@
       },
       "craft": {
         "title": "אובססיה ל-craft",
-        "desc": "פריים אחר פריים, פיקסל אחר פיקסל — איכות לא ניתנת למשא ומתן."
+        "desc": "פריים אחר פריים, פיקסל אחר פיקסל, איכות לא ניתנת למשא ומתן."
       },
       "energy": {
         "title": "אנרגיה קולנועית",
@@ -236,11 +236,11 @@
     }
   },
   "contactPage": {
-    "metaTitle": "יצירת קשר — Starlights Visuals",
+    "metaTitle": "יצירת קשר | Starlights Visuals",
     "metaDescription": "צרו קשר עם Starlights Visuals לפרויקטי פיתוח משחקים, אנימציה 2D & 3D, motion graphics, VFX וטрейלרים קולנועיים.",
     "label": "בואו נדבר",
     "title": "יצירת קשר",
-    "subtitle": "פניות הפקה, שיתופי פעולה או סתם שלום — שלחו לנו אות.",
+    "subtitle": "פניות הפקה, שיתופי פעולה או סתם שלום, שלחו לנו אות.",
     "formTitle": "התחילו פרויקט",
     "formDesc": "מלאו את הטופס למטה ונחזור אליכם תוך 24 שעות.",
     "name": "שם",
@@ -252,7 +252,7 @@
     "emailUs": "שלחו אימייל",
     "emailDesc": "לפרויקטים חדשים, עיתונות ושותפויות.",
     "studio": "סטודיו",
-    "studioDesc": "Remote-first · מסירה גלובלית",
+    "studioDesc": "Remote first · מסירה גלובלית",
     "responseTime": "זמן תגובה",
     "responseDesc": "תוך 24 שעות, ב'-ו'.",
     "projectTypes": {
@@ -261,12 +261,12 @@
       "3d": "אנימציה 3D",
       "trailer": "טрейлер קולנועי",
       "character": "Character Design",
-      "motion": "Motion Graphics / VFX",
+      "motion": "Motion Graphics and VFX",
       "other": "אחר"
     }
   },
   "portfolioPage": {
-    "metaTitle": "תיק עבודות — Starlights Visuals",
+    "metaTitle": "תיק עבודות | Starlights Visuals",
     "metaDescription": "פרויקטים נבחרים: סדרות אנימציה, טрейלרים למשחקים, character designs ו-showreels של הסטודיו מאת Starlights Visuals.",
     "label": "עבודות נבחרות",
     "title1": "PORT",
@@ -286,7 +286,7 @@
       "game": {
         "tag": "Game Art",
         "title": "Lumen Worlds",
-        "desc": "Environment art ל-open-world."
+        "desc": "Environment art ל-open world."
       },
       "2d": {
         "tag": "אנימציה 2D",
@@ -306,7 +306,7 @@
     }
   },
   "blogPage": {
-    "metaTitle": "בלוג — Starlights Visuals",
+    "metaTitle": "בלוג | Starlights Visuals",
     "metaDescription": "תובנות על אנימציה, VFX, game art, טрейלרים קולנועיים ו-brand storytelling פרימיום מ-Starlights Visuals.",
     "label": "יומן הסטודיו",
     "title1": "THE",
@@ -316,20 +316,20 @@
     "backToBlog": "חזרה לבלוג",
     "startProject": "התחילו פרויקט",
     "moreFromJournal": "עוד מהיומן",
-    "postBody1": "ב-Starlights Visuals, אנו מתייחסים לכל פריים כהזדמנות להמרה — לא רק כתמונה יפה. מאמר זה מרחיב את החשיבה מאחורי עבודת ה-{{category}} שלנו וההחלטות שמפרידות בין creative טוב ל-creative מוכן להשקה.",
+    "postBody1": "ב-Starlights Visuals, אנו מתייחסים לכל פריים כהזדמנות להמרה, לא רק כתמונה יפה. מאמר זה מרחיב את החשיבה מאחורי עבודת ה-{{category}} שלנו וההחלטות שמפרידות בין creative טוב ל-creative מוכן להשקה.",
     "postBody2": "בין אם אתם משיקים טрейлер, מרחיבים מערכת motion למותג או בונים game art למוצר live, אותו עיקרון חל: בהירות סיפור קודם, polish שני, ועריכה חסרת רחמים אחרונה. המשמעת הזו היא איך צוותים עומדים בדדליינים בלי תחושת \"כמעט שם\".",
-    "postBody3": "רוצים ליישם את החשיבה הזו בפרויקט הבא? נשמח לשמוע מה אתם בונים — שלחו brief ונמפה מסלול קולנועי מקונסепט למסירה.",
+    "postBody3": "רוצים ליישם את החשיבה הזו בפרויקט הבא? נשמח לשמוע מה אתם בונים, שלחו brief ונמפה מסלול קולנועי מקונסепט למסירה.",
     "posts": {
       "cinematic-trailers-that-convert": {
         "title": "למה טрейלרים קולנועיים ממירים טוב יותר מ-demo מוצר",
-        "excerpt": "סרטי השקה story-first בונים stakes רגשיים לפני ה-CTA. כך אנו מבנים hooks, pacing ו-grade ל-retention מקסימלי.",
+        "excerpt": "סרטי השקה story first בונים stakes רגשיים לפני ה-CTA. כך אנו מבנים hooks, pacing ו-grade ל-retention מקסימלי.",
         "category": "אסטרטגיה",
         "date": "12 במאי 2026",
         "readTime": "6 דקות קריאה"
       },
       "character-design-for-ip": {
         "title": "Character design שמעגן את ה-IP שלכם בכל ערוץ",
-        "excerpt": "מקריאות silhouette ועד turnarounds מוכנים ל-merch — ה-checklist שאנו משתמשים בו לפני שהגיבור נכנס להפקה.",
+        "excerpt": "מקריאות silhouette ועד turnarounds מוכנים ל-merch, ה-checklist שאנו משתמשים בו לפני שהגיבור נכנס להפקה.",
         "category": "Craft",
         "date": "3 במאי 2026",
         "readTime": "5 דקות קריאה"
@@ -343,14 +343,14 @@
       },
       "motion-systems-for-brands": {
         "title": "בניית מערכות motion שמותגים באמת יכולים לעשות בהן שימוש חוזר",
-        "excerpt": "ספריות motion מודולריות, logo stings ו-micro-interactions ב-UI ששומרים על עקביות קמפיינים בקנה מידה.",
+        "excerpt": "ספריות motion מודולריות, logo stings ו-micro interactions ב-UI ששומרים על עקביות קמפיינים בקנה מידה.",
         "category": "Motion",
         "date": "8 באפר׳ 2026",
         "readTime": "4 דקות קריאה"
       },
       "2d-animation-in-2026": {
         "title": "אנימציה 2D ב-2026: pipelines היברידיים שעדיין מרגישים בעבודת יד",
-        "excerpt": "שילוב יעילות rig עם הדגשות frame-by-frame — מתי לדחוף כל טכניקה לתוצאות premium.",
+        "excerpt": "שילוב יעילות rig עם הדגשות frame by frame, מתי לדחוף כל טכניקה לתוצאות premium.",
         "category": "אנימציה",
         "date": "29 במרץ 2026",
         "readTime": "7 דקות קריאה"
@@ -377,7 +377,7 @@
     "goHome": "לדף הבית"
   },
   "meta": {
-    "rootTitle": "Starlights Visuals — סטודיו לפיתוח משחקים ואנימציה",
+    "rootTitle": "Starlights Visuals | סטודיו לפיתוח משחקים ואנימציה",
     "rootDescription": "Starlights Visuals הוא סטודיו יצירתי המתמחה בפיתוח משחקים, אנימציה 2D קולנועית ואנימציה 3D באיכות גבוהה.",
     "siteName": "Starlights Visuals"
   },
@@ -406,11 +406,11 @@
     "projectsTitle": "Project Samples",
     "relatedProjects": "Related projects",
     "closePreview": "Close preview",
-    "ctaScript": "Ready when you are —",
+    "ctaScript": "Ready when you are,",
     "ctaTitle": "Start Your Project With Us",
     "ctaDesc": "Tell us about your brand, timeline, and goals. We'll map a cinematic path from concept to delivery.",
     "ctaButton": "Start a project",
-    "portfolioHubDesc": "Explore work by category — animation, VFX, motion, and more.",
+    "portfolioHubDesc": "Explore work by category, animation, VFX, motion, and more.",
     "categories": {
       "2d-animation": {
         "title": "אנימציה 2D",
@@ -422,20 +422,10 @@
         "tagline": "תלת מימד פוטוריאלי ומסוגנן למותגים ולסרטים",
         "description": "אנימציה של מוצר, אופי וסביבה עם תאורה קולנועית, פיזיקה וגימור מעולה."
       },
-      "motion-graphics": {
-        "title": "Game Environment",
-        "tagline": "עולמות סוחפים וחללים שניתן לשחק בהם בתנועה",
-        "description": "מערכות תנועה בהובלת עיצוב עבור השקות, לוחות מחוונים ועולמות מותג המתרחבים בערוצים שונים."
-      },
       "video-editing": {
         "title": "Product Animation",
         "tagline": "סרטי מוצר פוטוריאל וצילומי חבילה קולנועיים",
         "description": "גימור עריכה, קצב ומבנה סיפור עבור פרסומות, סרטי תעודה וסרטי מותג."
-      },
-      "vfx": {
-        "title": "Visual Effects (VFX)",
-        "tagline": "קומפוזיציה, FX וגימור קולנועי",
-        "description": "אפקטים חזותיים לטריילרים, סרטי מוצר ותוכן ממותג - מניקויים ועד אינטגרציה מלאה של CG."
       },
       "branding": {
         "title": "Industrial Animation",
@@ -452,17 +442,9 @@
         "tag": "אנימציה 3D",
         "title": "אנימציה 3D"
       },
-      "motion-graphics": {
-        "tag": "Game Environment",
-        "title": "Game Environment"
-      },
       "video-editing": {
         "tag": "3D",
         "title": "Product Animation"
-      },
-      "vfx": {
-        "tag": "Visual Effects (VFX)",
-        "title": "Visual Effects (VFX)"
       },
       "branding": {
         "tag": "3D",
@@ -490,7 +472,7 @@
         "2d-anime-animation": {
           "name": "2D Anime Animation",
           "industry": "Entertainment & Music",
-          "description": "High-quality 2D anime-style animation and music videos with expressive characters and cinematic motion.",
+          "description": "High quality 2D anime style animation and music videos with expressive characters and cinematic motion.",
           "timeline": "2025",
           "services": {
             "0": "2D Anime Animation",
@@ -506,7 +488,7 @@
         "chibi-art": {
           "name": "Chbi ART",
           "industry": "Character & Illustration",
-          "description": "Chibi-style 2D character animation with expressive scenes and behind-the-scenes making process films.",
+          "description": "Chibi style 2D character animation with expressive scenes and behind the scenes making process films.",
           "timeline": "2025",
           "services": {
             "0": "2D Character Animation",
@@ -522,7 +504,7 @@
         "live2d": {
           "name": "Live2D",
           "industry": "Character & VTuber",
-          "description": "Live2D character art, rigging, and animation from character design through sample films and making-process breakdowns.",
+          "description": "Live2D character art, rigging, and animation from character design through sample films and making process breakdowns.",
           "timeline": "2025",
           "services": {
             "0": "Live2D Animation",
@@ -538,7 +520,7 @@
         "vtuber": {
           "name": "Vtuber",
           "industry": "VTuber & Character",
-          "description": "VTuber character art and 2D animation — princess samples, character films, process breakdowns, and polished Live2D-style performance.",
+          "description": "VTuber character art and 2D animation, princess samples, character films, process breakdowns, and polished Live2D style performance.",
           "timeline": "2025",
           "services": {
             "0": "VTuber Animation",
@@ -554,7 +536,7 @@
         "raiv-2d-game-nsfw": {
           "name": "RAIV 2D Game NSFW",
           "industry": "Game & Interactive",
-          "description": "2D game character animation and scene work for RAIV — character design, motion cycles, and polished in-game animation sequences.",
+          "description": "2D game character animation and scene work for RAIV, character design, motion cycles, and polished in game animation sequences.",
           "timeline": "2025",
           "services": {
             "0": "2D Game Animation",
@@ -604,7 +586,7 @@
         "3d-medical-animation": {
           "name": "3D Medical Animation",
           "industry": "Healthcare & Medical",
-          "description": "High-quality 3D medical animation covering anatomy, surgical procedures, and medical device visualization.",
+          "description": "High quality 3D medical animation covering anatomy, surgical procedures, and medical device visualization.",
           "timeline": "2025",
           "services": {
             "0": "Medical Animation",
@@ -615,51 +597,6 @@
             "0": "Cinema 4D",
             "1": "Blender",
             "2": "After Effects"
-          }
-        }
-      },
-      "motion-graphics": {
-        "exa": {
-          "name": "Exa",
-          "industry": "טֶכנוֹלוֹגִיָה",
-          "description": "הפעל ערכות כלים לתנועה והדמיית נתונים מופשטים.",
-          "timeline": "2024 - 2025",
-          "services": {
-            "0": "Brand Motion",
-            "1": "השקת סרטים"
-          },
-          "tools": {
-            "0": "אפטר אפקטס",
-            "1": "קולנוע 4D"
-          }
-        },
-        "kurk": {
-          "name": "Kurk",
-          "industry": "בריאות ותוספי מזון",
-          "description": "השלים את תנועת המותג עם טקסטורות אורגניות וטיפוגרפיה נועזת.",
-          "timeline": "2023 - 2025",
-          "services": {
-            "0": "Motion Graphics",
-            "1": "חברתי בתשלום"
-          },
-          "tools": {
-            "0": "אפטר אפקטס",
-            "1": "מאייר"
-          }
-        },
-        "huya": {
-          "name": "Huya",
-          "industry": "משחקים וסטרימינג בשידור חי",
-          "description": "מסביבות משחק ועולמות זירה לקמפיינים השקה.",
-          "timeline": "2023 - 2025",
-          "services": {
-            "0": "אמנות סביבה",
-            "1": "Flythrough קולנועי"
-          },
-          "tools": {
-            "0": "מנוע לא אמיתי",
-            "1": "קולנוע 4D",
-            "2": "אפטר אפקטס"
           }
         }
       },
@@ -683,7 +620,7 @@
         "valentino": {
           "name": "Valentino",
           "industry": "Luxury Beauty & Fragrance",
-          "description": "High-end 3D perfume visualization and cinematic product films for luxury fragrance campaigns.",
+          "description": "High end 3D perfume visualization and cinematic product films for luxury fragrance campaigns.",
           "timeline": "2025",
           "services": {
             "0": "3D Product Animation",
@@ -699,7 +636,7 @@
         "watch-design-and-animation": {
           "name": "Watch Design and Animation",
           "industry": "Luxury Watches & Product Design",
-          "description": "Concept-to-final 3D watch design, photoreal renders, and cinematic product animation for luxury timepieces.",
+          "description": "Concept to final 3D watch design, photoreal renders, and cinematic product animation for luxury timepieces.",
           "timeline": "2025",
           "services": {
             "0": "Product Design",
@@ -732,7 +669,7 @@
         "shoks": {
           "name": "SHOKS",
           "industry": "Consumer Electronics",
-          "description": "Photoreal 3D earbud product animation with studio lighting, material detail, and campaign-ready motion.",
+          "description": "Photoreal 3D earbud product animation with studio lighting, material detail, and campaign ready motion.",
           "timeline": "2025",
           "services": {
             "0": "3D Product Animation",
@@ -796,7 +733,7 @@
         "phr-1": {
           "name": "PHR 1",
           "industry": "Automotive & Electric",
-          "description": "Photoreal 3D electric engine product animation and technical renders for the PHR-1 with cinematic commercial polish.",
+          "description": "Photoreal 3D electric engine product animation and technical renders for the PHR 1 with cinematic commercial polish.",
           "timeline": "2025",
           "services": {
             "0": "3D Product Animation",
@@ -828,60 +765,12 @@
           }
         }
       },
-      "vfx": {
-        "mirrorskin": {
-          "name": "Mirrorskin",
-          "industry": "טיפוח העור",
-          "description": "Beauty VFX, ריטוש עור ו-particle FX לסרטי קמפיינים מובחרים.",
-          "testimonial": "VFX בלתי נראה שעדיין הרגיש קסום על המסך.",
-          "timeline": "2023 - 2025",
-          "services": {
-            "0": "קומפוזיציה",
-            "1": "יופי VFX",
-            "2": "חלקיקים"
-          },
-          "tools": {
-            "0": "גרעין",
-            "1": "אפטר אפקטס",
-            "2": "הודיני"
-          }
-        },
-        "bello": {
-          "name": "Bello",
-          "industry": "מוצרי צריכה",
-          "description": "שיפור מוצר והרחבות סביבה לקמפיינים קמעונאיים.",
-          "timeline": "2024",
-          "services": {
-            "0": "קומפוזיציה",
-            "1": "הגדר הרחבה"
-          },
-          "tools": {
-            "0": "גרעין",
-            "1": "פוטושופ"
-          }
-        },
-        "moxeys": {
-          "name": "Moxeys",
-          "industry": "קמעונאות ומסחר אלקטרוני",
-          "description": "סרטי מוצר כבדי VFX עם הרחבות סט ומערכות חלקיקים.",
-          "timeline": "2023 - 2025",
-          "services": {
-            "0": "קומפוזיציה",
-            "1": "חלקיקים FX"
-          },
-          "tools": {
-            "0": "גרעין",
-            "1": "הודיני",
-            "2": "אפטר אפקטס"
-          }
-        }
-      },
       "branding": {
         "industrial-animation": {
           "name": "Industrial Animation",
           "industry": "ייצור וציוד כבד",
           "description": "אנימציה ריאליסטית של 3D תעשייתי ו-CGI עבור מכונות כבדות, ויטרינות הרכבה וסרטי שיווק טכניים.",
-          "timeline": "2024 - 2025",
+          "timeline": "2024 to 2025",
           "services": {
             "0": "אנימציה תעשייתית",
             "1": "סרט מוצר CGI",
@@ -897,7 +786,7 @@
           "name": "Ijockey",
           "industry": "מוצרי צריכה",
           "description": "אנימציה של מוצר תלת מימד, עיבודי נייר וסרטים ממותגים עבור השקות הקמעונאות והקמפיינים של Ijockey.",
-          "timeline": "2024 - 2025",
+          "timeline": "2024 to 2025",
           "services": {
             "0": "אנימציית מוצר תלת מימדית",
             "1": "רנדר תעשייתי",
@@ -944,7 +833,23 @@
         "credex-cleaning-carpet": {
           "name": "CREDEX CLEANING CARPET",
           "industry": "Consumer Products & Cleaning",
-          "description": "3D industrial product animation for CREDEX carpet cleaning machines — client references, exploded views, and cinematic films with SFX.",
+          "description": "3D industrial product animation for CREDEX carpet cleaning machines, client references, exploded views, and cinematic films with SFX.",
+          "timeline": "2025",
+          "services": {
+            "0": "Industrial Animation",
+            "1": "Product CGI",
+            "2": "Technical Visualization"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Blender",
+            "2": "After Effects"
+          }
+        },
+        "integra-pw": {
+          "name": "Integra PW",
+          "industry": "Industrial & Power Equipment",
+          "description": "3D industrial product animation for Integra PW, from client reference through cinematic product films with technical polish.",
           "timeline": "2025",
           "services": {
             "0": "Industrial Animation",
@@ -970,7 +875,7 @@
       },
       "2d-cartoon-animation-p2": {
         "title": "Custom Cartoon Animation",
-        "description": "Bespoke 2D character animation with expressive acting, bold color, and campaign-ready motion.",
+        "description": "Bespoke 2D character animation with expressive acting, bold color, and campaign ready motion.",
         "tags": {
           "0": "Cartoon",
           "1": "Character"
@@ -978,7 +883,7 @@
       },
       "2d-anime-animation-p1": {
         "title": "Anime Style Animation",
-        "description": "Japanese anime-style 2D animation with dynamic posing, expressive acting, and polished line work.",
+        "description": "Japanese anime style 2D animation with dynamic posing, expressive acting, and polished line work.",
         "tags": {
           "0": "Anime",
           "1": "Character"
@@ -1010,7 +915,7 @@
       },
       "chibi-art-p3": {
         "title": "Making Process Film",
-        "description": "Behind-the-scenes look at the chibi art creation and animation workflow from sketch to final motion.",
+        "description": "Behind the scenes look at the chibi art creation and animation workflow from sketch to final motion.",
         "tags": {
           "0": "Process",
           "1": "Workflow"
@@ -1018,7 +923,7 @@
       },
       "live2d-p1": {
         "title": "Character Art",
-        "description": "Finished Live2D character illustration with expressive posing and campaign-ready polish.",
+        "description": "Finished Live2D character illustration with expressive posing and campaign ready polish.",
         "tags": {
           "0": "Character",
           "1": "Illustration"
@@ -1042,7 +947,7 @@
       },
       "live2d-p4": {
         "title": "Making Process Film",
-        "description": "Behind-the-scenes look at the Live2D character build from art through rigging and final animation.",
+        "description": "Behind the scenes look at the Live2D character build from art through rigging and final animation.",
         "tags": {
           "0": "Process",
           "1": "Workflow"
@@ -1050,7 +955,7 @@
       },
       "vtuber-p1": {
         "title": "VTuber Character Art",
-        "description": "Finished VTuber character illustration with expressive posing and campaign-ready polish.",
+        "description": "Finished VTuber character illustration with expressive posing and campaign ready polish.",
         "tags": {
           "0": "Character",
           "1": "Illustration"
@@ -1098,7 +1003,7 @@
       },
       "vtuber-p7": {
         "title": "Video Process Film",
-        "description": "Behind-the-scenes VTuber animation process from art through rigging and final motion.",
+        "description": "Behind the scenes VTuber animation process from art through rigging and final motion.",
         "tags": {
           "0": "Process",
           "1": "Workflow"
@@ -1106,7 +1011,7 @@
       },
       "vtuber-p8": {
         "title": "Stella Manami VTuber Film",
-        "description": "Character-driven VTuber animation sample featuring Stella Manami with polished 2D performance.",
+        "description": "Character driven VTuber animation sample featuring Stella Manami with polished 2D performance.",
         "tags": {
           "0": "VTuber",
           "1": "Character"
@@ -1114,7 +1019,7 @@
       },
       "raiv-2d-game-nsfw-p1": {
         "title": "Character Art",
-        "description": "Finished 2D game character illustration with full color, posing, and production-ready polish.",
+        "description": "Finished 2D game character illustration with full color, posing, and production ready polish.",
         "tags": {
           "0": "Character",
           "1": "Art"
@@ -1138,7 +1043,7 @@
       },
       "raiv-2d-game-nsfw-p4": {
         "title": "Jump Animation",
-        "description": "2D character jump cycle animation with expressive motion and game-ready timing.",
+        "description": "2D character jump cycle animation with expressive motion and game ready timing.",
         "tags": {
           "0": "Motion",
           "1": "Character"
@@ -1234,7 +1139,7 @@
       },
       "3d-character-animation-p3": {
         "title": "Character Render",
-        "description": "Full-body character frame with refined lighting and surface detail.",
+        "description": "Full body character frame with refined lighting and surface detail.",
         "tags": {
           "0": "Character",
           "1": "Stylized"
@@ -1242,7 +1147,7 @@
       },
       "3d-character-animation-p4": {
         "title": "Character Render",
-        "description": "Campaign-ready character still for social, pitch decks, and launch assets.",
+        "description": "Campaign ready character still for social, pitch decks, and launch assets.",
         "tags": {
           "0": "Character",
           "1": "Campaign"
@@ -1250,7 +1155,7 @@
       },
       "3d-character-animation-p5": {
         "title": "Animation Workflow Film",
-        "description": "Behind-the-scenes 3D cartoon animation workflow from modeling through final character motion.",
+        "description": "Behind the scenes 3D cartoon animation workflow from modeling through final character motion.",
         "tags": {
           "0": "Film",
           "1": "Workflow"
@@ -1266,7 +1171,7 @@
       },
       "3d-anime-animation-p2": {
         "title": "Character Render",
-        "description": "Front-facing character render with anime styling, materials, and lighting polish.",
+        "description": "Front facing character render with anime styling, materials, and lighting polish.",
         "tags": {
           "0": "Character",
           "1": "Render"
@@ -1274,7 +1179,7 @@
       },
       "3d-anime-animation-p3": {
         "title": "Character Render",
-        "description": "Back-facing character render showcasing hair, costume, and silhouette detail.",
+        "description": "Back facing character render showcasing hair, costume, and silhouette detail.",
         "tags": {
           "0": "Character",
           "1": "Turnaround"
@@ -1312,30 +1217,6 @@
           "1": "Healthcare"
         }
       },
-      "exa-motion-p1": {
-        "title": "הפעל את ערכת הכלים",
-        "description": "רכיבי תנועה מודולריים להופעה מרכזית וחברתית.",
-        "tags": {
-          "0": "לְהַשִׁיק",
-          "1": "אַרְגַז כֵּלִים"
-        }
-      },
-      "kurk-motion-p1": {
-        "title": "סיפור מרכיבים",
-        "description": "שכבות-על מסוג קינטי ומקרו למודעות DTC גיבורות.",
-        "tags": {
-          "0": "DTC",
-          "1": "טיפוגרפיה"
-        }
-      },
-      "huya-env-p1": {
-        "title": "Arena World Reveal",
-        "description": "סיור בסביבה קולנועית עם תאורה דינמית ו-VFX.",
-        "tags": {
-          "0": "סְבִיבָה",
-          "1": "לְהַשִׁיק"
-        }
-      },
       "anabomfim-product-p1": {
         "title": "Perfume Product Film",
         "description": "Cinematic 3D perfume animation with studio lighting, liquid sim, and premium packshot finish.",
@@ -1370,7 +1251,7 @@
       },
       "valentino-product-p3": {
         "title": "Perfume Render",
-        "description": "Close-up product render with refined reflections and color grade.",
+        "description": "Close up product render with refined reflections and color grade.",
         "tags": {
           "0": "Render",
           "1": "Beauty"
@@ -1410,7 +1291,7 @@
       },
       "watch-design-product-p3": {
         "title": "Watch Render",
-        "description": "Close-up product render with refined reflections and surface detail.",
+        "description": "Close up product render with refined reflections and surface detail.",
         "tags": {
           "0": "Render",
           "1": "Detail"
@@ -1450,7 +1331,7 @@
       },
       "lemonade-juice-product-p3": {
         "title": "Lemonade Render",
-        "description": "Close-up product render with refined liquid and glass material detail.",
+        "description": "Close up product render with refined liquid and glass material detail.",
         "tags": {
           "0": "Render",
           "1": "Packshot"
@@ -1458,7 +1339,7 @@
       },
       "lemonade-juice-product-p4": {
         "title": "Lemonade Product Film",
-        "description": "Cinematic 3D lemonade animation with fluid motion and campaign-ready product presentation.",
+        "description": "Cinematic 3D lemonade animation with fluid motion and campaign ready product presentation.",
         "tags": {
           "0": "Film",
           "1": "Beverage"
@@ -1474,7 +1355,7 @@
       },
       "steel-reef-product-p1": {
         "title": "Product Render",
-        "description": "Hero studio render with premium materials, lighting, and campaign-ready finish.",
+        "description": "Hero studio render with premium materials, lighting, and campaign ready finish.",
         "tags": {
           "0": "Render",
           "1": "Product"
@@ -1522,7 +1403,7 @@
       },
       "phr-1-product-p1": {
         "title": "Electric Engine Render",
-        "description": "Hero studio render of the PHR-1 electric engine with technical lighting and premium materials.",
+        "description": "Hero studio render of the PHR 1 electric engine with technical lighting and premium materials.",
         "tags": {
           "0": "Render",
           "1": "Engine"
@@ -1537,8 +1418,8 @@
         }
       },
       "phr-1-product-p3": {
-        "title": "PHR-1 Draft Film",
-        "description": "Draft 3D product animation showcasing the PHR-1 electric engine in motion with cinematic camera work.",
+        "title": "PHR 1 Draft Film",
+        "description": "Draft 3D product animation showcasing the PHR 1 electric engine in motion with cinematic camera work.",
         "tags": {
           "0": "Draft",
           "1": "Engine"
@@ -1570,7 +1451,7 @@
       },
       "wristband-product-p3": {
         "title": "Client Reference",
-        "description": "Third client reference highlighting product detail, color, and campaign-ready presentation.",
+        "description": "Third client reference highlighting product detail, color, and campaign ready presentation.",
         "tags": {
           "0": "Reference",
           "1": "Design"
@@ -1602,40 +1483,10 @@
       },
       "wristband-product-p7": {
         "title": "Animation Process Film",
-        "description": "Behind-the-scenes animation process showing the wristband build from reference through final motion.",
+        "description": "Behind the scenes animation process showing the wristband build from reference through final motion.",
         "tags": {
           "0": "Process",
           "1": "Workflow"
-        }
-      },
-      "mirrorskin-vfx-p1": {
-        "title": "Particle Beauty Pass",
-        "description": "חלקיקי סרום מאקרו משולבים בפלטות חיה.",
-        "tags": {
-          "0": "VFX",
-          "1": "יוֹפִי"
-        }
-      },
-      "mirrorskin-vfx-p2": {
-        "title": "גימור טריילר",
-        "description": "קומפלקס מלא לטריילר שיגור משנות ה-30.",
-        "tags": {
-          "0": "גְרוֹר"
-        }
-      },
-      "bello-vfx-p1": {
-        "title": "גיבור קמעונאי",
-        "description": "סביבת CG מתמזגת עם צילום מוצר בסטודיו.",
-        "tags": {
-          "0": "קִמעוֹנִי"
-        }
-      },
-      "moxeys-vfx-p1": {
-        "title": "כרטיס מוצר חלקיקים",
-        "description": "Macro particle FX משולב עם לוחות מוצר סטודיו.",
-        "tags": {
-          "0": "VFX",
-          "1": "מוּצָר"
         }
       },
       "industrial-animation-p1": {
@@ -1768,7 +1619,7 @@
       },
       "atx-industrial-p1": {
         "title": "Technical Product Render",
-        "description": "Photoreal industrial product render with technical lighting and campaign-ready finish.",
+        "description": "Photoreal industrial product render with technical lighting and campaign ready finish.",
         "tags": {
           "0": "Render",
           "1": "Industrial"
@@ -1824,7 +1675,7 @@
       },
       "credex-cleaning-carpet-industrial-p3": {
         "title": "Exploded Views Film",
-        "description": "10-second exploded-view animation revealing internal components and assembly of the carpet cleaner.",
+        "description": "10 second exploded view animation revealing internal components and assembly of the carpet cleaner.",
         "tags": {
           "0": "Exploded",
           "1": "Technical"
@@ -1848,20 +1699,36 @@
       },
       "credex-cleaning-carpet-industrial-p6": {
         "title": "Final HD Film with SFX",
-        "description": "Final high-definition industrial animation with sound design, dynamic camera moves, and commercial polish.",
+        "description": "Final high definition industrial animation with sound design, dynamic camera moves, and commercial polish.",
         "tags": {
           "0": "Final",
           "1": "SFX"
+        }
+      },
+      "integra-pw-industrial-p1": {
+        "title": "Client Product Reference",
+        "description": "Client product reference image guiding the Integra PW industrial animation build.",
+        "tags": {
+          "0": "Reference",
+          "1": "Product"
+        }
+      },
+      "integra-pw-industrial-p2": {
+        "title": "Industrial Product Film",
+        "description": "Cinematic 3D industrial product animation with dynamic camera moves and commercial finish.",
+        "tags": {
+          "0": "Film",
+          "1": "Industrial"
         }
       }
     }
   },
   "accordionPage": {
-    "metaTitle": "FAQ — Starlights Visuals",
-    "metaDescription": "כל מה שצריך לדעת על עבודה איתנו — מהבריף הראשון ועד למסירה הסופית.",
+    "metaTitle": "FAQ | Starlights Visuals",
+    "metaDescription": "כל מה שצריך לדעת על עבודה איתנו, מהבריף הראשון ועד למסירה הסופית.",
     "label": "שאלות נפוצות",
     "title": "שאלות ותשובות",
-    "subtitle": "כל מה שצריך לדעת על עבודה איתנו — מהבריף הראשון ועד למסירה הסופית.",
+    "subtitle": "כל מה שצריך לדעת על עבודה איתנו, מהבריף הראשון ועד למסירה הסופית.",
     "sections": {
       "general": {
         "title": "כללי",
@@ -1872,7 +1739,7 @@
           },
           "02": {
             "question": "איפה Starlights Visuals ממוקמת?",
-            "answer": "אנחנו סטודיו remote-first עם חברי צוות במספר אזורי זמן. אנחנו עובדים עם לקוחות ברחבי העולם ומספקים נכסים מוכנים לפרודקשן באמצעות תהליכי עבודה א-סינכרוניים מובנים וביקורות לייב."
+            "answer": "אנחנו סטודיו remote first עם חברי צוות במספר אזורי זמן. אנחנו עובדים עם לקוחות ברחבי העולם ומספקים נכסים מוכנים לפרודקשן באמצעות תהליכי עבודה א-סינכרוניים מובנים וביקורות לייב."
           },
           "03": {
             "question": "איך מתחילים פרויקט?",
@@ -1893,7 +1760,7 @@
           },
           "03": {
             "question": "האם תוכלו להתאים לסגנון האמנותי הקיים שלנו?",
-            "answer": "בהחלט. אנחנו מתחילים ב-style frames ובשלב look-dev שמותאם להנחיות המותג או לעולם המשחק שלכם לפני שנכנסים להפקה מלאה."
+            "answer": "בהחלט. אנחנו מתחילים ב-style frames ובשלב look development שמותאם להנחיות המותג או לעולם המשחק שלכם לפני שנכנסים להפקה מלאה."
           }
         }
       },
@@ -1902,7 +1769,7 @@
         "items": {
           "01": {
             "question": "מהם לוחות הזמנים המקובלים?",
-            "answer": "הזמנים תלויים בהיקף — social cutdown יכול לקחת שבוע עד שבועיים, בעוד שסינמטיק מלא יכול להימשך ארבעה עד שמונה שבועות. בכל הצעה אנחנו מגדירים אבני דרך ברורות."
+            "answer": "הזמנים תלויים בהיקף, social cutdown יכול לקחת שבוע עד שבועיים, בעוד שסינמטיק מלא יכול להימשך ארבעה עד שמונה שבועות. בכל הצעה אנחנו מגדירים אבני דרך ברורות."
           },
           "02": {
             "question": "איך מתבצע תהליך התיקונים?",
@@ -1910,7 +1777,7 @@
           },
           "03": {
             "question": "באילו פורמטים אתם מוסרים קבצים?",
-            "answer": "אנחנו מוסרים ייצואים מוכנים ל-pipeline שלכם — MP4/MOV לווידאו, רצפי PNG/EXR לפי הצורך, קבצי מקור בשכבות לפי בקשה, ונכסים מוכנים למנוע עבור פרויקטים בזמן אמת."
+            "answer": "אנחנו מוסרים ייצואים מוכנים ל-pipeline שלכם, MP4 and MOV לווידאו, רצפי PNG and EXR לפי הצורך, קבצי מקור בשכבות לפי בקשה, ונכסים מוכנים למנוע עבור פרויקטים בזמן אמת."
           }
         }
       }

@@ -9,7 +9,7 @@ import heroImg from "@/assets/portfolio-character.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — Starlights Visuals" },
+      { title: "About | Starlights Visuals" },
       {
         name: "description",
         content:

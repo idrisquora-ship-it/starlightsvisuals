@@ -76,7 +76,6 @@ export function SiteHeader() {
           !sidebarVisible && "pointer-events-none",
         )}
         aria-hidden={!sidebarVisible}
-        aria-hidden={!sidebarVisible}
       >
         <div className={cn("flex items-start gap-3", isMobile ? "justify-between" : "justify-start")}>
           <SiteLogo onClick={closeMobile} className="pr-2" />

@@ -10,13 +10,13 @@ import {
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "Services — Starlights Visuals" },
+      { title: "Services | Starlights Visuals" },
       {
         name: "description",
         content:
           "2D animation, 3D animation, game development, character design, motion graphics, VFX, and cinematic trailers.",
       },
-      { property: "og:title", content: "Services — Starlights Visuals" },
+      { property: "og:title", content: "Services | Starlights Visuals" },
       {
         property: "og:description",
         content: "Full-stack creative services for games, animation, and cinematic storytelling.",

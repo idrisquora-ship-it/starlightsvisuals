@@ -162,9 +162,8 @@ const rawWorkCategories: WorkCategory[] = [
   {
     slug: "2d-animation",
     title: "2D Animation",
-    tagline: "Frame-by-frame craft for campaigns and series",
-    description:
-      "Character-driven 2D animation for commercials, explainers, and episodic content with bold motion and cinematic timing.",
+    tagline: "Frame by frame craft for campaigns and series",
+    description: "Character driven 2D animation for commercials, explainers, and episodic content with bold motion and cinematic timing.",
     coverImage: portfolio2d,
     clients: [
       client(
@@ -172,8 +171,7 @@ const rawWorkCategories: WorkCategory[] = [
           slug: "2d-cartoon-animation",
           name: "2D Cartoon Animation",
           industry: "Children & Education",
-          description:
-            "Custom 2D character animation and cartoon films for kids learning content, explainers, and branded storytelling.",
+          description: "Custom 2D character animation and cartoon films for kids learning content, explainers, and branded storytelling.",
           projectCount: 2,
           logo: cartoon2dPosters.cartoon,
           banner: cartoon2dPosters.numberNames,
@@ -183,8 +181,7 @@ const rawWorkCategories: WorkCategory[] = [
           projects: [
             {
               title: "Number Names Learning Video",
-              description:
-                "Educational 2D cartoon animation teaching number names with playful characters and clear pacing.",
+              description: "Educational 2D cartoon animation teaching number names with playful characters and clear pacing.",
               thumbnail: cartoon2dPosters.numberNames,
               mediaType: "video",
               mediaSrc: cartoon2dVideos.numberNames,
@@ -193,8 +190,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Custom Cartoon Animation",
-              description:
-                "Bespoke 2D character animation with expressive acting, bold color, and campaign-ready motion.",
+              description: "Bespoke 2D character animation with expressive acting, bold color, and campaign ready motion.",
               thumbnail: cartoon2dPosters.cartoon,
               mediaType: "video",
               mediaSrc: cartoon2dVideos.cartoon,
@@ -211,8 +207,7 @@ const rawWorkCategories: WorkCategory[] = [
           slug: "2d-anime-animation",
           name: "2D Anime Animation",
           industry: "Entertainment & Music",
-          description:
-            "High-quality 2D anime-style animation and music videos with expressive characters and cinematic motion.",
+          description: "High quality 2D anime style animation and music videos with expressive characters and cinematic motion.",
           projectCount: 2,
           logo: anime2dPosters.animeStyle,
           banner: anime2dPosters.musicVideo,
@@ -222,8 +217,7 @@ const rawWorkCategories: WorkCategory[] = [
           projects: [
             {
               title: "Anime Style Animation",
-              description:
-                "Japanese anime-style 2D animation with dynamic posing, expressive acting, and polished line work.",
+              description: "Japanese anime style 2D animation with dynamic posing, expressive acting, and polished line work.",
               thumbnail: anime2dPosters.animeStyle,
               mediaType: "video",
               mediaSrc: anime2dVideos.animeStyle,
@@ -232,8 +226,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Anime Music Video",
-              description:
-                "2D anime music video with rhythmic character motion, bold visuals, and cinematic storytelling.",
+              description: "2D anime music video with rhythmic character motion, bold visuals, and cinematic storytelling.",
               thumbnail: anime2dPosters.musicVideo,
               mediaType: "video",
               mediaSrc: anime2dVideos.musicVideo,
@@ -248,10 +241,9 @@ const rawWorkCategories: WorkCategory[] = [
       client(
         {
           slug: "chibi-art",
-          name: "Chbi ART",
+          name: "Chibi Art",
           industry: "Character & Illustration",
-          description:
-            "Chibi-style 2D character animation with expressive scenes and behind-the-scenes making process films.",
+          description: "Chibi style 2D character animation with expressive scenes and behind the scenes making process films.",
           projectCount: 3,
           logo: chibiArtPosters.scene1,
           banner: chibiArtPosters.scene2,
@@ -261,8 +253,7 @@ const rawWorkCategories: WorkCategory[] = [
           projects: [
             {
               title: "Chibi Art Scene 1",
-              description:
-                "Playful chibi character animation with bold color, expressive acting, and charming scene storytelling.",
+              description: "Playful chibi character animation with bold color, expressive acting, and charming scene storytelling.",
               thumbnail: chibiArtPosters.scene1,
               mediaType: "video",
               mediaSrc: chibiArtVideos.scene1,
@@ -271,8 +262,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Chibi Art Scene 2",
-              description:
-                "Second chibi animation scene with dynamic character motion and polished 2D illustration style.",
+              description: "Second chibi animation scene with dynamic character motion and polished 2D illustration style.",
               thumbnail: chibiArtPosters.scene2,
               mediaType: "video",
               mediaSrc: chibiArtVideos.scene2,
@@ -281,8 +271,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Making Process Film",
-              description:
-                "Behind-the-scenes look at the chibi art creation and animation workflow from sketch to final motion.",
+              description: "Behind the scenes look at the chibi art creation and animation workflow from sketch to final motion.",
               thumbnail: chibiArtPosters.makingProcess,
               mediaType: "video",
               mediaSrc: chibiArtVideos.makingProcess,
@@ -299,8 +288,7 @@ const rawWorkCategories: WorkCategory[] = [
           slug: "live2d",
           name: "Live2D",
           industry: "Character & VTuber",
-          description:
-            "Live2D character art, rigging, and animation from character design through sample films and making-process breakdowns.",
+          description: "Live2D character art, rigging, and animation from character design through sample films and making process breakdowns.",
           projectCount: 4,
           logo: live2dCharacterImage,
           banner: live2dPosters.sample,
@@ -310,7 +298,7 @@ const rawWorkCategories: WorkCategory[] = [
           projects: [
             {
               title: "Character Art",
-              description: "Finished Live2D character illustration with expressive posing and campaign-ready polish.",
+              description: "Finished Live2D character illustration with expressive posing and campaign ready polish.",
               thumbnail: live2dCharacterImage,
               mediaType: "image",
               mediaSrc: live2dCharacterImage,
@@ -319,8 +307,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Live2D Video Sample",
-              description:
-                "Animated Live2D character sample showcasing rigged motion, expression, and polished 2D performance.",
+              description: "Animated Live2D character sample showcasing rigged motion, expression, and polished 2D performance.",
               thumbnail: live2dPosters.sample,
               mediaType: "video",
               mediaSrc: live2dVideos.sample,
@@ -329,8 +316,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Rigging Process",
-              description:
-                "Live2D rigging workflow film showing mesh setup, deformation, and character puppet preparation.",
+              description: "Live2D rigging workflow film showing mesh setup, deformation, and character puppet preparation.",
               thumbnail: live2dPosters.rigging,
               mediaType: "video",
               mediaSrc: live2dVideos.rigging,
@@ -339,8 +325,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Making Process Film",
-              description:
-                "Behind-the-scenes look at the Live2D character build from art through rigging and final animation.",
+              description: "Behind the scenes look at the Live2D character build from art through rigging and final animation.",
               thumbnail: live2dPosters.makingProcess,
               mediaType: "video",
               mediaSrc: live2dVideos.makingProcess,
@@ -355,10 +340,9 @@ const rawWorkCategories: WorkCategory[] = [
       client(
         {
           slug: "vtuber",
-          name: "Vtuber",
+          name: "VTuber",
           industry: "VTuber & Character",
-          description:
-            "VTuber character art and 2D animation — princess samples, character films, process breakdowns, and polished Live2D-style performance.",
+          description: "VTuber character art and 2D animation, princess samples, character films, process breakdowns, and polished Live2D style performance.",
           projectCount: 8,
           logo: vtuberCharacterImage1,
           banner: vtuberPosters.princessSample,
@@ -368,7 +352,7 @@ const rawWorkCategories: WorkCategory[] = [
           projects: [
             {
               title: "VTuber Character Art",
-              description: "Finished VTuber character illustration with expressive posing and campaign-ready polish.",
+              description: "Finished VTuber character illustration with expressive posing and campaign ready polish.",
               thumbnail: vtuberCharacterImage1,
               mediaType: "image",
               mediaSrc: vtuberCharacterImage1,
@@ -386,8 +370,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Princess VTuber Sample",
-              description:
-                "Animated princess VTuber sample showcasing character expression, rigged motion, and polished 2D performance.",
+              description: "Animated princess VTuber sample showcasing character expression, rigged motion, and polished 2D performance.",
               thumbnail: vtuberPosters.princessSample,
               mediaType: "video",
               mediaSrc: vtuberVideos.princessSample,
@@ -423,7 +406,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Video Process Film",
-              description: "Behind-the-scenes VTuber animation process from art through rigging and final motion.",
+              description: "Behind the scenes VTuber animation process from art through rigging and final motion.",
               thumbnail: vtuberPosters.process,
               mediaType: "video",
               mediaSrc: vtuberVideos.process,
@@ -432,7 +415,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Stella Manami VTuber Film",
-              description: "Character-driven VTuber animation sample featuring Stella Manami with polished 2D performance.",
+              description: "Character driven VTuber animation sample featuring Stella Manami with polished 2D performance.",
               thumbnail: vtuberPosters.stellaManami,
               mediaType: "video",
               mediaSrc: vtuberVideos.stellaManami,
@@ -449,8 +432,7 @@ const rawWorkCategories: WorkCategory[] = [
           slug: "raiv-2d-game-nsfw",
           name: "RAIV 2D Game NSFW",
           industry: "Game & Interactive",
-          description:
-            "2D game character animation and scene work for RAIV — character design, motion cycles, and polished in-game animation sequences.",
+          description: "2D game character animation and scene work for RAIV, character design, motion cycles, and polished in game animation sequences.",
           projectCount: 13,
           logo: raivCharacterColors,
           banner: raivCharacterSketch,
@@ -460,7 +442,7 @@ const rawWorkCategories: WorkCategory[] = [
           projects: [
             {
               title: "Character Art",
-              description: "Finished 2D game character illustration with full color, posing, and production-ready polish.",
+              description: "Finished 2D game character illustration with full color, posing, and production ready polish.",
               thumbnail: raivCharacterColors,
               mediaType: "image",
               mediaSrc: raivCharacterColors,
@@ -487,7 +469,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Jump Animation",
-              description: "2D character jump cycle animation with expressive motion and game-ready timing.",
+              description: "2D character jump cycle animation with expressive motion and game ready timing.",
               thumbnail: raiv2dPosters.animation01Jump,
               mediaType: "video",
               mediaSrc: raiv2dVideos.animation01Jump,
@@ -586,8 +568,7 @@ const rawWorkCategories: WorkCategory[] = [
     slug: "3d-animation",
     title: "3D Animation",
     tagline: "Photoreal and stylized 3D for brands and film",
-    description:
-      "Product, character, and environment animation with cinematic lighting, physics, and premium finish.",
+    description: "Product, character, and environment animation with cinematic lighting, physics, and premium finish.",
     coverImage: portfolioCharacter,
     clients: [
       client(
@@ -595,8 +576,7 @@ const rawWorkCategories: WorkCategory[] = [
           slug: "3d-character-animation",
           name: "3D Character Animation",
           industry: "Character & Entertainment",
-          description:
-            "Stylized 3D character design, posing, and cinematic animation from concept through final showcase films.",
+          description: "Stylized 3D character design, posing, and cinematic animation from concept through final showcase films.",
           projectCount: 5,
           logo: character3dImage1,
           banner: character3dImage3,
@@ -624,7 +604,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Character Render",
-              description: "Full-body character frame with refined lighting and surface detail.",
+              description: "Full body character frame with refined lighting and surface detail.",
               thumbnail: character3dImage3,
               mediaType: "image",
               mediaSrc: character3dImage3,
@@ -633,7 +613,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Character Render",
-              description: "Campaign-ready character still for social, pitch decks, and launch assets.",
+              description: "Campaign ready character still for social, pitch decks, and launch assets.",
               thumbnail: character3dImage4,
               mediaType: "image",
               mediaSrc: character3dImage4,
@@ -642,8 +622,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Animation Workflow Film",
-              description:
-                "Behind-the-scenes 3D cartoon animation workflow from modeling through final character motion.",
+              description: "Behind the scenes 3D cartoon animation workflow from modeling through final character motion.",
               thumbnail: character3dImage1,
               mediaType: "video",
               mediaSrc: character3dVideos.workflow,
@@ -660,8 +639,7 @@ const rawWorkCategories: WorkCategory[] = [
           slug: "3d-anime-animation",
           name: "3D Anime Animation",
           industry: "Anime & Character Design",
-          description:
-            "3D anime character development from client reference through modeling, turntable renders, and client showcase films.",
+          description: "3D anime character development from client reference through modeling, turntable renders, and client showcase films.",
           projectCount: 5,
           logo: anime3dClientReference,
           banner: anime3dBlackRedFront,
@@ -680,7 +658,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Character Render",
-              description: "Front-facing character render with anime styling, materials, and lighting polish.",
+              description: "Front facing character render with anime styling, materials, and lighting polish.",
               thumbnail: anime3dBlackRedFront,
               mediaType: "image",
               mediaSrc: anime3dBlackRedFront,
@@ -689,7 +667,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Character Render",
-              description: "Back-facing character render showcasing hair, costume, and silhouette detail.",
+              description: "Back facing character render showcasing hair, costume, and silhouette detail.",
               thumbnail: anime3dBlackRedBack,
               mediaType: "image",
               mediaSrc: anime3dBlackRedBack,
@@ -724,8 +702,7 @@ const rawWorkCategories: WorkCategory[] = [
           slug: "3d-medical-animation",
           name: "3D Medical Animation",
           industry: "Healthcare & Medical",
-          description:
-            "High-quality 3D medical animation covering anatomy, surgical procedures, and medical device visualization.",
+          description: "High quality 3D medical animation covering anatomy, surgical procedures, and medical device visualization.",
           projectCount: 2,
           logo: medical3dPosters.surgical,
           banner: medical3dPosters.sample,
@@ -735,8 +712,7 @@ const rawWorkCategories: WorkCategory[] = [
           projects: [
             {
               title: "Surgical & Medical Device Film",
-              description:
-                "Detailed 3D medical animation showcasing anatomy, surgical technique, and medical device presentation.",
+              description: "Detailed 3D medical animation showcasing anatomy, surgical technique, and medical device presentation.",
               thumbnail: medical3dPosters.surgical,
               mediaType: "video",
               mediaSrc: medical3dVideos.surgical,
@@ -745,8 +721,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Medical Animation Sample",
-              description:
-                "Cinematic medical visualization with accurate anatomy, lighting, and educational storytelling.",
+              description: "Cinematic medical visualization with accurate anatomy, lighting, and educational storytelling.",
               thumbnail: medical3dPosters.sample,
               mediaType: "video",
               mediaSrc: medical3dVideos.sample,
@@ -764,8 +739,7 @@ const rawWorkCategories: WorkCategory[] = [
     slug: "video-editing",
     title: "Product Animation",
     tagline: "Photoreal product films and cinematic packshots",
-    description:
-      "Editorial finishing, rhythm, and story structure for commercials, documentaries, and brand films.",
+    description: "Editorial finishing, rhythm, and story structure for commercials, documentaries, and brand films.",
     coverImage: portfolioTrailer,
     clients: [
       client(
@@ -773,8 +747,7 @@ const rawWorkCategories: WorkCategory[] = [
           slug: "anabomfim",
           name: "Anabomfim",
           industry: "Beauty & Fragrance",
-          description:
-            "Photoreal 3D product animation for luxury fragrance launches and campaign hero films.",
+          description: "Photoreal 3D product animation for luxury fragrance launches and campaign hero films.",
           projectCount: 2,
           logo: anabomfimPerfume,
           banner: anabomfimPerfume,
@@ -784,8 +757,7 @@ const rawWorkCategories: WorkCategory[] = [
           projects: [
             {
               title: "Perfume Render",
-              description:
-                "Photoreal studio render with premium glass materials, ribbon detail, and campaign-ready lighting.",
+              description: "Photoreal studio render with premium glass materials, ribbon detail, and campaign ready lighting.",
               thumbnail: anabomfimPerfume,
               mediaType: "image",
               mediaSrc: anabomfimPerfume,
@@ -794,8 +766,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Perfume Product Film",
-              description:
-                "Cinematic 3D perfume animation with studio lighting, liquid sim, and premium packshot finish.",
+              description: "Cinematic 3D perfume animation with studio lighting, liquid sim, and premium packshot finish.",
               thumbnail: anabomfimPerfume,
               mediaType: "video",
               mediaSrc: anabomfimVideos.perfume,
@@ -812,8 +783,7 @@ const rawWorkCategories: WorkCategory[] = [
           slug: "valentino",
           name: "Valentino",
           industry: "Luxury Beauty & Fragrance",
-          description:
-            "High-end 3D perfume visualization and cinematic product films for luxury fragrance campaigns.",
+          description: "High end 3D perfume visualization and cinematic product films for luxury fragrance campaigns.",
           projectCount: 5,
           logo: valentinoRender1,
           banner: valentinoRender2,
@@ -841,7 +811,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Perfume Render",
-              description: "Close-up product render with refined reflections and color grade.",
+              description: "Close up product render with refined reflections and color grade.",
               thumbnail: valentinoRender3,
               mediaType: "image",
               mediaSrc: valentinoRender3,
@@ -859,8 +829,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Perfume Product Film",
-              description:
-                "Cinematic 3D perfume animation with fluid dynamics and luxury brand presentation.",
+              description: "Cinematic 3D perfume animation with fluid dynamics and luxury brand presentation.",
               thumbnail: valentinoRender1,
               mediaType: "video",
               mediaSrc: valentinoVideos.perfume,
@@ -877,8 +846,7 @@ const rawWorkCategories: WorkCategory[] = [
           slug: "watch-design-and-animation",
           name: "Watch Design and Animation",
           industry: "Luxury Watches & Product Design",
-          description:
-            "Concept-to-final 3D watch design, photoreal renders, and cinematic product animation for luxury timepieces.",
+          description: "Concept to final 3D watch design, photoreal renders, and cinematic product animation for luxury timepieces.",
           projectCount: 5,
           logo: watchRender1,
           banner: watchRender2,
@@ -906,7 +874,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Watch Render",
-              description: "Close-up product render with refined reflections and surface detail.",
+              description: "Close up product render with refined reflections and surface detail.",
               thumbnail: watchRender3,
               mediaType: "image",
               mediaSrc: watchRender3,
@@ -924,8 +892,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Watch Product Film",
-              description:
-                "Cinematic 3D watch animation from concept design through final product presentation.",
+              description: "Cinematic 3D watch animation from concept design through final product presentation.",
               thumbnail: watchRender1,
               mediaType: "video",
               mediaSrc: watchDesignVideos.productDesign,
@@ -942,8 +909,7 @@ const rawWorkCategories: WorkCategory[] = [
           slug: "lemonade-juice",
           name: "Lemonade Juice",
           industry: "Food & Beverage",
-          description:
-            "Photoreal 3D lemonade renders and cinematic product animation for beverage campaigns and retail.",
+          description: "Photoreal 3D lemonade renders and cinematic product animation for beverage campaigns and retail.",
           projectCount: 4,
           logo: lemonadeRender1,
           banner: lemonadeRender2,
@@ -971,7 +937,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Lemonade Render",
-              description: "Close-up product render with refined liquid and glass material detail.",
+              description: "Close up product render with refined liquid and glass material detail.",
               thumbnail: lemonadeRender3,
               mediaType: "image",
               mediaSrc: lemonadeRender3,
@@ -980,8 +946,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Lemonade Product Film",
-              description:
-                "Cinematic 3D lemonade animation with fluid motion and campaign-ready product presentation.",
+              description: "Cinematic 3D lemonade animation with fluid motion and campaign ready product presentation.",
               thumbnail: lemonadeRender1,
               mediaType: "video",
               mediaSrc: lemonadeJuiceVideos.product,
@@ -998,8 +963,7 @@ const rawWorkCategories: WorkCategory[] = [
           slug: "shoks",
           name: "SHOKS",
           industry: "Consumer Electronics",
-          description:
-            "Photoreal 3D earbud product animation with studio lighting, material detail, and campaign-ready motion.",
+          description: "Photoreal 3D earbud product animation with studio lighting, material detail, and campaign ready motion.",
           projectCount: 1,
           logo: shoksPosters.earbud,
           banner: shoksPosters.earbud,
@@ -1009,8 +973,7 @@ const rawWorkCategories: WorkCategory[] = [
           projects: [
             {
               title: "Earbud Product Film",
-              description:
-                "Cinematic 3D earbud animation highlighting form, materials, and premium product presentation.",
+              description: "Cinematic 3D earbud animation highlighting form, materials, and premium product presentation.",
               thumbnail: shoksPosters.earbud,
               mediaType: "video",
               mediaSrc: shoksVideos.earbud,
@@ -1027,8 +990,7 @@ const rawWorkCategories: WorkCategory[] = [
           slug: "steel-reef",
           name: "STEEL REEF",
           industry: "Consumer Products",
-          description:
-            "Photoreal 3D product renders and cinematic animation for STEEL REEF brand campaigns and retail.",
+          description: "Photoreal 3D product renders and cinematic animation for STEEL REEF brand campaigns and retail.",
           projectCount: 3,
           logo: steelReefRender1,
           banner: steelReefRender2,
@@ -1038,7 +1000,7 @@ const rawWorkCategories: WorkCategory[] = [
           projects: [
             {
               title: "Product Render",
-              description: "Hero studio render with premium materials, lighting, and campaign-ready finish.",
+              description: "Hero studio render with premium materials, lighting, and campaign ready finish.",
               thumbnail: steelReefRender1,
               mediaType: "image",
               mediaSrc: steelReefRender1,
@@ -1056,8 +1018,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Product Film",
-              description:
-                "Cinematic 3D product animation with dynamic camera moves and polished commercial finish.",
+              description: "Cinematic 3D product animation with dynamic camera moves and polished commercial finish.",
               thumbnail: steelReefRender1,
               mediaType: "video",
               mediaSrc: steelReefVideos.product,
@@ -1074,8 +1035,7 @@ const rawWorkCategories: WorkCategory[] = [
           slug: "simba-mattress-animation",
           name: "Simba Mattress Animation",
           industry: "Home & Furniture",
-          description:
-            "Photoreal 3D mattress and furniture product animation with cinematic lighting and commercial polish.",
+          description: "Photoreal 3D mattress and furniture product animation with cinematic lighting and commercial polish.",
           projectCount: 2,
           logo: simbaMattressPosters.introducing,
           banner: simbaMattressPosters.product,
@@ -1085,8 +1045,7 @@ const rawWorkCategories: WorkCategory[] = [
           projects: [
             {
               title: "Simba Introducing Film",
-              description:
-                "Cinematic 3D product animation introducing the Simba mattress with dynamic camera moves and premium finish.",
+              description: "Cinematic 3D product animation introducing the Simba mattress with dynamic camera moves and premium finish.",
               thumbnail: simbaMattressPosters.introducing,
               mediaType: "video",
               mediaSrc: simbaMattressVideos.introducing,
@@ -1095,8 +1054,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Mattress Product Film",
-              description:
-                "Photoreal 3D mattress animation highlighting materials, comfort layers, and furniture product presentation.",
+              description: "Photoreal 3D mattress animation highlighting materials, comfort layers, and furniture product presentation.",
               thumbnail: simbaMattressPosters.product,
               mediaType: "video",
               mediaSrc: simbaMattressVideos.product,
@@ -1113,8 +1071,7 @@ const rawWorkCategories: WorkCategory[] = [
           slug: "suitcase-animation",
           name: "Suitcase Animation",
           industry: "Travel & Luggage",
-          description:
-            "Photoreal 3D suitcase and bag product animation with cinematic lighting and commercial polish.",
+          description: "Photoreal 3D suitcase and bag product animation with cinematic lighting and commercial polish.",
           projectCount: 1,
           logo: suitcasePosters.product,
           banner: suitcasePosters.product,
@@ -1124,8 +1081,7 @@ const rawWorkCategories: WorkCategory[] = [
           projects: [
             {
               title: "Suitcase Product Film",
-              description:
-                "Cinematic 3D suitcase animation highlighting materials, form, and premium luggage product presentation.",
+              description: "Cinematic 3D suitcase animation highlighting materials, form, and premium luggage product presentation.",
               thumbnail: suitcasePosters.product,
               mediaType: "video",
               mediaSrc: suitcaseVideos.product,
@@ -1142,8 +1098,7 @@ const rawWorkCategories: WorkCategory[] = [
           slug: "phr-1",
           name: "PHR 1",
           industry: "Automotive & Electric",
-          description:
-            "Photoreal 3D electric engine product animation and technical renders for the PHR-1 with cinematic commercial polish.",
+          description: "Photoreal 3D electric engine product animation and technical renders for the PHR 1 with cinematic commercial polish.",
           projectCount: 4,
           logo: phr1Render1,
           banner: phr1Render2,
@@ -1153,7 +1108,7 @@ const rawWorkCategories: WorkCategory[] = [
           projects: [
             {
               title: "Electric Engine Render",
-              description: "Hero studio render of the PHR-1 electric engine with technical lighting and premium materials.",
+              description: "Hero studio render of the PHR 1 electric engine with technical lighting and premium materials.",
               thumbnail: phr1Render1,
               mediaType: "image",
               mediaSrc: phr1Render1,
@@ -1170,9 +1125,8 @@ const rawWorkCategories: WorkCategory[] = [
               year: 2025,
             },
             {
-              title: "PHR-1 Draft Film",
-              description:
-                "Draft 3D product animation showcasing the PHR-1 electric engine in motion with cinematic camera work.",
+              title: "PHR 1 Draft Film",
+              description: "Draft 3D product animation showcasing the PHR 1 electric engine in motion with cinematic camera work.",
               thumbnail: phr1Posters.draft,
               mediaType: "video",
               mediaSrc: phr1Videos.draft,
@@ -1181,8 +1135,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Electric Engine Film",
-              description:
-                "Cinematic 3D electric engine animation with dynamic motion, materials, and commercial finish.",
+              description: "Cinematic 3D electric engine animation with dynamic motion, materials, and commercial finish.",
               thumbnail: phr1Posters.film,
               mediaType: "video",
               mediaSrc: phr1Videos.film,
@@ -1199,8 +1152,7 @@ const rawWorkCategories: WorkCategory[] = [
           slug: "wristband-animation",
           name: "Wristband Animation",
           industry: "Wearables & Consumer Products",
-          description:
-            "Photoreal 3D wristband product animation from client references through cinematic films and animation process breakdowns.",
+          description: "Photoreal 3D wristband product animation from client references through cinematic films and animation process breakdowns.",
           projectCount: 7,
           logo: wristbandRef1,
           banner: wristbandRef3,
@@ -1228,7 +1180,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Client Reference",
-              description: "Third client reference highlighting product detail, color, and campaign-ready presentation.",
+              description: "Third client reference highlighting product detail, color, and campaign ready presentation.",
               thumbnail: wristbandRef3,
               mediaType: "image",
               mediaSrc: wristbandRef3,
@@ -1255,8 +1207,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Wristband Product Film",
-              description:
-                "Cinematic 3D wristband animation with dynamic camera moves, premium materials, and commercial polish.",
+              description: "Cinematic 3D wristband animation with dynamic camera moves, premium materials, and commercial polish.",
               thumbnail: wristbandPosters.wristband02,
               mediaType: "video",
               mediaSrc: wristbandVideos.wristband02,
@@ -1265,8 +1216,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Animation Process Film",
-              description:
-                "Behind-the-scenes animation process showing the wristband build from reference through final motion.",
+              description: "Behind the scenes animation process showing the wristband build from reference through final motion.",
               thumbnail: wristbandPosters.process,
               mediaType: "video",
               mediaSrc: wristbandVideos.process,
@@ -1284,8 +1234,7 @@ const rawWorkCategories: WorkCategory[] = [
     slug: "branding",
     title: "Industrial Animation",
     tagline: "Technical storytelling for products and manufacturing",
-    description:
-      "Brand films, identity motion, and launch assets that define how audiences remember your name.",
+    description: "Brand films, identity motion, and launch assets that define how audiences remember your name.",
     coverImage: portfolioGame,
     clients: [
       client(
@@ -1293,18 +1242,17 @@ const rawWorkCategories: WorkCategory[] = [
           slug: "industrial-animation",
           name: "Industrial Animation",
           industry: "Manufacturing & Heavy Equipment",
-          description:
-            "Realistic 3D industrial and CGI product animation for heavy machinery, assembly showcases, and technical marketing films.",
+          description: "Realistic 3D industrial and CGI product animation for heavy machinery, assembly showcases, and technical marketing films.",
           projectCount: 5,
           logo: caterpillarBanner,
           banner: caterpillarKeyVisual,
           services: ["Industrial Animation", "CGI Product Film", "Technical Visualization"],
-          timeline: "2024 — 2025",
+          timeline: "2024 to 2025",
           tools: ["Cinema 4D", "Blender", "After Effects"],
           projects: [
             {
               title: "Industrial Hero Still",
-              description: "Key still frame from a heavy-equipment industrial animation sequence.",
+              description: "Key still frame from a heavy equipment industrial animation sequence.",
               thumbnail: caterpillarBanner,
               mediaType: "image",
               mediaSrc: caterpillarBanner,
@@ -1357,13 +1305,12 @@ const rawWorkCategories: WorkCategory[] = [
           slug: "ijockey",
           name: "Ijockey",
           industry: "Consumer Products",
-          description:
-            "3D product animation, paper renders, and branded films for Ijockey's retail and campaign launches.",
+          description: "3D product animation, paper renders, and branded films for Ijockey's retail and campaign launches.",
           projectCount: 11,
           logo: ijockeyFinalProduct,
           banner: ijockeyFinalProduct1,
           services: ["3D Product Animation", "Industrial Render", "Brand Film"],
-          timeline: "2024 — 2025",
+          timeline: "2024 to 2025",
           tools: ["Cinema 4D", "Blender", "After Effects"],
           projects: [
             {
@@ -1395,7 +1342,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Modelling",
-              description: "3D block-out and modelling pass for the Ijockey product.",
+              description: "3D block out and modelling pass for the Ijockey product.",
               thumbnail: ijockeyModelling,
               mediaType: "image",
               mediaSrc: ijockeyModelling,
@@ -1440,7 +1387,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Branded Product Film",
-              description: "Branded product animation with on-screen typography and logo treatment.",
+              description: "Branded product animation with on screen typography and logo treatment.",
               thumbnail: ijockeyFinalProduct,
               mediaType: "video",
               mediaSrc: ijockeyVideos.withText,
@@ -1449,7 +1396,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Clean Product Animation",
-              description: "Logo-free product animation for flexible channel versioning.",
+              description: "Logo free product animation for flexible channel versioning.",
               thumbnail: ijockeyFinalProduct1,
               mediaType: "video",
               mediaSrc: ijockeyVideos.withoutText,
@@ -1475,8 +1422,7 @@ const rawWorkCategories: WorkCategory[] = [
           slug: "atx",
           name: "ATX",
           industry: "Manufacturing & Technical Products",
-          description:
-            "3D technical product animation and industrial visualization for ATX, from Fusion 360 builds through Blender renders and cinematic films.",
+          description: "3D technical product animation and industrial visualization for ATX, from Fusion 360 builds through Blender renders and cinematic films.",
           projectCount: 4,
           logo: atxRender1,
           banner: atxRender2,
@@ -1486,7 +1432,7 @@ const rawWorkCategories: WorkCategory[] = [
           projects: [
             {
               title: "Technical Product Render",
-              description: "Photoreal industrial product render with technical lighting and campaign-ready finish.",
+              description: "Photoreal industrial product render with technical lighting and campaign ready finish.",
               thumbnail: atxRender1,
               mediaType: "image",
               mediaSrc: atxRender1,
@@ -1513,8 +1459,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Industrial Animation Film",
-              description:
-                "Cinematic 3D industrial animation showcasing technical product motion and manufacturing presentation.",
+              description: "Cinematic 3D industrial animation showcasing technical product motion and manufacturing presentation.",
               thumbnail: atxPosters.industrial,
               mediaType: "video",
               mediaSrc: atxVideos.industrial,
@@ -1531,8 +1476,7 @@ const rawWorkCategories: WorkCategory[] = [
           slug: "autoz-crave",
           name: "AUTOZ CRAVE",
           industry: "Automotive & Mechanical",
-          description:
-            "3D industrial product animation showcasing mechanical systems, technical detail, and cinematic automotive presentation.",
+          description: "3D industrial product animation showcasing mechanical systems, technical detail, and cinematic automotive presentation.",
           projectCount: 1,
           logo: autozCravePosters.industrial,
           banner: autozCravePosters.industrial,
@@ -1542,8 +1486,7 @@ const rawWorkCategories: WorkCategory[] = [
           projects: [
             {
               title: "Industrial Product Film",
-              description:
-                "Cinematic 3D mechanical and technical product animation with dynamic camera moves and industrial polish.",
+              description: "Cinematic 3D mechanical and technical product animation with dynamic camera moves and industrial polish.",
               thumbnail: autozCravePosters.industrial,
               mediaType: "video",
               mediaSrc: autozCraveVideos.industrial,
@@ -1560,8 +1503,7 @@ const rawWorkCategories: WorkCategory[] = [
           slug: "credex-cleaning-carpet",
           name: "CREDEX CLEANING CARPET",
           industry: "Consumer Products & Cleaning",
-          description:
-            "3D industrial product animation for CREDEX carpet cleaning machines — client references, exploded views, and cinematic films with SFX.",
+          description: "3D industrial product animation for CREDEX carpet cleaning machines, client references, exploded views, and cinematic films with SFX.",
           projectCount: 6,
           logo: credexClientReference1,
           banner: credexClientReference2,
@@ -1589,8 +1531,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Exploded Views Film",
-              description:
-                "10-second exploded-view animation revealing internal components and assembly of the carpet cleaner.",
+              description: "10 second exploded view animation revealing internal components and assembly of the carpet cleaner.",
               thumbnail: credexCleaningPosters.explodedViews,
               mediaType: "video",
               mediaSrc: credexCleaningVideos.explodedViews,
@@ -1617,8 +1558,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Final HD Film with SFX",
-              description:
-                "Final high-definition industrial animation with sound design, dynamic camera moves, and commercial polish.",
+              description: "Final high definition industrial animation with sound design, dynamic camera moves, and commercial polish.",
               thumbnail: credexCleaningPosters.finalSfx,
               mediaType: "video",
               mediaSrc: credexCleaningVideos.finalSfx,
@@ -1635,8 +1575,7 @@ const rawWorkCategories: WorkCategory[] = [
           slug: "integra-pw",
           name: "Integra PW",
           industry: "Industrial & Power Equipment",
-          description:
-            "3D industrial product animation for Integra PW — from client reference through cinematic product films with technical polish.",
+          description: "3D industrial product animation for Integra PW, from client reference through cinematic product films with technical polish.",
           projectCount: 2,
           logo: integraPwClientReference,
           banner: integraPwPosters.product,
@@ -1655,8 +1594,7 @@ const rawWorkCategories: WorkCategory[] = [
             },
             {
               title: "Industrial Product Film",
-              description:
-                "Cinematic 3D industrial product animation with dynamic camera moves and commercial finish.",
+              description: "Cinematic 3D industrial product animation with dynamic camera moves and commercial finish.",
               thumbnail: integraPwPosters.product,
               mediaType: "video",
               mediaSrc: integraPwVideos.product,

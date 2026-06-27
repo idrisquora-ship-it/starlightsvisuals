@@ -9,13 +9,13 @@ import { useLocalizedBlogPosts } from "@/hooks/use-localized-blog";
 export const Route = createFileRoute("/blog/")({
   head: () => ({
     meta: [
-      { title: "Blog — Starlights Visuals" },
+      { title: "Blog | Starlights Visuals" },
       {
         name: "description",
         content:
           "Insights on animation, VFX, game art, cinematic trailers, and premium brand storytelling from Starlights Visuals.",
       },
-      { property: "og:title", content: "Blog — Starlights Visuals" },
+      { property: "og:title", content: "Blog | Starlights Visuals" },
       {
         property: "og:description",
         content: "Studio notes on craft, production, and conversion-focused creative.",

@@ -10,13 +10,13 @@ import { useLocalizedCategories } from "@/hooks/use-localized-works";
 export const Route = createFileRoute("/portfolio")({
   head: () => ({
     meta: [
-      { title: "Portfolio — Starlights Visuals" },
+      { title: "Portfolio | Starlights Visuals" },
       {
         name: "description",
         content:
           "Explore animation, VFX, motion graphics, video editing, and branding work by category and client.",
       },
-      { property: "og:title", content: "Portfolio — Starlights Visuals" },
+      { property: "og:title", content: "Portfolio | Starlights Visuals" },
       {
         property: "og:description",
         content: "Multi-level portfolio: categories, clients, and project showcases.",

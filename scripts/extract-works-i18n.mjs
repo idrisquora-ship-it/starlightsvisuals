@@ -95,10 +95,10 @@ function extractClients(categoryBlock) {
 
 function extractCategories() {
   const section = source.match(
-    /export const workCategories[\s\S]*?=\s*\[([\s\S]*?)\];\s*\r?\n\r?\nconst showcaseLabels/,
+    /const rawWorkCategories[\s\S]*?=\s*\[([\s\S]*?)\];\s*\r?\n\r?\nexport const workCategories/,
   )?.[1];
 
-  if (!section) throw new Error("Could not find workCategories array in portfolio-works.ts");
+  if (!section) throw new Error("Could not find rawWorkCategories array in portfolio-works.ts");
 
   const chunks = section.split(/    \],\r?\n  \},\r?\n  \{\r?\n    slug: /);
 

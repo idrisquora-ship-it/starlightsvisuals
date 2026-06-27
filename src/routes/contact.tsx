@@ -8,7 +8,7 @@ import { Mail, MapPin, Clock, Send, Instagram, Youtube, Twitter, Linkedin } from
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — Starlights Visuals" },
+      { title: "Contact | Starlights Visuals" },
       {
         name: "description",
         content:

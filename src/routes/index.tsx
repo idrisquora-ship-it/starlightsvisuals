@@ -14,13 +14,13 @@ import { ArrowRight, ArrowUpRight } from "lucide-react";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Starlights Visuals — Animation, VFX & Game Art Studio" },
+      { title: "Starlights Visuals | Animation, VFX & Game Art Studio" },
       {
         name: "description",
         content:
-          "A creative studio for 2D / 3D animation, VFX, and game art. We bring fantasy worlds, characters and cinematics to life.",
+          "A creative studio for 2D and 3D animation, VFX, and game art. We bring fantasy worlds, characters and cinematics to life.",
       },
-      { property: "og:title", content: "Starlights Visuals — Animation & VFX Studio" },
+      { property: "og:title", content: "Starlights Visuals | Animation & VFX Studio" },
       {
         property: "og:description",
         content: "Animation, VFX, and game art. Worlds, characters, cinematics.",

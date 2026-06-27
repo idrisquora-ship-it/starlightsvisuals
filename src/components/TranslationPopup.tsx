@@ -160,7 +160,7 @@ export function TranslationPopup() {
                   onClick={handleTranslate}
                   className="flex-1 rounded-full bg-neon-green px-5 py-3 font-display text-xs uppercase tracking-widest text-background transition hover:shadow-[0_0_28px_-6px_oklch(0.88_0.27_142/0.65)]"
                 >
-                  {t("popup.translate")} — {lang.nativeLabel}
+                  {t("popup.translate")} · {lang.nativeLabel}
                 </button>
                 <button
                   type="button"

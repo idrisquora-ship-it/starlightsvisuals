@@ -14,8 +14,8 @@ export const Route = createFileRoute("/blog/$slug")({
       meta: [
         {
           title: post
-            ? `${post.title} — Starlights Visuals Blog`
-            : "Blog — Starlights Visuals",
+            ? `${post.title} | Starlights Visuals Blog`
+            : "Blog | Starlights Visuals",
         },
         {
           name: "description",

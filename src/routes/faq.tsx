@@ -18,13 +18,13 @@ const ITEM_IDS = ["01", "02", "03"] as const;
 export const Route = createFileRoute("/faq")({
   head: () => ({
     meta: [
-      { title: "FAQ — Starlights Visuals" },
+      { title: "FAQ | Starlights Visuals" },
       {
         name: "description",
         content:
-          "Frequently asked questions about Starlights Visuals — services, process, timelines, and how to start a project.",
+          "Frequently asked questions about Starlights Visuals | services, process, timelines, and how to start a project.",
       },
-      { property: "og:title", content: "FAQ — Starlights Visuals" },
+      { property: "og:title", content: "FAQ | Starlights Visuals" },
       {
         property: "og:description",
         content: "Answers about our animation, VFX, and game art services, process, and delivery.",

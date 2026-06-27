@@ -49,12 +49,12 @@
     "copyright": "© {{year}} Starlights Visuals. प्रकाश और कोड से तैयार।"
   },
   "home": {
-    "metaTitle": "Starlights Visuals — एनिमेशन, VFX और गेम आर्ट स्टूडियो",
-    "metaDescription": "2D / 3D एनिमेशन, VFX और गेम आर्ट के लिए एक क्रिएटिव स्टूडियो। हम फैंटेसी दुनियाओं, पात्रों और सिनेमैटिक्स को जीवंत करते हैं।",
-    "heroScript": "गति में कहानियाँ —",
+    "metaTitle": "Starlights Visuals | एनिमेशन | VFX और गेम आर्ट स्टूडियो",
+    "metaDescription": "2D and 3D एनिमेशन, VFX और गेम आर्ट के लिए एक क्रिएटिव स्टूडियो। हम फैंटेसी दुनियाओं, पात्रों और सिनेमैटिक्स को जीवंत करते हैं।",
+    "heroScript": "गति में कहानियाँ,",
     "heroTitle1": "एनिमेशन",
     "heroTitle2": "और VFX",
-    "heroBody": "Starlights Visuals एनिमेशन और विज़ुअल इफ़ेक्ट्स के साथ कहानियों को जीवंत करता है, जो दर्शकों को मोहित करते हैं और हर फ्रेम को ऊँचा उठाते हैं। हम फंतासी प्राणियों, मानव पात्रों, वाहनों, वातावरण, प्रॉप्स और hard-surface ऑब्जेक्ट्स को एनिमेट करते हैं — फिल्म, सीरीज़, विज्ञापन और ब्रांड अभियानों के लिए।",
+    "heroBody": "Starlights Visuals एनिमेशन और विज़ुअल इफ़ेक्ट्स के साथ कहानियों को जीवंत करता है, जो दर्शकों को मोहित करते हैं और हर फ्रेम को ऊँचा उठाते हैं। हम फंतासी प्राणियों, मानव पात्रों, वाहनों, वातावरण, प्रॉप्स और hard surface ऑब्जेक्ट्स को एनिमेट करते हैं, फिल्म, सीरीज़, विज्ञापन और ब्रांड अभियानों के लिए।",
     "heroAlt": "Starlights Visuals सिनेमैटिक हीरो",
     "seePortfolio": "पोर्टफोलियो देखें",
     "startProject": "प्रोजेक्ट शुरू करें",
@@ -65,7 +65,7 @@
     "showcaseTitle1": "चयनित",
     "showcaseTitle2": "काम",
     "fullPortfolio": "पूरा पोर्टफोलियो",
-    "ctaScript": "आइए कुछ बनाएँ —",
+    "ctaScript": "आइए कुछ बनाएँ,",
     "ctaTitle1": "सहयोग के",
     "ctaTitle2": "लिए तैयार?",
     "services": {
@@ -75,7 +75,7 @@
       },
       "02": {
         "title": "गेम डेवलपमेंट",
-        "desc": "पूर्ण चक्र उत्पादन — कॉन्सेप्ट, आर्ट, कोड, ऑडियो, लॉन्च।"
+        "desc": "पूर्ण चक्र उत्पादन, कॉन्सेप्ट, आर्ट, कोड, ऑडियो, लॉन्च।"
       },
       "03": {
         "title": "कॉन्सेप्ट और कैरेक्टर आर्ट",
@@ -128,13 +128,13 @@
     "videoTitle1": "सुनें",
     "videoTitle2": "ब्रांड क्या कहते हैं",
     "videoTitle3": "Starlights Visuals के बारे में",
-    "videoModalTitle": "वीडियो प्रशंसापत्र — {{name}}",
+    "videoModalTitle": "वीडियो प्रशंसापत्र, {{name}}",
     "videoModalDefault": "वीडियो प्रशंसापत्र",
     "playAria": "{{name}} का वीडियो प्रशंसापत्र चलाएँ",
     "items": {
       "elena": {
         "headline": "सच्चे पेशेवर जिन्होंने परिणाम दिए",
-        "quote": "सिनेमैटिक गुणवत्ता ने तुरंत हमारी ब्रांड धारणा को ऊँचा उठाया। हीरो अभियान पर पहले सप्ताह में एंगेजमेंट बढ़ी — विज़ुअल प्रीमियम, जानबूझकर और स्क्रॉल करना असंभव लगते हैं।",
+        "quote": "सिनेमैटिक गुणवत्ता ने तुरंत हमारी ब्रांड धारणा को ऊँचा उठाया। हीरो अभियान पर पहले सप्ताह में एंगेजमेंट बढ़ी, विज़ुअल प्रीमियम, जानबूझकर और स्क्रॉल करना असंभव लगते हैं।",
         "role": "VP, ब्रांड मार्केटिंग"
       },
       "james": {
@@ -158,15 +158,15 @@
     }
   },
   "servicesPage": {
-    "metaTitle": "सेवाएँ — Starlights Visuals",
+    "metaTitle": "सेवाएँ | Starlights Visuals",
     "metaDescription": "2D एनिमेशन, 3D एनिमेशन, गेम डेवलपमेंट, कैरेक्टर डिज़ाइन, मोशन ग्राफ़िक्स, VFX और सिनेमैटिक ट्रेलर्स।",
     "label": "हम क्या बनाते हैं",
     "title": "सेवाएँ",
-    "subtitle": "एक स्टूडियो, उत्पादन का हर चरण — पहले स्केच से अंतिम पिक्सेल तक।",
+    "subtitle": "एक स्टूडियो, उत्पादन का हर चरण, पहले स्केच से अंतिम पिक्सेल तक।",
     "ctaTitle1": "कोई",
     "ctaTitle2": "प्रोजेक्ट",
     "ctaTitle3": "मन में है?",
-    "ctaDesc": "अपनी दृष्टि बताएँ — हम ताक़त लाएँगे।",
+    "ctaDesc": "अपनी दृष्टि बताएँ, हम ताक़त लाएँगे।",
     "ctaButton": "संपर्क करें",
     "items": {
       "2d": {
@@ -175,7 +175,7 @@
       },
       "3d": {
         "title": "3D एनिमेशन",
-        "desc": "स्टाइलाइज़्ड और फ़ोटोरियल 3D — कैरेक्टर, परिवेश और फ़ीचर-क्वालिटी पॉलिश वाली पूर्ण सिनेमैटिक अनुक्रम।"
+        "desc": "स्टाइलाइज़्ड और फ़ोटोरियल 3D, कैरेक्टर, परिवेश और फ़ीचर-क्वालिटी पॉलिश वाली पूर्ण सिनेमैटिक अनुक्रम।"
       },
       "game": {
         "title": "गेम डेवलपमेंट",
@@ -200,13 +200,13 @@
     }
   },
   "aboutPage": {
-    "metaTitle": "हमारे बारे में — Starlights Visuals",
+    "metaTitle": "हमारे बारे में | Starlights Visuals",
     "metaDescription": "Starlights Visuals एक उत्साही क्रिएटिव स्टूडियो है जो इमर्सिव गेम डेवलपमेंट, सिनेमैटिक 2D एनिमेशन और उच्च गुणवत्ता वाले 3D एनिमेशन अनुभवों में विशेषज्ञ है।",
     "label": "हम कौन हैं",
     "title1": "प्रकाश, कोड और",
     "title2": "कहानी पर बना स्टूडियो",
-    "p1": "Starlights Visuals गेम्स, एनिमेशन और सिनेमैटिक स्टोरीटेलिंग के संगम पर एक उत्साही क्रिएटिव स्टूडियो है। हम कल्पना को जीवंत करने के लिए मौजूद हैं — चाहे वह विशाल ओपन-वर्ल्ड गेम हो, हाथ से बनी 2D सीरीज़ हो, या फ़ोटोरियल 3D ट्रेलर।",
-    "p2": "हमारे कॉन्सेप्ट आर्टिस्ट और 3D स्कल्प्टर से लेकर गेमप्ले इंजीनियर और मोशन डिज़ाइनर तक — टीम का हर सदस्य एक चीज़ का दीवाना है: दर्शकों में कुछ महसूस कराना। हम सिर्फ़ सुंदर पिक्सेल नहीं बनाते — ऐसी दुनियाँ बनाते हैं जिनमें लोग रहना चाहें।",
+    "p1": "Starlights Visuals गेम्स, एनिमेशन और सिनेमैटिक स्टोरीटेलिंग के संगम पर एक उत्साही क्रिएटिव स्टूडियो है। हम कल्पना को जीवंत करने के लिए मौजूद हैं, चाहे वह विशाल ओपन-वर्ल्ड गेम हो, हाथ से बनी 2D सीरीज़ हो, या फ़ोटोरियल 3D ट्रेलर।",
+    "p2": "हमारे कॉन्सेप्ट आर्टिस्ट और 3D स्कल्प्टर से लेकर गेमप्ले इंजीनियर और मोशन डिज़ाइनर तक, टीम का हर सदस्य एक चीज़ का दीवाना है: दर्शकों में कुछ महसूस कराना। हम सिर्फ़ सुंदर पिक्सेल नहीं बनाते, ऐसी दुनियाँ बनाते हैं जिनमें लोग रहना चाहें।",
     "p3": "हम इंडी निर्माताओं, AAA स्टूडियो और वैश्विक ब्रांड्स के साथ काम करते हैं ताकि ऐसा काम मिले जो अपने वज़न से ऊपर पड़े, बिना समझौते समय पर डिलीवर हो और दोगुने बजट जैसा दिखे।",
     "valuesLabel": "मूल मूल्य",
     "valuesTitle": "हमें क्या प्रेरित करता है",
@@ -217,7 +217,7 @@
       },
       "craft": {
         "title": "शिल्प के प्रति जुनून",
-        "desc": "फ़्रेम दर फ़्रेम, पिक्सेल दर पिक्सेल — गुणवत्ता पर बातचीत नहीं।"
+        "desc": "फ़्रेम दर फ़्रेम, पिक्सेल दर पिक्सेल, गुणवत्ता पर बातचीत नहीं।"
       },
       "energy": {
         "title": "सिनेमैटिक ऊर्जा",
@@ -236,11 +236,11 @@
     }
   },
   "contactPage": {
-    "metaTitle": "संपर्क — Starlights Visuals",
+    "metaTitle": "संपर्क | Starlights Visuals",
     "metaDescription": "गेम डेवलपमेंट, 2D और 3D एनिमेशन, मोशन ग्राफ़िक्स, VFX और सिनेमैटिक ट्रेलर प्रोजेक्ट्स के लिए Starlights Visuals से संपर्क करें।",
     "label": "बात करते हैं",
     "title": "संपर्क",
-    "subtitle": "प्रोडक्शन पूछताछ, सहयोग, या बस नमस्ते कहना — हमें सिग्नल भेजें।",
+    "subtitle": "प्रोडक्शन पूछताछ, सहयोग, या बस नमस्ते कहना, हमें सिग्नल भेजें।",
     "formTitle": "प्रोजेक्ट शुरू करें",
     "formDesc": "नीचे फ़ॉर्म भरें, हम 24 घंटे में जवाब देंगे।",
     "name": "नाम",
@@ -254,19 +254,19 @@
     "studio": "स्टूडियो",
     "studioDesc": "रिमोट-फ़र्स्ट · वैश्विक डिलीवरी",
     "responseTime": "प्रतिक्रिया समय",
-    "responseDesc": "24 घंटे के भीतर, सोम – शुक्र।",
+    "responseDesc": "24 घंटे के भीतर, सोम, शुक्र।",
     "projectTypes": {
       "game": "गेम डेवलपमेंट",
       "2d": "2D एनिमेशन",
       "3d": "3D एनिमेशन",
       "trailer": "सिनेमैटिक ट्रेलर",
       "character": "कैरेक्टर डिज़ाइन",
-      "motion": "मोशन ग्राफ़िक्स / VFX",
+      "motion": "मोशन ग्राफ़िक्स and VFX",
       "other": "अन्य"
     }
   },
   "portfolioPage": {
-    "metaTitle": "पोर्टफोलियो — Starlights Visuals",
+    "metaTitle": "पोर्टफोलियो | Starlights Visuals",
     "metaDescription": "चयनित प्रोजेक्ट: एनिमेटेड सीरीज़, गेम ट्रेलर्स, कैरेक्टर डिज़ाइन और Starlights Visuals स्टूडियो शोरील।",
     "label": "चयनित काम",
     "title1": "पोर्ट",
@@ -306,7 +306,7 @@
     }
   },
   "blogPage": {
-    "metaTitle": "ब्लॉग — Starlights Visuals",
+    "metaTitle": "ब्लॉग | Starlights Visuals",
     "metaDescription": "Starlights Visuals से एनिमेशन, VFX, गेम आर्ट, सिनेमैटिक ट्रेलर्स और प्रीमियम ब्रांड स्टोरीटेलिंग पर अंतर्दृष्टि।",
     "label": "स्टूडियो जर्नल",
     "title1": "हमारा",
@@ -316,9 +316,9 @@
     "backToBlog": "ब्लॉग पर वापस",
     "startProject": "प्रोजेक्ट शुरू करें",
     "moreFromJournal": "जर्नल से और",
-    "postBody1": "Starlights Visuals में हम हर फ़्रेम को कन्वर्ज़न के अवसर के रूप में देखते हैं — सिर्फ़ सुंदर छवि नहीं। यह लेख हमारे {{category}} काम के पीछे की सोच और उन फ़ैसलों को विस्तार से बताता है जो अच्छी क्रिएटिव को लॉन्च-रेडी क्रिएटिव से अलग करते हैं।",
-    "postBody2": "चाहे आप ट्रेलर शिप कर रहे हों, ब्रांड मोशन सिस्टम स्केल कर रहे हों, या लाइव प्रोडक्ट के लिए गेम आर्ट बना रहे हों — एक ही सिद्धांत: पहले कहानी की स्पष्टता, दूसरे पॉलिश, अंत में कठोर संपादन। यही अनुशासन टीमों को 'लगभग तैयार' महसूस किए बिना समय पर डिलीवर कराता है।",
-    "postBody3": "अगले प्रोजेक्ट में यह सोच लागू करना चाहते हैं? हम सुनना चाहेंगे कि आप क्या बना रहे हैं — ब्रीफ़ भेजें, हम कॉन्सेप्ट से डिलीवरी तक सिनेमैटिक रास्ता तैयार करेंगे।",
+    "postBody1": "Starlights Visuals में हम हर फ़्रेम को कन्वर्ज़न के अवसर के रूप में देखते हैं, सिर्फ़ सुंदर छवि नहीं। यह लेख हमारे {{category}} काम के पीछे की सोच और उन फ़ैसलों को विस्तार से बताता है जो अच्छी क्रिएटिव को लॉन्च-रेडी क्रिएटिव से अलग करते हैं।",
+    "postBody2": "चाहे आप ट्रेलर शिप कर रहे हों, ब्रांड मोशन सिस्टम स्केल कर रहे हों, या लाइव प्रोडक्ट के लिए गेम आर्ट बना रहे हों, एक ही सिद्धांत: पहले कहानी की स्पष्टता, दूसरे पॉलिश, अंत में कठोर संपादन। यही अनुशासन टीमों को 'लगभग तैयार' महसूस किए बिना समय पर डिलीवर कराता है।",
+    "postBody3": "अगले प्रोजेक्ट में यह सोच लागू करना चाहते हैं? हम सुनना चाहेंगे कि आप क्या बना रहे हैं, ब्रीफ़ भेजें, हम कॉन्सेप्ट से डिलीवरी तक सिनेमैटिक रास्ता तैयार करेंगे।",
     "posts": {
       "cinematic-trailers-that-convert": {
         "title": "सिनेमैटिक ट्रेलर उत्पाद डेमो से बेहतर क्यों कन्वर्ट करते हैं",
@@ -329,7 +329,7 @@
       },
       "character-design-for-ip": {
         "title": "कैरेक्टर डिज़ाइन जो हर चैनल पर आपके IP को मज़बूत करे",
-        "excerpt": "सिल्हूट पठनीयता से मर्च-रेडी टर्नअराउंड तक — हीरो प्रोडक्शन में जाने से पहले हमारी चेकलिस्ट।",
+        "excerpt": "सिल्हूट पठनीयता से मर्च-रेडी टर्नअराउंड तक, हीरो प्रोडक्शन में जाने से पहले हमारी चेकलिस्ट।",
         "category": "शिल्प",
         "date": "3 मई 2026",
         "readTime": "5 मिनट पढ़ना"
@@ -350,7 +350,7 @@
       },
       "2d-animation-in-2026": {
         "title": "2026 में 2D एनिमेशन: हाइब्रिड पाइपलाइन जो अभी भी हाथ से बनी लगें",
-        "excerpt": "रिग्ड दक्षता को फ़्रेम-बाय-फ़्रेम एक्सेंट के साथ मिलाना — प्रीमियम परिणामों के लिए कब कौन-सी तकनीक।",
+        "excerpt": "रिग्ड दक्षता को फ़्रेम-बाय-फ़्रेम एक्सेंट के साथ मिलाना, प्रीमियम परिणामों के लिए कब कौन-सी तकनीक।",
         "category": "एनिमेशन",
         "date": "29 मार्च 2026",
         "readTime": "7 मिनट पढ़ना"
@@ -377,7 +377,7 @@
     "goHome": "होम पर जाएँ"
   },
   "meta": {
-    "rootTitle": "Starlights Visuals — गेम डेवलपमेंट और एनिमेशन स्टूडियो",
+    "rootTitle": "Starlights Visuals | गेम डेवलपमेंट और एनिमेशन स्टूडियो",
     "rootDescription": "Starlights Visuals गेम डेवलपमेंट, सिनेमैटिक 2D एनिमेशन और उच्च गुणवत्ता वाले 3D एनिमेशन में विशेषज्ञ क्रिएटिव स्टूडियो है।",
     "siteName": "Starlights Visuals"
   },
@@ -406,11 +406,11 @@
     "projectsTitle": "Project Samples",
     "relatedProjects": "Related projects",
     "closePreview": "Close preview",
-    "ctaScript": "Ready when you are —",
+    "ctaScript": "Ready when you are,",
     "ctaTitle": "Start Your Project With Us",
     "ctaDesc": "Tell us about your brand, timeline, and goals. We'll map a cinematic path from concept to delivery.",
     "ctaButton": "Start a project",
-    "portfolioHubDesc": "Explore work by category — animation, VFX, motion, and more.",
+    "portfolioHubDesc": "Explore work by category, animation, VFX, motion, and more.",
     "categories": {
       "2d-animation": {
         "title": "2D एनिमेशन",
@@ -422,20 +422,10 @@
         "tagline": "ब्रांड और फिल्म के लिए फोटोरियल और शैलीबद्ध 3डी",
         "description": "सिनेमाई प्रकाश व्यवस्था, भौतिकी और प्रीमियम फिनिश के साथ उत्पाद, चरित्र और पर्यावरण एनीमेशन।"
       },
-      "motion-graphics": {
-        "title": "Game Environment",
-        "tagline": "गतिशील दुनिया और खेलने योग्य स्थान",
-        "description": "लॉन्च, डैशबोर्ड और ब्रांड दुनिया के लिए डिज़ाइन-आधारित मोशन सिस्टम जो सभी चैनलों पर स्केल करते हैं।"
-      },
       "video-editing": {
         "title": "Product Animation",
         "tagline": "फोटोरियल उत्पाद फिल्में और सिनेमाई पैकशॉट्स",
         "description": "विज्ञापनों, वृत्तचित्रों और ब्रांड फिल्मों के लिए संपादकीय परिष्करण, लय और कहानी संरचना।"
-      },
-      "vfx": {
-        "title": "विज़ुअल इफ़ेक्ट्स (VFX)",
-        "tagline": "कंपोजिटिंग, एफएक्स और सिनेमाई फिनिशिंग",
-        "description": "ट्रेलरों, उत्पाद फिल्मों और ब्रांडेड सामग्री के लिए दृश्य प्रभाव - सफाई से लेकर पूर्ण सीजी एकीकरण तक।"
       },
       "branding": {
         "title": "Industrial Animation",
@@ -452,17 +442,9 @@
         "tag": "3D एनिमेशन",
         "title": "3D एनिमेशन"
       },
-      "motion-graphics": {
-        "tag": "Game Environment",
-        "title": "Game Environment"
-      },
       "video-editing": {
         "tag": "3D",
         "title": "Product Animation"
-      },
-      "vfx": {
-        "tag": "विज़ुअल इफ़ेक्ट्स (VFX)",
-        "title": "विज़ुअल इफ़ेक्ट्स (VFX)"
       },
       "branding": {
         "tag": "3D",
@@ -490,7 +472,7 @@
         "2d-anime-animation": {
           "name": "2D Anime Animation",
           "industry": "Entertainment & Music",
-          "description": "High-quality 2D anime-style animation and music videos with expressive characters and cinematic motion.",
+          "description": "High quality 2D anime style animation and music videos with expressive characters and cinematic motion.",
           "timeline": "2025",
           "services": {
             "0": "2D Anime Animation",
@@ -506,7 +488,7 @@
         "chibi-art": {
           "name": "Chbi ART",
           "industry": "Character & Illustration",
-          "description": "Chibi-style 2D character animation with expressive scenes and behind-the-scenes making process films.",
+          "description": "Chibi style 2D character animation with expressive scenes and behind the scenes making process films.",
           "timeline": "2025",
           "services": {
             "0": "2D Character Animation",
@@ -522,7 +504,7 @@
         "live2d": {
           "name": "Live2D",
           "industry": "Character & VTuber",
-          "description": "Live2D character art, rigging, and animation from character design through sample films and making-process breakdowns.",
+          "description": "Live2D character art, rigging, and animation from character design through sample films and making process breakdowns.",
           "timeline": "2025",
           "services": {
             "0": "Live2D Animation",
@@ -538,7 +520,7 @@
         "vtuber": {
           "name": "Vtuber",
           "industry": "VTuber & Character",
-          "description": "VTuber character art and 2D animation — princess samples, character films, process breakdowns, and polished Live2D-style performance.",
+          "description": "VTuber character art and 2D animation, princess samples, character films, process breakdowns, and polished Live2D style performance.",
           "timeline": "2025",
           "services": {
             "0": "VTuber Animation",
@@ -554,7 +536,7 @@
         "raiv-2d-game-nsfw": {
           "name": "RAIV 2D Game NSFW",
           "industry": "Game & Interactive",
-          "description": "2D game character animation and scene work for RAIV — character design, motion cycles, and polished in-game animation sequences.",
+          "description": "2D game character animation and scene work for RAIV, character design, motion cycles, and polished in game animation sequences.",
           "timeline": "2025",
           "services": {
             "0": "2D Game Animation",
@@ -604,7 +586,7 @@
         "3d-medical-animation": {
           "name": "3D Medical Animation",
           "industry": "Healthcare & Medical",
-          "description": "High-quality 3D medical animation covering anatomy, surgical procedures, and medical device visualization.",
+          "description": "High quality 3D medical animation covering anatomy, surgical procedures, and medical device visualization.",
           "timeline": "2025",
           "services": {
             "0": "Medical Animation",
@@ -615,51 +597,6 @@
             "0": "Cinema 4D",
             "1": "Blender",
             "2": "After Effects"
-          }
-        }
-      },
-      "motion-graphics": {
-        "exa": {
-          "name": "Exa",
-          "industry": "तकनीकी",
-          "description": "मोशन टूलकिट और अमूर्त डेटा विज़ुअलाइज़ेशन लॉन्च करें।",
-          "timeline": "2024 — 2025",
-          "services": {
-            "0": "ब्रांड मोशन",
-            "1": "फ़िल्में लॉन्च करें"
-          },
-          "tools": {
-            "0": "प्रभाव के बाद",
-            "1": "सिनेमा 4डी"
-          }
-        },
-        "kurk": {
-          "name": "Kurk",
-          "industry": "स्वास्थ्य एवं पूरक",
-          "description": "जैविक बनावट और बोल्ड टाइपोग्राफी के साथ ब्रांड गति को पूरक करें।",
-          "timeline": "2023 — 2025",
-          "services": {
-            "0": "गति ग्राफिक्स",
-            "1": "भुगतान किया गया सामाजिक"
-          },
-          "tools": {
-            "0": "प्रभाव के बाद",
-            "1": "इलस्ट्रेटर"
-          }
-        },
-        "huya": {
-          "name": "Huya",
-          "industry": "गेमिंग और लाइव स्ट्रीमिंग",
-          "description": "लॉन्च अभियानों के लिए खेल वातावरण फ्लाईथ्रू और अखाड़ा दुनिया।",
-          "timeline": "2023 — 2025",
-          "services": {
-            "0": "पर्यावरण कला",
-            "1": "सिनेमाई फ्लाईथ्रू"
-          },
-          "tools": {
-            "0": "अवास्तविक इंजन",
-            "1": "सिनेमा 4डी",
-            "2": "प्रभाव के बाद"
           }
         }
       },
@@ -683,7 +620,7 @@
         "valentino": {
           "name": "Valentino",
           "industry": "Luxury Beauty & Fragrance",
-          "description": "High-end 3D perfume visualization and cinematic product films for luxury fragrance campaigns.",
+          "description": "High end 3D perfume visualization and cinematic product films for luxury fragrance campaigns.",
           "timeline": "2025",
           "services": {
             "0": "3D Product Animation",
@@ -699,7 +636,7 @@
         "watch-design-and-animation": {
           "name": "Watch Design and Animation",
           "industry": "Luxury Watches & Product Design",
-          "description": "Concept-to-final 3D watch design, photoreal renders, and cinematic product animation for luxury timepieces.",
+          "description": "Concept to final 3D watch design, photoreal renders, and cinematic product animation for luxury timepieces.",
           "timeline": "2025",
           "services": {
             "0": "Product Design",
@@ -732,7 +669,7 @@
         "shoks": {
           "name": "SHOKS",
           "industry": "Consumer Electronics",
-          "description": "Photoreal 3D earbud product animation with studio lighting, material detail, and campaign-ready motion.",
+          "description": "Photoreal 3D earbud product animation with studio lighting, material detail, and campaign ready motion.",
           "timeline": "2025",
           "services": {
             "0": "3D Product Animation",
@@ -796,7 +733,7 @@
         "phr-1": {
           "name": "PHR 1",
           "industry": "Automotive & Electric",
-          "description": "Photoreal 3D electric engine product animation and technical renders for the PHR-1 with cinematic commercial polish.",
+          "description": "Photoreal 3D electric engine product animation and technical renders for the PHR 1 with cinematic commercial polish.",
           "timeline": "2025",
           "services": {
             "0": "3D Product Animation",
@@ -828,60 +765,12 @@
           }
         }
       },
-      "vfx": {
-        "mirrorskin": {
-          "name": "Mirrorskin",
-          "industry": "त्वचा की देखभाल",
-          "description": "प्रीमियम अभियान फिल्मों के लिए ब्यूटी वीएफएक्स, स्किन रीटचिंग और पार्टिकल एफएक्स।",
-          "testimonial": "अदृश्य वीएफएक्स जो अभी भी स्क्रीन पर जादुई लगता है।",
-          "timeline": "2023 — 2025",
-          "services": {
-            "0": "संयोजन",
-            "1": "सौंदर्य वीएफएक्स",
-            "2": "कण"
-          },
-          "tools": {
-            "0": "परमाणु",
-            "1": "प्रभाव के बाद",
-            "2": "हूडिनी"
-          }
-        },
-        "bello": {
-          "name": "Bello",
-          "industry": "उपभोक्ता वस्तुओं",
-          "description": "खुदरा अभियानों के लिए उत्पाद संवर्धन और पर्यावरण विस्तार।",
-          "timeline": "2024",
-          "services": {
-            "0": "संयोजन",
-            "1": "एक्सटेंशन सेट करें"
-          },
-          "tools": {
-            "0": "परमाणु",
-            "1": "फ़ोटोशॉप"
-          }
-        },
-        "moxeys": {
-          "name": "Moxeys",
-          "industry": "खुदरा एवं ई-कॉमर्स",
-          "description": "सेट एक्सटेंशन और कण प्रणालियों के साथ वीएफएक्स-भारी उत्पाद फिल्में।",
-          "timeline": "2023 — 2025",
-          "services": {
-            "0": "संयोजन",
-            "1": "कण एफएक्स"
-          },
-          "tools": {
-            "0": "परमाणु",
-            "1": "हूडिनी",
-            "2": "प्रभाव के बाद"
-          }
-        }
-      },
       "branding": {
         "industrial-animation": {
           "name": "Industrial Animation",
           "industry": "विनिर्माण एवं भारी उपकरण",
           "description": "भारी मशीनरी, असेंबली शोकेस और तकनीकी विपणन फिल्मों के लिए यथार्थवादी 3डी औद्योगिक और सीजीआई उत्पाद एनीमेशन।",
-          "timeline": "2024 — 2025",
+          "timeline": "2024 to 2025",
           "services": {
             "0": "औद्योगिक एनीमेशन",
             "1": "सीजीआई उत्पाद फिल्म",
@@ -897,7 +786,7 @@
           "name": "Ijockey",
           "industry": "उपभोक्ता उत्पाद",
           "description": "इज़ॉकी के खुदरा और अभियान लॉन्च के लिए 3डी उत्पाद एनीमेशन, पेपर रेंडर और ब्रांडेड फिल्में।",
-          "timeline": "2024 — 2025",
+          "timeline": "2024 to 2025",
           "services": {
             "0": "3डी उत्पाद एनिमेशन",
             "1": "औद्योगिक रेंडर",
@@ -944,7 +833,23 @@
         "credex-cleaning-carpet": {
           "name": "CREDEX CLEANING CARPET",
           "industry": "Consumer Products & Cleaning",
-          "description": "3D industrial product animation for CREDEX carpet cleaning machines — client references, exploded views, and cinematic films with SFX.",
+          "description": "3D industrial product animation for CREDEX carpet cleaning machines, client references, exploded views, and cinematic films with SFX.",
+          "timeline": "2025",
+          "services": {
+            "0": "Industrial Animation",
+            "1": "Product CGI",
+            "2": "Technical Visualization"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Blender",
+            "2": "After Effects"
+          }
+        },
+        "integra-pw": {
+          "name": "Integra PW",
+          "industry": "Industrial & Power Equipment",
+          "description": "3D industrial product animation for Integra PW, from client reference through cinematic product films with technical polish.",
           "timeline": "2025",
           "services": {
             "0": "Industrial Animation",
@@ -970,7 +875,7 @@
       },
       "2d-cartoon-animation-p2": {
         "title": "Custom Cartoon Animation",
-        "description": "Bespoke 2D character animation with expressive acting, bold color, and campaign-ready motion.",
+        "description": "Bespoke 2D character animation with expressive acting, bold color, and campaign ready motion.",
         "tags": {
           "0": "Cartoon",
           "1": "Character"
@@ -978,7 +883,7 @@
       },
       "2d-anime-animation-p1": {
         "title": "Anime Style Animation",
-        "description": "Japanese anime-style 2D animation with dynamic posing, expressive acting, and polished line work.",
+        "description": "Japanese anime style 2D animation with dynamic posing, expressive acting, and polished line work.",
         "tags": {
           "0": "Anime",
           "1": "Character"
@@ -1010,7 +915,7 @@
       },
       "chibi-art-p3": {
         "title": "Making Process Film",
-        "description": "Behind-the-scenes look at the chibi art creation and animation workflow from sketch to final motion.",
+        "description": "Behind the scenes look at the chibi art creation and animation workflow from sketch to final motion.",
         "tags": {
           "0": "Process",
           "1": "Workflow"
@@ -1018,7 +923,7 @@
       },
       "live2d-p1": {
         "title": "Character Art",
-        "description": "Finished Live2D character illustration with expressive posing and campaign-ready polish.",
+        "description": "Finished Live2D character illustration with expressive posing and campaign ready polish.",
         "tags": {
           "0": "Character",
           "1": "Illustration"
@@ -1042,7 +947,7 @@
       },
       "live2d-p4": {
         "title": "Making Process Film",
-        "description": "Behind-the-scenes look at the Live2D character build from art through rigging and final animation.",
+        "description": "Behind the scenes look at the Live2D character build from art through rigging and final animation.",
         "tags": {
           "0": "Process",
           "1": "Workflow"
@@ -1050,7 +955,7 @@
       },
       "vtuber-p1": {
         "title": "VTuber Character Art",
-        "description": "Finished VTuber character illustration with expressive posing and campaign-ready polish.",
+        "description": "Finished VTuber character illustration with expressive posing and campaign ready polish.",
         "tags": {
           "0": "Character",
           "1": "Illustration"
@@ -1098,7 +1003,7 @@
       },
       "vtuber-p7": {
         "title": "Video Process Film",
-        "description": "Behind-the-scenes VTuber animation process from art through rigging and final motion.",
+        "description": "Behind the scenes VTuber animation process from art through rigging and final motion.",
         "tags": {
           "0": "Process",
           "1": "Workflow"
@@ -1106,7 +1011,7 @@
       },
       "vtuber-p8": {
         "title": "Stella Manami VTuber Film",
-        "description": "Character-driven VTuber animation sample featuring Stella Manami with polished 2D performance.",
+        "description": "Character driven VTuber animation sample featuring Stella Manami with polished 2D performance.",
         "tags": {
           "0": "VTuber",
           "1": "Character"
@@ -1114,7 +1019,7 @@
       },
       "raiv-2d-game-nsfw-p1": {
         "title": "Character Art",
-        "description": "Finished 2D game character illustration with full color, posing, and production-ready polish.",
+        "description": "Finished 2D game character illustration with full color, posing, and production ready polish.",
         "tags": {
           "0": "Character",
           "1": "Art"
@@ -1138,7 +1043,7 @@
       },
       "raiv-2d-game-nsfw-p4": {
         "title": "Jump Animation",
-        "description": "2D character jump cycle animation with expressive motion and game-ready timing.",
+        "description": "2D character jump cycle animation with expressive motion and game ready timing.",
         "tags": {
           "0": "Motion",
           "1": "Character"
@@ -1234,7 +1139,7 @@
       },
       "3d-character-animation-p3": {
         "title": "Character Render",
-        "description": "Full-body character frame with refined lighting and surface detail.",
+        "description": "Full body character frame with refined lighting and surface detail.",
         "tags": {
           "0": "Character",
           "1": "Stylized"
@@ -1242,7 +1147,7 @@
       },
       "3d-character-animation-p4": {
         "title": "Character Render",
-        "description": "Campaign-ready character still for social, pitch decks, and launch assets.",
+        "description": "Campaign ready character still for social, pitch decks, and launch assets.",
         "tags": {
           "0": "Character",
           "1": "Campaign"
@@ -1250,7 +1155,7 @@
       },
       "3d-character-animation-p5": {
         "title": "Animation Workflow Film",
-        "description": "Behind-the-scenes 3D cartoon animation workflow from modeling through final character motion.",
+        "description": "Behind the scenes 3D cartoon animation workflow from modeling through final character motion.",
         "tags": {
           "0": "Film",
           "1": "Workflow"
@@ -1266,7 +1171,7 @@
       },
       "3d-anime-animation-p2": {
         "title": "Character Render",
-        "description": "Front-facing character render with anime styling, materials, and lighting polish.",
+        "description": "Front facing character render with anime styling, materials, and lighting polish.",
         "tags": {
           "0": "Character",
           "1": "Render"
@@ -1274,7 +1179,7 @@
       },
       "3d-anime-animation-p3": {
         "title": "Character Render",
-        "description": "Back-facing character render showcasing hair, costume, and silhouette detail.",
+        "description": "Back facing character render showcasing hair, costume, and silhouette detail.",
         "tags": {
           "0": "Character",
           "1": "Turnaround"
@@ -1312,30 +1217,6 @@
           "1": "Healthcare"
         }
       },
-      "exa-motion-p1": {
-        "title": "टूलकिट लॉन्च करें",
-        "description": "मुख्य वक्ता और सामाजिक रोलआउट के लिए मॉड्यूलर गति घटक।",
-        "tags": {
-          "0": "शुरू करना",
-          "1": "टूलकिट"
-        }
-      },
-      "kurk-motion-p1": {
-        "title": "संघटक कहानी",
-        "description": "हीरो डीटीसी विज्ञापनों के लिए काइनेटिक प्रकार और मैक्रो ओवरले।",
-        "tags": {
-          "0": "डीटीसी",
-          "1": "टाइपोग्राफी"
-        }
-      },
-      "huya-env-p1": {
-        "title": "एरिना वर्ल्ड का खुलासा",
-        "description": "गतिशील प्रकाश व्यवस्था और वीएफएक्स के साथ सिनेमाई वातावरण का दौरा।",
-        "tags": {
-          "0": "पर्यावरण",
-          "1": "शुरू करना"
-        }
-      },
       "anabomfim-product-p1": {
         "title": "Perfume Product Film",
         "description": "Cinematic 3D perfume animation with studio lighting, liquid sim, and premium packshot finish.",
@@ -1370,7 +1251,7 @@
       },
       "valentino-product-p3": {
         "title": "Perfume Render",
-        "description": "Close-up product render with refined reflections and color grade.",
+        "description": "Close up product render with refined reflections and color grade.",
         "tags": {
           "0": "Render",
           "1": "Beauty"
@@ -1410,7 +1291,7 @@
       },
       "watch-design-product-p3": {
         "title": "Watch Render",
-        "description": "Close-up product render with refined reflections and surface detail.",
+        "description": "Close up product render with refined reflections and surface detail.",
         "tags": {
           "0": "Render",
           "1": "Detail"
@@ -1450,7 +1331,7 @@
       },
       "lemonade-juice-product-p3": {
         "title": "Lemonade Render",
-        "description": "Close-up product render with refined liquid and glass material detail.",
+        "description": "Close up product render with refined liquid and glass material detail.",
         "tags": {
           "0": "Render",
           "1": "Packshot"
@@ -1458,7 +1339,7 @@
       },
       "lemonade-juice-product-p4": {
         "title": "Lemonade Product Film",
-        "description": "Cinematic 3D lemonade animation with fluid motion and campaign-ready product presentation.",
+        "description": "Cinematic 3D lemonade animation with fluid motion and campaign ready product presentation.",
         "tags": {
           "0": "Film",
           "1": "Beverage"
@@ -1474,7 +1355,7 @@
       },
       "steel-reef-product-p1": {
         "title": "Product Render",
-        "description": "Hero studio render with premium materials, lighting, and campaign-ready finish.",
+        "description": "Hero studio render with premium materials, lighting, and campaign ready finish.",
         "tags": {
           "0": "Render",
           "1": "Product"
@@ -1522,7 +1403,7 @@
       },
       "phr-1-product-p1": {
         "title": "Electric Engine Render",
-        "description": "Hero studio render of the PHR-1 electric engine with technical lighting and premium materials.",
+        "description": "Hero studio render of the PHR 1 electric engine with technical lighting and premium materials.",
         "tags": {
           "0": "Render",
           "1": "Engine"
@@ -1537,8 +1418,8 @@
         }
       },
       "phr-1-product-p3": {
-        "title": "PHR-1 Draft Film",
-        "description": "Draft 3D product animation showcasing the PHR-1 electric engine in motion with cinematic camera work.",
+        "title": "PHR 1 Draft Film",
+        "description": "Draft 3D product animation showcasing the PHR 1 electric engine in motion with cinematic camera work.",
         "tags": {
           "0": "Draft",
           "1": "Engine"
@@ -1570,7 +1451,7 @@
       },
       "wristband-product-p3": {
         "title": "Client Reference",
-        "description": "Third client reference highlighting product detail, color, and campaign-ready presentation.",
+        "description": "Third client reference highlighting product detail, color, and campaign ready presentation.",
         "tags": {
           "0": "Reference",
           "1": "Design"
@@ -1602,40 +1483,10 @@
       },
       "wristband-product-p7": {
         "title": "Animation Process Film",
-        "description": "Behind-the-scenes animation process showing the wristband build from reference through final motion.",
+        "description": "Behind the scenes animation process showing the wristband build from reference through final motion.",
         "tags": {
           "0": "Process",
           "1": "Workflow"
-        }
-      },
-      "mirrorskin-vfx-p1": {
-        "title": "कण सौंदर्य पास",
-        "description": "मैक्रो सीरम कण लाइव-एक्शन प्लेटों में एकीकृत होते हैं।",
-        "tags": {
-          "0": "वीएफएक्स",
-          "1": "सुंदरता"
-        }
-      },
-      "mirrorskin-vfx-p2": {
-        "title": "ट्रेलर ख़त्म",
-        "description": "30 के दशक के लॉन्च ट्रेलर के लिए पूर्ण COMP पाइपलाइन।",
-        "tags": {
-          "0": "ट्रेलर"
-        }
-      },
-      "bello-vfx-p1": {
-        "title": "रिटेल हीरो",
-        "description": "स्टूडियो उत्पाद फोटोग्राफी के साथ सीजी पर्यावरण का मिश्रण।",
-        "tags": {
-          "0": "खुदरा"
-        }
-      },
-      "moxeys-vfx-p1": {
-        "title": "कण उत्पाद पास",
-        "description": "मैक्रो पार्टिकल एफएक्स स्टूडियो उत्पाद प्लेटों के साथ एकीकृत है।",
-        "tags": {
-          "0": "वीएफएक्स",
-          "1": "उत्पाद"
         }
       },
       "industrial-animation-p1": {
@@ -1768,7 +1619,7 @@
       },
       "atx-industrial-p1": {
         "title": "Technical Product Render",
-        "description": "Photoreal industrial product render with technical lighting and campaign-ready finish.",
+        "description": "Photoreal industrial product render with technical lighting and campaign ready finish.",
         "tags": {
           "0": "Render",
           "1": "Industrial"
@@ -1824,7 +1675,7 @@
       },
       "credex-cleaning-carpet-industrial-p3": {
         "title": "Exploded Views Film",
-        "description": "10-second exploded-view animation revealing internal components and assembly of the carpet cleaner.",
+        "description": "10 second exploded view animation revealing internal components and assembly of the carpet cleaner.",
         "tags": {
           "0": "Exploded",
           "1": "Technical"
@@ -1848,16 +1699,32 @@
       },
       "credex-cleaning-carpet-industrial-p6": {
         "title": "Final HD Film with SFX",
-        "description": "Final high-definition industrial animation with sound design, dynamic camera moves, and commercial polish.",
+        "description": "Final high definition industrial animation with sound design, dynamic camera moves, and commercial polish.",
         "tags": {
           "0": "Final",
           "1": "SFX"
+        }
+      },
+      "integra-pw-industrial-p1": {
+        "title": "Client Product Reference",
+        "description": "Client product reference image guiding the Integra PW industrial animation build.",
+        "tags": {
+          "0": "Reference",
+          "1": "Product"
+        }
+      },
+      "integra-pw-industrial-p2": {
+        "title": "Industrial Product Film",
+        "description": "Cinematic 3D industrial product animation with dynamic camera moves and commercial finish.",
+        "tags": {
+          "0": "Film",
+          "1": "Industrial"
         }
       }
     }
   },
   "accordionPage": {
-    "metaTitle": "FAQ — Starlights Visuals",
+    "metaTitle": "FAQ | Starlights Visuals",
     "metaDescription": "पहले ब्रीफ़ से अंतिम डिलीवरी तक, हमारे साथ काम करने के बारे में आपको जो कुछ जानना है, वह यहां है।",
     "label": "अक्सर पूछे जाने वाले सवाल",
     "title": "प्रश्न और उत्तर",
@@ -1872,7 +1739,7 @@
           },
           "02": {
             "question": "Starlights Visuals कहाँ आधारित है?",
-            "answer": "हम एक remote-first स्टूडियो हैं, जिसकी टीम कई टाइम ज़ोन में फैली हुई है। हम दुनियाभर के क्लाइंट्स के साथ सहयोग करते हैं और संरचित async workflows व लाइव रिव्यू के माध्यम से production-ready assets डिलीवर करते हैं।"
+            "answer": "हम एक remote first स्टूडियो हैं, जिसकी टीम कई टाइम ज़ोन में फैली हुई है। हम दुनियाभर के क्लाइंट्स के साथ सहयोग करते हैं और संरचित async workflows व लाइव रिव्यू के माध्यम से production ready assets डिलीवर करते हैं।"
           },
           "03": {
             "question": "मैं प्रोजेक्ट कैसे शुरू करूँ?",
@@ -1885,7 +1752,7 @@
         "items": {
           "01": {
             "question": "आप कौन-कौन सी सेवाएँ प्रदान करते हैं?",
-            "answer": "हमारी मुख्य सेवाओं में 2D/3D एनीमेशन, VFX, कैरेक्टर व कॉन्सेप्ट आर्ट, गेम डेवलपमेंट सपोर्ट, मोशन ग्राफिक्स और सिनेमैटिक ट्रेलर्स शामिल हैं। हम अलग-अलग डिसिप्लिन या पूरा पाइपलाइन प्रोडक्शन संभाल सकते हैं।"
+            "answer": "हमारी मुख्य सेवाओं में 2D and 3D एनीमेशन, VFX, कैरेक्टर व कॉन्सेप्ट आर्ट, गेम डेवलपमेंट सपोर्ट, मोशन ग्राफिक्स और सिनेमैटिक ट्रेलर्स शामिल हैं। हम अलग-अलग डिसिप्लिन या पूरा पाइपलाइन प्रोडक्शन संभाल सकते हैं।"
           },
           "02": {
             "question": "क्या आप इंडी टीमों और बड़े स्टूडियो दोनों के साथ काम करते हैं?",
@@ -1893,7 +1760,7 @@
           },
           "03": {
             "question": "क्या आप हमारी मौजूदा आर्ट स्टाइल मैच कर सकते हैं?",
-            "answer": "बिल्कुल। हम फुल प्रोडक्शन शुरू करने से पहले आपकी ब्रांड गाइडलाइंस या गेम वर्ल्ड के अनुरूप style frames और look-dev पास से शुरुआत करते हैं।"
+            "answer": "बिल्कुल। हम फुल प्रोडक्शन शुरू करने से पहले आपकी ब्रांड गाइडलाइंस या गेम वर्ल्ड के अनुरूप style frames और look development पास से शुरुआत करते हैं।"
           }
         }
       },
@@ -1902,7 +1769,7 @@
         "items": {
           "01": {
             "question": "सामान्य टाइमलाइन क्या होती है?",
-            "answer": "टाइमलाइन स्कोप पर निर्भर करती है — सोशल कटडाउन में 1-2 हफ्ते लग सकते हैं, जबकि फुल सिनेमैटिक में 4-8 हफ्ते लग सकते हैं। हर प्रस्ताव में हम स्पष्ट milestones देते हैं।"
+            "answer": "टाइमलाइन स्कोप पर निर्भर करती है, सोशल कटडाउन में 1 2 हफ्ते लग सकते हैं, जबकि फुल सिनेमैटिक में 4 8 हफ्ते लग सकते हैं। हर प्रस्ताव में हम स्पष्ट milestones देते हैं।"
           },
           "02": {
             "question": "रिविज़न कैसे काम करती हैं?",
@@ -1910,7 +1777,7 @@
           },
           "03": {
             "question": "आप कौन से फाइल फॉर्मैट डिलीवर करते हैं?",
-            "answer": "हम आपके पाइपलाइन के लिए format-ready exports देते हैं — वीडियो के लिए MP4/MOV, आवश्यकता होने पर PNG/EXR sequences, अनुरोध पर layered source files, और real-time projects के लिए engine-ready assets।"
+            "answer": "हम आपके पाइपलाइन के लिए format ready exports देते हैं, वीडियो के लिए MP4 and MOV, आवश्यकता होने पर PNG and EXR sequences, अनुरोध पर layered source files, और real time projects के लिए engine ready assets।"
           }
         }
       }

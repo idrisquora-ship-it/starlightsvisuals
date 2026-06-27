@@ -83,7 +83,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Starlights Visuals — Game Development & Animation Studio" },
+      { title: "Starlights Visuals | Game Development & Animation Studio" },
       {
         name: "description",
         content:

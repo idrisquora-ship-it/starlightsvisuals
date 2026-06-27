@@ -24,7 +24,7 @@ export const Route = createFileRoute("/works/$category/$client")({
   head: ({ loaderData }) => ({
     meta: [
       {
-        title: `${loaderData?.client.name ?? "Client"} — ${loaderData?.category.title ?? ""} | Starlights Visuals`,
+        title: `${loaderData?.client.name ?? "Client"} | ${loaderData?.category.title ?? ""} | Starlights Visuals`,
       },
       {
         name: "description",
