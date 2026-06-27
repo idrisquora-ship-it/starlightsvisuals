@@ -3,6 +3,7 @@ import { X } from "lucide-react";
 import { useCallback, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
+import { extractYouTubeId, youTubeEmbedUrl } from "@/lib/youtube";
 import { cn } from "@/lib/utils";
 
 export type VideoModalProps = {
@@ -15,6 +16,8 @@ export type VideoModalProps = {
 
 export function VideoModal({ open, onClose, videoSrc, poster, title }: VideoModalProps) {
   const { t } = useTranslation();
+  const youtubeId = extractYouTubeId(videoSrc);
+
   const handleKeyDown = useCallback(
     (e: KeyboardEvent) => {
       if (e.key === "Escape") onClose();
@@ -77,17 +80,28 @@ export function VideoModal({ open, onClose, videoSrc, poster, title }: VideoModa
             </button>
 
             <div className="aspect-video w-full bg-black">
-              <video
-                key={videoSrc}
-                src={videoSrc}
-                poster={poster}
-                controls
-                autoPlay
-                muted
-                playsInline
-                preload="auto"
-                className="h-full w-full object-cover"
-              />
+              {youtubeId ? (
+                <iframe
+                  key={youtubeId}
+                  src={youTubeEmbedUrl(youtubeId)}
+                  title={title}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                  className="h-full w-full border-0"
+                />
+              ) : (
+                <video
+                  key={videoSrc}
+                  src={videoSrc}
+                  poster={poster}
+                  controls
+                  autoPlay
+                  muted
+                  playsInline
+                  preload="auto"
+                  className="h-full w-full object-cover"
+                />
+              )}
             </div>
           </motion.div>
         </motion.div>

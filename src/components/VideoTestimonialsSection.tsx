@@ -8,13 +8,22 @@ import {
   VideoTestimonialCard,
   type VideoTestimonial,
 } from "@/components/VideoTestimonialCard";
-import { showcaseVideos } from "@/data/showcase-media";
+import { resolveShowcaseVideo, type ShowcaseVideoKey } from "@/data/showcase-media";
 import portfolioCharacter from "@/assets/portfolio-character.jpg";
 import portfolioCreature from "@/assets/portfolio-creature.jpg";
 import portfolioGame from "@/assets/portfolio-game.jpg";
 import portfolioMotion from "@/assets/portfolio-motion.jpg";
 import portfolioTrailer from "@/assets/portfolio-trailer.jpg";
 import portfolio2d from "@/assets/portfolio-2d.jpg";
+
+const fallbackPosters: Record<ShowcaseVideoKey, string> = {
+  trailer: portfolioTrailer,
+  character: portfolioCharacter,
+  creature: portfolioCreature,
+  game: portfolioGame,
+  motion: portfolioMotion,
+  twoD: portfolio2d,
+};
 
 export function VideoTestimonialsSection() {
   const { t, i18n } = useTranslation();
@@ -23,76 +32,92 @@ export function VideoTestimonialsSection() {
   const carouselInView = useInView(carouselRef, { once: true, margin: "-5% 0px" });
 
   const videoTestimonials: VideoTestimonial[] = useMemo(
-    () => [
-      {
-        id: "trailer",
-        videoSrc: showcaseVideos.trailer,
-        poster: portfolioTrailer,
-        name: "Alex Morgan",
-        company: "Lumen Worlds",
-        role: t("testimonials.videoRoles.ceo"),
-        initials: "AM",
-        duration: "2:20",
-        progress: 0.38,
-      },
-      {
-        id: "character",
-        videoSrc: showcaseVideos.character,
-        poster: portfolioCharacter,
-        name: "Priya Shah",
-        company: "Nova Vanguard",
-        role: t("testimonials.videoRoles.artDirector"),
-        initials: "PS",
-        duration: "1:45",
-        progress: 0.42,
-      },
-      {
-        id: "creature",
-        videoSrc: showcaseVideos.creature,
-        poster: portfolioCreature,
-        name: "Jonas Weber",
-        company: "Abyss Studios",
-        role: t("testimonials.videoRoles.founder"),
-        initials: "JW",
-        duration: "2:05",
-        progress: 0.3,
-      },
-      {
-        id: "game",
-        videoSrc: showcaseVideos.game,
-        poster: portfolioGame,
-        name: "Mia Laurent",
-        company: "Iron Forge Interactive",
-        role: t("testimonials.videoRoles.headProduction"),
-        initials: "ML",
-        duration: "1:58",
-        progress: 0.48,
-      },
-      {
-        id: "motion",
-        videoSrc: showcaseVideos.motion,
-        poster: portfolioMotion,
-        name: "Elena Vasquez",
-        company: "Raycon",
-        role: t("testimonials.videoRoles.vpMarketing"),
-        initials: "EV",
-        duration: "2:12",
-        progress: 0.35,
-      },
-      {
-        id: "2d",
-        videoSrc: showcaseVideos.twoD,
-        poster: portfolio2d,
-        name: "James Whitfield",
-        company: "Crossrope",
-        role: t("testimonials.videoRoles.coFounder"),
-        initials: "JW",
-        duration: "1:32",
-        progress: 0.55,
-      },
-    ],
+    () =>
+      (
+        [
+          {
+            id: "trailer",
+            key: "trailer" as const,
+            name: "Alex Morgan",
+            company: "Lumen Worlds",
+            role: t("testimonials.videoRoles.ceo"),
+            initials: "AM",
+            duration: "2:20",
+            progress: 0.38,
+          },
+          {
+            id: "character",
+            key: "character" as const,
+            name: "Priya Shah",
+            company: "Nova Vanguard",
+            role: t("testimonials.videoRoles.artDirector"),
+            initials: "PS",
+            duration: "1:45",
+            progress: 0.42,
+          },
+          {
+            id: "creature",
+            key: "creature" as const,
+            name: "Jonas Weber",
+            company: "Abyss Studios",
+            role: t("testimonials.videoRoles.founder"),
+            initials: "JW",
+            duration: "2:05",
+            progress: 0.3,
+          },
+          {
+            id: "game",
+            key: "game" as const,
+            name: "Mia Laurent",
+            company: "Iron Forge Interactive",
+            role: t("testimonials.videoRoles.headProduction"),
+            initials: "ML",
+            duration: "1:58",
+            progress: 0.48,
+          },
+          {
+            id: "motion",
+            key: "motion" as const,
+            name: "Elena Vasquez",
+            company: "Raycon",
+            role: t("testimonials.videoRoles.vpMarketing"),
+            initials: "EV",
+            duration: "2:12",
+            progress: 0.35,
+          },
+          {
+            id: "2d",
+            key: "twoD" as const,
+            name: "James Whitfield",
+            company: "Crossrope",
+            role: t("testimonials.videoRoles.coFounder"),
+            initials: "JW",
+            duration: "1:32",
+            progress: 0.55,
+          },
+        ] as const
+      )
+        .map((item) => {
+          const resolved = resolveShowcaseVideo(item.key);
+          if (!resolved) return null;
+
+          return {
+            id: item.id,
+            videoSrc: resolved.videoSrc,
+            poster: resolved.poster ?? fallbackPosters[item.key],
+            name: item.name,
+            company: item.company,
+            role: item.role,
+            initials: item.initials,
+            duration: item.duration,
+            progress: item.progress,
+          };
+        })
+        .filter((item): item is VideoTestimonial => item !== null),
     [t, i18n.language],
   );
+
+  if (videoTestimonials.length === 0) return null;
 
   return (
     <>

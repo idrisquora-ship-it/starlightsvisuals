@@ -37,3 +37,7 @@ src/assets/PHR 1 Electric Engine/Draft_01_PHR-1.mp4
 src/assets/wristband animation/Wristband-Animation-02.mp4
 src/assets/CREDEX CARPET Cleaning Macchine/Final_HD_project_vaccume_cleaner_with_SFX.mp4
 scripts/translation-cache.json
+
+# Hosted sample media (portfolio uses YouTube links instead)
+public/portfolio/
+public/showcase/

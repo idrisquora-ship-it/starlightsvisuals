@@ -4,6 +4,7 @@ import { useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 
 import type { WorkProject } from "@/types/portfolio-works";
+import { extractYouTubeId, youTubeEmbedUrl } from "@/lib/youtube";
 
 type ProjectLightboxProps = {
   project: WorkProject | null;
@@ -38,6 +39,9 @@ export function ProjectLightbox({ project, onClose }: ProjectLightboxProps) {
     void video.play().catch(() => undefined);
   }, [project]);
 
+  const youtubeId =
+    project?.mediaType === "youtube" ? extractYouTubeId(project.mediaSrc) : null;
+
   return (
     <AnimatePresence>
       {project && (
@@ -68,7 +72,18 @@ export function ProjectLightbox({ project, onClose }: ProjectLightboxProps) {
             >
               <X className="h-4 w-4" />
             </button>
-            {project.mediaType === "video" ? (
+            {project.mediaType === "youtube" && youtubeId ? (
+              <div className="aspect-video w-full bg-black">
+                <iframe
+                  key={youtubeId}
+                  src={youTubeEmbedUrl(youtubeId)}
+                  title={project.title}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                  className="h-full w-full border-0"
+                />
+              </div>
+            ) : project.mediaType === "video" ? (
               <div className="aspect-video w-full bg-black">
                 <video
                   ref={videoRef}

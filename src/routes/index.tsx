@@ -58,37 +58,37 @@ function Home() {
           <h1 className="mt-6 font-display text-[14vw] leading-[0.9] tracking-tight drop-shadow-[0_4px_32px_rgba(0,0,0,0.95)] md:text-[7.5rem] lg:text-[9rem]">
             <span className="block">{t("home.heroTitle1")}</span>
             <span className="block text-outline [text-shadow:0_4px_32px_rgba(0,0,0,0.95)]">{t("home.heroTitle2")}</span>
-          </h1>
+            </h1>
 
-          <svg
-            viewBox="0 0 600 80"
-            className="draw-squiggle mt-6 h-12 w-72 text-neon-green"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="3"
-            strokeLinecap="round"
-          >
-            <path d="M5 50 C 80 5, 150 90, 230 40 S 380 10, 460 55 S 580 30, 595 45" />
-          </svg>
+            <svg
+              viewBox="0 0 600 80"
+              className="draw-squiggle mt-6 h-12 w-72 text-neon-green"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="3"
+              strokeLinecap="round"
+            >
+              <path d="M5 50 C 80 5, 150 90, 230 40 S 380 10, 460 55 S 580 30, 595 45" />
+            </svg>
 
           <p className="mt-10 max-w-lg text-base leading-relaxed text-foreground drop-shadow-[0_2px_16px_rgba(0,0,0,0.9)] md:text-lg">
             {t("home.heroBody")}
-          </p>
+            </p>
 
-          <div className="mt-10 flex flex-wrap gap-4">
-            <Link
-              to="/portfolio"
-              className="group inline-flex items-center gap-3 rounded-full bg-neon-green px-7 py-3.5 font-display text-sm uppercase tracking-widest text-background transition hover:glow-blue"
-            >
+            <div className="mt-10 flex flex-wrap gap-4">
+              <Link
+                to="/portfolio"
+                className="group inline-flex items-center gap-3 rounded-full bg-neon-green px-7 py-3.5 font-display text-sm uppercase tracking-widest text-background transition hover:glow-blue"
+              >
               {t("home.seePortfolio")}
-              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-            </Link>
-            <Link
-              to="/contact"
-              className="inline-flex items-center gap-3 rounded-full border border-foreground/40 px-7 py-3.5 font-display text-sm uppercase tracking-widest text-foreground transition hover:border-neon-green hover:text-neon-green"
-            >
+                <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+              </Link>
+              <Link
+                to="/contact"
+                className="inline-flex items-center gap-3 rounded-full border border-foreground/40 px-7 py-3.5 font-display text-sm uppercase tracking-widest text-foreground transition hover:border-neon-green hover:text-neon-green"
+              >
               {t("home.startProject")}
-            </Link>
+              </Link>
           </div>
         </div>
       </section>

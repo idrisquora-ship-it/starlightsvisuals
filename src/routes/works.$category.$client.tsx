@@ -7,7 +7,9 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SectionReveal } from "@/components/SectionReveal";
 import { ProjectLightbox } from "@/components/works/ProjectLightbox";
+import { ProjectYouTubeCard } from "@/components/works/ProjectYouTubeCard";
 import { ProjectVideoCard } from "@/components/works/ProjectVideoCard";
+import { extractYouTubeId } from "@/lib/youtube";
 import { getCategory, getClient } from "@/lib/portfolio-works";
 import { useLocalizedClient } from "@/hooks/use-localized-works";
 import type { WorkProject } from "@/types/portfolio-works";
@@ -59,7 +61,12 @@ function ClientProjectsPage() {
               onClick={() => setLightboxProject(project)}
               className="group relative aspect-[4/3] cursor-pointer overflow-hidden rounded-xl border border-border/60 bg-card/30 transition hover:border-neon-green/60 hover:shadow-[0_0_24px_-10px_rgba(76,255,61,0.45)]"
             >
-              {project.mediaType === "video" ? (
+              {project.mediaType === "youtube" ? (
+                <ProjectYouTubeCard
+                  videoId={extractYouTubeId(project.mediaSrc) ?? ""}
+                  poster={project.thumbnail}
+                />
+              ) : project.mediaType === "video" ? (
                 <ProjectVideoCard src={project.mediaSrc} poster={project.thumbnail} />
               ) : (
                 <img

@@ -1,4 +1,4 @@
-export type WorkMediaType = "image" | "video";
+export type WorkMediaType = "image" | "video" | "youtube";
 
 export type WorkProject = {
   id: string;

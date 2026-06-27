@@ -90,7 +90,7 @@ export function SiteHeader() {
               <X className="h-4 w-4" aria-hidden />
             </button>
           )}
-        </div>
+          </div>
 
         <nav className="flex flex-col gap-3">
           {nav.map((n) => (
@@ -114,16 +114,16 @@ export function SiteHeader() {
             menuPlacement="top"
             className="w-full [&>button]:w-full [&>button]:justify-between"
           />
-          <div className="text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
-            © {new Date().getFullYear()}
+        <div className="text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
+          © {new Date().getFullYear()}
           </div>
         </div>
       </aside>
 
       <div className="fixed right-6 top-10 z-40 hidden items-center gap-4 md:flex">
         <LanguageSwitcher />
-        <Link
-          to="/portfolio"
+      <Link
+        to="/portfolio"
           className="font-script text-2xl text-neon-green hover:text-glow"
         >
           {t("nav.portfolioCta")}
@@ -134,7 +134,7 @@ export function SiteHeader() {
         <SiteLogo imageClassName="w-[112px] drop-shadow-[0_0_12px_rgba(76,255,61,0.4)]" />
         <div className="flex items-center gap-2">
           <LanguageSwitcher />
-          <button
+        <button
             type="button"
             onClick={toggleMobile}
             aria-label={mobileOpen ? t("header.closeMenu") : t("header.openMenu")}
@@ -143,7 +143,7 @@ export function SiteHeader() {
             className="rounded border border-border p-2 text-foreground transition hover:border-neon-green hover:text-neon-green"
           >
             {mobileOpen ? <X className="h-4 w-4" aria-hidden /> : <Menu className="h-4 w-4" aria-hidden />}
-          </button>
+        </button>
         </div>
       </header>
     </>

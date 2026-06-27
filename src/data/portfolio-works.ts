@@ -1,10 +1,7 @@
 import type { WorkCategory, WorkClient, WorkProject } from "@/types/portfolio-works";
 
-import { brandLogos } from "@/data/brand-logos";
-import { anabomfimVideos, anime2dPosters, anime2dVideos, anime3dVideos, atxPosters, atxVideos, autozCravePosters, autozCraveVideos, cartoon2dPosters, cartoon2dVideos, character3dVideos, chibiArtPosters, chibiArtVideos, credexCleaningPosters, credexCleaningVideos, ijockeyVideos, industrialAnimationVideos, lemonadeJuiceVideos, live2dPosters, live2dVideos, medical3dPosters, medical3dVideos, phr1Posters, phr1Videos, raiv2dPosters, raiv2dVideos, shoksPosters, shoksVideos, simbaMattressPosters, simbaMattressVideos, steelReefVideos, suitcasePosters, suitcaseVideos, valentinoVideos, vtuberPosters, vtuberVideos, watchDesignVideos, wristbandPosters, wristbandVideos } from "@/data/portfolio-media";
-
-/** Placeholder client logos from the brand marquee set. */
-const brandLogo = (index: number) => brandLogos[index % brandLogos.length]!.src;
+import { applyPortfolioYoutube } from "@/lib/apply-portfolio-youtube";
+import { anabomfimVideos, anime2dPosters, anime2dVideos, anime3dVideos, atxPosters, atxVideos, autozCravePosters, autozCraveVideos, cartoon2dPosters, cartoon2dVideos, character3dVideos, chibiArtPosters, chibiArtVideos, credexCleaningPosters, credexCleaningVideos, ijockeyVideos, industrialAnimationVideos, integraPwPosters, integraPwVideos, lemonadeJuiceVideos, live2dPosters, live2dVideos, medical3dPosters, medical3dVideos, phr1Posters, phr1Videos, raiv2dPosters, raiv2dVideos, shoksPosters, shoksVideos, simbaMattressPosters, simbaMattressVideos, steelReefVideos, suitcasePosters, suitcaseVideos, valentinoVideos, vtuberPosters, vtuberVideos, watchDesignVideos, wristbandPosters, wristbandVideos } from "@/data/portfolio-media";
 
 import ijockeyHelmetPart from "@/assets/Ijockey portfolio folder/Helmet Part.jpeg";
 import ijockeyClientSketch from "@/assets/Ijockey portfolio folder/Client Sketch.jpeg";
@@ -24,6 +21,8 @@ import atxRender3 from "@/assets/ATX Project/3d-technical-product-animation-indu
 
 import credexClientReference1 from "@/assets/CREDEX CARPET Cleaning Macchine/Client image reference.jpg";
 import credexClientReference2 from "@/assets/CREDEX CARPET Cleaning Macchine/Client image reference (2).jpg";
+
+import integraPwClientReference from "@/assets/Integra PW/Client's product image reference.png";
 
 import live2dCharacterImage from "@/assets/Live2D/Live2d character image.jpg";
 
@@ -132,9 +131,7 @@ function padProjects(
 export type WorkCategorySlug =
   | "2d-animation"
   | "3d-animation"
-  | "motion-graphics"
   | "video-editing"
-  | "vfx"
   | "branding";
 
 function projects(
@@ -161,7 +158,7 @@ function client(
 
 const sharedTools = ["After Effects", "Cinema 4D", "Blender", "DaVinci Resolve", "Photoshop"];
 
-export const workCategories: WorkCategory[] = [
+const rawWorkCategories: WorkCategory[] = [
   {
     slug: "2d-animation",
     title: "2D Animation",
@@ -764,94 +761,6 @@ export const workCategories: WorkCategory[] = [
     ],
   },
   {
-    slug: "motion-graphics",
-    title: "Game Environment",
-    tagline: "Immersive worlds and playable spaces in motion",
-    description:
-      "Design-led motion systems for launches, dashboards, and brand worlds that scale across channels.",
-    coverImage: portfolioMotion,
-    clients: [
-      client(
-        {
-          slug: "exa",
-          name: "Exa",
-          industry: "Technology",
-          description: "Launch motion toolkits and abstract data visualizations.",
-          projectCount: 4,
-          logo: brandLogo(6),
-          banner: portfolioMotion,
-          services: ["Brand Motion", "Launch Films"],
-          timeline: "2024 — 2025",
-          tools: ["After Effects", "Cinema 4D"],
-          projects: [
-            {
-              title: "Launch Toolkit",
-              description: "Modular motion components for keynote and social rollout.",
-              thumbnail: portfolioMotion,
-              mediaType: "image",
-              mediaSrc: portfolioMotion,
-              tags: ["Launch", "Toolkit"],
-              year: 2025,
-            },
-          ],
-        },
-        "exa-motion",
-      ),
-      client(
-        {
-          slug: "kurk",
-          name: "Kurk",
-          industry: "Health & Supplements",
-          description: "Supplement brand motion with organic textures and bold typography.",
-          projectCount: 7,
-          logo: brandLogo(7),
-          banner: portfolio2d,
-          services: ["Motion Graphics", "Paid Social"],
-          timeline: "2023 — 2025",
-          tools: ["After Effects", "Illustrator"],
-          projects: [
-            {
-              title: "Ingredient Story",
-              description: "Kinetic type and macro overlays for hero DTC ads.",
-              thumbnail: portfolio2d,
-              mediaType: "image",
-              mediaSrc: portfolio2d,
-              tags: ["DTC", "Typography"],
-              year: 2025,
-            },
-          ],
-        },
-        "kurk-motion",
-      ),
-      client(
-        {
-          slug: "huya",
-          name: "Huya",
-          industry: "Gaming & Live Streaming",
-          description: "Game environment flythroughs and arena worlds for launch campaigns.",
-          projectCount: 5,
-          logo: brandLogo(8),
-          banner: portfolioGame,
-          services: ["Environment Art", "Cinematic Flythrough"],
-          timeline: "2023 — 2025",
-          tools: ["Unreal Engine", "Cinema 4D", "After Effects"],
-          projects: [
-            {
-              title: "Arena World Reveal",
-              description: "Cinematic environment tour with dynamic lighting and VFX.",
-              thumbnail: portfolioGame,
-              mediaType: "image",
-              mediaSrc: portfolioGame,
-              tags: ["Environment", "Launch"],
-              year: 2025,
-            },
-          ],
-        },
-        "huya-env",
-      ),
-    ],
-  },
-  {
     slug: "video-editing",
     title: "Product Animation",
     tagline: "Photoreal product films and cinematic packshots",
@@ -1372,104 +1281,6 @@ export const workCategories: WorkCategory[] = [
     ],
   },
   {
-    slug: "vfx",
-    title: "VFX",
-    tagline: "Compositing, FX, and cinematic finishing",
-    description:
-      "Visual effects for trailers, product films, and branded content — from cleanups to full CG integration.",
-    coverImage: portfolioTrailer,
-    clients: [
-      client(
-        {
-          slug: "mirrorskin",
-          name: "Mirrorskin",
-          industry: "Skincare",
-          description: "Beauty VFX, skin retouching, and particle FX for premium campaign films.",
-          projectCount: 6,
-          testimonial: "Invisible VFX that still felt magical on screen.",
-          logo: brandLogo(1),
-          banner: portfolioTrailer,
-          services: ["Compositing", "Beauty VFX", "Particles"],
-          timeline: "2023 — 2025",
-          tools: ["Nuke", "After Effects", "Houdini"],
-          projects: [
-            {
-              title: "Particle Beauty Pass",
-              description: "Macro serum particles integrated into live-action plates.",
-              thumbnail: portfolioTrailer,
-              mediaType: "image",
-              mediaSrc: portfolioTrailer,
-              tags: ["VFX", "Beauty"],
-              year: 2025,
-            },
-            {
-              title: "Trailer Finish",
-              description: "Full comp pipeline for a 30s launch trailer.",
-              thumbnail: portfolioCreature,
-              mediaType: "image",
-              mediaSrc: portfolioCreature,
-              tags: ["Trailer"],
-              year: 2024,
-            },
-          ],
-        },
-        "mirrorskin-vfx",
-      ),
-      client(
-        {
-          slug: "bello",
-          name: "Bello",
-          industry: "Consumer Goods",
-          description: "Product enhancement and environment extensions for retail campaigns.",
-          projectCount: 4,
-          logo: brandLogo(2),
-          banner: portfolioGame,
-          services: ["Compositing", "Set Extension"],
-          timeline: "2024",
-          tools: ["Nuke", "Photoshop"],
-          projects: [
-            {
-              title: "Retail Hero",
-              description: "CG environment blend with studio product photography.",
-              thumbnail: portfolioGame,
-              mediaType: "image",
-              mediaSrc: portfolioGame,
-              tags: ["Retail"],
-              year: 2024,
-            },
-          ],
-        },
-        "bello-vfx",
-      ),
-      client(
-        {
-          slug: "moxeys",
-          name: "Moxeys",
-          industry: "Retail & E-commerce",
-          description: "VFX-heavy product films with set extensions and particle systems.",
-          projectCount: 5,
-          logo: brandLogo(3),
-          banner: portfolioMotion,
-          services: ["Compositing", "Particle FX"],
-          timeline: "2023 — 2025",
-          tools: ["Nuke", "Houdini", "After Effects"],
-          projects: [
-            {
-              title: "Particle Product Pass",
-              description: "Macro particle FX integrated with studio product plates.",
-              thumbnail: portfolioMotion,
-              mediaType: "image",
-              mediaSrc: portfolioMotion,
-              tags: ["VFX", "Product"],
-              year: 2025,
-            },
-          ],
-        },
-        "moxeys-vfx",
-      ),
-    ],
-  },
-  {
     slug: "branding",
     title: "Industrial Animation",
     tagline: "Technical storytelling for products and manufacturing",
@@ -1819,9 +1630,49 @@ export const workCategories: WorkCategory[] = [
         "credex-cleaning-carpet-industrial",
         { skipPad: true },
       ),
+      client(
+        {
+          slug: "integra-pw",
+          name: "Integra PW",
+          industry: "Industrial & Power Equipment",
+          description:
+            "3D industrial product animation for Integra PW — from client reference through cinematic product films with technical polish.",
+          projectCount: 2,
+          logo: integraPwClientReference,
+          banner: integraPwPosters.product,
+          services: ["Industrial Animation", "Product CGI", "Technical Visualization"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Blender", "After Effects"],
+          projects: [
+            {
+              title: "Client Product Reference",
+              description: "Client product reference image guiding the Integra PW industrial animation build.",
+              thumbnail: integraPwClientReference,
+              mediaType: "image",
+              mediaSrc: integraPwClientReference,
+              tags: ["Reference", "Product"],
+              year: 2025,
+            },
+            {
+              title: "Industrial Product Film",
+              description:
+                "Cinematic 3D industrial product animation with dynamic camera moves and commercial finish.",
+              thumbnail: integraPwPosters.product,
+              mediaType: "video",
+              mediaSrc: integraPwVideos.product,
+              tags: ["Film", "Industrial"],
+              year: 2025,
+            },
+          ],
+        },
+        "integra-pw-industrial",
+        { skipPad: true },
+      ),
     ],
   },
 ];
+
+export const workCategories = applyPortfolioYoutube(rawWorkCategories);
 
 const showcaseLabels: Record<
   WorkCategorySlug,
@@ -1829,9 +1680,7 @@ const showcaseLabels: Record<
 > = {
   "2d-animation": { tag: "2D Animation", title: "2D Animation" },
   "3d-animation": { tag: "3D Animation", title: "3D Animation" },
-  "motion-graphics": { tag: "Game Environment", title: "Game Environment" },
   "video-editing": { tag: "3D", title: "Product Animation" },
-  vfx: { tag: "VFX", title: "VFX" },
   branding: { tag: "3D", title: "Industrial Animation" },
 };
 

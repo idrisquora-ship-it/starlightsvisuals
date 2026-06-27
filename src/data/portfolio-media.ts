@@ -41,6 +41,14 @@ export const credexCleaningPosters = {
   finalSfx: "/portfolio/credex-cleaning-carpet/poster-final-sfx.jpg",
 } as const;
 
+export const integraPwVideos = {
+  product: "/portfolio/integra-pw/product-web.mp4",
+} as const;
+
+export const integraPwPosters = {
+  product: "/portfolio/integra-pw/poster-product.jpg",
+} as const;
+
 export const anabomfimVideos = {
   perfume: "/portfolio/anabomfim/perfume-web.mp4",
 } as const;
