@@ -623,6 +623,22 @@
             "1": "Redshift",
             "2": "After Effects"
           }
+        },
+        "3d-gadget-animation": {
+          "name": "3D GADGET ANIMATION",
+          "industry": "Consumer Electronics",
+          "description": "Photoreal 3D gadget and earbud product animation with studio lighting, material detail, and campaign ready motion.",
+          "timeline": "2025",
+          "services": {
+            "0": "3D Product Animation",
+            "1": "Gadget CGI",
+            "2": "Packshot Films"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Redshift",
+            "2": "After Effects"
+          }
         }
       },
       "vfx": {}
@@ -866,6 +882,22 @@
         "tags": {
           "0": "Perfume",
           "1": "Soul of Amir"
+        }
+      },
+      "3d-gadget-animation-p1": {
+        "title": "Shoks Earbud Animation",
+        "description": "Cinematic 3D Shoks earbud product animation with refined materials and commercial finish.",
+        "tags": {
+          "0": "Earbud",
+          "1": "Gadget"
+        }
+      },
+      "3d-gadget-animation-p2": {
+        "title": "Headphone Earbud Product Film",
+        "description": "3D headphone and earbud product animation with dynamic camera moves and premium packshot presentation.",
+        "tags": {
+          "0": "Headphone",
+          "1": "Product"
         }
       }
     }

@@ -519,6 +519,44 @@ const rawWorkCategories: WorkCategory[] = [
         },
         "3d-perfume-animation",
       ),
+      client(
+        {
+          slug: "3d-gadget-animation",
+          name: "3D GADGET ANIMATION",
+          industry: "Consumer Electronics",
+          description:
+            "Photoreal 3D gadget and earbud product animation with studio lighting, material detail, and campaign ready motion.",
+          projectCount: 2,
+          logo: PROJECT_PLACEHOLDER,
+          banner: PROJECT_PLACEHOLDER,
+          services: ["3D Product Animation", "Gadget CGI", "Packshot Films"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Redshift", "After Effects"],
+          projects: [
+            {
+              title: "Shoks Earbud Animation",
+              description:
+                "Cinematic 3D Shoks earbud product animation with refined materials and commercial finish.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Earbud", "Gadget"],
+              year: 2025,
+            },
+            {
+              title: "Headphone Earbud Product Film",
+              description:
+                "3D headphone and earbud product animation with dynamic camera moves and premium packshot presentation.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Headphone", "Product"],
+              year: 2025,
+            },
+          ],
+        },
+        "3d-gadget-animation",
+      ),
     ],
   },
   {
