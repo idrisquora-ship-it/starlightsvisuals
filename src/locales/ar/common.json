@@ -466,6 +466,22 @@
             "1": "After Effects",
             "2": "Clip Studio Paint"
           }
+        },
+        "live2d-animation": {
+          "name": "LIVE2D ANIMATION",
+          "industry": "Live2D & Character",
+          "description": "Live2D character art, rigging, and animation from making process films through polished sample performances.",
+          "timeline": "2025",
+          "services": {
+            "0": "Live2D",
+            "1": "Rigging",
+            "2": "2D Character Animation"
+          },
+          "tools": {
+            "0": "Live2D Cubism",
+            "1": "After Effects",
+            "2": "Photoshop"
+          }
         }
       },
       "3d-animation": {}
@@ -549,6 +565,54 @@
         "tags": {
           "0": "Process",
           "1": "Workflow"
+        }
+      },
+      "live2d-animation-p1": {
+        "title": "Live2D Making Process",
+        "description": "Behind the scenes Live2D creation workflow from art through final animated performance.",
+        "tags": {
+          "0": "Live2D",
+          "1": "Process"
+        }
+      },
+      "live2d-animation-p2": {
+        "title": "Live2D Sample",
+        "description": "Finished Live2D character sample with expressive posing and polished motion.",
+        "tags": {
+          "0": "Live2D",
+          "1": "Sample"
+        }
+      },
+      "live2d-animation-p3": {
+        "title": "Live2D Rigging Process",
+        "description": "Live2D rigging process film showing mesh, deformers, and parameter setup.",
+        "tags": {
+          "0": "Live2D",
+          "1": "Rigging"
+        }
+      },
+      "live2d-animation-p4": {
+        "title": "Sample Live2D Rigging",
+        "description": "Sample Live2D rigging demonstration with clean parameter control and facial acting.",
+        "tags": {
+          "0": "Live2D",
+          "1": "Rigging"
+        }
+      },
+      "live2d-animation-p5": {
+        "title": "Live2D Rigging Result",
+        "description": "Final Live2D rigging result showcasing smooth motion and expressive character performance.",
+        "tags": {
+          "0": "Live2D",
+          "1": "Result"
+        }
+      },
+      "live2d-animation-p6": {
+        "title": "Live2D Film",
+        "description": "Cinematic Live2D animation with dynamic character motion and polished presentation.",
+        "tags": {
+          "0": "Live2D",
+          "1": "Film"
         }
       }
     }

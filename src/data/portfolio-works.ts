@@ -182,6 +182,84 @@ const rawWorkCategories: WorkCategory[] = [
         },
         "vtuber-animation",
       ),
+      client(
+        {
+          slug: "live2d-animation",
+          name: "LIVE2D ANIMATION",
+          industry: "Live2D & Character",
+          description:
+            "Live2D character art, rigging, and animation from making process films through polished sample performances.",
+          projectCount: 6,
+          logo: PROJECT_PLACEHOLDER,
+          banner: PROJECT_PLACEHOLDER,
+          services: ["Live2D", "Rigging", "2D Character Animation"],
+          timeline: "2025",
+          tools: ["Live2D Cubism", "After Effects", "Photoshop"],
+          projects: [
+            {
+              title: "Live2D Making Process",
+              description:
+                "Behind the scenes Live2D creation workflow from art through final animated performance.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Live2D", "Process"],
+              year: 2025,
+            },
+            {
+              title: "Live2D Sample",
+              description:
+                "Finished Live2D character sample with expressive posing and polished motion.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Live2D", "Sample"],
+              year: 2025,
+            },
+            {
+              title: "Live2D Rigging Process",
+              description:
+                "Live2D rigging process film showing mesh, deformers, and parameter setup.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Live2D", "Rigging"],
+              year: 2025,
+            },
+            {
+              title: "Sample Live2D Rigging",
+              description:
+                "Sample Live2D rigging demonstration with clean parameter control and facial acting.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Live2D", "Rigging"],
+              year: 2025,
+            },
+            {
+              title: "Live2D Rigging Result",
+              description:
+                "Final Live2D rigging result showcasing smooth motion and expressive character performance.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Live2D", "Result"],
+              year: 2025,
+            },
+            {
+              title: "Live2D Film",
+              description:
+                "Cinematic Live2D animation with dynamic character motion and polished presentation.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Live2D", "Film"],
+              year: 2025,
+            },
+          ],
+        },
+        "live2d-animation",
+      ),
     ],
   },
   {

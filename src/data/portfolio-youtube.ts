@@ -13,4 +13,10 @@ export const projectYoutubeIds = {
   "vtuber-animation-p5": "https://youtu.be/e2Doy-zqTOk",
   "vtuber-animation-p6": "https://vimeo.com/1209847191",
   "vtuber-animation-p7": "https://youtu.be/qSA1wS9F9Zw",
+  "live2d-animation-p1": "https://youtu.be/4mRu2w4ajGY",
+  "live2d-animation-p2": "https://vimeo.com/1209580152",
+  "live2d-animation-p3": "https://youtu.be/Lz8O7KEBFdQ",
+  "live2d-animation-p4": "https://youtube.com/shorts/EyPeketx70A",
+  "live2d-animation-p5": "https://youtube.com/shorts/tYc1L2uSahI",
+  "live2d-animation-p6": "https://vimeo.com/1209590078",
 } as const;
