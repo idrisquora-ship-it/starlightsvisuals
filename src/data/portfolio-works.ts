@@ -404,6 +404,74 @@ const rawWorkCategories: WorkCategory[] = [
         },
         "3d-cartoon-animation",
       ),
+      client(
+        {
+          slug: "3d-explainer-video",
+          name: "3D EXPLAINER VIDEO",
+          industry: "Product & Explainer",
+          description:
+            "3D explainer and product presentation films covering brand storytelling, 360 product displays, and commercial animation.",
+          projectCount: 5,
+          logo: PROJECT_PLACEHOLDER,
+          banner: PROJECT_PLACEHOLDER,
+          services: ["3D Explainer", "Product Presentation", "360 Product Display"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Blender", "After Effects"],
+          projects: [
+            {
+              title: "Winergy 3D Presentation",
+              description:
+                "Winergy 3D brand presentation with cinematic camera work and polished product storytelling.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Explainer", "Winergy"],
+              year: 2025,
+            },
+            {
+              title: "Popper Product 360 Display",
+              description:
+                "Popper product 360 display film showcasing form, materials, and packaging detail.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["360", "Popper"],
+              year: 2025,
+            },
+            {
+              title: "Popper Animation",
+              description:
+                "Popper 3D product animation with dynamic motion and commercial presentation.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Product", "Popper"],
+              year: 2025,
+            },
+            {
+              title: "Popper Animation 2",
+              description:
+                "Alternate Popper animation pass with refined lighting and campaign ready pacing.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Product", "Popper"],
+              year: 2025,
+            },
+            {
+              title: "Client Video of Poppes",
+              description:
+                "Client facing Poppes video presenting the product with clear storytelling and polished CGI.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Client", "Poppes"],
+              year: 2025,
+            },
+          ],
+        },
+        "3d-explainer-video",
+      ),
     ],
   },
   {

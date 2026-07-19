@@ -550,6 +550,22 @@
             "1": "Cinema 4D",
             "2": "After Effects"
           }
+        },
+        "3d-explainer-video": {
+          "name": "3D EXPLAINER VIDEO",
+          "industry": "Product & Explainer",
+          "description": "3D explainer and product presentation films covering brand storytelling, 360 product displays, and commercial animation.",
+          "timeline": "2025",
+          "services": {
+            "0": "3D Explainer",
+            "1": "Product Presentation",
+            "2": "360 Product Display"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Blender",
+            "2": "After Effects"
+          }
         }
       },
       "motion-graphics": {
@@ -827,6 +843,46 @@
         "tags": {
           "0": "Character",
           "1": "Showcase"
+        }
+      },
+      "3d-explainer-video-p1": {
+        "title": "Winergy 3D Presentation",
+        "description": "Winergy 3D brand presentation with cinematic camera work and polished product storytelling.",
+        "tags": {
+          "0": "Explainer",
+          "1": "Winergy"
+        }
+      },
+      "3d-explainer-video-p2": {
+        "title": "Popper Product 360 Display",
+        "description": "Popper product 360 display film showcasing form, materials, and packaging detail.",
+        "tags": {
+          "0": "360",
+          "1": "Popper"
+        }
+      },
+      "3d-explainer-video-p3": {
+        "title": "Popper Animation",
+        "description": "Popper 3D product animation with dynamic motion and commercial presentation.",
+        "tags": {
+          "0": "Product",
+          "1": "Popper"
+        }
+      },
+      "3d-explainer-video-p4": {
+        "title": "Popper Animation 2",
+        "description": "Alternate Popper animation pass with refined lighting and campaign ready pacing.",
+        "tags": {
+          "0": "Product",
+          "1": "Popper"
+        }
+      },
+      "3d-explainer-video-p5": {
+        "title": "Client Video of Poppes",
+        "description": "Client facing Poppes video presenting the product with clear storytelling and polished CGI.",
+        "tags": {
+          "0": "Client",
+          "1": "Poppes"
         }
       },
       "watch-animation-p1": {
