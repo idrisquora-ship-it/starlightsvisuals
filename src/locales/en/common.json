@@ -564,6 +564,22 @@
             "1": "Redshift",
             "2": "After Effects"
           }
+        },
+        "ryse-drink-3d-product-animation": {
+          "name": "RYSE DRINK 3D PRODUCT ANIMATION",
+          "industry": "Beverage & Product CGI",
+          "description": "Photoreal 3D beverage product animation for Ryse drink and lemonade campaigns with cinematic packshot finish.",
+          "timeline": "2025",
+          "services": {
+            "0": "3D Product Animation",
+            "1": "Beverage CGI",
+            "2": "Packshot Films"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Redshift",
+            "2": "After Effects"
+          }
         }
       },
       "vfx": {}
@@ -743,6 +759,22 @@
         "tags": {
           "0": "Watch",
           "1": "Steel Reef"
+        }
+      },
+      "ryse-drink-3d-product-animation-p1": {
+        "title": "Ryse Drink 3D Product Animation",
+        "description": "Cinematic 3D Ryse drink product animation with studio lighting, material detail, and commercial finish.",
+        "tags": {
+          "0": "Beverage",
+          "1": "Product"
+        }
+      },
+      "ryse-drink-3d-product-animation-p2": {
+        "title": "Lemonade Product Film",
+        "description": "Photoreal lemonade product animation with fluid motion, glass materials, and campaign ready presentation.",
+        "tags": {
+          "0": "Lemonade",
+          "1": "Product"
         }
       }
     }

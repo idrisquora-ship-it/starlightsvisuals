@@ -384,6 +384,44 @@ const rawWorkCategories: WorkCategory[] = [
         },
         "watch-animation",
       ),
+      client(
+        {
+          slug: "ryse-drink-3d-product-animation",
+          name: "RYSE DRINK 3D PRODUCT ANIMATION",
+          industry: "Beverage & Product CGI",
+          description:
+            "Photoreal 3D beverage product animation for Ryse drink and lemonade campaigns with cinematic packshot finish.",
+          projectCount: 2,
+          logo: PROJECT_PLACEHOLDER,
+          banner: PROJECT_PLACEHOLDER,
+          services: ["3D Product Animation", "Beverage CGI", "Packshot Films"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Redshift", "After Effects"],
+          projects: [
+            {
+              title: "Ryse Drink 3D Product Animation",
+              description:
+                "Cinematic 3D Ryse drink product animation with studio lighting, material detail, and commercial finish.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Beverage", "Product"],
+              year: 2025,
+            },
+            {
+              title: "Lemonade Product Film",
+              description:
+                "Photoreal lemonade product animation with fluid motion, glass materials, and campaign ready presentation.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Lemonade", "Product"],
+              year: 2025,
+            },
+          ],
+        },
+        "ryse-drink-3d-product-animation",
+      ),
     ],
   },
   {
