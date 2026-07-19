@@ -129,6 +129,22 @@
           "1": "Redshift",
           "2": "After Effects"
         }
+      },
+      "3d-perfume-animation": {
+        "name": "3D PERFUME ANIMATION",
+        "industry": "Beauty & Fragrance",
+        "description": "Photoreal 3D perfume product animation for luxury fragrance launches and campaign hero films.",
+        "timeline": "2025",
+        "services": {
+          "0": "3D Product Animation",
+          "1": "Fragrance CGI",
+          "2": "Packshot Films"
+        },
+        "tools": {
+          "0": "Cinema 4D",
+          "1": "Redshift",
+          "2": "After Effects"
+        }
       }
     },
     "vfx": {}
@@ -324,6 +340,30 @@
       "tags": {
         "0": "Lemonade",
         "1": "Product"
+      }
+    },
+    "3d-perfume-animation-p1": {
+      "title": "Anabomfim 3D Perfume Video",
+      "description": "Cinematic 3D Anabomfim perfume animation with studio lighting, glass materials, and premium packshot finish.",
+      "tags": {
+        "0": "Perfume",
+        "1": "Anabomfim"
+      }
+    },
+    "3d-perfume-animation-p2": {
+      "title": "Valentino Perfume Video",
+      "description": "Luxury Valentino perfume product film with refined reflections, fluid motion, and commercial presentation.",
+      "tags": {
+        "0": "Perfume",
+        "1": "Valentino"
+      }
+    },
+    "3d-perfume-animation-p3": {
+      "title": "Soul of Amir 3D Animation",
+      "description": "Soul of Amir 3D fragrance animation with cinematic camera work and campaign ready polish.",
+      "tags": {
+        "0": "Perfume",
+        "1": "Soul of Amir"
       }
     }
   }

@@ -27,4 +27,7 @@ export const projectYoutubeIds = {
   "watch-animation-p3": "https://vimeo.com/1210034271",
   "ryse-drink-3d-product-animation-p1": "https://vimeo.com/1209880931",
   "ryse-drink-3d-product-animation-p2": "https://vimeo.com/1210027183",
+  "3d-perfume-animation-p1": "https://vimeo.com/1210021198",
+  "3d-perfume-animation-p2": "https://vimeo.com/1210022540",
+  "3d-perfume-animation-p3": "https://vimeo.com/1210043587",
 } as const;

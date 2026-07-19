@@ -422,6 +422,54 @@ const rawWorkCategories: WorkCategory[] = [
         },
         "ryse-drink-3d-product-animation",
       ),
+      client(
+        {
+          slug: "3d-perfume-animation",
+          name: "3D PERFUME ANIMATION",
+          industry: "Beauty & Fragrance",
+          description:
+            "Photoreal 3D perfume product animation for luxury fragrance launches and campaign hero films.",
+          projectCount: 3,
+          logo: PROJECT_PLACEHOLDER,
+          banner: PROJECT_PLACEHOLDER,
+          services: ["3D Product Animation", "Fragrance CGI", "Packshot Films"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Redshift", "After Effects"],
+          projects: [
+            {
+              title: "Anabomfim 3D Perfume Video",
+              description:
+                "Cinematic 3D Anabomfim perfume animation with studio lighting, glass materials, and premium packshot finish.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Perfume", "Anabomfim"],
+              year: 2025,
+            },
+            {
+              title: "Valentino Perfume Video",
+              description:
+                "Luxury Valentino perfume product film with refined reflections, fluid motion, and commercial presentation.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Perfume", "Valentino"],
+              year: 2025,
+            },
+            {
+              title: "Soul of Amir 3D Animation",
+              description:
+                "Soul of Amir 3D fragrance animation with cinematic camera work and campaign ready polish.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Perfume", "Soul of Amir"],
+              year: 2025,
+            },
+          ],
+        },
+        "3d-perfume-animation",
+      ),
     ],
   },
   {
