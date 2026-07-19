@@ -30,4 +30,7 @@ export const projectYoutubeIds = {
   "3d-perfume-animation-p1": "https://vimeo.com/1210021198",
   "3d-perfume-animation-p2": "https://vimeo.com/1210022540",
   "3d-perfume-animation-p3": "https://vimeo.com/1210043587",
+  "kids-learning-animation-p1": "https://vimeo.com/1210028298",
+  "kids-learning-animation-p2": "https://vimeo.com/1210031405",
+  "kids-learning-animation-p3": "https://vimeo.com/1210036662",
 } as const;

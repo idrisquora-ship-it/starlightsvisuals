@@ -317,7 +317,56 @@ const rawWorkCategories: WorkCategory[] = [
     description:
       "High quality 3D character, product, and cinematic animation with feature level polish for campaigns and series.",
     coverImage: portfolioCharacter,
-    clients: [],
+    clients: [
+      client(
+        {
+          slug: "kids-learning-animation",
+          name: "KIDS LEARNING ANIMATION",
+          industry: "Children & Education",
+          description:
+            "Fun character animation for kids learning content, including number videos and cute cartoon characters.",
+          projectCount: 3,
+          logo: PROJECT_PLACEHOLDER,
+          banner: PROJECT_PLACEHOLDER,
+          services: ["Kids Learning", "Character Animation", "Educational Content"],
+          timeline: "2025",
+          tools: ["After Effects", "Toon Boom", "Blender"],
+          projects: [
+            {
+              title: "123 Number Kids Learning Video",
+              description:
+                "Educational number learning video with engaging characters and playful motion for kids.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Kids", "Learning"],
+              year: 2025,
+            },
+            {
+              title: "Custom 2D Character",
+              description:
+                "Custom 2D character animation with expressive acting and colorful stylized design.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Character", "2D"],
+              year: 2025,
+            },
+            {
+              title: "Cute 2D Cartoon Character",
+              description:
+                "Cute 2D cartoon character film with friendly personality and polished kids content motion.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Cartoon", "Kids"],
+              year: 2025,
+            },
+          ],
+        },
+        "kids-learning-animation",
+      ),
+    ],
   },
   {
     slug: "motion-graphics",

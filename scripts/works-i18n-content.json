@@ -10,6 +10,11 @@
       "tagline": "Stylized and photoreal 3D for film and brands",
       "description": "High quality 3D character, product, and cinematic animation with feature level polish for campaigns and series."
     },
+    "motion-graphics": {
+      "title": "Game Environment",
+      "tagline": "Immersive worlds and playable spaces in motion",
+      "description": "Design led motion systems for launches, dashboards, and brand worlds that scale across channels."
+    },
     "vfx": {
       "title": "VFX",
       "tagline": "Compositing, FX, and cinematic finishing",
@@ -24,6 +29,10 @@
     "3d-animation": {
       "tag": "3D Animation",
       "title": "3D Animation"
+    },
+    "motion-graphics": {
+      "tag": "Game Environment",
+      "title": "Game Environment"
     },
     "vfx": {
       "tag": "VFX",
@@ -98,6 +107,24 @@
       }
     },
     "3d-animation": {
+      "kids-learning-animation": {
+        "name": "KIDS LEARNING ANIMATION",
+        "industry": "Children & Education",
+        "description": "Fun character animation for kids learning content, including number videos and cute cartoon characters.",
+        "timeline": "2025",
+        "services": {
+          "0": "Kids Learning",
+          "1": "Character Animation",
+          "2": "Educational Content"
+        },
+        "tools": {
+          "0": "After Effects",
+          "1": "Toon Boom",
+          "2": "Blender"
+        }
+      }
+    },
+    "motion-graphics": {
       "watch-animation": {
         "name": "WATCH ANIMATION",
         "industry": "Luxury Watches",
@@ -300,6 +327,30 @@
       "tags": {
         "0": "Anime",
         "1": "Music"
+      }
+    },
+    "kids-learning-animation-p1": {
+      "title": "123 Number Kids Learning Video",
+      "description": "Educational number learning video with engaging characters and playful motion for kids.",
+      "tags": {
+        "0": "Kids",
+        "1": "Learning"
+      }
+    },
+    "kids-learning-animation-p2": {
+      "title": "Custom 2D Character",
+      "description": "Custom 2D character animation with expressive acting and colorful stylized design.",
+      "tags": {
+        "0": "Character",
+        "1": "2D"
+      }
+    },
+    "kids-learning-animation-p3": {
+      "title": "Cute 2D Cartoon Character",
+      "description": "Cute 2D cartoon character film with friendly personality and polished kids content motion.",
+      "tags": {
+        "0": "Cartoon",
+        "1": "Kids"
       }
     },
     "watch-animation-p1": {
