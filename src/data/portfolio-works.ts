@@ -366,6 +366,44 @@ const rawWorkCategories: WorkCategory[] = [
         },
         "kids-learning-animation",
       ),
+      client(
+        {
+          slug: "3d-cartoon-animation",
+          name: "3D CARTOON ANIMATION",
+          industry: "Character & Animation",
+          description:
+            "Stylized 3D cartoon character animation and showcase films with playful motion and polished presentation.",
+          projectCount: 2,
+          logo: PROJECT_PLACEHOLDER,
+          banner: PROJECT_PLACEHOLDER,
+          services: ["3D Cartoon Animation", "Character Showcase", "Stylized CGI"],
+          timeline: "2025",
+          tools: ["Blender", "Cinema 4D", "After Effects"],
+          projects: [
+            {
+              title: "3D Cartoon Animation",
+              description:
+                "Stylized 3D cartoon animation with expressive character performance and colorful presentation.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Cartoon", "3D"],
+              year: 2025,
+            },
+            {
+              title: "Cute 3D Cartoon Character Showcase",
+              description:
+                "Cute 3D cartoon character video showcase with friendly personality and polished motion.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Character", "Showcase"],
+              year: 2025,
+            },
+          ],
+        },
+        "3d-cartoon-animation",
+      ),
     ],
   },
   {

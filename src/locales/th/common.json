@@ -534,6 +534,22 @@
             "1": "Toon Boom",
             "2": "Blender"
           }
+        },
+        "3d-cartoon-animation": {
+          "name": "3D CARTOON ANIMATION",
+          "industry": "Character & Animation",
+          "description": "Stylized 3D cartoon character animation and showcase films with playful motion and polished presentation.",
+          "timeline": "2025",
+          "services": {
+            "0": "3D Cartoon Animation",
+            "1": "Character Showcase",
+            "2": "Stylized CGI"
+          },
+          "tools": {
+            "0": "Blender",
+            "1": "Cinema 4D",
+            "2": "After Effects"
+          }
         }
       },
       "motion-graphics": {
@@ -779,6 +795,22 @@
         "tags": {
           "0": "Cartoon",
           "1": "Kids"
+        }
+      },
+      "3d-cartoon-animation-p1": {
+        "title": "3D Cartoon Animation",
+        "description": "Stylized 3D cartoon animation with expressive character performance and colorful presentation.",
+        "tags": {
+          "0": "Cartoon",
+          "1": "3D"
+        }
+      },
+      "3d-cartoon-animation-p2": {
+        "title": "Cute 3D Cartoon Character Showcase",
+        "description": "Cute 3D cartoon character video showcase with friendly personality and polished motion.",
+        "tags": {
+          "0": "Character",
+          "1": "Showcase"
         }
       },
       "watch-animation-p1": {
