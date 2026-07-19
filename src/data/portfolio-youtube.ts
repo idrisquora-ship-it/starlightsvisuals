@@ -54,4 +54,7 @@ export const projectYoutubeIds = {
   "atx-p1": "https://youtu.be/dieHa2b-aCQ",
   "prov-gap-p1": "https://vimeo.com/1210273972",
   "autoz-crave-p1": "https://youtu.be/Au_RJh88iSQ",
+  "bag-suitcase-animation-p1": "https://youtu.be/cieiw04LGuc",
+  "drop-band-animation-p1": "https://youtu.be/dfLK-4XvxkQ",
+  "drop-band-animation-p2": "https://youtu.be/GIex1w7x0-c",
 } as const;

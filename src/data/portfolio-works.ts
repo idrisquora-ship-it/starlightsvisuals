@@ -701,6 +701,72 @@ const rawWorkCategories: WorkCategory[] = [
         },
         "vape-animation",
       ),
+      client(
+        {
+          slug: "bag-suitcase-animation",
+          name: "BAG/SUITCASE ANIMATION",
+          industry: "Travel & Lifestyle",
+          description:
+            "Realistic 3D product animation for bags and suitcases with cinematic packshot finish.",
+          projectCount: 1,
+          logo: PROJECT_PLACEHOLDER,
+          banner: PROJECT_PLACEHOLDER,
+          services: ["3D Product Animation", "Bag CGI", "Packshot Films"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Redshift", "After Effects"],
+          projects: [
+            {
+              title: "Realistic 3D Product Animation for Bags",
+              description:
+                "Photoreal 3D bag and suitcase product animation with premium materials and commercial presentation.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Bag", "Suitcase"],
+              year: 2025,
+            },
+          ],
+        },
+        "bag-suitcase-animation",
+      ),
+      client(
+        {
+          slug: "drop-band-animation",
+          name: "DROP BAND ANIMATION",
+          industry: "Wearables & Accessories",
+          description:
+            "Drop Band product animation covering production process films and final polished results.",
+          projectCount: 2,
+          logo: PROJECT_PLACEHOLDER,
+          banner: PROJECT_PLACEHOLDER,
+          services: ["3D Product Animation", "Process Film", "Wearable CGI"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Redshift", "After Effects"],
+          projects: [
+            {
+              title: "Drop Band Animation Process",
+              description:
+                "Behind the scenes Drop Band animation process from reference through final motion.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Process", "Drop Band"],
+              year: 2025,
+            },
+            {
+              title: "Drop Band Animation Result",
+              description:
+                "Final Drop Band product animation with refined materials, lighting, and campaign ready finish.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Product", "Drop Band"],
+              year: 2025,
+            },
+          ],
+        },
+        "drop-band-animation",
+      ),
     ],
   },
   {

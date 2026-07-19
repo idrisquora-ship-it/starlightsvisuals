@@ -687,6 +687,38 @@
             "1": "Redshift",
             "2": "After Effects"
           }
+        },
+        "bag-suitcase-animation": {
+          "name": "BAG/SUITCASE ANIMATION",
+          "industry": "Travel & Lifestyle",
+          "description": "Realistic 3D product animation for bags and suitcases with cinematic packshot finish.",
+          "timeline": "2025",
+          "services": {
+            "0": "3D Product Animation",
+            "1": "Bag CGI",
+            "2": "Packshot Films"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Redshift",
+            "2": "After Effects"
+          }
+        },
+        "drop-band-animation": {
+          "name": "DROP BAND ANIMATION",
+          "industry": "Wearables & Accessories",
+          "description": "Drop Band product animation covering production process films and final polished results.",
+          "timeline": "2025",
+          "services": {
+            "0": "3D Product Animation",
+            "1": "Process Film",
+            "2": "Wearable CGI"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Redshift",
+            "2": "After Effects"
+          }
         }
       },
       "vfx": {
@@ -1147,6 +1179,30 @@
         "tags": {
           "0": "Vape",
           "1": "Cranberry"
+        }
+      },
+      "bag-suitcase-animation-p1": {
+        "title": "Realistic 3D Product Animation for Bags",
+        "description": "Photoreal 3D bag and suitcase product animation with premium materials and commercial presentation.",
+        "tags": {
+          "0": "Bag",
+          "1": "Suitcase"
+        }
+      },
+      "drop-band-animation-p1": {
+        "title": "Drop Band Animation Process",
+        "description": "Behind the scenes Drop Band animation process from reference through final motion.",
+        "tags": {
+          "0": "Process",
+          "1": "Drop Band"
+        }
+      },
+      "drop-band-animation-p2": {
+        "title": "Drop Band Animation Result",
+        "description": "Final Drop Band product animation with refined materials, lighting, and campaign ready finish.",
+        "tags": {
+          "0": "Product",
+          "1": "Drop Band"
         }
       },
       "ronix-p1": {
