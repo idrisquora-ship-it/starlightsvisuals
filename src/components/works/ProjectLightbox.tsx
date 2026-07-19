@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 
 import type { WorkProject } from "@/types/portfolio-works";
-import { extractYouTubeId, youTubeEmbedUrl } from "@/lib/youtube";
+import { resolveVideoEmbed } from "@/lib/youtube";
 
 type ProjectLightboxProps = {
   project: WorkProject | null;
@@ -30,7 +30,7 @@ export function ProjectLightbox({ project, onClose }: ProjectLightboxProps) {
   }, [project, onClose]);
 
   useEffect(() => {
-    if (!project || project.mediaType !== "video") return;
+    if (!project || project.mediaType !== "video" || !project.mediaSrc) return;
 
     const video = videoRef.current;
     if (!video) return;
@@ -39,8 +39,10 @@ export function ProjectLightbox({ project, onClose }: ProjectLightboxProps) {
     void video.play().catch(() => undefined);
   }, [project]);
 
-  const youtubeId =
-    project?.mediaType === "youtube" ? extractYouTubeId(project.mediaSrc) : null;
+  const embed =
+    project?.mediaType === "youtube" || project?.mediaType === "vimeo"
+      ? resolveVideoEmbed(project.mediaSrc)
+      : null;
 
   return (
     <AnimatePresence>
@@ -72,11 +74,11 @@ export function ProjectLightbox({ project, onClose }: ProjectLightboxProps) {
             >
               <X className="h-4 w-4" />
             </button>
-            {project.mediaType === "youtube" && youtubeId ? (
+            {embed ? (
               <div className="aspect-video w-full bg-black">
                 <iframe
-                  key={youtubeId}
-                  src={youTubeEmbedUrl(youtubeId)}
+                  key={embed.id}
+                  src={embed.embedUrl}
                   title={project.title}
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen

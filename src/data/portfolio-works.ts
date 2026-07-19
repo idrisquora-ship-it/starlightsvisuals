@@ -94,6 +94,94 @@ const rawWorkCategories: WorkCategory[] = [
         },
         "chibi-art",
       ),
+      client(
+        {
+          slug: "vtuber-animation",
+          name: "VTUBER ANIMATION",
+          industry: "VTuber & Character",
+          description:
+            "VTuber character art and 2D animation with modeling process films, polished samples, and Live2D style performance.",
+          projectCount: 7,
+          logo: PROJECT_PLACEHOLDER,
+          banner: PROJECT_PLACEHOLDER,
+          services: ["VTuber Animation", "2D Character", "Live2D Style"],
+          timeline: "2025",
+          tools: ["Live2D", "After Effects", "Clip Studio Paint"],
+          projects: [
+            {
+              title: "Vtuber Modeling Creation",
+              description:
+                "VTuber character modeling creation film covering art direction and build workflow.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["VTuber", "Modeling"],
+              year: 2025,
+            },
+            {
+              title: "Vtuber 2D Video Results",
+              description:
+                "Finished 2D VTuber animation results with expressive performance and polished motion.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["VTuber", "2D"],
+              year: 2025,
+            },
+            {
+              title: "Princess Vtuber Modeling",
+              description:
+                "Princess VTuber modeling sample showcasing character design and animated performance.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["VTuber", "Princess"],
+              year: 2025,
+            },
+            {
+              title: "Vtuber 2D Video",
+              description:
+                "Cinematic 2D VTuber animation with dynamic character motion and expressive acting.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["VTuber", "2D"],
+              year: 2025,
+            },
+            {
+              title: "Vtuber Sample 2",
+              description:
+                "Second VTuber animation sample with bold character acting and polished motion.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["VTuber", "Sample"],
+              year: 2025,
+            },
+            {
+              title: "Vtuber Sample 3",
+              description:
+                "Extended VTuber character showcase with cinematic pacing and expressive 2D animation.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["VTuber", "Sample"],
+              year: 2025,
+            },
+            {
+              title: "Vtuber Video Process",
+              description:
+                "Behind the scenes VTuber animation process from art through rigging and final motion.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Process", "Workflow"],
+              year: 2025,
+            },
+          ],
+        },
+        "vtuber-animation",
+      ),
     ],
   },
   {

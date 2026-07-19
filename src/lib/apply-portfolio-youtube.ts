@@ -1,22 +1,28 @@
 import { projectYoutubeIds } from "@/data/portfolio-youtube";
 import { PROJECT_PLACEHOLDER } from "@/data/portfolio-placeholder";
-import { extractYouTubeId, youTubeThumbnail, youTubeWatchUrl } from "@/lib/youtube";
+import { resolveVideoEmbed } from "@/lib/youtube";
 import type { WorkCategory, WorkClient, WorkProject } from "@/types/portfolio-works";
 
 function mapProject(project: WorkProject): WorkProject | null {
   if (project.mediaType === "image") return null;
 
-  if (project.mediaType !== "video" && project.mediaType !== "youtube") return null;
+  if (
+    project.mediaType !== "video" &&
+    project.mediaType !== "youtube" &&
+    project.mediaType !== "vimeo"
+  ) {
+    return null;
+  }
 
-  const configuredId = projectYoutubeIds[project.id as keyof typeof projectYoutubeIds];
-  const youtubeId = extractYouTubeId(configuredId ?? "");
+  const configured = projectYoutubeIds[project.id as keyof typeof projectYoutubeIds] ?? "";
+  const resolved = resolveVideoEmbed(configured);
 
-  if (youtubeId) {
+  if (resolved) {
     return {
       ...project,
-      mediaType: "youtube",
-      mediaSrc: youTubeWatchUrl(youtubeId),
-      thumbnail: youTubeThumbnail(youtubeId),
+      mediaType: resolved.provider,
+      mediaSrc: resolved.watchUrl,
+      thumbnail: resolved.thumbnail,
     };
   }
 
@@ -33,7 +39,8 @@ function mapClient(client: WorkClient): WorkClient {
     .map(mapProject)
     .filter((project): project is WorkProject => project !== null);
 
-  const hero = projects.find((p) => p.mediaType === "youtube") ?? projects[0];
+  const hero =
+    projects.find((p) => p.mediaType === "youtube" || p.mediaType === "vimeo") ?? projects[0];
 
   return {
     ...client,

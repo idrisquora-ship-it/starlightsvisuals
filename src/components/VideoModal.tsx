@@ -3,7 +3,7 @@ import { X } from "lucide-react";
 import { useCallback, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
-import { extractYouTubeId, youTubeEmbedUrl } from "@/lib/youtube";
+import { resolveVideoEmbed } from "@/lib/youtube";
 import { cn } from "@/lib/utils";
 
 export type VideoModalProps = {
@@ -16,7 +16,7 @@ export type VideoModalProps = {
 
 export function VideoModal({ open, onClose, videoSrc, poster, title }: VideoModalProps) {
   const { t } = useTranslation();
-  const youtubeId = extractYouTubeId(videoSrc);
+  const embed = resolveVideoEmbed(videoSrc);
 
   const handleKeyDown = useCallback(
     (e: KeyboardEvent) => {
@@ -80,10 +80,10 @@ export function VideoModal({ open, onClose, videoSrc, poster, title }: VideoModa
             </button>
 
             <div className="aspect-video w-full bg-black">
-              {youtubeId ? (
+              {embed ? (
                 <iframe
-                  key={youtubeId}
-                  src={youTubeEmbedUrl(youtubeId)}
+                  key={embed.id}
+                  src={embed.embedUrl}
                   title={title}
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen

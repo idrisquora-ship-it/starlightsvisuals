@@ -38,6 +38,22 @@
           "1": "Clip Studio Paint",
           "2": "Photoshop"
         }
+      },
+      "vtuber-animation": {
+        "name": "VTUBER ANIMATION",
+        "industry": "VTuber & Character",
+        "description": "VTuber character art and 2D animation with modeling process films, polished samples, and Live2D style performance.",
+        "timeline": "2025",
+        "services": {
+          "0": "VTuber Animation",
+          "1": "2D Character",
+          "2": "Live2D Style"
+        },
+        "tools": {
+          "0": "Live2D",
+          "1": "After Effects",
+          "2": "Clip Studio Paint"
+        }
       }
     },
     "3d-animation": {}
@@ -62,6 +78,62 @@
     "chibi-art-p3": {
       "title": "Making Process Film",
       "description": "Behind the scenes look at the chibi art creation and animation workflow from sketch to final motion.",
+      "tags": {
+        "0": "Process",
+        "1": "Workflow"
+      }
+    },
+    "vtuber-animation-p1": {
+      "title": "Vtuber Modeling Creation",
+      "description": "VTuber character modeling creation film covering art direction and build workflow.",
+      "tags": {
+        "0": "VTuber",
+        "1": "Modeling"
+      }
+    },
+    "vtuber-animation-p2": {
+      "title": "Vtuber 2D Video Results",
+      "description": "Finished 2D VTuber animation results with expressive performance and polished motion.",
+      "tags": {
+        "0": "VTuber",
+        "1": "2D"
+      }
+    },
+    "vtuber-animation-p3": {
+      "title": "Princess Vtuber Modeling",
+      "description": "Princess VTuber modeling sample showcasing character design and animated performance.",
+      "tags": {
+        "0": "VTuber",
+        "1": "Princess"
+      }
+    },
+    "vtuber-animation-p4": {
+      "title": "Vtuber 2D Video",
+      "description": "Cinematic 2D VTuber animation with dynamic character motion and expressive acting.",
+      "tags": {
+        "0": "VTuber",
+        "1": "2D"
+      }
+    },
+    "vtuber-animation-p5": {
+      "title": "Vtuber Sample 2",
+      "description": "Second VTuber animation sample with bold character acting and polished motion.",
+      "tags": {
+        "0": "VTuber",
+        "1": "Sample"
+      }
+    },
+    "vtuber-animation-p6": {
+      "title": "Vtuber Sample 3",
+      "description": "Extended VTuber character showcase with cinematic pacing and expressive 2D animation.",
+      "tags": {
+        "0": "VTuber",
+        "1": "Sample"
+      }
+    },
+    "vtuber-animation-p7": {
+      "title": "Vtuber Video Process",
+      "description": "Behind the scenes VTuber animation process from art through rigging and final motion.",
       "tags": {
         "0": "Process",
         "1": "Workflow"
