@@ -805,6 +805,44 @@ const rawWorkCategories: WorkCategory[] = [
         },
         "drop-band-animation",
       ),
+      client(
+        {
+          slug: "3d-bed-animation",
+          name: "3D BED ANIMATION",
+          industry: "Furniture & Bedding",
+          description:
+            "Photoreal 3D mattress and bed product animation for furniture brands with cinematic packshot finish.",
+          projectCount: 2,
+          logo: PROJECT_PLACEHOLDER,
+          banner: PROJECT_PLACEHOLDER,
+          services: ["3D Product Animation", "Furniture CGI", "Packshot Films"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Redshift", "After Effects"],
+          projects: [
+            {
+              title: "Realistic 3D Mattress Animation",
+              description:
+                "Realistic 3D mattress product animation with soft materials, lighting, and campaign ready presentation.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Mattress", "Product"],
+              year: 2025,
+            },
+            {
+              title: "Simba Bed Animation",
+              description:
+                "Simba bed animation with cinematic camera work, material detail, and commercial finish.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Bed", "Simba"],
+              year: 2025,
+            },
+          ],
+        },
+        "3d-bed-animation",
+      ),
     ],
   },
   {

@@ -696,6 +696,22 @@
             "1": "Redshift",
             "2": "After Effects"
           }
+        },
+        "3d-bed-animation": {
+          "name": "3D BED ANIMATION",
+          "industry": "Furniture & Bedding",
+          "description": "Photoreal 3D mattress and bed product animation for furniture brands with cinematic packshot finish.",
+          "timeline": "2025",
+          "services": {
+            "0": "3D Product Animation",
+            "1": "Furniture CGI",
+            "2": "Packshot Films"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Redshift",
+            "2": "After Effects"
+          }
         }
       },
       "vfx": {
@@ -1196,6 +1212,22 @@
         "tags": {
           "0": "Product",
           "1": "Drop Band"
+        }
+      },
+      "3d-bed-animation-p1": {
+        "title": "Realistic 3D Mattress Animation",
+        "description": "Realistic 3D mattress product animation with soft materials, lighting, and campaign ready presentation.",
+        "tags": {
+          "0": "Mattress",
+          "1": "Product"
+        }
+      },
+      "3d-bed-animation-p2": {
+        "title": "Simba Bed Animation",
+        "description": "Simba bed animation with cinematic camera work, material detail, and commercial finish.",
+        "tags": {
+          "0": "Bed",
+          "1": "Simba"
         }
       },
       "ronix-p1": {
