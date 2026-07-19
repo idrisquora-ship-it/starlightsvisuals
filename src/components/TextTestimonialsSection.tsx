@@ -14,6 +14,15 @@ export function TextTestimonialsSection() {
   const testimonials: TextTestimonial[] = useMemo(
     () => [
       {
+        headline: t("testimonials.items.hauke.headline"),
+        quote: t("testimonials.items.hauke.quote"),
+        name: "Hauke",
+        company: "SmarAct Group",
+        role: t("testimonials.items.hauke.role"),
+        initials: "HA",
+        rating: 5,
+      },
+      {
         headline: t("testimonials.items.elena.headline"),
         quote: t("testimonials.items.elena.quote"),
         name: "Elena Vasquez",
