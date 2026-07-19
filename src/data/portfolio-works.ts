@@ -260,6 +260,54 @@ const rawWorkCategories: WorkCategory[] = [
         },
         "live2d-animation",
       ),
+      client(
+        {
+          slug: "2d-anime-animation",
+          name: "2D ANIME ANIMATION",
+          industry: "Anime & 2D Animation",
+          description:
+            "High quality 2D anime style animation and music videos with expressive characters and cinematic motion.",
+          projectCount: 3,
+          logo: PROJECT_PLACEHOLDER,
+          banner: PROJECT_PLACEHOLDER,
+          services: ["2D Anime", "Music Video", "Character Animation"],
+          timeline: "2025",
+          tools: ["After Effects", "Toon Boom", "Clip Studio Paint"],
+          projects: [
+            {
+              title: "Japanese Style 2D Anime",
+              description:
+                "Japanese anime style 2D animation with dynamic posing, expressive acting, and polished line work.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Anime", "2D"],
+              year: 2025,
+            },
+            {
+              title: "Anime Music Video",
+              description:
+                "2D anime music video with character driven storytelling and cinematic timing.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Music Video", "Anime"],
+              year: 2025,
+            },
+            {
+              title: "Meme Song Animation",
+              description:
+                "Playful 2D anime character animation timed to a meme song with bold motion and humor.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Anime", "Music"],
+              year: 2025,
+            },
+          ],
+        },
+        "2d-anime-animation",
+      ),
     ],
   },
   {

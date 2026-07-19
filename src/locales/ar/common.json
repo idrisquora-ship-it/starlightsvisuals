@@ -482,6 +482,22 @@
             "1": "After Effects",
             "2": "Photoshop"
           }
+        },
+        "2d-anime-animation": {
+          "name": "2D ANIME ANIMATION",
+          "industry": "Anime & 2D Animation",
+          "description": "High quality 2D anime style animation and music videos with expressive characters and cinematic motion.",
+          "timeline": "2025",
+          "services": {
+            "0": "2D Anime",
+            "1": "Music Video",
+            "2": "Character Animation"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Toon Boom",
+            "2": "Clip Studio Paint"
+          }
         }
       },
       "3d-animation": {}
@@ -613,6 +629,30 @@
         "tags": {
           "0": "Live2D",
           "1": "Film"
+        }
+      },
+      "2d-anime-animation-p1": {
+        "title": "Japanese Style 2D Anime",
+        "description": "Japanese anime style 2D animation with dynamic posing, expressive acting, and polished line work.",
+        "tags": {
+          "0": "Anime",
+          "1": "2D"
+        }
+      },
+      "2d-anime-animation-p2": {
+        "title": "Anime Music Video",
+        "description": "2D anime music video with character driven storytelling and cinematic timing.",
+        "tags": {
+          "0": "Music Video",
+          "1": "Anime"
+        }
+      },
+      "2d-anime-animation-p3": {
+        "title": "Meme Song Animation",
+        "description": "Playful 2D anime character animation timed to a meme song with bold motion and humor.",
+        "tags": {
+          "0": "Anime",
+          "1": "Music"
         }
       }
     }

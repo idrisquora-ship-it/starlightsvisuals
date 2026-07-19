@@ -19,4 +19,7 @@ export const projectYoutubeIds = {
   "live2d-animation-p4": "https://youtube.com/shorts/EyPeketx70A",
   "live2d-animation-p5": "https://youtube.com/shorts/tYc1L2uSahI",
   "live2d-animation-p6": "https://vimeo.com/1209590078",
+  "2d-anime-animation-p1": "https://vimeo.com/1209871360",
+  "2d-anime-animation-p2": "https://vimeo.com/1209873743",
+  "2d-anime-animation-p3": "https://vimeo.com/1209878429",
 } as const;
