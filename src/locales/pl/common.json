@@ -421,6 +421,11 @@
         "title": "Animacja 3D",
         "tagline": "Stylized and photoreal 3D for film and brands",
         "description": "High quality 3D character, product, and cinematic animation with feature level polish for campaigns and series."
+      },
+      "vfx": {
+        "title": "Efekty wizualne (VFX)",
+        "tagline": "Compositing, FX, and cinematic finishing",
+        "description": "Visual effects for trailers, product films, and branded content, from cleanups to full CG integration."
       }
     },
     "showcase": {
@@ -431,6 +436,10 @@
       "3d-animation": {
         "tag": "Animacja 3D",
         "title": "Animacja 3D"
+      },
+      "vfx": {
+        "tag": "Efekty wizualne (VFX)",
+        "title": "Efekty wizualne (VFX)"
       }
     },
     "clients": {
@@ -500,7 +509,25 @@
           }
         }
       },
-      "3d-animation": {}
+      "3d-animation": {
+        "watch-animation": {
+          "name": "WATCH ANIMATION",
+          "industry": "Luxury Watches",
+          "description": "Photoreal 3D watch product animation and cinematic packshot films for luxury timepieces.",
+          "timeline": "2025",
+          "services": {
+            "0": "3D Product Animation",
+            "1": "Watch CGI",
+            "2": "Packshot Films"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Redshift",
+            "2": "After Effects"
+          }
+        }
+      },
+      "vfx": {}
     },
     "projects": {
       "chibi-art-p1": {
@@ -653,6 +680,30 @@
         "tags": {
           "0": "Anime",
           "1": "Music"
+        }
+      },
+      "watch-animation-p1": {
+        "title": "Watch Product Film",
+        "description": "Cinematic 3D watch animation with studio lighting, material detail, and premium packshot finish.",
+        "tags": {
+          "0": "Watch",
+          "1": "Product"
+        }
+      },
+      "watch-animation-p2": {
+        "title": "Rifari Wrist Watch",
+        "description": "Photoreal Rifari wrist watch product film with refined reflections and commercial presentation.",
+        "tags": {
+          "0": "Watch",
+          "1": "Rifari"
+        }
+      },
+      "watch-animation-p3": {
+        "title": "Steel Reef Wrist Watch",
+        "description": "Steel Reef wrist watch animation with premium materials, lighting, and campaign ready motion.",
+        "tags": {
+          "0": "Watch",
+          "1": "Steel Reef"
         }
       }
     }

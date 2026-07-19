@@ -335,7 +335,56 @@ const rawWorkCategories: WorkCategory[] = [
     description:
       "Editorial finishing, rhythm, and story structure for commercials, documentaries, and brand films.",
     coverImage: portfolioTrailer,
-    clients: [],
+    clients: [
+      client(
+        {
+          slug: "watch-animation",
+          name: "WATCH ANIMATION",
+          industry: "Luxury Watches",
+          description:
+            "Photoreal 3D watch product animation and cinematic packshot films for luxury timepieces.",
+          projectCount: 3,
+          logo: PROJECT_PLACEHOLDER,
+          banner: PROJECT_PLACEHOLDER,
+          services: ["3D Product Animation", "Watch CGI", "Packshot Films"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Redshift", "After Effects"],
+          projects: [
+            {
+              title: "Watch Product Film",
+              description:
+                "Cinematic 3D watch animation with studio lighting, material detail, and premium packshot finish.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Watch", "Product"],
+              year: 2025,
+            },
+            {
+              title: "Rifari Wrist Watch",
+              description:
+                "Photoreal Rifari wrist watch product film with refined reflections and commercial presentation.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Watch", "Rifari"],
+              year: 2025,
+            },
+            {
+              title: "Steel Reef Wrist Watch",
+              description:
+                "Steel Reef wrist watch animation with premium materials, lighting, and campaign ready motion.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Watch", "Steel Reef"],
+              year: 2025,
+            },
+          ],
+        },
+        "watch-animation",
+      ),
+    ],
   },
   {
     slug: "vfx",

@@ -22,4 +22,7 @@ export const projectYoutubeIds = {
   "2d-anime-animation-p1": "https://vimeo.com/1209871360",
   "2d-anime-animation-p2": "https://vimeo.com/1209873743",
   "2d-anime-animation-p3": "https://vimeo.com/1209878429",
+  "watch-animation-p1": "https://vimeo.com/1210024583",
+  "watch-animation-p2": "https://vimeo.com/1209875240",
+  "watch-animation-p3": "https://vimeo.com/1210034271",
 } as const;
