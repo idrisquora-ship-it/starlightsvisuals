@@ -204,6 +204,22 @@
           "1": "Redshift",
           "2": "After Effects"
         }
+      },
+      "vape-animation": {
+        "name": "VAPE ANIMATION",
+        "industry": "Consumer Products",
+        "description": "Photoreal 3D vape product animation with studio lighting, material detail, and campaign ready packshot films.",
+        "timeline": "2025",
+        "services": {
+          "0": "3D Product Animation",
+          "1": "Vape CGI",
+          "2": "Packshot Films"
+        },
+        "tools": {
+          "0": "Cinema 4D",
+          "1": "Redshift",
+          "2": "After Effects"
+        }
       }
     },
     "vfx": {}
@@ -479,6 +495,22 @@
       "tags": {
         "0": "Headphone",
         "1": "Product"
+      }
+    },
+    "vape-animation-p1": {
+      "title": "Jojo Vape",
+      "description": "Cinematic 3D Jojo vape product animation with refined materials and commercial finish.",
+      "tags": {
+        "0": "Vape",
+        "1": "Jojo"
+      }
+    },
+    "vape-animation-p2": {
+      "title": "Juicy Cranberry Vape",
+      "description": "Juicy cranberry vape product film with vibrant color, lighting, and campaign ready presentation.",
+      "tags": {
+        "0": "Vape",
+        "1": "Cranberry"
       }
     }
   }

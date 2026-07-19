@@ -595,6 +595,44 @@ const rawWorkCategories: WorkCategory[] = [
         },
         "3d-gadget-animation",
       ),
+      client(
+        {
+          slug: "vape-animation",
+          name: "VAPE ANIMATION",
+          industry: "Consumer Products",
+          description:
+            "Photoreal 3D vape product animation with studio lighting, material detail, and campaign ready packshot films.",
+          projectCount: 2,
+          logo: PROJECT_PLACEHOLDER,
+          banner: PROJECT_PLACEHOLDER,
+          services: ["3D Product Animation", "Vape CGI", "Packshot Films"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Redshift", "After Effects"],
+          projects: [
+            {
+              title: "Jojo Vape",
+              description:
+                "Cinematic 3D Jojo vape product animation with refined materials and commercial finish.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Vape", "Jojo"],
+              year: 2025,
+            },
+            {
+              title: "Juicy Cranberry Vape",
+              description:
+                "Juicy cranberry vape product film with vibrant color, lighting, and campaign ready presentation.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Vape", "Cranberry"],
+              year: 2025,
+            },
+          ],
+        },
+        "vape-animation",
+      ),
     ],
   },
   {

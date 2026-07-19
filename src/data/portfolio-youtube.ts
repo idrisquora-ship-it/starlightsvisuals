@@ -37,4 +37,6 @@ export const projectYoutubeIds = {
   "3d-gadget-animation-p2": "https://vimeo.com/1210045912",
   "3d-cartoon-animation-p1": "https://vimeo.com/1210037919",
   "3d-cartoon-animation-p2": "https://vimeo.com/1210036662",
+  "vape-animation-p1": "https://vimeo.com/1210039359",
+  "vape-animation-p2": "https://vimeo.com/1210041382",
 } as const;
