@@ -472,6 +472,44 @@ const rawWorkCategories: WorkCategory[] = [
         },
         "3d-explainer-video",
       ),
+      client(
+        {
+          slug: "3d-medical-animation",
+          name: "3D MEDICAL ANIMATION",
+          industry: "Healthcare & Medical Visualization",
+          description:
+            "High quality 3D medical animation covering anatomy, surgical procedures, and medical device visualization.",
+          projectCount: 2,
+          logo: PROJECT_PLACEHOLDER,
+          banner: PROJECT_PLACEHOLDER,
+          services: ["Medical Animation", "Anatomy CGI", "Surgical Visualization"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Blender", "After Effects"],
+          projects: [
+            {
+              title: "High Quality 3D Medical Anatomy Animation",
+              description:
+                "High quality 3D medical animation with detailed anatomy visualization and polished cinematic presentation.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Medical", "Anatomy"],
+              year: 2025,
+            },
+            {
+              title: "3D Medical Animation 2",
+              description:
+                "Second 3D medical animation sample with clear anatomical storytelling and commercial finish.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Medical", "Healthcare"],
+              year: 2025,
+            },
+          ],
+        },
+        "3d-medical-animation",
+      ),
     ],
   },
   {

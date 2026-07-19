@@ -57,4 +57,6 @@ export const projectYoutubeIds = {
   "bag-suitcase-animation-p1": "https://youtu.be/cieiw04LGuc",
   "drop-band-animation-p1": "https://youtu.be/dfLK-4XvxkQ",
   "drop-band-animation-p2": "https://youtu.be/GIex1w7x0-c",
+  "3d-medical-animation-p1": "https://youtu.be/_49zfG03G1U",
+  "3d-medical-animation-p2": "https://youtu.be/yfGZMp-JKnY",
 } as const;
