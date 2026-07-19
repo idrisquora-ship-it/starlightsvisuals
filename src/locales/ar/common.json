@@ -160,7 +160,9 @@
       "headProduction": "رئيس الإنتاج",
       "vpMarketing": "نائب رئيس التسويق",
       "coFounder": "الشريك المؤسس"
-    }
+    },
+    "seeMore": "See more",
+    "seeLess": "See less"
   },
   "servicesPage": {
     "metaTitle": "الخدمات | Starlights Visuals",

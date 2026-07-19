@@ -160,7 +160,9 @@
       "headProduction": "Керівник продакшену",
       "vpMarketing": "Віце-президент з маркетингу",
       "coFounder": "Співзасновник"
-    }
+    },
+    "seeMore": "See more",
+    "seeLess": "See less"
   },
   "servicesPage": {
     "metaTitle": "Послуги | Starlights Visuals",

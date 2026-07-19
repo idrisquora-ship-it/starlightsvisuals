@@ -221,4 +221,43 @@
   .testimonial-carousel::-webkit-scrollbar {
     display: none;
   }
+
+  /* Autoplay text-testimonials marquee — 2 equal segments */
+  @keyframes testimonial-marquee {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(-50%, 0, 0);
+    }
+  }
+  .testimonial-marquee-track {
+    animation: testimonial-marquee 48s linear infinite;
+    backface-visibility: hidden;
+  }
+  .testimonial-marquee-card {
+    width: min(85vw, 300px);
+  }
+  @media (min-width: 768px) {
+    .testimonial-marquee-card {
+      width: calc((100vw - 4rem - 1.25rem) / 2);
+      max-width: 360px;
+    }
+  }
+  @media (min-width: 1024px) {
+    .testimonial-marquee-card {
+      width: calc((100vw - 5rem - 3.75rem) / 4);
+      max-width: none;
+    }
+  }
+  .testimonial-marquee-shell:hover .testimonial-marquee-track,
+  .testimonial-marquee-shell:focus-within .testimonial-marquee-track,
+  .testimonial-marquee-shell.is-paused .testimonial-marquee-track {
+    animation-play-state: paused;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .testimonial-marquee-track {
+      animation: none;
+    }
+  }
 }

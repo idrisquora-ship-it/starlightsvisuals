@@ -160,7 +160,9 @@
       "headProduction": "Head of Production",
       "vpMarketing": "VP Marketing",
       "coFounder": "Medgrundare"
-    }
+    },
+    "seeMore": "See more",
+    "seeLess": "See less"
   },
   "servicesPage": {
     "metaTitle": "Tjänster | Starlights Visuals",

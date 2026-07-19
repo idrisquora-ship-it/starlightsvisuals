@@ -160,7 +160,9 @@
       "headProduction": "Head of Production",
       "vpMarketing": "VP Marketing",
       "coFounder": "Co Founder"
-    }
+    },
+    "seeMore": "See more",
+    "seeLess": "See less"
   },
   "servicesPage": {
     "metaTitle": "Layanan | Starlights Visuals",

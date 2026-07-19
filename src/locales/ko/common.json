@@ -160,7 +160,9 @@
       "headProduction": "프로덕션 헤드",
       "vpMarketing": "마케팅 부사장",
       "coFounder": "공동 창립자"
-    }
+    },
+    "seeMore": "See more",
+    "seeLess": "See less"
   },
   "servicesPage": {
     "metaTitle": "서비스 | Starlights Visuals",

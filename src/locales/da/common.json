@@ -160,7 +160,9 @@
       "headProduction": "Head of Production",
       "vpMarketing": "VP Marketing",
       "coFounder": "Medstifter"
-    }
+    },
+    "seeMore": "See more",
+    "seeLess": "See less"
   },
   "servicesPage": {
     "metaTitle": "Services | Starlights Visuals",

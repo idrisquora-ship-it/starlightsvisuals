@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { BadgeCheck, Star } from "lucide-react";
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -18,6 +19,9 @@ export type TextTestimonial = {
   verified?: boolean;
 };
 
+/** Matches the shorter mock quotes so cards stay even in the carousel. */
+const QUOTE_PREVIEW_CHARS = 145;
+
 function avatarSrc(testimonial: TextTestimonial) {
   if (testimonial.avatarUrl) return testimonial.avatarUrl;
   return `https://ui-avatars.com/api/?name=${encodeURIComponent(testimonial.initials)}&background=141414&color=9dff57&size=128&bold=true&format=png`;
@@ -26,12 +30,32 @@ function avatarSrc(testimonial: TextTestimonial) {
 type TestimonialCardProps = {
   testimonial: TextTestimonial;
   className?: string;
+  onExpandChange?: (expanded: boolean) => void;
 };
 
-export function TestimonialCard({ testimonial, className }: TestimonialCardProps) {
+export function TestimonialCard({
+  testimonial,
+  className,
+  onExpandChange,
+}: TestimonialCardProps) {
   const { t } = useTranslation();
+  const [expanded, setExpanded] = useState(false);
   const rating = testimonial.rating ?? 5;
   const verified = testimonial.verified ?? true;
+
+  const needsTruncate = testimonial.quote.length > QUOTE_PREVIEW_CHARS;
+  const displayQuote =
+    expanded || !needsTruncate
+      ? testimonial.quote
+      : `${testimonial.quote.slice(0, QUOTE_PREVIEW_CHARS).trimEnd()}…`;
+
+  function toggleExpand() {
+    setExpanded((prev) => {
+      const next = !prev;
+      onExpandChange?.(next);
+      return next;
+    });
+  }
 
   return (
     <motion.figure
@@ -74,7 +98,16 @@ export function TestimonialCard({ testimonial, className }: TestimonialCardProps
       </h3>
 
       <blockquote className="mt-4 flex-1 text-sm leading-relaxed text-muted-foreground md:text-[15px]">
-        {testimonial.quote}
+        <p>{displayQuote}</p>
+        {needsTruncate && (
+          <button
+            type="button"
+            onClick={toggleExpand}
+            className="mt-2 font-display text-[11px] uppercase tracking-[0.14em] text-neon-green transition-opacity hover:opacity-80"
+          >
+            {expanded ? t("testimonials.seeLess") : t("testimonials.seeMore")}
+          </button>
+        )}
       </blockquote>
 
       <figcaption className="mt-8 flex items-center gap-4 border-t border-white/[0.08] pt-6">

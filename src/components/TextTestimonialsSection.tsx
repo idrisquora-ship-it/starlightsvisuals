@@ -1,15 +1,18 @@
 import { motion, useInView } from "framer-motion";
-import { useMemo, useRef } from "react";
+import { useMemo, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 
-import { StaggerReveal } from "@/components/SectionReveal";
 import { TestimonialCard, type TextTestimonial } from "@/components/TestimonialCard";
 import { SectionReveal } from "@/components/SectionReveal";
+import { cn } from "@/lib/utils";
+
+const MARQUEE_COPIES = 2;
 
 export function TextTestimonialsSection() {
   const { t, i18n } = useTranslation();
-  const carouselRef = useRef<HTMLDivElement>(null);
-  const carouselInView = useInView(carouselRef, { once: true, margin: "-5% 0px" });
+  const sectionRef = useRef<HTMLDivElement>(null);
+  const inView = useInView(sectionRef, { once: true, margin: "-5% 0px" });
+  const [pausedByExpand, setPausedByExpand] = useState(0);
 
   const testimonials: TextTestimonial[] = useMemo(
     () => [
@@ -53,6 +56,10 @@ export function TextTestimonialsSection() {
     [t, i18n.language],
   );
 
+  function handleExpandChange(expanded: boolean) {
+    setPausedByExpand((count) => Math.max(0, count + (expanded ? 1 : -1)));
+  }
+
   return (
     <section className="relative isolate overflow-hidden border-b border-border/40 bg-background">
       <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(ellipse_60%_40%_at_50%_100%,oklch(0.88_0.27_142/0.06),transparent)]" />
@@ -69,29 +76,60 @@ export function TextTestimonialsSection() {
             <span className="neon-text text-glow">{t("testimonials.title2")}</span>
           </h2>
         </SectionReveal>
+      </div>
 
-        <StaggerReveal className="mt-12 hidden gap-5 md:mt-16 md:grid md:grid-cols-2 lg:grid-cols-3 lg:gap-6">
+      <motion.div
+        ref={sectionRef}
+        initial={{ opacity: 0, y: 28 }}
+        animate={inView ? { opacity: 1, y: 0 } : {}}
+        transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
+        className="pb-20 md:pb-28"
+      >
+        {/* Static row when reduced motion is preferred */}
+        <div className="mx-auto hidden max-w-7xl gap-5 px-6 motion-reduce:grid motion-reduce:grid-cols-1 md:px-14 motion-reduce:sm:grid-cols-2 motion-reduce:lg:grid-cols-4">
           {testimonials.map((item) => (
-            <TestimonialCard key={item.name} testimonial={item} />
+            <TestimonialCard
+              key={item.name}
+              testimonial={item}
+              onExpandChange={handleExpandChange}
+            />
           ))}
-        </StaggerReveal>
+        </div>
 
-        <motion.div
-          ref={carouselRef}
-          initial={{ opacity: 0, y: 32 }}
-          animate={carouselInView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
-          className="mt-10 md:hidden"
+        <div
+          className={cn(
+            "testimonial-marquee-shell relative w-full motion-reduce:hidden",
+            "before:pointer-events-none before:absolute before:left-0 before:top-0 before:z-10 before:h-full before:w-10 before:bg-gradient-to-r before:from-background before:to-transparent md:before:w-20",
+            "after:pointer-events-none after:absolute after:right-0 after:top-0 after:z-10 after:h-full after:w-10 after:bg-gradient-to-l after:from-background after:to-transparent md:after:w-20",
+            pausedByExpand > 0 && "is-paused",
+          )}
         >
-          <div className="testimonial-carousel -mx-6 flex snap-x snap-mandatory gap-4 overflow-x-auto px-6 pb-4">
-            {testimonials.map((item) => (
-              <div key={item.name} className="w-[min(92vw,380px)] shrink-0 snap-center">
-                <TestimonialCard testimonial={item} />
+          <div className="testimonial-marquee-track flex w-max flex-nowrap will-change-transform">
+            {Array.from({ length: MARQUEE_COPIES }, (_, copyIndex) => (
+              <div
+                key={copyIndex}
+                className="flex shrink-0 flex-nowrap gap-5 px-2.5"
+                aria-hidden={copyIndex > 0}
+              >
+                {testimonials.map((item) => (
+                  <div
+                    key={`${copyIndex}-${item.name}`}
+                    className={cn(
+                      "testimonial-marquee-card shrink-0",
+                      copyIndex > 0 && "pointer-events-none",
+                    )}
+                  >
+                    <TestimonialCard
+                      testimonial={item}
+                      onExpandChange={copyIndex === 0 ? handleExpandChange : undefined}
+                    />
+                  </div>
+                ))}
               </div>
             ))}
           </div>
-        </motion.div>
-      </div>
+        </div>
+      </motion.div>
     </section>
   );
 }
