@@ -170,6 +170,22 @@
           "1": "Blender",
           "2": "After Effects"
         }
+      },
+      "3d-anime-character": {
+        "name": "3D ANIME CHARACTER",
+        "industry": "Character & Anime",
+        "description": "3D anime character modeling and client showcase films with stylized materials and polished presentation.",
+        "timeline": "2025",
+        "services": {
+          "0": "3D Character",
+          "1": "Anime CGI",
+          "2": "Client Showcase"
+        },
+        "tools": {
+          "0": "Blender",
+          "1": "Cinema 4D",
+          "2": "After Effects"
+        }
       }
     },
     "motion-graphics": {
@@ -680,6 +696,14 @@
       "tags": {
         "0": "Medical",
         "1": "Healthcare"
+      }
+    },
+    "3d-anime-character-p1": {
+      "title": "3D Anime Character Showcase to Client",
+      "description": "3D anime character showcase film presenting modeling, materials, and polished stylized performance for client review.",
+      "tags": {
+        "0": "Anime",
+        "1": "Character"
       }
     },
     "watch-animation-p1": {

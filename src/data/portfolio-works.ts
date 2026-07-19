@@ -510,6 +510,34 @@ const rawWorkCategories: WorkCategory[] = [
         },
         "3d-medical-animation",
       ),
+      client(
+        {
+          slug: "3d-anime-character",
+          name: "3D ANIME CHARACTER",
+          industry: "Character & Anime",
+          description:
+            "3D anime character modeling and client showcase films with stylized materials and polished presentation.",
+          projectCount: 1,
+          logo: PROJECT_PLACEHOLDER,
+          banner: PROJECT_PLACEHOLDER,
+          services: ["3D Character", "Anime CGI", "Client Showcase"],
+          timeline: "2025",
+          tools: ["Blender", "Cinema 4D", "After Effects"],
+          projects: [
+            {
+              title: "3D Anime Character Showcase to Client",
+              description:
+                "3D anime character showcase film presenting modeling, materials, and polished stylized performance for client review.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Anime", "Character"],
+              year: 2025,
+            },
+          ],
+        },
+        "3d-anime-character",
+      ),
     ],
   },
   {

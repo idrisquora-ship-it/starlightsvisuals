@@ -61,4 +61,5 @@ export const projectYoutubeIds = {
   "3d-medical-animation-p2": "https://youtu.be/yfGZMp-JKnY",
   "3d-bed-animation-p1": "https://youtu.be/3QJaP9td0Uo",
   "3d-bed-animation-p2": "https://vimeo.com/1210301766",
+  "3d-anime-character-p1": "https://youtube.com/shorts/br2ODn6Y6oo",
 } as const;
