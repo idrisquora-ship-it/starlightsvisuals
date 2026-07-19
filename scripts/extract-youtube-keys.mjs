@@ -4,7 +4,7 @@ const text = fs.readFileSync("src/data/portfolio-works.ts", "utf8");
 const mockSlugs = new Set([]);
 const entries = {};
 const clientRe =
-  /client\(\s*\{[\s\S]*?slug:\s*"([^"]+)"[\s\S]*?\},\s*"([^"]+)",\s*\{ skipPad: true \}/g;
+  /client\(\s*\{[\s\S]*?slug:\s*"([^"]+)"[\s\S]*?\},\s*"([^"]+)"(?:,\s*\{ skipPad: true \})?\s*\)/g;
 
 let match;
 while ((match = clientRe.exec(text)) !== null) {

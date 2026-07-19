@@ -1,10 +1,10 @@
-import type { WorkCategory } from "@/types/portfolio-works";
+import type { WorkCategory, WorkClient, WorkProject } from "@/types/portfolio-works";
 
 import { applyPortfolioYoutube } from "@/lib/apply-portfolio-youtube";
+import { PROJECT_PLACEHOLDER } from "@/data/portfolio-placeholder";
 
 import portfolio2d from "@/assets/portfolio-2d.jpg";
 import portfolioCharacter from "@/assets/portfolio-character.jpg";
-import portfolioCreature from "@/assets/portfolio-creature.jpg";
 import portfolioGame from "@/assets/portfolio-game.jpg";
 import portfolioMotion from "@/assets/portfolio-motion.jpg";
 import portfolioTrailer from "@/assets/portfolio-trailer.jpg";
@@ -17,6 +17,25 @@ export type WorkCategorySlug =
   | "vfx"
   | "branding";
 
+function projects(
+  items: Omit<WorkProject, "id">[],
+  prefix: string,
+): WorkProject[] {
+  return items.map((item, i) => ({ ...item, id: `${prefix}-p${i + 1}` }));
+}
+
+function client(
+  partial: Omit<WorkClient, "projects"> & { projects: Omit<WorkProject, "id">[] },
+  projectPrefix: string,
+): WorkClient {
+  const projectList = projects(partial.projects, projectPrefix);
+  return {
+    ...partial,
+    projectCount: projectList.length,
+    projects: projectList,
+  };
+}
+
 /** Portfolio categories — add clients here when YouTube samples are ready. */
 const rawWorkCategories: WorkCategory[] = [
   {
@@ -26,7 +45,56 @@ const rawWorkCategories: WorkCategory[] = [
     description:
       "Character driven 2D animation for commercials, explainers, and episodic content with bold motion and cinematic timing.",
     coverImage: portfolio2d,
-    clients: [],
+    clients: [
+      client(
+        {
+          slug: "chibi-art",
+          name: "CHIBI ART",
+          industry: "Character & Animation",
+          description:
+            "Chibi style 2D character animation with expressive scenes and behind the scenes making process films.",
+          projectCount: 3,
+          logo: PROJECT_PLACEHOLDER,
+          banner: PROJECT_PLACEHOLDER,
+          services: ["2D Animation", "Chibi Art", "Character Animation"],
+          timeline: "2025",
+          tools: ["After Effects", "Clip Studio Paint", "Photoshop"],
+          projects: [
+            {
+              title: "Chibi Art Scene 1",
+              description:
+                "Expressive chibi character scene with polished 2D animation and campaign ready motion.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Chibi", "Scene"],
+              year: 2025,
+            },
+            {
+              title: "Chibi Art Scene 2",
+              description:
+                "Second chibi character scene showcasing personality, timing, and colorful 2D performance.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Chibi", "Scene"],
+              year: 2025,
+            },
+            {
+              title: "Making Process Film",
+              description:
+                "Behind the scenes look at the chibi art creation and animation workflow from sketch to final motion.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Process", "Workflow"],
+              year: 2025,
+            },
+          ],
+        },
+        "chibi-art",
+      ),
+    ],
   },
   {
     slug: "3d-animation",

@@ -4,16 +4,68 @@
       "title": "2D Animation",
       "tagline": "Frame by frame craft for campaigns and series",
       "description": "Character driven 2D animation for commercials, explainers, and episodic content with bold motion and cinematic timing."
+    },
+    "3d-animation": {
+      "title": "3D Animation",
+      "tagline": "Stylized and photoreal 3D for film and brands",
+      "description": "High quality 3D character, product, and cinematic animation with feature level polish for campaigns and series."
     }
   },
   "showcase": {
     "2d-animation": {
       "tag": "2D Animation",
       "title": "2D Animation"
+    },
+    "3d-animation": {
+      "tag": "3D Animation",
+      "title": "3D Animation"
     }
   },
   "clients": {
-    "2d-animation": {}
+    "2d-animation": {
+      "chibi-art": {
+        "name": "CHIBI ART",
+        "industry": "Character & Animation",
+        "description": "Chibi style 2D character animation with expressive scenes and behind the scenes making process films.",
+        "timeline": "2025",
+        "services": {
+          "0": "2D Animation",
+          "1": "Chibi Art",
+          "2": "Character Animation"
+        },
+        "tools": {
+          "0": "After Effects",
+          "1": "Clip Studio Paint",
+          "2": "Photoshop"
+        }
+      }
+    },
+    "3d-animation": {}
   },
-  "projects": {}
+  "projects": {
+    "chibi-art-p1": {
+      "title": "Chibi Art Scene 1",
+      "description": "Expressive chibi character scene with polished 2D animation and campaign ready motion.",
+      "tags": {
+        "0": "Chibi",
+        "1": "Scene"
+      }
+    },
+    "chibi-art-p2": {
+      "title": "Chibi Art Scene 2",
+      "description": "Second chibi character scene showcasing personality, timing, and colorful 2D performance.",
+      "tags": {
+        "0": "Chibi",
+        "1": "Scene"
+      }
+    },
+    "chibi-art-p3": {
+      "title": "Making Process Film",
+      "description": "Behind the scenes look at the chibi art creation and animation workflow from sketch to final motion.",
+      "tags": {
+        "0": "Process",
+        "1": "Workflow"
+      }
+    }
+  }
 }

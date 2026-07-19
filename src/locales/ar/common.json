@@ -416,18 +416,70 @@
         "title": "رسوم متحركة ثنائية الأبعاد",
         "tagline": "حرفة إطارًا بإطار للحملات والمسلسلات",
         "description": "رسوم متحركة ثنائية الأبعاد تعتمد على الشخصيات للإعلانات التجارية والشروحات والمحتوى العرضي مع حركة جريئة وتوقيت سينمائي."
+      },
+      "3d-animation": {
+        "title": "رسوم متحركة ثلاثية الأبعاد",
+        "tagline": "Stylized and photoreal 3D for film and brands",
+        "description": "High quality 3D character, product, and cinematic animation with feature level polish for campaigns and series."
       }
     },
     "showcase": {
       "2d-animation": {
         "tag": "رسوم متحركة ثنائية الأبعاد",
         "title": "رسوم متحركة ثنائية الأبعاد"
+      },
+      "3d-animation": {
+        "tag": "رسوم متحركة ثلاثية الأبعاد",
+        "title": "رسوم متحركة ثلاثية الأبعاد"
       }
     },
     "clients": {
-      "2d-animation": {}
+      "2d-animation": {
+        "chibi-art": {
+          "name": "CHIBI ART",
+          "industry": "Character & Animation",
+          "description": "Chibi style 2D character animation with expressive scenes and behind the scenes making process films.",
+          "timeline": "2025",
+          "services": {
+            "0": "2D Animation",
+            "1": "Chibi Art",
+            "2": "Character Animation"
+          },
+          "tools": {
+            "0": "After Effects",
+            "1": "Clip Studio Paint",
+            "2": "Photoshop"
+          }
+        }
+      },
+      "3d-animation": {}
     },
-    "projects": {}
+    "projects": {
+      "chibi-art-p1": {
+        "title": "Chibi Art Scene 1",
+        "description": "Expressive chibi character scene with polished 2D animation and campaign ready motion.",
+        "tags": {
+          "0": "Chibi",
+          "1": "Scene"
+        }
+      },
+      "chibi-art-p2": {
+        "title": "Chibi Art Scene 2",
+        "description": "Second chibi character scene showcasing personality, timing, and colorful 2D performance.",
+        "tags": {
+          "0": "Chibi",
+          "1": "Scene"
+        }
+      },
+      "chibi-art-p3": {
+        "title": "Making Process Film",
+        "description": "Behind the scenes look at the chibi art creation and animation workflow from sketch to final motion.",
+        "tags": {
+          "0": "Process",
+          "1": "Workflow"
+        }
+      }
+    }
   },
   "accordionPage": {
     "metaTitle": "FAQ — Starlights Visuals",
