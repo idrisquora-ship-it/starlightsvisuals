@@ -719,7 +719,252 @@ const rawWorkCategories: WorkCategory[] = [
     description:
       "Brand films, identity motion, and launch assets that define how audiences remember your name.",
     coverImage: portfolioGame,
-    clients: [],
+    clients: [
+      client(
+        {
+          slug: "ronix",
+          name: "RONIX",
+          industry: "Power Tools & Manufacturing",
+          description:
+            "Ronix 3D industrial animation and power tool CGI product showcase films.",
+          projectCount: 1,
+          logo: PROJECT_PLACEHOLDER,
+          banner: PROJECT_PLACEHOLDER,
+          services: ["Industrial Animation", "Power Tool CGI", "Product Showcase"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Blender", "After Effects"],
+          projects: [
+            {
+              title: "Ronix 3D Industrial Animation | Power Tool CGI Product Showcase",
+              description:
+                "Cinematic Ronix power tool CGI showcase with technical detail and commercial polish.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Industrial", "Ronix"],
+              year: 2025,
+            },
+          ],
+        },
+        "ronix",
+      ),
+      client(
+        {
+          slug: "mintec",
+          name: "MINTEC",
+          industry: "Industrial Manufacturing",
+          description:
+            "MinTec industries product showcase and process films for 3D industrial animation.",
+          projectCount: 2,
+          logo: PROJECT_PLACEHOLDER,
+          banner: PROJECT_PLACEHOLDER,
+          services: ["Industrial Animation", "Product Showcase", "Process Film"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Blender", "After Effects"],
+          projects: [
+            {
+              title: "MinTec Industries Product Showcase",
+              description:
+                "MinTec industries product showcase with technical storytelling and polished CGI.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Industrial", "MinTec"],
+              year: 2025,
+            },
+            {
+              title: "Process of Making MinTec 3D Animation",
+              description:
+                "Behind the scenes look at the MinTec 3D industrial animation production workflow.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Process", "MinTec"],
+              year: 2025,
+            },
+          ],
+        },
+        "mintec",
+      ),
+      client(
+        {
+          slug: "integra-pw",
+          name: "INTEGRA PW",
+          industry: "Industrial Products",
+          description:
+            "Integra PW industrial animation from video making process through final cinematic results.",
+          projectCount: 2,
+          logo: PROJECT_PLACEHOLDER,
+          banner: PROJECT_PLACEHOLDER,
+          services: ["Industrial Animation", "Process Film", "Product CGI"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Blender", "After Effects"],
+          projects: [
+            {
+              title: "Integra PW Video Making Process",
+              description:
+                "Behind the scenes making process for the Integra PW industrial animation build.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Process", "Integra PW"],
+              year: 2025,
+            },
+            {
+              title: "Integra PW Final Results",
+              description:
+                "Final Integra PW industrial product animation with dynamic camera moves and commercial finish.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Industrial", "Integra PW"],
+              year: 2025,
+            },
+          ],
+        },
+        "integra-pw",
+      ),
+      client(
+        {
+          slug: "credex",
+          name: "CREDEX",
+          industry: "Cleaning Equipment",
+          description:
+            "CREDEX carpet cleaning machine industrial animation with cinematic SFX finish.",
+          projectCount: 1,
+          logo: PROJECT_PLACEHOLDER,
+          banner: PROJECT_PLACEHOLDER,
+          services: ["Industrial Animation", "Product CGI", "Sound Design"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Blender", "After Effects"],
+          projects: [
+            {
+              title: "Credex Vacuum Cleaner with SFX",
+              description:
+                "Final high definition CREDEX vacuum cleaner animation with sound design and commercial polish.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Industrial", "Credex"],
+              year: 2025,
+            },
+          ],
+        },
+        "credex",
+      ),
+      client(
+        {
+          slug: "phr-1",
+          name: "PHR 1",
+          industry: "Electric Powertrain",
+          description:
+            "PHR 1 electric power train product animation with technical lighting and cinematic polish.",
+          projectCount: 1,
+          logo: PROJECT_PLACEHOLDER,
+          banner: PROJECT_PLACEHOLDER,
+          services: ["Industrial Animation", "Powertrain CGI", "Product Film"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Blender", "After Effects"],
+          projects: [
+            {
+              title: "PHR 1 Electric Power Train",
+              description:
+                "Photoreal PHR 1 electric power train animation with cinematic camera work and technical detail.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Industrial", "PHR 1"],
+              year: 2025,
+            },
+          ],
+        },
+        "phr-1",
+      ),
+      client(
+        {
+          slug: "atx",
+          name: "ATX",
+          industry: "Industrial Manufacturing",
+          description:
+            "ATX 3D industrial and technical product animation for manufacturing showcases.",
+          projectCount: 1,
+          logo: PROJECT_PLACEHOLDER,
+          banner: PROJECT_PLACEHOLDER,
+          services: ["Industrial Animation", "Technical CGI", "Product Showcase"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Blender", "After Effects"],
+          projects: [
+            {
+              title: "ATX 3D Industrial Animation",
+              description:
+                "ATX 3D industrial product animation with technical lighting and campaign ready finish.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Industrial", "ATX"],
+              year: 2025,
+            },
+          ],
+        },
+        "atx",
+      ),
+      client(
+        {
+          slug: "prov-gap",
+          name: "PROV GAP",
+          industry: "Industrial Manufacturing",
+          description:
+            "Prov GAP 3D industrial animation for technical product storytelling and brand films.",
+          projectCount: 1,
+          logo: PROJECT_PLACEHOLDER,
+          banner: PROJECT_PLACEHOLDER,
+          services: ["Industrial Animation", "Product CGI", "Technical Film"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Blender", "After Effects"],
+          projects: [
+            {
+              title: "Prov GAP 3D Industrial Animation",
+              description:
+                "Prov GAP industrial product animation with mechanical detail and cinematic presentation.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Industrial", "Prov GAP"],
+              year: 2025,
+            },
+          ],
+        },
+        "prov-gap",
+      ),
+      client(
+        {
+          slug: "autoz-crave",
+          name: "AUTOZ CRAVE",
+          industry: "Automotive & Mechanical",
+          description:
+            "Autoz Crave industrial animation for mechanical and technical 3D product films.",
+          projectCount: 1,
+          logo: PROJECT_PLACEHOLDER,
+          banner: PROJECT_PLACEHOLDER,
+          services: ["Industrial Animation", "Mechanical CGI", "Technical Animation"],
+          timeline: "2025",
+          tools: ["Cinema 4D", "Blender", "After Effects"],
+          projects: [
+            {
+              title: "Autoz Crave Industrial Animation",
+              description:
+                "Autoz Crave 3D industrial product video with mechanical technical animation and commercial polish.",
+              thumbnail: PROJECT_PLACEHOLDER,
+              mediaType: "video",
+              mediaSrc: "",
+              tags: ["Industrial", "Autoz Crave"],
+              year: 2025,
+            },
+          ],
+        },
+        "autoz-crave",
+      ),
+    ],
   },
 ];
 

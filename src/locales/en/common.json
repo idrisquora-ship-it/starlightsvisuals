@@ -689,7 +689,136 @@
           }
         }
       },
-      "vfx": {}
+      "vfx": {
+        "ronix": {
+          "name": "RONIX",
+          "industry": "Power Tools & Manufacturing",
+          "description": "Ronix 3D industrial animation and power tool CGI product showcase films.",
+          "timeline": "2025",
+          "services": {
+            "0": "Industrial Animation",
+            "1": "Power Tool CGI",
+            "2": "Product Showcase"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Blender",
+            "2": "After Effects"
+          }
+        },
+        "mintec": {
+          "name": "MINTEC",
+          "industry": "Industrial Manufacturing",
+          "description": "MinTec industries product showcase and process films for 3D industrial animation.",
+          "timeline": "2025",
+          "services": {
+            "0": "Industrial Animation",
+            "1": "Product Showcase",
+            "2": "Process Film"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Blender",
+            "2": "After Effects"
+          }
+        },
+        "integra-pw": {
+          "name": "INTEGRA PW",
+          "industry": "Industrial Products",
+          "description": "Integra PW industrial animation from video making process through final cinematic results.",
+          "timeline": "2025",
+          "services": {
+            "0": "Industrial Animation",
+            "1": "Process Film",
+            "2": "Product CGI"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Blender",
+            "2": "After Effects"
+          }
+        },
+        "credex": {
+          "name": "CREDEX",
+          "industry": "Cleaning Equipment",
+          "description": "CREDEX carpet cleaning machine industrial animation with cinematic SFX finish.",
+          "timeline": "2025",
+          "services": {
+            "0": "Industrial Animation",
+            "1": "Product CGI",
+            "2": "Sound Design"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Blender",
+            "2": "After Effects"
+          }
+        },
+        "phr-1": {
+          "name": "PHR 1",
+          "industry": "Electric Powertrain",
+          "description": "PHR 1 electric power train product animation with technical lighting and cinematic polish.",
+          "timeline": "2025",
+          "services": {
+            "0": "Industrial Animation",
+            "1": "Powertrain CGI",
+            "2": "Product Film"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Blender",
+            "2": "After Effects"
+          }
+        },
+        "atx": {
+          "name": "ATX",
+          "industry": "Industrial Manufacturing",
+          "description": "ATX 3D industrial and technical product animation for manufacturing showcases.",
+          "timeline": "2025",
+          "services": {
+            "0": "Industrial Animation",
+            "1": "Technical CGI",
+            "2": "Product Showcase"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Blender",
+            "2": "After Effects"
+          }
+        },
+        "prov-gap": {
+          "name": "PROV GAP",
+          "industry": "Industrial Manufacturing",
+          "description": "Prov GAP 3D industrial animation for technical product storytelling and brand films.",
+          "timeline": "2025",
+          "services": {
+            "0": "Industrial Animation",
+            "1": "Product CGI",
+            "2": "Technical Film"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Blender",
+            "2": "After Effects"
+          }
+        },
+        "autoz-crave": {
+          "name": "AUTOZ CRAVE",
+          "industry": "Automotive & Mechanical",
+          "description": "Autoz Crave industrial animation for mechanical and technical 3D product films.",
+          "timeline": "2025",
+          "services": {
+            "0": "Industrial Animation",
+            "1": "Mechanical CGI",
+            "2": "Technical Animation"
+          },
+          "tools": {
+            "0": "Cinema 4D",
+            "1": "Blender",
+            "2": "After Effects"
+          }
+        }
+      }
     },
     "projects": {
       "chibi-art-p1": {
@@ -1018,6 +1147,86 @@
         "tags": {
           "0": "Vape",
           "1": "Cranberry"
+        }
+      },
+      "ronix-p1": {
+        "title": "Ronix 3D Industrial Animation | Power Tool CGI Product Showcase",
+        "description": "Cinematic Ronix power tool CGI showcase with technical detail and commercial polish.",
+        "tags": {
+          "0": "Industrial",
+          "1": "Ronix"
+        }
+      },
+      "mintec-p1": {
+        "title": "MinTec Industries Product Showcase",
+        "description": "MinTec industries product showcase with technical storytelling and polished CGI.",
+        "tags": {
+          "0": "Industrial",
+          "1": "MinTec"
+        }
+      },
+      "mintec-p2": {
+        "title": "Process of Making MinTec 3D Animation",
+        "description": "Behind the scenes look at the MinTec 3D industrial animation production workflow.",
+        "tags": {
+          "0": "Process",
+          "1": "MinTec"
+        }
+      },
+      "integra-pw-p1": {
+        "title": "Integra PW Video Making Process",
+        "description": "Behind the scenes making process for the Integra PW industrial animation build.",
+        "tags": {
+          "0": "Process",
+          "1": "Integra PW"
+        }
+      },
+      "integra-pw-p2": {
+        "title": "Integra PW Final Results",
+        "description": "Final Integra PW industrial product animation with dynamic camera moves and commercial finish.",
+        "tags": {
+          "0": "Industrial",
+          "1": "Integra PW"
+        }
+      },
+      "credex-p1": {
+        "title": "Credex Vacuum Cleaner with SFX",
+        "description": "Final high definition CREDEX vacuum cleaner animation with sound design and commercial polish.",
+        "tags": {
+          "0": "Industrial",
+          "1": "Credex"
+        }
+      },
+      "phr-1-p1": {
+        "title": "PHR 1 Electric Power Train",
+        "description": "Photoreal PHR 1 electric power train animation with cinematic camera work and technical detail.",
+        "tags": {
+          "0": "Industrial",
+          "1": "PHR 1"
+        }
+      },
+      "atx-p1": {
+        "title": "ATX 3D Industrial Animation",
+        "description": "ATX 3D industrial product animation with technical lighting and campaign ready finish.",
+        "tags": {
+          "0": "Industrial",
+          "1": "ATX"
+        }
+      },
+      "prov-gap-p1": {
+        "title": "Prov GAP 3D Industrial Animation",
+        "description": "Prov GAP industrial product animation with mechanical detail and cinematic presentation.",
+        "tags": {
+          "0": "Industrial",
+          "1": "Prov GAP"
+        }
+      },
+      "autoz-crave-p1": {
+        "title": "Autoz Crave Industrial Animation",
+        "description": "Autoz Crave 3D industrial product video with mechanical technical animation and commercial polish.",
+        "tags": {
+          "0": "Industrial",
+          "1": "Autoz Crave"
         }
       }
     }
